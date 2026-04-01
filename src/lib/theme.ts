@@ -1,4 +1,4 @@
-// Chicago sunset/sunrise calculator using solar position algorithm
+// Chicago sunset/sunrise calculator using NOAA solar equations
 // Coordinates: 41.8781°N, 87.6298°W
 
 const CHICAGO_LAT = 41.8781;
@@ -13,93 +13,74 @@ function toDegrees(rad: number) {
 }
 
 function getSunTimes(date: Date): { sunrise: Date; sunset: Date } {
+  // Julian day calculation
   const year = date.getFullYear();
   const month = date.getMonth() + 1;
   const day = date.getDate();
 
   // Day of year
-  const n1 = Math.floor(275 * month / 9);
-  const n2 = Math.floor((month + 9) / 12);
-  const n3 = 1 + Math.floor((year - 4 * Math.floor(year / 4) + 2) / 3);
-  const dayOfYear = n1 - n2 * n3 + day - 30;
+  const isLeap = (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+  const daysInMonth = [0, 31, isLeap ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+  let dayOfYear = day;
+  for (let i = 1; i < month; i++) dayOfYear += daysInMonth[i];
 
-  // Convert longitude to hour value
-  const lngHour = CHICAGO_LNG / 15;
+  // NOAA solar equations
+  // Fractional year (gamma) in radians
+  const gamma = (2 * Math.PI / (isLeap ? 366 : 365)) * (dayOfYear - 1);
 
-  // Sunrise and sunset approximate times
-  const tRise = dayOfYear + (6 - lngHour) / 24;
-  const tSet = dayOfYear + (18 - lngHour) / 24;
+  // Equation of time (minutes)
+  const eqTime =
+    229.18 *
+    (0.000075 +
+      0.001868 * Math.cos(gamma) -
+      0.032077 * Math.sin(gamma) -
+      0.014615 * Math.cos(2 * gamma) -
+      0.04089 * Math.sin(2 * gamma));
 
-  function calcSunTime(t: number): number {
-    // Sun's mean anomaly
-    const M = 0.9856 * t - 3.289;
+  // Solar declination (radians)
+  const decl =
+    0.006918 -
+    0.399912 * Math.cos(gamma) +
+    0.070257 * Math.sin(gamma) -
+    0.006758 * Math.cos(2 * gamma) +
+    0.000907 * Math.sin(2 * gamma) -
+    0.002697 * Math.cos(3 * gamma) +
+    0.00148 * Math.sin(3 * gamma);
 
-    // Sun's true longitude
-    let L =
-      M +
-      1.916 * Math.sin(toRadians(M)) +
-      0.02 * Math.sin(toRadians(2 * M)) +
-      282.634;
-    L = ((L % 360) + 360) % 360;
+  // Hour angle for sunrise/sunset (zenith = 90.833 degrees)
+  const zenith = toRadians(90.833);
+  const latRad = toRadians(CHICAGO_LAT);
 
-    // Sun's right ascension
-    let RA = toDegrees(Math.atan(0.91764 * Math.tan(toRadians(L))));
-    RA = ((RA % 360) + 360) % 360;
+  const cosHA =
+    (Math.cos(zenith) / (Math.cos(latRad) * Math.cos(decl))) -
+    Math.tan(latRad) * Math.tan(decl);
 
-    // Adjust RA to same quadrant as L
-    const lQuadrant = Math.floor(L / 90) * 90;
-    const raQuadrant = Math.floor(RA / 90) * 90;
-    RA += lQuadrant - raQuadrant;
-    RA /= 15;
+  // Clamp to [-1, 1] for polar edge cases
+  const clampedCosHA = Math.max(-1, Math.min(1, cosHA));
+  const ha = toDegrees(Math.acos(clampedCosHA)); // in degrees
 
-    // Sun's declination
-    const sinDec = 0.39782 * Math.sin(toRadians(L));
-    const cosDec = Math.cos(Math.asin(sinDec));
+  // Sunrise and sunset in minutes from midnight UTC
+  const sunriseUTCMin = 720 - 4 * (CHICAGO_LNG + ha) - eqTime;
+  const sunsetUTCMin = 720 - 4 * (CHICAGO_LNG - ha) - eqTime;
 
-    // Sun's local hour angle (zenith = 90.833 for official sunrise/sunset)
-    const cosH =
-      (Math.cos(toRadians(90.833)) - sinDec * Math.sin(toRadians(CHICAGO_LAT))) /
-      (cosDec * Math.cos(toRadians(CHICAGO_LAT)));
-
-    return { cosH, RA, lngHour, t } as unknown as number;
-  }
-
-  // Calculate sunrise
-  const riseCalc = calcSunTime(tRise) as unknown as {
-    cosH: number;
-    RA: number;
-    lngHour: number;
-    t: number;
-  };
-  const hRise = 360 - toDegrees(Math.acos(riseCalc.cosH));
-  const hRiseHours = hRise / 15;
-  let utRise = hRiseHours + riseCalc.RA - 0.06571 * riseCalc.t - 6.622;
-  utRise = ((utRise % 24) + 24) % 24;
-
-  // Calculate sunset
-  const setCalc = calcSunTime(tSet) as unknown as {
-    cosH: number;
-    RA: number;
-    lngHour: number;
-    t: number;
-  };
-  const hSet = toDegrees(Math.acos(setCalc.cosH));
-  const hSetHours = hSet / 15;
-  let utSet = hSetHours + setCalc.RA - 0.06571 * setCalc.t - 6.622;
-  utSet = ((utSet % 24) + 24) % 24;
-
-  // Convert to Chicago time (UTC-6 standard, UTC-5 daylight)
+  // Convert to Chicago local time
   const isDST = isChicagoDST(date);
-  const offset = isDST ? -5 : -6;
+  const offsetMinutes = isDST ? -300 : -360; // CDT = -5h, CST = -6h
 
-  const sunriseChicago = ((utRise + offset) % 24 + 24) % 24;
-  const sunsetChicago = ((utSet + offset) % 24 + 24) % 24;
+  const sunriseLocalMin = sunriseUTCMin + offsetMinutes;
+  const sunsetLocalMin = sunsetUTCMin + offsetMinutes;
+
+  // Normalize to 0-1440 range
+  const normSunrise = ((sunriseLocalMin % 1440) + 1440) % 1440;
+  const normSunset = ((sunsetLocalMin % 1440) + 1440) % 1440;
 
   const sunrise = new Date(date);
-  sunrise.setHours(Math.floor(sunriseChicago), Math.round((sunriseChicago % 1) * 60), 0, 0);
+  sunrise.setHours(0, 0, 0, 0);
+  sunrise.setMinutes(Math.round(normSunrise));
 
   const sunset = new Date(date);
-  sunset.setHours(Math.floor(sunsetChicago), Math.round((sunsetChicago % 1) * 60), 0, 0);
+  sunset.setHours(0, 0, 0, 0);
+  sunset.setMinutes(Math.round(normSunset));
 
   return { sunrise, sunset };
 }
@@ -119,7 +100,9 @@ function isChicagoDST(date: Date): boolean {
 export function getThemeForNow(): "light" | "dark" {
   // Get current time in Chicago
   const now = new Date();
-  const chicagoStr = now.toLocaleString("en-US", { timeZone: "America/Chicago" });
+  const chicagoStr = now.toLocaleString("en-US", {
+    timeZone: "America/Chicago",
+  });
   const chicagoNow = new Date(chicagoStr);
 
   const { sunrise, sunset } = getSunTimes(chicagoNow);
