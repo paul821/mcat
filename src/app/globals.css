@@ -75,9 +75,21 @@ body {
   box-shadow: 0 0 0 2px var(--accent), 0 0 12px var(--accent-glow);
 }
 
-/* Smooth transitions */
-* {
-  transition-property: background-color, border-color, color, box-shadow;
+/* Smooth transitions - scoped to interactive elements only */
+button,
+a,
+input,
+[role="button"] {
+  transition-property: background-color, border-color, color, box-shadow, transform;
   transition-duration: 150ms;
   transition-timing-function: ease;
+}
+
+/* KaTeX inline math alignment */
+.katex {
+  font-size: 1em !important;
+}
+
+.katex .base {
+  display: inline;
 }

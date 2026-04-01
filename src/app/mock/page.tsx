@@ -12,8 +12,9 @@ import {
 import { calculateMockScore, MockScore } from "@/lib/scoring";
 import { recordMockResult } from "@/lib/storage";
 import BackButton from "@/components/BackButton";
+import MathText, { MathBlock } from "@/components/MathText";
 
-type Step = "sections" | "config" | "testing" | "results";
+type Step = "sections" | "testing" | "results";
 
 interface MockQuestion {
   passage: string;
@@ -40,8 +41,12 @@ export default function MockPage() {
   const [currentQuestionIdx, setCurrentQuestionIdx] = useState(0);
   const [timeRemaining, setTimeRemaining] = useState(0);
   const [score, setScore] = useState<MockScore | null>(null);
-  const [reviewQuestionIdx, setReviewQuestionIdx] = useState<number | null>(null);
-  const [reviewSectionIdx, setReviewSectionIdx] = useState<number | null>(null);
+  const [reviewQuestionIdx, setReviewQuestionIdx] = useState<number | null>(
+    null
+  );
+  const [reviewSectionIdx, setReviewSectionIdx] = useState<number | null>(
+    null
+  );
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   const toggleSection = (id: string) => {
@@ -52,6 +57,45 @@ export default function MockPage() {
 
   const currentBlock = sectionBlocks[currentSectionIdx];
   const currentQuestion = currentBlock?.questions[currentQuestionIdx];
+
+  const handleEndSection = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+
+    if (currentSectionIdx < sectionBlocks.length - 1) {
+      const nextIdx = currentSectionIdx + 1;
+      setCurrentSectionIdx(nextIdx);
+      setCurrentQuestionIdx(0);
+      setTimeRemaining(sectionBlocks[nextIdx].timeMinutes * 60);
+    } else {
+      const results = sectionBlocks.map((block) => ({
+        sectionId: block.section.id,
+        sectionName: block.section.shortName,
+        answers: block.questions.map((q, i) => ({
+          questionId: q.question.id,
+          selected: block.answers[i] ?? -1,
+          correct: q.question.correct,
+        })),
+      }));
+
+      const mockScore = calculateMockScore(results);
+      setScore(mockScore);
+
+      recordMockResult({
+        date: new Date().toISOString(),
+        totalScore: mockScore.totalScaled,
+        percentile: mockScore.percentile,
+        sections: mockScore.sections.map((s) => ({
+          sectionId: s.sectionId,
+          sectionName: s.sectionName,
+          correct: s.correct,
+          total: s.total,
+          scaledScore: s.scaledScore,
+        })),
+      });
+
+      setStep("results");
+    }
+  }, [currentSectionIdx, sectionBlocks]);
 
   const startMock = useCallback(async () => {
     const blocks: SectionBlock[] = [];
@@ -97,7 +141,6 @@ export default function MockPage() {
     timerRef.current = setInterval(() => {
       setTimeRemaining((prev) => {
         if (prev <= 1) {
-          // Auto-advance to next section or finish
           handleEndSection();
           return 0;
         }
@@ -108,48 +151,7 @@ export default function MockPage() {
     return () => {
       if (timerRef.current) clearInterval(timerRef.current);
     };
-  }, [step, currentSectionIdx]);
-
-  const handleEndSection = useCallback(() => {
-    if (timerRef.current) clearInterval(timerRef.current);
-
-    if (currentSectionIdx < sectionBlocks.length - 1) {
-      const nextIdx = currentSectionIdx + 1;
-      setCurrentSectionIdx(nextIdx);
-      setCurrentQuestionIdx(0);
-      setTimeRemaining(sectionBlocks[nextIdx].timeMinutes * 60);
-    } else {
-      // Calculate scores
-      const results = sectionBlocks.map((block) => ({
-        sectionId: block.section.id,
-        sectionName: block.section.shortName,
-        answers: block.questions.map((q, i) => ({
-          questionId: q.question.id,
-          selected: block.answers[i] ?? -1,
-          correct: q.question.correct,
-        })),
-      }));
-
-      const mockScore = calculateMockScore(results);
-      setScore(mockScore);
-
-      // Save to localStorage
-      recordMockResult({
-        date: new Date().toISOString(),
-        totalScore: mockScore.totalScaled,
-        percentile: mockScore.percentile,
-        sections: mockScore.sections.map((s) => ({
-          sectionId: s.sectionId,
-          sectionName: s.sectionName,
-          correct: s.correct,
-          total: s.total,
-          scaledScore: s.scaledScore,
-        })),
-      });
-
-      setStep("results");
-    }
-  }, [currentSectionIdx, sectionBlocks]);
+  }, [step, currentSectionIdx, handleEndSection]);
 
   const selectAnswer = (idx: number) => {
     setSectionBlocks((prev) => {
@@ -192,10 +194,6 @@ export default function MockPage() {
         setStep("sections");
         setSectionBlocks([]);
       }
-    } else if (step === "config") {
-      setStep("sections");
-    } else if (step === "results") {
-      router.push("/");
     } else {
       router.push("/");
     }
@@ -213,8 +211,6 @@ export default function MockPage() {
 
   return (
     <main className="flex-1 flex flex-col min-h-screen">
-      <BackButton onClick={handleBack} />
-
       <AnimatePresence mode="wait">
         {/* STEP 1: Section Selection */}
         {step === "sections" && (
@@ -223,80 +219,100 @@ export default function MockPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="flex-1 flex flex-col items-center justify-center px-6 py-20"
+            className="flex-1 flex flex-col"
           >
-            <h2 className="text-2xl font-bold mb-2">Mock Exam</h2>
-            <p className="text-muted text-sm mb-10">
-              Select sections to include
-            </p>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-lg mb-8">
-              {sections.map((section) => (
-                <button
-                  key={section.id}
-                  onClick={() => toggleSection(section.id)}
-                  className={`relative rounded-2xl border p-5 text-left transition-all ${
-                    selectedSections.includes(section.id)
-                      ? "border-transparent"
-                      : "border-card-border bg-card hover:border-muted"
-                  }`}
-                  style={
-                    selectedSections.includes(section.id)
-                      ? {
-                          boxShadow: `0 0 0 2px ${section.color}, 0 0 16px ${section.color}40`,
-                        }
-                      : undefined
-                  }
-                >
-                  <div
-                    className="text-xs font-mono mb-1"
-                    style={{ color: section.color }}
-                  >
-                    {section.shortName}
-                  </div>
-                  <div className="text-sm font-medium leading-tight">
-                    {section.name}
-                  </div>
-                  <div className="text-muted text-xs mt-2">
-                    {section.questionCount} questions &middot;{" "}
-                    {section.timeMinutes} min
-                  </div>
-                </button>
-              ))}
+            {/* Top nav */}
+            <div className="px-6 py-4">
+              <BackButton onClick={handleBack} label="Home" />
             </div>
 
-            {selectedSections.length > 0 && (
-              <motion.div
-                initial={{ opacity: 0, y: 10 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="flex flex-col items-center gap-4"
-              >
-                <label className="flex items-center gap-3 text-sm cursor-pointer">
-                  <div
-                    className={`w-10 h-5 rounded-full relative transition-colors ${
-                      condensed ? "bg-accent" : "bg-card-border"
-                    }`}
-                    onClick={() => setCondensed(!condensed)}
-                  >
-                    <div
-                      className={`absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform ${
-                        condensed ? "translate-x-5" : "translate-x-0.5"
-                      }`}
-                    />
-                  </div>
-                  <span className="text-muted">
-                    Condensed (1/3 time & questions)
-                  </span>
-                </label>
+            <div className="flex-1 flex flex-col items-center justify-center px-6 pb-20">
+              <h2 className="text-2xl font-bold mb-2">Mock Exam</h2>
+              <p className="text-muted text-sm mb-10">
+                Select sections to include
+              </p>
 
-                <button
-                  onClick={startMock}
-                  className="bg-foreground text-background px-8 py-3 rounded-full text-sm font-semibold hover:opacity-90"
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-lg mb-8">
+                {sections.map((section) => {
+                  const isSelected = selectedSections.includes(section.id);
+                  return (
+                    <button
+                      key={section.id}
+                      onClick={() => toggleSection(section.id)}
+                      className={`relative rounded-2xl border p-5 text-left cursor-pointer ${
+                        isSelected
+                          ? "border-transparent bg-card"
+                          : "border-card-border bg-card hover:border-muted"
+                      }`}
+                      style={
+                        isSelected
+                          ? {
+                              boxShadow: `0 0 0 2px ${section.color}, 0 0 16px ${section.color}40`,
+                            }
+                          : { boxShadow: "none" }
+                      }
+                    >
+                      <div
+                        className="text-xs font-mono mb-1"
+                        style={{ color: section.color }}
+                      >
+                        {section.shortName}
+                      </div>
+                      <div className="text-sm font-medium leading-tight">
+                        {section.name}
+                      </div>
+                      <div className="text-muted text-xs mt-2">
+                        {section.questionCount} questions &middot;{" "}
+                        {section.timeMinutes} min
+                      </div>
+                      {isSelected && (
+                        <div
+                          className="absolute top-3 right-3 w-5 h-5 rounded-full flex items-center justify-center"
+                          style={{ backgroundColor: section.color }}
+                        >
+                          <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M2.5 6L5 8.5L9.5 4" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                          </svg>
+                        </div>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+
+              {selectedSections.length > 0 && (
+                <motion.div
+                  initial={{ opacity: 0, y: 10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="flex flex-col items-center gap-4"
                 >
-                  Begin Exam
-                </button>
-              </motion.div>
-            )}
+                  <label className="flex items-center gap-3 text-sm cursor-pointer">
+                    <div
+                      className={`w-10 h-5 rounded-full relative transition-colors ${
+                        condensed ? "bg-accent" : "bg-card-border"
+                      }`}
+                      onClick={() => setCondensed(!condensed)}
+                    >
+                      <div
+                        className={`absolute top-0.5 w-4 h-4 rounded-full bg-white shadow transition-transform ${
+                          condensed ? "translate-x-5" : "translate-x-0.5"
+                        }`}
+                      />
+                    </div>
+                    <span className="text-muted">
+                      Condensed (1/3 time & questions)
+                    </span>
+                  </label>
+
+                  <button
+                    onClick={startMock}
+                    className="bg-foreground text-background px-8 py-3 rounded-full text-sm font-semibold hover:opacity-90"
+                  >
+                    Begin Exam
+                  </button>
+                </motion.div>
+              )}
+            </div>
           </motion.div>
         )}
 
@@ -309,9 +325,11 @@ export default function MockPage() {
             exit={{ opacity: 0 }}
             className="flex-1 flex flex-col"
           >
-            {/* Timer Bar */}
+            {/* Timer Bar with integrated back/exit */}
             <div className="border-b border-card-border px-4 py-2 flex items-center justify-between bg-card sticky top-0 z-20">
               <div className="flex items-center gap-4">
+                <BackButton onClick={handleBack} label="Exit" />
+                <span className="text-card-border">|</span>
                 <span
                   className="text-xs font-mono px-2 py-1 rounded"
                   style={{
@@ -321,7 +339,7 @@ export default function MockPage() {
                 >
                   {currentBlock.section.shortName}
                 </span>
-                <span className="text-xs text-muted">
+                <span className="text-xs text-muted hidden sm:inline">
                   Section {currentSectionIdx + 1} of {sectionBlocks.length}
                 </span>
               </div>
@@ -362,7 +380,11 @@ export default function MockPage() {
                         : currentBlock.answers[idx] !== null
                         ? "bg-surface text-foreground"
                         : "text-muted hover:bg-surface"
-                    } ${currentBlock.flagged[idx] ? "ring-1 ring-yellow-500" : ""}`}
+                    } ${
+                      currentBlock.flagged[idx]
+                        ? "ring-1 ring-yellow-500"
+                        : ""
+                    }`}
                   >
                     {idx + 1}
                   </button>
@@ -376,9 +398,10 @@ export default function MockPage() {
                   <div className="text-xs text-muted uppercase tracking-wider mb-3">
                     Passage
                   </div>
-                  <div className="passage-text text-sm leading-relaxed whitespace-pre-line">
-                    {currentQuestion.passage}
-                  </div>
+                  <MathBlock
+                    text={currentQuestion.passage}
+                    className="passage-text text-sm leading-relaxed whitespace-pre-line"
+                  />
                 </div>
 
                 {/* Question */}
@@ -402,7 +425,7 @@ export default function MockPage() {
                   </div>
 
                   <div className="text-sm font-medium mb-6 leading-relaxed">
-                    {currentQuestion.question.stem}
+                    <MathText text={currentQuestion.question.stem} />
                   </div>
 
                   <div className="space-y-3 mb-6">
@@ -416,7 +439,7 @@ export default function MockPage() {
                             : "border-card-border bg-card"
                         }`}
                       >
-                        {option}
+                        <MathText text={option} />
                       </button>
                     ))}
                   </div>
@@ -424,7 +447,9 @@ export default function MockPage() {
                   <div className="flex gap-3">
                     <button
                       onClick={() =>
-                        setCurrentQuestionIdx(Math.max(0, currentQuestionIdx - 1))
+                        setCurrentQuestionIdx(
+                          Math.max(0, currentQuestionIdx - 1)
+                        )
                       }
                       disabled={currentQuestionIdx === 0}
                       className="flex-1 border border-card-border py-3 rounded-xl text-sm font-medium disabled:opacity-30 hover:bg-surface"
@@ -462,7 +487,7 @@ export default function MockPage() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="flex-1 flex flex-col items-center px-6 py-20"
+            className="flex-1 flex flex-col items-center px-6 py-12"
           >
             <h2 className="text-2xl font-bold mb-2">Your Score</h2>
             <p className="text-muted text-sm mb-10">Mock exam results</p>
@@ -565,30 +590,15 @@ export default function MockPage() {
             exit={{ opacity: 0 }}
             className="flex-1 flex flex-col"
           >
-            <div className="border-b border-card-border px-6 py-3 flex items-center justify-between">
-              <button
+            {/* Top bar with back to results */}
+            <div className="border-b border-card-border px-6 py-3 flex items-center justify-between bg-card sticky top-0 z-20">
+              <BackButton
                 onClick={() => {
                   setReviewQuestionIdx(null);
                   setReviewSectionIdx(null);
                 }}
-                className="text-sm text-muted hover:text-foreground flex items-center gap-2"
-              >
-                <svg
-                  width="16"
-                  height="16"
-                  viewBox="0 0 16 16"
-                  fill="none"
-                >
-                  <path
-                    d="M10 12L6 8L10 4"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-                Back to Results
-              </button>
+                label="Results"
+              />
               <span className="text-xs text-muted">
                 Question {reviewQuestionIdx! + 1}
               </span>
@@ -599,14 +609,15 @@ export default function MockPage() {
                 <div className="text-xs text-muted uppercase tracking-wider mb-3">
                   Passage
                 </div>
-                <div className="passage-text text-sm leading-relaxed whitespace-pre-line">
-                  {reviewQuestion.passage}
-                </div>
+                <MathBlock
+                  text={reviewQuestion.passage}
+                  className="passage-text text-sm leading-relaxed whitespace-pre-line"
+                />
               </div>
 
               <div className="lg:w-1/2 p-6 overflow-y-auto">
                 <div className="text-sm font-medium mb-6 leading-relaxed">
-                  {reviewQuestion.question.stem}
+                  <MathText text={reviewQuestion.question.stem} />
                 </div>
 
                 <div className="space-y-3 mb-6">
@@ -630,7 +641,7 @@ export default function MockPage() {
                         key={idx}
                         className={`rounded-xl border ${borderClass} ${bgClass} p-4 text-sm`}
                       >
-                        {option}
+                        <MathText text={option} />
                         {idx === reviewQuestion.question.correct && (
                           <span className="ml-2 text-success text-xs">
                             (Correct)
@@ -650,7 +661,7 @@ export default function MockPage() {
                 <div className="rounded-xl border border-card-border bg-surface p-4 text-sm">
                   <div className="font-semibold mb-2">Explanation</div>
                   <div className="text-muted leading-relaxed">
-                    {reviewQuestion.question.explanation}
+                    <MathText text={reviewQuestion.question.explanation} />
                   </div>
                 </div>
               </div>

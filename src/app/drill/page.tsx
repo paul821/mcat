@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useCallback } from "react";
 import { motion, AnimatePresence, LayoutGroup } from "framer-motion";
 import { useRouter } from "next/navigation";
 import { sections, Section } from "@/data/sections";
@@ -11,6 +11,7 @@ import {
 } from "@/lib/questions";
 import { recordDrillAnswer } from "@/lib/storage";
 import BackButton from "@/components/BackButton";
+import MathText, { MathBlock } from "@/components/MathText";
 
 type Step = "sections" | "topics" | "drilling";
 
@@ -92,7 +93,6 @@ export default function DrillPage() {
 
   const nextQuestion = () => {
     if (currentIndex + 1 >= questionPool.length) {
-      // Reshuffle and restart
       setQuestionPool(shuffleArray(questionPool));
       setCurrentIndex(0);
     } else {
@@ -120,8 +120,6 @@ export default function DrillPage() {
 
   return (
     <main className="flex-1 flex flex-col min-h-screen">
-      <BackButton onClick={handleBack} />
-
       <LayoutGroup>
         <AnimatePresence mode="wait">
           {/* STEP 1: Section Selection */}
@@ -131,58 +129,79 @@ export default function DrillPage() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="flex-1 flex flex-col items-center justify-center px-6 py-20"
+              className="flex-1 flex flex-col"
             >
-              <h2 className="text-2xl font-bold mb-2">Select Sections</h2>
-              <p className="text-muted text-sm mb-10">
-                Choose which sections to practice
-              </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-lg mb-10">
-                {sections.map((section) => (
-                  <motion.button
-                    key={section.id}
-                    layoutId={`section-${section.id}`}
-                    onClick={() => toggleSection(section.id)}
-                    className={`relative rounded-2xl border p-5 text-left transition-all ${
-                      selectedSections.includes(section.id)
-                        ? "glow-border border-transparent"
-                        : "border-card-border bg-card hover:border-muted"
-                    }`}
-                    style={
-                      selectedSections.includes(section.id)
-                        ? {
-                            boxShadow: `0 0 0 2px ${section.color}, 0 0 16px ${section.color}40`,
-                          }
-                        : undefined
-                    }
-                  >
-                    <div
-                      className="text-xs font-mono mb-1"
-                      style={{ color: section.color }}
-                    >
-                      {section.shortName}
-                    </div>
-                    <div className="text-sm font-medium leading-tight">
-                      {section.name}
-                    </div>
-                    <div className="text-muted text-xs mt-2">
-                      {section.subtopics.length} topics
-                    </div>
-                  </motion.button>
-                ))}
+              {/* Top nav */}
+              <div className="px-6 py-4">
+                <BackButton onClick={handleBack} label="Home" />
               </div>
 
-              {selectedSections.length > 0 && (
-                <motion.button
-                  initial={{ opacity: 0, y: 10 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  onClick={proceedToTopics}
-                  className="bg-foreground text-background px-8 py-3 rounded-full text-sm font-semibold hover:opacity-90"
-                >
-                  Select Topics
-                </motion.button>
-              )}
+              <div className="flex-1 flex flex-col items-center justify-center px-6 pb-20">
+                <h2 className="text-2xl font-bold mb-2">Select Sections</h2>
+                <p className="text-muted text-sm mb-10">
+                  Choose which sections to practice
+                </p>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full max-w-lg mb-10">
+                  {sections.map((section) => {
+                    const isSelected = selectedSections.includes(section.id);
+                    return (
+                      <motion.button
+                        key={section.id}
+                        layoutId={`section-${section.id}`}
+                        onClick={() => toggleSection(section.id)}
+                        whileTap={{ scale: 0.97 }}
+                        className={`relative rounded-2xl border p-5 text-left cursor-pointer ${
+                          isSelected
+                            ? "border-transparent bg-card"
+                            : "border-card-border bg-card hover:border-muted"
+                        }`}
+                        style={
+                          isSelected
+                            ? {
+                                boxShadow: `0 0 0 2px ${section.color}, 0 0 16px ${section.color}40`,
+                              }
+                            : { boxShadow: "none" }
+                        }
+                      >
+                        <div
+                          className="text-xs font-mono mb-1"
+                          style={{ color: section.color }}
+                        >
+                          {section.shortName}
+                        </div>
+                        <div className="text-sm font-medium leading-tight">
+                          {section.name}
+                        </div>
+                        <div className="text-muted text-xs mt-2">
+                          {section.subtopics.length} topics
+                        </div>
+                        {isSelected && (
+                          <div
+                            className="absolute top-3 right-3 w-5 h-5 rounded-full flex items-center justify-center"
+                            style={{ backgroundColor: section.color }}
+                          >
+                            <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
+                              <path d="M2.5 6L5 8.5L9.5 4" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                            </svg>
+                          </div>
+                        )}
+                      </motion.button>
+                    );
+                  })}
+                </div>
+
+                {selectedSections.length > 0 && (
+                  <motion.button
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    onClick={proceedToTopics}
+                    className="bg-foreground text-background px-8 py-3 rounded-full text-sm font-semibold hover:opacity-90"
+                  >
+                    Select Topics
+                  </motion.button>
+                )}
+              </div>
             </motion.div>
           )}
 
@@ -193,9 +212,19 @@ export default function DrillPage() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="flex-1 flex flex-col px-6 py-20 max-w-3xl mx-auto w-full"
+              className="flex-1 flex flex-col"
             >
-              <div className="pt-8">
+              {/* Top nav */}
+              <div className="px-6 py-4">
+                <BackButton onClick={handleBack} label="Sections" />
+              </div>
+
+              <div className="flex-1 px-6 pb-24 max-w-3xl mx-auto w-full">
+                <h2 className="text-xl font-bold mb-1">Select Topics</h2>
+                <p className="text-muted text-sm mb-8">
+                  Pick subtopics to drill
+                </p>
+
                 {selectedSections.map((sectionId) => {
                   const section = sections.find(
                     (s) => s.id === sectionId
@@ -271,10 +300,14 @@ export default function DrillPage() {
               exit={{ opacity: 0 }}
               className="flex-1 flex flex-col"
             >
-              {/* Top bar */}
-              <div className="border-b border-card-border px-6 py-3 flex items-center justify-between">
-                <div className="text-xs text-muted">
-                  Question {stats.answered + 1}
+              {/* Top bar with integrated back button */}
+              <div className="border-b border-card-border px-6 py-3 flex items-center justify-between bg-card sticky top-0 z-20">
+                <div className="flex items-center gap-4">
+                  <BackButton onClick={handleBack} label="Topics" />
+                  <span className="text-card-border">|</span>
+                  <span className="text-xs text-muted">
+                    Question {stats.answered + 1}
+                  </span>
                 </div>
                 <div className="text-xs text-muted">
                   {stats.correct}/{stats.answered} correct
@@ -288,19 +321,20 @@ export default function DrillPage() {
 
               <div className="flex-1 flex flex-col lg:flex-row max-w-6xl mx-auto w-full">
                 {/* Passage */}
-                <div className="lg:w-1/2 p-6 lg:border-r border-card-border overflow-y-auto lg:max-h-[calc(100vh-120px)]">
+                <div className="lg:w-1/2 p-6 lg:border-r border-card-border overflow-y-auto lg:max-h-[calc(100vh-52px)]">
                   <div className="text-xs text-muted uppercase tracking-wider mb-3">
                     Passage &middot; {currentQuestion.subtopic}
                   </div>
-                  <div className="passage-text text-sm leading-relaxed whitespace-pre-line">
-                    {currentQuestion.passage}
-                  </div>
+                  <MathBlock
+                    text={currentQuestion.passage}
+                    className="passage-text text-sm leading-relaxed whitespace-pre-line"
+                  />
                 </div>
 
                 {/* Question */}
-                <div className="lg:w-1/2 p-6 overflow-y-auto lg:max-h-[calc(100vh-120px)]">
+                <div className="lg:w-1/2 p-6 overflow-y-auto lg:max-h-[calc(100vh-52px)]">
                   <div className="text-sm font-medium mb-6 leading-relaxed">
-                    {currentQuestion.question.stem}
+                    <MathText text={currentQuestion.question.stem} />
                   </div>
 
                   <div className="space-y-3 mb-6">
@@ -335,7 +369,7 @@ export default function DrillPage() {
                             !submitted ? "hover:border-muted cursor-pointer" : ""
                           }`}
                         >
-                          {option}
+                          <MathText text={option} />
                         </button>
                       );
                     })}
@@ -366,7 +400,7 @@ export default function DrillPage() {
                             : "Incorrect"}
                         </div>
                         <div className="text-muted leading-relaxed">
-                          {currentQuestion.question.explanation}
+                          <MathText text={currentQuestion.question.explanation} />
                         </div>
                       </motion.div>
 

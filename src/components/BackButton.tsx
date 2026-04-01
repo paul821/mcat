@@ -2,13 +2,19 @@
 
 import { motion } from "framer-motion";
 
-export default function BackButton({ onClick }: { onClick: () => void }) {
+export default function BackButton({
+  onClick,
+  label = "Back",
+}: {
+  onClick: () => void;
+  label?: string;
+}) {
   return (
     <motion.button
       initial={{ opacity: 0, x: -10 }}
       animate={{ opacity: 1, x: 0 }}
       onClick={onClick}
-      className="fixed top-6 left-6 z-40 flex items-center gap-2 text-muted hover:text-foreground text-sm font-medium group"
+      className="flex items-center gap-1.5 text-muted hover:text-foreground text-sm font-medium group"
     >
       <svg
         width="16"
@@ -25,7 +31,7 @@ export default function BackButton({ onClick }: { onClick: () => void }) {
           strokeLinejoin="round"
         />
       </svg>
-      Back
+      {label}
     </motion.button>
   );
 }
