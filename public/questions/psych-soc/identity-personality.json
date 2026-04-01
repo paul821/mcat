@@ -1,0 +1,416 @@
+{
+  "subtopic": "Identity & Personality",
+  "sectionId": "psych-soc",
+  "passageSets": [
+    {
+      "id": "ip-passage-1",
+      "passage": "A personality psychologist conducted a longitudinal study examining the stability and predictive validity of the Big Five personality traits (Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism) over a 20-year period. Participants (N=500) completed the NEO Personality Inventory at ages 20, 30, and 40. Test-retest correlations across the 20-year span ranged from r=0.54 for Agreeableness to r=0.72 for Neuroticism, indicating moderate to high stability. Mean-level changes were also observed: Conscientiousness increased significantly from age 20 to 40 (d=0.45), Agreeableness increased modestly (d=0.28), and Neuroticism decreased (d=-0.35). Openness showed a slight decline after age 30. Predictive validity analyses showed that Conscientiousness at age 20 predicted occupational success at age 40 (r=0.38, p<0.001), Neuroticism predicted psychological distress (r=0.42, p<0.001), and Extraversion predicted social network size (r=0.35, p<0.001). Agreeableness predicted relationship satisfaction (r=0.31, p<0.001), and Openness predicted engagement in creative activities (r=0.29, p<0.001). Heritability estimates from twin sub-samples indicated that approximately 40-60% of variance in each trait was attributable to genetic factors.",
+      "questions": [
+        {
+          "id": "ip-1-q1",
+          "stem": "The test-retest correlations ranging from 0.54 to 0.72 over 20 years indicate that Big Five traits are:",
+          "options": ["A. Completely unstable and unpredictable over time", "B. Moderately to highly stable, showing significant rank-order consistency while allowing for some individual change", "C. Perfectly fixed and completely unchangeable throughout adulthood", "D. Only stable in childhood but not in adulthood"],
+          "correct": 1,
+          "explanation": "Test-retest correlations in the range of 0.54-0.72 over 20 years indicate moderate to high rank-order stability, meaning that individuals who score high on a trait relative to others tend to maintain that relative position over time. However, these correlations are not perfect (1.0), indicating that some individual change does occur. This balance between stability and change is a hallmark of personality development research."
+        },
+        {
+          "id": "ip-1-q2",
+          "stem": "The mean-level increase in Conscientiousness and Agreeableness and decrease in Neuroticism from age 20 to 40 is consistent with the concept of:",
+          "options": ["A. Personality regression toward the mean", "B. The maturity principle, which holds that personality traits shift toward greater social maturity with age", "C. Personality deterioration in middle adulthood", "D. Random fluctuation in personality scores"],
+          "correct": 1,
+          "explanation": "The maturity principle describes the normative developmental trend in which people become more conscientious, agreeable, and emotionally stable (lower neuroticism) with age. These changes reflect increasing social maturity and are consistent across cultures, suggesting they may be partly driven by biological maturation and partly by the social roles and responsibilities that come with adulthood."
+        },
+        {
+          "id": "ip-1-q3",
+          "stem": "The finding that Conscientiousness at age 20 predicted occupational success at age 40 demonstrates:",
+          "options": ["A. That personality traits have no practical significance", "B. The predictive validity of personality measures for important life outcomes", "C. That occupational success causes changes in personality", "D. That IQ is the only predictor of occupational success"],
+          "correct": 1,
+          "explanation": "Predictive validity refers to the ability of a measure to predict future outcomes. The significant correlation between Conscientiousness at age 20 and occupational success 20 years later demonstrates that personality traits assessed early in adulthood have meaningful, long-term predictive power for important life outcomes. Conscientiousness, which encompasses organization, discipline, and goal-directed behavior, logically contributes to career achievement."
+        },
+        {
+          "id": "ip-1-q4",
+          "stem": "The heritability estimates of 40-60% for Big Five traits indicate that:",
+          "options": ["A. Personality is entirely determined by genetics", "B. Approximately 40-60% of individual differences in personality within the population can be attributed to genetic variation, with the remainder due to environmental factors", "C. A specific gene determines each personality trait", "D. Environment has no influence on personality development"],
+          "correct": 1,
+          "explanation": "Heritability estimates of 40-60% mean that roughly half of the individual variation in personality traits within a population is attributable to genetic differences between people. The remaining 40-60% is due to environmental influences (both shared and non-shared). Importantly, heritability describes population-level variance, not how much of any individual's personality is genetic."
+        },
+        {
+          "id": "ip-1-q5",
+          "stem": "A researcher who argues that the Big Five model is insufficient because it does not adequately capture the personality structure of all cultures is raising a concern about:",
+          "options": ["A. The reliability of the NEO Personality Inventory", "B. The cross-cultural universality and generalizability of the five-factor structure", "C. The internal consistency of each personality scale", "D. The test-retest stability of personality measures"],
+          "correct": 1,
+          "explanation": "Concerns about cross-cultural universality question whether the Big Five factor structure, originally derived from English-language trait terms, accurately represents personality structure in all cultures. Some research has found that the five-factor structure may not replicate in all cultural contexts, with some cultures showing different factor structures. This challenges the claim that the Big Five represents a universal taxonomy of personality."
+        }
+      ]
+    },
+    {
+      "id": "ip-passage-2",
+      "passage": "A clinical psychologist studied the relationship between locus of control and health behaviors in a sample of 400 adults diagnosed with Type 2 diabetes. Participants completed Rotter's Internal-External Locus of Control Scale and measures of diabetes self-management behaviors (medication adherence, diet, exercise, blood glucose monitoring). Participants were classified as having predominantly internal locus of control (believing outcomes are determined by their own actions) or external locus of control (believing outcomes are determined by luck, fate, or powerful others). Results showed that individuals with internal locus of control demonstrated significantly better diabetes self-management: higher medication adherence (92% vs 71%, p<0.001), more frequent blood glucose monitoring (5.2 vs 3.1 times/week, p<0.001), better dietary compliance (M=7.8 vs M=5.4 on a 10-point scale, p<0.001), and more regular exercise (3.8 vs 1.9 sessions/week, p<0.001). HbA1c levels (a measure of blood sugar control over 3 months) were significantly lower (better controlled) in the internal group (M=6.8%) compared to the external group (M=8.2%), t(398)=7.4, p<0.001. However, when social support was statistically controlled, the relationship between locus of control and HbA1c was reduced but remained significant (partial r=0.24, p<0.001).",
+      "questions": [
+        {
+          "id": "ip-2-q1",
+          "stem": "Individuals with an internal locus of control showed better diabetes self-management most likely because they:",
+          "options": ["A. Had less severe diabetes than those with external locus of control", "B. Believed their own behaviors and choices directly influence their health outcomes, motivating proactive self-care", "C. Received more medical attention from healthcare providers", "D. Were genetically predisposed to better metabolic function"],
+          "correct": 1,
+          "explanation": "Internal locus of control reflects the belief that one's own actions, decisions, and behaviors determine outcomes. In the context of diabetes management, this belief motivates proactive engagement in self-care behaviors because the individual expects that their efforts will make a meaningful difference in their health. This sense of personal agency drives higher adherence to medical recommendations and health-promoting behaviors."
+        },
+        {
+          "id": "ip-2-q2",
+          "stem": "According to Rotter's social learning theory, locus of control develops through:",
+          "options": ["A. Genetic inheritance with no environmental influence", "B. Learning experiences in which the individual observes the contingency between their actions and outcomes", "C. A single critical event in early childhood", "D. Maturation processes that are identical for all individuals"],
+          "correct": 1,
+          "explanation": "Rotter's social learning theory proposes that locus of control develops through cumulative learning experiences. When individuals repeatedly observe that their actions lead to predictable outcomes (reinforcement), they develop an internal locus of control. When outcomes appear unrelated to their actions (non-contingent reinforcement), they develop an external locus of control. This generalized expectancy is shaped by the pattern of experienced contingencies over time."
+        },
+        {
+          "id": "ip-2-q3",
+          "stem": "The reduction in the relationship between locus of control and HbA1c when social support was controlled suggests that:",
+          "options": ["A. Social support completely explains the locus of control effect", "B. Social support partially mediates or confounds the relationship, but locus of control still has an independent effect on health outcomes", "C. Locus of control and social support are identical constructs", "D. Statistical control invalidates the original finding"],
+          "correct": 1,
+          "explanation": "The reduced but still significant relationship after controlling for social support suggests that social support partially accounts for (mediates or confounds) the locus of control-health outcome relationship, but locus of control retains an independent effect. Individuals with internal locus of control may both seek more social support and independently engage in better self-management, with both pathways contributing to better health outcomes."
+        },
+        {
+          "id": "ip-2-q4",
+          "stem": "An individual with an external locus of control who attributes their poorly controlled diabetes to 'bad luck' or 'fate' may benefit from an intervention that:",
+          "options": ["A. Reinforces the belief that health outcomes are beyond personal control", "B. Provides education about the specific connections between self-care behaviors and blood sugar control, enhancing perceived contingency", "C. Eliminates all medical treatment in favor of spiritual healing", "D. Focuses exclusively on genetic counseling"],
+          "correct": 1,
+          "explanation": "An effective intervention would target the individual's perceived contingency between behavior and outcomes by demonstrating clear, concrete connections between specific self-care actions (such as diet changes, medication adherence) and measurable improvements in blood sugar. This education can shift locus of control toward greater internality by helping the individual observe and understand the cause-effect relationship between their actions and health outcomes."
+        },
+        {
+          "id": "ip-2-q5",
+          "stem": "The concept of locus of control is most closely related to Bandura's concept of:",
+          "options": ["A. Classical conditioning of health behaviors", "B. Self-efficacy, the belief in one's ability to perform specific behaviors to achieve desired outcomes", "C. Observational learning through modeling", "D. Latent learning in maze navigation"],
+          "correct": 1,
+          "explanation": "While locus of control (generalized belief about outcome control) and self-efficacy (belief in one's ability to perform specific behaviors) are distinct constructs, they are closely related. Both concern the individual's beliefs about their capacity to influence outcomes through their own actions. Self-efficacy is more behavior-specific and situation-specific, while locus of control is a more generalized personality characteristic, but both predict health behavior engagement."
+        }
+      ]
+    },
+    {
+      "id": "ip-passage-3",
+      "passage": "A developmental psychologist investigated identity formation in adolescents and emerging adults using Marcia's identity status model. Participants (N=300, ages 16-25) completed semi-structured identity interviews that assessed their level of exploration (actively considering identity alternatives) and commitment (making firm identity choices) in the domains of occupation, ideology, and relationships. Participants were classified into four identity statuses. Identity achievement (high exploration, high commitment) was most common in 22-25 year olds (48%) and least common in 16-18 year olds (12%). Identity moratorium (high exploration, low commitment) peaked in 19-21 year olds (35%). Identity foreclosure (low exploration, high commitment) was most common in 16-18 year olds (38%) and decreased with age. Identity diffusion (low exploration, low commitment) was relatively stable across ages at approximately 15-20%. Longitudinal follow-up at 2 years showed that moratorium participants were most likely to transition to achievement (62%), while foreclosure participants showed the most variability, with 40% remaining in foreclosure and 30% entering moratorium. Identity achievement was associated with higher self-esteem (r=0.42), more mature moral reasoning (r=0.38), and greater psychological well-being (r=0.45).",
+      "questions": [
+        {
+          "id": "ip-3-q1",
+          "stem": "The identity status characterized by high exploration and high commitment (identity achievement) indicates that the individual has:",
+          "options": ["A. Adopted identity commitments without personal exploration", "B. Actively explored alternatives and made meaningful identity commitments based on that exploration", "C. Avoided both exploration and commitment", "D. Explored many options but failed to commit to any"],
+          "correct": 1,
+          "explanation": "Identity achievement represents the most developmentally mature status in Marcia's model. Individuals have gone through a period of active exploration, considering various alternatives in domains such as career, values, and relationships, and have emerged with firm commitments based on that exploration. These commitments are self-chosen and personally meaningful because they result from genuine consideration of alternatives."
+        },
+        {
+          "id": "ip-3-q2",
+          "stem": "Identity foreclosure, characterized by high commitment without exploration, is most common in 16-18 year olds because adolescents in this status have:",
+          "options": ["A. Thoroughly explored all available options before committing", "B. Adopted commitments from authority figures (such as parents) without personal exploration of alternatives", "C. Rejected all possible identity commitments", "D. Completed the identity formation process earlier than peers"],
+          "correct": 1,
+          "explanation": "Foreclosed adolescents have made identity commitments, but these commitments are adopted from parents, family, or other authority figures without the individual engaging in personal exploration of alternatives. This is common in younger adolescents who have not yet had the opportunity or inclination to question received values and consider alternatives. Their commitments may be strong but lack the personal ownership that comes from exploration."
+        },
+        {
+          "id": "ip-3-q3",
+          "stem": "The finding that moratorium participants were most likely to transition to identity achievement supports Marcia's theoretical assumption that:",
+          "options": ["A. Identity exploration is unnecessary for identity formation", "B. Active exploration is a developmental pathway leading to meaningful commitment and identity achievement", "C. Moratorium is the final stage of identity development", "D. Identity statuses are permanent and unchangeable"],
+          "correct": 1,
+          "explanation": "The high transition rate from moratorium to achievement supports the theoretical assumption that exploration is a productive, necessary process in identity formation. Individuals in moratorium are actively grappling with identity questions, and this exploration naturally leads many to resolve their identity crisis by making commitments, thereby achieving identity. This progression from exploration to commitment is the normative developmental pathway proposed by Erikson and Marcia."
+        },
+        {
+          "id": "ip-3-q4",
+          "stem": "Marcia's identity status model is an extension of Erikson's psychosocial theory, specifically elaborating on the crisis of:",
+          "options": ["A. Trust versus mistrust in infancy", "B. Identity versus role confusion in adolescence", "C. Generativity versus stagnation in middle adulthood", "D. Integrity versus despair in late adulthood"],
+          "correct": 1,
+          "explanation": "Marcia's identity status model operationalizes and extends Erikson's fifth psychosocial stage, identity versus role confusion, which Erikson proposed as the central developmental challenge of adolescence. Marcia's contribution was to define four distinct statuses based on the dimensions of exploration and commitment, providing a more nuanced framework for studying the identity formation process that Erikson described."
+        },
+        {
+          "id": "ip-3-q5",
+          "stem": "The positive correlations between identity achievement and self-esteem, moral reasoning, and psychological well-being suggest that:",
+          "options": ["A. Identity achievement causes these positive outcomes with certainty", "B. Successfully navigating the identity formation process is associated with broader positive psychological development", "C. Self-esteem determines identity status", "D. These correlations are too small to be meaningful"],
+          "correct": 1,
+          "explanation": "The positive associations between identity achievement and multiple indices of psychological health suggest that successfully forming a coherent identity through exploration and commitment has broad benefits for psychological functioning. While the correlational data cannot establish causation, the pattern is consistent with Erikson's theory that successful resolution of the identity crisis promotes healthy personality development and well-being."
+        }
+      ]
+    },
+    {
+      "id": "ip-passage-4",
+      "passage": "A social psychologist investigated attribution theory by examining how people explain the behavior of others versus their own behavior. In Study 1, participants (N=160) read a brief scenario about a student who failed an important exam and were asked to explain the failure. Participants attributed the failure primarily to dispositional factors (ability, effort, personality) when the student was described as a stranger (78% dispositional attributions) but used more situational attributions (difficult exam, bad luck, family stress) when the student was described as a close friend (52% dispositional attributions), chi-square(1)=22.1, p<0.001. In Study 2, participants described the causes of their own recent negative outcomes and those of acquaintances who experienced similar outcomes. For their own failures, participants generated an average of 3.4 situational attributions versus 1.2 dispositional attributions. For others' failures, participants generated 1.8 situational versus 3.1 dispositional attributions, interaction F(1,158)=87.3, p<0.001. Cultural comparisons revealed that East Asian participants (n=80) made fewer dispositional attributions for others' behavior (62%) compared to Western participants (n=80; 78%), t(158)=3.9, p<0.001.",
+      "questions": [
+        {
+          "id": "ip-4-q1",
+          "stem": "The tendency observed in Study 2 for participants to attribute their own failures to situational factors while attributing others' failures to dispositional factors is known as:",
+          "options": ["A. The just-world hypothesis", "B. The actor-observer bias, where actors favor situational explanations and observers favor dispositional explanations", "C. The halo effect in impression formation", "D. Social facilitation of attribution processes"],
+          "correct": 1,
+          "explanation": "The actor-observer bias (or asymmetry) describes the systematic tendency for people to attribute their own behavior more to situational factors (as actors, they are aware of contextual influences) while attributing others' behavior more to dispositional factors (as observers, they focus on the person rather than the context). This creates an asymmetry in causal explanations depending on one's perspective."
+        },
+        {
+          "id": "ip-4-q2",
+          "stem": "The fundamental attribution error, demonstrated by the high rate of dispositional attributions for the stranger's exam failure, refers to:",
+          "options": ["A. The tendency to underestimate dispositional factors and overestimate situational factors", "B. The tendency to overestimate the role of dispositional factors and underestimate the role of situational factors when explaining others' behavior", "C. Accurate attribution of behavior to both dispositional and situational causes", "D. The inability to make any causal attributions for behavior"],
+          "correct": 1,
+          "explanation": "The fundamental attribution error (also called correspondence bias) is the tendency to overweight dispositional explanations (personality, character, ability) and underweight situational explanations (circumstances, context, external pressures) when explaining other people's behavior. The 78% dispositional attribution rate for the stranger's exam failure demonstrates this bias, as participants focused on the person's traits rather than considering situational factors."
+        },
+        {
+          "id": "ip-4-q3",
+          "stem": "The reduced dispositional attribution for a close friend's failure compared to a stranger's failure suggests that:",
+          "options": ["A. People always make accurate attributions for friends' behavior", "B. Knowledge of situational context and empathic perspective-taking reduce the fundamental attribution error", "C. The fundamental attribution error only occurs for strangers and never for known individuals", "D. Close friends never fail exams"],
+          "correct": 1,
+          "explanation": "When the failing student is described as a close friend, participants are more likely to consider situational factors because they have knowledge of the friend's circumstances and are more likely to engage in empathic perspective-taking. Knowing someone provides contextual information that reduces the tendency to rely solely on dispositional explanations, partially mitigating the fundamental attribution error."
+        },
+        {
+          "id": "ip-4-q4",
+          "stem": "The finding that East Asian participants made fewer dispositional attributions than Western participants is consistent with research on:",
+          "options": ["A. Universal attribution patterns that are identical across all cultures", "B. Cultural differences in attribution, with collectivist cultures being more attuned to situational and contextual influences on behavior", "C. East Asian participants having poorer understanding of personality psychology", "D. Western participants being more accurate in their attributions"],
+          "correct": 1,
+          "explanation": "Cross-cultural research consistently shows that individuals from collectivist, East Asian cultures are more attuned to situational, contextual, and relational influences on behavior compared to individuals from individualist, Western cultures. This cultural difference in attribution reflects broader differences in cognitive style, with East Asian cultures emphasizing the role of context and relationships (holistic thinking) while Western cultures emphasize individual dispositions (analytic thinking)."
+        },
+        {
+          "id": "ip-4-q5",
+          "stem": "According to Kelley's covariation model of attribution, people determine whether a behavior is caused by dispositional or situational factors by considering:",
+          "options": ["A. Only the actor's personality traits", "B. Three types of information: consensus (do others behave similarly?), distinctiveness (does the actor behave this way in other situations?), and consistency (does the actor behave this way at other times?)", "C. Only the physical environment in which the behavior occurs", "D. The actor's age, gender, and socioeconomic status"],
+          "correct": 1,
+          "explanation": "Kelley's covariation model proposes that people make attributions by considering three dimensions of information: consensus (whether others behave similarly in the same situation), distinctiveness (whether the actor behaves similarly in different situations), and consistency (whether the actor behaves similarly at different times). High consensus, high distinctiveness, and high consistency point to situational attribution, while low consensus, low distinctiveness, and high consistency point to dispositional attribution."
+        }
+      ]
+    },
+    {
+      "id": "ip-passage-5",
+      "passage": "A psychodynamic psychologist presented a case study of a 35-year-old man, David, who sought therapy for relationship difficulties and chronic anxiety. David reported a pattern of idealizing romantic partners initially and then becoming intensely critical and rejecting when they failed to meet his expectations. He described his mother as emotionally unavailable and his father as highly critical and demanding. In therapy, David began to idealize his therapist, describing him as 'the only person who truly understands me,' but later became hostile when the therapist took a vacation, accusing him of abandonment. The therapist interpreted this pattern as transference, in which David was replaying his childhood relationship dynamics with his parents in the therapeutic relationship. Psychological testing revealed that David used the defense mechanisms of splitting (viewing people as all good or all bad), projection (attributing his own hostile feelings to others), and reaction formation (expressing excessive admiration to mask underlying resentment). The therapist used Freud's structural model to understand David's difficulties, noting that David's rigid superego (internalized from his critical father) created harsh self-judgment, while his id impulses for unconditional love and acceptance remained unsatisfied, creating ongoing conflict mediated by his ego.",
+      "questions": [
+        {
+          "id": "ip-5-q1",
+          "stem": "David's pattern of initially idealizing and then devaluing romantic partners is an example of the defense mechanism of:",
+          "options": ["A. Sublimation, channeling unacceptable impulses into acceptable activities", "B. Splitting, viewing people in all-or-nothing terms as entirely good or entirely bad", "C. Rationalization, creating logical explanations for irrational behavior", "D. Displacement, redirecting emotions from a threatening target to a safer one"],
+          "correct": 1,
+          "explanation": "Splitting is a defense mechanism in which an individual cannot integrate the positive and negative qualities of themselves or others into cohesive, realistic images. Instead, people and situations are perceived as either all good or all bad. David's pattern of initial idealization (all good) followed by devaluation (all bad) reflects splitting, where his romantic partners are experienced at the extremes rather than as complex individuals with both positive and negative qualities."
+        },
+        {
+          "id": "ip-5-q2",
+          "stem": "David's hostile reaction to the therapist's vacation, interpreted as transference, involves:",
+          "options": ["A. The therapist projecting his own feelings onto David", "B. David unconsciously transferring feelings and expectations from his early relationships (particularly with his emotionally unavailable mother) onto the therapist", "C. David consciously deciding to test the therapist's loyalty", "D. A realistic and proportionate response to the therapist's absence"],
+          "correct": 1,
+          "explanation": "Transference occurs when a patient unconsciously redirects feelings, expectations, and relational patterns from significant early relationships onto the therapist. David's intense reaction to the therapist's vacation mirrors his childhood experience of maternal emotional unavailability, with the therapist's absence triggering the same feelings of abandonment and rejection that David experienced with his mother."
+        },
+        {
+          "id": "ip-5-q3",
+          "stem": "In Freud's structural model, the conflict between David's rigid superego and unsatisfied id impulses creates anxiety because:",
+          "options": ["A. The id and superego are the same structure with identical goals", "B. The superego's harsh moral standards conflict with the id's demands for gratification, creating intrapsychic conflict that the ego must manage", "C. The ego always successfully resolves all conflicts without anxiety", "D. The superego always supports the id's desires"],
+          "correct": 1,
+          "explanation": "Freud's structural model describes ongoing conflict between the id (seeking immediate gratification of drives), the superego (imposing moral standards and ideals), and the ego (mediating between them and reality). David's harsh, critical superego (internalized from his demanding father) conflicts with his id's desires for love and acceptance, creating anxiety that the ego attempts to manage through defense mechanisms."
+        },
+        {
+          "id": "ip-5-q4",
+          "stem": "David's reaction formation, expressing excessive admiration to mask underlying resentment, involves:",
+          "options": ["A. Expressing one's true feelings directly and openly", "B. Unconsciously converting an unacceptable feeling into its opposite in outward expression", "C. Consciously choosing to be polite despite feeling angry", "D. Projecting admiration onto others who then feel it"],
+          "correct": 1,
+          "explanation": "Reaction formation is a defense mechanism in which an unacceptable impulse or feeling is unconsciously transformed into its opposite. David's excessive admiration is not a conscious choice to be polite but an unconscious transformation of underlying hostility and resentment into an exaggerated expression of the opposite emotion. The excessive, exaggerated quality of the expressed emotion is often a clue that reaction formation is operating."
+        },
+        {
+          "id": "ip-5-q5",
+          "stem": "A humanistic psychologist would criticize the psychodynamic interpretation of David's case by arguing that:",
+          "options": ["A. Defense mechanisms are the most important aspect of personality", "B. The focus should be on David's current self-concept, conditions of worth, and path toward self-actualization rather than unconscious conflicts from childhood", "C. David's problems are entirely biological and require only medication", "D. Transference is always the most therapeutically useful phenomenon"],
+          "correct": 1,
+          "explanation": "Humanistic psychologists such as Rogers would emphasize David's current self-concept, the conditions of worth imposed by his critical father (which created a gap between his real self and ideal self), and his potential for growth and self-actualization. Rather than focusing on unconscious conflicts and defense mechanisms, the humanistic approach would focus on providing unconditional positive regard, empathy, and genuineness to help David develop a more authentic, integrated self."
+        }
+      ]
+    },
+    {
+      "id": "ip-passage-6",
+      "passage": "Researchers studied self-concept and self-esteem in a cross-cultural sample of 600 adolescents (300 from the United States and 300 from Japan). Participants completed measures of independent self-construal (defining the self through unique attributes, personal achievements, and individual traits) and interdependent self-construal (defining the self through social roles, relationships, and group memberships). Results showed that American adolescents scored significantly higher on independent self-construal (M=5.8 vs M=4.2, p<0.001) while Japanese adolescents scored higher on interdependent self-construal (M=5.5 vs M=4.0, p<0.001). Self-esteem measures revealed that American adolescents reported higher explicit self-esteem (M=32.1 vs M=25.4 on the Rosenberg scale, p<0.001), but implicit self-esteem measures (using the Implicit Association Test) showed no significant cultural difference (p=0.34). Self-enhancement biases were more prevalent in American adolescents, with 78% rating themselves as 'above average' on academic ability compared to 42% of Japanese adolescents. Japanese adolescents showed stronger self-improvement motivation, spending 25% more time on tasks they had failed compared to American adolescents, who spent more time on tasks they had succeeded at.",
+      "questions": [
+        {
+          "id": "ip-6-q1",
+          "stem": "The difference in independent versus interdependent self-construal between American and Japanese adolescents reflects:",
+          "options": ["A. Cognitive deficits in one cultural group", "B. Cultural differences in how the self is fundamentally defined, with individualist cultures emphasizing personal uniqueness and collectivist cultures emphasizing social connectedness", "C. The universal human tendency toward independent self-construal", "D. Language differences that make self-report measures invalid"],
+          "correct": 1,
+          "explanation": "Markus and Kitayama proposed that cultures differ in their fundamental construction of the self. Individualist cultures (like the US) foster an independent self-construal in which identity is defined by internal attributes, personal achievements, and uniqueness. Collectivist cultures (like Japan) foster an interdependent self-construal in which identity is defined by social roles, relationships, and harmony with the group."
+        },
+        {
+          "id": "ip-6-q2",
+          "stem": "The discrepancy between higher explicit self-esteem but equivalent implicit self-esteem across cultures suggests that:",
+          "options": ["A. Explicit and implicit measures always produce identical results", "B. Cultural norms about self-presentation influence explicit self-reports, while implicit measures may capture a more universal level of positive self-regard", "C. Japanese adolescents have genuinely lower self-worth than American adolescents", "D. The implicit measure was not valid for either cultural group"],
+          "correct": 1,
+          "explanation": "The discrepancy suggests that cultural norms about self-expression and modesty influence explicit self-reports of self-esteem. Japanese cultural norms emphasize modesty and self-effacement, which may suppress explicit self-esteem scores without actually reflecting lower implicit self-regard. Implicit measures, which bypass conscious self-presentation strategies, may reveal a more universal level of positive self-evaluation that exists beneath culturally shaped self-presentation norms."
+        },
+        {
+          "id": "ip-6-q3",
+          "stem": "The finding that 78% of American adolescents rated themselves as 'above average' on academic ability is an example of:",
+          "options": ["A. Accurate self-assessment based on objective data", "B. Self-serving bias or the better-than-average effect, where individuals overestimate their abilities relative to others", "C. Self-handicapping to protect self-esteem", "D. Accurate metacognitive monitoring of academic performance"],
+          "correct": 1,
+          "explanation": "The better-than-average effect (also called illusory superiority) is a form of self-serving bias in which a majority of individuals rate themselves as above average on desirable traits, which is statistically impossible. This self-enhancement tendency is more pronounced in individualist cultures where personal achievement and positive self-regard are culturally valued and encouraged."
+        },
+        {
+          "id": "ip-6-q4",
+          "stem": "Japanese adolescents' tendency to spend more time on tasks they failed at, compared to American adolescents who focused on successes, reflects a cultural emphasis on:",
+          "options": ["A. Low motivation and disengagement from challenges", "B. Self-improvement and learning from failure, consistent with an interdependent self-construal that values meeting social standards", "C. Learned helplessness and resignation to failure", "D. External locus of control attributing failure to luck"],
+          "correct": 1,
+          "explanation": "The self-improvement motivation shown by Japanese adolescents reflects cultural values that emphasize personal growth through effort, learning from mistakes, and meeting the standards of one's social group. In interdependent cultural contexts, recognizing and addressing weaknesses is valued as a path to self-improvement and fulfilling social obligations, rather than threatening self-esteem as it might in individualist contexts."
+        },
+        {
+          "id": "ip-6-q5",
+          "stem": "Carl Rogers would interpret low self-esteem in any cultural context as resulting from:",
+          "options": ["A. Genetic predisposition to negative self-evaluation", "B. A discrepancy between the real self and the ideal self, often caused by conditions of worth imposed by significant others", "C. Too much unconditional positive regard from parents", "D. Insufficient exposure to academic achievement"],
+          "correct": 1,
+          "explanation": "Rogers proposed that low self-esteem results from incongruence between the real self (who a person actually is) and the ideal self (who they believe they should be). This incongruence is often created by conditions of worth, where significant others (especially parents) provide conditional love and acceptance, causing the individual to internalize standards they cannot meet and to deny aspects of their authentic self to maintain others' approval."
+        }
+      ]
+    },
+    {
+      "id": "ip-passage-7",
+      "passage": "A social cognitive psychologist investigated Bandura's concept of self-efficacy in the context of academic achievement. High school students (N=350) completed domain-specific self-efficacy scales (measuring confidence in their ability to perform specific academic tasks) along with measures of prior academic performance, goal-setting behavior, persistence in the face of difficulty, and end-of-semester grades. Path analysis revealed that self-efficacy was the strongest predictor of academic performance (beta=0.48), even after controlling for prior achievement (beta=0.32), general intelligence (beta=0.28), and socioeconomic status (beta=0.15). Self-efficacy predicted performance through multiple mechanisms: it was positively associated with setting challenging goals (r=0.52), persistence on difficult tasks (r=0.46), use of effective learning strategies (r=0.41), and reduced test anxiety (r=-0.38). An experimental manipulation that provided mastery experiences (structured opportunities for success on progressively challenging tasks) significantly increased self-efficacy compared to a control condition (d=0.72), and this increase mediated subsequent improvements in academic performance. Verbal persuasion alone (encouragement without mastery experiences) produced a smaller effect on self-efficacy (d=0.25).",
+      "questions": [
+        {
+          "id": "ip-7-q1",
+          "stem": "Bandura's concept of self-efficacy differs from general self-esteem in that self-efficacy is:",
+          "options": ["A. A global evaluation of one's overall self-worth", "B. A domain-specific belief about one's ability to perform particular tasks and achieve specific outcomes", "C. A measure of how much one likes oneself overall", "D. Identical to locus of control in all respects"],
+          "correct": 1,
+          "explanation": "Self-efficacy is the belief in one's ability to execute specific behaviors necessary to produce specific outcomes in particular domains. Unlike self-esteem (a global evaluation of self-worth), self-efficacy is domain-specific: a person can have high self-efficacy for mathematics but low self-efficacy for public speaking. This specificity makes self-efficacy a better predictor of performance in particular domains than global self-esteem."
+        },
+        {
+          "id": "ip-7-q2",
+          "stem": "The finding that mastery experiences (d=0.72) were more effective than verbal persuasion (d=0.25) in increasing self-efficacy is consistent with Bandura's claim that:",
+          "options": ["A. Verbal persuasion is the most powerful source of self-efficacy", "B. Personal mastery experiences are the most potent source of self-efficacy because they provide direct evidence of one's capabilities", "C. Self-efficacy cannot be changed by any intervention", "D. Vicarious experience is always more effective than direct experience"],
+          "correct": 1,
+          "explanation": "Bandura identified four sources of self-efficacy, with mastery experiences (enactive attainments) being the most powerful. Successfully performing a task provides the most convincing evidence that one can do it again, creating strong efficacy beliefs. Verbal persuasion ('You can do it!') is a weaker source because it provides no direct evidence of capability. Vicarious experience (observing others succeed) and physiological states are intermediate sources."
+        },
+        {
+          "id": "ip-7-q3",
+          "stem": "The multiple pathways through which self-efficacy predicts performance (goal-setting, persistence, strategy use, reduced anxiety) illustrate Bandura's concept of:",
+          "options": ["A. Deterministic causation from personality to behavior", "B. Reciprocal determinism, where personal factors, behavior, and environment mutually influence each other", "C. Unidirectional causation from the environment to behavior", "D. The irrelevance of cognitive factors in behavior"],
+          "correct": 1,
+          "explanation": "Bandura's model of reciprocal determinism proposes that personal factors (including self-efficacy), behavior, and environmental factors mutually influence each other in a dynamic, bidirectional system. Self-efficacy (personal factor) influences goal-setting and persistence (behavior), which affect academic outcomes (environment), which in turn influence subsequent self-efficacy beliefs. This triadic reciprocal causation is central to social cognitive theory."
+        },
+        {
+          "id": "ip-7-q4",
+          "stem": "The negative correlation between self-efficacy and test anxiety suggests that high self-efficacy reduces anxiety by:",
+          "options": ["A. Eliminating all emotional responses to evaluative situations", "B. Providing confidence in one's ability to handle the demands of the situation, reducing threat appraisal and anxious arousal", "C. Preventing students from caring about their performance", "D. Making tests objectively easier"],
+          "correct": 1,
+          "explanation": "High self-efficacy reduces test anxiety by changing the cognitive appraisal of the testing situation. When students believe they are capable of performing well, they appraise the exam as a challenge they can handle rather than a threat that exceeds their capabilities. This more benign cognitive appraisal reduces the anxiety-producing discrepancy between perceived demands and perceived capabilities, lowering physiological and psychological arousal."
+        },
+        {
+          "id": "ip-7-q5",
+          "stem": "A teacher who structures assignments to provide students with graduated success on increasingly difficult tasks is leveraging:",
+          "options": ["A. Classical conditioning of positive emotions to academic tasks", "B. Mastery experiences as the primary source of self-efficacy development", "C. Negative reinforcement by removing difficult tasks", "D. Social comparison with higher-performing peers"],
+          "correct": 1,
+          "explanation": "By providing structured opportunities for success on progressively challenging tasks, the teacher creates mastery experiences, the most powerful source of self-efficacy. Starting with manageable tasks builds initial confidence, and gradually increasing difficulty allows students to experience success at each level, building robust self-efficacy beliefs. This scaffolded approach ensures students develop genuine competence alongside growing confidence."
+        }
+      ]
+    },
+    {
+      "id": "ip-passage-8",
+      "passage": "A personality researcher examined the interaction between situation and personality using Walter Mischel's cognitive-affective processing system (CAPS) model. Participants (N=100) completed personality questionnaires and were then observed in five different social situations over two weeks: interacting with authority figures, collaborating with peers, competing in games, receiving criticism, and making presentations. Behavioral observations showed that cross-situational consistency of behavior was modest (average r=0.20 across situations), consistent with Mischel's original critique of trait theories. However, individual participants showed highly consistent patterns of situation-behavior relationships (if-then profiles). For example, Participant A was consistently dominant with peers but submissive with authority figures, while Participant B showed the opposite pattern. These if-then profiles were highly stable over time (test-retest r=0.78) and uniquely predicted important outcomes beyond trait scores alone. The researchers also found that 'strong situations' (situations with clear behavioral norms, such as job interviews) reduced variability between individuals, while 'weak situations' (ambiguous situations with few behavioral constraints) allowed personality differences to emerge more clearly.",
+      "questions": [
+        {
+          "id": "ip-8-q1",
+          "stem": "Mischel's CAPS model resolves the person-situation debate by proposing that:",
+          "options": ["A. Situations completely determine behavior with no role for personality", "B. Personality is expressed through stable patterns of situation-behavior relationships (if-then profiles) rather than through cross-situational behavioral consistency", "C. Personality traits are the sole determinant of behavior regardless of situation", "D. Neither personality nor situations influence behavior"],
+          "correct": 1,
+          "explanation": "Mischel's CAPS model resolves the person-situation debate by reconceptualizing personality as a system of cognitive-affective units that are activated by specific situational features, producing stable if-then behavioral patterns. Rather than expecting people to behave the same way across all situations (cross-situational consistency), personality is expressed through characteristic patterns of how behavior changes across different situations."
+        },
+        {
+          "id": "ip-8-q2",
+          "stem": "The modest cross-situational consistency (r=0.20) observed in this study is consistent with Mischel's original personality coefficient finding, which suggested that:",
+          "options": ["A. Personality traits are powerful predictors of behavior across all situations", "B. Broad trait measures predict behavior in any single situation only weakly, because behavior is significantly influenced by situational factors", "C. Personality does not exist as a psychological construct", "D. All people behave identically across all situations"],
+          "correct": 1,
+          "explanation": "Mischel's review found that personality traits typically correlate with behavior in any single situation at around r=0.20-0.30, which he called the 'personality coefficient.' This suggests that broad trait measures are weak predictors of behavior in specific situations because situational factors also exert significant influence. This finding challenged the prevailing assumption that personality traits are strong, consistent predictors of behavior."
+        },
+        {
+          "id": "ip-8-q3",
+          "stem": "The distinction between strong and weak situations suggests that personality differences are most observable when:",
+          "options": ["A. Situational pressures are strong and clearly dictate appropriate behavior", "B. Situations are ambiguous or unconstrained, allowing individual differences in interpretation and response", "C. People are in formal settings with strict behavioral expectations", "D. Situations provide no information about appropriate behavior"],
+          "correct": 1,
+          "explanation": "Strong situations have clear norms, scripts, and expectations that constrain behavior, reducing the influence of individual personality differences. Weak situations lack these constraints, allowing personality differences to emerge because individuals must rely on their own dispositions, interpretations, and preferences to guide behavior. Personality is most influential and observable in weak, ambiguous situations."
+        },
+        {
+          "id": "ip-8-q4",
+          "stem": "The high stability of if-then profiles over time (r=0.78) demonstrates that:",
+          "options": ["A. People behave identically in all situations", "B. While specific behaviors may vary across situations, the pattern of how behavior varies is a stable, reliable individual characteristic", "C. Situations have no influence on behavior", "D. Personality traits are completely unstable"],
+          "correct": 1,
+          "explanation": "The high stability of if-then profiles shows that personality consistency is found not in behaving the same way everywhere but in having a stable, characteristic pattern of behavioral variation across situations. Person A reliably becomes dominant with peers and submissive with authorities, and this pattern persists over time. The pattern itself is the stable personality signature, even though the behavior varies by situation."
+        },
+        {
+          "id": "ip-8-q5",
+          "stem": "A trait theorist would respond to Mischel's critique by arguing that:",
+          "options": ["A. Situations are completely irrelevant to behavior", "B. Aggregating behavior across many situations reveals strong trait-behavior correlations that are masked in single-situation observations", "C. Cross-situational consistency is always perfect", "D. Trait measures should only predict behavior in one specific situation"],
+          "correct": 1,
+          "explanation": "Trait theorists such as Epstein responded to Mischel's critique by demonstrating that when behavior is aggregated (averaged) across many situations, trait-behavior correlations become much stronger. Single-situation observations are unreliable indicators of traits because each observation includes situational noise. By aggregating across situations, the random situational influences cancel out, revealing the stable trait-behavior relationship."
+        }
+      ]
+    },
+    {
+      "id": "ip-passage-9",
+      "passage": "A psychologist studied the development of self-concept using Cooley's looking-glass self theory and Mead's concept of the generalized other. Children and adolescents (N=240, ages 8-18) completed self-concept measures and reported on how they believed important others (parents, peers, teachers) viewed them. Path analysis showed that perceived evaluations from others significantly predicted self-concept across all ages, but the source of influence shifted developmentally. For 8-10 year olds, parents' perceived evaluations were the strongest predictor of self-concept (beta=0.52), with peers contributing modestly (beta=0.18). For 11-14 year olds, peer evaluations became the dominant predictor (beta=0.48), surpassing parental influence (beta=0.28). For 15-18 year olds, the influence of specific others decreased somewhat as participants developed more internalized, stable self-evaluations (beta for internal standards=0.35). Self-concept became increasingly differentiated with age: 8 year olds described themselves using concrete, observable characteristics (appearance, abilities), while older adolescents used abstract psychological traits and acknowledged contradictions in their self-concept (being shy in some contexts and outgoing in others). Social media usage was positively correlated with social comparison and negatively correlated with self-esteem in 13-18 year olds (r=-0.28, p<0.001).",
+      "questions": [
+        {
+          "id": "ip-9-q1",
+          "stem": "Cooley's looking-glass self theory, as supported by this study, proposes that self-concept is primarily shaped by:",
+          "options": ["A. Innate biological factors that determine self-perception", "B. Our perceptions of how others perceive and evaluate us, creating a social mirror", "C. Direct, unfiltered feedback from standardized testing", "D. Solitary self-reflection independent of social input"],
+          "correct": 1,
+          "explanation": "Cooley's looking-glass self theory proposes that self-concept develops through a three-step process: (1) imagining how we appear to others, (2) imagining others' judgments of us, and (3) developing self-feelings (pride or shame) based on these perceived judgments. The self is fundamentally a social construction, shaped by our perceptions of how significant others view and evaluate us, acting as a social mirror."
+        },
+        {
+          "id": "ip-9-q2",
+          "stem": "The developmental shift from parental influence to peer influence on self-concept during adolescence is most consistent with:",
+          "options": ["A. Parents becoming completely irrelevant to adolescent development", "B. Mead's concept of the generalized other expanding to include broader social reference groups beyond the family", "C. Adolescents losing all social awareness and becoming entirely self-focused", "D. Biological changes eliminating the need for social input in self-concept formation"],
+          "correct": 1,
+          "explanation": "Mead proposed that self-concept develops through interaction with significant others and eventually incorporates the generalized other (the internalized attitudes and expectations of the broader social group). As children move into adolescence, their reference group expands beyond the family to include peers, reflecting the broadening of the generalized other. Peers become increasingly important as adolescents develop social identities within wider social contexts."
+        },
+        {
+          "id": "ip-9-q3",
+          "stem": "The finding that older adolescents developed more internalized self-evaluations (less dependent on specific others) is consistent with:",
+          "options": ["A. A regression to childhood patterns of self-evaluation", "B. The development of a stable, internalized self-concept that integrates and transcends specific others' evaluations", "C. Complete independence from all social influence on self-perception", "D. A decrease in cognitive complexity during late adolescence"],
+          "correct": 1,
+          "explanation": "As adolescents mature, they develop a more stable, internalized self-concept that synthesizes multiple sources of social feedback into a coherent self-evaluation less dependent on any single person's perceived judgment. This internalization represents Mead's final stage of self-development, where the generalized other becomes fully internalized as an abstract set of standards and self-evaluative criteria."
+        },
+        {
+          "id": "ip-9-q4",
+          "stem": "The increasing differentiation of self-concept with age, including the ability to acknowledge contradictions, reflects:",
+          "options": ["A. Cognitive decline in the ability to maintain a coherent self-concept", "B. Advancing cognitive development enabling abstract thinking and recognition that one's behavior varies across contexts", "C. Psychological disorder characterized by identity confusion", "D. Social pressure to present different selves in different situations"],
+          "correct": 1,
+          "explanation": "The ability to describe oneself using abstract psychological traits and to acknowledge that one can be shy in some contexts and outgoing in others reflects advancing cognitive development, particularly the emergence of abstract, metacognitive thinking. Younger children are limited to concrete self-descriptions and cannot hold contradictory self-attributes simultaneously. Formal operational thinking enables the integration of context-dependent self-aspects into a more complex self-concept."
+        },
+        {
+          "id": "ip-9-q5",
+          "stem": "The negative correlation between social media usage and self-esteem in adolescents may be explained by:",
+          "options": ["A. Social media providing only positive social feedback", "B. Increased upward social comparison with idealized presentations of others, creating a discrepancy between perceived self and perceived others", "C. Social media reducing all forms of social interaction", "D. Social media usage having no psychological effects on adolescents"],
+          "correct": 1,
+          "explanation": "Social media platforms expose adolescents to carefully curated, idealized presentations of others' lives, increasing upward social comparison. Comparing one's authentic, unfiltered experience to others' highlight reels creates a perceived discrepancy that can lower self-esteem. This process is particularly impactful during adolescence when self-concept is actively forming and sensitivity to social evaluation is heightened."
+        }
+      ]
+    },
+    {
+      "id": "ip-passage-10",
+      "passage": "A clinical psychologist compared psychodynamic and humanistic approaches to understanding personality dysfunction in a sample of 100 patients diagnosed with depression. Patients were randomly assigned to two treatment conditions: psychodynamic therapy (focusing on unconscious conflicts, defense mechanisms, and early childhood experiences) or person-centered therapy (based on Rogers' principles of unconditional positive regard, empathy, and genuineness). Both treatments were administered for 16 weeks with matched therapist experience levels. Pre- and post-treatment measures included depression severity (Beck Depression Inventory), self-concept coherence (measuring the gap between real self and ideal self), and therapeutic alliance ratings. Results showed that both treatments produced significant reductions in depression (psychodynamic: d=0.85; person-centered: d=0.92), with no significant difference between treatments (p=0.41). Person-centered therapy produced significantly greater improvement in self-concept coherence (d=0.78 vs d=0.52, p=0.03), while psychodynamic therapy produced greater insight into unconscious patterns (rated by independent observers). Therapeutic alliance was equally strong in both conditions and was the strongest single predictor of outcome across both treatments (r=0.55, p<0.001), exceeding the predictive power of therapy type.",
+      "questions": [
+        {
+          "id": "ip-10-q1",
+          "stem": "The finding that therapeutic alliance predicted outcome more strongly than therapy type is consistent with the common factors theory, which suggests that:",
+          "options": ["A. Specific therapy techniques are the only determinants of therapeutic outcomes", "B. Factors shared across different therapies (such as the therapeutic relationship) may account for a significant portion of therapeutic change", "C. All therapies are completely identical in their mechanisms of change", "D. The therapeutic relationship is irrelevant to treatment outcomes"],
+          "correct": 1,
+          "explanation": "The common factors theory proposes that elements shared across different therapy modalities, such as the therapeutic alliance, therapist warmth, patient expectations, and the opportunity for emotional expression, account for a substantial portion of therapeutic benefit. The finding that alliance predicted outcomes more strongly than therapy type supports this view, suggesting that how therapy is delivered may matter as much or more than the specific techniques used."
+        },
+        {
+          "id": "ip-10-q2",
+          "stem": "The greater improvement in self-concept coherence in person-centered therapy reflects Rogers' emphasis on:",
+          "options": ["A. Interpreting unconscious conflicts from childhood", "B. Reducing the discrepancy between the real self and ideal self through unconditional positive regard that counteracts conditions of worth", "C. Analyzing defense mechanisms and resistance", "D. Modifying maladaptive cognitions through structured homework assignments"],
+          "correct": 1,
+          "explanation": "Rogers proposed that psychological distress stems from incongruence between the real self and ideal self, often maintained by conditions of worth (conditional acceptance from others). Person-centered therapy provides unconditional positive regard, creating a therapeutic environment where the client can explore their authentic self without fear of judgment. This acceptance helps reduce the real-ideal self discrepancy, increasing self-concept coherence."
+        },
+        {
+          "id": "ip-10-q3",
+          "stem": "The psychodynamic therapy's greater success in producing insight into unconscious patterns reflects its theoretical emphasis on:",
+          "options": ["A. Behavioral modification through reinforcement contingencies", "B. Making unconscious material conscious through interpretation, free association, and analysis of transference", "C. Challenging irrational beliefs through logical disputation", "D. Teaching mindfulness and present-moment awareness"],
+          "correct": 1,
+          "explanation": "Psychodynamic therapy aims to bring unconscious material (repressed memories, unacknowledged conflicts, hidden motivations) into conscious awareness through techniques such as free association, dream analysis, interpretation, and analysis of transference and resistance. Insight, or conscious understanding of previously unconscious patterns, is considered a primary mechanism of change in psychodynamic theory."
+        },
+        {
+          "id": "ip-10-q4",
+          "stem": "Rogers' three necessary and sufficient conditions for therapeutic change include unconditional positive regard, empathy, and:",
+          "options": ["A. Behavioral contingency management", "B. Genuineness (congruence), where the therapist is authentic and transparent in the therapeutic relationship", "C. Interpretation of unconscious conflicts", "D. Systematic desensitization of feared stimuli"],
+          "correct": 1,
+          "explanation": "Rogers proposed three core conditions for therapeutic change: (1) unconditional positive regard (non-judgmental acceptance), (2) empathic understanding (accurately sensing the client's feelings), and (3) genuineness or congruence (the therapist being authentic and transparent). Rogers believed that when these conditions are present, the client's innate tendency toward growth and self-actualization would naturally emerge."
+        },
+        {
+          "id": "ip-10-q5",
+          "stem": "A personality theorist using the trait approach would critique both psychodynamic and humanistic approaches by arguing that:",
+          "options": ["A. Unconscious processes and self-actualization are the only important aspects of personality", "B. Personality is best understood through measurable, quantifiable trait dimensions rather than through subjective internal experiences or unconscious processes", "C. Clinical case studies are the only valid method for studying personality", "D. Personality cannot be studied scientifically"],
+          "correct": 1,
+          "explanation": "Trait theorists prioritize the empirical, quantitative measurement of personality dimensions that can be reliably assessed across individuals and situations. They would critique psychodynamic concepts (unconscious conflicts, defense mechanisms) as unverifiable and untestable, and humanistic concepts (self-actualization, real vs. ideal self) as too subjective. Trait approaches emphasize observable, measurable individual differences described by dimensions like the Big Five."
+        }
+      ]
+    }
+  ]
+}

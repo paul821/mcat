@@ -1,0 +1,416 @@
+{
+  "subtopic": "Cognition & Language",
+  "sectionId": "psych-soc",
+  "passageSets": [
+    {
+      "id": "cog-passage-1",
+      "passage": "Researchers investigated the availability heuristic and its influence on risk perception by surveying 300 adults about their estimates of mortality rates for various causes of death. Participants were asked to estimate the annual number of deaths in the United States from each of 20 causes, including heart disease, shark attacks, plane crashes, car accidents, diabetes, and terrorism. Results were compared to actual CDC mortality statistics. Participants significantly overestimated the frequency of dramatic, vivid causes of death that receive extensive media coverage: shark attacks were overestimated by a factor of 100, plane crashes by a factor of 15, and terrorism by a factor of 30. Conversely, participants significantly underestimated common but less sensational causes: heart disease was underestimated by 50%, diabetes by 60%, and stroke by 45%. The correlation between media coverage frequency (measured by news article counts) and participants' mortality estimates was r=0.85, p<0.001, far exceeding the correlation between actual mortality rates and estimates (r=0.32, p=0.04). Participants with higher media consumption showed stronger overestimation of dramatic causes. The researchers concluded that availability of vivid, easily recalled examples systematically distorts probability judgments.",
+      "questions": [
+        {
+          "id": "cog-1-q1",
+          "stem": "The availability heuristic leads to overestimation of shark attack deaths primarily because:",
+          "options": ["A. Shark attacks are statistically very common but unreported", "B. Vivid, emotionally charged events are more easily recalled, inflating perceived frequency", "C. Participants had direct personal experience with shark attacks", "D. The survey questions primed participants to think about rare events"],
+          "correct": 1,
+          "explanation": "The availability heuristic involves estimating the probability of events based on how easily examples come to mind. Shark attacks are dramatic, emotionally vivid events that receive disproportionate media coverage, making them highly available in memory. This ease of recall leads people to overestimate their frequency, even though they are statistically very rare."
+        },
+        {
+          "id": "cog-1-q2",
+          "stem": "The strong correlation between media coverage and mortality estimates (r=0.85) compared to the weak correlation with actual mortality rates (r=0.32) suggests that:",
+          "options": ["A. Media accurately reflects actual mortality statistics", "B. People's risk judgments are driven more by information availability than by actual statistical frequencies", "C. Actual mortality data is unreliable", "D. Media coverage has no effect on risk perception"],
+          "correct": 1,
+          "explanation": "The much stronger correlation between media coverage and mortality estimates indicates that people base their risk judgments on the availability of information in their environment (largely shaped by media) rather than on actual statistical frequencies. This demonstrates how the availability heuristic operates through the accessibility of information in memory, which is heavily influenced by media exposure."
+        },
+        {
+          "id": "cog-1-q3",
+          "stem": "The underestimation of heart disease deaths, despite it being the leading cause of death, can be explained by the concept of:",
+          "options": ["A. Anchoring bias from initial low estimates", "B. Low availability due to commonplace, non-dramatic nature of the events reducing memorability", "C. Confirmation bias causing selective attention to rare events", "D. The dunning-kruger effect in medical knowledge"],
+          "correct": 1,
+          "explanation": "Heart disease deaths, while extremely common, lack the dramatic, vivid quality that makes events memorable and easily recalled. Individual heart disease deaths rarely receive media coverage and do not produce the emotional impact of dramatic events like shark attacks. This low availability in memory leads to systematic underestimation of their frequency, despite their statistical prevalence."
+        },
+        {
+          "id": "cog-1-q4",
+          "stem": "A physician who diagnoses a rare disease more frequently after recently treating a patient with that disease is demonstrating:",
+          "options": ["A. Representativeness heuristic based on patient demographics", "B. Availability heuristic, where recent experience increases the perceived probability of the diagnosis", "C. Base rate neglect due to insufficient medical training", "D. Framing effects from how symptoms are described"],
+          "correct": 1,
+          "explanation": "The physician's recent experience with the rare disease makes it more available in memory, increasing the perceived likelihood of encountering it again. This is a classic example of the availability heuristic in clinical decision-making: recent, salient cases disproportionately influence diagnostic probability estimates, potentially leading to overdiagnosis of conditions recently encountered."
+        },
+        {
+          "id": "cog-1-q5",
+          "stem": "Which of the following strategies would be MOST effective in reducing the distorting effects of the availability heuristic on risk perception?",
+          "options": ["A. Encouraging people to watch more news coverage of dramatic events", "B. Providing statistical base rate information and encouraging analytical thinking over intuitive judgment", "C. Asking people to generate more examples of dramatic events from memory", "D. Increasing the vividness of descriptions of common causes of death"],
+          "correct": 1,
+          "explanation": "Providing actual statistical base rate information encourages a shift from intuitive, heuristic-based thinking (System 1) to more analytical, deliberative processing (System 2). When people have access to and are encouraged to use actual frequency data rather than relying on the ease of recall, they can make more accurate probability judgments that are less influenced by the availability heuristic."
+        }
+      ]
+    },
+    {
+      "id": "cog-passage-2",
+      "passage": "A neuropsychologist evaluated two patients with language disorders following stroke. Patient A, a 62-year-old man, suffered a stroke affecting the left inferior frontal gyrus (Broca's area). His speech was effortful and non-fluent, consisting primarily of content words with omission of function words and grammatical morphemes. A typical utterance was: 'Walk...dog...park...yesterday.' His comprehension of simple sentences was relatively preserved, but he had difficulty understanding syntactically complex sentences such as 'The boy that the girl chased was tall.' Repetition was impaired for long sentences but preserved for single words. Patient B, a 55-year-old woman, suffered a stroke affecting the left posterior superior temporal gyrus (Wernicke's area). Her speech was fluent with normal prosody and grammar but contained numerous paraphasias (word substitutions), neologisms (non-words), and empty speech devoid of content. A typical utterance was: 'I went to the thingy and got the plonker for the doohickey.' Her comprehension was severely impaired for both spoken and written language. Repetition was also impaired. Both patients showed preserved ability to produce emotional prosody and recognize emotional tones in others' speech.",
+      "questions": [
+        {
+          "id": "cog-2-q1",
+          "stem": "Patient A's speech pattern of using content words while omitting function words and grammatical morphemes is characteristic of:",
+          "options": ["A. Wernicke's aphasia with jargon speech", "B. Broca's aphasia with agrammatic, telegraphic speech", "C. Global aphasia with complete absence of speech", "D. Anomic aphasia with word-finding difficulties"],
+          "correct": 1,
+          "explanation": "Broca's aphasia is characterized by non-fluent, effortful speech that is agrammatic and telegraphic. Patients omit function words (the, is, was), grammatical morphemes (verb endings, plurals), and prepositions, producing speech that sounds like a telegram. Content words (nouns and verbs) are relatively preserved because they carry the primary semantic message."
+        },
+        {
+          "id": "cog-2-q2",
+          "stem": "Patient A's difficulty understanding 'The boy that the girl chased was tall' despite preserved comprehension of simple sentences demonstrates that Broca's area is involved in:",
+          "options": ["A. Basic word recognition and vocabulary", "B. Syntactic processing and understanding grammatically complex sentence structures", "C. Emotional processing of language", "D. Auditory perception of speech sounds"],
+          "correct": 1,
+          "explanation": "While Broca's aphasia was traditionally considered primarily a production disorder, Patient A's difficulty with syntactically complex sentences reveals that Broca's area also contributes to syntactic comprehension. The sentence requires parsing a relative clause structure to determine who chased whom, a grammatical operation that depends on intact Broca's area function."
+        },
+        {
+          "id": "cog-2-q3",
+          "stem": "Patient B's fluent but meaningless speech with neologisms and paraphasias is best explained by:",
+          "options": ["A. Intact motor speech production systems with impaired semantic processing and self-monitoring", "B. Damage to the motor cortex affecting articulation", "C. Intact comprehension with impaired motivation to communicate", "D. Damage to the cerebellum affecting speech coordination"],
+          "correct": 0,
+          "explanation": "In Wernicke's aphasia, the motor systems for speech production (located anteriorly) are intact, allowing fluent articulation with normal prosody and grammatical structure. However, the posterior language comprehension system is damaged, leading to impaired semantic processing and self-monitoring. Patients cannot select the correct words or detect their own errors, resulting in fluent but semantically empty or erroneous speech."
+        },
+        {
+          "id": "cog-2-q4",
+          "stem": "The preserved emotional prosody in both patients despite their language deficits is most likely because:",
+          "options": ["A. Emotional prosody does not involve any brain processing", "B. Emotional prosody is primarily processed by the right hemisphere, which was undamaged in both patients", "C. The left hemisphere controls all aspects of emotional expression", "D. Prosody is processed in the brainstem and does not involve cortical areas"],
+          "correct": 1,
+          "explanation": "Emotional prosody (the melodic, rhythmic, and tonal aspects of speech that convey emotion) is primarily processed by the right hemisphere, particularly the right temporoparietal and right frontal regions. Since both patients had left hemisphere strokes with intact right hemispheres, their ability to produce and perceive emotional prosody was preserved despite their left hemisphere language deficits."
+        },
+        {
+          "id": "cog-2-q5",
+          "stem": "If a third patient had damage to the arcuate fasciculus connecting Broca's and Wernicke's areas, the expected presentation would be:",
+          "options": ["A. Global aphasia with no speech production or comprehension", "B. Conduction aphasia with fluent speech and good comprehension but severely impaired repetition", "C. Broca's aphasia with non-fluent speech", "D. Pure word deafness with inability to hear speech"],
+          "correct": 1,
+          "explanation": "Damage to the arcuate fasciculus, the white matter tract connecting Wernicke's area (comprehension) to Broca's area (production), produces conduction aphasia. This is characterized by fluent speech (Broca's area intact), good comprehension (Wernicke's area intact), but severely impaired repetition because the auditory representation of heard speech cannot be transmitted to the motor speech production areas."
+        }
+      ]
+    },
+    {
+      "id": "cog-passage-3",
+      "passage": "A developmental psychologist conducted a cross-sectional study of cognitive development in children aged 2-12 years (N=200, 40 children per 2-year age band). Children were administered a battery of Piagetian conservation tasks (number, liquid quantity, mass, and weight), a class inclusion task, and a seriation task. Results showed clear age-related progression. Children aged 2-4 (preoperational stage) failed all conservation tasks, showing centration on perceptual features. When water was poured from a short, wide glass to a tall, thin glass, 95% of children in this age group stated the tall glass had more water. These children also showed animistic thinking, with 80% attributing feelings to inanimate objects. Children aged 7-8 showed transitional performance, passing number conservation (88%) before mass conservation (62%) and weight conservation (34%), demonstrating horizontal decalage. By ages 10-12, nearly all children passed all conservation tasks (96%) and demonstrated systematic logical thinking on the class inclusion task. The researchers also documented children's justifications, finding that conservers used three types of explanations: identity ('It's the same water'), reversibility ('You can pour it back'), and compensation ('It's taller but thinner').",
+      "questions": [
+        {
+          "id": "cog-3-q1",
+          "stem": "Centration, as demonstrated by preoperational children focusing on the height of the glass, refers to:",
+          "options": ["A. The ability to consider multiple dimensions simultaneously", "B. The tendency to focus on one perceptual feature while ignoring others", "C. The capacity for abstract logical reasoning", "D. The ability to reverse mental operations"],
+          "correct": 1,
+          "explanation": "Centration is a cognitive limitation of the preoperational stage in which children focus on (center on) a single perceptual dimension while neglecting other relevant dimensions. In the liquid conservation task, children center on the height of the water column while ignoring the compensating width, leading them to conclude that the taller glass contains more water despite the quantities being equal."
+        },
+        {
+          "id": "cog-3-q2",
+          "stem": "The finding that children pass number conservation before mass conservation and weight conservation is an example of:",
+          "options": ["A. Vertical decalage, where the same operation develops across stages", "B. Horizontal decalage, where the same logical operation is applied to different content at different times within the same stage", "C. Assimilation of new information into existing schemas", "D. The zone of proximal development"],
+          "correct": 1,
+          "explanation": "Horizontal decalage refers to the phenomenon where a cognitive operation (conservation) is mastered for one type of content (number) before being extended to other types of content (mass, weight) within the same developmental stage (concrete operational). This uneven development within a stage challenges Piaget's original notion that stage transitions involve simultaneous acquisition of all operations."
+        },
+        {
+          "id": "cog-3-q3",
+          "stem": "A child who explains conservation by saying 'You can pour it back and it would be the same' is demonstrating the cognitive operation of:",
+          "options": ["A. Centration on the action of pouring", "B. Reversibility, the ability to mentally reverse a transformation", "C. Egocentrism in perspective-taking", "D. Animistic thinking about the liquid"],
+          "correct": 1,
+          "explanation": "Reversibility is the cognitive ability to mentally reverse a physical transformation and understand that the original state can be restored. By recognizing that pouring the water back would restore the original appearance, the child demonstrates understanding that the transformation is reversible and therefore does not change the quantity. This operation emerges in the concrete operational stage."
+        },
+        {
+          "id": "cog-3-q4",
+          "stem": "Animistic thinking in the preoperational stage, where children attribute feelings to inanimate objects, reflects limitations in:",
+          "options": ["A. Sensory perception of objects", "B. The ability to distinguish between animate and inanimate entities based on biological knowledge", "C. Motor coordination when interacting with objects", "D. Short-term memory capacity for object features"],
+          "correct": 1,
+          "explanation": "Animistic thinking reflects the preoperational child's limited understanding of the distinction between living and non-living things. Children in this stage tend to attribute consciousness, feelings, and intentionality to inanimate objects (such as saying a rock is sad or a car is tired) because they have not yet developed a mature understanding of biological and psychological categories that distinguish animate from inanimate entities."
+        },
+        {
+          "id": "cog-3-q5",
+          "stem": "A major criticism of Piaget's theory of cognitive development is that:",
+          "options": ["A. Children never develop conservation abilities", "B. Research has shown that infants and young children possess more cognitive abilities than Piaget attributed to them, suggesting he underestimated early competence", "C. The stages occur in random order across cultures", "D. Adults never reach the formal operational stage"],
+          "correct": 1,
+          "explanation": "Subsequent research using simplified tasks and more sensitive methods has consistently shown that infants and young children possess cognitive abilities earlier than Piaget proposed. For example, infants demonstrate object permanence earlier than Piaget's timeline, and preschoolers can pass modified conservation tasks. This suggests Piaget's methods underestimated children's competencies, possibly because task demands masked their underlying abilities."
+        }
+      ]
+    },
+    {
+      "id": "cog-passage-4",
+      "passage": "Cognitive psychologists studied the framing effect on medical decision-making by presenting 240 medical students with identical clinical scenarios described using either gain-framed or loss-framed language. In the disease scenario, participants chose between two treatment options. Gain frame: 'Treatment A will save 200 out of 600 patients. Treatment B has a 1/3 probability of saving all 600 and a 2/3 probability of saving no one.' Loss frame: 'Treatment A will result in 400 out of 600 patients dying. Treatment B has a 1/3 probability that no one will die and a 2/3 probability that all 600 will die.' Despite the mathematical equivalence of these descriptions, framing significantly influenced choices: 72% chose Treatment A (certain option) in the gain frame, while only 22% chose Treatment A in the loss frame, chi-square(1)=60.2, p<0.001. Additional analysis showed that participants with higher numeracy scores were less susceptible to framing effects (r=-0.34 between numeracy and framing effect magnitude). Individual differences in need for cognition also predicted susceptibility, with low need-for-cognition participants showing larger framing effects (d=0.82) than high need-for-cognition participants (d=0.31).",
+      "questions": [
+        {
+          "id": "cog-4-q1",
+          "stem": "The reversal in preferences between gain and loss frames, despite mathematically equivalent options, violates which assumption of rational decision-making?",
+          "options": ["A. The assumption that people always seek to maximize utility", "B. The invariance principle, which holds that choices should not change based on how options are described", "C. The transitivity assumption in preference ordering", "D. The independence axiom in expected utility theory"],
+          "correct": 1,
+          "explanation": "The invariance principle (also called description invariance) holds that rational decision-makers should make the same choice regardless of how the options are described, as long as the underlying outcomes are identical. The framing effect violates this principle because the same outcomes, described as gains versus losses, produce dramatically different choices, revealing that people are not purely rational decision-makers."
+        },
+        {
+          "id": "cog-4-q2",
+          "stem": "According to Kahneman and Tversky's prospect theory, the preference for the certain option in the gain frame and the risky option in the loss frame reflects:",
+          "options": ["A. Equal sensitivity to gains and losses", "B. Risk aversion in the domain of gains and risk-seeking in the domain of losses", "C. Risk-seeking behavior in all decision domains", "D. Random choice unrelated to the frame"],
+          "correct": 1,
+          "explanation": "Prospect theory predicts that people are risk-averse when considering gains (preferring a certain gain over a gamble with equal expected value) and risk-seeking when considering losses (preferring a gamble over a certain loss of equal expected value). This asymmetry in risk attitudes between gain and loss domains explains the framing effect: the same outcome feels different depending on whether it is framed as a gain or a loss."
+        },
+        {
+          "id": "cog-4-q3",
+          "stem": "The finding that higher numeracy reduced susceptibility to framing effects is best explained by:",
+          "options": ["A. Numerate individuals being unable to understand the scenarios", "B. Greater ability to recognize the mathematical equivalence of differently framed options through analytical processing", "C. Numerate individuals always choosing the risky option", "D. Lower emotional reactivity in numerate individuals"],
+          "correct": 1,
+          "explanation": "Individuals with higher numeracy are better equipped to recognize that gain-framed and loss-framed descriptions are mathematically equivalent. They can engage in analytical processing (System 2) to compute expected values and compare options objectively, rather than relying on intuitive, affective responses (System 1) that are more susceptible to how information is presented."
+        },
+        {
+          "id": "cog-4-q4",
+          "stem": "The role of need for cognition in moderating framing effects supports the dual-process model because:",
+          "options": ["A. All individuals use the same cognitive processes for every decision", "B. High need-for-cognition individuals are more likely to engage deliberative System 2 processing, reducing susceptibility to intuitive biases", "C. Need for cognition is unrelated to cognitive processing style", "D. Low need-for-cognition individuals make better decisions overall"],
+          "correct": 1,
+          "explanation": "Need for cognition reflects individual differences in the tendency to engage in and enjoy effortful thinking. High need-for-cognition individuals are more likely to engage System 2 (deliberative, analytical) processing, which can override the intuitive, heuristic-based System 1 responses that produce framing effects. This moderating effect supports the dual-process framework by showing that individual differences in processing style affect susceptibility to cognitive biases."
+        },
+        {
+          "id": "cog-4-q5",
+          "stem": "In clinical practice, a surgeon who tells a patient 'This surgery has a 90% survival rate' versus 'This surgery has a 10% mortality rate' is using framing that would be expected to:",
+          "options": ["A. Have no effect on patient decisions because patients understand statistics", "B. Influence the patient's decision, with the survival frame increasing willingness to undergo surgery", "C. Make the patient more likely to choose surgery in the mortality frame", "D. Only affect patients with medical training"],
+          "correct": 1,
+          "explanation": "Based on framing effect research, presenting outcomes in terms of survival (gain frame) increases willingness to accept treatment compared to presenting the same information in terms of mortality (loss frame). The 90% survival rate sounds favorable and promotes risk-averse acceptance of the certain positive outcome, while the 10% mortality rate highlights potential loss and may trigger risk-seeking avoidance of the procedure."
+        }
+      ]
+    },
+    {
+      "id": "cog-passage-5",
+      "passage": "Researchers investigated functional fixedness and its impact on creative problem-solving using a modified version of Duncker's candle problem. Participants (N=120) were presented with a box of tacks, a candle, and a book of matches, and asked to attach the candle to the wall so it could burn without dripping wax on the table below. The solution involves emptying the box, tacking it to the wall as a shelf, and placing the candle on it. In the experimental condition, the tacks were presented inside the box (emphasizing its container function). In the control condition, the tacks were presented beside the empty box (making its shelf function more apparent). Results showed that only 23% of participants in the experimental condition solved the problem within the 10-minute time limit, compared to 67% in the control condition, chi-square(1)=24.1, p<0.001. Additionally, participants who had recently completed an unrelated creative thinking exercise ('think of unusual uses for common objects') showed higher solution rates in the experimental condition (45%) compared to those who completed a routine categorization task (15%). Eye-tracking data showed that participants who solved the problem spent significantly more time fixating on the box itself, while non-solvers fixated primarily on the tacks and candle.",
+      "questions": [
+        {
+          "id": "cog-5-q1",
+          "stem": "Functional fixedness in this experiment refers to participants':",
+          "options": ["A. Inability to see due to visual impairment", "B. Tendency to perceive the box only as a container for tacks, preventing them from seeing its potential as a shelf", "C. Failure to use the candle for its intended purpose", "D. Fixation on the correct solution from the beginning"],
+          "correct": 1,
+          "explanation": "Functional fixedness is a cognitive bias in which people have difficulty perceiving an object as being usable for purposes other than its typical function. When the tacks are inside the box, participants fixate on the box's container function and fail to reconceptualize it as a potential shelf or platform, blocking the creative solution to the problem."
+        },
+        {
+          "id": "cog-5-q2",
+          "stem": "The higher solution rate when tacks were presented beside the empty box occurred because:",
+          "options": ["A. The empty box was visually more attractive", "B. Separating the tacks from the box reduced the perceptual association between the box and its container function", "C. Participants in this condition were more intelligent", "D. The empty box provided a direct verbal hint about the solution"],
+          "correct": 1,
+          "explanation": "When the tacks are placed beside the empty box rather than inside it, the box is no longer being used as a container. This separation weakens the automatic association between the box and its container function, making it easier for participants to reconceptualize the box as a potential platform or shelf. The perceptual context directly influences how the box is mentally represented."
+        },
+        {
+          "id": "cog-5-q3",
+          "stem": "The beneficial effect of the creative thinking exercise on problem-solving performance is best explained by:",
+          "options": ["A. Physical warm-up effects on motor coordination", "B. Activation of divergent thinking and cognitive flexibility that counteracted functional fixedness", "C. Increased familiarity with the specific candle problem", "D. Social facilitation from the group exercise setting"],
+          "correct": 1,
+          "explanation": "The 'unusual uses' exercise activates divergent thinking, the cognitive process of generating multiple alternative solutions and considering objects in unconventional ways. This priming of cognitive flexibility directly counteracts functional fixedness by encouraging participants to consider non-obvious functions of objects, making them more likely to reconceptualize the box as a shelf."
+        },
+        {
+          "id": "cog-5-q4",
+          "stem": "The eye-tracking finding that solvers spent more time fixating on the box suggests that problem solving required:",
+          "options": ["A. Avoiding looking at any of the provided materials", "B. A representational change in which the box became the focus of attention as a potential tool", "C. Looking at the wall to find pre-existing attachment points", "D. Closing one's eyes to think more creatively"],
+          "correct": 1,
+          "explanation": "The eye-tracking data reveals that successful problem solving involved a representational change, shifting attention and mental representation from the box as a mere container to the box as a key element of the solution. Increased fixation on the box reflects the cognitive process of reconceptualizing its function, which is the critical insight needed to overcome functional fixedness."
+        },
+        {
+          "id": "cog-5-q5",
+          "stem": "Functional fixedness is an example of a broader category of obstacles to problem solving known as:",
+          "options": ["A. Algorithms that guarantee correct solutions", "B. Mental sets, which are tendencies to approach problems in fixed, habitual ways", "C. Heuristics that generally improve problem-solving efficiency", "D. Metacognitive strategies for monitoring comprehension"],
+          "correct": 1,
+          "explanation": "Mental set is a broader term for the tendency to approach problems using strategies or perspectives that have been successful in the past, even when they are inappropriate for the current problem. Functional fixedness is a specific type of mental set in which the fixed perspective involves the typical function of an object. Mental sets can be adaptive when problems are similar to past experiences but become obstacles when creative solutions are needed."
+        }
+      ]
+    },
+    {
+      "id": "cog-passage-6",
+      "passage": "A cognitive scientist investigated the representativeness heuristic using a series of probability judgment tasks with 200 college students. In one task, participants read a personality description of 'Linda': 'Linda is 31 years old, single, outspoken, and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations.' Participants then ranked the probability of various statements, including: (a) 'Linda is a bank teller,' and (b) 'Linda is a bank teller and is active in the feminist movement.' Despite the fact that the conjunction of two events (bank teller AND feminist) must be less probable than either event alone, 85% of participants rated statement (b) as more probable than statement (a). This conjunction fallacy persisted even when the logical relationship was explicitly explained (68% still committed the error) and when participants were statistics graduate students (58% error rate). Reaction time data showed that participants who committed the fallacy responded faster (M=4.2 s) than those who gave the logically correct answer (M=8.1 s), suggesting that the correct response required additional deliberative processing.",
+      "questions": [
+        {
+          "id": "cog-6-q1",
+          "stem": "The conjunction fallacy occurs in this study because participants:",
+          "options": ["A. Correctly apply probability theory to the problem", "B. Judge probability based on how representative Linda's description is of each category rather than using logical probability rules", "C. Misunderstand the meaning of the word 'probability'", "D. Believe that all bank tellers are feminists"],
+          "correct": 1,
+          "explanation": "The representativeness heuristic leads participants to judge probability based on how well Linda's description matches their stereotype of each category. Linda's description is more representative of a feminist bank teller than a bank teller in general, so participants rate the conjunction as more probable, violating the logical rule that a conjunction cannot be more probable than either of its components."
+        },
+        {
+          "id": "cog-6-q2",
+          "stem": "The finding that even statistics graduate students committed the conjunction fallacy at a 58% rate demonstrates that:",
+          "options": ["A. Statistical training completely eliminates cognitive biases", "B. Heuristic thinking can override formal statistical knowledge, though training provides some protection", "C. Statistics education is entirely ineffective", "D. Graduate students are worse at probability judgments than undergraduates"],
+          "correct": 1,
+          "explanation": "While statistics graduate students showed a reduced error rate (58% vs 85% for undergraduates), more than half still committed the fallacy. This demonstrates that heuristic, intuitive thinking (System 1) can override even formal statistical knowledge, though statistical training provides partial protection by strengthening analytical processing (System 2) that can detect the logical error."
+        },
+        {
+          "id": "cog-6-q3",
+          "stem": "The faster reaction times for participants who committed the conjunction fallacy compared to correct responders supports:",
+          "options": ["A. The idea that correct responses require more information", "B. A dual-process interpretation where the heuristic response is fast and intuitive while the correct response requires slower deliberative processing", "C. The notion that faster responses are always more accurate", "D. The idea that participants were guessing randomly"],
+          "correct": 1,
+          "explanation": "The reaction time pattern supports dual-process theory: the conjunction fallacy results from fast, intuitive System 1 processing (representativeness heuristic), while the correct response requires engaging slower, deliberative System 2 processing to override the intuitive response with logical probability rules. The additional time reflects the effortful computation needed to apply formal logical reasoning."
+        },
+        {
+          "id": "cog-6-q4",
+          "stem": "The representativeness heuristic differs from the availability heuristic in that representativeness involves:",
+          "options": ["A. Judging frequency based on ease of recall from memory", "B. Judging probability based on similarity to a prototype or stereotype of a category", "C. Making judgments based on the first piece of information encountered", "D. Adjusting estimates insufficiently from an initial anchor"],
+          "correct": 1,
+          "explanation": "The representativeness heuristic involves judging the probability that an instance belongs to a category based on how similar (representative) it is to the prototype or stereotype of that category. This differs from the availability heuristic, which judges frequency based on ease of recalling examples from memory, and from the anchoring heuristic, which involves insufficient adjustment from an initial starting point."
+        },
+        {
+          "id": "cog-6-q5",
+          "stem": "Another error predicted by the representativeness heuristic is base rate neglect, which in this context would involve participants:",
+          "options": ["A. Overweighting the base rate of bank tellers in the population", "B. Ignoring the prior probability of being a bank teller and basing judgments primarily on how well Linda fits the category description", "C. Correctly integrating base rate information with the personality description", "D. Refusing to make any probability judgments"],
+          "correct": 1,
+          "explanation": "Base rate neglect occurs when people ignore the prior probability (base rate) of an event and rely instead on how representative a specific case is of a category. In this context, participants should consider how common bank tellers are in the general population, but the representativeness heuristic causes them to focus instead on how well Linda's description matches the bank teller category, ignoring base rate information."
+        }
+      ]
+    },
+    {
+      "id": "cog-passage-7",
+      "passage": "Developmental linguists conducted a longitudinal study of language acquisition in 60 children from age 12 months to 6 years, documenting vocabulary growth, grammatical development, and pragmatic skills. At 12 months, most children (85%) produced their first recognizable words, with mean vocabulary size of 3 words (range: 0-10). Between 18-24 months, children experienced a vocabulary explosion, with mean vocabulary increasing from 50 to 300 words. Overextension errors were common during this period, with 92% of children using some words too broadly (for example, calling all four-legged animals 'doggy'). Telegraphic speech emerged around 24 months, with children combining two words following consistent word-order patterns (e.g., 'more juice,' 'daddy go'). By age 3, most children produced grammatically complete sentences but showed characteristic overregularization errors (e.g., 'goed' instead of 'went,' 'mouses' instead of 'mice') at a rate of approximately 25% of irregular forms. These errors decreased gradually, reaching less than 5% by age 6. Interestingly, children who were initially producing correct irregular forms (e.g., 'went') later began producing overregularized forms (e.g., 'goed'), demonstrating a U-shaped learning curve.",
+      "questions": [
+        {
+          "id": "cog-7-q1",
+          "stem": "Overregularization errors such as 'goed' and 'mouses' are significant because they demonstrate that children:",
+          "options": ["A. Are simply imitating incorrect adult speech patterns", "B. Have extracted grammatical rules and are actively applying them, even to exceptions", "C. Have deficient language processing abilities", "D. Are unable to learn irregular word forms"],
+          "correct": 1,
+          "explanation": "Overregularization errors are strong evidence that children are not simply imitating adult speech but are actively extracting and applying grammatical rules. Since adults never say 'goed' or 'mouses,' children cannot have learned these forms through imitation. Instead, they have abstracted the rule for past tense (-ed) and plural (-s) and are overapplying it to irregular forms, demonstrating productive rule use."
+        },
+        {
+          "id": "cog-7-q2",
+          "stem": "The U-shaped learning curve, where children first produce correct irregular forms, then overregularize, then return to correct forms, reflects:",
+          "options": ["A. A deterioration in language ability followed by recovery", "B. A shift from rote memorization of individual forms to rule-based processing, eventually incorporating exceptions", "C. Random fluctuation in performance unrelated to learning", "D. The influence of peer pressure on language use"],
+          "correct": 1,
+          "explanation": "The U-shaped curve reflects a transition in the underlying cognitive process. Initially, children memorize irregular forms as individual vocabulary items. When they discover the general grammatical rule (e.g., add -ed for past tense), they temporarily overapply it to everything, including exceptions. Eventually, they learn to integrate the general rule with stored exceptions, producing correct forms for both regular and irregular words."
+        },
+        {
+          "id": "cog-7-q3",
+          "stem": "The vocabulary explosion between 18-24 months is thought to be facilitated by children's acquisition of the:",
+          "options": ["A. Ability to produce complex grammatical sentences", "B. Naming insight, the understanding that every object has a word label", "C. Capacity for abstract mathematical reasoning", "D. Ability to read printed text"],
+          "correct": 1,
+          "explanation": "The vocabulary explosion is associated with the naming insight (or naming explosion), when children grasp the principle that objects, actions, and attributes have names. Once children understand that everything can be labeled with a word, they begin actively seeking and rapidly acquiring new vocabulary. This conceptual breakthrough drives the dramatic acceleration in word learning observed during this period."
+        },
+        {
+          "id": "cog-7-q4",
+          "stem": "Overextension errors, such as calling all four-legged animals 'doggy,' suggest that young children's early word meanings are:",
+          "options": ["A. Identical to adult word meanings from the start", "B. Based on perceptual similarities rather than fully developed categorical boundaries", "C. Randomly assigned with no systematic pattern", "D. Based exclusively on functional properties of objects"],
+          "correct": 1,
+          "explanation": "Overextension errors reveal that young children's word meanings are broader than adult meanings, often based on perceptual similarity (shape, size, movement) rather than on the precise categorical boundaries that adults use. Calling all four-legged animals 'doggy' suggests the child has linked the word to perceptual features (four legs, fur) shared by many animals rather than to the specific category of dogs."
+        },
+        {
+          "id": "cog-7-q5",
+          "stem": "Noam Chomsky would most likely argue that the consistent word-order patterns in children's two-word combinations reflect:",
+          "options": ["A. Direct instruction from parents on grammar rules", "B. An innate language acquisition device that provides universal grammatical principles", "C. Simple imitation of overheard adult sentences", "D. Random ordering that only appears systematic due to observer bias"],
+          "correct": 1,
+          "explanation": "Chomsky proposed that children possess an innate language acquisition device (LAD) containing universal grammar, a set of principles and parameters common to all human languages. The consistent word-order patterns in early speech (even though children have not been explicitly taught grammar rules) support the nativist view that children bring innate grammatical knowledge to the language learning process."
+        }
+      ]
+    },
+    {
+      "id": "cog-passage-8",
+      "passage": "Researchers studied the anchoring and adjustment heuristic in numerical estimation by asking participants (N=180) to make judgments about uncertain quantities after being exposed to arbitrary anchor values. In one experiment, a random number between 1 and 100 was generated by spinning a wheel in front of the participant. Participants were then asked whether the percentage of African nations in the United Nations was above or below that number, and then asked to provide their best estimate. Results showed a powerful anchoring effect: participants who received a high anchor (65) estimated a mean of 45%, while those who received a low anchor (10) estimated a mean of 25%, t(88)=8.7, p<0.001. In a second experiment, real estate agents (N=54) were asked to estimate the appraised value of a house after viewing the property and receiving an information packet that included either a high or low listing price. Despite their professional expertise, agents' estimates were significantly influenced by the listing price anchor. Agents who received the high listing price estimated values 12% higher than agents who received the low listing price (p<0.001). When debriefed, 81% of agents denied being influenced by the listing price.",
+      "questions": [
+        {
+          "id": "cog-8-q1",
+          "stem": "The anchoring effect observed in this study demonstrates that:",
+          "options": ["A. People always ignore numerical information when making estimates", "B. Exposure to an initial reference value biases subsequent numerical estimates toward that anchor, even when the anchor is arbitrary", "C. Random numbers have no psychological effect on judgment", "D. Only non-experts are susceptible to anchoring effects"],
+          "correct": 1,
+          "explanation": "The anchoring effect demonstrates that exposure to an initial numerical value (anchor) systematically biases subsequent estimates in the direction of the anchor. Even when participants know the anchor is randomly generated and therefore uninformative, they adjust insufficiently from the anchor, producing estimates that are pulled toward the anchor value."
+        },
+        {
+          "id": "cog-8-q2",
+          "stem": "The finding that professional real estate agents were susceptible to the anchoring effect despite their expertise suggests that:",
+          "options": ["A. Real estate agents lack relevant training", "B. Cognitive biases can persist even in domains of expertise, challenging the assumption that expertise eliminates bias", "C. The listing prices were providing valid market information", "D. Agents were deliberately inflating their estimates"],
+          "correct": 1,
+          "explanation": "The susceptibility of experienced real estate agents to anchoring demonstrates that domain expertise does not immunize professionals against cognitive biases. Despite their extensive experience in property valuation, the agents' estimates were systematically influenced by the arbitrary listing price anchor. This finding has important implications for professional judgment in many fields."
+        },
+        {
+          "id": "cog-8-q3",
+          "stem": "The agents' denial of being influenced by the listing price (81% denial rate) illustrates the concept of:",
+          "options": ["A. Deliberate deception by the agents", "B. Lack of introspective access to cognitive processes, or the bias blind spot", "C. Superior metacognitive awareness among experts", "D. Social desirability bias in the opposite direction"],
+          "correct": 1,
+          "explanation": "The agents' denial of anchoring influence illustrates the bias blind spot, the tendency to recognize cognitive biases in others while failing to recognize them in oneself. People often lack introspective access to the cognitive processes underlying their judgments, leading them to sincerely believe they are unbiased even when their behavior clearly demonstrates bias influence."
+        },
+        {
+          "id": "cog-8-q4",
+          "stem": "The anchoring and adjustment mechanism proposed by Tversky and Kahneman suggests that biased estimates result from:",
+          "options": ["A. Starting from the anchor value and making adjustments that are typically too large", "B. Starting from the anchor value and making adjustments that are typically insufficient to reach the correct answer", "C. Ignoring the anchor completely and guessing randomly", "D. Using the anchor as the final answer without any adjustment"],
+          "correct": 1,
+          "explanation": "The anchoring and adjustment model proposes that people use the anchor as a starting point and then adjust their estimate in the appropriate direction. However, these adjustments are typically insufficient, meaning people stop adjusting before reaching the correct value. This insufficient adjustment produces final estimates that are biased toward the anchor value."
+        },
+        {
+          "id": "cog-8-q5",
+          "stem": "In a salary negotiation, the anchoring heuristic predicts that the party who states the first number will have an advantage because:",
+          "options": ["A. The first number is always the most accurate", "B. The initial offer establishes an anchor that biases the subsequent negotiation range toward that value", "C. Stating a number first shows confidence that intimidates the other party", "D. The second party will always accept the first offer without negotiation"],
+          "correct": 1,
+          "explanation": "In negotiations, the first offer serves as an anchor that biases the subsequent negotiation in its direction. The other party's counteroffers and the final agreement tend to be pulled toward the initial anchor. This gives a strategic advantage to the party that sets the anchor, as long as the anchor is not so extreme as to be dismissed as unreasonable."
+        }
+      ]
+    },
+    {
+      "id": "cog-passage-9",
+      "passage": "A cognitive neuroscientist used functional MRI to investigate the neural correlates of deductive reasoning in 30 healthy adults. Participants evaluated syllogisms that varied in logical validity and believability. Valid-believable syllogisms (e.g., 'All roses are flowers. All flowers are plants. Therefore, all roses are plants.') were endorsed correctly by 97% of participants. Invalid-unbelievable syllogisms (e.g., 'All fish are trout. All trout live in trees. Therefore, all fish live in trees.') were correctly rejected by 95% of participants. However, two conditions produced high error rates. Valid-unbelievable syllogisms (e.g., 'All mammals walk. All whales are mammals. Therefore, all whales walk.') were incorrectly rejected by 42% of participants. Invalid-believable syllogisms (e.g., 'All living things need water. All roses need water. Therefore, all roses are living things.') were incorrectly endorsed by 61% of participants. Neuroimaging data showed that correct responses to conflict trials (where logic and belief diverged) were associated with increased activation of the right prefrontal cortex, particularly the inferior frontal gyrus. This activation was interpreted as reflecting cognitive inhibition of the prepotent belief-based response to allow logic-based evaluation.",
+      "questions": [
+        {
+          "id": "cog-9-q1",
+          "stem": "The high error rate for invalid-believable syllogisms demonstrates the phenomenon of:",
+          "options": ["A. Confirmation bias in hypothesis testing", "B. Belief bias, where the believability of a conclusion overrides logical evaluation", "C. Hindsight bias in evaluating reasoning", "D. The Barnum effect in personality assessment"],
+          "correct": 1,
+          "explanation": "Belief bias occurs when prior beliefs about the truth of a conclusion influence the evaluation of logical validity. When a conclusion is believable (consistent with real-world knowledge), people tend to accept it as logically valid even when the logical structure is invalid. This demonstrates that everyday reasoning is heavily influenced by content and beliefs, not just logical form."
+        },
+        {
+          "id": "cog-9-q2",
+          "stem": "The increased right prefrontal cortex activation during correct responses to conflict trials most likely reflects:",
+          "options": ["A. Emotional processing of the syllogism content", "B. Executive control and inhibition of the automatic belief-based response to enable logical analysis", "C. Visual processing of the written syllogisms", "D. Motor planning for the button press response"],
+          "correct": 1,
+          "explanation": "The right prefrontal cortex, particularly the inferior frontal gyrus, is associated with cognitive control and response inhibition. During conflict trials, the automatic, prepotent response is based on belief (accepting believable conclusions, rejecting unbelievable ones). Correct logical evaluation requires inhibiting this automatic response to instead evaluate the formal logical structure, which engages prefrontal inhibitory control processes."
+        },
+        {
+          "id": "cog-9-q3",
+          "stem": "The syllogism 'All living things need water. All roses need water. Therefore, all roses are living things' is logically invalid because:",
+          "options": ["A. Roses do not actually need water", "B. The conclusion does not necessarily follow from the premises; the middle term is not distributed, committing the fallacy of the undistributed middle", "C. The conclusion contradicts the first premise", "D. Syllogisms can never have true conclusions"],
+          "correct": 1,
+          "explanation": "This syllogism commits the fallacy of the undistributed middle. The middle term 'things that need water' is not distributed (not covering all members of the category) in either premise. Just because living things need water and roses need water does not logically guarantee that roses are living things, as non-living things could also need water. The conclusion happens to be true but does not follow logically from the premises."
+        },
+        {
+          "id": "cog-9-q4",
+          "stem": "The high accuracy on valid-believable and invalid-unbelievable trials compared to conflict trials suggests that:",
+          "options": ["A. Participants used pure logic on all trials", "B. When logic and belief converge, both heuristic and analytical processes produce the same answer, masking reliance on belief-based processing", "C. Participants only used belief-based processing on conflict trials", "D. Convergent trials are inherently easier to read"],
+          "correct": 1,
+          "explanation": "When logic and belief align (converge), the belief-based heuristic response and the logically correct response point to the same answer. High accuracy on these trials may reflect reliance on either process (or both), but cannot distinguish between them. Only when logic and belief conflict can we see whether participants are truly using logical reasoning or defaulting to belief-based heuristic processing."
+        },
+        {
+          "id": "cog-9-q5",
+          "stem": "An educational intervention designed to improve logical reasoning on belief-biased problems would most effectively target:",
+          "options": ["A. Increasing participants' general knowledge about the world", "B. Training participants to evaluate the logical structure of arguments independently of their content", "C. Teaching participants more vocabulary to understand premises", "D. Reducing participants' working memory capacity"],
+          "correct": 1,
+          "explanation": "Since belief bias occurs when content overrides formal logic, an effective intervention would teach participants to evaluate the logical structure (form) of arguments independently of their content (believability of conclusions). Training in formal logic, recognizing valid argument forms, and practicing the separation of logical validity from empirical truth would strengthen the analytical processes needed to overcome belief bias."
+        }
+      ]
+    },
+    {
+      "id": "cog-passage-10",
+      "passage": "A psycholinguist investigated bilingual language processing by studying code-switching patterns and language interference in Spanish-English bilinguals (N=80). Participants completed a picture-naming task in each language separately and in a mixed-language condition where they switched between languages on a trial-by-trial basis. Reaction times in the single-language condition were faster for dominant-language naming (English: M=620 ms) compared to non-dominant language (Spanish: M=710 ms). In the mixed-language condition, a significant switching cost was observed: naming was slower when participants switched languages (M=850 ms) compared to repeating the same language (M=680 ms), regardless of switch direction, F(1,78)=156.3, p<0.001. Interestingly, the switching cost was larger when switching to the dominant language (English switch cost: 210 ms) than when switching to the non-dominant language (Spanish switch cost: 110 ms), demonstrating the asymmetric switch cost effect. This paradoxical finding was explained by the inhibitory control model, which proposes that bilinguals must inhibit the dominant language more strongly when speaking in the non-dominant language, and this greater inhibition takes longer to overcome when switching back. ERP data showed that language switches elicited a larger N2 component, associated with conflict monitoring and cognitive control.",
+      "questions": [
+        {
+          "id": "cog-10-q1",
+          "stem": "The asymmetric switch cost, where switching into the dominant language is more costly than switching into the non-dominant language, is paradoxical because:",
+          "options": ["A. Dominant language processing should be equally fast in all conditions", "B. One would intuitively expect switching into the stronger, more practiced language to be easier, not harder", "C. Non-dominant language naming should always be slower", "D. Language switching should have no measurable cost"],
+          "correct": 1,
+          "explanation": "The asymmetric switch cost is paradoxical because switching TO the dominant (stronger, more fluent) language incurs a greater cost than switching TO the non-dominant language. Intuitively, one would expect that returning to the stronger language would be easy. The inhibitory control model resolves this paradox by explaining that the dominant language must be more strongly inhibited when speaking the non-dominant language, and this strong inhibition takes longer to release."
+        },
+        {
+          "id": "cog-10-q2",
+          "stem": "According to the inhibitory control model, bilinguals manage language interference by:",
+          "options": ["A. Forgetting their non-dominant language when speaking the dominant one", "B. Actively suppressing the non-target language, with greater suppression needed for the more dominant language", "C. Using completely separate brain regions for each language with no overlap", "D. Only activating one language at a time with no cross-language interference"],
+          "correct": 1,
+          "explanation": "The inhibitory control model proposes that both languages are simultaneously activated in bilinguals, creating potential interference. To speak in one language, the other must be actively inhibited. Because the dominant language is more strongly activated, it requires greater inhibitory effort to suppress when speaking the non-dominant language. This stronger inhibition then takes longer to release when switching back."
+        },
+        {
+          "id": "cog-10-q3",
+          "stem": "The enhanced N2 component observed during language switches is associated with:",
+          "options": ["A. Basic visual processing of the picture stimuli", "B. Conflict monitoring and executive control processes needed to manage language competition", "C. Auditory processing of the participant's own speech", "D. Memory retrieval of the picture name"],
+          "correct": 1,
+          "explanation": "The N2 ERP component is associated with conflict monitoring and cognitive control, typically generated by the anterior cingulate cortex and prefrontal regions. Its enhancement during language switches reflects the increased cognitive control demands of detecting and resolving the conflict between competing language representations when the task requires switching from one language to the other."
+        },
+        {
+          "id": "cog-10-q4",
+          "stem": "The bilingual advantage hypothesis suggests that the constant need to manage two languages may lead to:",
+          "options": ["A. Deficits in all cognitive domains due to divided resources", "B. Enhanced executive function and cognitive control abilities that transfer to non-linguistic tasks", "C. No differences between bilinguals and monolinguals in any cognitive abilities", "D. Superior linguistic abilities but impaired mathematical reasoning"],
+          "correct": 1,
+          "explanation": "The bilingual advantage hypothesis proposes that the constant need to monitor, inhibit, and switch between two languages exercises executive control processes, leading to enhanced cognitive control abilities in bilinguals compared to monolinguals. This advantage has been reported in tasks requiring inhibition, task switching, and conflict resolution, suggesting that bilingual language management trains domain-general executive functions."
+        },
+        {
+          "id": "cog-10-q5",
+          "stem": "The finding that reaction times were slower in the non-dominant language (Spanish: 710 ms) compared to the dominant language (English: 620 ms) in single-language conditions is most consistent with:",
+          "options": ["A. Spanish words being longer and harder to pronounce", "B. Weaker lexical representations and higher activation thresholds for non-dominant language words", "C. Participants deliberately slowing down when speaking Spanish", "D. The experimental apparatus measuring Spanish responses differently"],
+          "correct": 1,
+          "explanation": "Slower naming in the non-dominant language reflects weaker lexical representations (less practiced, less frequently accessed) and higher activation thresholds for retrieving words in that language. In frequency-based models of lexical access, words that are used more frequently have lower activation thresholds and are accessed more quickly. The dominant language benefits from more frequent use and practice."
+        }
+      ]
+    }
+  ]
+}

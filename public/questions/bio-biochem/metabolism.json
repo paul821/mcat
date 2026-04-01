@@ -1,0 +1,666 @@
+{
+  "subtopic": "Cellular Metabolism",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "met-ps-001",
+      "passage": "A biochemistry research team studied glycolysis in erythrocytes, which lack mitochondria and rely exclusively on anaerobic glycolysis for ATP production. The team measured the concentrations of glycolytic intermediates and found that glucose-6-phosphate, fructose-6-phosphate, and fructose-1,6-bisphosphate were present at steady-state concentrations indicating flux through the pathway. The net reaction of glycolysis converts one molecule of glucose into two molecules of pyruvate, with a net yield of 2 ATP (from substrate-level phosphorylation) and 2 NADH. In erythrocytes, pyruvate is reduced to lactate by lactate dehydrogenase (LDH) to regenerate NAD+, which is essential for the continued operation of glyceraldehyde-3-phosphate dehydrogenase. The researchers also investigated the 2,3-bisphosphoglycerate (2,3-BPG) shunt, a bypass unique to erythrocytes where 1,3-bisphosphoglycerate is converted to 2,3-BPG by bisphosphoglycerate mutase instead of being converted to 3-phosphoglycerate by phosphoglycerate kinase. This bypass sacrifices one ATP per molecule of 2,3-BPG produced. When erythrocytes were treated with iodoacetate, an irreversible inhibitor of glyceraldehyde-3-phosphate dehydrogenase (GAPDH), all glycolysis ceased and ATP levels rapidly declined, demonstrating that glycolysis is the sole source of ATP in these cells.",
+      "questions": [
+        {
+          "id": "met-q-001",
+          "stem": "The regeneration of NAD+ by lactate dehydrogenase is essential in erythrocytes because:",
+          "options": [
+            "A. lactate is the primary fuel for erythrocyte metabolism",
+            "B. without NAD+ regeneration, glyceraldehyde-3-phosphate dehydrogenase cannot function, and glycolysis would stop",
+            "C. NAD+ is needed for oxidative phosphorylation in the mitochondria",
+            "D. LDH directly produces ATP"
+          ],
+          "correct": 1,
+          "explanation": "Glyceraldehyde-3-phosphate dehydrogenase (GAPDH) requires NAD+ as a cofactor to oxidize glyceraldehyde-3-phosphate. Since erythrocytes lack mitochondria, they cannot regenerate NAD+ through the electron transport chain. The LDH reaction (pyruvate + NADH -> lactate + NAD+) provides the only mechanism to recycle NAD+, maintaining the supply needed for GAPDH to continue operating and glycolysis to proceed."
+        },
+        {
+          "id": "met-q-002",
+          "stem": "The 2,3-BPG shunt in erythrocytes sacrifices ATP production to:",
+          "options": [
+            "A. produce more NADH for the electron transport chain",
+            "B. generate 2,3-BPG, an allosteric regulator that decreases hemoglobin's oxygen affinity and promotes oxygen delivery to tissues",
+            "C. increase the rate of glycolysis",
+            "D. convert glucose directly to lactate"
+          ],
+          "correct": 1,
+          "explanation": "The 2,3-BPG shunt bypasses the ATP-generating step catalyzed by phosphoglycerate kinase, sacrificing one ATP to produce 2,3-BPG instead. This is a worthwhile tradeoff because 2,3-BPG is a critical allosteric regulator of hemoglobin that binds in the central cavity and stabilizes the T (deoxy) state, decreasing oxygen affinity and facilitating oxygen release to peripheral tissues. This is the primary physiological function of erythrocyte 2,3-BPG."
+        },
+        {
+          "id": "met-q-003",
+          "stem": "Iodoacetate inhibition of GAPDH stops glycolysis completely because:",
+          "options": [
+            "A. GAPDH is an allosteric regulator of hexokinase",
+            "B. GAPDH catalyzes an essential step in the middle of the glycolytic pathway; blocking it prevents all downstream reactions including both ATP-generating steps",
+            "C. iodoacetate also inhibits all other glycolytic enzymes",
+            "D. GAPDH is the only enzyme that uses glucose as a substrate"
+          ],
+          "correct": 1,
+          "explanation": "GAPDH catalyzes the oxidation and phosphorylation of glyceraldehyde-3-phosphate to 1,3-bisphosphoglycerate, a critical mid-pathway step. Blocking this enzyme prevents the formation of all downstream intermediates, including the substrates for the two substrate-level phosphorylation reactions (phosphoglycerate kinase and pyruvate kinase) that generate ATP. Since erythrocytes have no alternative ATP source, complete metabolic arrest occurs."
+        },
+        {
+          "id": "met-q-004",
+          "stem": "The net yield of 2 ATP per glucose in glycolysis results from:",
+          "options": [
+            "A. production of 2 ATP by substrate-level phosphorylation with no ATP consumed",
+            "B. investment of 2 ATP in the preparatory phase and production of 4 ATP in the payoff phase, giving a net of 2 ATP",
+            "C. oxidative phosphorylation producing 2 ATP per NADH",
+            "D. a single phosphorylation event producing 2 ATP"
+          ],
+          "correct": 1,
+          "explanation": "Glycolysis invests 2 ATP in the preparatory (energy investment) phase: one ATP at hexokinase (glucose to glucose-6-phosphate) and one at PFK-1 (fructose-6-phosphate to fructose-1,6-bisphosphate). The payoff phase generates 4 ATP through substrate-level phosphorylation: 2 ATP from phosphoglycerate kinase and 2 ATP from pyruvate kinase (two of each because the 6-carbon sugar was split into two 3-carbon molecules). Net yield: 4 - 2 = 2 ATP."
+        },
+        {
+          "id": "met-q-005",
+          "stem": "In erythrocytes, pyruvate is the end product of glycolysis rather than entering the TCA cycle because:",
+          "options": [
+            "A. erythrocytes express a unique form of pyruvate that cannot enter mitochondria",
+            "B. erythrocytes lack mitochondria and therefore cannot perform the TCA cycle or oxidative phosphorylation",
+            "C. pyruvate kinase in erythrocytes is inactive",
+            "D. the TCA cycle does not accept pyruvate as a substrate"
+          ],
+          "correct": 1,
+          "explanation": "Mature mammalian erythrocytes are unique in completely lacking mitochondria, having expelled them during differentiation. Without mitochondria, erythrocytes cannot perform the TCA cycle (which occurs in the mitochondrial matrix) or oxidative phosphorylation (which occurs at the inner mitochondrial membrane). Consequently, pyruvate must be reduced to lactate to regenerate NAD+, and glycolysis is the sole ATP-producing pathway."
+        }
+      ]
+    },
+    {
+      "id": "met-ps-002",
+      "passage": "Researchers investigated the regulation of the pyruvate dehydrogenase complex (PDC), which catalyzes the irreversible oxidative decarboxylation of pyruvate to acetyl-CoA, CO2, and NADH. The PDC is a massive multi-enzyme complex consisting of three enzyme components: pyruvate dehydrogenase (E1), dihydrolipoyl transacetylase (E2), and dihydrolipoyl dehydrogenase (E3), requiring five coenzymes: thiamine pyrophosphate (TPP), lipoic acid, CoA, FAD, and NAD+. The complex is regulated by covalent modification: pyruvate dehydrogenase kinase (PDK) phosphorylates and inactivates E1, while pyruvate dehydrogenase phosphatase (PDP) dephosphorylates and reactivates it. PDK is activated by elevated ratios of acetyl-CoA/CoA, NADH/NAD+, and ATP/ADP, which signal energy abundance. PDK is inhibited by pyruvate, which signals substrate availability. Dichloroacetate (DCA), a drug tested in cancer metabolism studies, inhibits PDK and thus keeps the PDC in its active (dephosphorylated) form. In patients with PDC deficiency, lactate levels are chronically elevated because pyruvate cannot be efficiently converted to acetyl-CoA and instead accumulates, driving the LDH equilibrium toward lactate production. These patients exhibit lactic acidosis and neurological dysfunction.",
+      "questions": [
+        {
+          "id": "met-q-006",
+          "stem": "The PDC reaction is considered the critical link between glycolysis and the TCA cycle because:",
+          "options": [
+            "A. it directly produces ATP for the cell",
+            "B. it converts pyruvate (the glycolytic end product) to acetyl-CoA (the TCA cycle entry substrate), connecting carbohydrate metabolism to the citric acid cycle",
+            "C. it occurs during glycolysis as the final step",
+            "D. it regenerates glucose from acetyl-CoA"
+          ],
+          "correct": 1,
+          "explanation": "The PDC bridges glycolysis and the TCA cycle by converting pyruvate (the 3-carbon product of glycolysis) to acetyl-CoA (the 2-carbon unit that enters the TCA cycle by condensing with oxaloacetate to form citrate). This reaction occurs in the mitochondrial matrix and is irreversible, meaning acetyl-CoA derived from pyruvate is committed to oxidation in the TCA cycle or to fatty acid synthesis. This makes PDC a critical regulatory point."
+        },
+        {
+          "id": "met-q-007",
+          "stem": "PDK activation by high acetyl-CoA/CoA and NADH/NAD+ ratios represents:",
+          "options": [
+            "A. feed-forward activation of the pathway",
+            "B. product inhibition, where accumulation of PDC products signals energy sufficiency and reduces further pyruvate oxidation",
+            "C. substrate activation of the complex",
+            "D. allosteric activation that increases PDC activity"
+          ],
+          "correct": 1,
+          "explanation": "Acetyl-CoA and NADH are direct products of the PDC reaction. When these products accumulate (high ratios relative to CoA and NAD+), it signals that the TCA cycle and electron transport chain are saturated and the cell has sufficient energy. PDK activation under these conditions phosphorylates and inactivates PDC, preventing further pyruvate oxidation. This is a classic feedback mechanism that matches PDC activity to cellular energy status."
+        },
+        {
+          "id": "met-q-008",
+          "stem": "The five coenzymes required by the PDC are derived from which vitamins?",
+          "options": [
+            "A. Vitamins A, C, D, E, and K",
+            "B. Thiamine (B1), riboflavin (B2), niacin (B3), pantothenic acid (B5), and lipoic acid",
+            "C. Only vitamin C and vitamin D",
+            "D. Folate, B12, B6, biotin, and vitamin E"
+          ],
+          "correct": 1,
+          "explanation": "The five coenzymes of the PDC are derived from B vitamins and lipoic acid: TPP from thiamine (B1), FAD from riboflavin (B2), NAD+ from niacin (B3), CoA from pantothenic acid (B5), and lipoic acid (sometimes classified as a vitamin-like compound). A deficiency in any of these vitamins can impair PDC function, which is why B vitamin deficiencies (particularly thiamine deficiency in beriberi and Wernicke-Korsakoff syndrome) cause serious metabolic consequences."
+        },
+        {
+          "id": "met-q-009",
+          "stem": "DCA treatment would be expected to increase:",
+          "options": [
+            "A. lactate production by activating PDK",
+            "B. pyruvate oxidation to acetyl-CoA by inhibiting PDK and keeping PDC in its active dephosphorylated state",
+            "C. glucose production through gluconeogenesis",
+            "D. fatty acid oxidation in the mitochondria"
+          ],
+          "correct": 1,
+          "explanation": "DCA inhibits pyruvate dehydrogenase kinase (PDK), preventing the phosphorylation that would inactivate the PDC. With PDK inhibited, the PDC remains in its active (dephosphorylated) form, increasing the conversion of pyruvate to acetyl-CoA. This reduces pyruvate and lactate levels and increases mitochondrial oxidative metabolism. DCA has been investigated as a treatment for lactic acidosis and as a cancer metabolism modulator."
+        },
+        {
+          "id": "met-q-010",
+          "stem": "Lactic acidosis in PDC deficiency occurs because:",
+          "options": [
+            "A. the TCA cycle produces excess lactate",
+            "B. pyruvate accumulates due to impaired conversion to acetyl-CoA, driving the LDH equilibrium toward lactate production, which dissociates to produce H+ ions",
+            "C. lactate dehydrogenase is overexpressed in these patients",
+            "D. the electron transport chain produces lactic acid directly"
+          ],
+          "correct": 1,
+          "explanation": "When PDC is deficient, pyruvate cannot be efficiently converted to acetyl-CoA and accumulates. The elevated pyruvate concentration drives the near-equilibrium LDH reaction toward lactate production (pyruvate + NADH -> lactate + NAD+). Lactic acid is a moderately strong acid that dissociates at physiological pH to produce lactate and H+ ions, lowering blood pH and causing metabolic acidosis. The brain is particularly vulnerable because it relies heavily on glucose oxidation."
+        }
+      ]
+    },
+    {
+      "id": "met-ps-003",
+      "passage": "A study of mitochondrial metabolism examined the TCA cycle (also called the citric acid cycle or Krebs cycle) in isolated liver mitochondria. The researchers added various substrates and inhibitors while monitoring oxygen consumption and intermediate accumulation. When malonate (a competitive inhibitor of succinate dehydrogenase) was added, succinate accumulated while oxaloacetate levels dropped. When arsenite (an inhibitor of alpha-ketoglutarate dehydrogenase) was added, alpha-ketoglutarate accumulated while downstream intermediates were depleted. The complete oxidation of one acetyl-CoA through the TCA cycle yields 3 NADH (at isocitrate dehydrogenase, alpha-ketoglutarate dehydrogenase, and malate dehydrogenase), 1 FADH2 (at succinate dehydrogenase), and 1 GTP (at succinyl-CoA synthetase, equivalent to ATP). The researchers noted that several TCA cycle intermediates serve as biosynthetic precursors: citrate is exported to the cytoplasm for fatty acid synthesis, alpha-ketoglutarate and oxaloacetate are precursors for amino acid synthesis (glutamate and aspartate, respectively), and succinyl-CoA is needed for heme synthesis. These biosynthetic withdrawals (cataplerosis) must be balanced by anaplerotic reactions that replenish cycle intermediates, the most important being the carboxylation of pyruvate to oxaloacetate by pyruvate carboxylase.",
+      "questions": [
+        {
+          "id": "met-q-011",
+          "stem": "Malonate inhibition of succinate dehydrogenase causes succinate accumulation because:",
+          "options": [
+            "A. malonate activates the enzyme that produces succinate",
+            "B. malonate competitively blocks succinate oxidation to fumarate while succinate continues to be produced by succinyl-CoA synthetase upstream",
+            "C. malonate converts all fumarate to succinate",
+            "D. malonate inhibits the electron transport chain"
+          ],
+          "correct": 1,
+          "explanation": "Malonate is a structural analog of succinate that competitively inhibits succinate dehydrogenase (Complex II), blocking the conversion of succinate to fumarate. Meanwhile, the upstream reaction (succinyl-CoA synthetase) continues to produce succinate. Since the pathway to consume succinate is blocked but the pathway to produce it continues, succinate accumulates. Downstream intermediates (fumarate, malate, oxaloacetate) become depleted."
+        },
+        {
+          "id": "met-q-012",
+          "stem": "The total energy yield from oxidizing one molecule of acetyl-CoA in the TCA cycle is equivalent to approximately:",
+          "options": [
+            "A. 2 ATP",
+            "B. 10 ATP, calculated as 3 NADH (7.5 ATP) + 1 FADH2 (1.5 ATP) + 1 GTP (1 ATP)",
+            "C. 36 ATP",
+            "D. 4 ATP"
+          ],
+          "correct": 1,
+          "explanation": "Each NADH generates approximately 2.5 ATP through oxidative phosphorylation (3 NADH x 2.5 = 7.5 ATP), each FADH2 generates approximately 1.5 ATP (1 FADH2 x 1.5 = 1.5 ATP), and 1 GTP is equivalent to 1 ATP. Total: 7.5 + 1.5 + 1 = 10 ATP equivalents per acetyl-CoA. This represents the energy captured by the TCA cycle from the two-carbon acetyl group."
+        },
+        {
+          "id": "met-q-013",
+          "stem": "Pyruvate carboxylase is classified as an anaplerotic enzyme because:",
+          "options": [
+            "A. it removes intermediates from the TCA cycle",
+            "B. it replenishes oxaloacetate, a TCA cycle intermediate, ensuring that the cycle can continue to operate when intermediates are withdrawn for biosynthesis",
+            "C. it converts acetyl-CoA to pyruvate",
+            "D. it produces CO2 as a byproduct of the TCA cycle"
+          ],
+          "correct": 1,
+          "explanation": "Anaplerotic reactions replenish TCA cycle intermediates that have been diverted for biosynthetic purposes. Pyruvate carboxylase catalyzes the carboxylation of pyruvate to oxaloacetate (pyruvate + CO2 + ATP -> oxaloacetate + ADP + Pi), the most important anaplerotic reaction. Without this replenishment, the withdrawal of intermediates for amino acid, fatty acid, and heme synthesis would deplete the cycle and halt oxidative metabolism."
+        },
+        {
+          "id": "met-q-014",
+          "stem": "Citrate export to the cytoplasm for fatty acid synthesis illustrates the concept that the TCA cycle:",
+          "options": [
+            "A. functions only in energy production",
+            "B. serves as a metabolic hub that provides biosynthetic precursors in addition to generating energy",
+            "C. is irrelevant to anabolic metabolism",
+            "D. operates independently of cytoplasmic metabolism"
+          ],
+          "correct": 1,
+          "explanation": "The TCA cycle is amphibolic, meaning it participates in both catabolism (energy production) and anabolism (biosynthesis). Citrate exported to the cytoplasm is cleaved by ATP-citrate lyase to produce acetyl-CoA and oxaloacetate. The cytoplasmic acetyl-CoA serves as the building block for fatty acid synthesis. This dual function makes the TCA cycle a central metabolic hub connecting carbohydrate, lipid, and amino acid metabolism."
+        },
+        {
+          "id": "met-q-015",
+          "stem": "Succinate dehydrogenase is unique among TCA cycle enzymes because:",
+          "options": [
+            "A. it is the only enzyme located in the cytoplasm",
+            "B. it is embedded in the inner mitochondrial membrane and also functions as Complex II of the electron transport chain",
+            "C. it does not require any cofactors",
+            "D. it catalyzes a reversible reaction that produces ATP"
+          ],
+          "correct": 1,
+          "explanation": "Succinate dehydrogenase is the only TCA cycle enzyme that is an integral membrane protein, embedded in the inner mitochondrial membrane. It serves dual functions: as a TCA cycle enzyme (oxidizing succinate to fumarate) and as Complex II of the electron transport chain (transferring electrons from FADH2 to ubiquinone/coenzyme Q). This physical connection allows direct coupling of the TCA cycle to the electron transport chain."
+        }
+      ]
+    },
+    {
+      "id": "met-ps-004",
+      "passage": "A physiology laboratory investigated oxidative phosphorylation by measuring oxygen consumption and ATP synthesis in isolated mitochondria under various conditions. When NADH-linked substrates (malate and glutamate) were provided, electrons entered the electron transport chain (ETC) at Complex I (NADH dehydrogenase), passed through ubiquinone, Complex III (cytochrome bc1), cytochrome c, and Complex IV (cytochrome c oxidase), ultimately reducing O2 to H2O. When succinate was provided, electrons entered at Complex II (succinate dehydrogenase), bypassing Complex I. The researchers measured proton pumping: Complex I translocates 4 H+, Complex III translocates 4 H+, and Complex IV translocates 2 H+ per pair of electrons, creating the proton motive force across the inner mitochondrial membrane. ATP synthase (Complex V) uses this proton gradient to drive ATP synthesis, requiring approximately 4 H+ per ATP. Addition of the uncoupler 2,4-dinitrophenol (DNP) dissipated the proton gradient, resulting in maximal oxygen consumption but no ATP synthesis. The energy was instead released as heat. Oligomycin, an inhibitor of the proton channel of ATP synthase, blocked ATP synthesis and also decreased oxygen consumption, demonstrating tight coupling between electron transport and phosphorylation in normal mitochondria.",
+      "questions": [
+        {
+          "id": "met-q-016",
+          "stem": "NADH generates more ATP than FADH2 because:",
+          "options": [
+            "A. NADH has more chemical energy stored in its bonds",
+            "B. NADH donates electrons at Complex I, which pumps protons, while FADH2 donates at Complex II, which does not pump protons, resulting in fewer protons translocated per electron pair",
+            "C. FADH2 is not used by the electron transport chain",
+            "D. NADH directly donates electrons to oxygen"
+          ],
+          "correct": 1,
+          "explanation": "NADH donates electrons to Complex I, and the electron pair passes through three proton-pumping complexes (I, III, and IV), translocating a total of 10 H+. FADH2 donates electrons to Complex II, which does not pump protons, so the electrons only pass through two proton-pumping complexes (III and IV), translocating 6 H+. With approximately 4 H+ needed per ATP, NADH yields ~2.5 ATP while FADH2 yields ~1.5 ATP."
+        },
+        {
+          "id": "met-q-017",
+          "stem": "DNP uncouples oxidative phosphorylation by:",
+          "options": [
+            "A. inhibiting Complex IV and preventing oxygen reduction",
+            "B. carrying protons across the inner mitochondrial membrane, dissipating the proton gradient so that electron transport continues without driving ATP synthesis",
+            "C. blocking the proton channel of ATP synthase",
+            "D. inhibiting the TCA cycle enzymes"
+          ],
+          "correct": 1,
+          "explanation": "DNP is a lipophilic weak acid that can shuttle protons across the inner mitochondrial membrane, bypassing ATP synthase. By dissipating the proton gradient, DNP uncouples electron transport from ATP synthesis. The electron transport chain continues to pump protons and consume oxygen (actually at an increased rate because there is no back-pressure from the gradient), but the energy is released as heat instead of being used to make ATP."
+        },
+        {
+          "id": "met-q-018",
+          "stem": "Oligomycin decreases oxygen consumption because:",
+          "options": [
+            "A. it directly inhibits Complex IV",
+            "B. by blocking ATP synthase's proton channel, protons cannot flow back through it, causing the proton gradient to build up and resist further proton pumping by the ETC complexes",
+            "C. it degrades cytochrome c",
+            "D. it prevents ubiquinone from accepting electrons"
+          ],
+          "correct": 1,
+          "explanation": "In coupled mitochondria, electron transport and ATP synthesis are linked through the proton gradient. Oligomycin blocks the proton channel (Fo subunit) of ATP synthase, preventing protons from flowing back into the matrix. Without this relief valve, the proton gradient builds to a maximum and creates back-pressure that makes it thermodynamically unfavorable for the ETC complexes to pump additional protons, thereby slowing electron transport and oxygen consumption."
+        },
+        {
+          "id": "met-q-019",
+          "stem": "The chemiosmotic hypothesis, proposed by Peter Mitchell, states that ATP synthesis is driven by:",
+          "options": [
+            "A. direct transfer of phosphate groups from ETC intermediates to ADP",
+            "B. the electrochemical proton gradient across the inner mitochondrial membrane, which stores the energy from electron transport and drives ATP synthase",
+            "C. substrate-level phosphorylation at each ETC complex",
+            "D. the chemical energy of oxygen reduction alone"
+          ],
+          "correct": 1,
+          "explanation": "The chemiosmotic hypothesis explains that the energy released during electron transport is used to pump protons from the mitochondrial matrix to the intermembrane space, creating an electrochemical gradient (proton motive force) composed of both a pH gradient and a membrane potential. This stored energy drives protons back through ATP synthase, which harnesses the flow of protons to catalyze the phosphorylation of ADP to ATP."
+        },
+        {
+          "id": "met-q-020",
+          "stem": "If cyanide (a Complex IV inhibitor) is added to mitochondria, the expected result is:",
+          "options": [
+            "A. increased oxygen consumption as the ETC works harder",
+            "B. complete cessation of electron transport, oxygen consumption, and ATP synthesis because the terminal electron acceptor cannot be reduced",
+            "C. increased ATP production through alternative pathways",
+            "D. proton gradient formation without electron transport"
+          ],
+          "correct": 1,
+          "explanation": "Cyanide binds to Complex IV (cytochrome c oxidase) and blocks the transfer of electrons to molecular oxygen, the terminal electron acceptor. Since electrons cannot be passed to oxygen, all upstream electron carriers become fully reduced and the entire ETC stops. Without electron transport, proton pumping ceases, the proton gradient dissipates, and ATP synthase stops producing ATP. This is why cyanide is rapidly lethal."
+        }
+      ]
+    },
+    {
+      "id": "met-ps-005",
+      "passage": "Researchers studying gluconeogenesis examined the pathway by which liver cells synthesize glucose from non-carbohydrate precursors during fasting. Gluconeogenesis is essentially the reversal of glycolysis, but three irreversible glycolytic reactions must be bypassed by different enzymes: (1) pyruvate carboxylase and phosphoenolpyruvate carboxykinase (PEPCK) bypass pyruvate kinase, (2) fructose-1,6-bisphosphatase (FBPase-1) bypasses phosphofructokinase-1 (PFK-1), and (3) glucose-6-phosphatase bypasses hexokinase/glucokinase. The researchers found that gluconeogenic precursors include lactate (from anaerobic glycolysis in muscle), glycerol (from lipolysis of triglycerides in adipose tissue), and glucogenic amino acids (particularly alanine from the glucose-alanine cycle). Notably, acetyl-CoA cannot serve as a net gluconeogenic precursor because the two carbons entering the TCA cycle as acetyl-CoA are lost as CO2 in the isocitrate dehydrogenase and alpha-ketoglutarate dehydrogenase reactions. Gluconeogenesis is stimulated by glucagon through cAMP-mediated increases in PEPCK gene transcription and by cortisol, while insulin suppresses gluconeogenesis. The researchers calculated that gluconeogenesis from 2 lactate to 1 glucose requires 6 ATP equivalents (4 ATP + 2 GTP), making it energetically costly.",
+      "questions": [
+        {
+          "id": "met-q-021",
+          "stem": "Gluconeogenesis requires bypass enzymes for three glycolytic reactions because:",
+          "options": [
+            "A. all glycolytic reactions are reversible under cellular conditions",
+            "B. these three reactions are thermodynamically irreversible under cellular conditions and have such large negative free energy changes that they cannot be simply reversed",
+            "C. the bypass enzymes are faster than the glycolytic enzymes",
+            "D. only three enzymes are shared between the two pathways"
+          ],
+          "correct": 1,
+          "explanation": "The reactions catalyzed by hexokinase/glucokinase, PFK-1, and pyruvate kinase have large negative free energy changes under cellular conditions, making them essentially irreversible. Simply reversing these reactions would require an impossible input of energy. Gluconeogenesis therefore uses different enzymes with different reaction mechanisms to bypass these steps, coupling them to energetically favorable reactions (like GTP hydrolysis) to make the reverse direction thermodynamically feasible."
+        },
+        {
+          "id": "met-q-022",
+          "stem": "Acetyl-CoA cannot be a net gluconeogenic precursor because:",
+          "options": [
+            "A. acetyl-CoA cannot enter the TCA cycle",
+            "B. the two carbons from acetyl-CoA that enter the TCA cycle are completely oxidized to CO2 by isocitrate dehydrogenase and alpha-ketoglutarate dehydrogenase before oxaloacetate can be regenerated for gluconeogenesis",
+            "C. acetyl-CoA is converted directly to glucose in the cytoplasm",
+            "D. the PDC reaction is reversible, converting acetyl-CoA back to pyruvate"
+          ],
+          "correct": 1,
+          "explanation": "When acetyl-CoA enters the TCA cycle by condensing with oxaloacetate to form citrate, the two acetyl carbons are lost as CO2 in the subsequent decarboxylation reactions (isocitrate to alpha-ketoglutarate, and alpha-ketoglutarate to succinyl-CoA). Therefore, there is no net production of oxaloacetate (the gluconeogenic precursor) from acetyl-CoA. This is why fatty acids (which are degraded to acetyl-CoA) cannot be converted to glucose in animals."
+        },
+        {
+          "id": "met-q-023",
+          "stem": "The glucose-alanine cycle between muscle and liver functions to:",
+          "options": [
+            "A. produce alanine in the liver for muscle use",
+            "B. transport amino nitrogen from muscle to liver in a non-toxic form while recycling carbon skeletons between the two tissues",
+            "C. synthesize fatty acids from amino acids",
+            "D. produce ketone bodies for brain metabolism"
+          ],
+          "correct": 1,
+          "explanation": "In the glucose-alanine cycle, muscle transamination converts pyruvate to alanine (using amino groups from branched-chain amino acid degradation). Alanine is transported to the liver, where it is transaminated back to pyruvate (releasing the amino group for urea synthesis). The pyruvate is then used for gluconeogenesis, and the newly synthesized glucose returns to muscle. This cycle safely transports potentially toxic ammonia as alanine and recycles glucose carbon between tissues."
+        },
+        {
+          "id": "met-q-024",
+          "stem": "Glucagon stimulates gluconeogenesis through cAMP-mediated PEPCK transcription to ensure:",
+          "options": [
+            "A. blood glucose decreases during fasting",
+            "B. hepatic glucose production increases during fasting to maintain blood glucose for glucose-dependent tissues like the brain",
+            "C. glycolysis is activated in the liver",
+            "D. insulin secretion increases"
+          ],
+          "correct": 1,
+          "explanation": "Glucagon is secreted by pancreatic alpha cells when blood glucose falls during fasting. By activating cAMP signaling in hepatocytes, glucagon increases transcription of PEPCK (and other gluconeogenic enzymes), enhancing the liver's capacity to produce glucose from lactate, amino acids, and glycerol. This hepatic glucose production is critical for maintaining blood glucose levels for the brain and other glucose-dependent tissues during periods without food intake."
+        },
+        {
+          "id": "met-q-025",
+          "stem": "The high energy cost of gluconeogenesis (6 ATP equivalents per glucose) is significant because:",
+          "options": [
+            "A. it means gluconeogenesis can only occur when energy is abundant from fatty acid oxidation, ensuring that glucose is synthesized only when the cell can afford it",
+            "B. it makes gluconeogenesis impossible under any conditions",
+            "C. the ATP is generated from glycolysis simultaneously",
+            "D. it indicates that gluconeogenesis is more efficient than glycolysis"
+          ],
+          "correct": 0,
+          "explanation": "Gluconeogenesis requires 6 ATP equivalents per glucose (compared to 2 ATP generated by glycolysis), making it an energy-intensive process. This energy is provided primarily by fatty acid beta-oxidation, which generates abundant NADH, FADH2, and acetyl-CoA (for the TCA cycle) that fuel oxidative phosphorylation. The availability of fatty acids during fasting ensures that the liver has sufficient energy to drive gluconeogenesis when it is physiologically needed."
+        }
+      ]
+    },
+    {
+      "id": "met-ps-006",
+      "passage": "A lipid metabolism research group studied fatty acid beta-oxidation in liver mitochondria. Long-chain fatty acids (C16-C20) require the carnitine shuttle system for transport across the inner mitochondrial membrane, as acyl-CoA cannot directly cross this barrier. Carnitine palmitoyltransferase I (CPT-I), located on the outer mitochondrial membrane, converts palmitoyl-CoA to palmitoylcarnitine, which is transported by carnitine-acylcarnitine translocase. CPT-II on the inner membrane regenerates palmitoyl-CoA inside the matrix. CPT-I is inhibited by malonyl-CoA, the first committed intermediate in fatty acid synthesis, providing reciprocal regulation between synthesis and oxidation. Each cycle of beta-oxidation removes a two-carbon unit as acetyl-CoA while producing one FADH2 and one NADH. Complete oxidation of palmitoyl-CoA (C16) requires 7 cycles of beta-oxidation, yielding 8 acetyl-CoA, 7 FADH2, and 7 NADH. The total ATP yield from complete oxidation of one palmitate molecule was calculated: 8 acetyl-CoA x 10 ATP = 80 ATP, plus 7 FADH2 x 1.5 ATP = 10.5 ATP, plus 7 NADH x 2.5 ATP = 17.5 ATP, minus 2 ATP for activation (palmitate to palmitoyl-CoA), totaling 106 ATP. In patients with medium-chain acyl-CoA dehydrogenase (MCAD) deficiency, the inability to oxidize medium-chain fatty acids (C6-C12) leads to hypoketotic hypoglycemia during fasting.",
+      "questions": [
+        {
+          "id": "met-q-026",
+          "stem": "Malonyl-CoA inhibition of CPT-I ensures that:",
+          "options": [
+            "A. fatty acid synthesis and beta-oxidation occur simultaneously",
+            "B. when the cell is actively synthesizing fatty acids (high malonyl-CoA), fatty acid oxidation is suppressed to prevent a futile cycle",
+            "C. CPT-I is always active regardless of metabolic state",
+            "D. carnitine levels remain constant"
+          ],
+          "correct": 1,
+          "explanation": "Malonyl-CoA is the first committed intermediate in fatty acid synthesis, produced by acetyl-CoA carboxylase in the fed state. Its inhibition of CPT-I prevents long-chain fatty acids from entering mitochondria for beta-oxidation when the cell is actively synthesizing fatty acids. This reciprocal regulation prevents the energetically wasteful futile cycle of simultaneously synthesizing and degrading fatty acids."
+        },
+        {
+          "id": "met-q-027",
+          "stem": "The carnitine shuttle is necessary because:",
+          "options": [
+            "A. free fatty acids cannot cross any cellular membrane",
+            "B. the inner mitochondrial membrane is impermeable to long-chain acyl-CoA, requiring conversion to acylcarnitine for transport",
+            "C. carnitine is the substrate for beta-oxidation",
+            "D. CPT-I directly oxidizes fatty acids"
+          ],
+          "correct": 1,
+          "explanation": "The inner mitochondrial membrane is impermeable to long-chain acyl-CoA molecules due to their size and the CoA moiety. The carnitine shuttle overcomes this barrier by transiently replacing CoA with carnitine (via CPT-I), allowing transport as acylcarnitine through the translocase. CPT-II on the matrix side reconverts acylcarnitine back to acyl-CoA for beta-oxidation. Short and medium-chain fatty acids can bypass this system."
+        },
+        {
+          "id": "met-q-028",
+          "stem": "MCAD deficiency causes hypoketotic hypoglycemia during fasting because:",
+          "options": [
+            "A. medium-chain fatty acids are toxic and directly lower blood glucose",
+            "B. impaired fatty acid oxidation reduces acetyl-CoA production for ketogenesis and reduces the ATP and NADH needed to drive gluconeogenesis, depleting both glucose and ketone body supplies",
+            "C. MCAD deficiency increases insulin secretion",
+            "D. patients cannot absorb dietary fatty acids"
+          ],
+          "correct": 1,
+          "explanation": "During fasting, fatty acid oxidation provides the energy (ATP, NADH) needed to drive hepatic gluconeogenesis and produces the acetyl-CoA substrate for ketone body synthesis. In MCAD deficiency, beta-oxidation of medium-chain fatty acids is blocked, reducing both the energy supply for gluconeogenesis (causing hypoglycemia) and the acetyl-CoA substrate for ketogenesis (causing hypoketonemia). The absence of ketone bodies as an alternative fuel for the brain makes the hypoglycemia particularly dangerous."
+        },
+        {
+          "id": "met-q-029",
+          "stem": "Palmitate (C16) yields significantly more ATP per molecule than glucose because:",
+          "options": [
+            "A. glucose has more carbon atoms than palmitate",
+            "B. palmitate's 16 carbons are more reduced (contain more C-H bonds) than glucose's 6 carbons, providing more electrons for the ETC and more acetyl-CoA for the TCA cycle",
+            "C. palmitate is oxidized anaerobically",
+            "D. glucose cannot enter the TCA cycle"
+          ],
+          "correct": 1,
+          "explanation": "Palmitate (C16H32O2) contains 16 carbons in a highly reduced state with many C-H bonds, yielding approximately 106 ATP. Glucose (C6H12O6) is more oxidized (contains oxygen atoms within the molecule) and yields only approximately 30-32 ATP. Per carbon atom, fatty acids produce more energy because their carbons are more reduced and require more oxidation steps, generating more NADH and FADH2 per carbon than carbohydrate carbons."
+        },
+        {
+          "id": "met-q-030",
+          "stem": "The 2 ATP cost of fatty acid activation (palmitate to palmitoyl-CoA) is subtracted because:",
+          "options": [
+            "A. the activation reaction is reversible and the ATP is recovered",
+            "B. acyl-CoA synthetase hydrolyzes ATP to AMP and PPi (equivalent to 2 ATP), and this energy investment must be accounted for in the net ATP yield",
+            "C. two separate kinase reactions each consume 1 ATP",
+            "D. the activation occurs outside the cell"
+          ],
+          "correct": 1,
+          "explanation": "Fatty acid activation by acyl-CoA synthetase consumes ATP by hydrolyzing it to AMP and pyrophosphate (PPi), rather than to ADP and Pi. The subsequent hydrolysis of PPi by pyrophosphatase drives the reaction forward but means that 2 high-energy phosphate bonds are consumed (equivalent to 2 ATP). This activation cost must be subtracted from the gross ATP yield of beta-oxidation to obtain the net energy yield from palmitate oxidation."
+        }
+      ]
+    },
+    {
+      "id": "met-ps-007",
+      "passage": "A metabolic research team investigated the pentose phosphate pathway (PPP), also known as the hexose monophosphate shunt, in various tissues. The PPP has two phases: the oxidative phase and the non-oxidative phase. The oxidative phase converts glucose-6-phosphate to ribulose-5-phosphate while producing 2 NADPH per glucose-6-phosphate molecule. The rate-limiting enzyme, glucose-6-phosphate dehydrogenase (G6PD), is allosterically regulated by the NADP+/NADPH ratio. The NADPH produced is essential for reductive biosynthesis (fatty acid synthesis, cholesterol synthesis) and for maintaining glutathione in its reduced form, which protects against oxidative damage. The non-oxidative phase interconverts sugar phosphates through transketolase and transaldolase reactions, producing ribose-5-phosphate for nucleotide synthesis and recycling excess carbon atoms back to glycolysis as fructose-6-phosphate and glyceraldehyde-3-phosphate. The researchers found that red blood cells have high PPP activity because they require NADPH to reduce oxidized glutathione via glutathione reductase. Patients with G6PD deficiency, the most common enzyme deficiency worldwide, develop hemolytic anemia when exposed to oxidizing agents (such as the antimalarial drug primaquine) because they cannot generate sufficient NADPH to maintain reduced glutathione levels.",
+      "questions": [
+        {
+          "id": "met-q-031",
+          "stem": "The pentose phosphate pathway produces NADPH rather than NADH, which is significant because:",
+          "options": [
+            "A. NADPH and NADH are interchangeable in all cellular reactions",
+            "B. NADPH is specifically used for reductive biosynthesis and antioxidant defense, while NADH is primarily used for ATP production via the ETC",
+            "C. NADPH cannot be produced by any other pathway",
+            "D. NADH inhibits all biosynthetic reactions"
+          ],
+          "correct": 1,
+          "explanation": "NADPH and NADH have distinct metabolic roles despite their similar structures. NADPH (with its extra phosphate group) is specifically recognized by enzymes involved in reductive biosynthesis (fatty acid synthase, HMG-CoA reductase) and antioxidant defense (glutathione reductase). NADH is primarily used by Complex I of the ETC for ATP production. This compartmentalization of reducing equivalents allows the cell to independently regulate catabolic and anabolic processes."
+        },
+        {
+          "id": "met-q-032",
+          "stem": "G6PD deficiency leads to hemolytic anemia upon oxidant exposure because:",
+          "options": [
+            "A. G6PD directly repairs oxidative DNA damage",
+            "B. without adequate NADPH production, glutathione cannot be maintained in its reduced form, leaving red blood cell proteins and membranes vulnerable to oxidative damage",
+            "C. G6PD is needed for hemoglobin synthesis",
+            "D. the pentose phosphate pathway produces the heme group"
+          ],
+          "correct": 1,
+          "explanation": "G6PD catalyzes the first and rate-limiting step of NADPH production in the PPP. Without sufficient NADPH, glutathione reductase cannot regenerate reduced glutathione (GSH) from its oxidized form (GSSG). GSH is essential for detoxifying reactive oxygen species and protecting hemoglobin and membrane lipids from oxidative damage. When oxidant stress exceeds the cell's diminished capacity to regenerate GSH, oxidative damage to hemoglobin and membranes causes hemolysis."
+        },
+        {
+          "id": "met-q-033",
+          "stem": "The non-oxidative phase of the PPP is important because it:",
+          "options": [
+            "A. produces all of the pathway's NADPH",
+            "B. provides metabolic flexibility by interconverting sugar phosphates, producing ribose-5-phosphate for nucleotides and recycling carbons to glycolysis based on cellular needs",
+            "C. only functions during cell division",
+            "D. consumes NADPH for reductive reactions"
+          ],
+          "correct": 1,
+          "explanation": "The non-oxidative phase provides metabolic flexibility through reversible sugar phosphate interconversions. When ribose-5-phosphate is needed for nucleotide synthesis (e.g., in dividing cells), the non-oxidative phase directs carbon flow toward ribose-5-phosphate. When NADPH demand exceeds ribose demand, excess pentose phosphates are recycled back to glycolytic intermediates (fructose-6-phosphate and glyceraldehyde-3-phosphate) through transketolase and transaldolase reactions."
+        },
+        {
+          "id": "met-q-034",
+          "stem": "The NADP+/NADPH ratio regulation of G6PD ensures that:",
+          "options": [
+            "A. the PPP runs at maximum rate at all times",
+            "B. NADPH production through the PPP increases when NADPH is consumed (high NADP+) and decreases when NADPH accumulates, matching production to demand",
+            "C. NADH and NADPH are maintained at equal concentrations",
+            "D. glucose-6-phosphate is always directed to the PPP rather than glycolysis"
+          ],
+          "correct": 1,
+          "explanation": "G6PD activity increases when the NADP+/NADPH ratio is high (more NADP+ available as substrate) and decreases when NADPH accumulates (product inhibition/reduced substrate availability). This elegant feedback mechanism ensures that NADPH production by the PPP is tightly coupled to NADPH consumption. When biosynthetic or antioxidant demands increase NADPH consumption, the rising NADP+ levels automatically stimulate increased flux through the PPP."
+        },
+        {
+          "id": "met-q-035",
+          "stem": "Tissues with high fatty acid synthesis (liver, adipose, lactating mammary gland) have high PPP activity because:",
+          "options": [
+            "A. these tissues require ribose-5-phosphate for DNA synthesis",
+            "B. fatty acid synthesis requires large amounts of NADPH as the reductant, which is supplied primarily by the PPP",
+            "C. the PPP produces fatty acids directly",
+            "D. these tissues do not perform glycolysis"
+          ],
+          "correct": 1,
+          "explanation": "Fatty acid synthesis is a highly reductive process, requiring 14 NADPH molecules to synthesize one palmitate molecule from 8 acetyl-CoA units. The PPP, along with the malic enzyme reaction, is a major source of cytoplasmic NADPH. Tissues actively synthesizing fatty acids (liver in the fed state, adipose tissue, lactating mammary gland) therefore maintain high PPP activity to supply the large NADPH demand of fatty acid synthase."
+        }
+      ]
+    },
+    {
+      "id": "met-ps-008",
+      "passage": "A clinical nutrition research team studied the metabolic adaptations that occur during prolonged fasting and starvation. During the first 24 hours of fasting, hepatic glycogen stores are mobilized through glycogenolysis, maintaining blood glucose levels. As glycogen is depleted (typically by 24-36 hours), gluconeogenesis from lactate, glycerol, and amino acids becomes the primary source of blood glucose. Simultaneously, lipolysis in adipose tissue releases free fatty acids, which are oxidized by liver mitochondria through beta-oxidation. The resulting excess acetyl-CoA, which cannot be fully oxidized by the TCA cycle (due to oxaloacetate diversion to gluconeogenesis), is diverted to ketogenesis, producing the ketone bodies acetoacetate, beta-hydroxybutyrate, and acetone. After 3-4 days of fasting, the brain begins to adapt by utilizing ketone bodies, reducing its glucose requirement from approximately 120 g/day to 40 g/day. This metabolic shift spares muscle protein, reducing the rate of amino acid catabolism for gluconeogenesis. The researchers measured blood levels and found that during prolonged starvation, beta-hydroxybutyrate levels rose from a normal of 0.1 mM to approximately 6-8 mM, insulin levels decreased markedly, and glucagon levels remained elevated, maintaining the hormonal milieu that promotes lipolysis, ketogenesis, and gluconeogenesis.",
+      "questions": [
+        {
+          "id": "met-q-036",
+          "stem": "Ketone body production increases during fasting because:",
+          "options": [
+            "A. the liver directly converts glucose to ketone bodies",
+            "B. excess acetyl-CoA from fatty acid oxidation cannot be fully consumed by the TCA cycle when oxaloacetate is diverted to gluconeogenesis, so it is channeled into ketogenesis",
+            "C. ketone bodies are produced from dietary protein",
+            "D. the electron transport chain produces ketone bodies"
+          ],
+          "correct": 1,
+          "explanation": "During fasting, gluconeogenesis depletes oxaloacetate (by converting it to phosphoenolpyruvate via PEPCK), reducing the TCA cycle's capacity to condense acetyl-CoA with oxaloacetate. Meanwhile, beta-oxidation of fatty acids produces abundant acetyl-CoA. The excess acetyl-CoA that cannot enter the TCA cycle is diverted to the ketogenesis pathway in liver mitochondria, producing acetoacetate and beta-hydroxybutyrate as alternative fuels."
+        },
+        {
+          "id": "met-q-037",
+          "stem": "The brain's adaptation to using ketone bodies during prolonged fasting is physiologically important because:",
+          "options": [
+            "A. ketone bodies are more efficient fuel than glucose for the brain",
+            "B. it reduces glucose demand, thereby decreasing the rate of muscle protein catabolism needed to supply amino acids for gluconeogenesis",
+            "C. the brain cannot use any fuel other than ketone bodies",
+            "D. ketone bodies increase cognitive function"
+          ],
+          "correct": 1,
+          "explanation": "The brain normally consumes approximately 120 g of glucose per day. During prolonged fasting, much of this glucose must be produced by gluconeogenesis, which requires amino acid carbon skeletons obtained from muscle protein breakdown. When the brain adapts to using ketone bodies (supplied by fatty acid oxidation), its glucose requirement drops to about 40 g/day, dramatically reducing the need for muscle protein catabolism and preserving lean body mass."
+        },
+        {
+          "id": "met-q-038",
+          "stem": "The low insulin and elevated glucagon levels during fasting promote:",
+          "options": [
+            "A. glycogen synthesis and lipogenesis",
+            "B. lipolysis in adipose tissue, beta-oxidation and ketogenesis in liver, and hepatic gluconeogenesis",
+            "C. glucose uptake into muscle and fat cells",
+            "D. protein synthesis in all tissues"
+          ],
+          "correct": 1,
+          "explanation": "The hormonal profile of fasting (low insulin, high glucagon) activates catabolic pathways. Low insulin removes the inhibition of hormone-sensitive lipase, promoting adipose lipolysis and fatty acid release. High glucagon activates hepatic gluconeogenesis (through PEPCK induction) and promotes beta-oxidation and ketogenesis. This coordinated hormonal response ensures glucose production for the brain while mobilizing fat stores as the primary energy source."
+        },
+        {
+          "id": "met-q-039",
+          "stem": "Glycogen stores are depleted within 24-36 hours of fasting because:",
+          "options": [
+            "A. the liver contains unlimited glycogen",
+            "B. hepatic glycogen stores (approximately 80-100 g) are finite and can only sustain blood glucose for about one day at the brain's glucose consumption rate",
+            "C. glycogen phosphorylase is inactive during fasting",
+            "D. muscle glycogen is exported to maintain blood glucose"
+          ],
+          "correct": 1,
+          "explanation": "The liver stores approximately 80-100 g of glycogen, which can be mobilized to release glucose into the blood. With the brain consuming approximately 120 g of glucose per day and other tissues also requiring glucose, hepatic glycogen is depleted within about 24-36 hours of fasting. After depletion, gluconeogenesis becomes the essential source of blood glucose. Muscle glycogen (approximately 400 g) cannot contribute to blood glucose because muscle lacks glucose-6-phosphatase."
+        },
+        {
+          "id": "met-q-040",
+          "stem": "Acetone, one of the three ketone bodies, differs from acetoacetate and beta-hydroxybutyrate in that:",
+          "options": [
+            "A. acetone provides more energy than the other ketone bodies",
+            "B. acetone is produced by spontaneous decarboxylation of acetoacetate and cannot be metabolized for energy, being eliminated through the lungs and urine",
+            "C. acetone is the primary ketone body used by the brain",
+            "D. acetone is produced in larger quantities than the other ketone bodies"
+          ],
+          "correct": 1,
+          "explanation": "Acetone is formed by the spontaneous (non-enzymatic) decarboxylation of acetoacetate and, unlike acetoacetate and beta-hydroxybutyrate, cannot be converted back to acetyl-CoA for energy production. It is a volatile compound that is eliminated through exhalation (causing the fruity breath odor in diabetic ketoacidosis) and through renal excretion. Acetoacetate and beta-hydroxybutyrate are the metabolically useful ketone bodies that can fuel the brain and other tissues."
+        }
+      ]
+    },
+    {
+      "id": "met-ps-009",
+      "passage": "Researchers studying metabolic integration examined how insulin and glucagon coordinate the major metabolic pathways in the fed and fasted states. In the fed state, high insulin promotes glucose uptake into muscle and adipose tissue via GLUT4 transporter translocation, stimulates glycogen synthesis (by activating glycogen synthase through PP1-mediated dephosphorylation), activates pyruvate dehydrogenase and acetyl-CoA carboxylase (the rate-limiting enzyme of fatty acid synthesis), and stimulates protein synthesis. Simultaneously, insulin inhibits glycogenolysis (by inactivating glycogen phosphorylase), gluconeogenesis (by reducing PEPCK expression), and lipolysis (by inhibiting hormone-sensitive lipase). In the fasted state, glucagon activates glycogenolysis through the cAMP-protein kinase A (PKA) cascade, which phosphorylates and activates glycogen phosphorylase kinase, which in turn phosphorylates and activates glycogen phosphorylase. The same PKA cascade phosphorylates and inactivates glycogen synthase, preventing simultaneous synthesis and breakdown. The researchers noted that type 2 diabetes mellitus is characterized by insulin resistance, where target tissues fail to respond adequately to insulin. This leads to elevated fasting glucose (due to uninhibited hepatic glucose output), impaired glucose tolerance (due to reduced GLUT4-mediated uptake), elevated free fatty acids (due to uninhibited lipolysis), and progressive beta-cell dysfunction.",
+      "questions": [
+        {
+          "id": "met-q-041",
+          "stem": "Insulin stimulates glucose uptake in muscle and adipose tissue by:",
+          "options": [
+            "A. increasing glucose-6-phosphatase activity",
+            "B. promoting translocation of GLUT4 glucose transporters from intracellular vesicles to the plasma membrane",
+            "C. phosphorylating glucose to trap it inside the cell",
+            "D. increasing glucagon secretion"
+          ],
+          "correct": 1,
+          "explanation": "Insulin binding to its receptor triggers a signaling cascade that causes intracellular vesicles containing GLUT4 transporters to fuse with the plasma membrane. This increases the number of glucose transporters on the cell surface, dramatically increasing the rate of glucose uptake into muscle and adipose tissue. When insulin levels fall, GLUT4 transporters are internalized through endocytosis, reducing glucose uptake. This mechanism does not apply to liver or brain, which use different, non-insulin-dependent glucose transporters."
+        },
+        {
+          "id": "met-q-042",
+          "stem": "The reciprocal regulation of glycogen synthase and glycogen phosphorylase by the PKA cascade ensures that:",
+          "options": [
+            "A. both enzymes are active simultaneously",
+            "B. glycogen synthesis and degradation do not occur at the same time, preventing a futile cycle",
+            "C. glycogen is always being synthesized regardless of hormonal signals",
+            "D. PKA has no effect on glycogen metabolism"
+          ],
+          "correct": 1,
+          "explanation": "The PKA cascade phosphorylates both glycogen synthase (inactivating it) and glycogen phosphorylase kinase (activating it, which subsequently activates glycogen phosphorylase). This coordinated regulation ensures that when glycogenolysis is active (fasting state, glucagon signaling), glycogen synthesis is suppressed, and vice versa. Preventing simultaneous synthesis and degradation avoids a futile cycle that would waste ATP without net glycogen production or mobilization."
+        },
+        {
+          "id": "met-q-043",
+          "stem": "In type 2 diabetes, elevated fasting glucose occurs because:",
+          "options": [
+            "A. the pancreas produces too much insulin",
+            "B. insulin resistance in the liver means insulin fails to suppress hepatic gluconeogenesis and glycogenolysis, resulting in continued glucose output even when blood glucose is already elevated",
+            "C. the kidney increases glucose reabsorption",
+            "D. dietary glucose intake is always excessive"
+          ],
+          "correct": 1,
+          "explanation": "In healthy individuals, insulin suppresses hepatic glucose production by inhibiting gluconeogenic enzyme expression and glycogenolysis. In insulin-resistant states, the liver does not respond adequately to insulin signals, so hepatic gluconeogenesis and glycogenolysis continue even when blood glucose is already elevated. This inappropriate hepatic glucose output is a major contributor to fasting hyperglycemia in type 2 diabetes."
+        },
+        {
+          "id": "met-q-044",
+          "stem": "Acetyl-CoA carboxylase activation by insulin in the fed state promotes:",
+          "options": [
+            "A. fatty acid oxidation in the mitochondria",
+            "B. fatty acid synthesis by producing malonyl-CoA, the first committed step of the pathway, while simultaneously inhibiting CPT-I to prevent fatty acid oxidation",
+            "C. gluconeogenesis from acetyl-CoA",
+            "D. ketone body production"
+          ],
+          "correct": 1,
+          "explanation": "Acetyl-CoA carboxylase converts acetyl-CoA to malonyl-CoA, the rate-limiting and first committed step of fatty acid synthesis. Insulin activates this enzyme (through dephosphorylation and transcriptional upregulation) in the fed state. The malonyl-CoA produced has a dual role: it serves as the substrate for fatty acid synthase and simultaneously inhibits CPT-I, preventing fatty acid entry into mitochondria for beta-oxidation. This ensures that the fed state favors fat storage over fat burning."
+        },
+        {
+          "id": "met-q-045",
+          "stem": "Progressive beta-cell dysfunction in type 2 diabetes represents:",
+          "options": [
+            "A. increased insulin sensitivity over time",
+            "B. gradual loss of insulin-producing capacity due to beta-cell exhaustion and apoptosis from chronic demand for excess insulin secretion",
+            "C. improved glucose regulation as the disease progresses",
+            "D. beta-cell hyperplasia that produces too much glucagon"
+          ],
+          "correct": 1,
+          "explanation": "In early type 2 diabetes, beta cells compensate for insulin resistance by producing more insulin (hyperinsulinemia). Over time, the chronic demand for excessive insulin production, combined with glucotoxicity (from elevated glucose) and lipotoxicity (from elevated free fatty acids), leads to beta-cell exhaustion, dysfunction, and apoptosis. This progressive loss of beta-cell function eventually results in relative insulin deficiency and worsening glycemic control."
+        }
+      ]
+    },
+    {
+      "id": "met-ps-010",
+      "passage": "A cancer metabolism research team investigated the Warburg effect, the observation that many cancer cells preferentially use glycolysis over oxidative phosphorylation even in the presence of adequate oxygen (aerobic glycolysis). The team found that cancer cells expressing oncogenic mutations in PI3K/AKT signaling showed increased glucose uptake through upregulated GLUT1 expression, enhanced hexokinase II activity (which binds to the outer mitochondrial membrane), and increased expression of the M2 isoform of pyruvate kinase (PKM2). Unlike the constitutively active PKM1 found in normal differentiated tissues, PKM2 can exist in a less active dimeric form that slows glycolytic flux at the final step, causing accumulation of upstream glycolytic intermediates. These accumulated intermediates are diverted into biosynthetic pathways: glucose-6-phosphate enters the PPP for NADPH and ribose-5-phosphate production, dihydroxyacetone phosphate provides the glycerol backbone for lipid synthesis, and 3-phosphoglycerate enters the serine synthesis pathway. The researchers also noted increased expression of lactate dehydrogenase A (LDHA) and monocarboxylate transporters (MCTs) that export lactate. Treatment with 2-deoxyglucose, a glycolysis inhibitor, reduced cancer cell proliferation by 60% but had minimal effect on normal cells, confirming the cancer cells' dependence on glycolysis.",
+      "questions": [
+        {
+          "id": "met-q-046",
+          "stem": "The Warburg effect describes cancer cells using aerobic glycolysis rather than oxidative phosphorylation, which seems paradoxical because:",
+          "options": [
+            "A. glycolysis does not produce any ATP",
+            "B. glycolysis generates only 2 ATP per glucose compared to approximately 30-32 ATP from complete oxidation, appearing to be a less efficient use of glucose",
+            "C. cancer cells have more mitochondria than normal cells",
+            "D. oxidative phosphorylation is always defective in cancer cells"
+          ],
+          "correct": 1,
+          "explanation": "The Warburg effect is paradoxical because glycolysis produces far less ATP per glucose molecule (2 ATP) than complete oxidation through the TCA cycle and oxidative phosphorylation (30-32 ATP). However, the advantage for cancer cells lies not in ATP efficiency but in the rapid production of biosynthetic precursors needed for cell proliferation, and in the ability to generate ATP quickly when glucose is abundant."
+        },
+        {
+          "id": "met-q-047",
+          "stem": "The less active dimeric form of PKM2 benefits cancer cells by:",
+          "options": [
+            "A. maximizing pyruvate production for the TCA cycle",
+            "B. creating a metabolic bottleneck that causes upstream glycolytic intermediates to accumulate and be diverted into biosynthetic pathways needed for cell growth",
+            "C. increasing ATP production through glycolysis",
+            "D. preventing glucose uptake into the cell"
+          ],
+          "correct": 1,
+          "explanation": "The less active PKM2 dimer slows the conversion of phosphoenolpyruvate to pyruvate, the final glycolytic step. This creates a bottleneck that causes glycolytic intermediates to accumulate above this step. These accumulated intermediates serve as precursors for biosynthetic pathways: glucose-6-phosphate for the PPP (NADPH, nucleotides), DHAP for lipid synthesis (glycerol), and 3-PG for serine/glycine/one-carbon metabolism. This reprogramming supports the biomass production needed for rapid cell division."
+        },
+        {
+          "id": "met-q-048",
+          "stem": "Increased LDHA expression and lactate export in cancer cells serves to:",
+          "options": [
+            "A. provide fuel for neighboring normal cells",
+            "B. regenerate NAD+ from NADH to sustain the high glycolytic flux, as the NADH cannot be efficiently recycled through mitochondrial metabolism",
+            "C. produce additional ATP through lactate oxidation",
+            "D. inhibit the immune response"
+          ],
+          "correct": 1,
+          "explanation": "With reduced reliance on oxidative phosphorylation, cancer cells must regenerate NAD+ through the LDH reaction (pyruvate + NADH -> lactate + NAD+) to maintain the high glycolytic flux they depend on. LDHA efficiently converts pyruvate to lactate, and MCTs export the lactate to prevent intracellular acidification. This is the same principle as anaerobic glycolysis in exercising muscle, but in cancer cells it occurs even when oxygen is available."
+        },
+        {
+          "id": "met-q-049",
+          "stem": "2-Deoxyglucose selectively affects cancer cells more than normal cells because:",
+          "options": [
+            "A. normal cells do not use glucose",
+            "B. cancer cells are more dependent on glycolysis due to the Warburg effect, so inhibiting glycolysis preferentially impairs their metabolism and proliferation",
+            "C. 2-deoxyglucose only enters cancer cells",
+            "D. normal cells can convert 2-deoxyglucose to glucose"
+          ],
+          "correct": 1,
+          "explanation": "2-Deoxyglucose is phosphorylated by hexokinase to 2-deoxyglucose-6-phosphate, which cannot be further metabolized by glycolysis, effectively inhibiting the pathway. Cancer cells relying heavily on glycolysis (Warburg effect) are disproportionately affected because glycolysis is their primary metabolic pathway. Normal cells, which primarily use oxidative phosphorylation for energy, can better tolerate glycolytic inhibition because they have alternative ATP-generating pathways."
+        },
+        {
+          "id": "met-q-050",
+          "stem": "Hexokinase II binding to the outer mitochondrial membrane in cancer cells provides an advantage by:",
+          "options": [
+            "A. inhibiting the electron transport chain",
+            "B. gaining preferential access to mitochondrially generated ATP for glucose phosphorylation, sustaining high glycolytic rates even when cytoplasmic ATP is low",
+            "C. preventing apoptosis by blocking cytochrome c release entirely",
+            "D. converting mitochondrial NADH to cytoplasmic NADH"
+          ],
+          "correct": 1,
+          "explanation": "Hexokinase II physically associates with voltage-dependent anion channels (VDAC) on the outer mitochondrial membrane, gaining direct access to ATP produced by oxidative phosphorylation as it exits through VDAC. This localization ensures a steady supply of ATP for glucose phosphorylation, the first committed step of glycolysis, sustaining the high glycolytic flux characteristic of cancer cells. This strategic positioning effectively couples mitochondrial ATP production to glycolytic initiation."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "subtopic": "Digestive & Excretory Systems",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "digest-ps1",
+      "passage": "The gastrointestinal tract is a continuous muscular tube with specialized regions for digestion and absorption. The stomach plays a critical role in protein digestion and pathogen defense. Parietal cells in the gastric glands secrete hydrochloric acid (HCl) via the H+/K+-ATPase (proton pump), maintaining a luminal pH of 1.5-3.5. This acidic environment denatures proteins, activates pepsinogen (secreted by chief cells) to its active form pepsin, and kills most ingested microorganisms. Parietal cells also secrete intrinsic factor, essential for vitamin B12 absorption in the terminal ileum. Gastric acid secretion is stimulated by three pathways: acetylcholine (vagal stimulation via muscarinic M3 receptors), gastrin (from G cells, acting on CCK-B receptors), and histamine (from enterochromaffin-like cells, acting on H2 receptors). All three pathways converge to activate the proton pump. Somatostatin from D cells inhibits acid secretion by suppressing gastrin, histamine, and directly acting on parietal cells. The stomach is protected from self-digestion by a mucus-bicarbonate barrier secreted by surface epithelial cells. Helicobacter pylori infection disrupts this barrier, leading to peptic ulcer disease.",
+      "questions": [
+        {
+          "id": "digest-ps1-q1",
+          "stem": "Proton pump inhibitors (PPIs) like omeprazole are effective at reducing gastric acid secretion because they:",
+          "options": ["A. Block histamine H2 receptors on parietal cells", "B. Irreversibly inhibit the H+/K+-ATPase, the final common pathway for acid secretion regardless of the stimulating signal", "C. Neutralize acid already present in the stomach lumen", "D. Stimulate somatostatin release from D cells"],
+          "correct": 1,
+          "explanation": "PPIs irreversibly bind and inhibit the H+/K+-ATPase (proton pump) on the apical surface of parietal cells. Since all three stimulatory pathways (acetylcholine, gastrin, histamine) ultimately converge on activating this pump, PPIs suppress acid secretion more completely than agents targeting individual upstream pathways. New pump molecules must be synthesized to restore acid secretion."
+        },
+        {
+          "id": "digest-ps1-q2",
+          "stem": "A patient who undergoes total gastrectomy would be at risk for developing:",
+          "options": ["A. Vitamin C deficiency from impaired absorption", "B. Vitamin B12 deficiency due to loss of intrinsic factor production", "C. Iron excess from increased absorption", "D. Hypercalcemia from enhanced calcium absorption"],
+          "correct": 1,
+          "explanation": "Intrinsic factor, produced exclusively by gastric parietal cells, is required for vitamin B12 absorption in the terminal ileum. Without the stomach, intrinsic factor is absent, and B12 cannot be absorbed despite adequate dietary intake. B12 deficiency develops gradually (body stores last 3-5 years) and causes megaloblastic anemia and neurological damage due to impaired DNA synthesis and myelin maintenance."
+        },
+        {
+          "id": "digest-ps1-q3",
+          "stem": "Pepsinogen activation to pepsin occurs through:",
+          "options": ["A. Phosphorylation by protein kinase A", "B. Autocatalytic cleavage in the acidic gastric lumen, where low pH causes conformational change and removal of the inhibitory propeptide", "C. Enzymatic cleavage by trypsin in the duodenum", "D. Binding to intrinsic factor"],
+          "correct": 1,
+          "explanation": "Pepsinogen is an inactive zymogen secreted by chief cells. In the acidic gastric environment (pH < 5), the low pH induces a conformational change that cleaves the N-terminal inhibitory propeptide, converting pepsinogen to active pepsin. Once formed, pepsin can autocatalytically activate more pepsinogen, creating a positive feedback loop. This mechanism protects chief cells from self-digestion."
+        },
+        {
+          "id": "digest-ps1-q4",
+          "stem": "H. pylori contributes to peptic ulcer formation by:",
+          "options": ["A. Producing excess hydrochloric acid", "B. Secreting urease to neutralize local acid (creating a protective alkaline microenvironment) while producing cytotoxins and inflammatory mediators that damage the mucus-bicarbonate barrier", "C. Blocking parietal cell function entirely", "D. Increasing mucus production"],
+          "correct": 1,
+          "explanation": "H. pylori produces urease, which converts urea to ammonia and CO2, creating an alkaline microenvironment that allows the bacterium to survive in the acidic stomach. However, the ammonia, along with bacterial cytotoxins (CagA, VacA) and the inflammatory response they provoke, damages the protective mucus-bicarbonate barrier. This exposes the underlying epithelium to acid and pepsin, leading to ulceration."
+        },
+        {
+          "id": "digest-ps1-q5",
+          "stem": "The cephalic phase of gastric acid secretion is initiated by:",
+          "options": ["A. Distension of the stomach by food", "B. The sight, smell, taste, or thought of food activating vagal efferents that stimulate parietal and G cells", "C. Duodenal release of secretin", "D. Intestinal absorption of amino acids"],
+          "correct": 1,
+          "explanation": "The cephalic phase accounts for approximately 30% of total acid secretion and occurs before food even enters the stomach. Sensory inputs (sight, smell, taste, thought of food) are processed in the cerebral cortex and transmitted via vagal efferents to the stomach. Acetylcholine released from vagal nerve endings directly stimulates parietal cells and also stimulates G cells to release gastrin, both promoting acid secretion."
+        }
+      ]
+    },
+    {
+      "id": "digest-ps2",
+      "passage": "Pancreatic exocrine function is essential for digestion in the duodenum. The pancreas secretes a bicarbonate-rich fluid that neutralizes gastric acid entering the duodenum, raising the pH to approximately 7-8, which is optimal for pancreatic enzyme activity. Pancreatic acinar cells produce digestive enzymes, many as inactive zymogens to prevent autodigestion. Trypsinogen is activated to trypsin by enterokinase (enteropeptidase), a brush border enzyme in the duodenum. Trypsin then activates other zymogens: chymotrypsinogen to chymotrypsin, proelastase to elastase, procarboxypeptidase to carboxypeptidase, and prophospholipase to phospholipase. The pancreas also secretes active enzymes including lipase (which requires colipase for function in the presence of bile salts), amylase, and nucleases. Pancreatic secretion is regulated primarily by two hormones: secretin, released by S cells in response to duodenal acidification, stimulates duct cells to secrete bicarbonate; and cholecystokinin (CCK), released by I cells in response to fatty acids and amino acids in the duodenum, stimulates acinar cells to secrete enzyme-rich fluid and also causes gallbladder contraction and sphincter of Oddi relaxation.",
+      "questions": [
+        {
+          "id": "digest-ps2-q1",
+          "stem": "Enterokinase (enteropeptidase) serves as the master activator of pancreatic zymogens because:",
+          "options": ["A. It directly activates all pancreatic zymogens simultaneously", "B. It activates trypsinogen to trypsin, which then activates all other pancreatic zymogens in an activation cascade", "C. It produces the acidic environment needed for enzyme activation", "D. It secretes bicarbonate to neutralize gastric acid"],
+          "correct": 1,
+          "explanation": "Enterokinase, embedded in the duodenal brush border, specifically cleaves trypsinogen to trypsin. Trypsin then serves as the master protease, activating chymotrypsinogen, proelastase, procarboxypeptidase, and prophospholipase. This cascade mechanism ensures that activation occurs only in the duodenal lumen and not within the pancreatic duct, preventing premature activation and autodigestion (pancreatitis)."
+        },
+        {
+          "id": "digest-ps2-q2",
+          "stem": "Secretin stimulates pancreatic bicarbonate secretion in response to:",
+          "options": ["A. High fat content in the duodenum", "B. Low pH (acidic chyme) entering the duodenum from the stomach", "C. Elevated blood glucose levels", "D. Vagal stimulation during the cephalic phase"],
+          "correct": 1,
+          "explanation": "S cells in the duodenal mucosa release secretin when luminal pH drops below approximately 4.5 due to acidic gastric chyme entering the duodenum. Secretin acts on pancreatic duct cells to secrete a bicarbonate-rich fluid that neutralizes the acid, raising duodenal pH to the optimal range for pancreatic enzyme function. This is a negative feedback mechanism: as pH rises, secretin release diminishes."
+        },
+        {
+          "id": "digest-ps2-q3",
+          "stem": "Colipase is required for pancreatic lipase activity because:",
+          "options": ["A. Colipase provides the catalytic site for lipid hydrolysis", "B. Bile salts coat lipid droplets and displace lipase from the oil-water interface, and colipase anchors lipase to the bile salt-coated interface", "C. Colipase converts lipase from an inactive zymogen", "D. Lipase cannot function without alkaline pH"],
+          "correct": 1,
+          "explanation": "Bile salts are necessary for emulsifying dietary fats but paradoxically displace lipase from the lipid-water interface where it acts. Colipase, a small protein co-secreted with lipase, binds to both the bile salt-coated lipid surface and lipase, anchoring the enzyme at the interface and allowing it to hydrolyze triglycerides into monoacylglycerol and free fatty acids. Without colipase, lipase activity is severely impaired."
+        },
+        {
+          "id": "digest-ps2-q4",
+          "stem": "Acute pancreatitis can result from premature intrapancreatic activation of trypsinogen because:",
+          "options": ["A. Trypsin directly causes necrosis without activating other enzymes", "B. Activated trypsin initiates a cascade of zymogen activation within the pancreas, leading to autodigestion and severe inflammatory tissue damage", "C. Trypsin inhibits all pancreatic secretion", "D. Trypsinogen activation always causes cancer"],
+          "correct": 1,
+          "explanation": "Normally, trypsinogen is activated only in the duodenal lumen by enterokinase. If trypsinogen is prematurely activated within the pancreas (due to gallstone obstruction, alcohol toxicity, or genetic factors), trypsin activates other zymogens within the pancreatic tissue. The resulting enzymatic autodigestion causes severe inflammation, hemorrhage, and necrosis characteristic of acute pancreatitis."
+        },
+        {
+          "id": "digest-ps2-q5",
+          "stem": "CCK causes gallbladder contraction and sphincter of Oddi relaxation. The physiological purpose of this coordinated response is to:",
+          "options": ["A. Store bile in the gallbladder for later use", "B. Deliver bile acids to the duodenum to emulsify dietary fats, facilitating their digestion by pancreatic lipase", "C. Increase gastric acid secretion", "D. Promote absorption of water-soluble vitamins"],
+          "correct": 1,
+          "explanation": "When fatty acids and amino acids enter the duodenum, CCK release triggers gallbladder contraction and relaxation of the sphincter of Oddi, allowing concentrated bile to flow into the duodenum. Bile acids in bile emulsify dietary lipids into smaller micelles, dramatically increasing the surface area available for pancreatic lipase action. This is essential because lipase can only act at oil-water interfaces."
+        }
+      ]
+    },
+    {
+      "id": "digest-ps3",
+      "passage": "The small intestine is the primary site of nutrient absorption, with structural adaptations that maximize absorptive surface area. Three levels of folding increase the surface area approximately 600-fold: circular folds (plicae circulares), villi, and microvilli (brush border). The duodenum receives pancreatic enzymes and bile and is the primary site of iron and calcium absorption. The jejunum is the major site of nutrient absorption, including carbohydrates, amino acids, and fats. The ileum specifically absorbs bile salts (for enterohepatic circulation) and vitamin B12-intrinsic factor complexes. Carbohydrate digestion begins with salivary amylase, continues with pancreatic amylase (producing maltose, maltotriose, and alpha-limit dextrins), and is completed by brush border enzymes (maltase, sucrase, lactase, isomaltase) that produce monosaccharides. Glucose and galactose are absorbed via SGLT1 (sodium-dependent glucose transporter 1) on the apical membrane and GLUT2 on the basolateral membrane. Fructose is absorbed via GLUT5 on the apical membrane. Amino acid absorption occurs via various sodium-dependent and sodium-independent transporters. Short peptides (di- and tripeptides) are absorbed via the PepT1 transporter.",
+      "questions": [
+        {
+          "id": "digest-ps3-q1",
+          "stem": "SGLT1 transports glucose into enterocytes against its concentration gradient by coupling glucose uptake to:",
+          "options": ["A. ATP hydrolysis directly by the transporter", "B. The downhill movement of sodium ions into the cell, utilizing the Na+ gradient maintained by the basolateral Na+/K+-ATPase", "C. The movement of potassium out of the cell", "D. Passive diffusion along the glucose concentration gradient"],
+          "correct": 1,
+          "explanation": "SGLT1 is a secondary active transporter that harnesses the electrochemical sodium gradient to drive glucose absorption against its concentration gradient. The Na+/K+-ATPase on the basolateral membrane actively maintains a low intracellular Na+ concentration, creating the driving force. As Na+ flows down its gradient into the cell through SGLT1, it co-transports glucose. Glucose then exits the cell passively via GLUT2 on the basolateral side."
+        },
+        {
+          "id": "digest-ps3-q2",
+          "stem": "Lactose intolerance results from deficiency of brush border lactase, which would cause:",
+          "options": ["A. Impaired protein absorption", "B. Undigested lactose remaining in the intestinal lumen, causing osmotic diarrhea and bacterial fermentation producing gas", "C. Increased absorption of galactose", "D. Vitamin B12 malabsorption"],
+          "correct": 1,
+          "explanation": "Without lactase, the disaccharide lactose cannot be hydrolyzed into glucose and galactose for absorption. The intact lactose remains in the intestinal lumen, where it acts as an osmotically active solute drawing water into the lumen (osmotic diarrhea). Additionally, colonic bacteria ferment the undigested lactose, producing hydrogen gas, carbon dioxide, and short-chain fatty acids, causing bloating, flatulence, and cramping."
+        },
+        {
+          "id": "digest-ps3-q3",
+          "stem": "The enterohepatic circulation of bile salts is important because:",
+          "options": ["A. It eliminates all bile salts from the body", "B. It recycles bile salts from the ileum back to the liver, reducing the need for de novo bile acid synthesis from cholesterol", "C. It transports nutrients directly from the intestine to the liver", "D. It prevents bile salts from entering the duodenum"],
+          "correct": 1,
+          "explanation": "Approximately 95% of bile salts secreted into the duodenum are reabsorbed by active transport in the terminal ileum and returned to the liver via the portal vein. The liver re-secretes these bile salts into bile, completing the enterohepatic cycle. This recycling occurs 6-8 times per day and is highly efficient, conserving the bile salt pool. Disruption of this cycle (e.g., ileal resection) leads to fat malabsorption and bile acid diarrhea."
+        },
+        {
+          "id": "digest-ps3-q4",
+          "stem": "The absorption of dietary fats differs from carbohydrates and proteins because fats:",
+          "options": ["A. Are absorbed directly into portal blood as triglycerides", "B. Are packaged into chylomicrons within enterocytes and enter the lymphatic system via lacteals rather than directly entering the portal blood", "C. Cannot cross the intestinal epithelium", "D. Are absorbed exclusively in the stomach"],
+          "correct": 1,
+          "explanation": "After digestion to monoacylglycerol and fatty acids by pancreatic lipase, these products are absorbed into enterocytes, re-esterified to triglycerides, and packaged with cholesterol, phospholipids, and apolipoprotein B-48 into chylomicrons. Chylomicrons are too large to enter blood capillaries directly, so they are secreted into lacteals (lymphatic capillaries in villi) and eventually reach the bloodstream via the thoracic duct."
+        },
+        {
+          "id": "digest-ps3-q5",
+          "stem": "Iron absorption in the duodenum is enhanced by:",
+          "options": ["A. Alkaline pH in the duodenal lumen", "B. Vitamin C (ascorbic acid), which reduces ferric iron (Fe3+) to the more absorbable ferrous form (Fe2+)", "C. Binding to intrinsic factor", "D. Bile salt emulsification"],
+          "correct": 1,
+          "explanation": "Dietary non-heme iron exists primarily in the ferric (Fe3+) form, which is poorly absorbed. Vitamin C reduces Fe3+ to Fe2+ (ferrous iron), which is the form transported by the divalent metal transporter 1 (DMT1) on the apical membrane of duodenal enterocytes. Gastric acid also aids iron absorption by solubilizing iron salts and maintaining iron in the reduced state."
+        }
+      ]
+    },
+    {
+      "id": "digest-ps4",
+      "passage": "The liver performs over 500 functions, including bile production, detoxification, protein synthesis, and metabolic regulation. Hepatocytes receive blood from both the hepatic artery (oxygenated blood) and portal vein (nutrient-rich blood from the GI tract) through sinusoids lined with fenestrated endothelium. Kupffer cells, specialized macrophages within the sinusoids, filter and phagocytose pathogens, debris, and aged red blood cells. The liver synthesizes most plasma proteins, including albumin (maintaining oncotic pressure), clotting factors (I, II, V, VII, IX, X, XI), and acute-phase proteins. It detoxifies substances through Phase I reactions (cytochrome P450-mediated oxidation, reduction, hydrolysis) and Phase II reactions (conjugation with glucuronic acid, sulfate, glutathione, or amino acids to increase water solubility for renal excretion). Bilirubin metabolism involves hepatic uptake of unconjugated bilirubin (from heme catabolism in the spleen), conjugation with glucuronic acid by UDP-glucuronosyltransferase, and secretion of conjugated bilirubin into bile for excretion. In the colon, bacteria convert conjugated bilirubin to urobilinogen, some of which is reabsorbed (enterohepatic circulation) and some is excreted in feces (as stercobilin) and urine (as urobilin).",
+      "questions": [
+        {
+          "id": "digest-ps4-q1",
+          "stem": "A patient with hepatocellular disease would be expected to have all of the following EXCEPT:",
+          "options": ["A. Decreased albumin synthesis leading to edema", "B. Prolonged prothrombin time from decreased clotting factor synthesis", "C. Increased bile production and enhanced fat absorption", "D. Impaired drug metabolism"],
+          "correct": 2,
+          "explanation": "In hepatocellular disease, the damaged liver has reduced synthetic and metabolic capacity. Albumin production falls (causing edema), clotting factor synthesis decreases (causing coagulopathy), and drug metabolism is impaired. However, bile production would be decreased, not increased, in liver disease. Reduced bile secretion leads to fat malabsorption and deficiency of fat-soluble vitamins (A, D, E, K)."
+        },
+        {
+          "id": "digest-ps4-q2",
+          "stem": "The distinction between unconjugated and conjugated hyperbilirubinemia is clinically important because:",
+          "options": ["A. Both types always indicate liver disease", "B. Unconjugated hyperbilirubinemia suggests pre-hepatic (hemolysis) or hepatic uptake/conjugation defects, while conjugated hyperbilirubinemia suggests hepatic excretion or post-hepatic (obstructive) defects", "C. Conjugated bilirubin is toxic to the brain while unconjugated is not", "D. They require the same treatment"],
+          "correct": 1,
+          "explanation": "The type of bilirubin elevated helps localize the problem. Unconjugated (indirect) hyperbilirubinemia occurs with increased bilirubin production (hemolytic anemia), impaired hepatic uptake (Gilbert syndrome), or impaired conjugation (Crigler-Najjar). Conjugated (direct) hyperbilirubinemia occurs with impaired hepatic excretion (Dubin-Johnson, Rotor syndromes) or bile duct obstruction (gallstones, tumors). This distinction guides the diagnostic workup."
+        },
+        {
+          "id": "digest-ps4-q3",
+          "stem": "Phase I and Phase II detoxification reactions differ in that:",
+          "options": ["A. Phase I reactions always inactivate drugs while Phase II always activates them", "B. Phase I reactions modify the drug molecule (often adding reactive groups) while Phase II reactions conjugate modified drugs with polar molecules to increase water solubility for excretion", "C. Phase II reactions occur before Phase I reactions", "D. Only Phase I reactions occur in the liver"],
+          "correct": 1,
+          "explanation": "Phase I reactions, primarily mediated by cytochrome P450 enzymes in the smooth ER, introduce or expose functional groups (-OH, -NH2, -SH) on the drug molecule through oxidation, reduction, or hydrolysis. Phase II reactions then conjugate these functional groups with polar molecules (glucuronic acid, sulfate, glutathione, amino acids), dramatically increasing water solubility and facilitating renal or biliary excretion."
+        },
+        {
+          "id": "digest-ps4-q4",
+          "stem": "The portal vein delivers blood from the GI tract directly to the liver before entering systemic circulation. This portal system is important for drug metabolism because:",
+          "options": ["A. It allows all drugs to bypass the liver", "B. It subjects orally administered drugs to first-pass metabolism, potentially significantly reducing the amount of active drug reaching the systemic circulation", "C. It delivers drugs directly to the brain", "D. It prevents drug absorption from the intestine"],
+          "correct": 1,
+          "explanation": "First-pass metabolism (presystemic metabolism) occurs when orally administered drugs absorbed from the GI tract are transported via the portal vein directly to the liver before reaching the systemic circulation. Hepatic enzymes can extensively metabolize the drug, reducing its bioavailability. This is why some drugs have much lower oral bioavailability compared to intravenous administration, and why oral doses may need to be higher."
+        },
+        {
+          "id": "digest-ps4-q5",
+          "stem": "Kupffer cells in the hepatic sinusoids function primarily as:",
+          "options": ["A. Hepatocytes that produce bile", "B. Resident macrophages that phagocytose pathogens, endotoxins, and cellular debris from portal blood", "C. Endothelial cells that line the sinusoids", "D. Stellate cells that store vitamin A"],
+          "correct": 1,
+          "explanation": "Kupffer cells are specialized tissue-resident macrophages that line the hepatic sinusoids. They are strategically positioned to filter portal blood arriving from the GI tract, phagocytosing bacteria, endotoxins (LPS), and cellular debris before these substances can enter the systemic circulation. Kupffer cells constitute the largest population of tissue-resident macrophages in the body and are critical for hepatic innate immune defense."
+        }
+      ]
+    },
+    {
+      "id": "digest-ps5",
+      "passage": "The nephron is the functional unit of the kidney, responsible for filtration, reabsorption, secretion, and excretion. Each kidney contains approximately one million nephrons. Blood enters the glomerulus through the afferent arteriole and exits via the efferent arteriole. Glomerular filtration occurs as plasma is filtered across the glomerular filtration barrier, which consists of three layers: fenestrated endothelium, glomerular basement membrane (GBM), and podocyte foot processes with filtration slits. This barrier freely filters water and small solutes but restricts passage of large proteins and cells based on size, charge, and shape. The glomerular filtration rate (GFR) is approximately 125 mL/min (180 L/day), determined by the net filtration pressure and the filtration coefficient. Net filtration pressure equals glomerular hydrostatic pressure minus the opposing forces of Bowman's capsule hydrostatic pressure and glomerular oncotic pressure. Despite filtering 180 L/day, only 1-2 L is excreted as urine, indicating that over 99% of the filtrate is reabsorbed. A patient presents with proteinuria, edema, hypoalbuminemia, and hyperlipidemia, a constellation known as nephrotic syndrome, suggesting damage to the glomerular filtration barrier.",
+      "questions": [
+        {
+          "id": "digest-ps5-q1",
+          "stem": "The glomerular filtration barrier prevents albumin filtration primarily through:",
+          "options": ["A. Active transport of albumin back into the capillary", "B. Size selectivity (albumin is relatively large) and charge selectivity (the negatively charged GBM and podocyte glycocalyx repel negatively charged albumin)", "C. Complete impermeability to all proteins", "D. Enzymatic degradation of albumin in the filtrate"],
+          "correct": 1,
+          "explanation": "The glomerular filtration barrier restricts albumin passage through both size and charge selectivity. Albumin (69 kDa) is near the size cutoff for filtration, and its passage is further restricted by the negative charges on the GBM (from heparan sulfate proteoglycans) and podocyte glycocalyx, which repel the negatively charged albumin molecule. Loss of these negative charges in diseases like minimal change disease leads to proteinuria."
+        },
+        {
+          "id": "digest-ps5-q2",
+          "stem": "In nephrotic syndrome, hyperlipidemia develops because:",
+          "options": ["A. Increased dietary fat absorption", "B. The liver increases lipoprotein synthesis in response to low oncotic pressure from hypoalbuminemia, as part of a generalized increase in hepatic protein synthesis", "C. Lipids are filtered through the damaged glomerulus", "D. Cholesterol absorption increases in the intestine"],
+          "correct": 1,
+          "explanation": "In nephrotic syndrome, massive proteinuria leads to hypoalbuminemia and decreased plasma oncotic pressure. The liver responds by increasing synthesis of proteins to compensate, including increased production of lipoproteins (VLDL, LDL). Additionally, lipoprotein lipase activity may be reduced due to urinary loss of its cofactors. The combined effect produces the characteristic hyperlipidemia and lipiduria seen in nephrotic syndrome."
+        },
+        {
+          "id": "digest-ps5-q3",
+          "stem": "GFR would decrease if:",
+          "options": ["A. Afferent arteriole dilation increased glomerular hydrostatic pressure", "B. Efferent arteriole dilation decreased glomerular hydrostatic pressure", "C. Plasma protein concentration decreased, reducing oncotic pressure", "D. The number of functioning nephrons increased"],
+          "correct": 1,
+          "explanation": "Efferent arteriole dilation would reduce the resistance to blood flow out of the glomerulus, decreasing glomerular capillary hydrostatic pressure. Since net filtration pressure depends on glomerular hydrostatic pressure exceeding the opposing oncotic and Bowman's capsule pressures, reducing this pressure decreases GFR. Conversely, efferent constriction (as by angiotensin II) increases glomerular pressure and helps maintain GFR."
+        },
+        {
+          "id": "digest-ps5-q4",
+          "stem": "Podocyte foot processes are essential components of the filtration barrier because they:",
+          "options": ["A. Produce the glomerular filtrate by active secretion", "B. Form filtration slits bridged by slit diaphragms containing nephrin, providing the final size-selective barrier", "C. Contract to regulate blood flow through the glomerulus", "D. Absorb nutrients from the filtrate before it enters Bowman's capsule"],
+          "correct": 1,
+          "explanation": "Podocytes are specialized epithelial cells that wrap around glomerular capillaries with interdigitating foot processes. The narrow slits between foot processes are bridged by slit diaphragms, proteinaceous structures containing nephrin and other molecules that form the ultimate size-selective filter. Mutations in nephrin cause congenital nephrotic syndrome, demonstrating the critical role of the slit diaphragm in preventing protein loss."
+        },
+        {
+          "id": "digest-ps5-q5",
+          "stem": "Creatinine clearance is used to estimate GFR because creatinine:",
+          "options": ["A. Is actively secreted but not filtered", "B. Is freely filtered at the glomerulus and undergoes minimal tubular reabsorption or secretion, making its clearance approximate to GFR", "C. Is completely reabsorbed in the proximal tubule", "D. Is produced only by the kidneys"],
+          "correct": 1,
+          "explanation": "Creatinine is a metabolic waste product of muscle creatine phosphate metabolism that is produced at a relatively constant rate and is freely filtered at the glomerulus. It undergoes minimal tubular reabsorption and only a small amount of tubular secretion. Its clearance therefore closely approximates the true GFR, making it a convenient endogenous marker for estimating kidney function without requiring exogenous tracer administration."
+        }
+      ]
+    },
+    {
+      "id": "digest-ps6",
+      "passage": "The proximal convoluted tubule (PCT) is the workhorse of nephron reabsorption, reclaiming approximately 65% of filtered sodium, water, bicarbonate, glucose, amino acids, and phosphate. Sodium reabsorption in the PCT is driven by the basolateral Na+/K+-ATPase, which maintains a low intracellular sodium concentration. This gradient drives apical sodium entry through various co-transporters: the sodium-glucose linked transporter (SGLT2, and to a lesser extent SGLT1), sodium-amino acid co-transporters, and the sodium-hydrogen exchanger (NHE3). NHE3 is particularly important as it simultaneously reabsorbs sodium and secretes hydrogen ions, driving bicarbonate reabsorption. Water follows sodium osmotically through aquaporin-1 channels (the PCT is highly permeable to water). Glucose is normally completely reabsorbed in the PCT, but when plasma glucose exceeds the transport maximum (Tm, approximately 375 mg/min, corresponding to a plasma glucose of approximately 200 mg/dL), glucosuria occurs. SGLT2 inhibitors (gliflozins) are a class of diabetes medications that block glucose reabsorption in the PCT, causing therapeutic glucosuria to lower blood glucose levels.",
+      "questions": [
+        {
+          "id": "digest-ps6-q1",
+          "stem": "The Na+/K+-ATPase on the basolateral membrane of PCT cells is considered the primary driving force for reabsorption because:",
+          "options": ["A. It directly transports glucose and amino acids", "B. By maintaining low intracellular sodium, it creates the electrochemical gradient that powers all apical sodium-coupled co-transporters", "C. It generates ATP for cellular metabolism", "D. It pumps water out of the cell"],
+          "correct": 1,
+          "explanation": "The Na+/K+-ATPase actively pumps 3 Na+ out and 2 K+ into the cell, maintaining a low intracellular Na+ concentration (approximately 10 mM versus 140 mM in the tubular lumen). This steep gradient provides the driving force for all apical sodium-dependent co-transporters and exchangers. Without the Na+/K+-ATPase, the sodium gradient would dissipate, and all secondary active transport processes would cease."
+        },
+        {
+          "id": "digest-ps6-q2",
+          "stem": "SGLT2 inhibitors lower blood glucose by:",
+          "options": ["A. Stimulating insulin secretion from beta cells", "B. Blocking glucose reabsorption in the proximal tubule, causing glucose to be excreted in the urine", "C. Inhibiting hepatic gluconeogenesis", "D. Increasing GLUT4 expression on muscle cells"],
+          "correct": 1,
+          "explanation": "SGLT2 inhibitors block the SGLT2 transporter, which is responsible for approximately 90% of glucose reabsorption in the early proximal tubule. By preventing glucose reabsorption, these drugs cause glucosuria (glucose excretion in urine), effectively lowering blood glucose through a mechanism independent of insulin. This class of drugs also provides cardiovascular and renal protective benefits beyond glucose lowering."
+        },
+        {
+          "id": "digest-ps6-q3",
+          "stem": "Bicarbonate reabsorption in the PCT involves NHE3 because:",
+          "options": ["A. NHE3 directly transports bicarbonate into the cell", "B. NHE3 secretes H+ into the lumen, which combines with filtered HCO3- to form H2CO3, then CO2 and H2O; CO2 diffuses into the cell and is reconverted to HCO3-", "C. NHE3 exchanges bicarbonate for chloride", "D. NHE3 produces bicarbonate from CO2 in the tubular lumen"],
+          "correct": 1,
+          "explanation": "NHE3 secretes H+ into the tubular lumen in exchange for Na+. The secreted H+ combines with filtered HCO3- to form carbonic acid (H2CO3), which is rapidly converted to CO2 and H2O by brush border carbonic anhydrase IV. CO2 freely diffuses into the PCT cell, where intracellular carbonic anhydrase II reforms H2CO3, which dissociates to H+ (recycled via NHE3) and HCO3- (transported to blood via basolateral cotransporters)."
+        },
+        {
+          "id": "digest-ps6-q4",
+          "stem": "The transport maximum (Tm) for glucose represents:",
+          "options": ["A. The maximum rate at which glucose is filtered", "B. The maximum rate at which all SGLT transporters can reabsorb glucose, above which glucosuria occurs", "C. The maximum plasma glucose concentration", "D. The rate of glucose production by the liver"],
+          "correct": 1,
+          "explanation": "The Tm for glucose (approximately 375 mg/min) represents the point at which all available SGLT2 and SGLT1 transporters are saturated and working at maximum capacity. When the filtered glucose load exceeds the Tm, the excess glucose cannot be reabsorbed and appears in the urine (glucosuria). In uncontrolled diabetes, plasma glucose levels far exceed the threshold, resulting in significant glycosuria."
+        },
+        {
+          "id": "digest-ps6-q5",
+          "stem": "Water reabsorption in the PCT occurs primarily through:",
+          "options": ["A. Active transport by water pumps", "B. Osmosis through aquaporin-1 channels, driven by the osmotic gradient created by solute reabsorption", "C. Pinocytosis of luminal fluid", "D. Hydrostatic pressure pushing water through the epithelium"],
+          "correct": 1,
+          "explanation": "As sodium and other solutes are reabsorbed from the tubular lumen, the local osmolarity of the lumen decreases while the peritubular interstitial osmolarity increases. This osmotic gradient drives water movement from lumen to interstitium through aquaporin-1 channels abundantly expressed on both the apical and basolateral membranes of PCT cells. The PCT is highly permeable to water, so reabsorption is essentially iso-osmotic."
+        }
+      ]
+    },
+    {
+      "id": "digest-ps7",
+      "passage": "The loop of Henle and collecting duct work together to concentrate or dilute urine through the countercurrent multiplier system. The descending thin limb is permeable to water (via aquaporin-1) but relatively impermeable to NaCl, so water leaves by osmosis as the tubular fluid descends into the hypertonic medullary interstitium. The ascending thin limb is impermeable to water but permeable to NaCl, allowing passive NaCl diffusion out of the tubule. The thick ascending limb (TAL) actively reabsorbs NaCl via the Na+/K+/2Cl- co-transporter (NKCC2) without water, diluting the tubular fluid and adding solute to the medullary interstitium. This is called the diluting segment. Loop diuretics (furosemide) inhibit NKCC2, blocking NaCl reabsorption in the TAL. The vasa recta, specialized peritubular capillaries arranged in a hairpin loop, act as countercurrent exchangers that remove reabsorbed water and solute without dissipating the medullary osmotic gradient. The collecting duct passes through the hypertonic medulla, and in the presence of ADH, aquaporin-2 channels are inserted, allowing water reabsorption to concentrate the urine. Without ADH, the collecting duct remains impermeable to water, and dilute urine is excreted.",
+      "questions": [
+        {
+          "id": "digest-ps7-q1",
+          "stem": "The thick ascending limb is called the diluting segment because:",
+          "options": ["A. It adds water to the tubular fluid", "B. It actively reabsorbs NaCl without allowing water to follow, reducing tubular fluid osmolarity", "C. It concentrates the tubular fluid", "D. It secretes additional solutes into the lumen"],
+          "correct": 1,
+          "explanation": "The thick ascending limb is impermeable to water but actively transports NaCl out of the tubular fluid via NKCC2. Since solute is removed without water following, the tubular fluid becomes progressively dilute (hypotonic) as it ascends. By the time fluid reaches the distal convoluted tubule, its osmolarity can drop to approximately 100 mOsm/kg, well below plasma osmolarity."
+        },
+        {
+          "id": "digest-ps7-q2",
+          "stem": "Loop diuretics like furosemide cause significant diuresis because blocking NKCC2:",
+          "options": ["A. Increases ADH secretion", "B. Prevents NaCl reabsorption in the TAL, reducing the medullary concentration gradient and impairing the kidney's ability to concentrate urine", "C. Increases water permeability of the collecting duct", "D. Stimulates aldosterone secretion"],
+          "correct": 1,
+          "explanation": "By inhibiting NKCC2, furosemide blocks NaCl reabsorption in the TAL, which is the primary active process that builds the medullary osmotic gradient. Without this gradient, the collecting duct cannot reabsorb water effectively even in the presence of ADH. Additionally, the NaCl that remains in the tubular lumen retains water osmotically, resulting in large-volume, isotonic diuresis."
+        },
+        {
+          "id": "digest-ps7-q3",
+          "stem": "The vasa recta function as countercurrent exchangers, which means they:",
+          "options": ["A. Actively pump solutes into the medullary interstitium", "B. Passively exchange water and solutes with the interstitium as blood flows through the hairpin loop, removing reabsorbed material without washing out the medullary gradient", "C. Filter blood like the glomerulus", "D. Produce urine independently of the nephron"],
+          "correct": 1,
+          "explanation": "The vasa recta have a hairpin configuration that allows passive exchange of water and solutes with the medullary interstitium. As blood descends, it loses water and gains solute. As it ascends, it gains water and loses solute. This countercurrent exchange efficiently removes the water and solute reabsorbed from the loop of Henle and collecting duct without disrupting the crucial medullary osmotic gradient needed for urine concentration."
+        },
+        {
+          "id": "digest-ps7-q4",
+          "stem": "In the absence of ADH, the final urine would be:",
+          "options": ["A. Highly concentrated (hyperosmotic)", "B. Dilute (hypo-osmotic), because the collecting duct remains impermeable to water and the dilute fluid from the TAL is excreted", "C. Isotonic with plasma", "D. Identical to the glomerular filtrate"],
+          "correct": 1,
+          "explanation": "Without ADH, aquaporin-2 channels are not inserted into the collecting duct apical membrane, and it remains impermeable to water. The dilute fluid leaving the thick ascending limb passes through the collecting duct without water being reabsorbed, despite traversing the hypertonic medullary interstitium. The result is excretion of large volumes of dilute urine (water diuresis), as seen in diabetes insipidus."
+        },
+        {
+          "id": "digest-ps7-q5",
+          "stem": "The countercurrent multiplier system generates the medullary osmotic gradient through:",
+          "options": ["A. A single powerful pump at the base of the loop of Henle", "B. Repeated active NaCl transport in the TAL at each level, with the countercurrent flow arrangement multiplying a modest single-effect gradient into a large axial gradient", "C. Passive diffusion of all solutes from cortex to medulla", "D. ADH-mediated water reabsorption in the ascending limb"],
+          "correct": 1,
+          "explanation": "The countercurrent multiplier works because the TAL actively pumps NaCl at every level of the medulla (the single effect), creating a small osmotic difference between the tubular fluid and the interstitium at each level. The countercurrent flow arrangement (descending and ascending limbs flowing in opposite directions) multiplies this small single effect into a large gradient from cortex (300 mOsm) to inner medulla (1200 mOsm). Urea recycling also contributes to the inner medullary gradient."
+        }
+      ]
+    },
+    {
+      "id": "digest-ps8",
+      "passage": "The distal convoluted tubule (DCT) and collecting duct fine-tune the composition of urine under hormonal control. The early DCT continues dilution via the thiazide-sensitive NaCl co-transporter (NCC). The late DCT and cortical collecting duct contain two cell types: principal cells and intercalated cells. Principal cells reabsorb sodium through the epithelial sodium channel (ENaC) and secrete potassium through ROMK channels, both regulated by aldosterone. Aldosterone, a mineralocorticoid, binds intracellular receptors and upregulates ENaC and Na+/K+-ATPase expression, increasing sodium reabsorption and potassium secretion. This is the site of action of potassium-sparing diuretics: spironolactone blocks the aldosterone receptor, while amiloride directly blocks ENaC. Intercalated cells regulate acid-base balance. Type A intercalated cells secrete H+ via H+-ATPase and H+/K+-ATPase and generate new bicarbonate (reabsorbed via basolateral Cl-/HCO3- exchangers), functioning in acidosis. Type B intercalated cells secrete bicarbonate into the lumen via apical Cl-/HCO3- exchangers and absorb H+, functioning in alkalosis.",
+      "questions": [
+        {
+          "id": "digest-ps8-q1",
+          "stem": "Aldosterone increases sodium reabsorption and potassium secretion in the collecting duct by:",
+          "options": ["A. Directly opening ion channels through membrane receptor binding", "B. Binding intracellular mineralocorticoid receptors and upregulating transcription of ENaC, ROMK, and Na+/K+-ATPase genes", "C. Inhibiting ADH action on the collecting duct", "D. Increasing glomerular filtration rate"],
+          "correct": 1,
+          "explanation": "Aldosterone is a steroid hormone that diffuses into principal cells and binds intracellular mineralocorticoid receptors. The hormone-receptor complex translocates to the nucleus and acts as a transcription factor, increasing expression of ENaC (apical sodium channels), ROMK (apical potassium channels), and Na+/K+-ATPase (basolateral pump). This genomic mechanism takes hours to reach full effect."
+        },
+        {
+          "id": "digest-ps8-q2",
+          "stem": "Spironolactone is classified as a potassium-sparing diuretic because it:",
+          "options": ["A. Directly blocks potassium channels to prevent secretion", "B. Blocks the aldosterone receptor, preventing aldosterone-mediated sodium reabsorption and the electrochemical driving force for potassium secretion", "C. Stimulates potassium reabsorption in the proximal tubule", "D. Increases GFR to dilute potassium concentration"],
+          "correct": 1,
+          "explanation": "By antagonizing the aldosterone receptor, spironolactone prevents the upregulation of ENaC and Na+/K+-ATPase. Without ENaC-mediated sodium reabsorption, the lumen-negative electrical gradient that normally drives potassium secretion through ROMK is reduced. This results in mild natriuresis (sodium loss) with potassium retention, distinguishing it from loop and thiazide diuretics that cause potassium wasting."
+        },
+        {
+          "id": "digest-ps8-q3",
+          "stem": "During metabolic acidosis, Type A intercalated cells respond by:",
+          "options": ["A. Secreting bicarbonate into the tubular lumen", "B. Increasing H+ secretion into the lumen and generating new bicarbonate for transport into the blood", "C. Reabsorbing potassium from the lumen", "D. Increasing sodium reabsorption"],
+          "correct": 1,
+          "explanation": "Type A intercalated cells combat acidosis by actively secreting H+ into the tubular lumen via apical H+-ATPase and H+/K+-ATPase. Intracellularly, carbonic anhydrase generates H+ and HCO3- from CO2 and water. The secreted H+ is excreted in the urine (buffered by phosphate and ammonia), while the newly generated HCO3- is transported to the blood via basolateral Cl-/HCO3- exchangers, replenishing the depleted bicarbonate pool."
+        },
+        {
+          "id": "digest-ps8-q4",
+          "stem": "Thiazide diuretics act on the early DCT by:",
+          "options": ["A. Blocking aquaporin-2 channels", "B. Inhibiting the NaCl co-transporter (NCC), reducing sodium and chloride reabsorption", "C. Stimulating aldosterone release", "D. Increasing medullary osmolarity"],
+          "correct": 1,
+          "explanation": "Thiazide diuretics inhibit the NCC (Na+/Cl- co-transporter) on the apical membrane of early DCT cells. This prevents NaCl reabsorption, leading to natriuresis and diuresis. The effect is milder than loop diuretics because the DCT reabsorbs a smaller fraction of filtered sodium (approximately 5-7%) compared to the TAL (approximately 25%). Thiazides can cause hypokalemia by increasing sodium delivery to the collecting duct, enhancing potassium secretion."
+        },
+        {
+          "id": "digest-ps8-q5",
+          "stem": "Type B intercalated cells are functionally opposite to Type A cells because they:",
+          "options": ["A. Are found only in the proximal tubule", "B. Secrete bicarbonate into the lumen and reabsorb hydrogen ions, active during metabolic alkalosis", "C. Secrete hydrogen ions and reabsorb bicarbonate, identical to Type A", "D. Only function during respiratory acidosis"],
+          "correct": 1,
+          "explanation": "Type B intercalated cells have a reversed polarity compared to Type A cells. They express Cl-/HCO3- exchangers (pendrin) on the apical membrane, secreting bicarbonate into the tubular lumen, and H+-ATPase on the basolateral membrane, transporting H+ into the blood. This configuration allows them to excrete excess bicarbonate during metabolic alkalosis, helping restore normal blood pH."
+        }
+      ]
+    },
+    {
+      "id": "digest-ps9",
+      "passage": "Acid-base balance is maintained through the coordinated action of chemical buffers, the respiratory system, and the kidneys. The bicarbonate buffer system (CO2 + H2O <-> H2CO3 <-> H+ + HCO3-) is the most important extracellular buffer because both components can be independently regulated: the lungs control CO2 (the volatile acid component) and the kidneys control HCO3- (the metabolic component). The Henderson-Hasselbalch equation (pH = 6.1 + log[HCO3-]/[0.03 x PCO2]) defines blood pH. Respiratory compensation for metabolic disorders occurs within minutes to hours, while renal compensation for respiratory disorders takes days. Metabolic acidosis (low HCO3-) triggers hyperventilation to lower PCO2 (respiratory compensation). Metabolic alkalosis (high HCO3-) triggers hypoventilation to raise PCO2. Respiratory acidosis (high PCO2) prompts renal HCO3- retention. The anion gap (AG = Na+ - Cl- - HCO3-; normal 8-12 mEq/L) helps differentiate causes of metabolic acidosis. An elevated anion gap indicates accumulation of unmeasured anions (e.g., lactate, ketoacids, uremic toxins), while a normal anion gap indicates bicarbonate loss (diarrhea) or impaired renal acid excretion.",
+      "questions": [
+        {
+          "id": "digest-ps9-q1",
+          "stem": "A patient in diabetic ketoacidosis (DKA) would present with:",
+          "options": ["A. Metabolic alkalosis with hypoventilation", "B. Anion gap metabolic acidosis with compensatory hyperventilation (Kussmaul breathing)", "C. Respiratory alkalosis with renal bicarbonate wasting", "D. Normal pH with elevated bicarbonate"],
+          "correct": 1,
+          "explanation": "DKA produces ketoacids (beta-hydroxybutyric acid, acetoacetic acid) that consume bicarbonate, causing metabolic acidosis with an elevated anion gap (the ketoacid anions are the unmeasured anions). The respiratory system compensates by hyperventilation (deep, rapid Kussmaul breathing) to blow off CO2 and raise pH. Despite compensation, pH typically remains below normal until the underlying ketoacidosis is treated."
+        },
+        {
+          "id": "digest-ps9-q2",
+          "stem": "Respiratory compensation for metabolic acidosis is limited because:",
+          "options": ["A. The lungs cannot alter CO2 levels", "B. Excessive hyperventilation eventually causes respiratory muscle fatigue, and very low PCO2 would impair oxygen delivery", "C. The kidneys counteract respiratory compensation", "D. Respiratory compensation takes weeks to develop"],
+          "correct": 1,
+          "explanation": "While the respiratory system can partially compensate for metabolic acidosis by hyperventilation, there are physiological limits. PCO2 cannot be lowered below approximately 10-15 mmHg due to respiratory muscle fatigue and the increasing work of breathing. Additionally, the resulting respiratory alkalosis component at very low PCO2 levels triggers reflexes that limit further ventilation. Full correction requires renal mechanisms to regenerate bicarbonate."
+        },
+        {
+          "id": "digest-ps9-q3",
+          "stem": "A normal anion gap metabolic acidosis caused by diarrhea occurs because:",
+          "options": ["A. Diarrhea causes loss of acidic intestinal contents", "B. Intestinal secretions are rich in bicarbonate, and diarrhea causes direct loss of HCO3-; chloride is retained proportionally, maintaining a normal anion gap", "C. Diarrhea increases lactic acid production", "D. Loss of potassium directly lowers bicarbonate"],
+          "correct": 1,
+          "explanation": "The small intestine and colon secrete bicarbonate-rich fluid. Severe diarrhea causes direct loss of bicarbonate from the body. To maintain electroneutrality, the kidneys retain chloride, resulting in hyperchloremia. Since the bicarbonate lost is replaced by chloride (both measured anions), the anion gap remains normal. This is also called hyperchloremic metabolic acidosis."
+        },
+        {
+          "id": "digest-ps9-q4",
+          "stem": "Renal compensation for chronic respiratory acidosis involves:",
+          "options": ["A. Immediate hyperventilation to lower CO2", "B. Increased renal bicarbonate reabsorption and increased ammonium (NH4+) excretion over 3-5 days to raise serum bicarbonate", "C. Decreased production of erythropoietin", "D. Increased filtration of CO2 at the glomerulus"],
+          "correct": 1,
+          "explanation": "The kidneys compensate for chronic respiratory acidosis (elevated PCO2) by increasing bicarbonate reabsorption in the proximal tubule (via enhanced NHE3 activity) and increasing hydrogen ion excretion (buffered as titratable acid and ammonium/NH4+). This generates new bicarbonate that is added to the blood, partially normalizing pH. This process takes 3-5 days to reach maximal compensation."
+        },
+        {
+          "id": "digest-ps9-q5",
+          "stem": "The anion gap is clinically useful because:",
+          "options": ["A. It directly measures blood pH", "B. It helps identify the cause of metabolic acidosis by detecting the presence of unmeasured anions such as lactate, ketoacids, or toxin metabolites", "C. It determines the severity of respiratory disorders", "D. It measures the total buffer capacity of the blood"],
+          "correct": 1,
+          "explanation": "The anion gap represents the difference between measured cations (Na+) and measured anions (Cl- + HCO3-). An elevated anion gap indicates accumulation of unmeasured anions, helping identify the cause of acidosis. The mnemonic MUDPILES (Methanol, Uremia, DKA, Propylene glycol, Isoniazid/Iron, Lactic acidosis, Ethylene glycol, Salicylates) lists common causes of elevated anion gap metabolic acidosis."
+        }
+      ]
+    },
+    {
+      "id": "digest-ps10",
+      "passage": "The large intestine (colon) plays important roles in water and electrolyte absorption, vitamin production by commensal bacteria, and feces formation. The colon absorbs approximately 1.5 liters of water daily from the 2 liters of chyme entering from the ileum. Sodium absorption occurs through ENaC channels (regulated by aldosterone, similar to the collecting duct), and water follows osmotically. The colonic epithelium also secretes bicarbonate in exchange for chloride absorption. Commensal bacteria in the colon ferment undigested dietary fiber (complex carbohydrates) to produce short-chain fatty acids (SCFAs) including butyrate, propionate, and acetate. Butyrate serves as the primary energy source for colonocytes and has anti-inflammatory properties. Colonic bacteria also synthesize vitamin K and several B vitamins (biotin, folate). The enteric nervous system, often called the second brain, contains approximately 100 million neurons organized into the myenteric (Auerbach's) plexus (controlling motility) and the submucosal (Meissner's) plexus (controlling secretion and blood flow). Hirschsprung disease, caused by failure of neural crest cell migration to the distal colon, results in absence of enteric ganglia and functional obstruction.",
+      "questions": [
+        {
+          "id": "digest-ps10-q1",
+          "stem": "Butyrate produced by bacterial fermentation of fiber is important for colonic health because:",
+          "options": ["A. It increases colonic motility by stimulating the vagus nerve", "B. It serves as the primary metabolic fuel for colonocytes and exerts anti-inflammatory and anti-proliferative effects", "C. It directly kills pathogenic bacteria in the colon", "D. It promotes water secretion into the colonic lumen"],
+          "correct": 1,
+          "explanation": "Butyrate is a short-chain fatty acid that is preferentially oxidized by colonocytes for energy production, supplying approximately 70% of their metabolic needs. Beyond its role as fuel, butyrate inhibits NF-kB signaling (reducing inflammation), promotes colonocyte differentiation, induces apoptosis of transformed cells, and enhances the intestinal barrier. Fiber-poor diets reduce butyrate production and are associated with increased colorectal cancer risk."
+        },
+        {
+          "id": "digest-ps10-q2",
+          "stem": "Hirschsprung disease causes functional bowel obstruction because:",
+          "options": ["A. Excessive peristalsis in the affected segment", "B. The aganglionic segment cannot relax, creating a functional obstruction proximal to which the normally innervated bowel becomes dilated", "C. The enteric ganglia cause excessive secretion", "D. The neural crest cells produce too many neurons"],
+          "correct": 1,
+          "explanation": "In Hirschsprung disease, neural crest cells fail to migrate completely to the distal colon during development, resulting in a segment lacking enteric ganglia (myenteric and submucosal plexuses). Without inhibitory neurons, the affected segment remains tonically contracted and cannot undergo peristaltic relaxation. This creates a functional obstruction, with the normally innervated proximal bowel dilating (megacolon) as it attempts to push contents past the obstruction."
+        },
+        {
+          "id": "digest-ps10-q3",
+          "stem": "Aldosterone regulation of sodium absorption in the colon is clinically relevant because:",
+          "options": ["A. The colon is the primary site of sodium absorption in the body", "B. In aldosterone excess (hyperaldosteronism), enhanced colonic sodium absorption contributes to hypertension, while in aldosterone deficiency (Addison's disease), sodium loss in stool contributes to dehydration", "C. Aldosterone has no effect on the colon", "D. Colonic sodium absorption is independent of hormonal regulation"],
+          "correct": 1,
+          "explanation": "Aldosterone acts on colonocytes similarly to its action on principal cells of the collecting duct, upregulating ENaC to enhance sodium absorption. In hyperaldosteronism, excessive colonic sodium (and water) absorption contributes to volume expansion. In Addison's disease (adrenal insufficiency with aldosterone deficiency), impaired colonic sodium absorption leads to sodium loss in stool, contributing to dehydration and hypotension."
+        },
+        {
+          "id": "digest-ps10-q4",
+          "stem": "The myenteric (Auerbach's) plexus and submucosal (Meissner's) plexus differ in their primary functions in that:",
+          "options": ["A. Both plexuses exclusively control motility", "B. The myenteric plexus primarily controls GI motility and peristalsis, while the submucosal plexus primarily regulates secretion and local blood flow", "C. The submucosal plexus is located outside the muscularis externa", "D. The myenteric plexus is found only in the stomach"],
+          "correct": 1,
+          "explanation": "The myenteric plexus, located between the circular and longitudinal muscle layers, primarily coordinates smooth muscle contraction and peristalsis along the entire GI tract. The submucosal plexus, located in the submucosa, primarily regulates epithelial cell secretion, local blood flow, and absorption. Together, these plexuses allow the GI tract to function semi-autonomously from the central nervous system."
+        },
+        {
+          "id": "digest-ps10-q5",
+          "stem": "Patients on long-term broad-spectrum antibiotics are at risk for vitamin K deficiency because:",
+          "options": ["A. Antibiotics directly destroy vitamin K in the bloodstream", "B. Antibiotics kill colonic bacteria that synthesize vitamin K, reducing an important supplementary source of this vitamin", "C. Antibiotics block vitamin K absorption in the small intestine", "D. Antibiotics increase vitamin K excretion by the kidneys"],
+          "correct": 1,
+          "explanation": "Commensal bacteria in the colon synthesize vitamin K2 (menaquinone), which contributes to the body's vitamin K supply alongside dietary intake. Broad-spectrum antibiotics can significantly reduce the colonic bacterial population, diminishing this endogenous source. Vitamin K is essential for the gamma-carboxylation of clotting factors II, VII, IX, and X, and its deficiency leads to impaired coagulation and bleeding risk."
+        }
+      ]
+    }
+  ]
+}

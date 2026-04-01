@@ -1,0 +1,666 @@
+{
+  "subtopic": "Amino Acids & Proteins",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "aa-ps-001",
+      "passage": "Researchers investigating the structural properties of a novel antimicrobial peptide isolated from amphibian skin performed a series of biochemical analyses. The peptide, designated AMP-47, consists of 23 amino acid residues and was found to adopt an amphipathic alpha-helical conformation in membrane-mimetic environments. Amino acid composition analysis revealed a high proportion of lysine and leucine residues, with the hydrophobic residues clustering on one face of the helix and the positively charged residues on the opposite face. Circular dichroism spectroscopy showed that the peptide exhibited minimal secondary structure in aqueous buffer but adopted significant helical content upon addition of SDS micelles. Site-directed mutagenesis studies demonstrated that replacing two central leucine residues with aspartate residues abolished antimicrobial activity, while substituting terminal glycine residues with alanine had minimal effect on function. The researchers also noted that reducing the disulfide bond between Cys-5 and Cys-19 resulted in a complete loss of structural integrity and biological activity. Thermal denaturation studies showed that AMP-47 had a melting temperature of 62 degrees Celsius in the presence of lipid vesicles.",
+      "questions": [
+        {
+          "id": "aa-q-001",
+          "stem": "The amphipathic nature of AMP-47 is best explained by which structural feature?",
+          "options": [
+            "A. All amino acid residues are hydrophobic and insert into membranes",
+            "B. Hydrophobic and hydrophilic residues segregate to opposite faces of the alpha helix",
+            "C. The peptide contains only charged amino acids arranged in a linear sequence",
+            "D. Beta-sheet formation creates alternating polar and nonpolar surfaces"
+          ],
+          "correct": 1,
+          "explanation": "An amphipathic alpha helix has hydrophobic residues on one face and hydrophilic (charged) residues on the opposite face. The passage explicitly states that hydrophobic leucine residues cluster on one face while positively charged lysine residues occupy the other, which is the defining characteristic of amphipathic helices."
+        },
+        {
+          "id": "aa-q-002",
+          "stem": "The loss of antimicrobial activity when leucine residues were replaced with aspartate is most likely due to:",
+          "options": [
+            "A. disruption of the hydrophobic face of the amphipathic helix",
+            "B. introduction of additional positive charges on the peptide surface",
+            "C. increased alpha-helical content in aqueous solution",
+            "D. enhanced binding to SDS micelles"
+          ],
+          "correct": 0,
+          "explanation": "Leucine is a nonpolar, hydrophobic amino acid, while aspartate is negatively charged at physiological pH. Replacing leucine with aspartate on the hydrophobic face would disrupt the amphipathic structure essential for membrane insertion and antimicrobial function. This substitution introduces charged residues where hydrophobic ones are needed."
+        },
+        {
+          "id": "aa-q-003",
+          "stem": "The disulfide bond between Cys-5 and Cys-19 contributes to which level of protein structure?",
+          "options": [
+            "A. Primary structure",
+            "B. Secondary structure",
+            "C. Tertiary structure",
+            "D. Quaternary structure"
+          ],
+          "correct": 2,
+          "explanation": "Disulfide bonds are covalent bonds between the sulfhydryl groups of cysteine residues that stabilize the three-dimensional folding of a polypeptide chain. These bonds are a key feature of tertiary structure, as they connect residues that may be distant in the primary sequence but brought into proximity by protein folding."
+        },
+        {
+          "id": "aa-q-004",
+          "stem": "Why did substituting glycine with alanine at the terminal positions have minimal effect on peptide function?",
+          "options": [
+            "A. Glycine and alanine are both positively charged amino acids",
+            "B. Both residues are small and nonpolar, making the substitution conservative",
+            "C. Terminal residues never contribute to protein function",
+            "D. Alanine promotes beta-sheet formation identical to glycine"
+          ],
+          "correct": 1,
+          "explanation": "Glycine and alanine are both small, nonpolar amino acids, making this a relatively conservative substitution. Although glycine is unique in its conformational flexibility due to its hydrogen side chain, alanine's small methyl group is similarly non-disruptive, especially at terminal positions that may not be critical for the core amphipathic structure."
+        },
+        {
+          "id": "aa-q-005",
+          "stem": "The observation that AMP-47 shows minimal secondary structure in aqueous buffer but increased helical content with SDS micelles suggests that:",
+          "options": [
+            "A. SDS denatures the peptide and eliminates all structure",
+            "B. the hydrophobic environment of micelles stabilizes intramolecular hydrogen bonds in the helix",
+            "C. SDS covalently modifies the peptide backbone",
+            "D. aqueous environments always prevent alpha-helix formation in all peptides"
+          ],
+          "correct": 1,
+          "explanation": "SDS micelles provide a hydrophobic membrane-mimetic environment that promotes alpha-helix formation by stabilizing intramolecular hydrogen bonds along the peptide backbone. In aqueous solution, water molecules compete with these intramolecular hydrogen bonds, destabilizing the helix. The hydrophobic environment reduces this competition and favors the folded state."
+        }
+      ]
+    },
+    {
+      "id": "aa-ps-002",
+      "passage": "A biochemistry laboratory course required students to separate and identify amino acids from a protein hydrolysate using several chromatographic techniques. The students first performed ion-exchange chromatography at pH 6.0 using a cation-exchange resin. They observed that some amino acids eluted early while others required higher salt concentrations to displace them from the column. In a second experiment, students used thin-layer chromatography to separate amino acids based on their polarity. Ninhydrin staining was used to visualize the separated amino acids, producing purple spots for most amino acids but a yellow spot for one particular amino acid. The students then calculated the isoelectric points of several amino acids: glycine (pI = 5.97), glutamate (pI = 3.22), lysine (pI = 9.74), and histidine (pI = 7.59). They noted that at physiological pH of 7.4, these amino acids would carry different net charges, affecting their chromatographic behavior and their roles in enzyme active sites. The students also performed a titration experiment with histidine, observing three distinct buffering regions corresponding to its three ionizable groups.",
+      "questions": [
+        {
+          "id": "aa-q-006",
+          "stem": "At pH 6.0 on a cation-exchange column, which amino acid would be expected to elute last?",
+          "options": [
+            "A. Glutamate (pI = 3.22)",
+            "B. Glycine (pI = 5.97)",
+            "C. Lysine (pI = 9.74)",
+            "D. Alanine (pI = 6.00)"
+          ],
+          "correct": 2,
+          "explanation": "On a cation-exchange column, positively charged molecules bind most tightly and elute last. At pH 6.0, lysine (pI = 9.74) carries a significant net positive charge because the pH is well below its isoelectric point. This strong positive charge causes lysine to bind tightly to the negatively charged cation-exchange resin, requiring the highest salt concentration for elution."
+        },
+        {
+          "id": "aa-q-007",
+          "stem": "The amino acid that produced a yellow color with ninhydrin staining is most likely:",
+          "options": [
+            "A. glycine",
+            "B. proline",
+            "C. tryptophan",
+            "D. cysteine"
+          ],
+          "correct": 1,
+          "explanation": "Proline is the only standard amino acid that produces a yellow color with ninhydrin, because it is an imino acid with a secondary amine group (its side chain cyclizes back to the backbone nitrogen). All other amino acids with primary amino groups produce a purple/blue color known as Ruhemann's purple when reacting with ninhydrin."
+        },
+        {
+          "id": "aa-q-008",
+          "stem": "At physiological pH (7.4), what is the net charge on glutamate?",
+          "options": [
+            "A. +1",
+            "B. 0",
+            "C. -1",
+            "D. -2"
+          ],
+          "correct": 2,
+          "explanation": "At physiological pH 7.4, glutamate carries a net charge of approximately -1. The alpha-amino group is protonated (NH3+), the alpha-carboxyl group is deprotonated (COO-), and the side chain carboxyl group is also deprotonated (COO-), giving an overall charge of +1 - 1 - 1 = -1. This is consistent with its low pI of 3.22."
+        },
+        {
+          "id": "aa-q-009",
+          "stem": "Histidine is particularly important in enzyme catalysis at physiological pH because:",
+          "options": [
+            "A. its side chain pKa is near physiological pH, allowing it to act as both a proton donor and acceptor",
+            "B. it is the largest amino acid and fills the active site completely",
+            "C. it forms more disulfide bonds than any other amino acid",
+            "D. its aromatic ring absorbs UV light, enabling catalytic activity"
+          ],
+          "correct": 0,
+          "explanation": "Histidine's imidazole side chain has a pKa of approximately 6.0, which is close to physiological pH. This means it can readily donate or accept protons at physiological conditions, making it an excellent general acid-base catalyst in enzyme active sites. Many enzymes, including serine proteases, rely on histidine residues for catalytic proton transfer."
+        },
+        {
+          "id": "aa-q-010",
+          "stem": "The three buffering regions observed during histidine titration correspond to the ionization of which groups?",
+          "options": [
+            "A. Three carboxyl groups on the side chain",
+            "B. The alpha-carboxyl group, the imidazole side chain, and the alpha-amino group",
+            "C. Two amino groups and one hydroxyl group",
+            "D. The alpha-amino group, a sulfhydryl group, and the alpha-carboxyl group"
+          ],
+          "correct": 1,
+          "explanation": "Histidine has three ionizable groups: the alpha-carboxyl group (pKa ~1.8), the imidazole side chain (pKa ~6.0), and the alpha-amino group (pKa ~9.2). Each of these groups produces a distinct buffering region during titration, resulting in three plateaus on the titration curve where the pH changes minimally with added base."
+        }
+      ]
+    },
+    {
+      "id": "aa-ps-003",
+      "passage": "A research team studying collagen disorders conducted experiments on type I collagen, the most abundant protein in the human body. Type I collagen is a fibrous protein composed of three polypeptide chains wound around each other in a triple helix. The researchers found that every third residue in the collagen sequence is glycine, creating the repeating Gly-X-Y motif where X is frequently proline and Y is often hydroxyproline. Post-translational hydroxylation of proline residues is catalyzed by prolyl hydroxylase, an enzyme that requires ascorbic acid (vitamin C) as a cofactor. The team generated several point mutations in the collagen gene and expressed the mutant proteins in cell culture. A mutation replacing glycine at position 421 with arginine resulted in severe disruption of the triple helix, while a mutation replacing alanine at position 422 (an X position) with serine caused only mild structural perturbation. Differential scanning calorimetry revealed that the glycine-to-arginine mutant had a melting temperature 18 degrees Celsius lower than wild-type collagen, indicating significant destabilization. The team also studied patients with scurvy who showed impaired wound healing and noted that their collagen had reduced thermal stability.",
+      "questions": [
+        {
+          "id": "aa-q-011",
+          "stem": "Why is glycine required at every third position in the collagen triple helix?",
+          "options": [
+            "A. Glycine's large hydrophobic side chain stabilizes interchain interactions",
+            "B. Glycine is the only amino acid small enough to fit in the interior of the triple helix",
+            "C. Glycine forms the most stable alpha-helical segments",
+            "D. Glycine provides the negative charges needed for calcium binding"
+          ],
+          "correct": 1,
+          "explanation": "Glycine has only a hydrogen atom as its side chain, making it the smallest amino acid. In the collagen triple helix, glycine residues are positioned in the crowded interior where the three chains come closest together. Any amino acid with a larger side chain would cause steric clashes that disrupt the tight packing of the triple helix."
+        },
+        {
+          "id": "aa-q-012",
+          "stem": "The connection between scurvy and collagen instability is best explained by:",
+          "options": [
+            "A. vitamin C directly cross-links collagen chains through covalent bonds",
+            "B. without vitamin C, prolyl hydroxylase cannot hydroxylate proline residues, reducing interchain hydrogen bonding",
+            "C. ascorbic acid prevents glycine mutations in the collagen gene",
+            "D. scurvy causes overexpression of collagenase enzymes"
+          ],
+          "correct": 1,
+          "explanation": "Prolyl hydroxylase requires ascorbic acid (vitamin C) as a cofactor to convert proline to hydroxyproline. Hydroxyproline residues form critical interchain hydrogen bonds that stabilize the collagen triple helix. In scurvy, the deficiency of vitamin C impairs this hydroxylation, resulting in collagen with reduced thermal stability and mechanical strength."
+        },
+        {
+          "id": "aa-q-013",
+          "stem": "The severe effect of the Gly421Arg mutation compared to the mild effect of the Ala422Ser mutation is best explained by:",
+          "options": [
+            "A. arginine is smaller than serine and disrupts packing more",
+            "B. position 422 is on the exterior of the helix where substitutions are better tolerated, while glycine at position 421 is in the constrained interior",
+            "C. serine is a nonpolar amino acid that mimics alanine",
+            "D. the Ala422Ser mutation increases the melting temperature"
+          ],
+          "correct": 1,
+          "explanation": "In the Gly-X-Y repeat of collagen, glycine occupies the sterically constrained interior of the triple helix, while X and Y positions face outward. Replacing the small glycine with the large, positively charged arginine creates severe steric clashes in the interior. Substituting alanine with serine at the X position is tolerated because the exterior location accommodates the size difference."
+        },
+        {
+          "id": "aa-q-014",
+          "stem": "Collagen is classified as a fibrous protein rather than a globular protein primarily because:",
+          "options": [
+            "A. it contains only alpha-helical secondary structure",
+            "B. it has an elongated shape with repeating structural motifs and primarily structural function",
+            "C. it is soluble in aqueous solution and has enzymatic activity",
+            "D. it folds into a compact spherical shape with a hydrophobic core"
+          ],
+          "correct": 1,
+          "explanation": "Fibrous proteins like collagen are characterized by elongated shapes, repeating structural elements, and roles in providing structural support. Collagen's triple-helical structure is rod-shaped and assembles into fibrils that provide tensile strength to tissues. In contrast, globular proteins are compact, roughly spherical, and often serve catalytic or regulatory functions."
+        },
+        {
+          "id": "aa-q-015",
+          "stem": "The hydroxylation of proline to hydroxyproline is an example of:",
+          "options": [
+            "A. a co-translational modification that occurs on the ribosome",
+            "B. a post-translational modification that occurs after the polypeptide is synthesized",
+            "C. a mutation that alters the DNA sequence encoding proline",
+            "D. a primary structure change that alters the amino acid sequence"
+          ],
+          "correct": 1,
+          "explanation": "Hydroxylation of proline is a post-translational modification, meaning it occurs after the polypeptide chain has been synthesized by the ribosome. Prolyl hydroxylase catalyzes this reaction in the endoplasmic reticulum, modifying existing proline residues without changing the genetic code. This modification is essential for collagen stability but is not encoded in the DNA."
+        }
+      ]
+    },
+    {
+      "id": "aa-ps-004",
+      "passage": "Sickle cell disease results from a single point mutation in the beta-globin gene, changing the sixth amino acid from glutamic acid to valine (Glu6Val). Researchers studying the molecular basis of sickling performed electrophoresis of hemoglobin samples at pH 8.6 and observed distinct migration patterns for hemoglobin A (HbA) and hemoglobin S (HbS). HbS migrated more slowly toward the anode compared to HbA. Under deoxygenated conditions, HbS molecules polymerize into long fibers that distort red blood cells into the characteristic sickle shape. The hydrophobic valine residue on one HbS tetramer inserts into a complementary hydrophobic pocket on an adjacent tetramer, nucleating fiber formation. Interestingly, individuals heterozygous for the sickle cell allele (HbAS) show resistance to Plasmodium falciparum malaria, providing a selective advantage in malaria-endemic regions. Researchers also found that fetal hemoglobin (HbF), which has gamma-globin chains instead of beta-globin chains, does not participate in the sickling polymer and can ameliorate disease severity when present at high levels. Hydroxyurea, a treatment for sickle cell disease, works partly by increasing HbF production.",
+      "questions": [
+        {
+          "id": "aa-q-016",
+          "stem": "HbS migrates more slowly toward the anode at pH 8.6 because:",
+          "options": [
+            "A. valine has a positive charge at pH 8.6, increasing the overall positive charge of HbS",
+            "B. the Glu-to-Val substitution removes two negative charges per tetramer, reducing the net negative charge",
+            "C. HbS has a higher molecular weight than HbA",
+            "D. valine forms additional disulfide bonds that retard migration"
+          ],
+          "correct": 1,
+          "explanation": "At pH 8.6, glutamic acid carries a negative charge (COO-) while valine is uncharged and nonpolar. Since each HbS tetramer contains two beta-globin chains, the Glu6Val substitution removes two negative charges per tetramer. This reduction in net negative charge decreases the electrophoretic mobility of HbS toward the positively charged anode."
+        },
+        {
+          "id": "aa-q-017",
+          "stem": "The polymerization of deoxygenated HbS is driven primarily by:",
+          "options": [
+            "A. ionic bonds between charged residues on adjacent tetramers",
+            "B. hydrophobic interactions between the valine residue and a complementary pocket on an adjacent tetramer",
+            "C. covalent cross-linking between beta-globin chains",
+            "D. hydrogen bonding between the heme groups of adjacent molecules"
+          ],
+          "correct": 1,
+          "explanation": "The passage states that the hydrophobic valine residue on one HbS tetramer inserts into a complementary hydrophobic pocket on an adjacent tetramer. This hydrophobic interaction is the key initiating event in HbS polymerization. Valine is nonpolar and creates an exposed hydrophobic patch that was not present when the charged glutamic acid occupied this position."
+        },
+        {
+          "id": "aa-q-018",
+          "stem": "The Glu6Val substitution in hemoglobin S represents a change from what type of amino acid to what type?",
+          "options": [
+            "A. Nonpolar to polar uncharged",
+            "B. Negatively charged to nonpolar",
+            "C. Positively charged to negatively charged",
+            "D. Polar uncharged to positively charged"
+          ],
+          "correct": 1,
+          "explanation": "Glutamic acid is a negatively charged (acidic) amino acid at physiological pH due to the carboxyl group on its side chain. Valine is a nonpolar, hydrophobic amino acid with a branched aliphatic side chain. This substitution changes the chemical character of the residue from charged and hydrophilic to hydrophobic, which is what enables the pathological polymerization."
+        },
+        {
+          "id": "aa-q-019",
+          "stem": "HbF does not participate in the sickling polymer most likely because:",
+          "options": [
+            "A. gamma-globin chains are shorter than beta-globin chains",
+            "B. the gamma-globin chain does not contain the Val6 substitution and likely lacks the complementary hydrophobic pocket",
+            "C. HbF has a lower oxygen affinity than HbS",
+            "D. fetal hemoglobin exists only as a monomer"
+          ],
+          "correct": 1,
+          "explanation": "HbF contains gamma-globin chains instead of beta-globin chains. The gamma chains do not carry the Glu6Val mutation and have a different surface topology that does not provide the complementary hydrophobic pocket needed for polymer propagation. Therefore, HbF tetramers cannot participate in the fiber formation that causes sickling."
+        },
+        {
+          "id": "aa-q-020",
+          "stem": "The hemoglobin tetramer (alpha2-beta2) represents which level of protein structure?",
+          "options": [
+            "A. Primary structure",
+            "B. Secondary structure",
+            "C. Tertiary structure",
+            "D. Quaternary structure"
+          ],
+          "correct": 3,
+          "explanation": "Quaternary structure describes the arrangement and interaction of multiple polypeptide subunits in a multi-subunit protein complex. The hemoglobin tetramer consists of four polypeptide chains (two alpha and two beta subunits) held together by noncovalent interactions. This multi-subunit assembly is the defining feature of quaternary structure."
+        }
+      ]
+    },
+    {
+      "id": "aa-ps-005",
+      "passage": "A pharmaceutical company was developing a new protease inhibitor drug and needed to understand the active site architecture of the target enzyme, HIV-1 protease. X-ray crystallography revealed that the active site contains two aspartate residues (Asp-25 and Asp-25') that are critical for catalysis. The enzyme functions as a homodimer, with each monomer contributing one aspartate to the catalytic dyad. The researchers synthesized several peptide-based inhibitors and measured their binding affinities. Inhibitor A contained a non-hydrolyzable transition state analog with a hydroxyl group positioned between the two aspartate residues. Inhibitor B was designed to form salt bridges with arginine residues flanking the active site. Mutagenesis studies showed that replacing either Asp-25 with asparagine completely abolished enzymatic activity, while replacing Phe-53 with leucine reduced substrate binding by only 30%. The researchers also found that the enzyme exhibited pH-dependent activity with optimal function at pH 5.0, consistent with the requirement for one aspartate to be protonated and the other deprotonated during catalysis. Kinetic studies showed that the enzyme followed Michaelis-Menten kinetics with a Km of 15 micromolar for its natural substrate.",
+      "questions": [
+        {
+          "id": "aa-q-021",
+          "stem": "The replacement of Asp-25 with asparagine abolishes activity because:",
+          "options": [
+            "A. asparagine is too large to fit in the active site",
+            "B. asparagine cannot be ionized and therefore cannot participate in acid-base catalysis",
+            "C. asparagine disrupts the homodimer interface",
+            "D. asparagine introduces a positive charge that repels the substrate"
+          ],
+          "correct": 1,
+          "explanation": "Asparagine has an amide group on its side chain instead of the carboxyl group found on aspartate. Unlike aspartate, asparagine cannot donate or accept protons because the amide group is not readily ionizable at physiological pH. Since the catalytic mechanism requires one aspartate to act as a proton donor and the other as a proton acceptor, the asparagine substitution eliminates this essential acid-base catalysis."
+        },
+        {
+          "id": "aa-q-022",
+          "stem": "The homodimeric nature of HIV-1 protease means its active site represents which level of protein organization?",
+          "options": [
+            "A. Primary structure, as the amino acid sequence determines catalysis",
+            "B. Secondary structure, as beta-sheets form the active site",
+            "C. Tertiary structure, as folding brings distant residues together",
+            "D. Quaternary structure, as two subunits contribute essential catalytic residues"
+          ],
+          "correct": 3,
+          "explanation": "The active site of HIV-1 protease requires the association of two identical monomers, each contributing one essential aspartate residue. This dependence on multi-subunit assembly for function is characteristic of quaternary structure. Without proper dimerization, the catalytic dyad cannot form and the enzyme is inactive."
+        },
+        {
+          "id": "aa-q-023",
+          "stem": "Inhibitor A is effective because the hydroxyl group of the transition state analog likely:",
+          "options": [
+            "A. covalently modifies the aspartate residues",
+            "B. mimics the tetrahedral intermediate formed during peptide bond hydrolysis and forms hydrogen bonds with the catalytic aspartates",
+            "C. neutralizes the charge on arginine residues",
+            "D. increases the Km of the enzyme for its substrate"
+          ],
+          "correct": 1,
+          "explanation": "Transition state analogs are stable molecules that mimic the geometry and electronic character of the reaction transition state. During peptide bond hydrolysis, a tetrahedral intermediate is formed. The hydroxyl group of Inhibitor A mimics this intermediate and forms favorable hydrogen bonds with the catalytic aspartate residues, resulting in tight binding to the active site."
+        },
+        {
+          "id": "aa-q-024",
+          "stem": "The optimal activity of HIV-1 protease at pH 5.0 is consistent with:",
+          "options": [
+            "A. both aspartate residues being fully deprotonated",
+            "B. one aspartate being protonated and the other deprotonated for general acid-base catalysis",
+            "C. the enzyme being completely denatured at higher pH values",
+            "D. all amino acid residues in the protein being uncharged"
+          ],
+          "correct": 1,
+          "explanation": "Aspartic proteases require one aspartate residue to be protonated (acting as a general acid) and the other to be deprotonated (acting as a general base) for catalysis. At pH 5.0, which is near the pKa of the aspartate carboxyl group, this mixed protonation state is most likely achieved. This optimal pH reflects the balance between the protonation states of the two catalytic residues."
+        },
+        {
+          "id": "aa-q-025",
+          "stem": "The relatively minor effect of the Phe53Leu mutation suggests that position 53:",
+          "options": [
+            "A. is part of the catalytic dyad",
+            "B. is involved in substrate binding but is not essential for catalysis, and leucine partially preserves hydrophobic interactions",
+            "C. is located far from the protein and has no structural role",
+            "D. converts the enzyme from a dimer to a monomer"
+          ],
+          "correct": 1,
+          "explanation": "The 30% reduction in substrate binding without complete loss of activity suggests that Phe-53 contributes to substrate recognition through hydrophobic interactions but is not essential for catalysis. Leucine, also a hydrophobic amino acid, can partially substitute for phenylalanine's role in hydrophobic packing, explaining why the mutation reduces but does not eliminate binding."
+        }
+      ]
+    },
+    {
+      "id": "aa-ps-006",
+      "passage": "Scientists studying protein misfolding diseases examined the mechanisms by which prion proteins convert from their normal cellular form (PrPC) to the pathogenic scrapie form (PrPSc). PrPC is predominantly alpha-helical, while PrPSc is rich in beta-sheet structure. The conversion involves a dramatic conformational change without any alteration in the amino acid sequence. Once formed, PrPSc acts as a template to convert additional PrPC molecules, leading to exponential accumulation of the misfolded form. The PrPSc aggregates are remarkably resistant to proteolytic digestion, heat denaturation, and chemical treatments that would normally unfold proteins. Researchers found that mutations at certain positions in the prion protein gene, particularly those that destabilize alpha-helical regions or introduce residues that favor beta-sheet formation, dramatically increase the rate of spontaneous conversion to PrPSc. Treatment of PrPSc aggregates with 6M guanidinium chloride partially solubilized the fibrils, but they rapidly re-formed upon dilution. The team also investigated the role of molecular chaperones and found that certain Hsp70 family members could slow the conversion process in vitro but could not reverse already-formed PrPSc aggregates.",
+      "questions": [
+        {
+          "id": "aa-q-026",
+          "stem": "The conversion of PrPC to PrPSc demonstrates that:",
+          "options": [
+            "A. a change in primary structure is necessary for a change in protein function",
+            "B. proteins with identical primary structures can adopt different three-dimensional conformations",
+            "C. alpha helices and beta sheets cannot exist in the same protein",
+            "D. protein folding is entirely determined by the amino acid sequence under all conditions"
+          ],
+          "correct": 1,
+          "explanation": "The prion conversion demonstrates that the same amino acid sequence (identical primary structure) can adopt fundamentally different three-dimensional structures with different properties. This challenges the simple view that primary structure uniquely determines tertiary structure, showing that environmental factors and template-directed misfolding can drive alternative stable conformations."
+        },
+        {
+          "id": "aa-q-027",
+          "stem": "The resistance of PrPSc aggregates to proteolytic digestion is most likely due to:",
+          "options": [
+            "A. the amino acid sequence of PrPSc contains no protease cleavage sites",
+            "B. the tightly packed beta-sheet structure in aggregates limits protease access to peptide bonds",
+            "C. PrPSc contains unusual amino acids not recognized by proteases",
+            "D. the aggregates are too small for protease enzymes to bind"
+          ],
+          "correct": 1,
+          "explanation": "The extensive beta-sheet structure in PrPSc aggregates creates a tightly packed, highly ordered fibrillar arrangement that physically shields peptide bonds from protease access. Since PrPC and PrPSc share the same amino acid sequence, the resistance is not due to sequence differences but rather to the compactness and stability of the aggregated beta-sheet conformation."
+        },
+        {
+          "id": "aa-q-028",
+          "stem": "Guanidinium chloride at 6M concentration solubilizes PrPSc fibrils by:",
+          "options": [
+            "A. cleaving peptide bonds in the polypeptide backbone",
+            "B. disrupting the noncovalent interactions (hydrogen bonds and hydrophobic interactions) that stabilize the beta-sheet aggregates",
+            "C. methylating cysteine residues to prevent disulfide bonding",
+            "D. increasing the pH above 14 to hydrolyze the protein"
+          ],
+          "correct": 1,
+          "explanation": "Guanidinium chloride is a chaotropic denaturant that disrupts noncovalent interactions, including hydrogen bonds and hydrophobic interactions, that stabilize protein structure. At high concentrations, it unfolds proteins by disrupting the network of intramolecular and intermolecular interactions holding the beta-sheet aggregates together. It does not break covalent bonds."
+        },
+        {
+          "id": "aa-q-029",
+          "stem": "The inability of Hsp70 chaperones to reverse already-formed PrPSc aggregates suggests that:",
+          "options": [
+            "A. Hsp70 only functions in the nucleus",
+            "B. the aggregated PrPSc represents a thermodynamically very stable state that exceeds the chaperone's capacity to refold",
+            "C. Hsp70 requires ATP and PrPSc destroys all cellular ATP",
+            "D. chaperones only assist in protein degradation, not folding"
+          ],
+          "correct": 1,
+          "explanation": "PrPSc aggregates are exceptionally stable due to the extensive network of intermolecular beta-sheet hydrogen bonds and hydrophobic interactions. While Hsp70 chaperones can assist in folding individual polypeptides by preventing misfolding, the energetic barrier to disassembling the highly stable PrPSc aggregates exceeds their capacity. They can slow conversion of individual molecules but cannot disrupt established aggregates."
+        },
+        {
+          "id": "aa-q-030",
+          "stem": "Mutations that favor beta-sheet formation over alpha-helical structure would most likely involve substitution of residues such as:",
+          "options": [
+            "A. valine and isoleucine for alanine and leucine",
+            "B. proline and glycine for alanine and leucine",
+            "C. lysine and arginine for glutamate and aspartate",
+            "D. cysteine for serine at all positions"
+          ],
+          "correct": 0,
+          "explanation": "Valine and isoleucine are branched-chain amino acids that strongly favor beta-sheet conformation due to their bulky side chains, while alanine and leucine have higher alpha-helical propensities. Substituting valine and isoleucine for helix-favoring residues would destabilize alpha-helical regions and promote beta-sheet formation, increasing the likelihood of PrPC to PrPSc conversion."
+        }
+      ]
+    },
+    {
+      "id": "aa-ps-007",
+      "passage": "A clinical laboratory analyzed the amino acid profiles of patients with various metabolic disorders. Patient 1 presented with maple syrup urine disease (MSUD), characterized by elevated plasma levels of leucine, isoleucine, and valine, along with their corresponding alpha-keto acids. The underlying defect is a deficiency in branched-chain alpha-keto acid dehydrogenase complex. Patient 2 had phenylketonuria (PKU) due to a deficiency in phenylalanine hydroxylase, resulting in accumulation of phenylalanine and its metabolite phenylpyruvate. Patient 3 exhibited homocystinuria caused by a deficiency in cystathionine beta-synthase, leading to elevated homocysteine levels and reduced cysteine synthesis. The laboratory also evaluated protein nutritional status by measuring plasma levels of essential versus non-essential amino acids. They noted that patients on restricted protein diets required supplementation with essential amino acids that the body cannot synthesize de novo. The nine essential amino acids for humans include histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine. Nutritional studies showed that protein quality is determined by the presence and proportion of essential amino acids.",
+      "questions": [
+        {
+          "id": "aa-q-031",
+          "stem": "Leucine, isoleucine, and valine accumulate in MSUD because they share:",
+          "options": [
+            "A. aromatic ring structures that cannot be metabolized",
+            "B. branched aliphatic side chains and a common degradation pathway",
+            "C. sulfur-containing side chains that inhibit the dehydrogenase",
+            "D. negatively charged side chains that accumulate in lysosomes"
+          ],
+          "correct": 1,
+          "explanation": "Leucine, isoleucine, and valine are the three branched-chain amino acids (BCAAs), all possessing branched aliphatic side chains. They share a common catabolic pathway that involves transamination followed by oxidative decarboxylation by the branched-chain alpha-keto acid dehydrogenase complex. A deficiency in this shared enzyme complex causes all three to accumulate simultaneously."
+        },
+        {
+          "id": "aa-q-032",
+          "stem": "In phenylketonuria, phenylalanine accumulates because it cannot be converted to:",
+          "options": [
+            "A. tryptophan",
+            "B. tyrosine",
+            "C. histidine",
+            "D. methionine"
+          ],
+          "correct": 1,
+          "explanation": "Phenylalanine hydroxylase catalyzes the conversion of phenylalanine to tyrosine by adding a hydroxyl group to the aromatic ring. In PKU, this enzyme is deficient, so phenylalanine accumulates and is diverted to alternative pathways producing phenylpyruvate and other metabolites. This also makes tyrosine a conditionally essential amino acid for PKU patients."
+        },
+        {
+          "id": "aa-q-033",
+          "stem": "In homocystinuria, the reduced cysteine synthesis indicates that cysteine is derived from:",
+          "options": [
+            "A. phenylalanine through hydroxylation",
+            "B. methionine through the transsulfuration pathway involving homocysteine as an intermediate",
+            "C. tryptophan through decarboxylation",
+            "D. serine through direct sulfhydryl group addition"
+          ],
+          "correct": 1,
+          "explanation": "Cysteine is synthesized from methionine via the transsulfuration pathway. Methionine is first converted to S-adenosylmethionine, then to homocysteine. Cystathionine beta-synthase then combines homocysteine with serine to form cystathionine, which is subsequently cleaved to yield cysteine. A deficiency in cystathionine beta-synthase blocks this pathway, causing homocysteine accumulation and cysteine deficiency."
+        },
+        {
+          "id": "aa-q-034",
+          "stem": "Which of the following amino acids is NOT classified as essential in humans?",
+          "options": [
+            "A. Tryptophan",
+            "B. Lysine",
+            "C. Alanine",
+            "D. Threonine"
+          ],
+          "correct": 2,
+          "explanation": "Alanine is a non-essential amino acid that can be readily synthesized by the human body through transamination of pyruvate. The nine essential amino acids listed in the passage (histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine) must be obtained from the diet because humans lack the biosynthetic pathways to produce them."
+        },
+        {
+          "id": "aa-q-035",
+          "stem": "The fact that PKU patients must limit dietary phenylalanine but still require some in their diet is because:",
+          "options": [
+            "A. phenylalanine is a non-essential amino acid that can be completely eliminated",
+            "B. phenylalanine is an essential amino acid needed for protein synthesis despite its toxic accumulation",
+            "C. phenylalanine is only needed for collagen synthesis",
+            "D. the body can synthesize phenylalanine from tyrosine when dietary intake is zero"
+          ],
+          "correct": 1,
+          "explanation": "Phenylalanine is an essential amino acid that cannot be synthesized by the human body and must be obtained from the diet for incorporation into proteins. PKU patients face the challenge of needing enough phenylalanine for normal protein synthesis while avoiding excess that accumulates to toxic levels due to their inability to convert it to tyrosine."
+        }
+      ]
+    },
+    {
+      "id": "aa-ps-008",
+      "passage": "A structural biology team used multiple techniques to characterize protein folding intermediates of a 250-residue enzyme called ThermoStab. Native gel electrophoresis under non-denaturing conditions showed a single compact band, while SDS-PAGE revealed a single band at 28 kDa. When the researchers added increasing concentrations of urea (0 to 8M), they observed a cooperative unfolding transition monitored by tryptophan fluorescence. The midpoint of unfolding occurred at 4.2M urea. Interestingly, at 2M urea, the protein populated a partially folded intermediate termed a molten globule, which retained native-like secondary structure but lacked the tight side-chain packing characteristic of the fully folded protein. The molten globule exposed hydrophobic surfaces that bound the fluorescent dye ANS, which fluoresces strongly in nonpolar environments. Molecular dynamics simulations predicted that the protein's folding pathway involves initial formation of local secondary structure elements (alpha helices and beta strands) followed by collapse into a compact state driven by the hydrophobic effect. The final step involves precise arrangement of side chains in the protein interior. The team also found that ThermoStab could refold spontaneously when urea was rapidly diluted, confirming Anfinsen's thermodynamic hypothesis.",
+      "questions": [
+        {
+          "id": "aa-q-036",
+          "stem": "The observation that ThermoStab migrates differently on native gels versus SDS-PAGE indicates that:",
+          "options": [
+            "A. the protein has different molecular weights under different conditions",
+            "B. native gel migration depends on both charge and shape, while SDS-PAGE separates primarily by molecular weight",
+            "C. SDS-PAGE preserves the native quaternary structure",
+            "D. native gel electrophoresis denatures all proteins"
+          ],
+          "correct": 1,
+          "explanation": "Native gel electrophoresis separates proteins based on their charge, size, and shape in their folded state, while SDS-PAGE unfolds proteins with the detergent SDS and separates them primarily by molecular weight. The difference in migration patterns reflects the different separation principles: native gels reveal the protein's natural compact conformation, while SDS-PAGE provides molecular weight information."
+        },
+        {
+          "id": "aa-q-037",
+          "stem": "ANS binding to the molten globule state indicates that this intermediate:",
+          "options": [
+            "A. has completely unfolded to a random coil with no structure",
+            "B. has exposed hydrophobic residues that are normally buried in the native state",
+            "C. has formed all native tertiary contacts",
+            "D. is more compact than the native state"
+          ],
+          "correct": 1,
+          "explanation": "ANS (8-anilino-1-naphthalenesulfonate) is a fluorescent dye that binds to exposed hydrophobic surfaces and exhibits enhanced fluorescence in nonpolar environments. The molten globule retains secondary structure but lacks tight side-chain packing, leaving hydrophobic residues partially exposed. In the fully folded native state, these residues would be buried in the protein interior."
+        },
+        {
+          "id": "aa-q-038",
+          "stem": "The cooperative unfolding transition observed with increasing urea concentration suggests that:",
+          "options": [
+            "A. the protein unfolds in many independent small steps",
+            "B. unfolding is an all-or-none process where disruption of some interactions destabilizes the entire structure simultaneously",
+            "C. each amino acid unfolds independently of all others",
+            "D. urea binds only to the N-terminus of the protein"
+          ],
+          "correct": 1,
+          "explanation": "Cooperative unfolding means that the transition from the folded to unfolded state occurs over a narrow range of denaturant concentration rather than gradually. This is because the stabilizing interactions in a folded protein are interdependent. Disruption of some interactions weakens others, leading to a concerted loss of structure that appears as a sharp sigmoidal transition in the unfolding curve."
+        },
+        {
+          "id": "aa-q-039",
+          "stem": "The spontaneous refolding of ThermoStab upon urea dilution supports Anfinsen's hypothesis that:",
+          "options": [
+            "A. all proteins require chaperones to fold correctly",
+            "B. the amino acid sequence contains all the information necessary to specify the three-dimensional structure",
+            "C. protein folding is irreversible once denaturation occurs",
+            "D. quaternary structure determines the folding pathway"
+          ],
+          "correct": 1,
+          "explanation": "Anfinsen's thermodynamic hypothesis, demonstrated through his classic ribonuclease refolding experiments, states that the native structure of a protein is determined by its amino acid sequence and represents the thermodynamically most stable conformation. The spontaneous refolding of ThermoStab without any additional factors confirms that the sequence information is sufficient to direct folding to the correct native state."
+        },
+        {
+          "id": "aa-q-040",
+          "stem": "The hydrophobic effect that drives protein folding collapse primarily involves:",
+          "options": [
+            "A. formation of covalent bonds between nonpolar residues",
+            "B. the thermodynamically favorable burial of nonpolar side chains away from water, increasing solvent entropy",
+            "C. electrostatic attraction between hydrophobic residues",
+            "D. hydrogen bonding between all nonpolar amino acids"
+          ],
+          "correct": 1,
+          "explanation": "The hydrophobic effect is the primary driving force for protein folding. When nonpolar side chains are exposed to water, they force water molecules into ordered cage-like structures (clathrates) that decrease entropy. Burying these nonpolar residues in the protein interior releases the ordered water molecules, increasing the entropy of the solvent system and making the folded state thermodynamically favorable."
+        }
+      ]
+    },
+    {
+      "id": "aa-ps-009",
+      "passage": "Researchers investigating post-translational modifications (PTMs) cataloged the modified amino acids in a signaling protein involved in cell cycle regulation. Mass spectrometry analysis revealed multiple phosphorylation sites on serine, threonine, and tyrosine residues. The phosphorylation of Ser-15 by a cyclin-dependent kinase activated the protein, while phosphorylation of Thr-48 by a different kinase marked it for ubiquitin-mediated degradation. Acetylation of Lys-120 was found to modulate DNA binding activity, while methylation of Arg-72 influenced protein-protein interactions. The researchers also identified glycosylation of Asn-176, an N-linked modification that was essential for proper protein trafficking to the cell surface. Treatment with protein phosphatase 1 (PP1) removed the phosphate groups and reversed the activation, demonstrating that phosphorylation is a reversible modification. However, treatment with the deubiquitinase USP7 could rescue the protein from proteasomal degradation only if applied before the protein entered the proteasome. The researchers noted that the combinatorial pattern of PTMs created a complex regulatory code that fine-tuned protein function in response to cellular signals.",
+      "questions": [
+        {
+          "id": "aa-q-041",
+          "stem": "Phosphorylation of serine, threonine, and tyrosine is possible because these amino acids share:",
+          "options": [
+            "A. sulfhydryl groups on their side chains",
+            "B. hydroxyl groups on their side chains that can accept phosphate groups",
+            "C. carboxyl groups that form phosphodiester bonds",
+            "D. amino groups that bind phosphate through ionic interactions"
+          ],
+          "correct": 1,
+          "explanation": "Serine, threonine, and tyrosine all contain hydroxyl (-OH) groups on their side chains. Protein kinases catalyze the transfer of a phosphate group from ATP to these hydroxyl groups, forming a phosphoester bond. This shared chemical feature of having a hydroxyl group is what makes these three amino acids the targets for phosphorylation in eukaryotic signaling."
+        },
+        {
+          "id": "aa-q-042",
+          "stem": "The opposite effects of Ser-15 phosphorylation (activation) and Thr-48 phosphorylation (degradation signal) illustrate that:",
+          "options": [
+            "A. phosphorylation always activates proteins",
+            "B. the functional consequence of phosphorylation depends on the specific site and structural context",
+            "C. serine phosphorylation always activates while threonine phosphorylation always inhibits",
+            "D. different phosphatases add phosphate groups at different sites"
+          ],
+          "correct": 1,
+          "explanation": "The same type of modification (phosphorylation) at different sites on the same protein can produce completely different functional outcomes. Ser-15 phosphorylation activates the protein while Thr-48 phosphorylation targets it for degradation. This demonstrates that the structural context and location of the modification, not the modification type alone, determines its functional consequence."
+        },
+        {
+          "id": "aa-q-043",
+          "stem": "N-linked glycosylation at Asn-176 most likely occurs in which cellular compartment?",
+          "options": [
+            "A. The cytoplasm on free ribosomes",
+            "B. The endoplasmic reticulum and Golgi apparatus",
+            "C. The nucleus during transcription",
+            "D. The mitochondrial matrix"
+          ],
+          "correct": 1,
+          "explanation": "N-linked glycosylation occurs co-translationally in the endoplasmic reticulum, where an oligosaccharide is transferred to the asparagine residue within the consensus sequence Asn-X-Ser/Thr. Further processing and modification of the glycan occurs in the Golgi apparatus. This modification is essential for proper protein folding, stability, and trafficking to the cell surface."
+        },
+        {
+          "id": "aa-q-044",
+          "stem": "Lysine acetylation modulates DNA binding most likely by:",
+          "options": [
+            "A. increasing the positive charge on lysine, strengthening electrostatic interactions with DNA",
+            "B. neutralizing the positive charge on lysine, weakening electrostatic interactions with the negatively charged DNA backbone",
+            "C. creating a new covalent bond between lysine and the DNA sugar",
+            "D. converting lysine to a hydrophobic residue that inserts into the DNA major groove"
+          ],
+          "correct": 1,
+          "explanation": "At physiological pH, lysine carries a positive charge on its epsilon-amino group, which can form electrostatic interactions with the negatively charged phosphate backbone of DNA. Acetylation neutralizes this positive charge by converting the amino group to an amide, thereby weakening the electrostatic attraction between the protein and DNA. This mechanism is well-characterized in histone acetylation and gene regulation."
+        },
+        {
+          "id": "aa-q-045",
+          "stem": "The reversibility of phosphorylation by PP1 is significant because it:",
+          "options": [
+            "A. means that phosphorylation permanently alters the amino acid sequence",
+            "B. allows phosphorylation to function as a molecular switch that can be turned on and off in response to signals",
+            "C. indicates that kinases and phosphatases are the same enzyme",
+            "D. proves that all post-translational modifications are reversible"
+          ],
+          "correct": 1,
+          "explanation": "The reversibility of phosphorylation is crucial for signal transduction because it allows the modification to serve as a dynamic molecular switch. Kinases add phosphate groups to activate or modify protein function, while phosphatases remove them to return the protein to its original state. This on/off switching enables cells to respond rapidly and repeatedly to changing signals."
+        }
+      ]
+    },
+    {
+      "id": "aa-ps-010",
+      "passage": "An exercise physiology research group studied the effects of extreme environmental conditions on protein stability in human skeletal muscle. During intense exercise at elevated ambient temperatures, intracellular temperature in active muscle fibers can reach 41-42 degrees Celsius, and pH drops from 7.0 to as low as 6.4 due to lactic acid accumulation. The researchers measured the activity of lactate dehydrogenase (LDH) and creatine kinase (CK) under these conditions. They found that LDH retained 92% of its activity at 42 degrees Celsius and pH 6.4, while CK activity dropped to 58%. When the pH was further lowered to 5.8, LDH activity decreased to 71% and CK was nearly inactive at 12% residual activity. The researchers hypothesized that LDH's greater stability was due to additional salt bridges between glutamate and arginine residues on the protein surface and a more extensive hydrophobic core. They also studied protein aggregation and found that at temperatures above 45 degrees Celsius, both enzymes formed insoluble aggregates due to exposure of hydrophobic surfaces. Addition of the small molecule trimethylamine N-oxide (TMAO), a natural osmolyte, shifted the aggregation temperature upward by 4 degrees Celsius for both enzymes. Heat shock protein expression increased 3-fold within 2 hours of exercise cessation, providing cytoprotection against subsequent thermal stress.",
+      "questions": [
+        {
+          "id": "aa-q-046",
+          "stem": "The salt bridges contributing to LDH stability involve which type of interaction?",
+          "options": [
+            "A. Covalent bonds between glutamate and arginine side chains",
+            "B. Electrostatic interactions between the negatively charged glutamate carboxyl and positively charged arginine guanidinium groups",
+            "C. Hydrogen bonds between the backbone amide groups of glutamate and arginine",
+            "D. Hydrophobic interactions between the aliphatic portions of both side chains"
+          ],
+          "correct": 1,
+          "explanation": "Salt bridges are electrostatic interactions between oppositely charged amino acid side chains. Glutamate carries a negative charge on its carboxyl group (COO-) at physiological pH, while arginine carries a positive charge on its guanidinium group. These complementary charges form strong ionic interactions that contribute to protein stability, particularly on the protein surface where they are solvated."
+        },
+        {
+          "id": "aa-q-047",
+          "stem": "The decrease in enzyme activity at pH 5.8 compared to pH 6.4 is most likely due to:",
+          "options": [
+            "A. protonation of amino acid side chains altering their charge states and disrupting ionic interactions and active site chemistry",
+            "B. the pH change causing peptide bond hydrolysis",
+            "C. deamination of all asparagine residues",
+            "D. conversion of all cysteine residues to serine"
+          ],
+          "correct": 0,
+          "explanation": "As pH decreases, amino acid side chains with pKa values near the pH become protonated, changing their charge states. This can disrupt salt bridges, alter hydrogen bonding patterns, and change the ionization state of catalytic residues in the active site. Histidine residues (pKa ~6.0) are particularly sensitive in this pH range and are often critical for enzyme catalysis."
+        },
+        {
+          "id": "aa-q-048",
+          "stem": "Protein aggregation above 45 degrees Celsius occurs because:",
+          "options": [
+            "A. peptide bonds break at elevated temperatures",
+            "B. thermal unfolding exposes hydrophobic surfaces that associate intermolecularly to minimize contact with water",
+            "C. elevated temperature converts all amino acids to their D-isomers",
+            "D. heat creates new disulfide bonds between all proteins"
+          ],
+          "correct": 1,
+          "explanation": "At elevated temperatures, the thermal energy overcomes the stabilizing forces of protein folding, causing partial unfolding that exposes normally buried hydrophobic surfaces. These exposed hydrophobic regions on different protein molecules associate with each other through intermolecular hydrophobic interactions to minimize their unfavorable contact with water, leading to the formation of insoluble aggregates."
+        },
+        {
+          "id": "aa-q-049",
+          "stem": "TMAO likely stabilizes proteins against thermal denaturation by:",
+          "options": [
+            "A. binding directly to the active site and preventing conformational changes",
+            "B. preferentially being excluded from the protein surface, which thermodynamically favors the more compact native state",
+            "C. lowering the temperature of the solution through an endothermic reaction",
+            "D. covalently modifying all lysine residues to increase thermal stability"
+          ],
+          "correct": 1,
+          "explanation": "TMAO is a protective osmolyte that stabilizes proteins through the preferential exclusion mechanism. TMAO is thermodynamically unfavorable near protein surfaces, so it is preferentially excluded from the protein-water interface. This exclusion effect favors the more compact native state, which has less surface area exposed to solvent, thereby raising the temperature required for denaturation."
+        },
+        {
+          "id": "aa-q-050",
+          "stem": "The increased expression of heat shock proteins after exercise represents:",
+          "options": [
+            "A. a constitutive process that occurs at the same rate regardless of temperature",
+            "B. an adaptive stress response where molecular chaperones are upregulated to protect proteins from future thermal damage",
+            "C. protein degradation that removes all damaged enzymes",
+            "D. a decrease in total cellular protein content"
+          ],
+          "correct": 1,
+          "explanation": "Heat shock proteins (HSPs) are molecular chaperones induced by thermal and other stresses. Their increased expression after exercise is an adaptive response that prepares cells for subsequent stress exposure. HSPs bind to partially unfolded proteins, preventing aggregation and assisting in refolding, thereby providing cytoprotection. This is a well-characterized example of the cellular stress response."
+        }
+      ]
+    }
+  ]
+}

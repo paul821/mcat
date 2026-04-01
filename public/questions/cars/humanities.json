@@ -1,0 +1,666 @@
+{
+  "subtopic": "Humanities",
+  "sectionId": "cars",
+  "passageSets": [
+    {
+      "id": "cars-hum-001",
+      "passage": "The prevailing interpretation of Kantian ethics as a rigid, rule-bound system fundamentally misrepresents the nuance of the categorical imperative. Critics who dismiss Kant as indifferent to consequences fail to appreciate that the universalizability test is not a mechanical procedure but a sophisticated thought experiment requiring practical judgment. When Kant asks whether a maxim can be universalized without contradiction, he invites moral agents to consider the systemic effects of widespread adoption of a given principle. This is not mere rule-following; it is an exercise in moral imagination. The famous example of lying illustrates this complexity. Kant's prohibition against lying is often caricatured as absolutist, yet his actual argument concerns the logical impossibility of a universal practice of deception. If everyone lied, the very institution of promising would collapse, making the lie itself unintelligible. The prohibition thus rests not on blind obedience but on a recognition that certain practices are self-undermining when generalized. Contemporary virtue ethicists have challenged Kant by arguing that moral life requires sensitivity to particular circumstances that universal principles cannot capture. Yet this objection underestimates Kant's account of practical wisdom. The categorical imperative provides a framework within which judgment operates; it does not eliminate the need for judgment. Kant himself acknowledged that applying moral principles to concrete situations demands a faculty he called the power of judgment, a capacity that cannot be reduced to further rules. The tension between universality and particularity in ethics is therefore not a problem that Kant ignored but one he explicitly addressed. Reading Kant as a thoughtful navigator of this tension, rather than as a dogmatic formalist, opens productive avenues for contemporary moral philosophy.",
+      "questions": [
+        {
+          "id": "cars-hum-001-q1",
+          "stem": "Which of the following best describes the author's main argument?",
+          "options": [
+            "A. Kant's ethics are superior to virtue ethics in every respect.",
+            "B. The standard critique of Kantian ethics as rigid and rule-bound is a mischaracterization.",
+            "C. The categorical imperative eliminates the need for moral judgment in specific situations.",
+            "D. Kant's prohibition against lying is absolute and admits no exceptions."
+          ],
+          "correct": 1,
+          "explanation": "The author's central thesis is that the prevailing interpretation of Kantian ethics as rigid and rule-bound 'fundamentally misrepresents' its nuance. The passage consistently argues that Kant's system involves practical judgment and moral imagination, not mere rule-following."
+        },
+        {
+          "id": "cars-hum-001-q2",
+          "stem": "Based on the passage, the author would most likely agree with which of the following statements about virtue ethics?",
+          "options": [
+            "A. Virtue ethics is entirely incompatible with Kantian moral theory.",
+            "B. Virtue ethicists raise a legitimate concern but underestimate Kant's resources for addressing it.",
+            "C. Virtue ethics provides a more complete moral framework than Kant's system.",
+            "D. Virtue ethics and Kantian ethics are fundamentally identical in their approaches."
+          ],
+          "correct": 1,
+          "explanation": "The author acknowledges the virtue ethics critique about sensitivity to particular circumstances but argues that this objection 'underestimates Kant's account of practical wisdom.' This indicates the author sees the concern as valid but already addressed within Kant's framework."
+        },
+        {
+          "id": "cars-hum-001-q3",
+          "stem": "The author's discussion of lying serves primarily to:",
+          "options": [
+            "A. demonstrate that Kant was an absolutist about moral rules.",
+            "B. illustrate how the universalizability test involves logical analysis rather than blind obedience.",
+            "C. show that lying is always morally wrong regardless of context.",
+            "D. introduce a counterexample to Kant's moral framework."
+          ],
+          "correct": 1,
+          "explanation": "The lying example is used to support the author's argument that Kant's ethics are not mere rule-following. The passage explains that the prohibition rests on the logical impossibility of universal deception, demonstrating the analytical depth behind Kant's position."
+        },
+        {
+          "id": "cars-hum-001-q4",
+          "stem": "The passage implies that Kant's 'power of judgment' is best understood as:",
+          "options": [
+            "A. a set of additional rules that supplement the categorical imperative.",
+            "B. an intuitive capacity for applying universal principles to concrete situations.",
+            "C. a faculty that renders the categorical imperative unnecessary.",
+            "D. a purely emotional response to moral dilemmas."
+          ],
+          "correct": 1,
+          "explanation": "The author describes the power of judgment as a capacity for applying moral principles to concrete situations that 'cannot be reduced to further rules.' This characterizes it as an intuitive or practical faculty that works within the framework of the categorical imperative rather than replacing it."
+        },
+        {
+          "id": "cars-hum-001-q5",
+          "stem": "If a philosopher argued that moral rules must always be applied identically regardless of circumstances, the author would most likely respond by saying that:",
+          "options": [
+            "A. this view accurately represents Kant's position.",
+            "B. such rigidity is necessary for moral consistency.",
+            "C. this position conflates having universal principles with eliminating the role of practical judgment.",
+            "D. Kant would agree with this philosopher's interpretation."
+          ],
+          "correct": 2,
+          "explanation": "The author's central argument distinguishes between having universal moral principles and mechanically applying them without judgment. A philosopher who insisted on identical application regardless of circumstances would be making the very error the author critiques throughout the passage."
+        }
+      ]
+    },
+    {
+      "id": "cars-hum-002",
+      "passage": "The architectural philosophy of Tadao Ando represents a profound meditation on the relationship between built space and human consciousness. Unlike postmodern architects who employ historical pastiche and decorative irony, Ando strips buildings to their essential geometric forms, using reinforced concrete as both structural material and finished surface. This apparent austerity, however, is anything but minimalist in intent. Ando's concrete walls are precisely crafted to interact with light, water, and wind, creating spaces that heighten awareness of natural phenomena and the passage of time. His Church of the Light in Osaka exemplifies this approach. A cruciform slit in the chancel wall admits a cross of sunlight that moves across the interior throughout the day, transforming the space from a static container into a temporal experience. The building does not merely house worship; it enacts it through architectural means. Critics who label Ando a brutalist miss the phenomenological dimension of his work. Where brutalism celebrates the raw physicality of concrete as an expression of material honesty, Ando employs concrete as a medium for immaterial experience. His walls are not assertions of mass but screens for the play of light and shadow. This distinction reflects Ando's debt to traditional Japanese aesthetics, particularly the concept of ma, the pregnant emptiness between things that gives them meaning. Western architecture has traditionally conceived of space as a void to be filled; Ando, drawing on Japanese spatial traditions, treats emptiness as an active compositional element. The result is an architecture that paradoxically achieves richness through reduction. By eliminating ornament, Ando does not impoverish experience but intensifies it, directing attention to phenomena that conventional architecture obscures. His buildings function as instruments of perception, calibrated to make visible what is ordinarily overlooked.",
+      "questions": [
+        {
+          "id": "cars-hum-002-q1",
+          "stem": "The author's primary purpose in discussing the Church of the Light is to:",
+          "options": [
+            "A. argue that religious architecture must incorporate natural light.",
+            "B. provide a concrete example of how Ando's spaces create temporal experience through design.",
+            "C. compare Ando's work unfavorably to traditional church architecture.",
+            "D. demonstrate that Ando relies entirely on religious symbolism."
+          ],
+          "correct": 1,
+          "explanation": "The Church of the Light is introduced as an exemplification of Ando's broader approach, specifically how his buildings transform static containers into temporal experiences through the interaction of architecture with natural light."
+        },
+        {
+          "id": "cars-hum-002-q2",
+          "stem": "According to the passage, the concept of 'ma' is best described as:",
+          "options": [
+            "A. the Japanese tradition of ornamental decoration.",
+            "B. a meaningful emptiness that gives surrounding elements their significance.",
+            "C. the Western architectural concept of negative space.",
+            "D. the structural integrity of reinforced concrete."
+          ],
+          "correct": 1,
+          "explanation": "The passage defines ma as 'the pregnant emptiness between things that gives them meaning.' This concept is presented as central to understanding how Ando uses emptiness as an active compositional element rather than a void to be filled."
+        },
+        {
+          "id": "cars-hum-002-q3",
+          "stem": "The passage suggests that the distinction between Ando's work and brutalism lies primarily in:",
+          "options": [
+            "A. the type of concrete used in construction.",
+            "B. the scale and size of the buildings.",
+            "C. the purpose for which concrete is employed as an architectural medium.",
+            "D. the geographic location of the structures."
+          ],
+          "correct": 2,
+          "explanation": "The author draws the distinction based on purpose: brutalism celebrates concrete's raw physicality as material honesty, while Ando uses concrete as a medium for immaterial experience. The material is the same, but the architectural intent differs fundamentally."
+        },
+        {
+          "id": "cars-hum-002-q4",
+          "stem": "Which of the following, if true, would most weaken the author's characterization of Ando's architecture?",
+          "options": [
+            "A. Ando has stated that his primary concern is structural durability rather than phenomenological experience.",
+            "B. Several other Japanese architects also use reinforced concrete.",
+            "C. Ando's buildings have won numerous international awards.",
+            "D. Some visitors find Ando's buildings cold and uninviting."
+          ],
+          "correct": 0,
+          "explanation": "The author's central characterization is that Ando uses concrete to create phenomenological and experiential richness. If Ando himself stated that structural durability, not experience, was his primary concern, this would directly undermine the author's interpretive framework."
+        },
+        {
+          "id": "cars-hum-002-q5",
+          "stem": "The author's tone throughout the passage is best described as:",
+          "options": [
+            "A. detached and purely objective.",
+            "B. admiring and analytically engaged.",
+            "C. skeptical and dismissive.",
+            "D. nostalgic and sentimental."
+          ],
+          "correct": 1,
+          "explanation": "The author writes with clear admiration for Ando's work, using phrases like 'profound meditation' and 'richness through reduction,' while also providing substantive analytical engagement with architectural concepts and traditions."
+        }
+      ]
+    },
+    {
+      "id": "cars-hum-003",
+      "passage": "The debate over whether photography constitutes a genuine art form, which occupied critics for much of the twentieth century, reveals deep assumptions about the nature of artistic creation. Walter Benjamin's influential essay on mechanical reproduction argued that photography strips the artwork of its aura, the unique presence that derives from a work's embeddedness in ritual and tradition. For Benjamin, the camera democratizes images but diminishes their power. This argument, however, rests on a problematic equation of artistic value with material uniqueness. Painting's claim to artistry was never solely a function of the physical singularity of the canvas; it depended equally on composition, vision, and interpretive depth, qualities that photography can exhibit in abundance. The photographer's choices regarding framing, exposure, timing, and perspective constitute genuine creative acts, even if the medium involves mechanical reproduction. Susan Sontag later complicated the discussion by arguing that photography's real danger lies not in its lack of artistry but in its predatory relationship to reality. The camera, Sontag suggested, transforms experience into collectible images, converting the world into a series of potential photographs. This critique targets not photography's aesthetic credentials but its epistemological effects, the way it shapes how we see and know the world. Yet Sontag's argument, like Benjamin's, underestimates the capacity of skilled photographers to use the medium reflexively, to create images that interrogate rather than merely consume their subjects. The most compelling photographs do not passively record reality; they actively interpret it, revealing patterns and meanings invisible to casual observation. The art-versus-documentation dichotomy that has long structured debates about photography is ultimately a false one. Documentation and interpretation are not opposed activities but exist on a continuum, and the most powerful photographic work inhabits the tension between them.",
+      "questions": [
+        {
+          "id": "cars-hum-003-q1",
+          "stem": "The author's main argument can best be summarized as:",
+          "options": [
+            "A. Photography is not a genuine art form because it relies on mechanical reproduction.",
+            "B. Both Benjamin and Sontag offer partial critiques that underestimate photography's interpretive potential.",
+            "C. Sontag's critique of photography is more valid than Benjamin's.",
+            "D. The artistic value of photography depends entirely on the photographer's technical skill."
+          ],
+          "correct": 1,
+          "explanation": "The author engages with both Benjamin and Sontag, acknowledging the insights of each but arguing that both underestimate photography's capacity for genuine artistic interpretation. The passage concludes by rejecting the art-versus-documentation dichotomy as a false one."
+        },
+        {
+          "id": "cars-hum-003-q2",
+          "stem": "According to the passage, Benjamin's concept of 'aura' refers to:",
+          "options": [
+            "A. the emotional response viewers have to photographs.",
+            "B. the technical quality of a photographic image.",
+            "C. the unique presence of an artwork rooted in ritual and tradition.",
+            "D. the commercial value assigned to original artworks."
+          ],
+          "correct": 2,
+          "explanation": "The passage explicitly defines aura as 'the unique presence that derives from a work's embeddedness in ritual and tradition.' Benjamin argues that mechanical reproduction strips this quality from artworks."
+        },
+        {
+          "id": "cars-hum-003-q3",
+          "stem": "The author would most likely view a photograph that simply records a scene without interpretive framing as:",
+          "options": [
+            "A. the purest form of photographic art.",
+            "B. located at one end of a continuum that also includes interpretive work.",
+            "C. evidence that photography cannot be artistic.",
+            "D. superior to photographs that attempt artistic interpretation."
+          ],
+          "correct": 1,
+          "explanation": "The author concludes that documentation and interpretation exist on a continuum. A purely documentary photograph would occupy one end of this continuum, but the author does not dismiss it entirely, instead rejecting the rigid dichotomy between documentation and art."
+        },
+        {
+          "id": "cars-hum-003-q4",
+          "stem": "The passage characterizes Sontag's critique of photography as primarily concerned with:",
+          "options": [
+            "A. photography's aesthetic inferiority to painting.",
+            "B. the high cost of photographic equipment.",
+            "C. photography's effects on how humans perceive and understand reality.",
+            "D. the lack of formal training among photographers."
+          ],
+          "correct": 2,
+          "explanation": "The author describes Sontag's critique as targeting 'not photography's aesthetic credentials but its epistemological effects, the way it shapes how we see and know the world.' This positions Sontag's concern as fundamentally about perception and knowledge rather than artistic quality."
+        },
+        {
+          "id": "cars-hum-003-q5",
+          "stem": "Which of the following best describes the relationship between Benjamin's and Sontag's critiques as presented in the passage?",
+          "options": [
+            "A. They address identical concerns about photography from the same perspective.",
+            "B. Benjamin focuses on what photography lacks as art, while Sontag focuses on what photography does to experience.",
+            "C. Sontag directly refutes Benjamin's argument about mechanical reproduction.",
+            "D. Both critics ultimately conclude that photography is a legitimate art form."
+          ],
+          "correct": 1,
+          "explanation": "The passage distinguishes between Benjamin's concern with photography's alleged loss of artistic aura through mechanical reproduction and Sontag's concern with photography's transformative effect on how humans experience and relate to reality. These are related but distinct critiques."
+        }
+      ]
+    },
+    {
+      "id": "cars-hum-004",
+      "passage": "The resurgence of interest in Stoic philosophy among contemporary self-help writers has produced a curious distortion of the ancient tradition. Modern popularizers present Stoicism as a technique for personal resilience and emotional management, extracting practical exercises from Marcus Aurelius and Epictetus while quietly discarding the metaphysical framework that gave those exercises meaning. Ancient Stoics did not practice emotional discipline as an end in itself; they did so because they believed in a rationally ordered cosmos in which virtue consisted of aligning oneself with universal reason, the logos. Without this cosmological foundation, Stoic practices become merely instrumental, tools for achieving conventional success rather than expressions of a comprehensive worldview. The problem is not simply one of historical accuracy. When Stoic detachment is divorced from its ethical context, it risks becoming a form of emotional suppression that serves existing power structures rather than challenging them. The ancient Stoics were often radical figures who insisted that virtue was the only good and that wealth, status, and pleasure were matters of indifference. Modern self-help Stoicism, by contrast, frequently promises that emotional mastery will lead to professional achievement and material prosperity, precisely the outcomes the ancients deemed irrelevant to the good life. This inversion reveals a deeper tension in the contemporary appropriation of ancient philosophy. We turn to the past for wisdom, but we inevitably reshape what we find to fit present assumptions. The question is whether such reshaping constitutes creative adaptation or fundamental betrayal. In the case of Stoicism, the selective appropriation of techniques without principles produces something that may be useful but is no longer genuinely Stoic. It is a philosophy emptied of its philosophical content, retaining the exterior of ancient wisdom while serving thoroughly modern anxieties about productivity and competitive advantage.",
+      "questions": [
+        {
+          "id": "cars-hum-004-q1",
+          "stem": "The author's attitude toward modern popular Stoicism is best characterized as:",
+          "options": [
+            "A. enthusiastic endorsement.",
+            "B. indifferent neutrality.",
+            "C. critical concern that it distorts the original philosophy.",
+            "D. complete rejection of any contemporary relevance of Stoicism."
+          ],
+          "correct": 2,
+          "explanation": "The author consistently critiques modern popular Stoicism for its selective appropriation and distortion of ancient Stoic philosophy, calling it 'a curious distortion' and 'a philosophy emptied of its philosophical content,' while stopping short of rejecting all contemporary engagement with Stoic ideas."
+        },
+        {
+          "id": "cars-hum-004-q2",
+          "stem": "According to the passage, the concept of 'logos' in ancient Stoicism refers to:",
+          "options": [
+            "A. a technique for managing negative emotions.",
+            "B. the universal rational order of the cosmos.",
+            "C. a method for achieving professional success.",
+            "D. the practice of philosophical writing."
+          ],
+          "correct": 1,
+          "explanation": "The passage identifies logos as the universal reason with which ancient Stoics sought to align themselves. It was the cosmological foundation that gave meaning to Stoic practices of emotional discipline and virtue."
+        },
+        {
+          "id": "cars-hum-004-q3",
+          "stem": "The author suggests that modern self-help Stoicism 'inverts' ancient Stoicism primarily because it:",
+          "options": [
+            "A. rejects the writings of Marcus Aurelius and Epictetus.",
+            "B. promises material outcomes that the ancients considered irrelevant to virtue.",
+            "C. advocates for political radicalism.",
+            "D. emphasizes theoretical study over practical application."
+          ],
+          "correct": 1,
+          "explanation": "The inversion the author identifies is that ancient Stoics considered wealth, status, and pleasure indifferent to the good life, while modern self-help Stoicism promises that Stoic techniques will lead to professional achievement and material prosperity."
+        },
+        {
+          "id": "cars-hum-004-q4",
+          "stem": "Based on the passage, the author would most likely agree that a valid contemporary engagement with Stoicism would need to:",
+          "options": [
+            "A. reject all ancient Stoic metaphysics as outdated.",
+            "B. focus exclusively on emotional management techniques.",
+            "C. grapple seriously with the philosophical principles underlying Stoic practices.",
+            "D. replicate ancient Stoic beliefs about cosmology without modification."
+          ],
+          "correct": 2,
+          "explanation": "The author's critique centers on the separation of Stoic practices from their philosophical foundations. A valid engagement, by implication, would need to take seriously the principles that give those practices meaning, even if it does not replicate ancient metaphysics exactly."
+        },
+        {
+          "id": "cars-hum-004-q5",
+          "stem": "The broader question the author raises about appropriating ancient philosophy concerns:",
+          "options": [
+            "A. whether ancient texts can be accurately translated into modern languages.",
+            "B. the distinction between creative adaptation and fundamental betrayal of original meaning.",
+            "C. whether philosophy should be taught in universities or through popular media.",
+            "D. the economic viability of self-help publishing."
+          ],
+          "correct": 1,
+          "explanation": "The author explicitly frames the deeper issue as whether reshaping ancient philosophy to fit present assumptions constitutes 'creative adaptation or fundamental betrayal,' identifying this as a broader tension in contemporary appropriation of ancient thought."
+        }
+      ]
+    },
+    {
+      "id": "cars-hum-005",
+      "passage": "The literary canon debate of the late twentieth century generated more heat than light, largely because both sides operated with impoverished conceptions of what canonicity means. Defenders of the traditional canon often argued that certain works possess timeless aesthetic qualities that transcend cultural context, a view that implicitly treats literary value as a natural property rather than a cultural construction. Their opponents, drawing on poststructuralist theory, countered that canons merely reflect the power of dominant social groups to impose their tastes as universal standards. Both positions contain partial truths, but neither adequately accounts for how canons actually function. Canons are not static monuments to eternal greatness; they are dynamic institutions that evolve through ongoing processes of reading, teaching, and critical argument. A work enters the canon not because it possesses an intrinsic quality called greatness but because successive generations of readers find it capable of sustaining rich interpretation across changing historical circumstances. This capacity is neither a fixed property of the text nor an arbitrary imposition by powerful groups; it emerges from the interaction between textual complexity and interpretive communities. Shakespeare's plays, for example, remain canonical not because they embody unchanging human truths but because their linguistic density and structural ambiguity make them perpetually available for reinterpretation. Each generation discovers different meanings in the plays, which is precisely what keeps them vital. The political critique of canons rightly identified the exclusionary effects of traditional literary education but wrongly concluded that canonicity itself is merely an instrument of domination. Expanding the canon to include previously marginalized voices is not a rejection of the concept but an extension of it, an acknowledgment that interpretive richness is not the exclusive province of any single tradition. The goal should be not to abolish canons but to make the process of canon formation more transparent and inclusive.",
+      "questions": [
+        {
+          "id": "cars-hum-005-q1",
+          "stem": "The author's position on the literary canon debate is best described as:",
+          "options": [
+            "A. fully aligned with traditional canon defenders.",
+            "B. fully aligned with poststructuralist critics of the canon.",
+            "C. a synthesis that acknowledges partial validity in both positions while offering an alternative framework.",
+            "D. dismissive of both sides as equally misguided."
+          ],
+          "correct": 2,
+          "explanation": "The author explicitly states that 'both positions contain partial truths' but argues that neither adequately accounts for how canons function. The passage then develops an alternative view of canons as dynamic institutions, synthesizing insights from both perspectives."
+        },
+        {
+          "id": "cars-hum-005-q2",
+          "stem": "According to the author, a work becomes canonical primarily through:",
+          "options": [
+            "A. possessing an intrinsic quality of greatness recognized by experts.",
+            "B. being imposed by dominant social groups on marginalized populations.",
+            "C. the ongoing interaction between textual complexity and successive generations of interpreters.",
+            "D. achieving commercial popularity across multiple centuries."
+          ],
+          "correct": 2,
+          "explanation": "The author argues that canonicity emerges from the interaction between textual complexity and interpretive communities. A work becomes canonical because successive generations find it 'capable of sustaining rich interpretation across changing historical circumstances.'"
+        },
+        {
+          "id": "cars-hum-005-q3",
+          "stem": "The author uses the example of Shakespeare primarily to:",
+          "options": [
+            "A. argue that Shakespeare is the greatest writer in the English language.",
+            "B. illustrate how textual complexity enables ongoing reinterpretation across generations.",
+            "C. demonstrate that the traditional canon is correct in its selections.",
+            "D. show that only Western literature merits canonical status."
+          ],
+          "correct": 1,
+          "explanation": "Shakespeare is cited as an example of how 'linguistic density and structural ambiguity' make a work perpetually available for reinterpretation. This supports the author's broader argument about how canons function through the interaction of textual richness and changing interpretive contexts."
+        },
+        {
+          "id": "cars-hum-005-q4",
+          "stem": "The author would most likely view the inclusion of previously excluded writers in university curricula as:",
+          "options": [
+            "A. a dangerous dilution of literary standards.",
+            "B. a natural extension of the canon-formation process the author describes.",
+            "C. irrelevant to questions of literary quality.",
+            "D. a purely political act with no literary justification."
+          ],
+          "correct": 1,
+          "explanation": "The author explicitly argues that expanding the canon to include previously marginalized voices is 'not a rejection of the concept but an extension of it,' acknowledging that interpretive richness is not exclusive to any single tradition."
+        },
+        {
+          "id": "cars-hum-005-q5",
+          "stem": "Which of the following assumptions underlies the position of traditional canon defenders as characterized by the author?",
+          "options": [
+            "A. Literary value is a cultural construction that changes over time.",
+            "B. Canons should be expanded to include diverse perspectives.",
+            "C. Aesthetic quality is an objective property that exists independently of cultural context.",
+            "D. The process of canon formation should be made more transparent."
+          ],
+          "correct": 2,
+          "explanation": "The author characterizes traditional defenders as arguing that certain works possess 'timeless aesthetic qualities that transcend cultural context,' which implicitly treats literary value as a natural, objective property rather than a cultural construction."
+        }
+      ]
+    },
+    {
+      "id": "cars-hum-006",
+      "passage": "The ethics of cultural appropriation in art have become a flashpoint in contemporary debates about identity and creative freedom. At one extreme, critics argue that artists should only draw on their own cultural traditions, treating cultural boundaries as inviolable barriers. At the other extreme, defenders of unrestricted artistic freedom insist that all cultural material is available to anyone, and that restricting artistic borrowing amounts to censorship. Both positions fail to grapple with the actual dynamics of cross-cultural exchange. The concept of cultural appropriation, properly understood, does not refer to any instance of cross-cultural influence but to a specific pattern in which members of a dominant culture extract elements from a marginalized culture, stripping them of their original significance and profiting from them without acknowledgment or reciprocity. The harm lies not in the borrowing itself but in the asymmetry of power that structures the exchange. A wealthy fashion house incorporating indigenous textile patterns into a luxury collection while the original artisans remain impoverished represents a different moral situation than two cultures engaging in mutual exchange on equal terms. However, the application of this framework requires nuance that is often lacking in public discourse. Culture has never been hermetically sealed; all traditions are products of centuries of borrowing, blending, and transformation. Attempting to police every instance of cross-cultural influence would freeze cultures into static, essentialized identities, denying their fundamentally hybrid character. The meaningful question is not whether borrowing occurs but how it occurs: whether it involves respect, understanding, and equitable exchange, or whether it reproduces and reinforces existing inequalities. This distinction requires careful attention to context, intention, and power relations rather than blanket prohibitions or blanket permissions.",
+      "questions": [
+        {
+          "id": "cars-hum-006-q1",
+          "stem": "The author defines cultural appropriation as distinct from general cross-cultural influence primarily by the presence of:",
+          "options": [
+            "A. any borrowing of aesthetic elements between cultures.",
+            "B. power asymmetry and lack of acknowledgment or reciprocity in the exchange.",
+            "C. artistic innovation resulting from cultural contact.",
+            "D. government-sanctioned restrictions on cultural expression."
+          ],
+          "correct": 1,
+          "explanation": "The passage specifically defines cultural appropriation as a pattern involving members of a dominant culture extracting elements from a marginalized culture 'stripping them of their original significance and profiting from them without acknowledgment or reciprocity.' The key distinguishing factor is the power asymmetry."
+        },
+        {
+          "id": "cars-hum-006-q2",
+          "stem": "The author's mention of a wealthy fashion house incorporating indigenous textile patterns serves to:",
+          "options": [
+            "A. argue that all fashion borrowing is morally acceptable.",
+            "B. illustrate how power imbalances make certain forms of cultural borrowing ethically problematic.",
+            "C. demonstrate that fashion is exempt from cultural appropriation concerns.",
+            "D. suggest that indigenous artisans should collaborate with luxury brands."
+          ],
+          "correct": 1,
+          "explanation": "The fashion house example illustrates the author's point about power asymmetry. The moral concern arises specifically because a wealthy entity profits from elements created by impoverished artisans, making it a concrete case of the problematic pattern the author defines."
+        },
+        {
+          "id": "cars-hum-006-q3",
+          "stem": "The author would most likely criticize which of the following positions?",
+          "options": [
+            "A. Cross-cultural artistic exchange should be evaluated based on context and power dynamics.",
+            "B. All cultural traditions are products of historical borrowing and blending.",
+            "C. Artists have an absolute right to use any cultural material without consideration of its origins.",
+            "D. Equitable exchange between cultures is morally distinct from exploitative extraction."
+          ],
+          "correct": 2,
+          "explanation": "The author explicitly rejects the position that 'all cultural material is available to anyone' without qualification, arguing that the conditions under which borrowing occurs matter greatly. An absolute right to use any cultural material ignores the power dynamics the author considers essential."
+        },
+        {
+          "id": "cars-hum-006-q4",
+          "stem": "According to the passage, attempting to strictly police all cross-cultural influence would:",
+          "options": [
+            "A. effectively protect marginalized cultures from exploitation.",
+            "B. reduce cultures to static, essentialized identities contrary to their actual hybrid nature.",
+            "C. promote genuine mutual exchange between cultures.",
+            "D. have no practical consequences for artistic production."
+          ],
+          "correct": 1,
+          "explanation": "The author argues that policing every instance of cross-cultural influence would 'freeze cultures into static, essentialized identities, denying their fundamentally hybrid character.' This would misrepresent the dynamic, historically blended nature of all cultural traditions."
+        },
+        {
+          "id": "cars-hum-006-q5",
+          "stem": "The overall structure of the author's argument can best be described as:",
+          "options": [
+            "A. presenting two extreme positions, rejecting both, and proposing a more nuanced framework.",
+            "B. defending one extreme position against the other.",
+            "C. providing a historical survey of cultural appropriation without taking a position.",
+            "D. arguing that cultural appropriation is a meaningless concept."
+          ],
+          "correct": 0,
+          "explanation": "The passage opens by presenting two extreme positions, explicitly states that 'both positions fail,' and then develops a nuanced alternative framework centered on power dynamics, context, and equitable exchange. This is a classic argumentative structure of thesis-antithesis-synthesis."
+        }
+      ]
+    },
+    {
+      "id": "cars-hum-007",
+      "passage": "The relationship between music and mathematics has fascinated thinkers since Pythagoras discovered that harmonic intervals correspond to simple numerical ratios. Yet the persistent attempt to ground musical aesthetics in mathematical structure encounters a fundamental difficulty: the experience of music is irreducibly temporal and embodied in ways that mathematical description cannot fully capture. A musical phrase exists in time; its meaning depends on what precedes and follows it, on the listener's expectations and their fulfillment or frustration. Mathematical ratios can describe the acoustic properties of intervals, but they cannot explain why a particular sequence of intervals produces sadness, triumph, or longing in a human listener. This gap between acoustic structure and musical meaning has led some theorists to argue that music's emotional power is culturally constructed rather than mathematically determined. Western listeners hear minor keys as sad partly because Western musical conventions have trained them to make that association, not because minor intervals possess inherent melancholy. Cross-cultural studies of musical perception provide some support for this view, revealing significant variation in how different populations interpret musical expressions. However, the cultural constructionist position overstates its case when it denies any natural basis for musical emotion. Research in psychoacoustics demonstrates that certain acoustic properties, such as dissonance and rhythmic irregularity, produce physiological stress responses across cultures, suggesting a biological substrate for at least some musical emotions. The truth likely lies in an interaction between natural acoustic properties and cultural learning. Music operates at the intersection of physics, biology, and culture, and any adequate theory of musical meaning must account for all three dimensions. Reductive explanations that privilege one dimension over the others inevitably distort the phenomenon they seek to explain.",
+      "questions": [
+        {
+          "id": "cars-hum-007-q1",
+          "stem": "The author's main thesis is that musical meaning:",
+          "options": [
+            "A. can be fully explained by mathematical ratios and acoustic properties.",
+            "B. is entirely a product of cultural conventions with no natural basis.",
+            "C. arises from the interaction of physical, biological, and cultural dimensions.",
+            "D. cannot be studied systematically by any method."
+          ],
+          "correct": 2,
+          "explanation": "The author's concluding position is that music 'operates at the intersection of physics, biology, and culture, and any adequate theory of musical meaning must account for all three dimensions.' This explicitly rejects single-dimension explanations in favor of an interactive model."
+        },
+        {
+          "id": "cars-hum-007-q2",
+          "stem": "The passage suggests that the Pythagorean tradition is limited because it:",
+          "options": [
+            "A. incorrectly described the mathematical properties of harmonic intervals.",
+            "B. failed to recognize that musical experience involves temporal and embodied dimensions beyond mathematical description.",
+            "C. had no influence on subsequent musical theory.",
+            "D. confused musical structure with visual aesthetics."
+          ],
+          "correct": 1,
+          "explanation": "The author acknowledges the Pythagorean discovery of mathematical ratios in harmony but argues that the experience of music is 'irreducibly temporal and embodied in ways that mathematical description cannot fully capture.' The limitation is not in the mathematics but in the attempt to fully ground aesthetics in mathematical structure."
+        },
+        {
+          "id": "cars-hum-007-q3",
+          "stem": "The author cites cross-cultural studies of musical perception in order to:",
+          "options": [
+            "A. definitively prove that all musical emotion is culturally constructed.",
+            "B. provide partial support for the cultural constructionist position while noting its limitations.",
+            "C. demonstrate the superiority of Western musical traditions.",
+            "D. argue that cross-cultural comparison is methodologically impossible."
+          ],
+          "correct": 1,
+          "explanation": "Cross-cultural studies are cited as providing 'some support' for the cultural constructionist view, but the author immediately notes that this position 'overstates its case.' The studies serve as partial evidence within a balanced argument."
+        },
+        {
+          "id": "cars-hum-007-q4",
+          "stem": "If researchers discovered that a specific musical interval produces the same emotional response in every human culture studied, this finding would:",
+          "options": [
+            "A. fully confirm the author's position.",
+            "B. support the mathematical-acoustic explanation more than the cultural constructionist position.",
+            "C. be irrelevant to the debate described in the passage.",
+            "D. prove that all musical meaning is biologically determined."
+          ],
+          "correct": 1,
+          "explanation": "A universal emotional response to a specific interval would support the view that at least some musical emotions have a natural or biological basis, strengthening the mathematical-acoustic side of the debate. However, it would not fully confirm the author's interactive position, which holds that cultural factors also play a role."
+        },
+        {
+          "id": "cars-hum-007-q5",
+          "stem": "The phrase 'reductive explanations' in the final sentence refers to:",
+          "options": [
+            "A. theories that account for all three dimensions of musical experience.",
+            "B. approaches that attempt to explain musical meaning through a single dimension such as physics, biology, or culture alone.",
+            "C. explanations that are too complex to be practically useful.",
+            "D. purely historical accounts of musical development."
+          ],
+          "correct": 1,
+          "explanation": "In context, 'reductive explanations that privilege one dimension over the others' refers to theories that try to account for musical meaning through only one of the three dimensions the author identifies: physics, biology, or culture. The author argues these inevitably distort the phenomenon."
+        }
+      ]
+    },
+    {
+      "id": "cars-hum-008",
+      "passage": "Historiography, the study of how history is written, reveals that every historical narrative involves choices about what to include, what to emphasize, and what to omit. These choices are not neutral; they reflect the historian's theoretical commitments, cultural position, and often unconscious assumptions about what matters. The positivist tradition in historiography held that the historian's task was simply to establish facts and let them speak for themselves. Leopold von Ranke's famous dictum that history should show the past as it actually was expressed this aspiration toward objectivity. However, the narrative turn in historiography, associated with thinkers like Hayden White, challenged this view by demonstrating that historical writing necessarily employs literary structures, such as plot, characterization, and metaphor, that shape the meaning of the facts presented. White argued that the same set of historical events could be narrated as tragedy, comedy, romance, or satire, with each narrative form producing a different understanding of what happened and why. This does not mean that historical truth is arbitrary. The facts constrain what can plausibly be said, and some narratives are better supported by evidence than others. But it does mean that the relationship between past events and historical writing is more complex than simple mirroring. The historian does not simply discover a story waiting in the archives; the historian constructs a narrative that imposes coherence on what would otherwise be a chaotic mass of data. This constructive dimension of historical writing has important implications for how we evaluate competing historical accounts. Rather than asking which account is true in an absolute sense, we should ask which narrative best accounts for the available evidence while making its interpretive choices transparent. The ideal is not objectivity understood as the absence of perspective but critical self-awareness about the perspective one brings to the evidence.",
+      "questions": [
+        {
+          "id": "cars-hum-008-q1",
+          "stem": "The author presents Ranke's dictum primarily as:",
+          "options": [
+            "A. the definitive statement of how history should be practiced.",
+            "B. an aspiration toward objectivity that subsequent scholarship has shown to be oversimplified.",
+            "C. a view that has been universally abandoned by contemporary historians.",
+            "D. an expression of personal bias disguised as objectivity."
+          ],
+          "correct": 1,
+          "explanation": "The author presents Ranke's dictum as expressing the positivist 'aspiration toward objectivity' and then introduces the narrative turn as a challenge to this view. Ranke is treated respectfully but as representing an oversimplified understanding of the relationship between past events and historical writing."
+        },
+        {
+          "id": "cars-hum-008-q2",
+          "stem": "According to Hayden White's argument as described in the passage, the same historical events can be understood differently because:",
+          "options": [
+            "A. historians deliberately falsify evidence to support their conclusions.",
+            "B. different narrative structures impose different meanings on the same factual material.",
+            "C. historical facts are entirely subjective and unreliable.",
+            "D. only one narrative form can accurately represent any given event."
+          ],
+          "correct": 1,
+          "explanation": "The passage explains White's argument that historical writing employs literary structures like plot and characterization, and that the same events can be narrated as 'tragedy, comedy, romance, or satire,' each producing different understandings. The narrative form, not falsification, creates divergent interpretations."
+        },
+        {
+          "id": "cars-hum-008-q3",
+          "stem": "The author would most likely agree that the best historical writing:",
+          "options": [
+            "A. eliminates all traces of the historian's perspective.",
+            "B. prioritizes literary style over factual accuracy.",
+            "C. acknowledges its interpretive choices while being well supported by evidence.",
+            "D. adheres strictly to the positivist method of letting facts speak for themselves."
+          ],
+          "correct": 2,
+          "explanation": "The author concludes that the ideal is 'critical self-awareness about the perspective one brings to the evidence' and that we should evaluate narratives based on how well they account for evidence while making interpretive choices transparent."
+        },
+        {
+          "id": "cars-hum-008-q4",
+          "stem": "The passage implies that the relationship between historical facts and historical narratives is best understood as:",
+          "options": [
+            "A. facts directly determine the correct narrative without any historian input.",
+            "B. narratives are completely independent of factual constraints.",
+            "C. facts constrain plausible narratives, but the historian actively constructs coherence from the evidence.",
+            "D. facts and narratives are identical concepts."
+          ],
+          "correct": 2,
+          "explanation": "The author explicitly states that 'the facts constrain what can plausibly be said' while also arguing that 'the historian constructs a narrative that imposes coherence.' This describes a relationship of mutual constraint rather than either determination or independence."
+        },
+        {
+          "id": "cars-hum-008-q5",
+          "stem": "Which of the following would the author most likely consider the strongest objection to White's narrative theory of history?",
+          "options": [
+            "A. That historical writing sometimes uses literary techniques.",
+            "B. That some historical events resist being narrated in certain forms because the evidence is too constraining.",
+            "C. That historians have personal biases.",
+            "D. That archives contain large amounts of data."
+          ],
+          "correct": 1,
+          "explanation": "The author balances White's insight with the observation that facts constrain plausible narratives. The strongest objection within this framework would be that evidence can limit narrative choices, suggesting that not all narrative forms are equally applicable to all events."
+        }
+      ]
+    },
+    {
+      "id": "cars-hum-009",
+      "passage": "The philosophical debate over personal identity has been transformed by advances in neuroscience, yet the core questions remain stubbornly resistant to empirical resolution. John Locke's influential theory tied personal identity to continuity of consciousness: you are the same person over time because you can remember your past experiences. This memory criterion seemed intuitively plausible until philosophers began constructing thought experiments that exposed its difficulties. If memories can be transferred from one brain to another, does personal identity follow the memories or remain with the original body? If a person's memories are gradually replaced with someone else's, at what point does one person become another? These puzzles are no longer purely theoretical. Patients with severe amnesia, split-brain conditions, and dissociative identity disorder present real cases in which the unity of personal identity fragments in ways that challenge Locke's criterion. A patient who cannot form new memories maintains biological continuity but lacks the psychological continuity Locke deemed essential. Conversely, individuals with dissociative identity disorder may exhibit multiple sets of memories and personality traits within a single body, raising the question of how many persons inhabit that body. Some philosophers have responded to these difficulties by abandoning the search for a criterion of personal identity altogether. Derek Parfit argued that personal identity is not what matters in survival; what matters is psychological continuity and connectedness, which can hold to varying degrees. On Parfit's view, the question of whether a future person is the same as a present person may simply have no determinate answer, and this indeterminacy is not a failure of our concepts but an accurate reflection of reality. The self, on this account, is not a metaphysical entity that persists through time but a conventional construction imposed on a stream of experiences that admits of more or less continuity without sharp boundaries.",
+      "questions": [
+        {
+          "id": "cars-hum-009-q1",
+          "stem": "The author's primary purpose in discussing clinical cases such as amnesia and dissociative identity disorder is to:",
+          "options": [
+            "A. argue that philosophy is irrelevant to understanding personal identity.",
+            "B. demonstrate that the philosophical puzzles about personal identity have real-world manifestations.",
+            "C. prove that Locke's memory criterion is correct.",
+            "D. suggest that neuroscience has definitively solved the problem of personal identity."
+          ],
+          "correct": 1,
+          "explanation": "The author introduces clinical cases by noting that philosophical puzzles 'are no longer purely theoretical,' then describes how amnesia and dissociative identity disorder present real cases that challenge Locke's criterion. The clinical examples ground abstract philosophical questions in observable phenomena."
+        },
+        {
+          "id": "cars-hum-009-q2",
+          "stem": "According to the passage, Parfit's response to the difficulties with personal identity is to argue that:",
+          "options": [
+            "A. Locke's memory criterion is essentially correct and needs only minor modifications.",
+            "B. personal identity is a fixed metaphysical entity that can be precisely defined.",
+            "C. the question of whether a future person is identical to a present person may lack a determinate answer.",
+            "D. biological continuity is the only reliable criterion for personal identity."
+          ],
+          "correct": 2,
+          "explanation": "The passage describes Parfit as arguing that personal identity questions 'may simply have no determinate answer' and that this indeterminacy 'is not a failure of our concepts but an accurate reflection of reality.' Parfit shifts focus from identity to psychological continuity and connectedness."
+        },
+        {
+          "id": "cars-hum-009-q3",
+          "stem": "The thought experiments about memory transfer described in the passage are designed to test:",
+          "options": [
+            "A. whether neuroscience can explain consciousness.",
+            "B. whether personal identity is essentially tied to memory continuity as Locke proposed.",
+            "C. whether amnesia can be cured through technological intervention.",
+            "D. whether split-brain patients retain full cognitive abilities."
+          ],
+          "correct": 1,
+          "explanation": "The thought experiments about transferring memories between brains are introduced as challenges to Locke's memory criterion. They test whether personal identity truly follows memory continuity by imagining scenarios where memory and body come apart."
+        },
+        {
+          "id": "cars-hum-009-q4",
+          "stem": "The author's characterization of the relationship between neuroscience and personal identity suggests that:",
+          "options": [
+            "A. neuroscience has made philosophical inquiry into personal identity obsolete.",
+            "B. neuroscience has complicated philosophical questions without resolving them.",
+            "C. neuroscience and philosophy address entirely unrelated questions about the self.",
+            "D. philosophical arguments about identity are irrelevant to clinical practice."
+          ],
+          "correct": 1,
+          "explanation": "The opening sentence states that advances in neuroscience have 'transformed' the debate yet 'the core questions remain stubbornly resistant to empirical resolution.' This indicates that neuroscience contributes new data and complications without providing definitive answers to the philosophical questions."
+        },
+        {
+          "id": "cars-hum-009-q5",
+          "stem": "Based on the passage, Parfit would most likely describe the self as:",
+          "options": [
+            "A. an immortal soul that transcends physical existence.",
+            "B. a fixed biological entity determined by genetics.",
+            "C. a conventional construction imposed on experiences that vary in continuity.",
+            "D. an illusion with no basis in experience whatsoever."
+          ],
+          "correct": 2,
+          "explanation": "The passage states that on Parfit's account, 'the self is not a metaphysical entity that persists through time but a conventional construction imposed on a stream of experiences that admits of more or less continuity without sharp boundaries.'"
+        }
+      ]
+    },
+    {
+      "id": "cars-hum-010",
+      "passage": "The emergence of digital art has reignited fundamental questions about authorship, originality, and the nature of creative labor. When an artist uses an algorithm to generate images, who is the author of the resulting work: the programmer who wrote the code, the artist who selected the parameters, or the algorithm itself? Traditional theories of authorship, rooted in Romantic conceptions of individual genius, struggle to accommodate creative processes that distribute agency across human and nonhuman actors. The Romantic model posited the artist as a uniquely gifted individual whose inner vision found expression in the artwork. This model was already under pressure from twentieth-century movements like conceptual art, which prioritized ideas over execution, and appropriation art, which challenged notions of originality by recontextualizing existing images. Digital art extends these challenges by introducing computational processes that can produce outputs no human specifically intended. The results may be aesthetically compelling, but they emerge from the interaction between human design choices and algorithmic operations that exceed human prediction and control. Some theorists have responded by expanding the concept of authorship to include what they call distributed creativity, a model in which creative agency is shared among human designers, technological systems, and even chance processes. On this view, the artwork is not the expression of a single creative vision but the emergent product of a complex system. This reconceptualization has precedents in collaborative art practices and in artistic traditions that embrace chance, such as John Cage's aleatory music. Yet distributed creativity raises its own difficulties, particularly regarding accountability and meaning. If no single agent is responsible for the work, who bears responsibility for its content? And if the work's meaning exceeds anyone's intention, how do we interpret it? These questions suggest that digital art does not simply require a new theory of authorship but forces a fundamental rethinking of the relationship between intention, creation, and meaning in artistic practice.",
+      "questions": [
+        {
+          "id": "cars-hum-010-q1",
+          "stem": "The author argues that the Romantic model of authorship is inadequate for digital art primarily because:",
+          "options": [
+            "A. Romantic artists lacked technical skill.",
+            "B. digital art distributes creative agency across human and nonhuman actors in ways the model cannot accommodate.",
+            "C. algorithms are inherently superior to human creativity.",
+            "D. the Romantic period produced no lasting artworks."
+          ],
+          "correct": 1,
+          "explanation": "The author argues that traditional authorship theories 'rooted in Romantic conceptions of individual genius' struggle to accommodate creative processes that 'distribute agency across human and nonhuman actors.' The issue is the distribution of agency, not the quality of either human or algorithmic creation."
+        },
+        {
+          "id": "cars-hum-010-q2",
+          "stem": "The passage mentions conceptual art and appropriation art in order to:",
+          "options": [
+            "A. argue that digital art is merely a continuation of these earlier movements.",
+            "B. show that challenges to traditional authorship preceded digital art, making it an extension of existing trends.",
+            "C. demonstrate that these movements were artistically inferior to digital art.",
+            "D. prove that originality in art is completely irrelevant."
+          ],
+          "correct": 1,
+          "explanation": "These movements are cited as precedents that already put pressure on the Romantic model before digital art emerged. They establish that digital art 'extends these challenges' rather than creating entirely new ones, situating digital art within a longer trajectory of artistic innovation."
+        },
+        {
+          "id": "cars-hum-010-q3",
+          "stem": "According to the passage, the concept of 'distributed creativity' proposes that:",
+          "options": [
+            "A. only human beings can be genuinely creative.",
+            "B. creative agency in digital art is shared among human designers, technological systems, and chance processes.",
+            "C. algorithms should receive legal copyright for the works they generate.",
+            "D. artistic collaboration always diminishes the quality of the resulting work."
+          ],
+          "correct": 1,
+          "explanation": "The passage defines distributed creativity as 'a model in which creative agency is shared among human designers, technological systems, and even chance processes.' The artwork is understood as an emergent product of a complex system rather than the expression of a single vision."
+        },
+        {
+          "id": "cars-hum-010-q4",
+          "stem": "The author identifies which of the following as a significant problem raised by the distributed creativity model?",
+          "options": [
+            "A. It is too expensive to implement in practice.",
+            "B. It fails to produce aesthetically compelling results.",
+            "C. It creates difficulties regarding accountability for a work's content and the interpretation of its meaning.",
+            "D. It requires artists to have advanced programming skills."
+          ],
+          "correct": 2,
+          "explanation": "The author explicitly raises two difficulties with distributed creativity: 'who bears responsibility for its content?' and 'if the work's meaning exceeds anyone's intention, how do we interpret it?' These questions of accountability and meaning are identified as significant challenges."
+        },
+        {
+          "id": "cars-hum-010-q5",
+          "stem": "The reference to John Cage's aleatory music serves to:",
+          "options": [
+            "A. argue that music is a more important art form than visual art.",
+            "B. provide a historical precedent for artistic practices that incorporate chance and depart from single-author models.",
+            "C. suggest that digital art should primarily be musical.",
+            "D. demonstrate that chance-based art is always inferior to intentional art."
+          ],
+          "correct": 1,
+          "explanation": "Cage's aleatory music is mentioned as a precedent for the distributed creativity model, alongside collaborative art practices. It shows that artistic traditions embracing chance predate digital art, providing historical support for the idea that creative agency need not reside in a single individual."
+        }
+      ]
+    }
+  ]
+}

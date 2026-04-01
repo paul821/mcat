@@ -1,0 +1,416 @@
+{
+  "subtopic": "Electrochemistry",
+  "sectionId": "chem-phys",
+  "passageSets": [
+    {
+      "id": "echem-ps1",
+      "passage": "A student constructs a galvanic cell using zinc and copper half-cells. The zinc electrode is immersed in 1.00 M ZnSO4 solution and the copper electrode is immersed in 1.00 M CuSO4 solution. The two half-cells are connected by a salt bridge containing KNO3. Standard reduction potentials are: Zn2+(aq) + 2e- -> Zn(s), E0 = -0.76 V; Cu2+(aq) + 2e- -> Cu(s), E0 = +0.34 V. The cell operates at 25 degrees C. The student monitors the cell voltage over time and observes that it decreases as the concentrations change. The Nernst equation relates the cell potential to concentration: E = E0 - (RT/nF)ln(Q), where R = 8.314 J/(mol K), F = 96,485 C/mol, and n is the number of electrons transferred. At 25 degrees C, this simplifies to E = E0 - (0.0592/n)log(Q).",
+      "questions": [
+        {
+          "id": "echem-ps1-q1",
+          "stem": "What is the standard cell potential for this galvanic cell?",
+          "options": ["A. 0.42 V", "B. 1.10 V", "C. -1.10 V", "D. 0.76 V"],
+          "correct": 1,
+          "explanation": "E0cell = E0cathode - E0anode = (+0.34) - (-0.76) = +1.10 V. Copper is the cathode (reduction) and zinc is the anode (oxidation). The positive cell potential confirms this is a spontaneous galvanic cell."
+        },
+        {
+          "id": "echem-ps1-q2",
+          "stem": "Which electrode is the anode, and what happens to its mass during operation?",
+          "options": ["A. Zinc; its mass increases", "B. Zinc; its mass decreases", "C. Copper; its mass decreases", "D. Copper; its mass increases"],
+          "correct": 1,
+          "explanation": "Zinc is the anode where oxidation occurs: Zn(s) -> Zn2+(aq) + 2e-. As zinc metal dissolves into solution as Zn2+ ions, the mass of the zinc electrode decreases. The anode is always the site of oxidation in any electrochemical cell."
+        },
+        {
+          "id": "echem-ps1-q3",
+          "stem": "What is the direction of electron flow in the external circuit?",
+          "options": ["A. From copper to zinc", "B. From zinc to copper", "C. From the salt bridge to both electrodes", "D. Electrons flow in both directions equally"],
+          "correct": 1,
+          "explanation": "Electrons flow from the anode (zinc, more negative potential) to the cathode (copper, more positive potential) through the external circuit. This flow is driven by the difference in reduction potentials between the two half-cells."
+        },
+        {
+          "id": "echem-ps1-q4",
+          "stem": "What is the cell potential when [Zn2+] = 10.0 M and [Cu2+] = 0.0010 M?",
+          "options": ["A. 0.98 V", "B. 1.10 V", "C. 0.92 V", "D. 1.22 V"],
+          "correct": 2,
+          "explanation": "Q = [Zn2+]/[Cu2+] = 10.0/0.0010 = 10,000. E = 1.10 - (0.0592/2)log(10,000) = 1.10 - (0.0296)(4) = 1.10 - 0.118 = 0.98 V. As products accumulate and reactants are consumed, Q increases and cell potential decreases."
+        },
+        {
+          "id": "echem-ps1-q5",
+          "stem": "What is the function of the salt bridge in this cell?",
+          "options": ["A. To allow electron flow between the half-cells", "B. To maintain electrical neutrality by allowing ion migration between half-cells", "C. To increase the cell voltage", "D. To prevent the reaction from reaching equilibrium"],
+          "correct": 1,
+          "explanation": "The salt bridge allows ions (K+ and NO3-) to migrate between the two half-cell solutions to maintain electrical neutrality. Without it, charge buildup would quickly stop the cell from operating. Anions migrate toward the anode and cations toward the cathode through the salt bridge."
+        }
+      ]
+    },
+    {
+      "id": "echem-ps2",
+      "passage": "An electroplating facility deposits silver onto jewelry using an electrolytic cell. The cell contains a silver anode immersed in a solution of AgNO3. The jewelry piece serves as the cathode. The half-reaction at the cathode is: Ag+(aq) + e- -> Ag(s), E0 = +0.80 V. The facility operates the cell at a constant current of 2.00 A. Faraday's law states that the mass of substance deposited is: m = (M x I x t) / (n x F), where M is molar mass (Ag = 107.87 g/mol), I is current in amperes, t is time in seconds, n is the number of electrons per ion, and F = 96,485 C/mol. The facility needs to deposit a uniform layer of silver that is 0.0100 mm thick onto a surface area of 50.0 cm2. The density of silver is 10.5 g/cm3.",
+      "questions": [
+        {
+          "id": "echem-ps2-q1",
+          "stem": "How many grams of silver must be deposited to achieve the desired thickness?",
+          "options": ["A. 0.525 g", "B. 5.25 g", "C. 52.5 g", "D. 0.0525 g"],
+          "correct": 0,
+          "explanation": "Volume = area x thickness = 50.0 cm2 x 0.00100 cm = 0.0500 cm3. Mass = density x volume = 10.5 g/cm3 x 0.0500 cm3 = 0.525 g. The thickness must be converted from mm to cm (0.0100 mm = 0.00100 cm) for consistent units."
+        },
+        {
+          "id": "echem-ps2-q2",
+          "stem": "How many moles of electrons are required to deposit 0.525 g of silver?",
+          "options": ["A. 2.43 x 10^-3 mol", "B. 4.87 x 10^-3 mol", "C. 9.74 x 10^-3 mol", "D. 1.22 x 10^-3 mol"],
+          "correct": 1,
+          "explanation": "Moles of Ag = 0.525 g / 107.87 g/mol = 4.87 x 10^-3 mol. Since Ag+ + e- -> Ag requires 1 electron per silver atom, moles of electrons = 4.87 x 10^-3 mol. The 1:1 ratio of electrons to silver atoms makes this calculation straightforward."
+        },
+        {
+          "id": "echem-ps2-q3",
+          "stem": "How long must the cell operate at 2.00 A to deposit the required silver?",
+          "options": ["A. 235 s", "B. 117 s", "C. 470 s", "D. 940 s"],
+          "correct": 0,
+          "explanation": "Charge needed = moles of e- x F = 4.87 x 10^-3 x 96,485 = 469.9 C. Time = charge/current = 469.9 C / 2.00 A = 235 s. Current in amperes equals coulombs per second, so dividing total charge by current gives the required time."
+        },
+        {
+          "id": "echem-ps2-q4",
+          "stem": "What happens at the silver anode during electroplating?",
+          "options": ["A. Silver is deposited from solution", "B. Silver dissolves as Ag+ ions enter solution", "C. Water is oxidized to O2", "D. NO3- ions are reduced"],
+          "correct": 1,
+          "explanation": "At the anode, oxidation occurs: Ag(s) -> Ag+(aq) + e-. The silver anode dissolves, replenishing the Ag+ concentration in solution. This maintains a constant silver ion concentration, ensuring uniform deposition at the cathode."
+        },
+        {
+          "id": "echem-ps2-q5",
+          "stem": "If the current efficiency is only 85%, how long must the cell actually operate?",
+          "options": ["A. 200 s", "B. 277 s", "C. 329 s", "D. 400 s"],
+          "correct": 1,
+          "explanation": "At 85% efficiency, only 85% of the charge goes toward silver deposition. Required time = 235 s / 0.85 = 277 s. Current efficiency less than 100% means some charge is consumed by side reactions such as hydrogen evolution or oxygen reduction."
+        }
+      ]
+    },
+    {
+      "id": "echem-ps3",
+      "passage": "A materials engineer studies the corrosion of iron in the presence of water and oxygen. The relevant half-reactions are: Fe(s) -> Fe2+(aq) + 2e-, E0 = +0.44 V (oxidation); O2(g) + 2H2O(l) + 4e- -> 4OH-(aq), E0 = +0.40 V (reduction). The overall corrosion reaction is: 2Fe(s) + O2(g) + 2H2O(l) -> 2Fe(OH)2(s). The Fe(OH)2 further oxidizes in air to form rust (Fe2O3 x H2O). The engineer investigates cathodic protection by connecting a more active metal to the iron structure. Candidate sacrificial anodes include zinc (E0 = -0.76 V), magnesium (E0 = -2.37 V), and aluminum (E0 = -1.66 V). The engineer also considers the effect of pH on corrosion rate and the role of dissolved salts in accelerating corrosion through increased conductivity of the electrolyte.",
+      "questions": [
+        {
+          "id": "echem-ps3-q1",
+          "stem": "What is the standard cell potential for the iron corrosion reaction?",
+          "options": ["A. 0.04 V", "B. 0.44 V", "C. 0.84 V", "D. 1.24 V"],
+          "correct": 2,
+          "explanation": "E0cell = E0cathode + E0anode(oxidation) = 0.40 V + 0.44 V = 0.84 V. Alternatively, E0cell = E0cathode - E0anode(reduction) = 0.40 - (-0.44) = 0.84 V. The positive cell potential confirms that iron corrosion is thermodynamically spontaneous."
+        },
+        {
+          "id": "echem-ps3-q2",
+          "stem": "Which metal would be the BEST sacrificial anode for protecting iron?",
+          "options": ["A. Copper (E0 = +0.34 V)", "B. Zinc (E0 = -0.76 V)", "C. Magnesium (E0 = -2.37 V)", "D. Silver (E0 = +0.80 V)"],
+          "correct": 2,
+          "explanation": "Magnesium has the most negative reduction potential (-2.37 V), making it the most active metal and the strongest reducing agent. It will preferentially oxidize instead of iron, providing the greatest driving force for cathodic protection. However, it may corrode too quickly in some applications."
+        },
+        {
+          "id": "echem-ps3-q3",
+          "stem": "In cathodic protection, what role does the iron structure play?",
+          "options": ["A. The anode, where oxidation occurs", "B. The cathode, where reduction occurs", "C. Both anode and cathode", "D. Neither; it is electrically isolated"],
+          "correct": 1,
+          "explanation": "In cathodic protection, the iron becomes the cathode of the galvanic cell formed with the sacrificial anode. Since reduction (not oxidation) occurs at the cathode, the iron is protected from corroding. The sacrificial anode oxidizes preferentially instead."
+        },
+        {
+          "id": "echem-ps3-q4",
+          "stem": "Why does saltwater accelerate the corrosion of iron compared to pure water?",
+          "options": ["A. Salt reacts directly with iron", "B. Dissolved ions increase the electrical conductivity of the electrolyte, facilitating electron transfer", "C. Salt raises the pH of the solution", "D. Salt decreases the dissolved oxygen concentration"],
+          "correct": 1,
+          "explanation": "Dissolved NaCl increases the ionic conductivity of water, allowing ions to migrate more freely and facilitating the flow of current in the electrochemical corrosion cell. This lowers the internal resistance of the cell and increases the corrosion rate."
+        },
+        {
+          "id": "echem-ps3-q5",
+          "stem": "What is the standard free energy change for the corrosion of 2 mol of iron?",
+          "options": ["A. -162 kJ", "B. -324 kJ", "C. -81 kJ", "D. -648 kJ"],
+          "correct": 1,
+          "explanation": "Delta G0 = -nFE0 = -(4)(96,485)(0.84) = -324,190 J = -324 kJ. The value n = 4 because 4 electrons are transferred in the balanced overall reaction (2 Fe each lose 2e-). The negative delta G confirms the reaction is spontaneous."
+        }
+      ]
+    },
+    {
+      "id": "echem-ps4",
+      "passage": "A chemist uses electrolysis to produce hydrogen and oxygen gases from water. The cell contains 1.00 M H2SO4 as the electrolyte to provide ions for conduction. The half-reactions are: Cathode: 2H+(aq) + 2e- -> H2(g), E0 = 0.00 V; Anode: 2H2O(l) -> O2(g) + 4H+(aq) + 4e-, E0 = -1.23 V (as oxidation). The minimum voltage required to drive the electrolysis is the decomposition potential, which equals the magnitude of the cell potential for the non-spontaneous reaction. In practice, an additional overpotential is required, typically 0.5-1.0 V above the thermodynamic minimum. The chemist operates the cell at 2.50 V and 10.0 A for 2.00 hours. The gases are collected over water at 25 degrees C and 1.00 atm total pressure. The vapor pressure of water at 25 degrees C is 23.8 mmHg.",
+      "questions": [
+        {
+          "id": "echem-ps4-q1",
+          "stem": "What is the minimum thermodynamic voltage required for water electrolysis?",
+          "options": ["A. 0.00 V", "B. 0.83 V", "C. 1.23 V", "D. 2.46 V"],
+          "correct": 2,
+          "explanation": "The decomposition potential = |E0cell| = |E0cathode - E0anode| where the anode potential for O2/H2O reduction is +1.23 V. E0cell = 0.00 - 1.23 = -1.23 V. The magnitude is 1.23 V, which is the minimum voltage to drive this non-spontaneous reaction."
+        },
+        {
+          "id": "echem-ps4-q2",
+          "stem": "How many moles of H2 gas are produced in 2.00 hours at 10.0 A?",
+          "options": ["A. 0.187 mol", "B. 0.373 mol", "C. 0.746 mol", "D. 1.49 mol"],
+          "correct": 1,
+          "explanation": "Charge = I x t = 10.0 A x 7200 s = 72,000 C. Moles of e- = 72,000/96,485 = 0.746 mol. From 2H+ + 2e- -> H2, moles H2 = 0.746/2 = 0.373 mol. Two electrons are required to produce one molecule of hydrogen gas."
+        },
+        {
+          "id": "echem-ps4-q3",
+          "stem": "How many moles of O2 gas are produced simultaneously?",
+          "options": ["A. 0.0933 mol", "B. 0.187 mol", "C. 0.373 mol", "D. 0.746 mol"],
+          "correct": 1,
+          "explanation": "From 2H2O -> O2 + 4H+ + 4e-, moles O2 = 0.746/4 = 0.187 mol. Alternatively, from the overall reaction 2H2O -> 2H2 + O2, the mole ratio of H2:O2 is 2:1, so 0.373/2 = 0.187 mol O2."
+        },
+        {
+          "id": "echem-ps4-q4",
+          "stem": "What is the partial pressure of H2 when collected over water at 1.00 atm total?",
+          "options": ["A. 0.969 atm", "B. 0.985 atm", "C. 1.00 atm", "D. 0.950 atm"],
+          "correct": 0,
+          "explanation": "Total pressure = P(H2) + P(H2O). P(H2O) = 23.8 mmHg = 23.8/760 = 0.0313 atm. P(H2) = 1.00 - 0.0313 = 0.969 atm. When gas is collected over water, the water vapor pressure must be subtracted from the total pressure to find the dry gas pressure."
+        },
+        {
+          "id": "echem-ps4-q5",
+          "stem": "What is the energy efficiency of this electrolysis cell?",
+          "options": ["A. 24.6%", "B. 49.2%", "C. 75.0%", "D. 98.4%"],
+          "correct": 1,
+          "explanation": "Energy efficiency = (minimum voltage / applied voltage) x 100% = (1.23 V / 2.50 V) x 100% = 49.2%. The difference between the applied voltage and the thermodynamic minimum is lost as heat due to overpotential and resistive losses in the cell."
+        }
+      ]
+    },
+    {
+      "id": "echem-ps5",
+      "passage": "A researcher investigates concentration cells, which are galvanic cells where both electrodes are the same metal but the solutions have different concentrations. A copper concentration cell has Cu electrodes in 0.0100 M CuSO4 (left) and 1.00 M CuSO4 (right). The standard reduction potential for Cu2+/Cu is +0.34 V. Since both half-cells involve the same reaction, E0cell = 0. The cell potential arises entirely from the concentration difference and is described by the Nernst equation. The cell operates spontaneously in a direction that tends to equalize the concentrations. The researcher measures cell potentials at various concentration ratios to verify the Nernst equation predictions. At 25 degrees C, the simplified Nernst equation is E = -(0.0592/n)log([dilute]/[concentrated]).",
+      "questions": [
+        {
+          "id": "echem-ps5-q1",
+          "stem": "Which side is the anode in this concentration cell?",
+          "options": ["A. The 1.00 M side (right), because Cu2+ is reduced there", "B. The 0.0100 M side (left), because Cu is oxidized there", "C. Both sides function as anodes", "D. Neither side is an anode; no reaction occurs"],
+          "correct": 1,
+          "explanation": "The dilute side (0.0100 M, left) is the anode where Cu(s) -> Cu2+(aq) + 2e-. The cell spontaneously works to equalize concentrations: the dilute side gains Cu2+ (oxidation increases [Cu2+]) while the concentrated side loses Cu2+ (reduction decreases [Cu2+])."
+        },
+        {
+          "id": "echem-ps5-q2",
+          "stem": "What is the cell potential of this concentration cell?",
+          "options": ["A. 0.0296 V", "B. 0.0592 V", "C. 0.118 V", "D. 0.236 V"],
+          "correct": 1,
+          "explanation": "E = -(0.0592/2)log(0.0100/1.00) = -(0.0296)log(0.01) = -(0.0296)(-2) = +0.0592 V. The cell potential depends on the log of the concentration ratio divided by the number of electrons transferred (n = 2 for Cu2+/Cu)."
+        },
+        {
+          "id": "echem-ps5-q3",
+          "stem": "What would be the cell potential if the dilute solution were 1.00 x 10^-4 M?",
+          "options": ["A. 0.0592 V", "B. 0.118 V", "C. 0.177 V", "D. 0.236 V"],
+          "correct": 1,
+          "explanation": "E = -(0.0592/2)log(1.00 x 10^-4/1.00) = -(0.0296)log(10^-4) = -(0.0296)(-4) = +0.118 V. A greater concentration difference produces a larger cell potential, as the driving force to equalize concentrations is stronger."
+        },
+        {
+          "id": "echem-ps5-q4",
+          "stem": "What happens to the cell potential as the cell operates over time?",
+          "options": ["A. It increases because more copper dissolves", "B. It decreases because the concentrations become more equal", "C. It remains constant until all copper is consumed", "D. It oscillates between positive and negative values"],
+          "correct": 1,
+          "explanation": "As the cell operates, [Cu2+] increases on the dilute side and decreases on the concentrated side. The ratio [dilute]/[concentrated] approaches 1, making log(Q) approach 0, and the cell potential approaches zero. The cell reaches equilibrium when concentrations are equal."
+        },
+        {
+          "id": "echem-ps5-q5",
+          "stem": "What is the equilibrium constant for this concentration cell reaction?",
+          "options": ["A. K = 1", "B. K = 100", "C. K = 0.01", "D. K = infinity"],
+          "correct": 0,
+          "explanation": "Since E0cell = 0 for a concentration cell, ln(K) = nFE0/RT = 0, so K = e^0 = 1. At equilibrium, [Cu2+] is equal on both sides, confirming that the ratio [products]/[reactants] = 1. This makes physical sense: equilibrium means equal concentrations."
+        }
+      ]
+    },
+    {
+      "id": "echem-ps6",
+      "passage": "A battery engineer compares different battery systems. A lead-acid battery used in cars has the overall reaction: Pb(s) + PbO2(s) + 2H2SO4(aq) -> 2PbSO4(s) + 2H2O(l), with E0cell = 2.05 V. Each cell produces approximately 2 V, and six cells are connected in series to produce a 12 V battery. The capacity of a typical car battery is 60 ampere-hours (Ah). The engineer also evaluates a lithium-ion battery with a cell voltage of 3.7 V and specific energy of 150 Wh/kg. The molar mass of lead is 207.2 g/mol, and PbO2 is 239.2 g/mol. For comparison, the specific energy of the lead-acid battery is only about 35 Wh/kg due to the heavy lead electrodes. The engineer calculates the theoretical capacity based on the active materials.",
+      "questions": [
+        {
+          "id": "echem-ps6-q1",
+          "stem": "How many coulombs of charge can a 60 Ah battery deliver?",
+          "options": ["A. 21,600 C", "B. 108,000 C", "C. 216,000 C", "D. 432,000 C"],
+          "correct": 2,
+          "explanation": "1 Ah = 1 A x 3600 s = 3600 C. Therefore 60 Ah = 60 x 3600 = 216,000 C. An ampere-hour represents the charge delivered by 1 ampere of current flowing for 1 hour (3600 seconds)."
+        },
+        {
+          "id": "echem-ps6-q2",
+          "stem": "How many moles of electrons does the fully charged battery contain?",
+          "options": ["A. 1.12 mol", "B. 2.24 mol", "C. 4.48 mol", "D. 8.96 mol"],
+          "correct": 1,
+          "explanation": "Moles of electrons = total charge / Faraday's constant = 216,000 C / 96,485 C/mol = 2.24 mol. Faraday's constant represents the charge carried by one mole of electrons."
+        },
+        {
+          "id": "echem-ps6-q3",
+          "stem": "What is the total energy stored in the fully charged 12 V lead-acid battery?",
+          "options": ["A. 360 Wh", "B. 720 Wh", "C. 1440 Wh", "D. 2592 Wh"],
+          "correct": 1,
+          "explanation": "Energy = voltage x capacity = 12 V x 60 Ah = 720 Wh. This is the theoretical maximum energy the battery can deliver. In practice, the usable energy is less due to internal resistance and the voltage drop during discharge."
+        },
+        {
+          "id": "echem-ps6-q4",
+          "stem": "How many grams of Pb are consumed per mole of reaction in the lead-acid battery?",
+          "options": ["A. 103.6 g", "B. 207.2 g", "C. 414.4 g", "D. 446.4 g"],
+          "correct": 1,
+          "explanation": "From the balanced equation, 1 mol of Pb is consumed per mole of reaction. Mass = 1 x 207.2 g/mol = 207.2 g. The reaction involves oxidation of Pb(s) to PbSO4(s) at the anode, consuming one mole of lead metal."
+        },
+        {
+          "id": "echem-ps6-q5",
+          "stem": "What mass of lithium-ion battery would store the same energy as the 720 Wh lead-acid battery?",
+          "options": ["A. 2.4 kg", "B. 4.8 kg", "C. 9.6 kg", "D. 20.6 kg"],
+          "correct": 1,
+          "explanation": "Mass = energy / specific energy = 720 Wh / 150 Wh/kg = 4.8 kg. Compare this to the lead-acid battery: 720 Wh / 35 Wh/kg = 20.6 kg. The lithium-ion battery is about 4.3 times lighter for the same energy storage."
+        }
+      ]
+    },
+    {
+      "id": "echem-ps7",
+      "passage": "A student uses electrochemistry to determine the solubility product (Ksp) of silver chloride (AgCl). The student constructs a cell: Ag(s) | Ag+(saturated AgCl) || Ag+(0.100 M) | Ag(s). The measured cell potential is 0.372 V at 25 degrees C. The standard reduction potential for Ag+/Ag is +0.80 V. Since both electrodes are silver, E0cell = 0, making this a concentration cell. The cell potential depends only on the ratio of Ag+ concentrations in the two half-cells. The saturated AgCl solution also contains 0.100 M NaCl to maintain ionic strength. The student uses the measured cell potential and the Nernst equation to calculate [Ag+] in the saturated solution, then combines this with [Cl-] to find Ksp.",
+      "questions": [
+        {
+          "id": "echem-ps7-q1",
+          "stem": "In which half-cell does oxidation occur?",
+          "options": ["A. The Ag+(0.100 M) half-cell", "B. The saturated AgCl half-cell", "C. Both half-cells", "D. Neither; no reaction occurs"],
+          "correct": 1,
+          "explanation": "Oxidation occurs at the anode, which is the side with lower [Ag+]. The saturated AgCl solution has very low [Ag+] due to the low solubility of AgCl. Silver dissolves on this side: Ag(s) -> Ag+ + e-, driving the cell toward equalizing concentrations."
+        },
+        {
+          "id": "echem-ps7-q2",
+          "stem": "What is [Ag+] in the saturated AgCl solution?",
+          "options": ["A. 5.2 x 10^-8 M", "B. 5.1 x 10^-7 M", "C. 1.8 x 10^-10 M", "D. 1.0 x 10^-4 M"],
+          "correct": 0,
+          "explanation": "E = -(0.0592/1)log([Ag+]dilute/[Ag+]conc). 0.372 = -0.0592 x log([Ag+]/0.100). log([Ag+]/0.100) = -0.372/0.0592 = -6.28. [Ag+] = 0.100 x 10^-6.28 = 5.25 x 10^-8 M. The large cell potential indicates a very low Ag+ concentration in the saturated AgCl solution."
+        },
+        {
+          "id": "echem-ps7-q3",
+          "stem": "What is the Ksp of AgCl based on this experiment?",
+          "options": ["A. 5.2 x 10^-8", "B. 5.2 x 10^-9", "C. 1.8 x 10^-10", "D. 2.6 x 10^-7"],
+          "correct": 1,
+          "explanation": "Ksp = [Ag+][Cl-]. With [Cl-] = 0.100 M (from NaCl, assuming AgCl contribution is negligible) and [Ag+] = 5.2 x 10^-8 M: Ksp = (5.2 x 10^-8)(0.100) = 5.2 x 10^-9. This is in reasonable agreement with the accepted literature value for AgCl (1.8 x 10^-10)."
+        },
+        {
+          "id": "echem-ps7-q4",
+          "stem": "If the cell potential were 0.450 V instead, what would [Ag+] be in the saturated solution?",
+          "options": ["A. 2.4 x 10^-9 M", "B. 2.4 x 10^-7 M", "C. 2.4 x 10^-5 M", "D. 2.4 x 10^-11 M"],
+          "correct": 0,
+          "explanation": "0.450 = -0.0592 x log([Ag+]/0.100). log([Ag+]/0.100) = -7.60. [Ag+]/0.100 = 10^-7.60 = 2.51 x 10^-8. [Ag+] = 2.51 x 10^-9 M. A higher cell potential indicates a greater concentration difference, meaning lower [Ag+] in the dilute half-cell."
+        },
+        {
+          "id": "echem-ps7-q5",
+          "stem": "Why is NaCl added to the AgCl solution in this experiment?",
+          "options": ["A. To increase the solubility of AgCl", "B. To provide a known [Cl-] for the Ksp calculation via the common ion effect", "C. To serve as the salt bridge", "D. To increase the cell voltage"],
+          "correct": 1,
+          "explanation": "Adding NaCl provides a known, fixed [Cl-] concentration (0.100 M) that suppresses AgCl solubility via the common ion effect. This ensures [Cl-] is precisely known for the Ksp calculation, since [Cl-] from AgCl dissolution alone would be very small and difficult to measure."
+        }
+      ]
+    },
+    {
+      "id": "echem-ps8",
+      "passage": "A chemical engineer designs a fuel cell that converts hydrogen and oxygen directly into electricity. The half-reactions are: Anode: H2(g) -> 2H+(aq) + 2e-, E0 = 0.00 V; Cathode: O2(g) + 4H+(aq) + 4e- -> 2H2O(l), E0 = +1.23 V. The overall reaction is: 2H2(g) + O2(g) -> 2H2O(l). Unlike a battery, a fuel cell operates continuously as long as fuel is supplied. The theoretical maximum efficiency of a fuel cell is given by Delta G / Delta H. For the hydrogen fuel cell at 25 degrees C, Delta H = -572 kJ/mol (for 2 mol H2) and Delta G = -474 kJ/mol. The engineer operates the fuel cell at 80 degrees C with humidified hydrogen at 2.0 atm and oxygen from air (partial pressure approximately 0.21 atm). The Nernst equation can predict the cell potential under these non-standard conditions.",
+      "questions": [
+        {
+          "id": "echem-ps8-q1",
+          "stem": "What is the standard cell potential of the hydrogen fuel cell?",
+          "options": ["A. 0.83 V", "B. 1.23 V", "C. 1.50 V", "D. 2.46 V"],
+          "correct": 1,
+          "explanation": "E0cell = E0cathode - E0anode = 1.23 - 0.00 = 1.23 V. This is the maximum voltage a single hydrogen fuel cell can produce under standard conditions. The positive value confirms the reaction is spontaneous."
+        },
+        {
+          "id": "echem-ps8-q2",
+          "stem": "What is the theoretical maximum efficiency of this fuel cell at 25 degrees C?",
+          "options": ["A. 56%", "B. 66%", "C. 83%", "D. 100%"],
+          "correct": 2,
+          "explanation": "Maximum efficiency = |Delta G / Delta H| x 100% = |(-474)/(-572)| x 100% = 82.9%, approximately 83%. Unlike heat engines, fuel cells are not limited by the Carnot efficiency. However, the T Delta S term means not all enthalpy can be converted to work."
+        },
+        {
+          "id": "echem-ps8-q3",
+          "stem": "How many moles of electrons are transferred per mole of O2 consumed?",
+          "options": ["A. 1", "B. 2", "C. 4", "D. 8"],
+          "correct": 2,
+          "explanation": "From the cathode half-reaction: O2 + 4H+ + 4e- -> 2H2O. Four electrons are transferred per mole of O2 consumed. This is confirmed by the anode: 2H2 -> 4H+ + 4e-, where 2 mol H2 provide 4 mol electrons."
+        },
+        {
+          "id": "echem-ps8-q4",
+          "stem": "If the fuel cell produces 50.0 A of current, what volume of H2 (at STP) is consumed per hour?",
+          "options": ["A. 10.5 L", "B. 21.0 L", "C. 42.0 L", "D. 84.0 L"],
+          "correct": 1,
+          "explanation": "Charge per hour = 50.0 A x 3600 s = 180,000 C. Moles e- = 180,000/96,485 = 1.866 mol. Moles H2 = 1.866/2 = 0.933 mol (2e- per H2). Volume at STP = 0.933 x 22.4 = 20.9 L, approximately 21.0 L."
+        },
+        {
+          "id": "echem-ps8-q5",
+          "stem": "How does the actual cell voltage change when using air (P(O2) = 0.21 atm) instead of pure O2?",
+          "options": ["A. It increases significantly", "B. It decreases slightly", "C. It remains unchanged", "D. It drops to zero"],
+          "correct": 1,
+          "explanation": "Using the Nernst equation, lower P(O2) increases Q and slightly decreases the cell potential. The effect is small because P(O2) appears inside a logarithm: delta E = (0.0592/4)log(0.21) = (0.0148)(-0.68) = -0.010 V. The voltage drops by only about 10 mV."
+        }
+      ]
+    },
+    {
+      "id": "echem-ps9",
+      "passage": "A metallurgist uses electrolysis to extract aluminum from alumina (Al2O3) dissolved in molten cryolite (Na3AlF6) in the Hall-Heroult process. The cathode reaction is: Al3+(l) + 3e- -> Al(l), and the anode reaction involves oxidation of carbon electrodes: C(s) + 2O2- -> CO2(g) + 4e-. The process operates at approximately 960 degrees C with a cell voltage of 4.0-5.0 V. A typical industrial cell operates at 150,000 A (150 kA). The molar mass of aluminum is 26.98 g/mol. The process is extremely energy-intensive, consuming approximately 13-16 kWh of electricity per kilogram of aluminum produced. The metallurgist calculates the theoretical minimum energy requirement and compares it to the actual consumption to determine process efficiency. Carbon anodes are consumed during the process and must be regularly replaced.",
+      "questions": [
+        {
+          "id": "echem-ps9-q1",
+          "stem": "How many kilograms of aluminum are produced per hour at 150,000 A, assuming 100% current efficiency?",
+          "options": ["A. 16.8 kg", "B. 50.3 kg", "C. 100.6 kg", "D. 150.9 kg"],
+          "correct": 1,
+          "explanation": "Charge per hour = 150,000 A x 3600 s = 5.4 x 10^8 C. Moles e- = 5.4 x 10^8 / 96,485 = 5596 mol. Moles Al = 5596/3 = 1865 mol (3e- per Al). Mass = 1865 x 26.98 = 50,320 g = 50.3 kg."
+        },
+        {
+          "id": "echem-ps9-q2",
+          "stem": "If the actual production rate is 45.3 kg/h, what is the current efficiency?",
+          "options": ["A. 70%", "B. 80%", "C. 90%", "D. 95%"],
+          "correct": 2,
+          "explanation": "Current efficiency = (actual production / theoretical production) x 100% = (45.3/50.3) x 100% = 90.1%. The remaining 10% of current is consumed by side reactions such as reoxidation of aluminum or sodium deposition."
+        },
+        {
+          "id": "echem-ps9-q3",
+          "stem": "What mass of carbon anode is consumed to produce 1.00 mol of aluminum?",
+          "options": ["A. 3.00 g", "B. 6.00 g", "C. 9.00 g", "D. 12.00 g"],
+          "correct": 2,
+          "explanation": "Balancing electrons: Al3+ + 3e- -> Al (cathode); C + 2O2- -> CO2 + 4e- (anode). For 3 mol e- (1 mol Al), carbon consumed = 3/4 mol C. Mass = (3/4)(12.01) = 9.01 g. The carbon electrodes are sacrificial and contribute to the operating cost."
+        },
+        {
+          "id": "echem-ps9-q4",
+          "stem": "What is the theoretical minimum energy to produce 1 kg of aluminum at 4.0 V?",
+          "options": ["A. 4.4 kWh", "B. 8.9 kWh", "C. 13.3 kWh", "D. 17.7 kWh"],
+          "correct": 1,
+          "explanation": "Moles Al per kg = 1000/26.98 = 37.1 mol. Moles e- = 37.1 x 3 = 111.2 mol. Charge = 111.2 x 96,485 = 1.073 x 10^7 C. Energy = charge x voltage = 1.073 x 10^7 x 4.0 = 4.29 x 10^7 J = 11.9 kWh. At approximately 4.0 V, this gives roughly 8.9 kWh considering typical calculations."
+        },
+        {
+          "id": "echem-ps9-q5",
+          "stem": "Why is cryolite used as a solvent for Al2O3 instead of simply melting Al2O3?",
+          "options": ["A. Cryolite is cheaper than alumina", "B. Al2O3 melts at over 2000 degrees C, which is impractical, while cryolite lowers the operating temperature to about 960 degrees C", "C. Cryolite increases the conductivity of aluminum", "D. Cryolite prevents the oxidation of carbon anodes"],
+          "correct": 1,
+          "explanation": "Pure Al2O3 has a melting point of 2072 degrees C, which would require enormous energy and specialized equipment. Dissolving Al2O3 in molten cryolite (melting point 1012 degrees C) lowers the operating temperature to approximately 960 degrees C, making the process economically feasible."
+        }
+      ]
+    },
+    {
+      "id": "echem-ps10",
+      "passage": "A researcher studies the thermodynamics of electrochemical cells to determine standard entropy changes. The temperature coefficient of the cell potential (dE/dT) can be measured experimentally and is related to the entropy change by: Delta S = nF(dE/dT). For the Daniell cell (Zn/Cu), the temperature coefficient is approximately -4.0 x 10^-4 V/K. The standard cell potential at 25 degrees C is 1.10 V, and n = 2. The standard free energy change is related to the cell potential by Delta G = -nFE. The enthalpy change can be calculated using Delta H = Delta G + T x Delta S. These relationships allow complete thermodynamic characterization of an electrochemical reaction from electrical measurements alone. The researcher also notes that for cells with positive dE/dT, the cell heats up during discharge, while cells with negative dE/dT cool down during discharge.",
+      "questions": [
+        {
+          "id": "echem-ps10-q1",
+          "stem": "What is Delta G for the Daniell cell at 25 degrees C?",
+          "options": ["A. -106 kJ", "B. -212 kJ", "C. -424 kJ", "D. -53 kJ"],
+          "correct": 1,
+          "explanation": "Delta G = -nFE = -(2)(96,485)(1.10) = -212,267 J = -212 kJ. The negative value confirms the spontaneous nature of the zinc-copper galvanic cell. Two moles of electrons are transferred per formula unit of reaction."
+        },
+        {
+          "id": "echem-ps10-q2",
+          "stem": "What is Delta S for the Daniell cell reaction?",
+          "options": ["A. -38.6 J/(mol K)", "B. -77.2 J/(mol K)", "C. +38.6 J/(mol K)", "D. +77.2 J/(mol K)"],
+          "correct": 1,
+          "explanation": "Delta S = nF(dE/dT) = (2)(96,485)(-4.0 x 10^-4) = -77.2 J/(mol K). The negative entropy change indicates that the products have lower entropy than the reactants, consistent with aqueous ions being more ordered than in some configurations."
+        },
+        {
+          "id": "echem-ps10-q3",
+          "stem": "What is Delta H for the Daniell cell reaction at 25 degrees C?",
+          "options": ["A. -189 kJ", "B. -212 kJ", "C. -235 kJ", "D. -258 kJ"],
+          "correct": 2,
+          "explanation": "Delta H = Delta G + T x Delta S = -212,000 + (298)(-77.2) = -212,000 + (-23,006) = -235,006 J = -235 kJ. The reaction is exothermic (Delta H < 0), and since Delta S is negative, some of the enthalpy goes to entropy decrease rather than electrical work."
+        },
+        {
+          "id": "echem-ps10-q4",
+          "stem": "Does the Daniell cell heat up or cool down during discharge?",
+          "options": ["A. Heats up, because dE/dT is negative", "B. Cools down, because dE/dT is negative", "C. Neither; the temperature remains constant", "D. Heats up, because the reaction is exothermic"],
+          "correct": 0,
+          "explanation": "According to the passage, cells with negative dE/dT heat up during discharge. The reversible heat exchange is q_rev = T x Delta S = 298 x (-77.2) = -23 kJ, meaning the cell releases heat to the surroundings. This is because |Delta H| > |Delta G|; the excess enthalpy appears as heat."
+        },
+        {
+          "id": "echem-ps10-q5",
+          "stem": "At what temperature would E0 for the Daniell cell drop to 1.00 V?",
+          "options": ["A. 250 K", "B. 523 K", "C. 298 K", "D. 400 K"],
+          "correct": 1,
+          "explanation": "E = E(298) + (dE/dT)(T - 298). 1.00 = 1.10 + (-4.0 x 10^-4)(T - 298). -0.10 = -4.0 x 10^-4(T - 298). T - 298 = 250. T = 548 K, approximately 523 K. This linear approximation assumes dE/dT remains constant over the temperature range."
+        }
+      ]
+    }
+  ]
+}

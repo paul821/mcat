@@ -1,0 +1,666 @@
+{
+  "subtopic": "Social Sciences",
+  "sectionId": "cars",
+  "passageSets": [
+    {
+      "id": "cars-soc-001",
+      "passage": "The rational choice model that dominates mainstream economics assumes that individuals make decisions by calculating expected costs and benefits and selecting the option that maximizes their utility. This framework has proven remarkably productive in generating testable predictions about market behavior, yet its explanatory power diminishes significantly when applied to domains where human motivation is complex and multidimensional. Behavioral economists have documented systematic deviations from rational choice predictions, including loss aversion, status quo bias, and framing effects, but these findings are typically treated as anomalies or cognitive errors rather than as evidence that the underlying model is misconceived. A more radical critique holds that the problem lies not in human irrationality but in the impoverished conception of rationality that the model employs. Human decision-making is embedded in social relationships, cultural norms, and moral commitments that cannot be reduced to utility calculations without distorting their character. When a person donates to charity, the rational choice theorist must either redefine altruism as a form of self-interest, thereby draining the concept of its meaning, or classify it as irrational, thereby dismissing one of the most significant dimensions of human motivation. Neither option is satisfactory. The sociologist Mark Granovetter argued decades ago that economic action is embedded in networks of social relations that shape both preferences and the information available for decision-making. People do not enter markets as isolated calculators but as members of communities whose norms and expectations influence their choices. This embeddedness perspective does not reject the idea that people respond to incentives but insists that incentives operate within social contexts that determine their meaning. A cash bonus may motivate in one context and offend in another, depending on whether it is perceived as a reward for competence or an attempt to buy loyalty. Economic theory that ignores these contextual dimensions produces elegant models with limited explanatory reach.",
+      "questions": [
+        {
+          "id": "cars-soc-001-q1",
+          "stem": "The author's central criticism of the rational choice model is that it:",
+          "options": [
+            "A. fails to generate any testable predictions about economic behavior.",
+            "B. operates with an impoverished conception of rationality that excludes important dimensions of human motivation.",
+            "C. is too complex to be practically useful for economic analysis.",
+            "D. accurately describes all forms of human decision-making."
+          ],
+          "correct": 1,
+          "explanation": "The author explicitly identifies the core problem as 'the impoverished conception of rationality that the model employs,' arguing that human decision-making involves social, cultural, and moral dimensions that utility calculations cannot capture."
+        },
+        {
+          "id": "cars-soc-001-q2",
+          "stem": "The author uses the example of charitable donation to illustrate:",
+          "options": [
+            "A. that all human behavior can be explained by self-interest.",
+            "B. the rational choice model's inability to satisfactorily account for altruistic motivation.",
+            "C. that charity is always irrational from an economic perspective.",
+            "D. the superiority of behavioral economics over traditional economics."
+          ],
+          "correct": 1,
+          "explanation": "The charity example shows that rational choice theory must either redefine altruism as self-interest or dismiss it as irrational, and the author argues that 'neither option is satisfactory.' This illustrates the model's fundamental limitation in accounting for complex human motivations."
+        },
+        {
+          "id": "cars-soc-001-q3",
+          "stem": "According to the passage, Granovetter's embeddedness perspective holds that:",
+          "options": [
+            "A. economic actors are completely independent of social influence.",
+            "B. social relations are irrelevant to economic behavior.",
+            "C. economic action occurs within networks of social relations that shape preferences and information.",
+            "D. rational choice theory should be entirely abandoned."
+          ],
+          "correct": 2,
+          "explanation": "The passage describes Granovetter's argument that economic action is 'embedded in networks of social relations that shape both preferences and the information available for decision-making.' This perspective does not reject incentives but insists they operate within social contexts."
+        },
+        {
+          "id": "cars-soc-001-q4",
+          "stem": "The author's example of a cash bonus being perceived differently in different contexts serves to demonstrate that:",
+          "options": [
+            "A. monetary incentives are always effective motivators.",
+            "B. the meaning and effectiveness of incentives depend on social context.",
+            "C. employers should never use financial incentives.",
+            "D. all economic transactions are fundamentally moral in nature."
+          ],
+          "correct": 1,
+          "explanation": "The cash bonus example illustrates the author's broader point that incentives 'operate within social contexts that determine their meaning.' The same incentive can motivate or offend depending on how it is perceived within a particular social framework."
+        },
+        {
+          "id": "cars-soc-001-q5",
+          "stem": "The author's attitude toward behavioral economics' findings about cognitive biases is best described as:",
+          "options": [
+            "A. viewing them as a complete solution to the problems of rational choice theory.",
+            "B. acknowledging their value while arguing they do not go far enough in challenging the underlying model.",
+            "C. dismissing them as methodologically unsound.",
+            "D. treating them as irrelevant to the discussion of economic rationality."
+          ],
+          "correct": 1,
+          "explanation": "The author acknowledges behavioral economics' documentation of deviations from rational choice predictions but notes these are 'typically treated as anomalies or cognitive errors rather than as evidence that the underlying model is misconceived.' The author's more radical critique suggests behavioral economics stops short of the needed reconceptualization."
+        }
+      ]
+    },
+    {
+      "id": "cars-soc-002",
+      "passage": "The concept of soft power, introduced by political scientist Joseph Nye in the early 1990s, proposed that a nation's influence depends not only on military and economic coercion but also on its ability to attract others through the appeal of its culture, political values, and foreign policies. This framework offered a valuable corrective to realist theories of international relations that reduced power to material capabilities. However, two decades of application have revealed significant limitations in the soft power concept that its proponents have been slow to acknowledge. The fundamental difficulty is measurement. Hard power resources, such as military personnel, weapons systems, and GDP, can be quantified with reasonable precision. Soft power, by contrast, resists systematic measurement because attractiveness is inherently relational and context-dependent. A nation's cultural products may appeal strongly to some populations and alienate others; democratic values may attract admiration in some regions and suspicion in others. Without reliable metrics, claims about soft power tend to become circular: a nation is said to have soft power because it is attractive, and it is attractive because it has soft power. Furthermore, the causal mechanisms by which soft power translates into concrete policy outcomes remain poorly specified. Even if a nation's culture is widely admired, the pathway from cultural admiration to policy compliance is neither direct nor predictable. Citizens of countries that consume American popular culture may simultaneously oppose American foreign policy, suggesting that cultural attraction does not automatically produce political alignment. The distinction between soft and hard power also proves less sharp in practice than in theory. Economic sanctions blur the line between coercion and attraction, and military alliances can generate admiration as well as fear. Rather than distinct categories, hard and soft power may be better understood as endpoints on a continuum of influence strategies that most states employ in combination.",
+      "questions": [
+        {
+          "id": "cars-soc-002-q1",
+          "stem": "The author's main argument regarding the concept of soft power is that:",
+          "options": [
+            "A. it should be entirely abandoned in favor of realist theory.",
+            "B. it offered a useful corrective but has significant conceptual and methodological limitations.",
+            "C. it has been conclusively proven by empirical research.",
+            "D. it is identical in practice to hard power."
+          ],
+          "correct": 1,
+          "explanation": "The author acknowledges soft power as 'a valuable corrective to realist theories' while arguing that it has 'significant limitations' including measurement problems, unclear causal mechanisms, and blurry boundaries with hard power."
+        },
+        {
+          "id": "cars-soc-002-q2",
+          "stem": "The author describes the measurement problem of soft power as involving circularity because:",
+          "options": [
+            "A. soft power can be measured using the same metrics as hard power.",
+            "B. attractiveness is used to define soft power, while soft power is cited as evidence of attractiveness.",
+            "C. all forms of national power are inherently unmeasurable.",
+            "D. political scientists have not attempted to measure soft power."
+          ],
+          "correct": 1,
+          "explanation": "The author explicitly identifies the circular reasoning: 'a nation is said to have soft power because it is attractive, and it is attractive because it has soft power.' Attractiveness is both the definition and the evidence, creating a tautological argument."
+        },
+        {
+          "id": "cars-soc-002-q3",
+          "stem": "The example of citizens consuming American popular culture while opposing American foreign policy is used to demonstrate that:",
+          "options": [
+            "A. American culture is universally appealing.",
+            "B. cultural attraction does not automatically produce political alignment or policy compliance.",
+            "C. foreign policy is irrelevant to international relations.",
+            "D. popular culture has no influence on international perceptions."
+          ],
+          "correct": 1,
+          "explanation": "This example directly supports the author's point that 'the pathway from cultural admiration to policy compliance is neither direct nor predictable.' Cultural consumption and political agreement can be entirely disconnected."
+        },
+        {
+          "id": "cars-soc-002-q4",
+          "stem": "The author suggests that the relationship between hard and soft power is best understood as:",
+          "options": [
+            "A. two completely separate and unrelated forms of influence.",
+            "B. endpoints on a continuum rather than distinct categories.",
+            "C. identical concepts with different names.",
+            "D. a hierarchy in which hard power always dominates."
+          ],
+          "correct": 1,
+          "explanation": "The passage concludes that 'hard and soft power may be better understood as endpoints on a continuum of influence strategies,' noting that practices like economic sanctions and military alliances blur the theoretical distinction between coercion and attraction."
+        },
+        {
+          "id": "cars-soc-002-q5",
+          "stem": "Based on the passage, which of the following scenarios would most challenge the soft power framework?",
+          "options": [
+            "A. A country with widely admired cultural products successfully persuading allies to support its foreign policy.",
+            "B. A country whose culture is enormously popular worldwide but whose diplomatic initiatives consistently fail.",
+            "C. A country using military force to achieve foreign policy objectives.",
+            "D. A country increasing its cultural exports as part of a deliberate diplomatic strategy."
+          ],
+          "correct": 1,
+          "explanation": "A country with enormous cultural popularity but consistent diplomatic failure would directly challenge the soft power framework's claim that cultural attractiveness translates into policy influence. This scenario would exemplify the broken causal chain the author identifies."
+        }
+      ]
+    },
+    {
+      "id": "cars-soc-003",
+      "passage": "The medicalization of deviance, a process by which behaviors previously considered moral failings or social problems are redefined as medical conditions, represents one of the most consequential transformations in modern social control. Sociologists like Peter Conrad have traced how conditions ranging from alcoholism to attention deficit disorder have been progressively absorbed into the medical framework, shifting authority over these behaviors from priests and judges to physicians and psychiatrists. This transformation is often presented as humanitarian progress: treating addiction as a disease rather than a sin seems more compassionate and effective than punishment. Yet the medicalization thesis reveals that this shift carries its own costs and dangers. When deviance is medicalized, the medical profession gains significant power to define normality and prescribe interventions. This power operates through the authority of scientific objectivity, making it more difficult to challenge than the moral judgments it replaced. A priest's condemnation of drinking could be contested as a matter of opinion; a psychiatrist's diagnosis of alcohol use disorder carries the weight of clinical expertise. The medicalized framework also tends to individualize social problems, locating their causes in biological dysfunction rather than in social conditions. If hyperactivity in children is understood as a brain disorder, the response is pharmaceutical; if it is understood as a reaction to overstimulating environments or rigid educational structures, the response is environmental reform. By defining the problem as medical, the medicalization framework forecloses consideration of social and structural explanations. This does not mean that medical understandings are always wrong. Some conditions clearly have biological substrates that respond to medical treatment. The critical insight is that the boundary between medical conditions and social problems is not given by nature but is constructed through social processes influenced by professional interests, pharmaceutical marketing, and cultural values. Recognizing this constructedness is essential for evaluating whether medicalization in any given case represents genuine scientific advance or the expansion of medical authority into domains where it may not belong.",
+      "questions": [
+        {
+          "id": "cars-soc-003-q1",
+          "stem": "The author's primary argument regarding medicalization is that:",
+          "options": [
+            "A. it is always harmful and should be reversed in every case.",
+            "B. it represents pure humanitarian progress without drawbacks.",
+            "C. it involves a shift in social control that carries both benefits and significant risks.",
+            "D. medical science has no legitimate role in understanding deviant behavior."
+          ],
+          "correct": 2,
+          "explanation": "The author acknowledges that treating conditions medically 'seems more compassionate and effective' while arguing that 'this shift carries its own costs and dangers.' The passage consistently presents medicalization as a double-edged process rather than purely beneficial or harmful."
+        },
+        {
+          "id": "cars-soc-003-q2",
+          "stem": "According to the passage, medical authority is more difficult to challenge than moral authority primarily because:",
+          "options": [
+            "A. physicians are more intelligent than religious leaders.",
+            "B. medical authority operates under the mantle of scientific objectivity.",
+            "C. patients always agree with their doctors' diagnoses.",
+            "D. moral judgments are never based on evidence."
+          ],
+          "correct": 1,
+          "explanation": "The author argues that medical power 'operates through the authority of scientific objectivity, making it more difficult to challenge than the moral judgments it replaced.' The prestige of science shields medical definitions from the kind of contestation that moral judgments face."
+        },
+        {
+          "id": "cars-soc-003-q3",
+          "stem": "The author's contrast between understanding childhood hyperactivity as a brain disorder versus a reaction to environment serves to illustrate:",
+          "options": [
+            "A. that brain disorders do not exist.",
+            "B. how the framing of a problem determines the range of solutions considered.",
+            "C. that environmental factors never contribute to behavioral problems.",
+            "D. the superiority of pharmaceutical interventions over all alternatives."
+          ],
+          "correct": 1,
+          "explanation": "The example shows how defining a problem as medical leads to pharmaceutical solutions, while defining it as environmental leads to structural reform. The author argues that medicalization 'forecloses consideration of social and structural explanations,' illustrating how framing determines the response."
+        },
+        {
+          "id": "cars-soc-003-q4",
+          "stem": "The author would most likely agree with which of the following statements?",
+          "options": [
+            "A. All psychiatric diagnoses are social constructions with no biological basis.",
+            "B. The boundary between medical conditions and social problems is influenced by social processes and should be critically examined.",
+            "C. Pharmaceutical companies play no role in the medicalization of deviance.",
+            "D. Moral frameworks are always superior to medical ones for understanding behavior."
+          ],
+          "correct": 1,
+          "explanation": "The author explicitly states that 'the boundary between medical conditions and social problems is not given by nature but is constructed through social processes influenced by professional interests, pharmaceutical marketing, and cultural values.' Critical examination of this boundary is the passage's central recommendation."
+        },
+        {
+          "id": "cars-soc-003-q5",
+          "stem": "If a researcher demonstrated that a previously medicalized condition was entirely caused by environmental factors, this finding would:",
+          "options": [
+            "A. contradict the author's argument about medicalization.",
+            "B. be irrelevant to the author's thesis.",
+            "C. support the author's argument that the medical-social boundary is constructed rather than natural.",
+            "D. prove that all medicalized conditions are caused by environmental factors."
+          ],
+          "correct": 2,
+          "explanation": "Finding that a medicalized condition was actually environmental would support the author's thesis that the boundary between medical and social problems 'is not given by nature but is constructed through social processes.' It would exemplify a case where medicalization expanded beyond its appropriate domain."
+        }
+      ]
+    },
+    {
+      "id": "cars-soc-004",
+      "passage": "The anthropological concept of cultural relativism, which holds that practices and beliefs should be understood within the context of the culture that produces them rather than judged by the standards of an outside observer, has been one of the discipline's most influential and most contested contributions. Franz Boas and his students developed cultural relativism in the early twentieth century partly as a corrective to the ethnocentrism and racial hierarchies that pervaded earlier anthropology. By insisting that each culture be understood on its own terms, relativism challenged the assumption that Western civilization represented the pinnacle of human development and that other societies were primitive stages on a universal evolutionary path. This methodological commitment produced profound insights. It enabled anthropologists to discover the internal logic of practices that had been dismissed as irrational or barbaric, revealing the coherent worldviews within which they made sense. However, cultural relativism encounters a persistent philosophical difficulty when pressed to its logical conclusion. If all cultural standards are equally valid within their own contexts, then there is no basis for criticizing practices such as slavery, gender oppression, or ritualized violence when they occur within cultures that sanction them. This implication has led many anthropologists to distinguish between methodological relativism, which suspends judgment in order to understand, and moral relativism, which claims that no cross-cultural moral judgments are ever legitimate. The former is a research tool; the latter is a philosophical position with troubling consequences. Yet this distinction, while useful, does not fully resolve the tension. The question of who has the authority to evaluate another culture's practices and on what grounds remains deeply contested. Universal human rights frameworks offer one basis for cross-cultural moral judgment, but critics point out that these frameworks themselves emerged from particular Western historical and philosophical traditions and may not be as universal as they claim.",
+      "questions": [
+        {
+          "id": "cars-soc-004-q1",
+          "stem": "The author presents cultural relativism as originally motivated by:",
+          "options": [
+            "A. a desire to prove that all cultures are morally identical.",
+            "B. a corrective to the ethnocentrism and racial hierarchies in earlier anthropology.",
+            "C. the need to develop a universal ethical framework.",
+            "D. opposition to all forms of empirical research."
+          ],
+          "correct": 1,
+          "explanation": "The passage explains that Boas and his students developed cultural relativism 'partly as a corrective to the ethnocentrism and racial hierarchies that pervaded earlier anthropology.' It was a response to the assumption that Western civilization was the pinnacle of human development."
+        },
+        {
+          "id": "cars-soc-004-q2",
+          "stem": "The distinction between methodological relativism and moral relativism is drawn in the passage to:",
+          "options": [
+            "A. reject both forms of relativism as intellectually bankrupt.",
+            "B. separate the research practice of suspending judgment from the philosophical claim that cross-cultural moral judgments are never valid.",
+            "C. argue that moral relativism is the only defensible position.",
+            "D. demonstrate that anthropology has no methodological commitments."
+          ],
+          "correct": 1,
+          "explanation": "The author distinguishes methodological relativism, which 'suspends judgment in order to understand,' from moral relativism, which 'claims that no cross-cultural moral judgments are ever legitimate.' This separates a useful research tool from a philosophically troubling position."
+        },
+        {
+          "id": "cars-soc-004-q3",
+          "stem": "According to the passage, the critique of universal human rights frameworks holds that:",
+          "options": [
+            "A. human rights are never worth defending.",
+            "B. these frameworks emerged from particular Western traditions and may not be genuinely universal.",
+            "C. human rights are universally accepted across all cultures without exception.",
+            "D. human rights frameworks are too vague to have practical applications."
+          ],
+          "correct": 1,
+          "explanation": "The passage notes that 'critics point out that these frameworks themselves emerged from particular Western historical and philosophical traditions and may not be as universal as they claim.' This critique questions the universality of the framework, not the value of human rights."
+        },
+        {
+          "id": "cars-soc-004-q4",
+          "stem": "The author suggests that cultural relativism's greatest intellectual contribution was:",
+          "options": [
+            "A. proving that Western civilization is the most advanced society.",
+            "B. establishing that moral judgments across cultures are impossible.",
+            "C. enabling anthropologists to discover the internal logic of practices previously dismissed as irrational.",
+            "D. creating a universal standard for evaluating all human cultures."
+          ],
+          "correct": 2,
+          "explanation": "The author describes cultural relativism's 'profound insights,' specifically that it 'enabled anthropologists to discover the internal logic of practices that had been dismissed as irrational or barbaric, revealing the coherent worldviews within which they made sense.'"
+        },
+        {
+          "id": "cars-soc-004-q5",
+          "stem": "The overall tone of the passage toward cultural relativism is best described as:",
+          "options": [
+            "A. uncritically celebratory.",
+            "B. entirely dismissive.",
+            "C. appreciative of its contributions while acknowledging unresolved philosophical tensions.",
+            "D. hostile and polemical."
+          ],
+          "correct": 2,
+          "explanation": "The author appreciates cultural relativism's historical role and intellectual contributions while honestly engaging with its philosophical difficulties, noting that the tension between understanding and judging other cultures 'remains deeply contested.' This balanced engagement characterizes the overall tone."
+        }
+      ]
+    },
+    {
+      "id": "cars-soc-005",
+      "passage": "The sociology of education has long grappled with the paradox that institutions designed to promote social mobility often function to reproduce existing inequalities. Pierre Bourdieu's concept of cultural capital offers one of the most influential explanations for this paradox. Bourdieu argued that the educational system rewards not just intelligence and effort but also the cultural knowledge, dispositions, and competencies that students acquire from their families. Children from privileged backgrounds arrive at school already possessing the linguistic styles, aesthetic sensibilities, and behavioral norms that schools value, giving them an advantage that compounds over time. This advantage is particularly insidious because it is misrecognized as natural talent or merit. When a child from a professional family speaks in the elaborated code that schools reward, this is perceived as evidence of intelligence rather than as a product of social advantage. The educational system thus converts social privilege into academic credentials, laundering inequality through the apparently neutral mechanism of meritocratic assessment. Critics of Bourdieu have challenged several aspects of this framework. Some argue that he underestimates the capacity of working-class students to resist and navigate institutional expectations through their own cultural resources. Others contend that his analysis, developed in the context of the rigid French educational system, does not apply equally to more diverse educational environments. These criticisms have merit, but they do not overturn the fundamental insight that educational institutions are not neutral sorting mechanisms. The standards by which students are evaluated reflect particular cultural values, and access to those values is unequally distributed along class lines. This does not mean that education cannot promote mobility; it means that understanding how it does and does not requires attending to the cultural dimensions of educational inequality that purely economic analyses overlook.",
+      "questions": [
+        {
+          "id": "cars-soc-005-q1",
+          "stem": "According to the passage, Bourdieu's concept of cultural capital refers to:",
+          "options": [
+            "A. the financial resources families invest in their children's education.",
+            "B. the cultural knowledge, dispositions, and competencies acquired from family background that schools reward.",
+            "C. the innate intellectual abilities that distinguish talented students.",
+            "D. the physical infrastructure of educational institutions."
+          ],
+          "correct": 1,
+          "explanation": "The passage defines cultural capital as 'the cultural knowledge, dispositions, and competencies that students acquire from their families,' including linguistic styles, aesthetic sensibilities, and behavioral norms that educational institutions value and reward."
+        },
+        {
+          "id": "cars-soc-005-q2",
+          "stem": "The author uses the term 'misrecognized' to describe how cultural capital functions in schools because:",
+          "options": [
+            "A. students deliberately conceal their social backgrounds.",
+            "B. the advantages of cultural capital are perceived as natural talent rather than social privilege.",
+            "C. teachers are unaware that students come from different backgrounds.",
+            "D. cultural capital has no actual effect on academic performance."
+          ],
+          "correct": 1,
+          "explanation": "The passage explains that cultural advantage 'is misrecognized as natural talent or merit,' meaning that behaviors and competencies produced by social privilege are perceived as evidence of innate intelligence, obscuring the role of family background."
+        },
+        {
+          "id": "cars-soc-005-q3",
+          "stem": "The metaphor of 'laundering inequality' suggests that the educational system:",
+          "options": [
+            "A. deliberately conspires to disadvantage poor students.",
+            "B. converts social privilege into apparently legitimate academic credentials through seemingly neutral processes.",
+            "C. has no relationship to social class.",
+            "D. exclusively serves the interests of wealthy families."
+          ],
+          "correct": 1,
+          "explanation": "The laundering metaphor implies that social privilege enters the educational system and emerges as academic credentials that appear to have been earned through merit alone. The 'apparently neutral mechanism of meritocratic assessment' makes the conversion of privilege into credentials seem legitimate."
+        },
+        {
+          "id": "cars-soc-005-q4",
+          "stem": "The author's assessment of the criticisms of Bourdieu's framework is that they:",
+          "options": [
+            "A. completely invalidate his theory of cultural capital.",
+            "B. are entirely without merit and should be dismissed.",
+            "C. raise valid points but do not overturn the fundamental insight about educational inequality.",
+            "D. demonstrate that educational systems are perfectly meritocratic."
+          ],
+          "correct": 2,
+          "explanation": "The author states that 'these criticisms have merit, but they do not overturn the fundamental insight that educational institutions are not neutral sorting mechanisms.' This acknowledges the validity of critiques while defending the core of Bourdieu's analysis."
+        },
+        {
+          "id": "cars-soc-005-q5",
+          "stem": "Based on the passage, which of the following educational reforms would the author most likely consider insufficient on its own?",
+          "options": [
+            "A. Increasing school funding without addressing cultural dimensions of inequality.",
+            "B. Training teachers to recognize different forms of cultural capital.",
+            "C. Developing curricula that value diverse linguistic and cultural competencies.",
+            "D. Creating transparent assessment criteria that acknowledge cultural bias."
+          ],
+          "correct": 0,
+          "explanation": "The author's concluding point is that understanding educational inequality 'requires attending to the cultural dimensions of educational inequality that purely economic analyses overlook.' Increasing funding addresses only the economic dimension, leaving the cultural mechanisms of inequality intact."
+        }
+      ]
+    },
+    {
+      "id": "cars-soc-006",
+      "passage": "The debate over universal basic income has exposed a fundamental tension in liberal democratic thought between two conceptions of freedom. Proponents of UBI typically invoke what Isaiah Berlin called positive freedom: the actual capacity to pursue one's life plans, which requires adequate material resources. On this view, a person who is formally free to start a business or pursue an education but lacks the means to do so is free in name only. UBI, by providing an unconditional income floor, would give all citizens the material foundation for genuine autonomy. Opponents, particularly those in the libertarian tradition, counter with a conception of negative freedom: the absence of coercion or interference by others, especially the state. Since UBI requires taxation, it necessarily involves coercing some citizens to fund the choices of others, thereby violating the negative freedom of taxpayers. This objection, however, assumes a baseline of entitlements that is itself politically constructed. The distribution of property and income in any modern economy is not a natural phenomenon but a product of laws, regulations, and institutions created and maintained by the state. Taxation does not take from a pre-political distribution; it adjusts a distribution that state action already created. If the existing distribution is itself a product of political decisions, then UBI represents not an unprecedented intrusion into natural liberty but a different political choice about how to structure the economic foundations of freedom. The deeper question that the UBI debate forces into the open concerns what kind of freedom a democratic society should prioritize. If freedom means only non-interference, then minimal government and low taxation are appropriate. If freedom requires the material conditions for self-determination, then redistributive policies become instruments of freedom rather than threats to it. The choice between these conceptions is not a technical question that economics can resolve but a normative question about the kind of society citizens wish to inhabit.",
+      "questions": [
+        {
+          "id": "cars-soc-006-q1",
+          "stem": "The author presents the UBI debate primarily as:",
+          "options": [
+            "A. a purely economic disagreement about taxation policy.",
+            "B. a conflict between two competing philosophical conceptions of freedom.",
+            "C. an issue that has been definitively resolved by political theorists.",
+            "D. a debate in which one side is clearly correct."
+          ],
+          "correct": 1,
+          "explanation": "The passage frames the UBI debate as exposing 'a fundamental tension in liberal democratic thought between two conceptions of freedom': positive freedom (capacity for self-determination) and negative freedom (absence of coercion). This philosophical framing structures the entire discussion."
+        },
+        {
+          "id": "cars-soc-006-q2",
+          "stem": "The author challenges the libertarian objection to UBI by arguing that:",
+          "options": [
+            "A. taxation never involves any form of coercion.",
+            "B. the existing distribution of property is itself a product of state action, not a natural baseline.",
+            "C. negative freedom is an incoherent concept.",
+            "D. libertarians secretly support redistributive policies."
+          ],
+          "correct": 1,
+          "explanation": "The author directly counters the libertarian objection by arguing that the distribution of property 'is not a natural phenomenon but a product of laws, regulations, and institutions created and maintained by the state.' Since the baseline is politically constructed, UBI represents a different political choice rather than an unprecedented intrusion."
+        },
+        {
+          "id": "cars-soc-006-q3",
+          "stem": "According to the passage, positive freedom as it relates to UBI is best understood as:",
+          "options": [
+            "A. the absence of government interference in individual choices.",
+            "B. the actual capacity to pursue life plans, which requires material resources.",
+            "C. the freedom to vote in democratic elections.",
+            "D. the legal right to own property without restriction."
+          ],
+          "correct": 1,
+          "explanation": "The passage defines positive freedom as 'the actual capacity to pursue one's life plans, which requires adequate material resources.' UBI proponents argue that formal freedom without material means is 'free in name only.'"
+        },
+        {
+          "id": "cars-soc-006-q4",
+          "stem": "The author would most likely agree with which of the following statements?",
+          "options": [
+            "A. Economic questions can be resolved without reference to normative values.",
+            "B. The choice between conceptions of freedom is fundamentally a value-laden decision that citizens must make.",
+            "C. Negative freedom is always superior to positive freedom.",
+            "D. UBI would eliminate all forms of economic inequality."
+          ],
+          "correct": 1,
+          "explanation": "The passage concludes that the choice between conceptions of freedom 'is not a technical question that economics can resolve but a normative question about the kind of society citizens wish to inhabit.' This directly states that the decision is value-laden and belongs to citizens."
+        },
+        {
+          "id": "cars-soc-006-q5",
+          "stem": "The phrase 'free in name only' is used in the passage to describe:",
+          "options": [
+            "A. citizens who lack formal legal rights.",
+            "B. individuals who possess legal rights but lack the material means to exercise them meaningfully.",
+            "C. countries that claim to be democracies but are actually authoritarian.",
+            "D. people who voluntarily choose not to exercise their freedoms."
+          ],
+          "correct": 1,
+          "explanation": "The phrase describes 'a person who is formally free to start a business or pursue an education but lacks the means to do so.' The contrast is between formal legal freedom and the material capacity to actually use that freedom, which UBI proponents consider essential."
+        }
+      ]
+    },
+    {
+      "id": "cars-soc-007",
+      "passage": "The replication crisis in psychology has forced the discipline to confront uncomfortable questions about the reliability of its knowledge base. Beginning with a landmark 2015 study that attempted to replicate one hundred published psychology experiments and found that fewer than half produced the same results, the crisis has expanded to encompass concerns about statistical practices, publication bias, and the incentive structures of academic research. The implications extend beyond psychology to challenge fundamental assumptions about how science produces reliable knowledge. At the heart of the crisis lies a set of questionable research practices that are individually defensible but collectively distorting. Researchers routinely collect data until they achieve a statistically significant result, test multiple hypotheses and report only the successful ones, and exclude inconvenient data points as outliers. None of these practices constitutes outright fraud, but their cumulative effect is to inflate the apparent strength and reliability of findings. Publication bias exacerbates the problem: journals preferentially publish positive results, creating a literature that systematically overrepresents effects that may be spurious. Some commentators have interpreted the replication crisis as evidence that psychology is a fundamentally flawed discipline, but this conclusion is too hasty. The crisis is better understood as a consequence of institutional incentive structures that reward novelty and productivity over rigor and replication. Scientists who publish surprising findings in prestigious journals advance their careers; those who meticulously replicate existing work do not. These incentives are not unique to psychology; they operate across the sciences, suggesting that other disciplines may harbor similar vulnerabilities. The appropriate response is not despair but institutional reform: pre-registration of studies, open data sharing, and the creation of publication outlets and career incentives that value replication. The crisis, painful as it is, may ultimately strengthen the discipline by forcing it to align its practices with its epistemological commitments.",
+      "questions": [
+        {
+          "id": "cars-soc-007-q1",
+          "stem": "The author characterizes questionable research practices as problematic primarily because:",
+          "options": [
+            "A. each individual practice constitutes scientific fraud.",
+            "B. their cumulative effect inflates the apparent reliability of research findings.",
+            "C. they are explicitly prohibited by all scientific journals.",
+            "D. they have no effect on research outcomes."
+          ],
+          "correct": 1,
+          "explanation": "The author explicitly states that 'none of these practices constitutes outright fraud, but their cumulative effect is to inflate the apparent strength and reliability of findings.' The problem lies in their collective impact rather than in any single practice."
+        },
+        {
+          "id": "cars-soc-007-q2",
+          "stem": "According to the passage, the replication crisis is best understood as:",
+          "options": [
+            "A. proof that psychology cannot produce valid knowledge.",
+            "B. a consequence of institutional incentive structures that prioritize novelty over rigor.",
+            "C. evidence that all psychological research findings are false.",
+            "D. a problem unique to psychology with no relevance to other sciences."
+          ],
+          "correct": 1,
+          "explanation": "The author argues that 'the crisis is better understood as a consequence of institutional incentive structures that reward novelty and productivity over rigor and replication.' The author explicitly rejects the interpretation that psychology is fundamentally flawed."
+        },
+        {
+          "id": "cars-soc-007-q3",
+          "stem": "The author suggests that the replication crisis may affect other scientific disciplines because:",
+          "options": [
+            "A. all sciences use identical research methods.",
+            "B. the institutional incentives that produced the crisis in psychology operate across all sciences.",
+            "C. psychology has contaminated other fields with its flawed methods.",
+            "D. replication is impossible in any scientific field."
+          ],
+          "correct": 1,
+          "explanation": "The passage states that the incentives rewarding novelty over replication 'are not unique to psychology; they operate across the sciences, suggesting that other disciplines may harbor similar vulnerabilities.' The structural problem is systemic, not discipline-specific."
+        },
+        {
+          "id": "cars-soc-007-q4",
+          "stem": "The author's attitude toward the replication crisis is best described as:",
+          "options": [
+            "A. despairing and fatalistic.",
+            "B. indifferent and unconcerned.",
+            "C. critical but cautiously optimistic about reform.",
+            "D. defensive of the status quo in psychological research."
+          ],
+          "correct": 2,
+          "explanation": "The author takes the crisis seriously while arguing that 'the appropriate response is not despair but institutional reform.' The conclusion that the crisis 'may ultimately strengthen the discipline' reflects cautious optimism that constructive change is possible."
+        },
+        {
+          "id": "cars-soc-007-q5",
+          "stem": "Publication bias contributes to the replication crisis by:",
+          "options": [
+            "A. ensuring that all research findings are equally represented in the literature.",
+            "B. creating a literature that systematically overrepresents findings that may not be genuine.",
+            "C. preventing researchers from collecting data on important topics.",
+            "D. requiring researchers to replicate all previous studies before publishing."
+          ],
+          "correct": 1,
+          "explanation": "The passage explains that 'journals preferentially publish positive results, creating a literature that systematically overrepresents effects that may be spurious.' This bias means the published record gives a misleadingly positive picture of research findings."
+        }
+      ]
+    },
+    {
+      "id": "cars-soc-008",
+      "passage": "The ethics of public health intervention present a distinctive set of philosophical challenges that cannot be resolved by simply extending individual medical ethics to the population level. Clinical medicine operates within a framework of individual autonomy, informed consent, and the physician-patient relationship. Public health, by contrast, often requires interventions that restrict individual liberty for the sake of collective welfare: mandatory vaccination, quarantine, fluoridation of water supplies, and restrictions on the sale of harmful substances. The justification for such interventions typically invokes John Stuart Mill's harm principle, which holds that the state may restrict individual freedom only to prevent harm to others. Vaccination mandates, for example, are defended on the grounds that unvaccinated individuals pose a risk to immunocompromised people who cannot be vaccinated. However, the harm principle proves less straightforward in application than it appears. Many public health interventions address behaviors that are primarily self-harming, such as smoking, excessive alcohol consumption, or unhealthy eating. Taxing sugary drinks or mandating calorie labeling cannot be straightforwardly justified by the harm principle, since the primary harm falls on the individuals themselves. Proponents of such measures typically resort to arguments about externalities, noting that self-harmful behaviors generate costs borne by society through healthcare systems and lost productivity. Yet this argument, pushed to its logical conclusion, would justify virtually unlimited state intervention, since almost every personal choice has some social cost. A more nuanced framework recognizes that public health operates in a space between pure paternalism and pure liberalism. The relevant question is not whether intervention is ever justified but what conditions must be met to justify it: the severity and probability of harm, the effectiveness and proportionality of the intervention, the availability of less restrictive alternatives, and the fair distribution of burdens and benefits. This procedural approach does not eliminate moral disagreement, but it provides a structured framework for conducting it.",
+      "questions": [
+        {
+          "id": "cars-soc-008-q1",
+          "stem": "The author argues that public health ethics cannot simply extend individual medical ethics because:",
+          "options": [
+            "A. individual medical ethics are fundamentally flawed.",
+            "B. public health interventions often require restricting individual liberty for collective welfare, unlike clinical medicine's focus on individual autonomy.",
+            "C. public health has no ethical obligations to individuals.",
+            "D. clinical medicine never involves ethical considerations."
+          ],
+          "correct": 1,
+          "explanation": "The passage contrasts clinical medicine's framework of 'individual autonomy, informed consent, and the physician-patient relationship' with public health's need for interventions that 'restrict individual liberty for the sake of collective welfare.' This fundamental difference makes simple extension inadequate."
+        },
+        {
+          "id": "cars-soc-008-q2",
+          "stem": "The author identifies a problem with using the externalities argument to justify public health interventions because:",
+          "options": [
+            "A. self-harmful behaviors never generate any social costs.",
+            "B. taken to its logical conclusion, it would justify virtually unlimited state intervention.",
+            "C. externalities are impossible to measure accurately.",
+            "D. the argument supports only vaccination mandates."
+          ],
+          "correct": 1,
+          "explanation": "The author argues that since 'almost every personal choice has some social cost,' the externalities argument 'pushed to its logical conclusion, would justify virtually unlimited state intervention.' This logical overextension is the core problem the author identifies."
+        },
+        {
+          "id": "cars-soc-008-q3",
+          "stem": "According to the passage, Mill's harm principle is limited in public health contexts because:",
+          "options": [
+            "A. it is irrelevant to any form of government policy.",
+            "B. many public health interventions address behaviors that are primarily self-harming rather than harmful to others.",
+            "C. it justifies any restriction on individual freedom.",
+            "D. it was not intended to apply to medical contexts."
+          ],
+          "correct": 1,
+          "explanation": "The passage states that the harm principle 'proves less straightforward in application' because many public health interventions address 'behaviors that are primarily self-harming, such as smoking, excessive alcohol consumption, or unhealthy eating,' which the harm principle does not straightforwardly cover."
+        },
+        {
+          "id": "cars-soc-008-q4",
+          "stem": "The procedural framework the author recommends evaluates public health interventions based on:",
+          "options": [
+            "A. whether they are popular with the general public.",
+            "B. whether they generate economic revenue for the government.",
+            "C. the severity of harm, effectiveness, proportionality, availability of alternatives, and fair distribution of burdens.",
+            "D. only the preferences of medical professionals."
+          ],
+          "correct": 2,
+          "explanation": "The author lists specific criteria: 'the severity and probability of harm, the effectiveness and proportionality of the intervention, the availability of less restrictive alternatives, and the fair distribution of burdens and benefits.' These constitute the structured procedural framework."
+        },
+        {
+          "id": "cars-soc-008-q5",
+          "stem": "The author's overall approach to the ethics of public health intervention can best be described as:",
+          "options": [
+            "A. advocating for unrestricted state authority over health decisions.",
+            "B. rejecting all public health interventions as unjustified paternalism.",
+            "C. proposing a middle ground between pure paternalism and pure liberalism with structured criteria for evaluation.",
+            "D. arguing that Mill's harm principle resolves all ethical questions in public health."
+          ],
+          "correct": 2,
+          "explanation": "The author explicitly describes public health as operating 'in a space between pure paternalism and pure liberalism' and proposes a procedural framework with specific criteria. This middle-ground approach structures moral disagreement without claiming to eliminate it."
+        }
+      ]
+    },
+    {
+      "id": "cars-soc-009",
+      "passage": "The theory of democratic peace, one of the most widely cited findings in international relations scholarship, holds that established democracies rarely if ever go to war with one another. Since its popularization in the 1980s, this proposition has been invoked to justify democracy promotion as a strategy for reducing global conflict. The empirical record provides striking support: wars between established democracies are extraordinarily rare in the modern era, even after controlling for factors like economic interdependence and geographic distance. Yet the theoretical mechanisms underlying this correlation remain contested, and the policy implications drawn from it are more problematic than advocates typically acknowledge. Several causal explanations have been proposed. The institutional account holds that democratic structures, including checks on executive power, legislative oversight, and a free press, make it difficult for leaders to initiate wars without broad public support. The normative account argues that democracies develop cultures of compromise and peaceful conflict resolution that extend to their international dealings. The commercial account emphasizes that democracies tend to be trading partners whose economic interdependence raises the costs of military conflict. Each explanation has some empirical support, but none is fully satisfactory on its own. The institutional explanation struggles to explain why democracies are perfectly willing to fight non-democracies, often with enthusiastic public support. If democratic institutions constrain war-making, they should do so regardless of the opponent's regime type. The normative explanation faces a similar problem: democratic norms of compromise apparently extend only to fellow democracies, not to the international system as a whole. These limitations suggest that the democratic peace may be less a consequence of democracy per se than of shared identity and mutual recognition among regimes that perceive each other as legitimate. If this is correct, the policy implication shifts from promoting democracy to building international institutions and norms of mutual recognition that can extend peaceful relations beyond the democratic club.",
+      "questions": [
+        {
+          "id": "cars-soc-009-q1",
+          "stem": "The author's primary critique of democratic peace theory concerns:",
+          "options": [
+            "A. the empirical evidence, which the author considers weak.",
+            "B. the gap between the strong empirical correlation and the inadequacy of proposed causal mechanisms.",
+            "C. the definition of democracy used in the research.",
+            "D. the statistical methods employed in the studies."
+          ],
+          "correct": 1,
+          "explanation": "The author acknowledges 'striking' empirical support while arguing that 'the theoretical mechanisms underlying this correlation remain contested' and that none of the proposed explanations is fully satisfactory. The critique targets the explanatory gap, not the empirical findings."
+        },
+        {
+          "id": "cars-soc-009-q2",
+          "stem": "The author identifies a common weakness in both the institutional and normative explanations of democratic peace, which is that:",
+          "options": [
+            "A. neither has any empirical support.",
+            "B. both fail to explain why the peace-promoting effects apply only between democracies and not to wars against non-democracies.",
+            "C. both rely on economic factors as their primary mechanism.",
+            "D. neither accounts for the existence of democratic institutions."
+          ],
+          "correct": 1,
+          "explanation": "The author argues that the institutional explanation 'struggles to explain why democracies are perfectly willing to fight non-democracies' and that democratic norms of compromise 'apparently extend only to fellow democracies.' Both explanations face the same problem of selective application."
+        },
+        {
+          "id": "cars-soc-009-q3",
+          "stem": "The author suggests that the democratic peace may actually be a product of:",
+          "options": [
+            "A. superior military capabilities of democratic nations.",
+            "B. shared identity and mutual recognition among regimes that view each other as legitimate.",
+            "C. geographic isolation of democratic countries from one another.",
+            "D. the economic weakness of democratic states."
+          ],
+          "correct": 1,
+          "explanation": "The author proposes that 'the democratic peace may be less a consequence of democracy per se than of shared identity and mutual recognition among regimes that perceive each other as legitimate.' This reframes the causal mechanism from democratic institutions to mutual legitimacy."
+        },
+        {
+          "id": "cars-soc-009-q4",
+          "stem": "If the author's alternative interpretation is correct, the most effective policy for extending peace would be:",
+          "options": [
+            "A. imposing democracy on non-democratic nations through military force.",
+            "B. building international institutions and norms of mutual recognition that extend beyond democracies.",
+            "C. withdrawing from all international organizations.",
+            "D. increasing military spending among democratic nations."
+          ],
+          "correct": 1,
+          "explanation": "The author explicitly states that if the alternative interpretation is correct, 'the policy implication shifts from promoting democracy to building international institutions and norms of mutual recognition that can extend peaceful relations beyond the democratic club.'"
+        },
+        {
+          "id": "cars-soc-009-q5",
+          "stem": "The passage's treatment of the commercial explanation for democratic peace suggests that it:",
+          "options": [
+            "A. is the most convincing of the three explanations offered.",
+            "B. has been definitively disproven by empirical research.",
+            "C. has some empirical support but is not fully satisfactory as a standalone explanation.",
+            "D. is irrelevant to the debate about democratic peace."
+          ],
+          "correct": 2,
+          "explanation": "The author states that 'each explanation has some empirical support, but none is fully satisfactory on its own.' The commercial explanation is treated as one of three partially supported but individually insufficient accounts."
+        }
+      ]
+    },
+    {
+      "id": "cars-soc-010",
+      "passage": "The concept of implicit bias, which refers to unconscious attitudes and stereotypes that influence judgment and behavior, has become central to contemporary discussions of discrimination. Research using the Implicit Association Test and related measures has demonstrated that most people harbor implicit biases related to race, gender, age, and other social categories, even when they sincerely endorse egalitarian values. This finding has been widely interpreted as evidence that discrimination persists not primarily through conscious prejudice but through automatic cognitive processes that operate below the threshold of awareness. However, the practical implications of implicit bias research are more contested than popular accounts suggest. The most significant controversy concerns the relationship between implicit bias as measured by tests and actual discriminatory behavior. While the existence of implicit associations is well established, meta-analyses have found that the correlation between implicit bias scores and discriminatory behavior is modest at best. An individual's score on an implicit bias test is a poor predictor of how that individual will behave in specific situations. This weak predictive validity raises questions about the widespread deployment of implicit bias training programs in organizations. If implicit bias scores do not reliably predict discriminatory behavior, then training programs aimed at reducing those scores may not meaningfully reduce discrimination. Some scholars have argued that the focus on implicit bias, despite its limitations, has value as a consciousness-raising tool that helps people recognize the pervasiveness of cognitive bias. Others counter that the emphasis on unconscious processes inadvertently undermines accountability by suggesting that discrimination is an automatic, involuntary process rather than something individuals and institutions can be held responsible for changing. The most productive path forward may involve supplementing individual-level interventions with structural reforms that alter the conditions under which decisions are made, such as standardized hiring procedures and blind review processes, rather than relying primarily on changing the content of individual minds.",
+      "questions": [
+        {
+          "id": "cars-soc-010-q1",
+          "stem": "The central tension the author identifies in implicit bias research concerns:",
+          "options": [
+            "A. whether implicit biases exist at all.",
+            "B. the gap between the well-established existence of implicit associations and their weak ability to predict actual discriminatory behavior.",
+            "C. whether conscious prejudice has been completely eliminated in modern society.",
+            "D. the cost-effectiveness of implicit bias testing procedures."
+          ],
+          "correct": 1,
+          "explanation": "The author acknowledges that 'the existence of implicit associations is well established' but identifies the 'most significant controversy' as the weak correlation between implicit bias scores and actual discriminatory behavior. This gap between measurement and prediction is the central tension."
+        },
+        {
+          "id": "cars-soc-010-q2",
+          "stem": "The author's critique of implicit bias training programs is based primarily on the argument that:",
+          "options": [
+            "A. implicit biases do not exist.",
+            "B. if bias scores do not predict behavior, reducing scores may not reduce discrimination.",
+            "C. training programs are too expensive to implement.",
+            "D. employees always resist diversity training."
+          ],
+          "correct": 1,
+          "explanation": "The author argues that 'if implicit bias scores do not reliably predict discriminatory behavior, then training programs aimed at reducing those scores may not meaningfully reduce discrimination.' The critique follows logically from the weak predictive validity of bias measures."
+        },
+        {
+          "id": "cars-soc-010-q3",
+          "stem": "According to the passage, critics of the emphasis on implicit bias argue that it may undermine accountability because:",
+          "options": [
+            "A. it provides evidence that discrimination no longer exists.",
+            "B. it frames discrimination as an automatic, involuntary process rather than something within individual and institutional control.",
+            "C. it identifies too many people as biased.",
+            "D. it focuses too much on institutional responsibility."
+          ],
+          "correct": 1,
+          "explanation": "The passage states that the emphasis on unconscious processes 'inadvertently undermines accountability by suggesting that discrimination is an automatic, involuntary process rather than something individuals and institutions can be held responsible for changing.'"
+        },
+        {
+          "id": "cars-soc-010-q4",
+          "stem": "The author suggests that the most effective approach to reducing discrimination involves:",
+          "options": [
+            "A. relying exclusively on implicit bias training to change individual minds.",
+            "B. abandoning all anti-discrimination efforts as futile.",
+            "C. combining individual-level interventions with structural reforms that change decision-making conditions.",
+            "D. eliminating all testing and measurement of implicit bias."
+          ],
+          "correct": 2,
+          "explanation": "The author recommends 'supplementing individual-level interventions with structural reforms that alter the conditions under which decisions are made,' citing standardized procedures and blind review processes. This combined approach addresses both individual and structural dimensions."
+        },
+        {
+          "id": "cars-soc-010-q5",
+          "stem": "The author's overall stance toward implicit bias research is best characterized as:",
+          "options": [
+            "A. wholly dismissive of the research findings.",
+            "B. uncritically enthusiastic about its practical applications.",
+            "C. acknowledging the scientific contributions while questioning the translation into effective interventions.",
+            "D. focused exclusively on defending the Implicit Association Test's validity."
+          ],
+          "correct": 2,
+          "explanation": "The author treats the existence of implicit associations as well established while raising serious questions about the practical implications, particularly the weak link between bias scores and behavior and the effectiveness of training programs. This reflects a nuanced position that values the science while questioning its application."
+        }
+      ]
+    }
+  ]
+}

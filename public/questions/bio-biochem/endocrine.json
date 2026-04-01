@@ -1,0 +1,416 @@
+{
+  "subtopic": "Endocrine System",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "endo-ps1",
+      "passage": "The hypothalamic-pituitary axis serves as a central regulatory hub for the endocrine system. The hypothalamus secretes releasing and inhibiting hormones that travel via the hypophyseal portal system to the anterior pituitary, where they regulate hormone secretion. For example, thyrotropin-releasing hormone (TRH) stimulates the anterior pituitary to secrete thyroid-stimulating hormone (TSH), which then acts on the thyroid gland to promote the synthesis and release of T3 and T4. These thyroid hormones exert negative feedback on both the hypothalamus and anterior pituitary, reducing TRH and TSH secretion when circulating levels are adequate. A research team studied patients with various thyroid disorders to characterize disruptions in this feedback loop. Patient A presented with elevated TSH and low T4 levels. Patient B had low TSH but elevated T4 and T3. Patient C showed elevated TSH and elevated T4. The researchers measured TRH levels, TSH responsiveness to TRH stimulation, and thyroid hormone receptor binding affinities in peripheral tissues to further characterize each condition.",
+      "questions": [
+        {
+          "id": "endo-ps1-q1",
+          "stem": "Patient A most likely has which of the following conditions?",
+          "options": ["A. Primary hyperthyroidism", "B. Primary hypothyroidism", "C. Secondary hyperthyroidism", "D. Pituitary adenoma secreting TSH"],
+          "correct": 1,
+          "explanation": "Patient A has elevated TSH and low T4, which is consistent with primary hypothyroidism. The thyroid gland itself is failing to produce adequate T4, so the pituitary compensates by increasing TSH secretion via loss of negative feedback. Primary hyperthyroidism would show low TSH and high T4."
+        },
+        {
+          "id": "endo-ps1-q2",
+          "stem": "Patient B's profile of low TSH with elevated thyroid hormones is most consistent with:",
+          "options": ["A. Hashimoto's thyroiditis", "B. Graves' disease", "C. Secondary hypothyroidism", "D. Iodine deficiency"],
+          "correct": 1,
+          "explanation": "Graves' disease is an autoimmune condition where thyroid-stimulating immunoglobulins mimic TSH, causing the thyroid to overproduce T3 and T4. The elevated thyroid hormones suppress TSH through negative feedback, resulting in low TSH and high T3/T4. Hashimoto's thyroiditis typically presents with hypothyroidism."
+        },
+        {
+          "id": "endo-ps1-q3",
+          "stem": "The hypophyseal portal system is significant because it:",
+          "options": ["A. Allows hypothalamic hormones to reach the anterior pituitary at high concentrations without systemic dilution", "B. Connects the anterior and posterior pituitary directly", "C. Transports oxytocin and ADH to the posterior pituitary", "D. Drains blood from the thyroid gland to the hypothalamus"],
+          "correct": 0,
+          "explanation": "The hypophyseal portal system is a specialized vascular connection that carries releasing and inhibiting hormones directly from the hypothalamus to the anterior pituitary. This portal system ensures high local concentrations of hypothalamic hormones reach their target cells without being diluted in the general circulation. The posterior pituitary receives hormones via direct neural projections, not the portal system."
+        },
+        {
+          "id": "endo-ps1-q4",
+          "stem": "Patient C's elevated TSH and elevated T4 most likely results from:",
+          "options": ["A. Primary hypothyroidism", "B. Thyroid hormone resistance at the pituitary", "C. TSH-secreting pituitary adenoma", "D. Both B and C could explain this pattern"],
+          "correct": 3,
+          "explanation": "Both a TSH-secreting pituitary adenoma and pituitary thyroid hormone resistance could produce this pattern. In a TSH-secreting adenoma, autonomous TSH secretion drives excess T4 production. In pituitary resistance, the pituitary fails to sense elevated T4, so it continues secreting TSH inappropriately. Both conditions result in simultaneously elevated TSH and T4."
+        },
+        {
+          "id": "endo-ps1-q5",
+          "stem": "T3 is considered more biologically active than T4 because:",
+          "options": ["A. T3 has a longer half-life in the bloodstream", "B. T3 binds thyroid hormone receptors with greater affinity", "C. T3 is secreted in larger quantities by the thyroid gland", "D. T3 does not require binding proteins for transport"],
+          "correct": 1,
+          "explanation": "T3 binds to intracellular thyroid hormone receptors with approximately 10-15 times greater affinity than T4, making it the more biologically active form. Most T3 is actually produced by peripheral conversion of T4 to T3 by deiodinase enzymes. T4 has the longer half-life and is secreted in greater quantities, serving primarily as a prohormone."
+        }
+      ]
+    },
+    {
+      "id": "endo-ps2",
+      "passage": "The adrenal glands are paired endocrine organs located superior to the kidneys, consisting of two functionally distinct regions: the cortex and medulla. The adrenal cortex is subdivided into three zones. The zona glomerulosa produces mineralocorticoids, primarily aldosterone, which regulates sodium and potassium balance. The zona fasciculata synthesizes glucocorticoids, mainly cortisol, which influences glucose metabolism, immune function, and stress responses. The zona reticularis produces androgens, including dehydroepiandrosterone (DHEA). All adrenal cortex hormones are derived from cholesterol and are classified as steroid hormones. The adrenal medulla, derived from neural crest cells, produces catecholamines (epinephrine and norepinephrine) in response to sympathetic nervous system activation. Researchers investigated a patient presenting with hypertension, hypokalemia, and muscle weakness. Laboratory analysis revealed elevated aldosterone levels with suppressed plasma renin activity. CT imaging showed a small, unilateral adrenal mass. The patient's cortisol levels and catecholamine levels were within normal limits.",
+      "questions": [
+        {
+          "id": "endo-ps2-q1",
+          "stem": "The patient described in the passage most likely has:",
+          "options": ["A. Cushing's syndrome", "B. Conn's syndrome (primary hyperaldosteronism)", "C. Pheochromocytoma", "D. Addison's disease"],
+          "correct": 1,
+          "explanation": "The combination of hypertension, hypokalemia, elevated aldosterone, and suppressed renin is classic for Conn's syndrome (primary hyperaldosteronism). The unilateral adrenal mass suggests an aldosterone-producing adenoma. Normal cortisol excludes Cushing's syndrome, and normal catecholamines exclude pheochromocytoma."
+        },
+        {
+          "id": "endo-ps2-q2",
+          "stem": "Plasma renin activity is suppressed in this patient because:",
+          "options": ["A. The adrenal mass directly inhibits renin secretion", "B. Elevated aldosterone causes sodium retention and volume expansion, which suppresses renin release", "C. Hypokalemia directly inhibits renin gene transcription", "D. The patient's sympathetic nervous system is underactive"],
+          "correct": 1,
+          "explanation": "Excess aldosterone causes increased sodium and water reabsorption in the distal nephron, leading to extracellular volume expansion. The juxtaglomerular cells of the kidney sense the increased perfusion pressure and reduced sodium delivery to the macula densa, resulting in suppressed renin secretion. This is a physiologic negative feedback mechanism."
+        },
+        {
+          "id": "endo-ps2-q3",
+          "stem": "The embryological origin of the adrenal medulla differs from the cortex in that the medulla derives from:",
+          "options": ["A. Mesoderm", "B. Endoderm", "C. Neural crest cells (ectoderm)", "D. Surface ectoderm"],
+          "correct": 2,
+          "explanation": "The adrenal medulla is derived from neural crest cells, which are ectodermal in origin. These cells migrate during embryonic development to form chromaffin cells that produce catecholamines. The adrenal cortex, in contrast, derives from mesoderm, specifically the intermediate mesoderm. This dual origin accounts for the functional differences between the two regions."
+        },
+        {
+          "id": "endo-ps2-q4",
+          "stem": "Which of the following best explains why adrenal cortex hormones can cross cell membranes to bind intracellular receptors?",
+          "options": ["A. They are water-soluble peptide hormones that use membrane transporters", "B. They are derived from cholesterol and are lipophilic, allowing passive diffusion through the lipid bilayer", "C. They bind to G-protein coupled receptors that internalize the hormone", "D. They are actively transported by carrier proteins into the cell"],
+          "correct": 1,
+          "explanation": "Adrenal cortex hormones (aldosterone, cortisol, androgens) are steroid hormones derived from cholesterol. Their lipophilic nature allows them to passively diffuse through the phospholipid bilayer of cell membranes to bind intracellular receptors, typically nuclear receptors that act as transcription factors. This contrasts with peptide hormones that bind extracellular receptors."
+        },
+        {
+          "id": "endo-ps2-q5",
+          "stem": "If the patient's condition is left untreated, which of the following complications is most likely?",
+          "options": ["A. Hypoglycemia from impaired gluconeogenesis", "B. Cardiac arrhythmias from persistent hypokalemia", "C. Adrenal crisis from cortisol deficiency", "D. Hypotension from fluid loss"],
+          "correct": 1,
+          "explanation": "Persistent hypokalemia is one of the most dangerous consequences of untreated primary hyperaldosteronism. Severe hypokalemia can cause life-threatening cardiac arrhythmias by altering myocyte membrane potentials and disrupting normal cardiac conduction. The patient would not develop hypoglycemia, adrenal crisis, or hypotension, as cortisol production is normal and aldosterone excess causes hypertension, not hypotension."
+        }
+      ]
+    },
+    {
+      "id": "endo-ps3",
+      "passage": "The pancreatic islets of Langerhans contain several cell types that coordinate blood glucose homeostasis. Beta cells constitute approximately 60-70% of islet cells and secrete insulin in response to elevated blood glucose. Alpha cells make up about 15-20% and secrete glucagon when glucose levels fall. Delta cells produce somatostatin, which inhibits both insulin and glucagon secretion in a paracrine manner. Insulin promotes glucose uptake in skeletal muscle and adipose tissue by stimulating translocation of GLUT4 transporters to the cell membrane. It also promotes glycogen synthesis in the liver and inhibits gluconeogenesis. Glucagon, conversely, promotes hepatic glycogenolysis and gluconeogenesis. A clinical study examined glucose tolerance in three groups: healthy controls, patients with type 1 diabetes, and patients with type 2 diabetes. Oral glucose tolerance tests (OGTT) were performed, and blood glucose and insulin levels were measured at 0, 30, 60, 90, and 120 minutes. The study also assessed C-peptide levels as a marker of endogenous insulin secretion, since C-peptide is released in equimolar amounts with insulin.",
+      "questions": [
+        {
+          "id": "endo-ps3-q1",
+          "stem": "C-peptide is used as a marker of endogenous insulin production rather than measuring insulin directly because:",
+          "options": ["A. C-peptide has a shorter half-life than insulin, making it easier to detect", "B. Exogenous insulin administration does not affect C-peptide levels, allowing differentiation from endogenous production", "C. C-peptide is only produced in type 1 diabetes", "D. C-peptide levels are always higher than insulin levels"],
+          "correct": 1,
+          "explanation": "C-peptide is cleaved from proinsulin during insulin processing and is secreted in equimolar amounts with endogenous insulin. However, exogenous insulin preparations do not contain C-peptide. Therefore, measuring C-peptide allows clinicians to assess how much insulin the patient's own pancreas is producing, even if the patient is receiving insulin injections."
+        },
+        {
+          "id": "endo-ps3-q2",
+          "stem": "In a patient with type 2 diabetes, the OGTT would most likely show:",
+          "options": ["A. Normal or elevated fasting insulin with impaired glucose clearance", "B. Absent insulin secretion at all time points", "C. Normal glucose tolerance with low insulin", "D. Rapid glucose clearance with excessive insulin"],
+          "correct": 0,
+          "explanation": "Type 2 diabetes is characterized by insulin resistance and often features normal or even elevated insulin levels, particularly in early stages. Despite adequate or excessive insulin production, peripheral tissues respond poorly to insulin signaling, resulting in impaired glucose clearance. As the disease progresses, beta cell function may decline, but early type 2 diabetes typically shows hyperinsulinemia with hyperglycemia."
+        },
+        {
+          "id": "endo-ps3-q3",
+          "stem": "GLUT4 transporters differ from GLUT2 transporters in the liver in that GLUT4:",
+          "options": ["A. Has a lower Km for glucose and is always present on the cell surface", "B. Requires insulin signaling for translocation to the plasma membrane", "C. Is the primary glucose transporter in hepatocytes", "D. Transports glucose only out of cells, not into them"],
+          "correct": 1,
+          "explanation": "GLUT4 is an insulin-dependent glucose transporter found primarily in skeletal muscle and adipose tissue. It is stored in intracellular vesicles and translocates to the plasma membrane in response to insulin receptor signaling via the PI3K/Akt pathway. GLUT2, in contrast, is constitutively expressed on hepatocyte membranes and has a high Km, allowing glucose uptake proportional to blood glucose concentration."
+        },
+        {
+          "id": "endo-ps3-q4",
+          "stem": "Somatostatin's role as a paracrine inhibitor of both insulin and glucagon secretion serves to:",
+          "options": ["A. Ensure that glucose levels never change from baseline", "B. Modulate the rate of nutrient absorption and prevent excessive hormonal fluctuations", "C. Stimulate hepatic glucose output during fasting", "D. Promote glycogen synthesis in muscle tissue"],
+          "correct": 1,
+          "explanation": "Somatostatin acts as a local paracrine regulator within the islets, dampening both insulin and glucagon secretion. This prevents excessive oscillations in hormone levels and fine-tunes the glucose response. By modulating the rate of hormonal release, somatostatin helps maintain smoother transitions in blood glucose levels rather than allowing sharp hormonal spikes."
+        },
+        {
+          "id": "endo-ps3-q5",
+          "stem": "A patient with type 1 diabetes who accidentally injects too much insulin would experience all of the following EXCEPT:",
+          "options": ["A. Hypoglycemia", "B. Increased GLUT4 translocation in muscle", "C. Increased hepatic gluconeogenesis", "D. Tremors and sweating from sympathetic activation"],
+          "correct": 2,
+          "explanation": "Excess exogenous insulin would suppress hepatic gluconeogenesis, not increase it, since insulin inhibits the key gluconeogenic enzymes. The excess insulin would cause hypoglycemia by promoting excessive glucose uptake in peripheral tissues via GLUT4 translocation. The resulting hypoglycemia would trigger a counter-regulatory sympathetic response, causing tremors, sweating, and tachycardia."
+        }
+      ]
+    },
+    {
+      "id": "endo-ps4",
+      "passage": "Calcium homeostasis is maintained through the coordinated actions of parathyroid hormone (PTH), calcitonin, and vitamin D. PTH is secreted by the parathyroid glands in response to low serum calcium detected by calcium-sensing receptors (CaSR) on chief cells. PTH increases serum calcium through three main mechanisms: stimulating osteoclast-mediated bone resorption, increasing renal calcium reabsorption in the distal convoluted tubule, and promoting the renal conversion of 25-hydroxyvitamin D to its active form, 1,25-dihydroxyvitamin D (calcitriol), by activating 1-alpha-hydroxylase. Calcitriol enhances intestinal calcium absorption. Calcitonin, secreted by thyroid parafollicular C-cells in response to high calcium, opposes PTH by inhibiting osteoclast activity and promoting renal calcium excretion, though its physiological role in adults is considered modest. A patient presents with fatigue, constipation, kidney stones, and confusion. Lab results reveal serum calcium of 13.2 mg/dL (normal: 8.5-10.5), phosphorus of 2.0 mg/dL (normal: 2.5-4.5), and elevated PTH.",
+      "questions": [
+        {
+          "id": "endo-ps4-q1",
+          "stem": "The patient's laboratory findings are most consistent with:",
+          "options": ["A. Hypoparathyroidism", "B. Primary hyperparathyroidism", "C. Vitamin D deficiency", "D. Calcitonin-secreting tumor"],
+          "correct": 1,
+          "explanation": "Elevated calcium with elevated PTH indicates primary hyperparathyroidism, typically caused by a parathyroid adenoma. In this condition, autonomous PTH secretion drives excessive bone resorption and renal calcium reabsorption. The low phosphorus results from PTH's inhibition of phosphate reabsorption in the proximal tubule. In secondary hyperparathyroidism, calcium would be low or normal."
+        },
+        {
+          "id": "endo-ps4-q2",
+          "stem": "The enzyme 1-alpha-hydroxylase is clinically significant because:",
+          "options": ["A. It converts calcitriol back to its inactive form", "B. It catalyzes the rate-limiting step in vitamin D activation in the kidney", "C. It degrades PTH after receptor binding", "D. It is found exclusively in osteoclasts"],
+          "correct": 1,
+          "explanation": "1-alpha-hydroxylase, located primarily in the proximal tubule of the kidney, catalyzes the conversion of 25-hydroxyvitamin D to the active form 1,25-dihydroxyvitamin D (calcitriol). This is the rate-limiting step in vitamin D activation and is upregulated by PTH and low phosphate. Without this enzyme's activity, dietary vitamin D cannot exert its full effects on calcium absorption."
+        },
+        {
+          "id": "endo-ps4-q3",
+          "stem": "The patient's kidney stones are most likely composed of:",
+          "options": ["A. Uric acid", "B. Calcium oxalate or calcium phosphate", "C. Struvite", "D. Cystine"],
+          "correct": 1,
+          "explanation": "In primary hyperparathyroidism, hypercalcemia leads to increased calcium filtration at the glomerulus. Despite enhanced distal tubule reabsorption by PTH, the filtered load exceeds reabsorptive capacity, leading to hypercalciuria. Excess urinary calcium combines with oxalate or phosphate to form calcium-containing kidney stones, which are the most common type in hyperparathyroidism."
+        },
+        {
+          "id": "endo-ps4-q4",
+          "stem": "If this patient were instead found to have LOW calcium, LOW phosphorus, and ELEVATED PTH, the most likely diagnosis would be:",
+          "options": ["A. Primary hyperparathyroidism", "B. Vitamin D deficiency with secondary hyperparathyroidism", "C. Hypoparathyroidism", "D. Familial hypocalciuric hypercalcemia"],
+          "correct": 1,
+          "explanation": "Low calcium with elevated PTH indicates secondary hyperparathyroidism, where the parathyroid glands are responding appropriately to hypocalcemia. Vitamin D deficiency is a common cause, as insufficient calcitriol impairs intestinal calcium absorption. The parathyroid glands compensate by increasing PTH, but without adequate vitamin D, calcium remains low. Low phosphorus results from PTH's phosphaturic effect."
+        },
+        {
+          "id": "endo-ps4-q5",
+          "stem": "Calcium-sensing receptors (CaSR) on parathyroid chief cells are classified as:",
+          "options": ["A. Ligand-gated ion channels", "B. Receptor tyrosine kinases", "C. G-protein coupled receptors", "D. Nuclear hormone receptors"],
+          "correct": 2,
+          "explanation": "The calcium-sensing receptor (CaSR) is a G-protein coupled receptor (GPCR) that detects extracellular calcium concentration. When calcium binds CaSR, it activates Gq signaling pathways that inhibit PTH secretion. Activating mutations in CaSR cause hypoparathyroidism (the receptor is oversensitive to calcium), while inactivating mutations cause familial hypocalciuric hypercalcemia."
+        }
+      ]
+    },
+    {
+      "id": "endo-ps5",
+      "passage": "The hypothalamic-pituitary-adrenal (HPA) axis is a major neuroendocrine system that mediates the stress response. When the body perceives stress, the paraventricular nucleus of the hypothalamus releases corticotropin-releasing hormone (CRH), which stimulates the anterior pituitary to secrete adrenocorticotropic hormone (ACTH). ACTH then stimulates the zona fasciculata of the adrenal cortex to produce cortisol. Cortisol has widespread metabolic effects: it promotes gluconeogenesis, protein catabolism, lipolysis, and has anti-inflammatory and immunosuppressive properties. Cortisol secretion follows a diurnal pattern, peaking in the early morning and reaching its nadir at midnight. Chronic activation of the HPA axis, as seen in Cushing's syndrome, produces characteristic clinical features including central obesity, proximal muscle wasting, skin thinning, easy bruising, and glucose intolerance. Researchers compared three patients with suspected Cushing's syndrome. Patient X had elevated cortisol, elevated ACTH, and a pituitary mass on MRI. Patient Y had elevated cortisol with suppressed ACTH. Patient Z had elevated cortisol, markedly elevated ACTH, and no pituitary abnormality but a lung mass on chest CT.",
+      "questions": [
+        {
+          "id": "endo-ps5-q1",
+          "stem": "Patient X most likely has:",
+          "options": ["A. Adrenal adenoma", "B. Cushing's disease (pituitary ACTH-secreting adenoma)", "C. Ectopic ACTH syndrome", "D. Exogenous glucocorticoid use"],
+          "correct": 1,
+          "explanation": "Patient X has elevated cortisol, elevated ACTH, and a pituitary mass, which is classic for Cushing's disease caused by an ACTH-secreting pituitary adenoma. The adenoma autonomously produces ACTH, which drives excess cortisol production. Cushing's disease specifically refers to the pituitary etiology, whereas Cushing's syndrome is the broader term for any cause of excess cortisol."
+        },
+        {
+          "id": "endo-ps5-q2",
+          "stem": "Patient Y's suppressed ACTH with elevated cortisol suggests the source of excess cortisol is:",
+          "options": ["A. Hypothalamic overproduction of CRH", "B. Pituitary adenoma", "C. Adrenal cortex (autonomous cortisol production)", "D. Ectopic CRH production"],
+          "correct": 2,
+          "explanation": "When cortisol is elevated but ACTH is suppressed, the cortisol source is ACTH-independent. This pattern indicates autonomous cortisol production by the adrenal cortex itself, typically from an adrenal adenoma or carcinoma. The excess cortisol exerts negative feedback on the hypothalamus and pituitary, suppressing both CRH and ACTH secretion."
+        },
+        {
+          "id": "endo-ps5-q3",
+          "stem": "Patient Z's lung mass with markedly elevated ACTH most likely represents:",
+          "options": ["A. A cortisol-secreting lung tumor", "B. A metastasis from an adrenal carcinoma", "C. Ectopic ACTH-secreting small cell lung carcinoma", "D. A benign lung nodule unrelated to the Cushing's presentation"],
+          "correct": 2,
+          "explanation": "Small cell lung carcinoma is one of the most common causes of ectopic ACTH syndrome. These neuroendocrine tumors can produce ACTH autonomously, leading to markedly elevated ACTH levels that stimulate excessive cortisol production. The very high ACTH levels distinguish ectopic production from pituitary Cushing's disease, where ACTH is typically only mildly to moderately elevated."
+        },
+        {
+          "id": "endo-ps5-q4",
+          "stem": "Cortisol promotes gluconeogenesis primarily by:",
+          "options": ["A. Increasing GLUT4 expression on hepatocytes", "B. Upregulating gluconeogenic enzymes such as PEPCK and glucose-6-phosphatase in the liver", "C. Directly inhibiting glycolysis in all tissues", "D. Stimulating glycogen phosphorylase in skeletal muscle"],
+          "correct": 1,
+          "explanation": "Cortisol promotes gluconeogenesis by upregulating the transcription of key gluconeogenic enzymes, particularly phosphoenolpyruvate carboxykinase (PEPCK) and glucose-6-phosphatase in the liver. Cortisol also provides gluconeogenic substrates by stimulating amino acid release from muscle (proteolysis) and glycerol release from adipose tissue (lipolysis)."
+        },
+        {
+          "id": "endo-ps5-q5",
+          "stem": "The immunosuppressive properties of cortisol are therapeutically exploited in which clinical scenario?",
+          "options": ["A. Treating bacterial infections", "B. Managing organ transplant rejection and autoimmune diseases", "C. Promoting wound healing after surgery", "D. Stimulating antibody production for vaccination"],
+          "correct": 1,
+          "explanation": "Synthetic glucocorticoids (e.g., prednisone, dexamethasone) are widely used to suppress immune responses in organ transplant recipients to prevent graft rejection and in autoimmune diseases to reduce pathological immune activation. Cortisol suppresses both innate and adaptive immunity by inhibiting NF-kB signaling, reducing cytokine production, and promoting lymphocyte apoptosis. However, this immunosuppression impairs wound healing and increases infection risk."
+        }
+      ]
+    },
+    {
+      "id": "endo-ps6",
+      "passage": "Reproductive endocrinology involves complex interactions between the hypothalamus, anterior pituitary, and gonads. In females, the hypothalamus secretes gonadotropin-releasing hormone (GnRH) in a pulsatile fashion, stimulating the anterior pituitary to release follicle-stimulating hormone (FSH) and luteinizing hormone (LH). During the follicular phase, FSH promotes follicular development and estrogen synthesis by granulosa cells. Rising estrogen levels initially exert negative feedback on FSH and LH. However, when estrogen reaches a critical threshold concentration sustained over approximately 48 hours, it switches to positive feedback, triggering the LH surge that induces ovulation. After ovulation, the corpus luteum forms and produces progesterone, which maintains the uterine endometrium for potential implantation. If fertilization does not occur, the corpus luteum degenerates, progesterone and estrogen levels drop, and menstruation occurs. In males, LH stimulates Leydig cells to produce testosterone, while FSH acts on Sertoli cells to support spermatogenesis. Testosterone exerts negative feedback on GnRH and LH, while inhibin B from Sertoli cells selectively inhibits FSH.",
+      "questions": [
+        {
+          "id": "endo-ps6-q1",
+          "stem": "The switch from negative to positive feedback by estrogen is unique because:",
+          "options": ["A. It requires a different receptor than negative feedback", "B. It is concentration- and duration-dependent, requiring sustained high estrogen levels", "C. It occurs at the adrenal gland rather than the pituitary", "D. It is mediated by progesterone rather than estrogen"],
+          "correct": 1,
+          "explanation": "Estrogen's switch from negative to positive feedback is dependent on both the concentration and duration of exposure. Low to moderate estrogen levels suppress GnRH and gonadotropin release, but when estrogen exceeds a critical threshold for approximately 48 hours, it triggers the LH surge. This unique mechanism ensures ovulation occurs only when a mature follicle is present and producing sufficient estrogen."
+        },
+        {
+          "id": "endo-ps6-q2",
+          "stem": "Oral contraceptive pills containing synthetic estrogen and progesterone prevent pregnancy primarily by:",
+          "options": ["A. Directly destroying oocytes in the ovary", "B. Maintaining constant negative feedback on the hypothalamus and pituitary, preventing the LH surge and ovulation", "C. Blocking sperm transport through the fallopian tubes", "D. Causing premature luteolysis"],
+          "correct": 1,
+          "explanation": "Combined oral contraceptives provide constant levels of synthetic estrogen and progesterone, which maintain negative feedback on the hypothalamus and pituitary. This suppresses the pulsatile secretion of GnRH and prevents the mid-cycle LH surge, thereby inhibiting ovulation. The steady-state hormone levels never reach the threshold pattern needed to trigger positive feedback."
+        },
+        {
+          "id": "endo-ps6-q3",
+          "stem": "Inhibin B selectively inhibits FSH but not LH. This selective inhibition is important because:",
+          "options": ["A. It allows continued testosterone production by Leydig cells while regulating spermatogenesis", "B. It completely shuts down all testicular function", "C. It promotes the conversion of testosterone to estrogen", "D. It stimulates GnRH release from the hypothalamus"],
+          "correct": 0,
+          "explanation": "By selectively inhibiting FSH without affecting LH, inhibin B allows fine-tuned regulation of spermatogenesis (which depends on FSH acting on Sertoli cells) without disrupting testosterone production (which depends on LH acting on Leydig cells). This ensures that testosterone-dependent functions like secondary sexual characteristics are maintained independently of the regulation of sperm production."
+        },
+        {
+          "id": "endo-ps6-q4",
+          "stem": "GnRH must be secreted in a pulsatile fashion because:",
+          "options": ["A. Continuous GnRH exposure downregulates GnRH receptors on gonadotrophs, suppressing LH and FSH release", "B. The hypothalamus can only produce GnRH intermittently due to limited precursors", "C. Pulsatile secretion is necessary to maintain the portal blood supply", "D. Continuous GnRH would stimulate excessive testosterone production"],
+          "correct": 0,
+          "explanation": "Continuous GnRH administration causes downregulation and desensitization of GnRH receptors on anterior pituitary gonadotrophs, paradoxically suppressing LH and FSH release. This principle is clinically exploited with GnRH agonists (e.g., leuprolide) to treat conditions like prostate cancer, where sustained GnRH receptor activation leads to chemical castration by shutting down gonadotropin secretion."
+        },
+        {
+          "id": "endo-ps6-q5",
+          "stem": "During the luteal phase, progesterone's effects on the endometrium include:",
+          "options": ["A. Stimulating endometrial proliferation and increasing mitotic activity", "B. Promoting secretory transformation of the endometrium and increasing vascularization for potential implantation", "C. Causing endometrial atrophy and thinning", "D. Inducing desquamation of the functional layer"],
+          "correct": 1,
+          "explanation": "Progesterone converts the proliferative endometrium (stimulated by estrogen during the follicular phase) into a secretory endometrium optimized for embryo implantation. This involves increased glandular secretion of glycogen and lipids, enhanced spiral artery development, and stromal decidualization. These changes create a hospitable environment for blastocyst implantation."
+        }
+      ]
+    },
+    {
+      "id": "endo-ps7",
+      "passage": "The posterior pituitary (neurohypophysis) differs fundamentally from the anterior pituitary in both structure and function. Rather than synthesizing its own hormones, the posterior pituitary stores and releases hormones produced by hypothalamic neurons. Oxytocin and antidiuretic hormone (ADH, also called vasopressin) are synthesized in the paraventricular and supraoptic nuclei of the hypothalamus, respectively, and transported along axons to the posterior pituitary for release. ADH is released in response to increased plasma osmolarity detected by hypothalamic osmoreceptors and decreased blood volume detected by atrial baroreceptors. ADH acts on V2 receptors in the collecting duct principal cells, stimulating the insertion of aquaporin-2 channels into the apical membrane, which increases water reabsorption. In the syndrome of inappropriate ADH secretion (SIADH), excess ADH leads to water retention, dilutional hyponatremia, and concentrated urine. In diabetes insipidus (DI), either inadequate ADH production (central DI) or renal insensitivity to ADH (nephrogenic DI) results in excretion of large volumes of dilute urine.",
+      "questions": [
+        {
+          "id": "endo-ps7-q1",
+          "stem": "A patient with SIADH would be expected to have:",
+          "options": ["A. Hypernatremia and dilute urine", "B. Hyponatremia and inappropriately concentrated urine", "C. Normal sodium with increased urine output", "D. Hyperkalemia and metabolic acidosis"],
+          "correct": 1,
+          "explanation": "In SIADH, excess ADH causes water retention by maximizing aquaporin-2 insertion in the collecting duct. The retained water dilutes serum sodium, causing hyponatremia. Despite the low serum osmolarity (which should suppress ADH and produce dilute urine), the urine remains inappropriately concentrated because ADH secretion continues autonomously."
+        },
+        {
+          "id": "endo-ps7-q2",
+          "stem": "To distinguish central diabetes insipidus from nephrogenic diabetes insipidus, a clinician would administer exogenous desmopressin (synthetic ADH). In central DI, the expected response would be:",
+          "options": ["A. No change in urine output or osmolarity", "B. A decrease in urine volume and an increase in urine osmolarity", "C. An increase in urine volume", "D. Development of hyponatremia"],
+          "correct": 1,
+          "explanation": "In central DI, the kidneys are structurally and functionally capable of responding to ADH, but endogenous ADH production is insufficient. Administering exogenous desmopressin replaces the missing hormone, and the collecting duct cells respond by inserting aquaporin-2 channels, concentrating the urine and reducing urine volume. In nephrogenic DI, the kidneys are resistant to ADH, so desmopressin would have no effect."
+        },
+        {
+          "id": "endo-ps7-q3",
+          "stem": "The posterior pituitary is considered a neurohormonal organ rather than a true endocrine gland because:",
+          "options": ["A. It produces hormones de novo from cholesterol precursors", "B. It stores and releases hormones synthesized by hypothalamic neurons that project axons to it", "C. It secretes hormones only into the cerebrospinal fluid", "D. Its hormones act exclusively through paracrine signaling"],
+          "correct": 1,
+          "explanation": "The posterior pituitary does not synthesize hormones itself. Instead, it functions as a storage and release site for oxytocin and ADH, which are produced in the hypothalamic paraventricular and supraoptic nuclei. These hormones travel down axons in the hypothalamic-hypophyseal tract to be stored in the posterior pituitary until appropriate stimuli trigger their exocytotic release into the bloodstream."
+        },
+        {
+          "id": "endo-ps7-q4",
+          "stem": "Aquaporin-2 channels are inserted into the apical membrane of collecting duct cells via:",
+          "options": ["A. De novo protein synthesis stimulated by ADH binding to nuclear receptors", "B. Exocytosis of pre-formed vesicles containing aquaporin-2, triggered by V2 receptor signaling through cAMP", "C. Passive diffusion of aquaporin monomers through the membrane", "D. Endocytosis of aquaporins from the basolateral membrane to the apical surface"],
+          "correct": 1,
+          "explanation": "When ADH binds V2 receptors on the basolateral membrane, it activates a Gs-coupled cAMP signaling cascade. The resulting protein kinase A activation causes pre-formed intracellular vesicles containing aquaporin-2 to fuse with the apical membrane through exocytosis. This rapid mechanism allows quick adjustment of water permeability without requiring new protein synthesis."
+        },
+        {
+          "id": "endo-ps7-q5",
+          "stem": "Ethanol inhibits ADH secretion. After consuming a large amount of alcohol, a person would most likely experience:",
+          "options": ["A. Decreased urine output and fluid retention", "B. Increased urine output and potential dehydration", "C. No change in urine production", "D. Concentrated urine with hyponatremia"],
+          "correct": 1,
+          "explanation": "Ethanol inhibits ADH release from the posterior pituitary. Without ADH, aquaporin-2 channels are removed from the collecting duct apical membrane, reducing water reabsorption. This leads to the production of large volumes of dilute urine (diuresis), which can contribute to dehydration and is a major factor in alcohol-induced hangovers."
+        }
+      ]
+    },
+    {
+      "id": "endo-ps8",
+      "passage": "Growth hormone (GH) is a peptide hormone secreted by somatotrophs in the anterior pituitary. Its release is regulated by hypothalamic growth hormone-releasing hormone (GHRH), which stimulates secretion, and somatostatin, which inhibits it. GH secretion is pulsatile, with the largest pulses occurring during deep sleep. GH acts directly on the liver to stimulate production of insulin-like growth factor 1 (IGF-1), which mediates many of GH's growth-promoting effects on bones and tissues. GH also has direct metabolic effects: it promotes lipolysis in adipose tissue, stimulates protein synthesis, and has anti-insulin (diabetogenic) effects by reducing glucose uptake in muscle and stimulating hepatic glucose output. Excess GH before epiphyseal plate closure causes gigantism, while excess after closure causes acromegaly, characterized by enlargement of hands, feet, and facial features. GH deficiency in children leads to proportionate short stature. A clinical study evaluated a 45-year-old patient with enlarged hands, coarsened facial features, and glucose intolerance. Serum GH levels were elevated and did not suppress below 1 ng/mL after a 75-gram oral glucose tolerance test. IGF-1 levels were markedly elevated.",
+      "questions": [
+        {
+          "id": "endo-ps8-q1",
+          "stem": "The oral glucose tolerance test is used to diagnose GH excess because in healthy individuals:",
+          "options": ["A. Glucose stimulates GH release", "B. Hyperglycemia normally suppresses GH secretion, and failure to suppress indicates autonomous GH production", "C. Glucose converts GH to its inactive form", "D. The glucose load triggers IGF-1 degradation"],
+          "correct": 1,
+          "explanation": "In healthy individuals, the hyperglycemia induced by an oral glucose load suppresses GH secretion. In patients with GH-secreting pituitary adenomas, this suppression fails because the tumor produces GH autonomously. Failure to suppress GH below 1 ng/mL after oral glucose challenge is a standard diagnostic criterion for acromegaly."
+        },
+        {
+          "id": "endo-ps8-q2",
+          "stem": "This patient develops glucose intolerance because GH excess:",
+          "options": ["A. Destroys pancreatic beta cells", "B. Promotes insulin secretion excessively", "C. Antagonizes insulin action by decreasing glucose uptake in peripheral tissues and increasing hepatic glucose output", "D. Blocks GLUT2 transporters in the liver"],
+          "correct": 2,
+          "explanation": "GH has anti-insulin (diabetogenic) effects that oppose insulin's glucose-lowering actions. Excess GH reduces insulin-stimulated glucose uptake in skeletal muscle and increases hepatic glucose production through enhanced gluconeogenesis. Over time, the chronic insulin resistance from GH excess can lead to glucose intolerance and overt type 2 diabetes."
+        },
+        {
+          "id": "endo-ps8-q3",
+          "stem": "The patient has acromegaly rather than gigantism because:",
+          "options": ["A. The GH excess occurred after epiphyseal plate closure, so linear bone growth cannot occur", "B. The patient has a different type of GH", "C. Acromegaly only affects women", "D. Gigantism requires higher GH levels than acromegaly"],
+          "correct": 0,
+          "explanation": "After puberty, the epiphyseal growth plates fuse under the influence of estrogen, preventing further linear bone growth. Therefore, GH excess in adults cannot increase height. Instead, it causes appositional bone growth and soft tissue enlargement in the hands, feet, jaw, and brow ridge, which are the characteristic features of acromegaly. In children with open growth plates, GH excess causes proportionate tall stature (gigantism)."
+        },
+        {
+          "id": "endo-ps8-q4",
+          "stem": "IGF-1 is preferred over a single GH measurement for screening because:",
+          "options": ["A. IGF-1 has a shorter half-life than GH", "B. IGF-1 levels are stable throughout the day, whereas GH is secreted in pulses and fluctuates widely", "C. IGF-1 is easier to assay in a laboratory", "D. GH cannot be measured in serum"],
+          "correct": 1,
+          "explanation": "GH is secreted in pulsatile bursts, and a single random GH measurement may be normal even in acromegaly if drawn between pulses. IGF-1, produced by the liver in response to GH stimulation, has a much longer half-life and remains stable throughout the day. Elevated IGF-1 reliably reflects chronic GH excess and is therefore a better screening marker."
+        },
+        {
+          "id": "endo-ps8-q5",
+          "stem": "Somatostatin analogs (e.g., octreotide) are used to treat acromegaly because they:",
+          "options": ["A. Stimulate GH receptor degradation in peripheral tissues", "B. Mimic somatostatin's inhibitory effect on GH secretion from pituitary somatotrophs", "C. Block IGF-1 receptors in the liver", "D. Promote apoptosis of all anterior pituitary cells"],
+          "correct": 1,
+          "explanation": "Somatostatin analogs bind to somatostatin receptors on pituitary somatotrophs, suppressing GH secretion. They mimic the physiologic inhibitory action of endogenous somatostatin but have longer half-lives, making them therapeutically useful. Octreotide and lanreotide can normalize GH and IGF-1 levels in many acromegaly patients, especially when surgery is not curative."
+        }
+      ]
+    },
+    {
+      "id": "endo-ps9",
+      "passage": "Insulin signaling involves a complex intracellular cascade that begins when insulin binds to the alpha subunit of the insulin receptor, a receptor tyrosine kinase. This binding causes autophosphorylation of tyrosine residues on the beta subunit, which recruits and phosphorylates insulin receptor substrate (IRS) proteins. IRS activates phosphatidylinositol 3-kinase (PI3K), which generates phosphatidylinositol (3,4,5)-trisphosphate (PIP3). PIP3 activates protein kinase B (Akt), which mediates many of insulin's metabolic effects, including GLUT4 translocation, glycogen synthesis (via GSK-3 inhibition), and protein synthesis (via mTOR activation). Insulin also activates the Ras-MAPK pathway, promoting cell growth and differentiation. In type 2 diabetes, defects at various points in this signaling cascade contribute to insulin resistance. Researchers studied adipocytes from insulin-resistant patients and found normal insulin receptor expression and autophosphorylation but significantly reduced IRS-1 phosphorylation and PI3K activity compared to controls. The Ras-MAPK pathway remained functional in these patients.",
+      "questions": [
+        {
+          "id": "endo-ps9-q1",
+          "stem": "The insulin receptor is classified as a receptor tyrosine kinase because:",
+          "options": ["A. It is a G-protein coupled receptor that activates tyrosine kinases", "B. Ligand binding activates intrinsic kinase activity that phosphorylates tyrosine residues on the receptor itself and downstream substrates", "C. It only phosphorylates serine and threonine residues", "D. It requires an external kinase to become activated"],
+          "correct": 1,
+          "explanation": "Receptor tyrosine kinases have intrinsic enzymatic activity. When insulin binds the extracellular alpha subunit, conformational changes activate the kinase domain in the intracellular beta subunit, which phosphorylates tyrosine residues on itself (autophosphorylation) and on downstream substrates like IRS proteins. This distinguishes it from G-protein coupled receptors, which rely on separate effector enzymes."
+        },
+        {
+          "id": "endo-ps9-q2",
+          "stem": "Based on the research findings, the insulin resistance in these patients is most likely due to:",
+          "options": ["A. Insufficient insulin receptor expression", "B. A defect in the post-receptor signaling pathway at the level of IRS-1 or its interaction with the receptor", "C. Overactive PI3K signaling", "D. Absence of GLUT4 gene expression"],
+          "correct": 1,
+          "explanation": "The researchers found normal insulin receptor levels and normal autophosphorylation, indicating the receptor functions properly. However, reduced IRS-1 phosphorylation and PI3K activity point to a defect in the post-receptor signaling cascade, specifically at the level of IRS-1. This could result from serine phosphorylation of IRS-1 (which inhibits its function), reduced IRS-1 expression, or impaired IRS-1 association with the receptor."
+        },
+        {
+          "id": "endo-ps9-q3",
+          "stem": "The fact that the Ras-MAPK pathway remains functional while the PI3K-Akt pathway is impaired explains why insulin-resistant patients may still exhibit:",
+          "options": ["A. Normal glucose uptake in muscle", "B. Normal glycogen synthesis rates", "C. Mitogenic responses to insulin such as cell growth and proliferation", "D. Normal GLUT4 translocation"],
+          "correct": 2,
+          "explanation": "The Ras-MAPK pathway mediates insulin's mitogenic and growth-promoting effects, while the PI3K-Akt pathway mediates metabolic effects like glucose uptake and glycogen synthesis. When insulin resistance selectively impairs the PI3K-Akt pathway, metabolic functions are compromised, but growth-related signaling through Ras-MAPK continues. This selective resistance may contribute to the cardiovascular and proliferative complications seen in type 2 diabetes."
+        },
+        {
+          "id": "endo-ps9-q4",
+          "stem": "Akt promotes glycogen synthesis by inhibiting GSK-3 (glycogen synthase kinase-3). This means that GSK-3 normally:",
+          "options": ["A. Activates glycogen synthase by phosphorylation", "B. Inactivates glycogen synthase by phosphorylation, and Akt removes this inhibition", "C. Degrades glycogen directly", "D. Synthesizes glycogen independently of glycogen synthase"],
+          "correct": 1,
+          "explanation": "GSK-3 normally phosphorylates and inactivates glycogen synthase, preventing glycogen synthesis. When insulin activates Akt, Akt phosphorylates and inhibits GSK-3, thereby relieving the inhibition of glycogen synthase. This double-negative mechanism (Akt inhibits the inhibitor) allows glycogen synthase to become active and catalyze glycogen formation."
+        },
+        {
+          "id": "endo-ps9-q5",
+          "stem": "PIP3, generated by PI3K, serves as a:",
+          "options": ["A. Transcription factor that enters the nucleus", "B. Second messenger at the inner leaflet of the plasma membrane that recruits and activates Akt", "C. Hormone that is secreted into the bloodstream", "D. Structural component of the cytoskeleton"],
+          "correct": 1,
+          "explanation": "PIP3 (phosphatidylinositol 3,4,5-trisphosphate) is a membrane-bound lipid second messenger generated by PI3K-catalyzed phosphorylation of PIP2. PIP3 remains in the inner leaflet of the plasma membrane and serves as a docking site for pleckstrin homology (PH) domain-containing proteins, including Akt. Recruitment of Akt to the membrane allows its phosphorylation and activation by PDK1."
+        }
+      ]
+    },
+    {
+      "id": "endo-ps10",
+      "passage": "The regulation of blood glucose involves multiple hormonal signals beyond insulin and glucagon. During prolonged fasting or starvation, cortisol and growth hormone contribute to maintaining blood glucose levels. Epinephrine, released during acute stress or hypoglycemia, rapidly mobilizes glucose by stimulating hepatic glycogenolysis (via beta-2 receptors and cAMP/PKA signaling) and gluconeogenesis while simultaneously inhibiting insulin secretion (via alpha-2 receptors on beta cells) and stimulating glucagon release. During exercise, the fall in insulin-to-glucagon ratio, combined with increased epinephrine and cortisol, shifts metabolism toward fatty acid oxidation and glucose production. In the fed state, incretins such as glucagon-like peptide-1 (GLP-1) and glucose-dependent insulinotropic peptide (GIP), released by enteroendocrine cells in response to oral nutrients, potentiate glucose-stimulated insulin secretion. The incretin effect explains why oral glucose produces a greater insulin response than an equivalent intravenous glucose load. GLP-1 also slows gastric emptying, suppresses glucagon secretion, and promotes satiety. GLP-1 receptor agonists and dipeptidyl peptidase-4 (DPP-4) inhibitors have become important therapeutic agents for type 2 diabetes.",
+      "questions": [
+        {
+          "id": "endo-ps10-q1",
+          "stem": "The incretin effect refers to the observation that:",
+          "options": ["A. Intravenous glucose produces more insulin than oral glucose", "B. Oral glucose produces a greater insulin response than equivalent intravenous glucose because gut hormones potentiate insulin secretion", "C. Insulin secretion is independent of the route of glucose administration", "D. Incretins directly lower blood glucose without affecting insulin"],
+          "correct": 1,
+          "explanation": "The incretin effect describes the enhanced insulin response to oral versus intravenous glucose. When glucose is consumed orally, enteroendocrine cells release GLP-1 and GIP, which amplify glucose-stimulated insulin secretion from beta cells. This accounts for approximately 50-70% of the postprandial insulin response and is diminished in type 2 diabetes."
+        },
+        {
+          "id": "endo-ps10-q2",
+          "stem": "DPP-4 inhibitors treat type 2 diabetes by:",
+          "options": ["A. Directly stimulating insulin receptor tyrosine kinase activity", "B. Preventing the enzymatic degradation of endogenous GLP-1, thereby prolonging its insulinotropic effects", "C. Blocking glucose absorption in the intestine", "D. Increasing hepatic gluconeogenesis"],
+          "correct": 1,
+          "explanation": "DPP-4 (dipeptidyl peptidase-4) rapidly degrades endogenous GLP-1, which normally has a half-life of only 1-2 minutes. DPP-4 inhibitors block this enzyme, allowing GLP-1 to persist longer in the circulation and continue potentiating glucose-dependent insulin secretion. Because GLP-1's effects are glucose-dependent, DPP-4 inhibitors have a low risk of causing hypoglycemia."
+        },
+        {
+          "id": "endo-ps10-q3",
+          "stem": "Epinephrine inhibits insulin secretion through alpha-2 receptor activation on beta cells. This is physiologically beneficial during stress because:",
+          "options": ["A. It prevents hypoglycemia during rest", "B. It ensures glucose remains available in the blood for brain and muscle use rather than being stored", "C. It promotes glycogen synthesis in the liver", "D. It reduces heart rate to conserve energy"],
+          "correct": 1,
+          "explanation": "During the stress response, the body needs readily available glucose for the brain and skeletal muscles. By inhibiting insulin secretion via alpha-2 receptors on pancreatic beta cells, epinephrine prevents glucose uptake and storage in non-essential tissues. Simultaneously, epinephrine promotes glycogenolysis and gluconeogenesis, ensuring maximum glucose availability for fight-or-flight responses."
+        },
+        {
+          "id": "endo-ps10-q4",
+          "stem": "During prolonged fasting, the metabolic shift toward fatty acid oxidation is advantageous because:",
+          "options": ["A. Fatty acids produce more ATP per gram than glucose, sparing limited glucose reserves for glucose-dependent tissues like the brain", "B. Fatty acid oxidation produces no waste products", "C. The brain preferentially uses fatty acids during fasting", "D. Fatty acid metabolism does not require oxygen"],
+          "correct": 0,
+          "explanation": "During prolonged fasting, glycogen stores are rapidly depleted. Fatty acid oxidation becomes the primary energy source for most tissues because fat stores are abundant and yield approximately 9 kcal/g compared to 4 kcal/g from glucose. This metabolic shift spares the limited glucose supply for the brain, which cannot directly oxidize fatty acids (though it can use ketone bodies derived from fatty acids)."
+        },
+        {
+          "id": "endo-ps10-q5",
+          "stem": "A key advantage of GLP-1 receptor agonists over sulfonylureas in treating type 2 diabetes is that GLP-1 agonists:",
+          "options": ["A. Are always administered orally", "B. Stimulate insulin secretion in a glucose-dependent manner, reducing hypoglycemia risk", "C. Do not affect glucagon secretion", "D. Have no effect on body weight"],
+          "correct": 1,
+          "explanation": "GLP-1 receptor agonists stimulate insulin secretion only when blood glucose is elevated (glucose-dependent mechanism), which significantly reduces the risk of hypoglycemia compared to sulfonylureas that stimulate insulin release regardless of glucose levels. Additionally, GLP-1 agonists promote weight loss through appetite suppression and delayed gastric emptying, providing additional metabolic benefits."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "subtopic": "Evolution & Natural Selection",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "evo-ps-001",
+      "passage": "Charles Darwin's theory of evolution by natural selection rests on several key observations: organisms produce more offspring than can survive, individuals within a population exhibit heritable variation, and individuals with traits better suited to their environment are more likely to survive and reproduce (differential fitness). Over many generations, natural selection leads to adaptation, the accumulation of traits that enhance an organism's fitness in its environment. Natural selection acts on phenotypes, not genotypes directly, and can take three main forms: directional selection favors one extreme phenotype, stabilizing selection favors the intermediate phenotype, and disruptive selection favors both extremes. Researchers studied beak depth in a population of Galapagos finches (Geospiza fortis) on Daphne Major Island during a severe drought in 1977. The drought caused a shift in available food from small, soft seeds to large, hard seeds. Birds with deeper, stronger beaks were better able to crack the large seeds and had higher survival rates. The mean beak depth of the surviving population increased significantly compared to the pre-drought population. When normal rainfall returned, the seed composition reverted and the selective pressure on beak depth relaxed. The researchers documented that beak depth is highly heritable (h^2 = 0.79), meaning that the offspring of deep-beaked survivors tended to have deeper beaks than the pre-drought population average.",
+      "questions": [
+        {
+          "id": "evo-q-001",
+          "stem": "The shift in mean beak depth during the 1977 drought is an example of which type of natural selection?",
+          "options": ["A. Stabilizing selection", "B. Disruptive selection", "C. Directional selection", "D. Sexual selection"],
+          "correct": 2,
+          "explanation": "The drought favored finches with one extreme phenotype (deeper beaks) over the other, shifting the population mean in one direction. This is the hallmark of directional selection, which moves the distribution of a trait toward one extreme by favoring individuals at that end of the phenotypic range."
+        },
+        {
+          "id": "evo-q-002",
+          "stem": "The high heritability of beak depth (h^2 = 0.79) is important for evolution because it means that:",
+          "options": ["A. all variation in beak depth is environmentally determined", "B. natural selection cannot act on beak depth", "C. offspring will tend to resemble their parents in beak depth, allowing selection to produce evolutionary change", "D. beak depth is determined by a single gene"],
+          "correct": 2,
+          "explanation": "High heritability means that a large proportion of phenotypic variation in beak depth is due to additive genetic variation. This ensures that when natural selection favors individuals with deeper beaks, their offspring will inherit the tendency for deeper beaks, producing an evolutionary response across generations."
+        },
+        {
+          "id": "evo-q-003",
+          "stem": "If a population of birds experienced selection favoring average-sized beaks while selecting against both very large and very small beaks, this would be an example of:",
+          "options": ["A. Directional selection", "B. Disruptive selection", "C. Stabilizing selection", "D. Artificial selection"],
+          "correct": 2,
+          "explanation": "Stabilizing selection favors the intermediate phenotype and selects against both extremes, reducing the variance of the trait while maintaining the same mean. This type of selection is common in stable environments where the optimal phenotype has already been achieved."
+        },
+        {
+          "id": "evo-q-004",
+          "stem": "Natural selection acts on phenotypes rather than genotypes because:",
+          "options": ["A. genotypes are not heritable", "B. it is the phenotype that determines an organism's interaction with its environment and thus its fitness", "C. genotypes do not vary within populations", "D. phenotypes are always perfectly correlated with genotypes"],
+          "correct": 1,
+          "explanation": "An organism's survival and reproduction depend on its observable characteristics (phenotype) and how they interact with the environment. Natural selection cannot directly detect genotypes; it can only sort individuals based on their phenotypic differences. However, because phenotypes are influenced by genotypes, selection on phenotypes indirectly changes allele frequencies."
+        },
+        {
+          "id": "evo-q-005",
+          "stem": "Which condition is NOT required for evolution by natural selection to occur?",
+          "options": ["A. Variation in traits among individuals", "B. Heritability of those traits", "C. Differential reproductive success based on traits", "D. Sexual reproduction"],
+          "correct": 3,
+          "explanation": "Evolution by natural selection requires variation, heritability of that variation, and differential fitness (reproductive success based on traits). Sexual reproduction is not required; natural selection can act on asexually reproducing organisms as long as heritable variation and differential fitness exist. Bacteria, for example, evolve through natural selection via asexual reproduction."
+        }
+      ]
+    },
+    {
+      "id": "evo-ps-002",
+      "passage": "Genetic drift is a mechanism of evolution in which allele frequencies change due to random chance rather than natural selection. Its effects are most pronounced in small populations, where sampling error can cause significant shifts in allele frequencies from one generation to the next. Two special cases of genetic drift are the founder effect and the bottleneck effect. The founder effect occurs when a small group of individuals colonizes a new habitat, carrying only a subset of the genetic diversity of the original population. The bottleneck effect occurs when a population's size is drastically reduced by a catastrophic event, and the surviving individuals may not be representative of the original population's genetic makeup. Researchers studied the genetic diversity of cheetahs (Acinonyx jubatus) and found extremely low levels of heterozygosity compared to other large cat species. Molecular evidence suggests that cheetahs experienced a severe population bottleneck approximately 10,000 years ago during the late Pleistocene extinction. The resulting loss of genetic diversity has led to high susceptibility to disease, low reproductive success, and reduced adaptability. Skin grafts between unrelated cheetahs are not rejected, indicating a degree of genetic uniformity typically seen only in inbred laboratory strains. The researchers noted that genetic drift, unlike natural selection, is non-adaptive -- it does not lead to increased fitness and can even fix deleterious alleles in a population.",
+      "questions": [
+        {
+          "id": "evo-q-006",
+          "stem": "The low genetic diversity observed in cheetahs is best explained by:",
+          "options": ["A. strong directional selection for speed", "B. a historical population bottleneck that eliminated most genetic variation", "C. high mutation rates that reduced heterozygosity", "D. gene flow from other cat species"],
+          "correct": 1,
+          "explanation": "The passage describes molecular evidence for a severe population bottleneck in cheetahs approximately 10,000 years ago. When a population is drastically reduced, many alleles are lost by chance, and the surviving population carries only a fraction of the original genetic diversity. This explains the extremely low heterozygosity observed in modern cheetahs."
+        },
+        {
+          "id": "evo-q-007",
+          "stem": "Skin grafts between unrelated cheetahs are not rejected because:",
+          "options": ["A. cheetahs have a uniquely tolerant immune system", "B. the bottleneck resulted in such genetic uniformity that MHC genes are nearly identical across individuals", "C. cheetahs lack adaptive immune responses", "D. skin grafts are never rejected between members of the same species"],
+          "correct": 1,
+          "explanation": "Graft rejection depends on MHC (major histocompatibility complex) differences between donor and recipient. The extreme genetic uniformity resulting from the bottleneck means that cheetahs share nearly identical MHC alleles, so their immune systems do not recognize grafted tissue as foreign. This level of uniformity is comparable to inbred laboratory animals."
+        },
+        {
+          "id": "evo-q-008",
+          "stem": "Which of the following distinguishes genetic drift from natural selection as a mechanism of evolution?",
+          "options": ["A. Genetic drift changes allele frequencies while natural selection does not", "B. Genetic drift is random and non-adaptive, while natural selection is directional and adaptive", "C. Natural selection only occurs in small populations", "D. Genetic drift requires heritable variation while natural selection does not"],
+          "correct": 1,
+          "explanation": "Genetic drift changes allele frequencies through random sampling events and does not consistently improve fitness. Natural selection, by contrast, is a directional force that systematically increases the frequency of alleles that enhance fitness. Both mechanisms change allele frequencies, but only natural selection leads to adaptation."
+        },
+        {
+          "id": "evo-q-009",
+          "stem": "The founder effect and the bottleneck effect are similar in that both:",
+          "options": ["A. increase genetic diversity in the affected population", "B. result from adaptive responses to environmental change", "C. involve a small population with reduced genetic diversity compared to the source population", "D. require natural selection to drive allele frequency changes"],
+          "correct": 2,
+          "explanation": "Both the founder effect and bottleneck effect involve a small number of individuals whose allele frequencies may not represent the larger source population. In both cases, the reduced population size means that genetic drift plays a major role, potentially fixing or losing alleles by chance, and the resulting population has less genetic diversity."
+        },
+        {
+          "id": "evo-q-010",
+          "stem": "Genetic drift can fix deleterious alleles in a population. This outcome is most likely when:",
+          "options": ["A. the population is very large", "B. natural selection is strong", "C. the population is very small", "D. mutation rates are high"],
+          "correct": 2,
+          "explanation": "In very small populations, random fluctuations in allele frequency can override the influence of natural selection. A deleterious allele, which would normally be eliminated by selection in a large population, can increase in frequency by chance and eventually become fixed if the population is small enough that drift dominates over selection."
+        }
+      ]
+    },
+    {
+      "id": "evo-ps-003",
+      "passage": "Speciation is the evolutionary process by which new biological species arise. Allopatric speciation occurs when a population is geographically divided by a physical barrier (such as a mountain range, river, or oceanic separation), preventing gene flow between the resulting subpopulations. Over time, independent mutation, natural selection, and genetic drift cause the isolated populations to diverge genetically and phenotypically. If reproductive isolation evolves before the barrier is removed, the populations cannot interbreed and are considered distinct species. Sympatric speciation occurs without geographic separation, often driven by polyploidy (especially in plants), ecological specialization, or assortative mating. Reproductive isolation can be prezygotic (preventing formation of hybrid zygotes) or postzygotic (reducing the fitness of hybrid offspring). Prezygotic barriers include habitat isolation, temporal isolation, behavioral isolation, mechanical isolation, and gametic isolation. Postzygotic barriers include hybrid inviability, hybrid sterility, and hybrid breakdown. The biological species concept defines a species as a group of populations that can interbreed and produce viable, fertile offspring, but are reproductively isolated from other groups. However, this concept has limitations for asexual organisms, fossils, and populations that hybridize occasionally. Alternative species concepts include the morphological species concept, phylogenetic species concept, and ecological species concept.",
+      "questions": [
+        {
+          "id": "evo-q-011",
+          "stem": "A river forms and divides a previously continuous population of lizards into two isolated groups. Over thousands of years, the two populations develop different mating calls and can no longer interbreed. This is an example of:",
+          "options": ["A. Sympatric speciation", "B. Allopatric speciation", "C. Parapatric speciation", "D. Adaptive radiation"],
+          "correct": 1,
+          "explanation": "This scenario describes allopatric speciation because a geographic barrier (the river) separated the population, preventing gene flow. Over time, the isolated populations diverged independently through mutation, selection, and drift until reproductive isolation (behavioral isolation via different mating calls) evolved."
+        },
+        {
+          "id": "evo-q-012",
+          "stem": "A plant species undergoes genome duplication (autopolyploidy), producing tetraploid individuals that can self-fertilize but cannot successfully cross with the diploid parent species. This represents:",
+          "options": ["A. Allopatric speciation via geographic isolation", "B. Sympatric speciation via polyploidy", "C. Adaptive radiation", "D. Convergent evolution"],
+          "correct": 1,
+          "explanation": "This is sympatric speciation because no geographic barrier is involved; the new species arises within the same area as the parent species. Polyploidy (genome duplication) creates immediate reproductive isolation because crosses between tetraploid and diploid individuals produce triploid offspring that are typically sterile."
+        },
+        {
+          "id": "evo-q-013",
+          "stem": "Two closely related bird species have overlapping ranges but breed at different times of year. This is an example of which prezygotic reproductive barrier?",
+          "options": ["A. Habitat isolation", "B. Behavioral isolation", "C. Temporal isolation", "D. Mechanical isolation"],
+          "correct": 2,
+          "explanation": "Temporal isolation occurs when two species breed during different times of day, different seasons, or different years. Since these birds have overlapping geographic ranges but breed at different times of year, they are unlikely to encounter each other during the mating season, preventing interbreeding."
+        },
+        {
+          "id": "evo-q-014",
+          "stem": "Mules, the offspring of a horse and a donkey, are sterile. This sterility is an example of which type of reproductive barrier?",
+          "options": ["A. Prezygotic gametic isolation", "B. Postzygotic hybrid sterility", "C. Prezygotic mechanical isolation", "D. Postzygotic hybrid inviability"],
+          "correct": 1,
+          "explanation": "Hybrid sterility is a postzygotic barrier where the hybrid offspring (the mule) forms successfully and is viable but cannot produce offspring of its own. Mules are sterile because the differing chromosome numbers of horses (2n = 64) and donkeys (2n = 62) prevent proper pairing during meiosis."
+        },
+        {
+          "id": "evo-q-015",
+          "stem": "The biological species concept is difficult to apply to which of the following groups of organisms?",
+          "options": ["A. Sexually reproducing mammal populations", "B. Asexually reproducing bacteria and extinct fossil species", "C. Sympatric bird species with distinct mating behaviors", "D. Fish species separated by a mountain range"],
+          "correct": 1,
+          "explanation": "The biological species concept defines species based on reproductive isolation and the ability to interbreed. This definition cannot be applied to asexually reproducing organisms (like bacteria) that do not interbreed, or to fossil species for which reproductive compatibility cannot be tested. Alternative concepts (morphological, phylogenetic) are used instead."
+        }
+      ]
+    },
+    {
+      "id": "evo-ps-004",
+      "passage": "Phylogenetics reconstructs the evolutionary relationships among organisms using morphological and molecular data. Phylogenetic trees (cladograms) depict hypothesized evolutionary relationships, with branching points (nodes) representing common ancestors. A monophyletic group (clade) includes an ancestor and all of its descendants. Paraphyletic groups include an ancestor but not all descendants, while polyphyletic groups include members from different lineages without their common ancestor. Homologous structures are features shared by different species due to common ancestry (e.g., the forelimbs of mammals), while analogous structures are similar features that arose independently through convergent evolution (e.g., wings of birds and insects). Molecular phylogenetics uses DNA, RNA, or protein sequences to infer evolutionary relationships. The molecular clock hypothesis proposes that mutations accumulate at a roughly constant rate over time, allowing divergence times to be estimated from the degree of sequence difference. Researchers constructing a phylogeny of primates compared cytochrome c amino acid sequences across species. They found that humans and chimpanzees differed by only 1 amino acid, humans and rhesus monkeys differed by 9 amino acids, and humans and dogs differed by 13 amino acids. These data supported the hypothesis that humans and chimpanzees share a more recent common ancestor than either shares with monkeys or dogs. Maximum parsimony and maximum likelihood are two common methods for selecting the best phylogenetic tree from among many possible tree topologies.",
+      "questions": [
+        {
+          "id": "evo-q-016",
+          "stem": "Based on the cytochrome c data, which pair of organisms shares the most recent common ancestor?",
+          "options": ["A. Humans and dogs", "B. Humans and rhesus monkeys", "C. Humans and chimpanzees", "D. Rhesus monkeys and dogs"],
+          "correct": 2,
+          "explanation": "The number of amino acid differences in a conserved protein like cytochrome c reflects evolutionary divergence time. With only 1 amino acid difference, humans and chimpanzees have the most similar sequences, indicating they share the most recent common ancestor among the species compared."
+        },
+        {
+          "id": "evo-q-017",
+          "stem": "Wings of birds and wings of insects are considered analogous structures because they:",
+          "options": ["A. evolved from a shared winged ancestor", "B. are composed of the same skeletal elements", "C. evolved independently in unrelated lineages to serve a similar function", "D. are encoded by the same genes in both organisms"],
+          "correct": 2,
+          "explanation": "Analogous structures are features that serve similar functions but evolved independently in different lineages through convergent evolution. Bird wings are modified forelimbs with feathers, while insect wings are extensions of the exoskeleton -- they have entirely different developmental origins and structures but both enable flight."
+        },
+        {
+          "id": "evo-q-018",
+          "stem": "A monophyletic group (clade) on a phylogenetic tree is defined as:",
+          "options": ["A. any group of organisms that share a similar ecological niche", "B. an ancestor and all of its descendants", "C. organisms that are morphologically similar but not closely related", "D. a group that excludes some descendants of the common ancestor"],
+          "correct": 1,
+          "explanation": "A monophyletic group, or clade, consists of an ancestral species and all of its descendants, forming a complete branch of the tree of life. This is the only type of grouping considered valid in modern phylogenetic classification. Groups that exclude some descendants are paraphyletic, while groups combining unrelated lineages are polyphyletic."
+        },
+        {
+          "id": "evo-q-019",
+          "stem": "The molecular clock hypothesis assumes that:",
+          "options": ["A. all genes evolve at the same rate", "B. mutations accumulate at a roughly constant rate in a given lineage, allowing divergence time estimation", "C. molecular evolution stops after speciation occurs", "D. natural selection is the primary driver of molecular evolution"],
+          "correct": 1,
+          "explanation": "The molecular clock hypothesis posits that neutral mutations accumulate at a roughly constant rate over time for a given gene or protein. By calibrating this rate with known divergence times from the fossil record, researchers can estimate when two lineages diverged based on the number of sequence differences between them."
+        },
+        {
+          "id": "evo-q-020",
+          "stem": "Maximum parsimony selects a phylogenetic tree based on which criterion?",
+          "options": ["A. The tree that requires the fewest evolutionary changes", "B. The tree that maximizes the number of shared derived characters", "C. The tree with the longest total branch lengths", "D. The tree that best fits the molecular clock model"],
+          "correct": 0,
+          "explanation": "Maximum parsimony is a tree-building method that prefers the phylogenetic hypothesis requiring the fewest evolutionary changes (mutations, character state transitions) to explain the observed data. The rationale is that the simplest explanation, invoking the fewest events, is most likely to be correct."
+        }
+      ]
+    },
+    {
+      "id": "evo-ps-005",
+      "passage": "Population genetics examines the genetic composition of populations and how allele frequencies change over time. The sources of genetic variation include mutation, sexual reproduction (recombination and independent assortment), and gene flow (migration). Mutation is the ultimate source of all new alleles, though most mutations are neutral or deleterious; beneficial mutations are rare. Gene flow, the transfer of alleles between populations through migration, tends to homogenize allele frequencies between populations and counteract differentiation caused by selection or drift. Balancing selection maintains genetic polymorphism in a population through several mechanisms. Heterozygote advantage (overdominance) occurs when heterozygotes have higher fitness than either homozygote, as seen with the sickle cell allele (HbS) in malaria-endemic regions. Individuals heterozygous for HbS (HbA/HbS) have mild sickling that provides resistance to Plasmodium falciparum malaria without the severe anemia of homozygous HbS/HbS individuals. Frequency-dependent selection occurs when the fitness of a genotype depends on its frequency in the population. In negative frequency-dependent selection, rare phenotypes have a fitness advantage, preventing any single allele from reaching fixation. Researchers modeled the equilibrium frequency of the HbS allele in a West African population where malaria is endemic and found that the allele is maintained at approximately 12% through a balance between the selective advantage of heterozygotes and the selective disadvantage of homozygous HbS/HbS individuals.",
+      "questions": [
+        {
+          "id": "evo-q-021",
+          "stem": "The sickle cell allele (HbS) is maintained in malaria-endemic populations because:",
+          "options": ["A. homozygous HbS/HbS individuals have the highest fitness", "B. heterozygotes (HbA/HbS) have higher fitness than either homozygote due to malaria resistance", "C. mutation continuously introduces the allele despite selection against it", "D. genetic drift prevents selection from eliminating the allele"],
+          "correct": 1,
+          "explanation": "The HbS allele persists due to heterozygote advantage (overdominance). HbA/HbS heterozygotes gain resistance to malaria without experiencing severe sickle cell disease, giving them higher fitness than both HbA/HbA individuals (who are susceptible to malaria) and HbS/HbS individuals (who suffer from sickle cell disease)."
+        },
+        {
+          "id": "evo-q-022",
+          "stem": "Gene flow between two populations would be expected to:",
+          "options": ["A. increase genetic differences between the populations", "B. decrease genetic variation within each population", "C. homogenize allele frequencies between the populations", "D. accelerate speciation between the populations"],
+          "correct": 2,
+          "explanation": "Gene flow transfers alleles between populations, making them genetically more similar over time. This homogenization counteracts the diverging effects of natural selection and genetic drift. Gene flow can prevent speciation by maintaining genetic connectivity between populations."
+        },
+        {
+          "id": "evo-q-023",
+          "stem": "Why is mutation considered the ultimate source of genetic variation?",
+          "options": ["A. Mutations always increase fitness", "B. Mutation is the only process that creates entirely new alleles in a population", "C. Mutations occur at very high rates in all organisms", "D. Mutations are always inherited by offspring"],
+          "correct": 1,
+          "explanation": "While recombination and independent assortment shuffle existing alleles into new combinations, only mutation can create entirely new alleles that did not previously exist. All genetic variation traces back to mutation events, making it the ultimate source of the raw material upon which evolution acts."
+        },
+        {
+          "id": "evo-q-024",
+          "stem": "In negative frequency-dependent selection, what happens to a rare phenotype?",
+          "options": ["A. It is quickly eliminated from the population", "B. It has a selective advantage and increases in frequency", "C. It remains at the same frequency indefinitely", "D. It is unaffected by natural selection"],
+          "correct": 1,
+          "explanation": "In negative frequency-dependent selection, rare phenotypes have a fitness advantage precisely because they are uncommon. As a rare phenotype increases in frequency, its advantage diminishes. This mechanism maintains polymorphism in the population because no single phenotype can become fixed -- whenever an allele becomes common, it loses its advantage."
+        },
+        {
+          "id": "evo-q-025",
+          "stem": "If malaria were eradicated in a region where HbS is currently maintained by heterozygote advantage, the expected long-term effect on the HbS allele frequency would be:",
+          "options": ["A. an increase, because the allele is no longer needed for malaria resistance", "B. no change, because the allele is selectively neutral", "C. a decrease, because the heterozygote advantage would be lost and selection against HbS/HbS homozygotes would dominate", "D. rapid fixation due to genetic drift"],
+          "correct": 2,
+          "explanation": "Without malaria, the selective advantage of heterozygotes disappears. HbA/HbA, HbA/HbS, and HbS/HbS individuals would be equally susceptible to (now absent) malaria, but HbS/HbS individuals would still suffer from sickle cell disease. Selection against the homozygous HbS condition without any balancing advantage would gradually reduce the HbS allele frequency."
+        }
+      ]
+    },
+    {
+      "id": "evo-ps-006",
+      "passage": "Adaptive radiation is the rapid diversification of a single ancestral lineage into many new species, each adapted to a different ecological niche. This process is typically triggered by the colonization of a new environment with many unoccupied niches, a mass extinction that opens ecological opportunities, or the evolution of a key innovation that allows exploitation of new resources. The classic example of adaptive radiation is Darwin's finches in the Galapagos Islands, where a single ancestral finch species diversified into approximately 15 species with distinct beak morphologies adapted for different food sources: ground finches with thick beaks for crushing seeds, tree finches with slender beaks for probing bark for insects, and the woodpecker finch that uses tools (cactus spines) to extract grubs. The Hawaiian honeycreepers represent another dramatic adaptive radiation, with over 50 species evolving from a single colonizing finch ancestor. Similarly, the cichlid fishes of the African Great Lakes (Victoria, Malawi, and Tanganyika) have undergone explosive speciation, with over 1,500 species evolving in relatively short evolutionary time. Lake Victoria's cichlids diversified into over 500 species in as few as 15,000 years. Ecological opportunity, sexual selection, and hybridization have all been proposed as drivers of cichlid diversification. The concept of an adaptive zone describes the set of ecological niches available to a lineage during adaptive radiation.",
+      "questions": [
+        {
+          "id": "evo-q-026",
+          "stem": "Which of the following conditions most facilitates adaptive radiation?",
+          "options": ["A. A highly competitive environment with many established species", "B. A new or recently vacated environment with many available ecological niches", "C. Strong stabilizing selection in a stable environment", "D. High rates of gene flow between populations"],
+          "correct": 1,
+          "explanation": "Adaptive radiation is driven by ecological opportunity -- the availability of many unoccupied niches that a lineage can exploit. This occurs when organisms colonize new environments (like islands) or when competitors are removed (after mass extinctions), providing open niches without intense interspecific competition."
+        },
+        {
+          "id": "evo-q-027",
+          "stem": "The diverse beak morphologies of Darwin's finches are best explained by:",
+          "options": ["A. random genetic drift in small island populations", "B. natural selection for different feeding strategies in distinct ecological niches", "C. convergent evolution with mainland bird species", "D. hybridization with unrelated bird species on each island"],
+          "correct": 1,
+          "explanation": "The beak diversity of Darwin's finches reflects adaptation to different food sources through natural selection. Ground finches evolved thick beaks for crushing seeds, tree finches evolved slender beaks for probing bark, and each species' beak morphology is closely matched to its primary food source. This is a textbook example of how natural selection drives diversification during adaptive radiation."
+        },
+        {
+          "id": "evo-q-028",
+          "stem": "The rapid speciation of cichlid fishes in Lake Victoria (over 500 species in approximately 15,000 years) suggests that:",
+          "options": ["A. speciation always requires millions of years", "B. cichlids have unusually high mutation rates compared to other fish", "C. ecological opportunity and other factors can drive very rapid diversification", "D. all cichlid species evolved from separate colonization events"],
+          "correct": 2,
+          "explanation": "The cichlid radiation demonstrates that speciation can occur remarkably quickly when ecological opportunity is abundant. The availability of diverse niches in Lake Victoria, combined with sexual selection and the morphological flexibility of cichlid jaw structures, allowed rapid adaptation and reproductive isolation in a geologically short time period."
+        },
+        {
+          "id": "evo-q-029",
+          "stem": "A key innovation in adaptive radiation refers to:",
+          "options": ["A. a geographic barrier that separates populations", "B. a novel trait that allows a lineage to exploit new ecological resources", "C. the loss of a trait that reduces competitive ability", "D. a mutation that causes reproductive isolation"],
+          "correct": 1,
+          "explanation": "A key innovation is a novel evolutionary trait that opens up new adaptive zones by allowing the lineage to exploit previously inaccessible resources or habitats. Examples include the evolution of wings in insects (enabling aerial niches), jaws in vertebrates (enabling predatory lifestyles), and the versatile pharyngeal jaw apparatus in cichlids."
+        },
+        {
+          "id": "evo-q-030",
+          "stem": "The Hawaiian honeycreepers and Darwin's finches are similar examples of adaptive radiation. Both cases share which common feature?",
+          "options": ["A. Both originated from reptilian ancestors", "B. Both involve a single ancestral species diversifying into many species on isolated islands", "C. Both were driven exclusively by genetic drift", "D. Both show identical beak morphologies across species"],
+          "correct": 1,
+          "explanation": "Both the Hawaiian honeycreepers and Darwin's finches illustrate island adaptive radiation: in each case, a single colonizing finch ancestor arrived on an isolated island archipelago and diversified into many species occupying different ecological niches. The isolation of islands reduces competition and gene flow, promoting rapid diversification."
+        }
+      ]
+    },
+    {
+      "id": "evo-ps-007",
+      "passage": "Convergent evolution occurs when unrelated organisms independently evolve similar traits in response to similar environmental pressures or ecological niches. These similar features are termed analogous structures and reflect adaptation rather than shared ancestry. The streamlined body shape of dolphins (mammals), ichthyosaurs (extinct reptiles), and sharks (cartilaginous fish) is a striking example: three distantly related lineages independently evolved similar hydrodynamic body plans for efficient swimming in aquatic environments. Camera-type eyes evolved independently in vertebrates and cephalopod mollusks (octopuses and squid), though with notable structural differences -- the vertebrate retina is inverted (with photoreceptors behind neurons, creating a blind spot), while the cephalopod retina is non-inverted. Echolocation evolved convergently in bats and toothed whales, with both groups independently evolving the ability to emit high-frequency sounds and interpret the returning echoes to navigate and locate prey. Molecular convergence has also been documented: prestin, a protein involved in high-frequency hearing, shows convergent amino acid substitutions in echolocating bats and dolphins. Convergent evolution is contrasted with parallel evolution, where closely related species independently evolve similar traits, often using the same developmental pathways and genetic mechanisms. The distinction between convergence and parallelism can be blurred when the same genes underlie similar adaptations in distantly related organisms.",
+      "questions": [
+        {
+          "id": "evo-q-031",
+          "stem": "The streamlined body shapes of dolphins, ichthyosaurs, and sharks are best described as:",
+          "options": ["A. homologous structures inherited from a common aquatic ancestor", "B. vestigial structures from a terrestrial ancestor", "C. analogous structures resulting from convergent evolution in aquatic environments", "D. evidence that all three are closely related in the same clade"],
+          "correct": 2,
+          "explanation": "These similar body shapes are analogous structures produced by convergent evolution. Dolphins are mammals, ichthyosaurs were reptiles, and sharks are cartilaginous fish -- they are not closely related. Their similar streamlined forms evolved independently as adaptations to the shared selective pressures of moving efficiently through water."
+        },
+        {
+          "id": "evo-q-032",
+          "stem": "The convergent amino acid substitutions in the prestin protein of echolocating bats and dolphins demonstrate that:",
+          "options": ["A. bats and dolphins are more closely related than previously thought", "B. convergent evolution can occur at the molecular level when similar selective pressures act on the same protein", "C. prestin was inherited from a common echolocating ancestor", "D. all mammals share identical prestin sequences"],
+          "correct": 1,
+          "explanation": "The convergent molecular changes in prestin show that similar selective pressures (the need for high-frequency hearing in echolocation) can independently drive similar amino acid substitutions in unrelated lineages. This is molecular convergence, where evolution arrives at similar solutions through independent paths."
+        },
+        {
+          "id": "evo-q-033",
+          "stem": "The camera-type eyes of vertebrates and cephalopods evolved independently. Which observation provides the strongest evidence that these structures are analogous rather than homologous?",
+          "options": ["A. Both types of eyes can detect light", "B. The retinal architecture differs: vertebrate retinas are inverted while cephalopod retinas are not", "C. Both organisms live in similar environments", "D. Both use similar lens proteins"],
+          "correct": 1,
+          "explanation": "While both eye types perform similar functions, the fundamental structural difference in retinal organization (inverted vs. non-inverted) indicates independent evolutionary origins. If the eyes were homologous (inherited from a common ancestor), we would expect the same basic architectural plan. The different construction reveals independent evolutionary solutions to the same problem."
+        },
+        {
+          "id": "evo-q-034",
+          "stem": "Convergent evolution is evidence that:",
+          "options": ["A. natural selection always produces the same outcomes in all lineages", "B. similar environmental pressures can independently shape similar adaptations in unrelated organisms", "C. genetic drift is the primary mechanism of adaptive evolution", "D. all life shares a single common ancestor"],
+          "correct": 1,
+          "explanation": "Convergent evolution demonstrates the power of natural selection to independently produce similar solutions to similar environmental challenges in unrelated organisms. When different lineages face the same selective pressures, natural selection can drive the evolution of analogous traits, even though the lineages lack recent common ancestry."
+        },
+        {
+          "id": "evo-q-035",
+          "stem": "Which of the following would NOT be considered an example of convergent evolution?",
+          "options": ["A. Wings of bats and wings of birds", "B. The forelimb bones of whales and the forelimb bones of humans", "C. The body shape of a sugar glider (marsupial) and a flying squirrel (placental)", "D. Spines of cacti and spines of African euphorbias"],
+          "correct": 1,
+          "explanation": "The forelimbs of whales and humans are homologous structures -- they share the same underlying skeletal plan (humerus, radius, ulna, carpals, phalanges) inherited from a common mammalian ancestor. Despite their different functions (swimming vs. manipulation), they demonstrate common ancestry rather than convergent evolution."
+        }
+      ]
+    },
+    {
+      "id": "evo-ps-008",
+      "passage": "Evidence for evolution comes from multiple independent lines of inquiry including the fossil record, comparative anatomy, molecular biology, biogeography, and direct observation. The fossil record documents the sequential appearance of organisms over geologic time, revealing transitional forms such as Tiktaalik (showing features intermediate between fish and tetrapods) and Archaeopteryx (showing features of both dinosaurs and birds). Comparative anatomy reveals homologous structures -- features with similar underlying structure but different functions -- that point to common ancestry. Vestigial structures, such as the human appendix, the pelvic bones of whales, and the wings of flightless birds, are reduced or non-functional remnants of structures that served a purpose in ancestral species. Molecular evidence provides perhaps the most compelling support: all known life uses the same genetic code, with DNA as the hereditary material transcribed to RNA and translated to protein. Phylogenetic analyses based on DNA sequences consistently group organisms in ways that match predictions from morphological and fossil evidence. Biogeography reveals that closely related species tend to be found in geographic proximity, as expected if they evolved from a recent common ancestor in that region. Direct observations of evolution include the development of antibiotic resistance in bacteria, industrial melanism in peppered moths, and the beak depth changes in Galapagos finches documented by Peter and Rosemary Grant.",
+      "questions": [
+        {
+          "id": "evo-q-036",
+          "stem": "Tiktaalik is considered a transitional fossil because it:",
+          "options": ["A. is the oldest known fossil of any organism", "B. has features intermediate between two major groups, fish and tetrapods", "C. demonstrates that evolution occurs only through sudden large changes", "D. proves that fish are the ancestors of all modern mammals"],
+          "correct": 1,
+          "explanation": "Tiktaalik exhibits a mosaic of fish-like features (scales, fins) and tetrapod-like features (a flat head, a neck, robust fins with wrist-like joints capable of supporting the body). This combination of characteristics places it morphologically between fish and early land-dwelling tetrapods, illustrating the gradual transition from water to land."
+        },
+        {
+          "id": "evo-q-037",
+          "stem": "The pelvic bones found in modern whales are considered vestigial structures because they:",
+          "options": ["A. are larger and more functional than in terrestrial ancestors", "B. are reduced remnants of structures that supported hind limbs in terrestrial ancestors", "C. serve a critical role in swimming locomotion", "D. are evidence of convergent evolution with fish"],
+          "correct": 1,
+          "explanation": "Whales evolved from terrestrial ancestors that had functional hind limbs supported by a complete pelvis. Modern whales retain small, reduced pelvic bones that no longer support hind limbs or serve their original locomotory function. These vestigial structures provide evidence of evolutionary descent from legged ancestors."
+        },
+        {
+          "id": "evo-q-038",
+          "stem": "The universal genetic code (the same codons specify the same amino acids in virtually all organisms) supports evolution because it suggests:",
+          "options": ["A. all organisms evolved independently with the same solution", "B. all life descended from a common ancestor that used this genetic code", "C. the genetic code was designed to be universal", "D. each organism evolved its own unique code that later converged"],
+          "correct": 1,
+          "explanation": "The near-universality of the genetic code among all known life forms is most parsimoniously explained by common descent from a single ancestor in which this code was established. If life had multiple independent origins, we would expect different genetic codes, just as independently invented human languages use different symbols and rules."
+        },
+        {
+          "id": "evo-q-039",
+          "stem": "The development of antibiotic resistance in bacteria is an example of evolution that can be directly observed because:",
+          "options": ["A. bacteria have very long generation times", "B. bacteria reproduce rapidly, allowing researchers to observe allele frequency changes in real time", "C. antibiotic resistance is not heritable", "D. bacteria cannot undergo natural selection"],
+          "correct": 1,
+          "explanation": "Bacteria reproduce rapidly (often dividing every 20-30 minutes), allowing scientists to observe evolutionary changes over days to weeks rather than millennia. When exposed to antibiotics, susceptible bacteria die while resistant mutants survive and reproduce, demonstrating natural selection and evolution in real time."
+        },
+        {
+          "id": "evo-q-040",
+          "stem": "Biogeographic evidence for evolution includes the observation that:",
+          "options": ["A. identical species are found on every continent", "B. closely related species tend to be found near each other geographically", "C. all islands have the same set of species", "D. species distribution is random and unrelated to geography"],
+          "correct": 1,
+          "explanation": "Closely related species tend to be found in geographic proximity because they evolved from a recent common ancestor in that region and then diversified locally. For example, the many lemur species found only on Madagascar descended from a single colonizing ancestor. This pattern of geographic clustering of related species is predicted by evolution and would not be expected if species were independently created."
+        }
+      ]
+    },
+    {
+      "id": "evo-ps-009",
+      "passage": "Sexual selection is a form of natural selection in which individuals with certain traits have a reproductive advantage due to increased mating success rather than increased survival. Darwin recognized two mechanisms of sexual selection: intrasexual selection (competition within one sex, usually males, for access to mates) and intersexual selection (mate choice, usually by females selecting males with preferred traits). Intrasexual selection favors traits that enhance competitive ability, such as large body size, antlers in deer, and aggressive behavior. Intersexual selection favors traits that are attractive to the choosing sex, even if those traits are costly to the bearer. The peacock's elaborate tail is a classic example: it is energetically expensive to grow and maintain, conspicuous to predators, and impedes flight, yet it persists because peahens prefer males with larger, more colorful tails. Several hypotheses explain female mate choice. The good genes hypothesis proposes that elaborate male traits are honest signals of genetic quality. The handicap principle, proposed by Amotz Zahavi, suggests that costly ornaments reliably indicate male quality because only high-quality males can afford to bear such handicaps. Fisherian runaway selection proposes a self-reinforcing feedback loop: females that prefer a male trait produce sons with the trait and daughters with the preference, leading to escalating elaboration of the trait. Sexual dimorphism, where males and females of the same species differ in size, coloration, or ornamentation, is often a consequence of sexual selection.",
+      "questions": [
+        {
+          "id": "evo-q-041",
+          "stem": "The peacock's tail persists despite being costly because:",
+          "options": ["A. it provides camouflage from predators", "B. peahens preferentially mate with males displaying larger, more colorful tails", "C. it enhances the peacock's ability to fly", "D. natural selection always favors the most conspicuous traits"],
+          "correct": 1,
+          "explanation": "The peacock's tail is maintained by intersexual selection (female choice). Despite its costs in terms of energy, predation risk, and reduced flight ability, males with elaborate tails have higher mating success because peahens prefer them. The reproductive advantage from increased mating outweighs the survival costs."
+        },
+        {
+          "id": "evo-q-042",
+          "stem": "Antler size in male deer is most likely the result of which type of selection?",
+          "options": ["A. Stabilizing selection for medium-sized antlers", "B. Intrasexual selection via male-male competition", "C. Intersexual selection via female choice", "D. Disruptive selection for extreme antler sizes"],
+          "correct": 1,
+          "explanation": "Male deer use their antlers primarily for combat with other males during the breeding season. Males with larger antlers are more successful in these competitions and gain access to more females. This is intrasexual selection, where competition within one sex (males) drives the evolution of traits that enhance competitive ability."
+        },
+        {
+          "id": "evo-q-043",
+          "stem": "According to the handicap principle, elaborate male ornaments are honest signals of genetic quality because:",
+          "options": ["A. all males can produce equally elaborate ornaments", "B. only high-quality males can survive and reproduce while bearing the cost of such ornaments", "C. the ornaments have no energetic cost", "D. predators ignore ornamented males"],
+          "correct": 1,
+          "explanation": "The handicap principle proposes that costly traits reliably signal quality because they are prohibitively expensive for low-quality males. Only males in excellent condition can allocate resources to elaborate ornaments while still maintaining good health, escaping predators, and obtaining food. This makes the ornament an honest, unfakeable signal of the male's overall genetic quality."
+        },
+        {
+          "id": "evo-q-044",
+          "stem": "Sexual dimorphism in a species is most likely driven by:",
+          "options": ["A. identical selective pressures on both sexes", "B. genetic drift acting differently on males and females", "C. sexual selection pressures that differ between males and females", "D. environmental variation between habitats occupied by males and females"],
+          "correct": 2,
+          "explanation": "Sexual dimorphism arises when males and females experience different selective pressures, typically due to sexual selection. Males may be selected for traits that enhance mating success (large size, bright coloration, elaborate ornaments), while females may be selected for traits that enhance survival and parental care (cryptic coloration, energy efficiency)."
+        },
+        {
+          "id": "evo-q-045",
+          "stem": "In Fisherian runaway selection, the elaborate male trait and the female preference for it both increase in frequency because:",
+          "options": ["A. the trait improves male survival", "B. sons inherit the trait and daughters inherit the preference, creating a positive feedback loop", "C. only males with the trait survive to adulthood", "D. females that prefer the trait have more food resources available"],
+          "correct": 1,
+          "explanation": "Fisherian runaway selection creates a genetic correlation between the male trait and the female preference. Females who prefer ornamented males produce sons that carry the ornament genes and daughters that carry the preference genes. This linkage creates a self-reinforcing cycle that drives both the trait and the preference to become more extreme over evolutionary time."
+        }
+      ]
+    },
+    {
+      "id": "evo-ps-010",
+      "passage": "Coevolution is the reciprocal evolutionary change between interacting species, driven by natural selection that each species exerts on the other. Predator-prey coevolution exemplifies an evolutionary arms race: as prey evolve better defenses (camouflage, toxicity, speed), predators evolve counter-adaptations (keener senses, detoxification enzymes, greater speed). The rough-skinned newt (Taricha granulosa) produces tetrodotoxin (TTX), a potent neurotoxin, in its skin. The common garter snake (Thamnophis sirtalis), a major predator of the newt, has evolved resistance to TTX through mutations in its sodium channel proteins that reduce TTX binding. Geographic analysis reveals a coevolutionary mosaic: in areas where newts are most toxic, snakes are most resistant, and vice versa. Mutualistic coevolution involves both species benefiting from the interaction. Many flowering plants and their pollinators show highly specialized coevolved relationships. The long nectar spur of the Malagasy star orchid (Angraecum sesquipedale) and the correspondingly long proboscis of its hawkmoth pollinator (Xanthopan morganii praedicta) represent a famous example predicted by Darwin. Parasitic coevolution follows the Red Queen hypothesis: hosts and parasites continuously evolve in response to each other, with neither gaining a permanent advantage. This arms race is thought to be a major driver of the evolution of sexual reproduction, which generates the genetic diversity needed to combat rapidly evolving parasites.",
+      "questions": [
+        {
+          "id": "evo-q-046",
+          "stem": "The geographic correlation between newt toxicity and snake resistance levels is evidence of:",
+          "options": ["A. convergent evolution between newts and snakes", "B. a coevolutionary arms race with reciprocal adaptation in interacting populations", "C. genetic drift affecting both species simultaneously", "D. the founder effect in isolated populations"],
+          "correct": 1,
+          "explanation": "The geographic matching of newt toxicity and snake resistance demonstrates ongoing reciprocal selection: in populations where newts have evolved high toxicity, snakes have evolved correspondingly high resistance, and in populations with less toxic newts, snakes show lower resistance. This pattern of matched escalation across geography is the hallmark of a coevolutionary arms race."
+        },
+        {
+          "id": "evo-q-047",
+          "stem": "The Red Queen hypothesis proposes that:",
+          "options": ["A. organisms must continuously evolve to maintain fitness in the face of coevolving antagonists", "B. evolution always leads to increased complexity", "C. parasites eventually evolve into mutualists", "D. sexual reproduction is less advantageous than asexual reproduction"],
+          "correct": 0,
+          "explanation": "The Red Queen hypothesis, named after the Red Queen in Alice Through the Looking Glass who must keep running to stay in place, proposes that organisms must continuously evolve new defenses just to maintain their current level of fitness against coevolving competitors, parasites, or predators. Standing still evolutionarily means falling behind."
+        },
+        {
+          "id": "evo-q-048",
+          "stem": "The long nectar spur of the star orchid and the correspondingly long proboscis of its hawkmoth pollinator is an example of:",
+          "options": ["A. convergent evolution", "B. mutualistic coevolution", "C. parasitic coevolution", "D. competitive exclusion"],
+          "correct": 1,
+          "explanation": "The orchid-hawkmoth relationship is mutualistic coevolution because both species benefit: the orchid achieves pollination and the moth obtains nectar. The matching of spur length and proboscis length reflects reciprocal selection -- orchids with longer spurs were pollinated more effectively, and moths with longer proboscises could access more nectar."
+        },
+        {
+          "id": "evo-q-049",
+          "stem": "How did the garter snake evolve resistance to tetrodotoxin?",
+          "options": ["A. Through behavioral avoidance of toxic newts", "B. Through mutations in sodium channel proteins that reduce TTX binding", "C. Through production of a neutralizing antibody", "D. Through symbiotic bacteria in the gut that detoxify TTX"],
+          "correct": 1,
+          "explanation": "TTX blocks sodium channels in nerve and muscle cells. The garter snake evolved resistance through mutations in the genes encoding sodium channel proteins that alter the TTX binding site, reducing the toxin's ability to bind and block the channel. These mutations represent a direct molecular adaptation to the predator-prey arms race."
+        },
+        {
+          "id": "evo-q-050",
+          "stem": "The Red Queen hypothesis suggests that sexual reproduction is advantageous because:",
+          "options": ["A. it produces offspring that are identical to their parents", "B. it is energetically less costly than asexual reproduction", "C. it generates genetic diversity that helps populations combat rapidly evolving parasites", "D. it eliminates all deleterious mutations from the genome"],
+          "correct": 2,
+          "explanation": "Sexual reproduction, through recombination and independent assortment, generates genetically diverse offspring. This diversity is crucial for staying ahead of rapidly evolving parasites that adapt to the most common host genotypes. Asexual populations, which produce genetically identical offspring, are more vulnerable because parasites can specialize on the uniform host genotype."
+        }
+      ]
+    }
+  ]
+}

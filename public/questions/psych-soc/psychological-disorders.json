@@ -1,0 +1,416 @@
+{
+  "subtopic": "Psychological Disorders & Treatment",
+  "sectionId": "psych-soc",
+  "passageSets": [
+    {
+      "id": "pd-ps-001",
+      "passage": "Dr. Rivera conducted a longitudinal study examining the diagnostic trajectory of 450 patients presenting with initial symptoms of generalized anxiety disorder (GAD) at a large urban psychiatric clinic. Over a five-year follow-up period, researchers tracked symptom evolution, comorbidity development, and treatment response. Results indicated that 38% of patients initially diagnosed with GAD later met criteria for major depressive disorder (MDD), while 22% developed comorbid panic disorder. Patients who received cognitive-behavioral therapy (CBT) within the first six months of diagnosis showed significantly lower rates of comorbidity development compared to those who received pharmacotherapy alone (p < 0.01). Neuroimaging data revealed that patients with persistent GAD showed increased amygdala reactivity and reduced prefrontal cortex activation during emotion regulation tasks. The study also found that patients with a family history of anxiety disorders were 2.7 times more likely to develop treatment-resistant symptoms. Researchers noted that socioeconomic factors, including insurance status and geographic access to mental health services, significantly predicted treatment adherence rates across all diagnostic categories.",
+      "questions": [
+        {
+          "id": "pd-ps-001-q1",
+          "stem": "Based on the study findings, which brain regions are most implicated in persistent GAD symptoms?",
+          "options": ["A. Hippocampus and cerebellum", "B. Amygdala and prefrontal cortex", "C. Basal ganglia and thalamus", "D. Broca's area and Wernicke's area"],
+          "correct": 1,
+          "explanation": "The passage specifically states that patients with persistent GAD showed increased amygdala reactivity and reduced prefrontal cortex activation. The amygdala is central to fear processing and emotional responses, while the prefrontal cortex is involved in emotion regulation and executive control."
+        },
+        {
+          "id": "pd-ps-001-q2",
+          "stem": "The finding that 38% of GAD patients later developed MDD best illustrates which concept?",
+          "options": ["A. Differential diagnosis", "B. Comorbidity", "C. Iatrogenic illness", "D. Malingering"],
+          "correct": 1,
+          "explanation": "Comorbidity refers to the co-occurrence of two or more disorders in the same individual. The development of MDD in patients already diagnosed with GAD represents a classic example of psychiatric comorbidity, which is commonly observed between anxiety and mood disorders."
+        },
+        {
+          "id": "pd-ps-001-q3",
+          "stem": "The superior outcomes of CBT compared to pharmacotherapy alone in preventing comorbidity development can best be explained by CBT's emphasis on:",
+          "options": ["A. Uncovering unconscious conflicts from early childhood", "B. Modifying maladaptive thought patterns and behavioral responses", "C. Achieving self-actualization through unconditional positive regard", "D. Altering neurotransmitter levels in the synaptic cleft"],
+          "correct": 1,
+          "explanation": "CBT focuses on identifying and modifying dysfunctional cognitions and maladaptive behavioral patterns. By teaching patients to restructure negative thought patterns and develop adaptive coping strategies, CBT addresses the cognitive and behavioral mechanisms that may contribute to the development of additional disorders."
+        },
+        {
+          "id": "pd-ps-001-q4",
+          "stem": "The 2.7-fold increased risk of treatment resistance in patients with a family history of anxiety disorders supports which etiological model?",
+          "options": ["A. Purely behavioral model", "B. Diathesis-stress model", "C. Sociocultural model exclusively", "D. Humanistic model"],
+          "correct": 1,
+          "explanation": "The diathesis-stress model proposes that disorders result from an interaction between biological predisposition (diathesis) and environmental stressors. The family history finding suggests a genetic vulnerability component, which aligns with the diathesis aspect of this model, while environmental factors may serve as triggering stressors."
+        },
+        {
+          "id": "pd-ps-001-q5",
+          "stem": "The finding that insurance status and geographic access predicted treatment adherence best reflects which barrier to mental health care?",
+          "options": ["A. Stigma-related barriers", "B. Structural barriers", "C. Intrapsychic barriers", "D. Cultural barriers"],
+          "correct": 1,
+          "explanation": "Structural barriers to mental health care include systemic and logistical obstacles such as lack of insurance coverage, geographic distance from providers, and financial constraints. These are distinct from attitudinal or cultural barriers and represent tangible impediments to accessing care."
+        }
+      ]
+    },
+    {
+      "id": "pd-ps-002",
+      "passage": "A research team investigated the efficacy of various antidepressant medications in a double-blind, placebo-controlled trial involving 600 adults diagnosed with major depressive disorder. Participants were randomly assigned to receive either a selective serotonin reuptake inhibitor (SSRI), a serotonin-norepinephrine reuptake inhibitor (SNRI), a tricyclic antidepressant (TCA), or placebo for 12 weeks. Depression severity was measured using the Hamilton Depression Rating Scale (HAM-D) at baseline, 4 weeks, 8 weeks, and 12 weeks. Results showed that all three active medication groups demonstrated significantly greater symptom reduction compared to placebo by week 8, with SSRIs and SNRIs showing comparable efficacy. TCAs produced slightly greater symptom reduction but were associated with a significantly higher rate of side effects, including dry mouth, constipation, and cardiac arrhythmias, leading to a 34% dropout rate in the TCA group compared to 12% in the SSRI group. Notably, 28% of participants across all active medication groups showed no significant improvement, classified as treatment-resistant. Genetic analysis revealed that polymorphisms in the CYP2D6 gene, which encodes a liver enzyme involved in drug metabolism, were strongly associated with treatment response variability.",
+      "questions": [
+        {
+          "id": "pd-ps-002-q1",
+          "stem": "SSRIs primarily exert their therapeutic effect by:",
+          "options": ["A. Blocking the reuptake of dopamine in the mesolimbic pathway", "B. Inhibiting monoamine oxidase enzymes in the synaptic cleft", "C. Selectively blocking the reuptake of serotonin at the presynaptic membrane", "D. Enhancing GABA receptor sensitivity at inhibitory synapses"],
+          "correct": 2,
+          "explanation": "SSRIs work by selectively inhibiting the reuptake of serotonin (5-HT) at the presynaptic neuron, thereby increasing serotonin availability in the synaptic cleft. This mechanism is more targeted than older antidepressants, which accounts for their generally more favorable side effect profile."
+        },
+        {
+          "id": "pd-ps-002-q2",
+          "stem": "The higher dropout rate in the TCA group compared to the SSRI group most directly threatens which aspect of the study's validity?",
+          "options": ["A. Construct validity", "B. Internal validity due to attrition", "C. Face validity", "D. Ecological validity"],
+          "correct": 1,
+          "explanation": "Differential attrition (dropout) between groups threatens internal validity because the remaining participants in the TCA group may systematically differ from those who dropped out. This creates a selection bias that makes it difficult to draw valid causal conclusions about treatment efficacy."
+        },
+        {
+          "id": "pd-ps-002-q3",
+          "stem": "The association between CYP2D6 polymorphisms and treatment response variability best exemplifies the field of:",
+          "options": ["A. Behavioral genetics", "B. Pharmacogenomics", "C. Epigenetics", "D. Population genetics"],
+          "correct": 1,
+          "explanation": "Pharmacogenomics studies how genetic variation affects an individual's response to drugs. The CYP2D6 gene encodes a cytochrome P450 enzyme involved in metabolizing many medications, and polymorphisms in this gene can lead to rapid or poor metabolism of antidepressants, directly affecting drug efficacy and side effects."
+        },
+        {
+          "id": "pd-ps-002-q4",
+          "stem": "The use of a double-blind design in this study primarily serves to control for:",
+          "options": ["A. Selection bias and confounding variables", "B. Placebo effects and experimenter bias", "C. Hawthorne effect and social desirability", "D. Regression to the mean and maturation"],
+          "correct": 1,
+          "explanation": "In a double-blind design, neither participants nor researchers know who receives the active treatment versus placebo. This controls for placebo effects (participant expectations influencing outcomes) and experimenter bias (researcher expectations influencing data collection or interpretation)."
+        },
+        {
+          "id": "pd-ps-002-q5",
+          "stem": "A patient in the study who metabolizes SSRIs unusually quickly due to CYP2D6 variants would most likely be classified as:",
+          "options": ["A. A poor metabolizer requiring dose reduction", "B. An intermediate metabolizer requiring standard dosing", "C. An ultra-rapid metabolizer potentially requiring dose increase", "D. A normal metabolizer with typical drug clearance"],
+          "correct": 2,
+          "explanation": "Ultra-rapid metabolizers have genetic variants that cause them to break down medications faster than normal, leading to lower plasma drug concentrations and potentially reduced therapeutic efficacy. These patients may require higher doses or alternative medications to achieve adequate treatment response."
+        }
+      ]
+    },
+    {
+      "id": "pd-ps-003",
+      "passage": "A psychiatric hospital conducted a retrospective chart review of 320 patients diagnosed with schizophrenia spectrum disorders over a ten-year period. The study examined the relationship between age of onset, symptom presentation, and long-term functional outcomes. Patients were categorized by predominant symptom type: those with primarily positive symptoms (hallucinations, delusions, disorganized speech) versus those with primarily negative symptoms (flat affect, avolition, alogia, anhedonia). Results showed that patients with predominantly negative symptoms had significantly poorer functional outcomes, including lower rates of employment (18% vs. 42%) and independent living (24% vs. 51%). Earlier age of onset was associated with more severe negative symptoms and greater cognitive decline. Antipsychotic medications effectively reduced positive symptoms in 72% of patients but showed minimal improvement in negative symptoms. The dopamine hypothesis was partially supported, as patients with positive symptoms showed elevated D2 receptor activity in the mesolimbic pathway. However, patients with prominent negative symptoms showed reduced dopaminergic activity in the mesocortical pathway, suggesting that schizophrenia involves both dopaminergic excess and deficit depending on the neural circuit involved. Family studies revealed a concordance rate of 48% for monozygotic twins versus 17% for dizygotic twins.",
+      "questions": [
+        {
+          "id": "pd-ps-003-q1",
+          "stem": "Which of the following is an example of a negative symptom of schizophrenia as described in the passage?",
+          "options": ["A. Auditory hallucinations commanding the patient to act", "B. Persecutory delusions involving government surveillance", "C. Marked reduction in emotional expression and motivation", "D. Disorganized speech with frequent derailment"],
+          "correct": 2,
+          "explanation": "Negative symptoms represent a diminution or loss of normal functions, including flat affect (reduced emotional expression) and avolition (reduced motivation). These contrast with positive symptoms, which represent an excess or distortion of normal functioning, such as hallucinations and delusions."
+        },
+        {
+          "id": "pd-ps-003-q2",
+          "stem": "The twin concordance data (48% MZ vs. 17% DZ) most strongly suggests that schizophrenia is:",
+          "options": ["A. Entirely determined by genetic factors", "B. Entirely determined by environmental factors", "C. Influenced by both genetic and environmental factors", "D. Caused by shared family environment rather than genetics"],
+          "correct": 2,
+          "explanation": "The higher concordance rate for monozygotic twins (48%) compared to dizygotic twins (17%) indicates a significant genetic component. However, the fact that the MZ concordance rate is well below 100% demonstrates that environmental factors also play a crucial role, supporting a multifactorial etiology."
+        },
+        {
+          "id": "pd-ps-003-q3",
+          "stem": "The finding that antipsychotics effectively treat positive but not negative symptoms is most consistent with the mechanism of action of:",
+          "options": ["A. Serotonin reuptake inhibition", "B. GABA receptor agonism", "C. Dopamine D2 receptor antagonism", "D. Norepinephrine reuptake inhibition"],
+          "correct": 2,
+          "explanation": "Traditional antipsychotics primarily work by blocking dopamine D2 receptors in the mesolimbic pathway, which addresses the dopaminergic excess associated with positive symptoms. However, since negative symptoms are linked to dopaminergic deficits in the mesocortical pathway, D2 antagonism would not improve and could potentially worsen these symptoms."
+        },
+        {
+          "id": "pd-ps-003-q4",
+          "stem": "The passage describes dopaminergic activity differences across brain pathways in schizophrenia. This evidence best supports which model of the disorder?",
+          "options": ["A. A single-cause model based on dopamine excess", "B. A revised dopamine hypothesis involving pathway-specific dysregulation", "C. A purely glutamatergic model of schizophrenia", "D. A model based exclusively on structural brain abnormalities"],
+          "correct": 1,
+          "explanation": "The passage describes both dopaminergic excess in the mesolimbic pathway (associated with positive symptoms) and dopaminergic deficit in the mesocortical pathway (associated with negative symptoms). This supports a revised dopamine hypothesis that accounts for pathway-specific dysregulation rather than a simple excess model."
+        },
+        {
+          "id": "pd-ps-003-q5",
+          "stem": "The finding that earlier age of onset correlates with more severe negative symptoms and cognitive decline is most consistent with the concept of:",
+          "options": ["A. Regression to the mean in clinical populations", "B. Neurodevelopmental vulnerability during critical brain maturation periods", "C. The Hawthorne effect influencing clinical assessment", "D. Confirmation bias in retrospective chart reviews"],
+          "correct": 1,
+          "explanation": "Earlier onset of schizophrenia during critical periods of brain development may disrupt normal neurodevelopmental processes, particularly prefrontal cortex maturation. This neurodevelopmental perspective explains why earlier onset is associated with more severe cognitive and negative symptom profiles."
+        }
+      ]
+    },
+    {
+      "id": "pd-ps-004",
+      "passage": "Researchers at a university counseling center conducted a study comparing the effectiveness of three therapeutic approaches for treating post-traumatic stress disorder (PTSD) in college students who had experienced interpersonal violence. The 180 participants were randomly assigned to prolonged exposure therapy (PE), eye movement desensitization and reprocessing (EMDR), or a waitlist control group. Assessments using the PTSD Checklist (PCL-5) were conducted at baseline, mid-treatment (6 weeks), post-treatment (12 weeks), and 6-month follow-up. Both PE and EMDR groups showed significant reductions in PTSD symptoms compared to the control group, with PE showing slightly greater improvements in avoidance symptoms and EMDR demonstrating faster initial symptom reduction. At 6-month follow-up, both treatment groups maintained their gains, though 15% of participants in each group experienced partial symptom relapse. Cortisol levels were measured throughout the study, revealing that successful treatment was associated with normalization of the hypothalamic-pituitary-adrenal (HPA) axis stress response. Participants with comorbid substance use disorders showed significantly poorer treatment outcomes across both modalities. The study also found that therapeutic alliance, measured by the Working Alliance Inventory, was the strongest predictor of treatment success regardless of modality, accounting for 25% of the variance in symptom reduction.",
+      "questions": [
+        {
+          "id": "pd-ps-004-q1",
+          "stem": "Prolonged exposure therapy for PTSD is based primarily on which theoretical principle?",
+          "options": ["A. Classical conditioning and extinction of fear responses", "B. Operant conditioning and reinforcement schedules", "C. Psychoanalytic interpretation of unconscious trauma", "D. Humanistic self-actualization theory"],
+          "correct": 0,
+          "explanation": "Prolonged exposure therapy is grounded in emotional processing theory and the principles of classical conditioning. By repeatedly exposing patients to trauma-related stimuli in a safe environment, the conditioned fear response undergoes extinction, weakening the association between trauma cues and the fear response."
+        },
+        {
+          "id": "pd-ps-004-q2",
+          "stem": "The finding that therapeutic alliance was the strongest predictor of treatment success regardless of modality supports which perspective on psychotherapy?",
+          "options": ["A. The medical model of mental illness", "B. The common factors approach to psychotherapy", "C. The superiority of behavioral interventions", "D. The biological basis of psychiatric treatment"],
+          "correct": 1,
+          "explanation": "The common factors approach posits that therapeutic outcomes are primarily driven by factors shared across different therapy modalities, such as the therapeutic alliance, empathy, and positive expectations, rather than by technique-specific factors. The finding that alliance predicted outcomes regardless of treatment type directly supports this perspective."
+        },
+        {
+          "id": "pd-ps-004-q3",
+          "stem": "Normalization of the HPA axis stress response following successful PTSD treatment suggests that chronic PTSD is associated with:",
+          "options": ["A. Overactivation of the parasympathetic nervous system", "B. Dysregulation of the neuroendocrine stress response system", "C. Excessive serotonin production in the raphe nuclei", "D. Reduced activity in the reticular activating system"],
+          "correct": 1,
+          "explanation": "The HPA axis is the body's primary neuroendocrine stress response system, involving the hypothalamus, pituitary gland, and adrenal cortex in cortisol regulation. PTSD is associated with HPA axis dysregulation, and the finding that successful treatment normalized cortisol levels confirms that chronic PTSD involves disrupted neuroendocrine stress functioning."
+        },
+        {
+          "id": "pd-ps-004-q4",
+          "stem": "The inclusion of a waitlist control group rather than an active placebo group is most likely to be criticized for:",
+          "options": ["A. Violating random assignment procedures", "B. Failing to control for non-specific treatment effects like expectancy", "C. Introducing experimenter bias into the study design", "D. Reducing the external validity of the findings"],
+          "correct": 1,
+          "explanation": "A waitlist control group does not receive any intervention, which means it cannot control for non-specific treatment effects such as patient expectancy, attention from a therapist, or the simple passage of time in a structured setting. An active placebo or attention-control group would better isolate the specific therapeutic effects of PE and EMDR."
+        },
+        {
+          "id": "pd-ps-004-q5",
+          "stem": "The poorer treatment outcomes in participants with comorbid substance use disorders most likely reflects:",
+          "options": ["A. The placebo effect interfering with treatment", "B. Substance use interfering with emotional processing and neurobiological recovery", "C. Lack of random assignment in the study", "D. The Rosenthal effect biasing therapist expectations"],
+          "correct": 1,
+          "explanation": "Substance use can interfere with the emotional processing necessary for trauma-focused therapies and disrupt the neurobiological mechanisms (such as HPA axis normalization) involved in recovery. Additionally, substances may serve as avoidance strategies that maintain PTSD symptoms by preventing natural extinction of fear responses."
+        }
+      ]
+    },
+    {
+      "id": "pd-ps-005",
+      "passage": "A clinical psychologist published a case series examining five patients diagnosed with borderline personality disorder (BPD) who were treated with dialectical behavior therapy (DBT) over an 18-month period. Each patient presented with a history of recurrent self-harm, emotional dysregulation, unstable interpersonal relationships, and chronic feelings of emptiness. DBT treatment consisted of four modules: mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness. Pre- and post-treatment assessments revealed significant reductions in self-harm episodes (mean reduction of 73%), emergency department visits (mean reduction of 68%), and improvements in emotion regulation as measured by the Difficulties in Emotion Regulation Scale. Three of the five patients also met criteria for comorbid disorders: two had co-occurring major depressive disorder and one had comorbid PTSD. Neuroimaging conducted before and after treatment showed increased connectivity between the prefrontal cortex and the amygdala in patients who showed the greatest clinical improvement. The psychologist noted that the biosocial theory of BPD, which posits that the disorder arises from the transaction between biological emotional vulnerability and an invalidating environment during development, was consistent with the patients' reported histories. All five patients described childhood environments characterized by emotional neglect or dismissal of emotional experiences.",
+      "questions": [
+        {
+          "id": "pd-ps-005-q1",
+          "stem": "According to the biosocial theory of BPD described in the passage, the disorder develops through:",
+          "options": ["A. Genetic determinism independent of environmental factors", "B. An interaction between biological emotional vulnerability and invalidating childhood environments", "C. Excessive reinforcement of emotional expression during childhood", "D. Purely social learning through modeling of parental behavior"],
+          "correct": 1,
+          "explanation": "The biosocial theory proposes that BPD results from a transaction between a biological predisposition toward emotional sensitivity and reactivity and an invalidating environment that fails to acknowledge or validate the child's emotional experiences. This interaction creates a developmental pathway toward emotional dysregulation."
+        },
+        {
+          "id": "pd-ps-005-q2",
+          "stem": "The DBT module most directly targeting the patients' chronic feelings of emptiness and emotional instability would be:",
+          "options": ["A. Mindfulness", "B. Distress tolerance", "C. Emotion regulation", "D. Interpersonal effectiveness"],
+          "correct": 2,
+          "explanation": "The emotion regulation module in DBT specifically targets difficulties in understanding, experiencing, and managing emotions. It teaches skills for identifying and labeling emotions, reducing emotional vulnerability, and increasing positive emotional experiences, directly addressing the core feature of emotional instability in BPD."
+        },
+        {
+          "id": "pd-ps-005-q3",
+          "stem": "The increased prefrontal cortex-amygdala connectivity following successful DBT treatment suggests that therapy enhanced:",
+          "options": ["A. Bottom-up sensory processing of emotional stimuli", "B. Top-down cognitive control over emotional reactivity", "C. Lateral inhibition between competing neural networks", "D. Autonomic nervous system arousal during stress"],
+          "correct": 1,
+          "explanation": "Greater connectivity between the prefrontal cortex and amygdala reflects enhanced top-down regulation, where higher-order cognitive processes in the prefrontal cortex exert greater modulatory control over amygdala-driven emotional reactivity. This neural change is consistent with the improved emotion regulation observed clinically."
+        },
+        {
+          "id": "pd-ps-005-q4",
+          "stem": "The primary limitation of using a case series design rather than a randomized controlled trial in this study is:",
+          "options": ["A. Inability to use standardized assessment measures", "B. Inability to establish causal relationships between DBT and outcomes", "C. Excessive sample size reducing clinical significance", "D. Elimination of individual variation in treatment response"],
+          "correct": 1,
+          "explanation": "A case series lacks a control group and random assignment, making it impossible to determine whether improvements were caused by DBT specifically or by other factors such as the passage of time, concurrent treatments, or natural symptom fluctuation. Only randomized controlled trials can establish causality."
+        },
+        {
+          "id": "pd-ps-005-q5",
+          "stem": "Borderline personality disorder is classified in the DSM-5 under which cluster, and what is the defining characteristic of that cluster?",
+          "options": ["A. Cluster A, characterized by odd or eccentric behaviors", "B. Cluster B, characterized by dramatic, emotional, or erratic behaviors", "C. Cluster C, characterized by anxious or fearful behaviors", "D. It is not classified under any personality disorder cluster"],
+          "correct": 1,
+          "explanation": "BPD is classified under Cluster B personality disorders in the DSM-5, which also includes antisocial, histrionic, and narcissistic personality disorders. Cluster B disorders are characterized by dramatic, emotional, or erratic behavior patterns, which aligns with the emotional instability, impulsivity, and interpersonal turbulence seen in BPD."
+        }
+      ]
+    },
+    {
+      "id": "pd-ps-006",
+      "passage": "A nationwide epidemiological study surveyed 12,000 adults to determine the prevalence and demographic correlates of obsessive-compulsive disorder (OCD). Results indicated a 12-month prevalence rate of 1.2%, with equal distribution across genders when considering all subtypes. However, gender differences emerged in specific symptom dimensions: contamination obsessions and cleaning compulsions were more prevalent in women, while symmetry and ordering compulsions were slightly more common in men. The mean age of onset was 19.5 years, with a bimodal distribution showing peaks in early adolescence and early adulthood. The study found that OCD was frequently comorbid with other disorders, including major depressive disorder (67%), social anxiety disorder (25%), and tic disorders (15%). First-degree relatives of individuals with OCD had a 5-fold increased risk of developing the disorder. Neuroimaging studies of a subsample revealed hyperactivity in the cortico-striato-thalamo-cortical (CSTC) circuit, particularly the orbitofrontal cortex and caudate nucleus. Treatment data showed that the combination of exposure and response prevention (ERP) with an SSRI produced the best outcomes, with 60% of patients achieving clinically significant improvement. Approximately 25% of patients were classified as treatment-refractory, and emerging research suggested that glutamate-modulating agents might benefit this population.",
+      "questions": [
+        {
+          "id": "pd-ps-006-q1",
+          "stem": "Exposure and response prevention (ERP) for OCD involves which therapeutic process?",
+          "options": ["A. Gradually exposing the patient to anxiety-provoking stimuli while preventing the compulsive behavior", "B. Using systematic desensitization with deep muscle relaxation", "C. Free association to uncover unconscious origins of obsessions", "D. Token economy systems to reinforce non-compulsive behaviors"],
+          "correct": 0,
+          "explanation": "ERP involves deliberately exposing the patient to the situations or thoughts that trigger obsessions while preventing them from performing the associated compulsive rituals. This allows anxiety to naturally habituate over time, breaking the reinforcement cycle where compulsions temporarily reduce obsession-driven anxiety."
+        },
+        {
+          "id": "pd-ps-006-q2",
+          "stem": "The hyperactivity in the CSTC circuit observed in OCD patients is most relevant to which behavioral feature of the disorder?",
+          "options": ["A. Flat affect and emotional withdrawal", "B. Repetitive behaviors and difficulty suppressing intrusive thoughts", "C. Grandiose delusions and elevated mood", "D. Social withdrawal and paranoid ideation"],
+          "correct": 1,
+          "explanation": "The CSTC circuit, involving the orbitofrontal cortex and caudate nucleus, is critical for habit formation, error detection, and behavioral inhibition. Hyperactivity in this circuit is thought to generate persistent error signals that manifest as intrusive obsessions, driving the repetitive compulsive behaviors that characterize OCD."
+        },
+        {
+          "id": "pd-ps-006-q3",
+          "stem": "The bimodal age of onset distribution with peaks in early adolescence and early adulthood suggests that OCD may involve:",
+          "options": ["A. A single genetic cause with variable expressivity", "B. Multiple developmental windows of vulnerability potentially involving different etiological pathways", "C. Random onset unrelated to developmental stage", "D. Exclusive environmental causation during stress-sensitive periods"],
+          "correct": 1,
+          "explanation": "A bimodal onset distribution suggests that there may be at least two distinct pathways to developing OCD, each associated with different developmental periods. Early-onset OCD has been linked more strongly to genetic factors and tic-related presentations, while later-onset cases may involve different precipitating factors."
+        },
+        {
+          "id": "pd-ps-006-q4",
+          "stem": "The 5-fold increased risk among first-degree relatives, combined with the comorbidity with tic disorders, suggests overlapping vulnerability with which condition?",
+          "options": ["A. Bipolar disorder", "B. Tourette syndrome", "C. Autism spectrum disorder", "D. Attention-deficit/hyperactivity disorder"],
+          "correct": 1,
+          "explanation": "The comorbidity between OCD and tic disorders, combined with familial risk patterns, suggests overlapping genetic vulnerability with Tourette syndrome. Research has identified shared genetic loci and similar basal ganglia dysfunction in both conditions, supporting a spectrum of related neuropsychiatric disorders."
+        },
+        {
+          "id": "pd-ps-006-q5",
+          "stem": "The finding that compulsions temporarily reduce anxiety maintains OCD symptoms through which learning process?",
+          "options": ["A. Positive reinforcement through reward", "B. Negative reinforcement through anxiety reduction", "C. Positive punishment through aversive consequences", "D. Classical conditioning through stimulus pairing"],
+          "correct": 1,
+          "explanation": "Compulsions are maintained through negative reinforcement: performing the compulsive behavior removes or reduces the aversive anxiety caused by obsessions. This relief from distress strengthens the behavior, creating a self-perpetuating cycle that maintains the disorder over time."
+        }
+      ]
+    },
+    {
+      "id": "pd-ps-007",
+      "passage": "A research team studied the effects of childhood adverse experiences on the development of dissociative disorders in a sample of 250 adults recruited from outpatient mental health clinics. Participants completed the Adverse Childhood Experiences (ACE) questionnaire and the Dissociative Experiences Scale (DES). Results showed a significant positive correlation between ACE scores and dissociative symptom severity (r = 0.62, p < 0.001). Participants with ACE scores of 4 or higher were 7.3 times more likely to meet diagnostic criteria for a dissociative disorder compared to those with scores below 4. The most common dissociative disorder diagnosed was dissociative identity disorder (DID), formerly known as multiple personality disorder, found in 8% of the high-ACE group. Depersonalization-derealization disorder was identified in 12% of participants with moderate ACE scores. Neurobiological assessments revealed that individuals with dissociative disorders showed altered connectivity between the medial prefrontal cortex and the amygdala, as well as reduced hippocampal volume. Researchers proposed that dissociation functions as a psychological defense mechanism that allows individuals to mentally escape overwhelming traumatic experiences, particularly when physical escape is impossible. The study also addressed the controversy surrounding DID, noting that while some clinicians argue the disorder is iatrogenically created through suggestive therapeutic practices, the strong association with documented childhood trauma supports its validity as a trauma-related condition.",
+      "questions": [
+        {
+          "id": "pd-ps-007-q1",
+          "stem": "The concept that dissociation serves as a psychological defense mechanism to escape overwhelming trauma is most consistent with which theoretical framework?",
+          "options": ["A. Behavioral learning theory", "B. Psychodynamic defense mechanism theory", "C. Cognitive-behavioral model of information processing", "D. Biological reductionism"],
+          "correct": 1,
+          "explanation": "Psychodynamic theory conceptualizes defense mechanisms as unconscious psychological strategies used to protect the ego from overwhelming anxiety or distress. Dissociation, as described in the passage, functions as a defense that allows mental escape from traumatic experiences, aligning directly with the psychodynamic concept of defense mechanisms."
+        },
+        {
+          "id": "pd-ps-007-q2",
+          "stem": "The correlation coefficient of r = 0.62 between ACE scores and dissociative symptoms indicates:",
+          "options": ["A. A weak negative relationship between childhood adversity and dissociation", "B. A moderate to strong positive relationship between childhood adversity and dissociation", "C. A causal relationship between childhood adversity and dissociation", "D. No meaningful relationship between the two variables"],
+          "correct": 1,
+          "explanation": "A correlation coefficient of 0.62 represents a moderate to strong positive relationship, meaning that as ACE scores increase, dissociative symptom severity tends to increase as well. However, correlation does not establish causation; it only indicates the strength and direction of the linear association between variables."
+        },
+        {
+          "id": "pd-ps-007-q3",
+          "stem": "The argument that DID may be iatrogenically created through suggestive therapeutic practices suggests that:",
+          "options": ["A. Therapists intentionally create the disorder for financial gain", "B. Therapeutic techniques may inadvertently shape or reinforce dissociative identity presentations", "C. DID has no biological basis whatsoever", "D. All dissociative symptoms are the result of malingering"],
+          "correct": 1,
+          "explanation": "The iatrogenic hypothesis suggests that certain therapeutic techniques, such as hypnosis or leading questions about alternate identities, may inadvertently suggest or reinforce the development of dissociative identity presentations in vulnerable patients. This does not imply intentional harm but rather unintended influence of therapeutic processes on symptom expression."
+        },
+        {
+          "id": "pd-ps-007-q4",
+          "stem": "Reduced hippocampal volume in individuals with dissociative disorders is significant because the hippocampus is primarily involved in:",
+          "options": ["A. Motor coordination and balance", "B. Memory consolidation and contextual processing of experiences", "C. Visual processing and spatial perception", "D. Language production and comprehension"],
+          "correct": 1,
+          "explanation": "The hippocampus plays a critical role in memory consolidation, particularly the encoding and retrieval of episodic and contextual memories. Reduced hippocampal volume in dissociative disorder patients may contribute to fragmented memory processing, difficulty integrating traumatic memories, and the characteristic memory gaps seen in these disorders."
+        },
+        {
+          "id": "pd-ps-007-q5",
+          "stem": "Depersonalization-derealization disorder, as described in the passage, is characterized by:",
+          "options": ["A. The presence of two or more distinct personality states", "B. Persistent experiences of feeling detached from one's own mental processes or surroundings", "C. Sudden inability to recall important autobiographical information", "D. Unexpected travel away from home with inability to recall one's past"],
+          "correct": 1,
+          "explanation": "Depersonalization involves persistent feelings of detachment from one's own mind, body, or self, while derealization involves feelings of unreality about one's surroundings. This disorder is distinct from DID (multiple identity states), dissociative amnesia (memory gaps), and dissociative fugue (unplanned travel with identity confusion)."
+        }
+      ]
+    },
+    {
+      "id": "pd-ps-008",
+      "passage": "A clinical trial investigated the use of ketamine infusions as a rapid-acting treatment for severe, treatment-resistant depression (TRD) in 120 patients who had failed at least three adequate trials of conventional antidepressants. Participants received either a single intravenous ketamine infusion (0.5 mg/kg) or saline placebo in a crossover design. Depression severity was assessed using the Montgomery-Asberg Depression Rating Scale (MADRS) at 2 hours, 24 hours, 72 hours, and 7 days post-infusion. Results demonstrated that 65% of ketamine recipients showed a clinically significant response (defined as >50% reduction in MADRS scores) within 24 hours, compared to 10% of placebo recipients. The antidepressant effects of a single ketamine infusion typically lasted 7-10 days. Ketamine's mechanism involves antagonism of N-methyl-D-aspartate (NMDA) glutamate receptors, which triggers a cascade of downstream effects including increased brain-derived neurotrophic factor (BDNF) release, enhanced synaptic plasticity, and rapid synaptogenesis in the prefrontal cortex. Side effects included transient dissociative symptoms, elevated blood pressure, and perceptual disturbances in 40% of participants. The study raised ethical concerns about long-term safety, abuse potential given ketamine's status as a controlled substance, and equitable access to this treatment, as repeated infusions can cost thousands of dollars and are often not covered by insurance.",
+      "questions": [
+        {
+          "id": "pd-ps-008-q1",
+          "stem": "Ketamine's rapid antidepressant effect through NMDA receptor antagonism and enhanced synaptogenesis suggests that treatment-resistant depression may involve:",
+          "options": ["A. Exclusively serotonergic dysfunction", "B. Glutamatergic system dysfunction and impaired synaptic plasticity", "C. Purely dopaminergic excess in reward pathways", "D. GABAergic overactivity in the brainstem"],
+          "correct": 1,
+          "explanation": "The effectiveness of ketamine, which acts on the glutamatergic system rather than monoamine systems, suggests that treatment-resistant depression involves glutamatergic dysfunction and impaired neuroplasticity. The rapid synaptogenesis observed indicates that restoring synaptic connections may be a key mechanism of antidepressant action."
+        },
+        {
+          "id": "pd-ps-008-q2",
+          "stem": "The crossover design used in this study means that:",
+          "options": ["A. Participants were randomly assigned to only one condition", "B. Each participant received both ketamine and placebo at different time points", "C. The study was conducted across multiple research sites simultaneously", "D. Participants could choose which treatment they preferred to receive"],
+          "correct": 1,
+          "explanation": "In a crossover design, each participant serves as their own control by receiving both the experimental treatment and placebo at different time points, typically separated by a washout period. This design increases statistical power and controls for individual differences in treatment response."
+        },
+        {
+          "id": "pd-ps-008-q3",
+          "stem": "The concern about equitable access to ketamine treatment due to high costs and insurance non-coverage best exemplifies which ethical principle?",
+          "options": ["A. Autonomy", "B. Beneficence", "C. Justice", "D. Non-maleficence"],
+          "correct": 2,
+          "explanation": "The principle of justice in biomedical ethics requires fair distribution of healthcare resources and equitable access to treatments. When effective treatments are available only to those who can afford them, this creates an unjust disparity that violates the ethical principle of distributive justice in healthcare."
+        },
+        {
+          "id": "pd-ps-008-q4",
+          "stem": "Brain-derived neurotrophic factor (BDNF), which is increased by ketamine, plays a primary role in:",
+          "options": ["A. Myelin sheath production by oligodendrocytes", "B. Neuronal survival, growth, and synaptic plasticity", "C. Neurotransmitter degradation in the synaptic cleft", "D. Blood-brain barrier maintenance and permeability"],
+          "correct": 1,
+          "explanation": "BDNF is a neurotrophin that supports neuronal survival, promotes the growth and differentiation of new neurons and synapses, and facilitates synaptic plasticity. Reduced BDNF levels have been associated with depression, and the ketamine-induced increase in BDNF may contribute to its rapid antidepressant effects through enhanced neural connectivity."
+        },
+        {
+          "id": "pd-ps-008-q5",
+          "stem": "The transient dissociative symptoms experienced by 40% of ketamine recipients are most likely due to:",
+          "options": ["A. Activation of dopamine receptors in the basal ganglia", "B. Disruption of normal glutamatergic signaling affecting consciousness and perception", "C. Excessive serotonin release causing serotonin syndrome", "D. Inhibition of acetylcholine at the neuromuscular junction"],
+          "correct": 1,
+          "explanation": "Ketamine's blockade of NMDA glutamate receptors disrupts normal excitatory neurotransmission, which can transiently alter consciousness, perception, and the sense of self, producing dissociative symptoms. These effects are consistent with ketamine's classification as a dissociative anesthetic and reflect its broad impact on glutamatergic circuits involved in sensory integration."
+        }
+      ]
+    },
+    {
+      "id": "pd-ps-009",
+      "passage": "A cross-cultural study examined the presentation and conceptualization of depression across five countries: the United States, Japan, Nigeria, India, and Brazil. Researchers interviewed 500 individuals (100 per country) who met DSM-5 criteria for major depressive disorder. While core symptoms of depressed mood and anhedonia were present across all cultures, significant differences emerged in symptom expression and illness attribution. In the US sample, patients predominantly described depression in psychological terms (sadness, guilt, low self-worth). Japanese patients more frequently reported interpersonal distress and a sense of being a burden to others, consistent with the cultural emphasis on social harmony. Nigerian and Indian participants were more likely to present with somatic complaints such as headaches, body pain, and fatigue rather than directly reporting emotional distress, a phenomenon known as somatization. Brazilian participants showed high rates of both somatic and psychological symptom expression. Treatment-seeking behavior also varied significantly: US participants were most likely to seek professional psychological treatment, while Nigerian participants predominantly consulted traditional healers first. The study found that culturally adapted interventions, which incorporated local idioms of distress and healing practices, showed 30% greater treatment engagement compared to standard Western-based protocols. The researchers argued that the DSM's categorical approach to depression may inadequately capture the diversity of depressive experiences across cultures.",
+      "questions": [
+        {
+          "id": "pd-ps-009-q1",
+          "stem": "The finding that Nigerian and Indian participants presented with somatic rather than emotional complaints illustrates the concept of:",
+          "options": ["A. Conversion disorder", "B. Somatization as a culturally influenced expression of distress", "C. Factitious disorder", "D. Illness anxiety disorder"],
+          "correct": 1,
+          "explanation": "Somatization refers to the expression of psychological distress through physical symptoms. In many non-Western cultures, emotional distress is more commonly communicated through bodily complaints rather than psychological language. This reflects culturally shaped patterns of symptom expression rather than a separate disorder."
+        },
+        {
+          "id": "pd-ps-009-q2",
+          "stem": "The Japanese patients' emphasis on being a burden to others reflects which cultural value?",
+          "options": ["A. Individualism and personal achievement", "B. Collectivism and maintenance of social harmony", "C. Power distance and hierarchical authority", "D. Uncertainty avoidance and risk aversion"],
+          "correct": 1,
+          "explanation": "Japanese culture emphasizes collectivism, social harmony, and awareness of one's impact on the group. The expression of depression as interpersonal burden reflects these collectivist values, where psychological distress is experienced and communicated through the lens of social relationships and group cohesion rather than individual emotion."
+        },
+        {
+          "id": "pd-ps-009-q3",
+          "stem": "The criticism that the DSM may inadequately capture cross-cultural depressive experiences reflects which broader debate in psychology?",
+          "options": ["A. Nature versus nurture", "B. The etic versus emic distinction in cross-cultural research", "C. Continuous versus categorical models of intelligence", "D. The free will versus determinism debate"],
+          "correct": 1,
+          "explanation": "The etic approach applies universal categories across cultures (like DSM diagnostic criteria), while the emic approach seeks to understand phenomena from within each culture's own framework. The criticism of the DSM reflects concern that its etic, Western-derived categories may not capture emic variations in how depression is experienced and expressed across cultures."
+        },
+        {
+          "id": "pd-ps-009-q4",
+          "stem": "The 30% greater treatment engagement with culturally adapted interventions most directly supports the importance of:",
+          "options": ["A. Using only pharmacological treatments across all cultures", "B. Cultural competence in mental health service delivery", "C. Abandoning standardized diagnostic criteria entirely", "D. Training all therapists exclusively in psychoanalytic methods"],
+          "correct": 1,
+          "explanation": "Cultural competence involves understanding and integrating cultural beliefs, practices, and idioms of distress into clinical care. The superior engagement with culturally adapted interventions demonstrates that acknowledging and incorporating cultural context into treatment improves therapeutic relationships and outcomes."
+        },
+        {
+          "id": "pd-ps-009-q5",
+          "stem": "The preference of Nigerian participants to consult traditional healers first is best understood through which concept?",
+          "options": ["A. The biomedical model of illness", "B. Explanatory models of illness shaped by cultural beliefs", "C. The biopsychosocial model exclusively", "D. Evidence-based medicine principles"],
+          "correct": 1,
+          "explanation": "Explanatory models of illness refer to the culturally shaped beliefs individuals hold about the causes, course, and appropriate treatment of illness. In cultures where psychological distress is understood through spiritual, communal, or traditional frameworks, seeking help from traditional healers aligns with these culturally constructed explanatory models."
+        }
+      ]
+    },
+    {
+      "id": "pd-ps-010",
+      "passage": "A research group investigated the neurobiological basis of bipolar disorder by comparing brain structure and function in 200 patients with bipolar I disorder, 150 patients with bipolar II disorder, and 200 healthy controls using structural and functional MRI. Patients with bipolar I disorder showed significantly reduced gray matter volume in the prefrontal cortex and enlarged lateral ventricles compared to controls. Bipolar II patients showed intermediate structural changes. Functional imaging during emotional processing tasks revealed that manic episodes were associated with increased activation of the ventral striatum and reduced activation of the dorsolateral prefrontal cortex, while depressive episodes showed the opposite pattern. Lithium, the gold-standard mood stabilizer, was associated with increased gray matter volume and neuroprotective effects in patients who had been taking it for more than two years. The study also examined genetic factors, finding that variations in the CACNA1C gene, which encodes a voltage-gated calcium channel subunit, were significantly associated with bipolar disorder susceptibility. Circadian rhythm disruption was prevalent in the sample, with 78% of patients reporting significant sleep-wake cycle disturbances that preceded mood episodes. Researchers proposed that bipolar disorder represents a disorder of emotional and circadian regulation, with shared genetic vulnerability across the mood disorder spectrum.",
+      "questions": [
+        {
+          "id": "pd-ps-010-q1",
+          "stem": "The finding that manic episodes are associated with increased ventral striatum activation is most relevant because the ventral striatum is a key structure in:",
+          "options": ["A. Language processing and verbal fluency", "B. Reward processing and motivation", "C. Motor planning and coordination", "D. Visual-spatial processing and navigation"],
+          "correct": 1,
+          "explanation": "The ventral striatum, including the nucleus accumbens, is a core component of the brain's reward circuitry. Increased activation during mania is consistent with the heightened reward-seeking, goal-directed behavior, grandiosity, and elevated mood characteristic of manic episodes."
+        },
+        {
+          "id": "pd-ps-010-q2",
+          "stem": "Lithium's association with increased gray matter volume in long-term users suggests that mood stabilizers may have:",
+          "options": ["A. Purely symptomatic effects without affecting brain structure", "B. Neuroprotective properties that counteract disease-related brain changes", "C. Neurotoxic effects that increase brain volume through inflammation", "D. No meaningful impact on the neurobiological course of the disorder"],
+          "correct": 1,
+          "explanation": "The finding that long-term lithium use is associated with increased gray matter volume suggests neuroprotective effects, potentially through mechanisms such as promoting neuronal survival, enhancing neuroplasticity, and protecting against the gray matter loss associated with bipolar disorder progression."
+        },
+        {
+          "id": "pd-ps-010-q3",
+          "stem": "The key diagnostic distinction between bipolar I and bipolar II disorder is:",
+          "options": ["A. Bipolar I requires the presence of depressive episodes, while bipolar II does not", "B. Bipolar I involves full manic episodes, while bipolar II involves hypomanic episodes", "C. Bipolar II is more severe and debilitating than bipolar I", "D. Bipolar I includes psychotic features in all episodes, while bipolar II never does"],
+          "correct": 1,
+          "explanation": "The primary diagnostic distinction is that bipolar I disorder requires at least one full manic episode (lasting at least 7 days or requiring hospitalization), while bipolar II disorder involves hypomanic episodes (shorter duration, less severe, not requiring hospitalization) along with major depressive episodes."
+        },
+        {
+          "id": "pd-ps-010-q4",
+          "stem": "The finding that 78% of patients reported sleep-wake disturbances preceding mood episodes supports which model of bipolar disorder?",
+          "options": ["A. A purely cognitive model focused on maladaptive thought patterns", "B. A chronobiological model emphasizing circadian rhythm disruption", "C. A behavioral model based on operant conditioning", "D. A sociocultural model emphasizing social role transitions"],
+          "correct": 1,
+          "explanation": "The chronobiological model proposes that disruptions in circadian rhythms and the biological clock contribute to mood episode onset in bipolar disorder. The high prevalence of sleep-wake disturbances preceding mood episodes supports the role of circadian rhythm dysregulation as a precipitating factor."
+        },
+        {
+          "id": "pd-ps-010-q5",
+          "stem": "Variations in the CACNA1C gene affecting voltage-gated calcium channels are significant because calcium signaling is critical for:",
+          "options": ["A. Oxygen transport in red blood cells", "B. Neurotransmitter release and neuronal excitability", "C. Immune system antibody production", "D. Hepatic drug metabolism and clearance"],
+          "correct": 1,
+          "explanation": "Voltage-gated calcium channels are essential for neurotransmitter release at synaptic terminals and for regulating neuronal excitability. Genetic variations affecting these channels could alter neuronal signaling dynamics, potentially contributing to the mood instability and emotional dysregulation characteristic of bipolar disorder."
+        }
+      ]
+    }
+  ]
+}

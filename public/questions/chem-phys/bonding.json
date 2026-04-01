@@ -1,0 +1,416 @@
+{
+  "subtopic": "Bonding & Chemical Interactions",
+  "sectionId": "chem-phys",
+  "passageSets": [
+    {
+      "id": "bonding-ps1",
+      "passage": "A general chemistry course compared ionic and covalent bonding. Ionic bonds form between atoms with large electronegativity differences (typically a metal and a nonmetal), where one or more electrons are transferred from the less electronegative atom to the more electronegative atom, creating oppositely charged ions held together by electrostatic attraction. The lattice energy of an ionic compound is the energy released when gaseous ions combine to form the solid crystal lattice and is a measure of the strength of ionic bonding. Covalent bonds form between atoms with similar electronegativities (typically two nonmetals) through sharing of electron pairs. Bond energy is the energy required to break one mole of a particular bond in the gas phase. The course emphasized that the distinction between ionic and covalent bonding is a continuum, with most real bonds having some degree of both ionic and covalent character.",
+      "questions": [
+        {
+          "id": "bonding-q1",
+          "stem": "Which compound would be expected to have the highest lattice energy?",
+          "options": ["A. NaCl", "B. KBr", "C. MgO", "D. CsI"],
+          "correct": 2,
+          "explanation": "Lattice energy increases with greater ionic charge and smaller ionic radii. MgO has 2+ and 2- ions, giving much higher electrostatic attraction than the 1+/1- ions in the other compounds. Additionally, Mg2+ and O2- are relatively small ions. The combination of higher charges and smaller radii makes MgO's lattice energy the highest."
+        },
+        {
+          "id": "bonding-q2",
+          "stem": "Which of the following is most likely an ionic compound?",
+          "options": ["A. CO2", "B. H2O", "C. CaCl2", "D. CH4"],
+          "correct": 2,
+          "explanation": "CaCl2 consists of a metal (calcium) and a nonmetal (chlorine) with a large electronegativity difference (1.0 vs 3.0 = 2.0). This large difference favors electron transfer and ionic bonding. The other compounds (CO2, H2O, CH4) are formed between nonmetals and are covalent."
+        },
+        {
+          "id": "bonding-q3",
+          "stem": "Bond energy for a C=C double bond (614 kJ/mol) compared to a C-C single bond (348 kJ/mol) indicates that:",
+          "options": ["A. A double bond is exactly twice as strong as a single bond", "B. A double bond is stronger than a single bond but less than twice as strong", "C. A double bond is weaker than a single bond", "D. Bond energy does not relate to bond strength"],
+          "correct": 1,
+          "explanation": "The C=C double bond (614 kJ/mol) is stronger than the C-C single bond (348 kJ/mol) but less than twice as strong (2 x 348 = 696 kJ/mol). This is because the pi bond component is weaker than the sigma bond component, as the side-to-side overlap in pi bonds is less effective than head-on overlap."
+        },
+        {
+          "id": "bonding-q4",
+          "stem": "As ionic character in a bond increases, which of the following also increases?",
+          "options": ["A. The sharing of electrons between atoms", "B. The electronegativity difference between the bonded atoms", "C. The covalent character of the bond", "D. The number of shared electron pairs"],
+          "correct": 1,
+          "explanation": "Greater electronegativity difference leads to greater ionic character because the more electronegative atom attracts the shared electrons more strongly, approaching complete electron transfer. As the electronegativity difference increases beyond about 1.7, the bond transitions from polar covalent to predominantly ionic."
+        },
+        {
+          "id": "bonding-q5",
+          "stem": "The lattice energy of NaF is greater than that of NaCl because:",
+          "options": ["A. Fluorine is less electronegative than chlorine", "B. The fluoride ion is smaller than the chloride ion, resulting in stronger electrostatic attraction", "C. Sodium fluoride has more covalent character", "D. The Na-F bond has lower electronegativity difference"],
+          "correct": 1,
+          "explanation": "The fluoride ion (F-) has a smaller ionic radius than the chloride ion (Cl-). According to Coulomb's law, the electrostatic force between ions is inversely proportional to the square of the distance between them. Smaller ionic radii mean shorter interionic distances and therefore stronger electrostatic attraction, leading to higher lattice energy."
+        }
+      ]
+    },
+    {
+      "id": "bonding-ps2",
+      "passage": "Students practiced drawing Lewis structures, which represent the arrangement of valence electrons in molecules. The procedure involves counting total valence electrons, placing a bonding pair between each pair of bonded atoms, completing octets on terminal atoms, and then placing remaining electrons on the central atom. Some molecules exhibit resonance, where multiple valid Lewis structures can be drawn that differ only in the placement of electrons. The actual structure is a resonance hybrid, an average of all contributing structures. Formal charge, calculated as FC = valence electrons - lone pair electrons - (1/2) bonding electrons, helps determine the most favorable Lewis structure. The preferred structure minimizes formal charges and places negative formal charges on more electronegative atoms. Exceptions to the octet rule include molecules with fewer than 8 electrons around the central atom (BF3, BeH2) and expanded octets in elements from period 3 and beyond (SF6, PCl5).",
+      "questions": [
+        {
+          "id": "bonding-q6",
+          "stem": "How many total valence electrons are in the sulfate ion (SO4^2-)?",
+          "options": ["A. 24", "B. 30", "C. 32", "D. 34"],
+          "correct": 2,
+          "explanation": "Sulfur contributes 6 valence electrons, each of the four oxygens contributes 6 (total 24), and the 2- charge adds 2 more electrons: 6 + 24 + 2 = 32 total valence electrons. The extra electrons from the charge must be included when counting valence electrons for polyatomic ions."
+        },
+        {
+          "id": "bonding-q7",
+          "stem": "The carbonate ion (CO3^2-) has three resonance structures. In the resonance hybrid, each C-O bond order is:",
+          "options": ["A. 1", "B. 1.33", "C. 2", "D. 3"],
+          "correct": 1,
+          "explanation": "In the three resonance structures of carbonate, one C-O bond is a double bond and two are single bonds. In the resonance hybrid, the double bond character is distributed equally among all three bonds: (2 + 1 + 1)/3 = 4/3 = 1.33. All three C-O bonds are equivalent and intermediate between single and double bonds."
+        },
+        {
+          "id": "bonding-q8",
+          "stem": "What is the formal charge on the nitrogen atom in the ammonium ion (NH4+)?",
+          "options": ["A. -1", "B. 0", "C. +1", "D. +2"],
+          "correct": 2,
+          "explanation": "FC = valence electrons - lone pairs - (1/2)(bonding electrons) = 5 - 0 - (1/2)(8) = 5 - 0 - 4 = +1. Nitrogen has 5 valence electrons, no lone pairs in NH4+, and 4 bonding pairs (8 bonding electrons). The +1 formal charge on N accounts for the overall +1 charge of the ion."
+        },
+        {
+          "id": "bonding-q9",
+          "stem": "BF3 is an exception to the octet rule because:",
+          "options": ["A. Fluorine cannot form bonds", "B. Boron has only 3 valence electrons and can form only 3 bonds, leaving it with 6 electrons", "C. BF3 has an expanded octet", "D. BF3 is an ionic compound"],
+          "correct": 1,
+          "explanation": "Boron has only 3 valence electrons and forms 3 single bonds with fluorine, giving it only 6 electrons (3 bonding pairs) around it. Boron is electron-deficient and does not achieve a full octet. This makes BF3 a strong Lewis acid, readily accepting an electron pair from a Lewis base."
+        },
+        {
+          "id": "bonding-q10",
+          "stem": "SF6 can have an expanded octet because:",
+          "options": ["A. Sulfur is in the second period and can use 2p orbitals", "B. Fluorine donates electrons to sulfur", "C. Sulfur is in the third period and has accessible d orbitals that can accommodate additional electron pairs", "D. The molecule is ionic"],
+          "correct": 2,
+          "explanation": "Sulfur is in the third period and has empty 3d orbitals available for bonding. This allows sulfur to form more than 4 bonds and accommodate more than 8 electrons in its valence shell. Elements in the second period (like C, N, O) cannot expand their octets because they lack accessible d orbitals."
+        }
+      ]
+    },
+    {
+      "id": "bonding-ps3",
+      "passage": "A molecular geometry lecture used Valence Shell Electron Pair Repulsion (VSEPR) theory to predict three-dimensional shapes of molecules. VSEPR theory states that electron groups (bonding pairs, lone pairs, double bonds, and triple bonds each count as one group) around a central atom arrange themselves to minimize repulsion. The electron geometry describes the arrangement of all electron groups, while the molecular geometry describes only the arrangement of atoms (excluding lone pairs). For example, a molecule with 4 electron groups has a tetrahedral electron geometry. If all 4 groups are bonding pairs (as in CH4), the molecular geometry is also tetrahedral with bond angles of 109.5 degrees. If one group is a lone pair (as in NH3), the molecular geometry is trigonal pyramidal with bond angles compressed to about 107 degrees. Two lone pairs (as in H2O) give a bent molecular geometry with angles of about 104.5 degrees. Lone pairs occupy more space than bonding pairs, causing compression of bond angles.",
+      "questions": [
+        {
+          "id": "bonding-q11",
+          "stem": "What is the molecular geometry of BF3?",
+          "options": ["A. Trigonal pyramidal", "B. Trigonal planar", "C. T-shaped", "D. Tetrahedral"],
+          "correct": 1,
+          "explanation": "BF3 has 3 bonding pairs and no lone pairs around boron. Three electron groups arrange in a trigonal planar geometry to minimize repulsion, with 120-degree bond angles. Since all electron groups are bonding pairs, the molecular geometry matches the electron geometry: trigonal planar."
+        },
+        {
+          "id": "bonding-q12",
+          "stem": "What is the molecular geometry of XeF2?",
+          "options": ["A. Linear", "B. Bent", "C. Trigonal planar", "D. T-shaped"],
+          "correct": 0,
+          "explanation": "XeF2 has 2 bonding pairs and 3 lone pairs around xenon, giving 5 total electron groups with trigonal bipyramidal electron geometry. The lone pairs occupy the three equatorial positions (where they have more room), and the two bonding pairs occupy the axial positions, producing a linear molecular geometry with a 180-degree bond angle."
+        },
+        {
+          "id": "bonding-q13",
+          "stem": "Why are the bond angles in NH3 (107 degrees) less than the ideal tetrahedral angle of 109.5 degrees?",
+          "options": ["A. Nitrogen is smaller than carbon", "B. The lone pair on nitrogen repels bonding pairs more strongly than bonding pairs repel each other, compressing the bond angles", "C. NH3 has fewer electrons than CH4", "D. The N-H bond is shorter than the C-H bond"],
+          "correct": 1,
+          "explanation": "Lone pairs are held closer to the central atom and spread out more than bonding pairs, creating greater repulsion. The lone pair on nitrogen pushes the three N-H bonding pairs closer together, reducing the H-N-H bond angles from the ideal 109.5 degrees to approximately 107 degrees."
+        },
+        {
+          "id": "bonding-q14",
+          "stem": "A molecule with 6 electron groups and no lone pairs has which molecular geometry?",
+          "options": ["A. Trigonal bipyramidal", "B. Square planar", "C. Octahedral", "D. Trigonal planar"],
+          "correct": 2,
+          "explanation": "Six electron groups arrange in an octahedral geometry to minimize repulsion, with all bond angles at 90 degrees. If all 6 groups are bonding pairs (as in SF6), the molecular geometry is octahedral. The term octahedral refers to the eight triangular faces formed by connecting the six positions."
+        },
+        {
+          "id": "bonding-q15",
+          "stem": "What is the molecular geometry of ICl4-?",
+          "options": ["A. Tetrahedral", "B. Seesaw", "C. Square planar", "D. Square pyramidal"],
+          "correct": 2,
+          "explanation": "ICl4- has 4 bonding pairs and 2 lone pairs around iodine, giving 6 total electron groups (octahedral electron geometry). The two lone pairs occupy trans positions (opposite each other) to minimize lone pair-lone pair repulsion. This arrangement places the four Cl atoms in a square plane, giving a square planar molecular geometry."
+        }
+      ]
+    },
+    {
+      "id": "bonding-ps4",
+      "passage": "A lecture on orbital hybridization explained how atomic orbitals combine to form hybrid orbitals that are better suited for bonding. When a carbon atom forms 4 equivalent bonds (as in methane), one 2s and three 2p orbitals hybridize to form four sp3 hybrid orbitals directed toward the vertices of a tetrahedron (109.5 degrees). In ethylene (C2H4), one 2s and two 2p orbitals form three sp2 hybrid orbitals in a trigonal planar arrangement (120 degrees), with the remaining unhybridized p orbital forming a pi bond. In acetylene (C2H2), one 2s and one 2p orbital form two sp hybrid orbitals in a linear arrangement (180 degrees), with two unhybridized p orbitals forming two pi bonds. The hybridization of an atom can be predicted from its steric number (number of electron groups): 2 groups = sp, 3 groups = sp2, 4 groups = sp3. Bond lengths decrease and bond strengths increase in the order single > double > triple for carbon-carbon bonds.",
+      "questions": [
+        {
+          "id": "bonding-q16",
+          "stem": "What is the hybridization of carbon in carbon dioxide (CO2)?",
+          "options": ["A. sp", "B. sp2", "C. sp3", "D. sp3d"],
+          "correct": 0,
+          "explanation": "In CO2, carbon forms two double bonds with no lone pairs, giving 2 electron groups. Two electron groups correspond to sp hybridization, producing a linear geometry with 180-degree bond angles. The two unhybridized p orbitals on carbon form pi bonds with the oxygen atoms."
+        },
+        {
+          "id": "bonding-q17",
+          "stem": "How many sigma bonds and pi bonds are present in acetylene (C2H2)?",
+          "options": ["A. 2 sigma, 2 pi", "B. 3 sigma, 2 pi", "C. 4 sigma, 1 pi", "D. 5 sigma, 0 pi"],
+          "correct": 1,
+          "explanation": "Acetylene has a triple bond between the two carbons (1 sigma + 2 pi) and one C-H sigma bond on each end (2 more sigma bonds). Total: 3 sigma bonds and 2 pi bonds. Every bond between two atoms includes exactly one sigma bond; additional bonds in double and triple bonds are pi bonds."
+        },
+        {
+          "id": "bonding-q18",
+          "stem": "The hybridization of nitrogen in ammonia (NH3) is:",
+          "options": ["A. sp", "B. sp2", "C. sp3", "D. sp3d"],
+          "correct": 2,
+          "explanation": "Nitrogen in NH3 has 3 bonding pairs and 1 lone pair, giving 4 electron groups. Four electron groups correspond to sp3 hybridization. The lone pair occupies one of the four sp3 hybrid orbitals, which is why the molecular geometry is trigonal pyramidal rather than tetrahedral."
+        },
+        {
+          "id": "bonding-q19",
+          "stem": "Which of the following correctly ranks C-C bond lengths from shortest to longest?",
+          "options": ["A. Single < double < triple", "B. Triple < double < single", "C. Double < single < triple", "D. All C-C bonds have the same length"],
+          "correct": 1,
+          "explanation": "Triple bonds are the shortest because three shared electron pairs pull the atoms together more tightly. Double bonds are intermediate, and single bonds are the longest. For carbon-carbon bonds: triple (120 pm) < double (134 pm) < single (154 pm). More electron density between atoms draws them closer together."
+        },
+        {
+          "id": "bonding-q20",
+          "stem": "In ethylene (C2H4), the unhybridized p orbitals overlap to form:",
+          "options": ["A. A sigma bond", "B. A pi bond through side-to-side overlap", "C. A delta bond", "D. An ionic bond"],
+          "correct": 1,
+          "explanation": "In ethylene, each carbon has one unhybridized p orbital perpendicular to the sp2 plane. These p orbitals overlap side-to-side (laterally) to form a pi bond above and below the molecular plane. This pi bond prevents rotation around the C=C double bond, which is why cis-trans isomerism can occur in alkenes."
+        }
+      ]
+    },
+    {
+      "id": "bonding-ps5",
+      "passage": "A biochemistry-oriented lecture explored intermolecular forces and their role in biological systems. Intermolecular forces are attractions between molecules, distinct from intramolecular bonds (ionic, covalent) within molecules. London dispersion forces exist between all molecules and result from instantaneous dipole fluctuations. They increase with molecular size and surface area. Dipole-dipole forces occur between polar molecules and are stronger than London forces for molecules of similar size. Hydrogen bonds are a particularly strong type of dipole-dipole interaction occurring when hydrogen is bonded to nitrogen, oxygen, or fluorine and interacts with a lone pair on another N, O, or F atom. Ion-dipole forces occur between ions and polar molecules, as in the dissolution of NaCl in water. The strength ranking is: ion-dipole > hydrogen bonding > dipole-dipole > London dispersion. These forces determine physical properties such as boiling points, viscosities, and solubilities.",
+      "questions": [
+        {
+          "id": "bonding-q21",
+          "stem": "Which intermolecular force is primarily responsible for the high boiling point of water?",
+          "options": ["A. London dispersion forces", "B. Dipole-dipole interactions", "C. Hydrogen bonding", "D. Covalent bonding"],
+          "correct": 2,
+          "explanation": "Water's unusually high boiling point (100 degrees C) compared to similar-sized molecules (H2S boils at -60 degrees C) is due to extensive hydrogen bonding. Each water molecule can form up to 4 hydrogen bonds, creating a strong network of intermolecular attractions that requires significant energy to overcome during boiling."
+        },
+        {
+          "id": "bonding-q22",
+          "stem": "Which of the following molecules can form hydrogen bonds with other molecules of the same kind?",
+          "options": ["A. CH4", "B. CH3OCH3", "C. CH3OH", "D. CH3CH3"],
+          "correct": 2,
+          "explanation": "CH3OH (methanol) has an O-H bond, which satisfies the requirement for hydrogen bonding: H must be bonded to N, O, or F. The oxygen also has lone pairs to serve as hydrogen bond acceptors. CH3OCH3 has lone pairs on oxygen but no O-H, N-H, or F-H bonds, so it can accept but not donate hydrogen bonds with itself."
+        },
+        {
+          "id": "bonding-q23",
+          "stem": "London dispersion forces increase with:",
+          "options": ["A. Increasing polarity of the molecule", "B. Increasing molecular mass and surface area (polarizability)", "C. Decreasing number of electrons", "D. Increasing bond strength within the molecule"],
+          "correct": 1,
+          "explanation": "London dispersion forces arise from temporary dipoles caused by electron fluctuations. Larger molecules with more electrons and greater surface area have higher polarizability, meaning their electron clouds are more easily distorted. This produces stronger instantaneous dipoles and therefore stronger London forces."
+        },
+        {
+          "id": "bonding-q24",
+          "stem": "When NaCl dissolves in water, the primary force between Na+ ions and water molecules is:",
+          "options": ["A. London dispersion", "B. Hydrogen bonding", "C. Ion-dipole", "D. Covalent bonding"],
+          "correct": 2,
+          "explanation": "Ion-dipole forces are the attractive interactions between an ion and a polar molecule. The positive Na+ ion attracts the negative end (oxygen) of water molecules, and the negative Cl- ion attracts the positive end (hydrogen). These strong ion-dipole interactions provide the energy needed to overcome the lattice energy and dissolve the salt."
+        },
+        {
+          "id": "bonding-q25",
+          "stem": "Which of the following should have the highest boiling point?",
+          "options": ["A. CH4 (MW = 16)", "B. C2H6 (MW = 30)", "C. C4H10 (MW = 58)", "D. C8H18 (MW = 114)"],
+          "correct": 3,
+          "explanation": "All of these are nonpolar hydrocarbons with only London dispersion forces. Since London forces increase with molecular size and mass, C8H18 (octane, MW = 114) has the strongest intermolecular attractions and therefore the highest boiling point. The boiling points are: CH4 = -161 C, C2H6 = -89 C, C4H10 = -1 C, C8H18 = 125 C."
+        }
+      ]
+    },
+    {
+      "id": "bonding-ps6",
+      "passage": "A molecular biology lecture examined how hydrogen bonding contributes to the structure of biological macromolecules. In DNA, hydrogen bonds between complementary base pairs hold the two strands of the double helix together: adenine pairs with thymine through two hydrogen bonds, and guanine pairs with cytosine through three hydrogen bonds. In proteins, hydrogen bonds between the carbonyl oxygen (C=O) of one amino acid and the amide hydrogen (N-H) of another stabilize secondary structures such as alpha-helices and beta-sheets. The specificity of hydrogen bonding arises from its directional nature; hydrogen bonds are strongest when the donor, hydrogen, and acceptor are aligned linearly. Typical hydrogen bond energies range from 10-40 kJ/mol, significantly weaker than covalent bonds (200-800 kJ/mol) but strong enough to collectively stabilize large biological structures. The lecture also discussed how disrupting hydrogen bonds (by heat or chemical denaturants) leads to loss of protein structure and function.",
+      "questions": [
+        {
+          "id": "bonding-q26",
+          "stem": "A DNA sample with a higher percentage of G-C base pairs compared to A-T base pairs would be expected to:",
+          "options": ["A. Have a lower melting temperature", "B. Have a higher melting temperature", "C. Have the same melting temperature regardless of composition", "D. Be less stable"],
+          "correct": 1,
+          "explanation": "G-C base pairs have three hydrogen bonds while A-T base pairs have only two. More hydrogen bonds per base pair means stronger overall interactions between the two DNA strands. A higher G-C content therefore requires more energy (higher temperature) to denature (melt) the double helix."
+        },
+        {
+          "id": "bonding-q27",
+          "stem": "In an alpha-helix, hydrogen bonds form between:",
+          "options": ["A. Side chains of adjacent amino acids", "B. The C=O group of one residue and the N-H group of a residue four positions later", "C. The amino and carboxyl termini", "D. Water molecules and the backbone"],
+          "correct": 1,
+          "explanation": "In an alpha-helix, each backbone carbonyl oxygen (C=O) forms a hydrogen bond with the backbone amide hydrogen (N-H) of the amino acid four residues ahead in the sequence. This regular pattern of i to i+4 hydrogen bonding produces the characteristic right-handed helical structure."
+        },
+        {
+          "id": "bonding-q28",
+          "stem": "Hydrogen bonds are directional, meaning they are strongest when:",
+          "options": ["A. The three atoms involved are at 90 degrees", "B. The donor atom, hydrogen atom, and acceptor atom are approximately collinear", "C. The molecules are in the gas phase", "D. The temperature is very high"],
+          "correct": 1,
+          "explanation": "Hydrogen bonds are strongest when the donor atom (D), hydrogen (H), and acceptor atom (A) are aligned in a nearly straight line (approximately 180 degrees). This linear arrangement maximizes the electrostatic attraction between the partially positive hydrogen and the lone pair on the acceptor atom."
+        },
+        {
+          "id": "bonding-q29",
+          "stem": "Protein denaturation by heat disrupts:",
+          "options": ["A. Peptide bonds between amino acids", "B. Hydrogen bonds, hydrophobic interactions, and other noncovalent interactions that maintain 3D structure", "C. Only covalent disulfide bonds", "D. The primary structure of the protein"],
+          "correct": 1,
+          "explanation": "Denaturation disrupts the noncovalent interactions (hydrogen bonds, hydrophobic interactions, van der Waals forces, and salt bridges) that maintain the protein's secondary, tertiary, and quaternary structure. The primary structure (peptide bonds) remains intact. Loss of these interactions causes the protein to unfold and lose function."
+        },
+        {
+          "id": "bonding-q30",
+          "stem": "The energy of a single hydrogen bond is approximately what fraction of a typical covalent bond?",
+          "options": ["A. Equal to a covalent bond", "B. About 1/2 the strength of a covalent bond", "C. About 1/10 to 1/20 the strength of a covalent bond", "D. About 1/1000 the strength of a covalent bond"],
+          "correct": 2,
+          "explanation": "Hydrogen bonds have energies of approximately 10-40 kJ/mol, while covalent bonds are typically 200-800 kJ/mol. This makes a single hydrogen bond roughly 1/10 to 1/20 the strength of a covalent bond. However, the cumulative effect of many hydrogen bonds can stabilize large structures like DNA and proteins."
+        }
+      ]
+    },
+    {
+      "id": "bonding-ps7",
+      "passage": "An organic chemistry class studied the relationship between molecular structure and physical properties. The class compared the boiling points, solubilities, and viscosities of various organic compounds. Alcohols have higher boiling points than alkanes of similar molecular weight due to hydrogen bonding. Carboxylic acids have even higher boiling points because they form strong hydrogen-bonded dimers. Branching in hydrocarbons reduces boiling points compared to straight-chain isomers because the more compact shape decreases surface area and weakens London dispersion forces. Solubility in water follows the principle that like dissolves like: polar and hydrogen-bonding molecules are water-soluble, while nonpolar molecules are not. However, as the nonpolar hydrocarbon chain of an alcohol increases in length, water solubility decreases because the nonpolar portion increasingly dominates the molecule's character.",
+      "questions": [
+        {
+          "id": "bonding-q31",
+          "stem": "Which of the following has the highest boiling point?",
+          "options": ["A. Butane (C4H10, MW=58)", "B. Diethyl ether (C4H10O, MW=74)", "C. 1-Butanol (C4H10O, MW=74)", "D. Propane (C3H8, MW=44)"],
+          "correct": 2,
+          "explanation": "1-Butanol has the highest boiling point because it can form hydrogen bonds through its O-H group. Diethyl ether has a similar molecular weight but cannot donate hydrogen bonds (no O-H), so it relies on weaker dipole-dipole and London forces. Butane and propane are nonpolar with only London forces."
+        },
+        {
+          "id": "bonding-q32",
+          "stem": "Why does neopentane (2,2-dimethylpropane) have a lower boiling point than n-pentane, despite having the same molecular formula?",
+          "options": ["A. Neopentane has stronger hydrogen bonds", "B. Neopentane is more polar", "C. Neopentane has a more compact, spherical shape with less surface area, reducing London dispersion forces", "D. Neopentane has fewer electrons"],
+          "correct": 2,
+          "explanation": "Neopentane is a highly branched, nearly spherical molecule with minimal surface area for intermolecular contact. The straight-chain n-pentane has a larger surface area, allowing more extensive London dispersion interactions with neighboring molecules. Greater surface contact means stronger London forces and higher boiling points."
+        },
+        {
+          "id": "bonding-q33",
+          "stem": "Acetic acid (CH3COOH) has an unusually high boiling point (118 degrees C) for its molecular weight because:",
+          "options": ["A. It has a very high molecular weight", "B. It forms strong hydrogen-bonded dimers in solution", "C. It is nonpolar", "D. It has London dispersion forces only"],
+          "correct": 1,
+          "explanation": "Acetic acid molecules form cyclic dimers through two hydrogen bonds between the carboxylic acid groups. This effectively doubles the molecular weight of the interacting unit, significantly increasing the boiling point. The strong directional hydrogen bonding in carboxylic acid dimers is more stable than individual hydrogen bonds."
+        },
+        {
+          "id": "bonding-q34",
+          "stem": "Which of the following alcohols is most soluble in water?",
+          "options": ["A. Methanol (CH3OH)", "B. 1-Butanol (C4H9OH)", "C. 1-Hexanol (C6H13OH)", "D. 1-Octanol (C8H17OH)"],
+          "correct": 0,
+          "explanation": "Methanol is the most water-soluble because it has the shortest nonpolar hydrocarbon chain. As the carbon chain lengthens, the nonpolar portion dominates, making the molecule more hydrophobic and less water-soluble. Methanol is completely miscible with water, while octanol is practically insoluble."
+        },
+        {
+          "id": "bonding-q35",
+          "stem": "The principle 'like dissolves like' predicts that hexane would best dissolve:",
+          "options": ["A. NaCl", "B. Sucrose", "C. Vegetable oil", "D. KBr"],
+          "correct": 2,
+          "explanation": "Hexane is a nonpolar solvent, and like dissolves like means it best dissolves other nonpolar substances. Vegetable oil consists of long nonpolar hydrocarbon chains (triglycerides), making it soluble in hexane. NaCl and KBr are ionic, and sucrose is highly polar with many OH groups, so none of these dissolves well in hexane."
+        }
+      ]
+    },
+    {
+      "id": "bonding-ps8",
+      "passage": "A coordination chemistry lecture introduced metallic bonding and its properties. In metals, valence electrons are delocalized across the entire solid, forming an electron sea that is shared by all metal cations in the lattice. This delocalization explains metals' high electrical conductivity (free electrons carry current), thermal conductivity (free electrons transfer kinetic energy), malleability and ductility (layers of cations can slide past each other without breaking bonds because the electron sea adjusts), and metallic luster (free electrons absorb and re-emit photons of light across the visible spectrum). The strength of metallic bonding increases with the number of valence electrons and decreasing atomic radius. Transition metals tend to have stronger metallic bonds than alkali metals because they contribute more electrons to the electron sea and have smaller atomic radii. Alloys are mixtures of metals that often have superior properties to pure metals.",
+      "questions": [
+        {
+          "id": "bonding-q36",
+          "stem": "Why are metals malleable and ductile?",
+          "options": ["A. Metal atoms are held together by weak van der Waals forces", "B. Layers of metal cations can slide past each other while maintaining bonding through the delocalized electron sea", "C. Metal bonds break easily", "D. Metals have low melting points"],
+          "correct": 1,
+          "explanation": "In a metallic bond, the delocalized electron sea surrounds and binds all metal cations uniformly. When a force is applied, layers of cations can shift to new positions without disrupting the bonding because the electron sea adjusts to the new arrangement. This is unlike ionic crystals, where displacing ions brings like charges together, causing the crystal to shatter."
+        },
+        {
+          "id": "bonding-q37",
+          "stem": "Which metal would be expected to have the strongest metallic bonding?",
+          "options": ["A. Sodium (1 valence electron, large radius)", "B. Magnesium (2 valence electrons, moderate radius)", "C. Iron (multiple valence electrons, small radius)", "D. Potassium (1 valence electron, very large radius)"],
+          "correct": 2,
+          "explanation": "Iron, a transition metal, contributes multiple valence electrons to the electron sea and has a relatively small atomic radius. Both factors strengthen metallic bonding. Alkali metals like sodium and potassium have only one valence electron and larger atomic radii, resulting in weaker metallic bonds and lower melting points."
+        },
+        {
+          "id": "bonding-q38",
+          "stem": "Metals are good conductors of electricity because:",
+          "options": ["A. Metal atoms are small", "B. Delocalized electrons can move freely through the metal lattice to carry charge", "C. Metal ions vibrate at high frequencies", "D. Metals have high ionization energies"],
+          "correct": 1,
+          "explanation": "The delocalized valence electrons in a metal are free to move throughout the lattice. When a voltage is applied, these mobile electrons flow in the direction of the electric field, constituting an electric current. This is fundamentally different from ionic conduction, which requires ion migration."
+        },
+        {
+          "id": "bonding-q39",
+          "stem": "Metallic luster is caused by:",
+          "options": ["A. Reflection of light from the flat crystal surfaces", "B. Free electrons absorbing and re-emitting photons across the visible spectrum", "C. Diffraction of light by the crystal lattice", "D. Fluorescence of metal atoms"],
+          "correct": 1,
+          "explanation": "The delocalized electrons in a metal can absorb photons of virtually any visible wavelength because they are not confined to discrete energy levels. The electrons then re-emit photons in all directions, producing the characteristic shiny, reflective appearance of metals."
+        },
+        {
+          "id": "bonding-q40",
+          "stem": "Metallic bonding differs from ionic bonding in that metallic bonding involves:",
+          "options": ["A. Transfer of electrons from one atom to another", "B. Sharing of electrons between specific atom pairs", "C. Delocalization of electrons over the entire metallic lattice", "D. No involvement of electrons"],
+          "correct": 2,
+          "explanation": "In ionic bonding, electrons are transferred from one atom to another, creating localized positive and negative ions. In metallic bonding, valence electrons are not localized between specific atom pairs but instead are shared across the entire lattice, forming a sea of delocalized electrons that binds all metal cations together."
+        }
+      ]
+    },
+    {
+      "id": "bonding-ps9",
+      "passage": "A materials science class explored the concept of molecular polarity and its consequences. A molecule is polar if it has a nonzero net dipole moment, which requires both polar bonds and an asymmetric geometry. Carbon dioxide (CO2) has two polar C=O bonds, but because the molecule is linear and the bond dipoles point in opposite directions, they cancel, resulting in a nonpolar molecule. Water (H2O) also has two polar bonds, but its bent geometry means the bond dipoles do not cancel, giving water a significant dipole moment of 1.85 D. Molecular polarity determines miscibility with solvents, interactions at biological membranes, and behavior in electric fields. In chromatography, molecular polarity determines how strongly compounds interact with polar stationary phases versus nonpolar mobile phases, enabling separation. The class measured dipole moments of various molecules and related them to their geometries.",
+      "questions": [
+        {
+          "id": "bonding-q41",
+          "stem": "Which of the following molecules is nonpolar despite having polar bonds?",
+          "options": ["A. H2O", "B. NH3", "C. CCl4", "D. HCl"],
+          "correct": 2,
+          "explanation": "CCl4 (carbon tetrachloride) has four polar C-Cl bonds, but its tetrahedral geometry is perfectly symmetric. The four bond dipoles cancel each other exactly, producing zero net dipole moment. This is in contrast to CH3Cl, which is polar because the asymmetric arrangement of atoms prevents complete cancellation."
+        },
+        {
+          "id": "bonding-q42",
+          "stem": "CO2 is nonpolar because:",
+          "options": ["A. The C=O bonds are nonpolar", "B. The linear geometry causes the two equal and opposite bond dipoles to cancel", "C. Carbon and oxygen have the same electronegativity", "D. CO2 is a gas at room temperature"],
+          "correct": 1,
+          "explanation": "Although each C=O bond is polar (oxygen is more electronegative than carbon), the linear geometry of CO2 causes the two bond dipoles to point in exactly opposite directions and cancel out. The result is zero net dipole moment, making CO2 a nonpolar molecule."
+        },
+        {
+          "id": "bonding-q43",
+          "stem": "Which of the following molecules has the largest dipole moment?",
+          "options": ["A. CO2", "B. CS2", "C. H2O", "D. CCl4"],
+          "correct": 2,
+          "explanation": "H2O has a dipole moment of 1.85 D. Both CO2 and CS2 are linear and nonpolar (zero dipole moment), and CCl4 is tetrahedral and nonpolar (zero dipole moment). Water's bent geometry prevents cancellation of its O-H bond dipoles, resulting in a substantial net dipole moment."
+        },
+        {
+          "id": "bonding-q44",
+          "stem": "In thin-layer chromatography with a polar stationary phase, which compound would travel the farthest up the plate?",
+          "options": ["A. Ethanol (polar)", "B. Acetic acid (polar)", "C. Hexane (nonpolar)", "D. Glycerol (very polar)"],
+          "correct": 2,
+          "explanation": "With a polar stationary phase, polar compounds interact strongly with the stationary phase and move slowly. Nonpolar compounds (like hexane) have weak interactions with the polar stationary phase and are carried farther by the mobile phase. Hexane would therefore travel the farthest up the plate, having the highest Rf value."
+        },
+        {
+          "id": "bonding-q45",
+          "stem": "BF3 is a nonpolar molecule because:",
+          "options": ["A. B-F bonds are nonpolar", "B. Its trigonal planar geometry results in cancellation of the three bond dipoles", "C. Boron and fluorine have equal electronegativities", "D. It contains only single bonds"],
+          "correct": 1,
+          "explanation": "BF3 has three polar B-F bonds, but its trigonal planar geometry (120-degree angles) results in a symmetric arrangement where the three bond dipoles cancel each other perfectly. The vector sum of three equal dipoles at 120-degree angles is zero, making BF3 nonpolar despite its polar bonds."
+        }
+      ]
+    },
+    {
+      "id": "bonding-ps10",
+      "passage": "A physical chemistry lecture covered bond properties including bond order, bond length, bond energy, and their interrelationships. Bond order is the number of bonding electron pairs shared between two atoms. In molecular orbital theory, bond order = (bonding electrons - antibonding electrons) / 2. Higher bond orders correspond to shorter bond lengths and greater bond energies. The lecture discussed the molecular orbital diagram for diatomic molecules, noting that O2 has a bond order of 2 and is paramagnetic due to two unpaired electrons in its pi antibonding orbitals. N2 has a bond order of 3 and is diamagnetic with all electrons paired. The stability of a molecule increases with bond order; species with bond order zero (like He2) do not exist as stable molecules. The lecture also introduced the concept of bond dissociation energy, the specific energy required to break a particular bond in a specific molecule, which can differ from average bond energies reported in tables.",
+      "questions": [
+        {
+          "id": "bonding-q46",
+          "stem": "What is the bond order of O2 according to molecular orbital theory?",
+          "options": ["A. 1", "B. 1.5", "C. 2", "D. 3"],
+          "correct": 2,
+          "explanation": "O2 has 16 electrons. In the MO diagram, 10 electrons occupy bonding orbitals and 6 occupy antibonding orbitals. Bond order = (10-6)/2 = 2. This corresponds to a double bond, consistent with the Lewis structure, but unlike the Lewis structure, MO theory correctly predicts O2's paramagnetism."
+        },
+        {
+          "id": "bonding-q47",
+          "stem": "O2 is paramagnetic because:",
+          "options": ["A. It has a bond order of 2", "B. It has two unpaired electrons in degenerate pi antibonding orbitals", "C. Oxygen atoms are highly electronegative", "D. It has an even number of electrons"],
+          "correct": 1,
+          "explanation": "Molecular orbital theory shows that O2 has two electrons in the degenerate pi* (antibonding) orbitals. By Hund's rule, these electrons occupy separate orbitals with parallel spins, leaving two unpaired electrons. Unpaired electrons create a magnetic moment, making O2 paramagnetic."
+        },
+        {
+          "id": "bonding-q48",
+          "stem": "Which species has the highest bond order?",
+          "options": ["A. O2 (bond order 2)", "B. O2+ (bond order 2.5)", "C. O2- (bond order 1.5)", "D. O2^2- (bond order 1)"],
+          "correct": 1,
+          "explanation": "O2+ has one fewer antibonding electron than O2, giving bond order = (10-5)/2 = 2.5. This is the highest among the options. Removing an antibonding electron increases bond order and strengthens the bond. O2- and O2^2- have additional antibonding electrons that decrease bond order."
+        },
+        {
+          "id": "bonding-q49",
+          "stem": "He2 does not exist as a stable molecule because:",
+          "options": ["A. Helium is too heavy", "B. Its bond order is zero (equal numbers of bonding and antibonding electrons)", "C. Helium atoms are too large to bond", "D. Noble gases cannot form any bonds"],
+          "correct": 1,
+          "explanation": "He2 would have 4 electrons: 2 in the sigma bonding orbital and 2 in the sigma antibonding orbital. Bond order = (2-2)/2 = 0. A bond order of zero means there is no net bonding, so He2 is not a stable molecule. The antibonding electrons completely negate the stabilization from bonding electrons."
+        },
+        {
+          "id": "bonding-q50",
+          "stem": "As bond order increases from 1 to 3 for carbon-carbon bonds, which of the following is true?",
+          "options": ["A. Bond length increases and bond energy decreases", "B. Bond length decreases and bond energy increases", "C. Both bond length and bond energy increase", "D. Both bond length and bond energy decrease"],
+          "correct": 1,
+          "explanation": "Higher bond order means more electron pairs are shared between the atoms, pulling them closer together (shorter bond length) and requiring more energy to break (higher bond energy). For C-C bonds: single (154 pm, 348 kJ/mol), double (134 pm, 614 kJ/mol), triple (120 pm, 839 kJ/mol)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "subtopic": "Nervous System & Neuroscience",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "ns-ps-001",
+      "passage": "Neurons are the fundamental signaling cells of the nervous system. A typical neuron consists of a cell body (soma) containing the nucleus, dendrites that receive incoming signals, and an axon that transmits signals to other cells. The axon may be myelinated by Schwann cells in the peripheral nervous system (PNS) or oligodendrocytes in the central nervous system (CNS). Myelin sheaths are interrupted at regular intervals by nodes of Ranvier, where voltage-gated ion channels are concentrated. Myelination increases the speed of action potential conduction through saltatory conduction, in which the action potential jumps from node to node rather than propagating continuously along the axon membrane. The speed of conduction is also influenced by axon diameter: larger-diameter axons conduct signals faster due to reduced internal resistance. Researchers studied patients with multiple sclerosis (MS), an autoimmune disease in which the immune system attacks myelin in the CNS. They measured nerve conduction velocities in affected and unaffected nerves and found that demyelinated axons conducted signals at significantly reduced speeds and with impaired fidelity. Some severely demyelinated axons exhibited complete conduction block. The researchers also noted that in the PNS, Schwann cells can potentially remyelinate damaged axons, while CNS remyelination by oligodendrocytes is much more limited, contributing to the progressive nature of MS.",
+      "questions": [
+        {
+          "id": "ns-q-001",
+          "stem": "Saltatory conduction increases the speed of action potential propagation because:",
+          "options": ["A. it eliminates the need for ion channels along the axon", "B. the action potential jumps between nodes of Ranvier, skipping myelinated segments", "C. it increases the diameter of the axon", "D. it converts chemical signals to electrical signals"],
+          "correct": 1,
+          "explanation": "In saltatory conduction, the myelin sheath insulates the axon between nodes of Ranvier, preventing current leakage. The action potential effectively jumps from one node to the next, where voltage-gated ion channels regenerate the signal. This is much faster than continuous conduction along an unmyelinated axon because the signal does not need to depolarize every segment of membrane."
+        },
+        {
+          "id": "ns-q-002",
+          "stem": "In multiple sclerosis, nerve conduction is impaired primarily because:",
+          "options": ["A. the axon diameter decreases", "B. the cell body degenerates", "C. destruction of myelin disrupts saltatory conduction", "D. neurotransmitter synthesis is inhibited"],
+          "correct": 2,
+          "explanation": "MS involves immune-mediated destruction of myelin sheaths in the CNS. Without intact myelin, current leaks across the axon membrane in the previously insulated internodal regions, slowing or blocking action potential propagation. The loss of saltatory conduction results in decreased conduction velocity and signal failure."
+        },
+        {
+          "id": "ns-q-003",
+          "stem": "Which cell type is responsible for myelination in the central nervous system?",
+          "options": ["A. Schwann cells", "B. Astrocytes", "C. Oligodendrocytes", "D. Microglia"],
+          "correct": 2,
+          "explanation": "Oligodendrocytes are the myelinating glial cells of the CNS. A single oligodendrocyte can myelinate segments of multiple axons. In contrast, Schwann cells provide myelination in the PNS, with each Schwann cell wrapping around a single segment of one axon."
+        },
+        {
+          "id": "ns-q-004",
+          "stem": "An axon with a larger diameter conducts action potentials faster because:",
+          "options": ["A. it has more voltage-gated sodium channels per unit length", "B. its reduced internal resistance allows current to spread further along the axon interior", "C. it produces more neurotransmitter at the synapse", "D. it has a thicker myelin sheath"],
+          "correct": 1,
+          "explanation": "A larger-diameter axon has a lower internal (axoplasmic) resistance, which allows the local current generated during depolarization to spread further ahead of the action potential before decaying. This increased length constant means each depolarization event triggers the next one over a greater distance, increasing overall conduction velocity."
+        },
+        {
+          "id": "ns-q-005",
+          "stem": "Why is CNS remyelination more limited than PNS remyelination after injury?",
+          "options": ["A. The CNS lacks any myelinating cells", "B. Oligodendrocytes in the CNS have limited regenerative capacity compared to Schwann cells in the PNS", "C. CNS neurons do not require myelin for function", "D. The blood-brain barrier prevents immune cells from clearing myelin debris"],
+          "correct": 1,
+          "explanation": "Schwann cells in the PNS can readily remyelinate damaged axons, aided by a permissive environment for regeneration. Oligodendrocytes in the CNS have more limited regenerative capacity, and the CNS environment contains inhibitory factors (such as glial scar formation and inhibitory molecules) that impede both remyelination and axon regeneration."
+        }
+      ]
+    },
+    {
+      "id": "ns-ps-002",
+      "passage": "The action potential is an all-or-none electrical event that propagates along the axon membrane. At rest, a neuron maintains a resting membrane potential of approximately -70 mV, established primarily by the potassium leak channels and the Na+/K+ ATPase. When a stimulus depolarizes the membrane to the threshold potential (approximately -55 mV), voltage-gated sodium channels open rapidly, allowing Na+ influx and further depolarization to approximately +30 mV (the rising phase). The sodium channels then undergo rapid inactivation, and voltage-gated potassium channels open more slowly, allowing K+ efflux that repolarizes the membrane (the falling phase). The potassium channels remain open briefly after the membrane returns to resting potential, causing a transient hyperpolarization called the undershoot (approximately -80 mV). The absolute refractory period occurs during the rising phase and early repolarization when sodium channels are inactivated and cannot respond to any stimulus, regardless of strength. The relative refractory period follows, during which a stronger-than-normal stimulus can trigger an action potential because some sodium channels have recovered from inactivation but potassium channels are still open. The absolute refractory period ensures unidirectional propagation of the action potential by preventing backward re-excitation of the recently active membrane segment. Researchers recorded action potentials using intracellular microelectrodes and tested the effects of tetrodotoxin (TTX), which selectively blocks voltage-gated sodium channels, and tetraethylammonium (TEA), which blocks voltage-gated potassium channels.",
+      "questions": [
+        {
+          "id": "ns-q-006",
+          "stem": "Application of tetrodotoxin (TTX) to a neuron would be expected to:",
+          "options": ["A. prolong the duration of the action potential", "B. prevent action potential generation entirely", "C. cause sustained depolarization of the membrane", "D. eliminate the refractory period"],
+          "correct": 1,
+          "explanation": "TTX blocks voltage-gated sodium channels, which are essential for the depolarization phase of the action potential. Without functional sodium channels, the membrane cannot depolarize rapidly to generate an action potential. No action potentials can be fired regardless of stimulus strength."
+        },
+        {
+          "id": "ns-q-007",
+          "stem": "During the absolute refractory period, a neuron cannot fire another action potential because:",
+          "options": ["A. the membrane is hyperpolarized below resting potential", "B. all voltage-gated sodium channels are in an inactivated state and cannot reopen", "C. the Na+/K+ ATPase is temporarily shut down", "D. potassium channels have not yet opened"],
+          "correct": 1,
+          "explanation": "During the absolute refractory period, voltage-gated sodium channels have entered an inactivated conformational state following their initial opening. In this state, they cannot be reopened by any amount of depolarization. They must first return to the closed (resting) state before they can be activated again."
+        },
+        {
+          "id": "ns-q-008",
+          "stem": "Application of TEA (which blocks voltage-gated potassium channels) would most likely:",
+          "options": ["A. prevent action potential initiation", "B. prolong the action potential by delaying repolarization", "C. cause the resting membrane potential to become more negative", "D. increase the speed of action potential conduction"],
+          "correct": 1,
+          "explanation": "Blocking voltage-gated potassium channels with TEA would prevent the K+ efflux responsible for repolarizing the membrane after the sodium channels close. This would prolong the depolarized state and delay the return to resting potential, effectively broadening the action potential waveform."
+        },
+        {
+          "id": "ns-q-009",
+          "stem": "The resting membrane potential of -70 mV is primarily maintained by:",
+          "options": ["A. voltage-gated sodium channels that are open at rest", "B. potassium leak channels and the Na+/K+ ATPase", "C. chloride channels that allow Cl- influx", "D. calcium channels in the axon hillock"],
+          "correct": 1,
+          "explanation": "At rest, potassium leak channels allow K+ to flow out of the cell down its concentration gradient, making the interior negative relative to the exterior. The Na+/K+ ATPase maintains the ion concentration gradients by pumping 3 Na+ out and 2 K+ in per ATP, and its electrogenic nature also contributes slightly to the resting potential."
+        },
+        {
+          "id": "ns-q-010",
+          "stem": "The action potential is described as 'all-or-none' because:",
+          "options": ["A. it can vary in amplitude depending on stimulus strength", "B. once threshold is reached, the action potential always fires at full amplitude regardless of stimulus strength above threshold", "C. it can only travel in one direction", "D. it requires ATP for propagation"],
+          "correct": 1,
+          "explanation": "The all-or-none principle means that once the membrane potential reaches threshold, a full action potential is generated at maximum amplitude. Stimuli below threshold produce no action potential, while stimuli above threshold produce action potentials of the same amplitude. Information about stimulus intensity is encoded by the frequency of action potentials, not their amplitude."
+        }
+      ]
+    },
+    {
+      "id": "ns-ps-003",
+      "passage": "Synaptic transmission is the process by which neurons communicate with each other and with target cells. At a chemical synapse, the presynaptic terminal contains vesicles filled with neurotransmitter molecules. When an action potential arrives at the presynaptic terminal, voltage-gated calcium channels open, and Ca2+ influx triggers the fusion of synaptic vesicles with the presynaptic membrane via SNARE protein-mediated exocytosis. The released neurotransmitter diffuses across the synaptic cleft (~20 nm) and binds to receptors on the postsynaptic membrane. Neurotransmitter receptors are classified as ionotropic (ligand-gated ion channels that produce fast, direct responses) or metabotropic (G-protein coupled receptors that produce slower, modulatory responses via second messenger cascades). Excitatory postsynaptic potentials (EPSPs) depolarize the postsynaptic membrane, bringing it closer to threshold, while inhibitory postsynaptic potentials (IPSPs) hyperpolarize the membrane, moving it away from threshold. The integration of EPSPs and IPSPs at the axon hillock determines whether the postsynaptic neuron fires an action potential. Temporal summation occurs when multiple signals from the same synapse arrive in rapid succession, while spatial summation occurs when signals from different synapses arrive simultaneously. Neurotransmitter action is terminated by enzymatic degradation (e.g., acetylcholinesterase breaks down acetylcholine), reuptake into the presynaptic terminal (e.g., serotonin transporter SERT), or diffusion away from the synapse.",
+      "questions": [
+        {
+          "id": "ns-q-011",
+          "stem": "What is the role of calcium ions in synaptic transmission?",
+          "options": ["A. They generate the action potential in the presynaptic terminal", "B. They serve as neurotransmitters that bind to postsynaptic receptors", "C. Their influx into the presynaptic terminal triggers vesicle fusion and neurotransmitter release", "D. They maintain the resting membrane potential of the postsynaptic cell"],
+          "correct": 2,
+          "explanation": "When the action potential depolarizes the presynaptic terminal, voltage-gated calcium channels open and Ca2+ flows into the terminal. The increased intracellular calcium concentration triggers the SNARE protein machinery to fuse synaptic vesicles with the presynaptic membrane, releasing neurotransmitter into the synaptic cleft via exocytosis."
+        },
+        {
+          "id": "ns-q-012",
+          "stem": "An ionotropic receptor differs from a metabotropic receptor in that it:",
+          "options": ["A. uses G-proteins and second messengers to produce effects", "B. produces slow, sustained responses lasting minutes to hours", "C. is a ligand-gated ion channel that produces rapid postsynaptic responses", "D. cannot bind neurotransmitter molecules"],
+          "correct": 2,
+          "explanation": "Ionotropic receptors are ligand-gated ion channels that open directly upon neurotransmitter binding, allowing ions to flow across the postsynaptic membrane within milliseconds. This produces fast synaptic responses. Metabotropic receptors, in contrast, are G-protein coupled receptors that activate second messenger cascades, producing slower but longer-lasting effects."
+        },
+        {
+          "id": "ns-q-013",
+          "stem": "A drug that inhibits acetylcholinesterase would be expected to:",
+          "options": ["A. reduce acetylcholine release from presynaptic terminals", "B. prolong the effect of acetylcholine in the synaptic cleft by preventing its degradation", "C. block acetylcholine receptors on the postsynaptic membrane", "D. prevent the synthesis of acetylcholine"],
+          "correct": 1,
+          "explanation": "Acetylcholinesterase is the enzyme that breaks down acetylcholine in the synaptic cleft, terminating its signal. Inhibiting this enzyme allows acetylcholine to remain in the cleft longer and continue stimulating postsynaptic receptors, prolonging and intensifying cholinergic signaling."
+        },
+        {
+          "id": "ns-q-014",
+          "stem": "If a postsynaptic neuron receives simultaneous EPSPs from multiple presynaptic neurons, the resulting additive effect is called:",
+          "options": ["A. temporal summation", "B. spatial summation", "C. long-term potentiation", "D. synaptic facilitation"],
+          "correct": 1,
+          "explanation": "Spatial summation occurs when EPSPs (or IPSPs) from multiple different presynaptic neurons arrive at the postsynaptic cell at approximately the same time. The individual potentials add together at the axon hillock; if the combined depolarization reaches threshold, an action potential is generated."
+        },
+        {
+          "id": "ns-q-015",
+          "stem": "An IPSP would be generated by a neurotransmitter that opens channels permeable to:",
+          "options": ["A. Na+ ions, causing depolarization", "B. Ca2+ ions, causing depolarization", "C. Cl- ions, causing hyperpolarization", "D. K+ and Na+ ions equally"],
+          "correct": 2,
+          "explanation": "IPSPs hyperpolarize the postsynaptic membrane, moving it further from threshold. Opening chloride channels allows Cl- to flow into the cell (down its concentration gradient), making the interior more negative and hyperpolarizing the membrane. Opening potassium channels also produces IPSPs by allowing K+ efflux."
+        }
+      ]
+    },
+    {
+      "id": "ns-ps-004",
+      "passage": "The major neurotransmitter systems in the nervous system play diverse roles in regulating behavior, cognition, and physiological functions. Acetylcholine (ACh) is used at neuromuscular junctions, in the autonomic nervous system, and in brain circuits involved in memory and attention. Nicotinic acetylcholine receptors (nAChRs) are ionotropic, while muscarinic receptors (mAChRs) are metabotropic. The catecholamines -- dopamine, norepinephrine, and epinephrine -- are synthesized from the amino acid tyrosine through a common biosynthetic pathway: tyrosine is converted to L-DOPA by tyrosine hydroxylase (the rate-limiting step), L-DOPA to dopamine by DOPA decarboxylase, dopamine to norepinephrine by dopamine beta-hydroxylase, and norepinephrine to epinephrine by PNMT. Serotonin (5-HT) is synthesized from tryptophan and plays roles in mood regulation, sleep, and appetite. Selective serotonin reuptake inhibitors (SSRIs) such as fluoxetine increase serotonin levels in the synaptic cleft by blocking the serotonin transporter (SERT). Gamma-aminobutyric acid (GABA) is the primary inhibitory neurotransmitter in the brain, acting on GABA-A receptors (ionotropic, Cl- channels) and GABA-B receptors (metabotropic). Glutamate is the primary excitatory neurotransmitter, acting on NMDA, AMPA, and kainate receptors (all ionotropic) as well as metabotropic glutamate receptors. An imbalance between excitatory glutamate and inhibitory GABA signaling can lead to seizures (excess excitation) or coma (excess inhibition).",
+      "questions": [
+        {
+          "id": "ns-q-016",
+          "stem": "The rate-limiting step in catecholamine synthesis is catalyzed by:",
+          "options": ["A. DOPA decarboxylase", "B. Dopamine beta-hydroxylase", "C. Tyrosine hydroxylase", "D. PNMT"],
+          "correct": 2,
+          "explanation": "Tyrosine hydroxylase catalyzes the conversion of tyrosine to L-DOPA, which is the rate-limiting (slowest) step in the catecholamine biosynthetic pathway. Because this enzyme controls the overall rate of catecholamine production, it is a key regulatory target for modulating levels of dopamine, norepinephrine, and epinephrine."
+        },
+        {
+          "id": "ns-q-017",
+          "stem": "SSRIs increase serotonin signaling by:",
+          "options": ["A. stimulating the release of serotonin from presynaptic vesicles", "B. blocking the enzymatic degradation of serotonin", "C. blocking the reuptake of serotonin into the presynaptic terminal", "D. directly activating serotonin receptors on the postsynaptic membrane"],
+          "correct": 2,
+          "explanation": "SSRIs selectively block the serotonin transporter (SERT), which normally removes serotonin from the synaptic cleft by transporting it back into the presynaptic neuron. By blocking reuptake, SSRIs allow serotonin to remain in the cleft longer and continue to activate postsynaptic receptors, enhancing serotonergic signaling."
+        },
+        {
+          "id": "ns-q-018",
+          "stem": "GABA-A receptors produce inhibitory effects by:",
+          "options": ["A. activating G-proteins that decrease cAMP levels", "B. opening chloride channels that hyperpolarize the postsynaptic membrane", "C. blocking voltage-gated sodium channels", "D. stimulating the release of endorphins"],
+          "correct": 1,
+          "explanation": "GABA-A receptors are ligand-gated chloride channels. When GABA binds, the channel opens and chloride ions flow into the postsynaptic neuron, making the interior more negative (hyperpolarization). This moves the membrane potential further from threshold, reducing the likelihood of action potential generation and producing an inhibitory effect."
+        },
+        {
+          "id": "ns-q-019",
+          "stem": "A patient presenting with seizures most likely has an imbalance characterized by:",
+          "options": ["A. excess GABA and reduced glutamate signaling", "B. excess glutamate and reduced GABA signaling", "C. reduced dopamine signaling in the basal ganglia", "D. excess acetylcholine at the neuromuscular junction"],
+          "correct": 1,
+          "explanation": "Seizures result from excessive, synchronized neuronal firing in the brain. This occurs when the balance between excitatory (glutamate) and inhibitory (GABA) neurotransmission shifts toward excitation. Excess glutamate activity or insufficient GABA activity removes the normal inhibitory control, allowing uncontrolled neuronal depolarization."
+        },
+        {
+          "id": "ns-q-020",
+          "stem": "Nicotinic and muscarinic acetylcholine receptors differ primarily in that:",
+          "options": ["A. nicotinic receptors bind acetylcholine while muscarinic receptors do not", "B. nicotinic receptors are ionotropic (ligand-gated channels) while muscarinic receptors are metabotropic (G-protein coupled)", "C. muscarinic receptors are found only at the neuromuscular junction", "D. nicotinic receptors produce slower responses than muscarinic receptors"],
+          "correct": 1,
+          "explanation": "Nicotinic receptors are ionotropic (ligand-gated ion channels) that open directly when acetylcholine binds, producing fast excitatory responses within milliseconds. Muscarinic receptors are metabotropic (G-protein coupled receptors) that activate intracellular signaling cascades via second messengers, producing slower but more modulatory effects."
+        }
+      ]
+    },
+    {
+      "id": "ns-ps-005",
+      "passage": "The autonomic nervous system (ANS) regulates involuntary functions including heart rate, digestion, respiratory rate, and glandular secretion. It is divided into the sympathetic and parasympathetic divisions, which generally have opposing effects on target organs. The sympathetic division prepares the body for 'fight or flight' responses: it increases heart rate, dilates bronchioles, diverts blood flow to skeletal muscles, dilates pupils, and inhibits digestion. Sympathetic preganglionic neurons originate from the thoracolumbar spinal cord (T1-L2) and synapse in paravertebral or prevertebral ganglia using acetylcholine as the neurotransmitter. Postganglionic sympathetic neurons release norepinephrine onto target organs (with the exception of sweat glands, which receive cholinergic sympathetic innervation). The parasympathetic division promotes 'rest and digest' functions: it decreases heart rate, constricts bronchioles, stimulates digestion and secretion, and constricts pupils. Parasympathetic preganglionic neurons originate from the brainstem (cranial nerves III, VII, IX, X) and sacral spinal cord (S2-S4). The vagus nerve (cranial nerve X) provides parasympathetic innervation to most thoracic and abdominal organs. Both pre- and postganglionic parasympathetic neurons use acetylcholine, but they act on different receptor types: preganglionic fibers act on nicotinic receptors in the ganglion, while postganglionic fibers act on muscarinic receptors on target organs. The adrenal medulla functions as a modified sympathetic ganglion, releasing epinephrine and norepinephrine directly into the bloodstream.",
+      "questions": [
+        {
+          "id": "ns-q-021",
+          "stem": "Stimulation of the sympathetic nervous system would produce which of the following effects?",
+          "options": ["A. Decreased heart rate and increased digestive activity", "B. Constriction of bronchioles and pupil constriction", "C. Increased heart rate, bronchodilation, and pupil dilation", "D. Increased salivation and gastric motility"],
+          "correct": 2,
+          "explanation": "The sympathetic division activates fight-or-flight responses that prepare the body for action: heart rate increases to boost cardiac output, bronchioles dilate to increase airflow, and pupils dilate to enhance visual acuity. Simultaneously, non-essential functions like digestion are inhibited to redirect resources to skeletal muscles."
+        },
+        {
+          "id": "ns-q-022",
+          "stem": "The adrenal medulla is functionally part of the sympathetic nervous system because it:",
+          "options": ["A. receives parasympathetic innervation via the vagus nerve", "B. is a modified sympathetic ganglion that releases catecholamines directly into the blood", "C. produces acetylcholine as its primary secretion", "D. is located in the thoracolumbar region of the spinal cord"],
+          "correct": 1,
+          "explanation": "The adrenal medulla develops from neural crest cells, like sympathetic ganglia, and is innervated by sympathetic preganglionic fibers. Instead of functioning as a typical ganglion with postganglionic neurons, the chromaffin cells of the adrenal medulla release epinephrine and norepinephrine directly into the bloodstream, acting as a neuroendocrine organ."
+        },
+        {
+          "id": "ns-q-023",
+          "stem": "A drug that selectively blocks muscarinic receptors would affect which part of the autonomic nervous system most directly?",
+          "options": ["A. Sympathetic preganglionic transmission", "B. Parasympathetic postganglionic effects on target organs", "C. Sympathetic postganglionic norepinephrine release", "D. Somatic motor neuron transmission at the neuromuscular junction"],
+          "correct": 1,
+          "explanation": "Parasympathetic postganglionic neurons release acetylcholine that acts on muscarinic receptors on target organs. Blocking these receptors would inhibit parasympathetic effects such as decreased heart rate, bronchoconstriction, and stimulation of digestion, effectively mimicking sympathetic dominance."
+        },
+        {
+          "id": "ns-q-024",
+          "stem": "The vagus nerve is the most important parasympathetic nerve because it:",
+          "options": ["A. innervates only the heart", "B. provides parasympathetic innervation to most thoracic and abdominal viscera", "C. releases norepinephrine to stimulate digestion", "D. originates from the sacral spinal cord"],
+          "correct": 1,
+          "explanation": "The vagus nerve (cranial nerve X) has the most extensive distribution of any cranial nerve, carrying parasympathetic fibers to the heart, lungs, esophagus, stomach, liver, pancreas, and most of the intestine. It accounts for approximately 75% of all parasympathetic outflow, making it critical for rest-and-digest functions."
+        },
+        {
+          "id": "ns-q-025",
+          "stem": "Both sympathetic and parasympathetic preganglionic neurons release which neurotransmitter?",
+          "options": ["A. Norepinephrine", "B. Epinephrine", "C. Acetylcholine", "D. Dopamine"],
+          "correct": 2,
+          "explanation": "All preganglionic neurons in both divisions of the ANS release acetylcholine at the ganglionic synapse, where it acts on nicotinic receptors on postganglionic neurons. The two divisions differ in their postganglionic neurotransmitters: parasympathetic postganglionic neurons release acetylcholine (acting on muscarinic receptors), while sympathetic postganglionic neurons generally release norepinephrine."
+        }
+      ]
+    },
+    {
+      "id": "ns-ps-006",
+      "passage": "The central nervous system (CNS) consists of the brain and spinal cord. The brain can be divided into several major regions: the cerebral cortex (higher cognitive functions, sensory processing, motor control), the thalamus (relay center for sensory information to the cortex), the hypothalamus (homeostasis, endocrine regulation, autonomic control), the cerebellum (motor coordination, balance, motor learning), the basal ganglia (motor planning, initiation, and inhibition of movements), and the brainstem (vital functions including breathing, heart rate, and consciousness). The cerebral cortex is organized into four lobes: the frontal lobe (executive function, motor cortex, Broca's area for speech production), the parietal lobe (somatosensory cortex, spatial processing), the temporal lobe (auditory cortex, Wernicke's area for language comprehension, memory via the hippocampus), and the occipital lobe (visual cortex). The limbic system, including the amygdala and hippocampus, is involved in emotion and memory formation. The blood-brain barrier (BBB), formed by tight junctions between endothelial cells of brain capillaries, selectively restricts the passage of substances from the blood into the CNS, protecting the brain from toxins and pathogens while allowing passage of essential nutrients. Researchers studying patients with localized brain lesions used functional imaging to map the relationship between brain regions and specific cognitive or motor functions.",
+      "questions": [
+        {
+          "id": "ns-q-026",
+          "stem": "A patient with damage to Broca's area in the frontal lobe would most likely exhibit:",
+          "options": ["A. inability to understand spoken language", "B. difficulty producing fluent speech, with intact language comprehension", "C. complete loss of vision", "D. inability to form new memories"],
+          "correct": 1,
+          "explanation": "Broca's area in the left frontal lobe is responsible for speech production and motor aspects of language. Damage to this area causes Broca's aphasia, characterized by halting, effortful speech with impaired grammar, while language comprehension remains relatively intact. This contrasts with Wernicke's aphasia, which affects comprehension."
+        },
+        {
+          "id": "ns-q-027",
+          "stem": "The thalamus serves as a relay center for sensory information. Which sense does NOT relay through the thalamus before reaching the cortex?",
+          "options": ["A. Vision", "B. Hearing", "C. Olfaction (smell)", "D. Touch"],
+          "correct": 2,
+          "explanation": "Olfaction is unique among the senses in that olfactory information travels directly from the olfactory bulb to the olfactory cortex without passing through the thalamus. All other major senses (vision, hearing, touch, taste) relay through specific thalamic nuclei before reaching their respective cortical processing areas."
+        },
+        {
+          "id": "ns-q-028",
+          "stem": "The blood-brain barrier (BBB) restricts the passage of substances into the brain primarily through:",
+          "options": ["A. fenestrations in capillary endothelial cells", "B. tight junctions between endothelial cells of brain capillaries", "C. a thick layer of smooth muscle surrounding brain capillaries", "D. the absence of capillaries in brain tissue"],
+          "correct": 1,
+          "explanation": "The BBB is formed by tight junctions between adjacent endothelial cells in brain capillaries, which prevent paracellular diffusion of most molecules. This is reinforced by astrocyte foot processes that surround the capillaries and contribute to BBB function. The BBB allows passage of small lipophilic molecules, gases, and specific nutrients via carrier-mediated transport."
+        },
+        {
+          "id": "ns-q-029",
+          "stem": "The hippocampus plays a critical role in which of the following functions?",
+          "options": ["A. Motor coordination and balance", "B. Formation of new declarative memories", "C. Regulation of body temperature", "D. Production of cerebrospinal fluid"],
+          "correct": 1,
+          "explanation": "The hippocampus is essential for the formation and consolidation of new declarative (explicit) memories, including episodic memories (personal experiences) and semantic memories (facts). Damage to the hippocampus impairs the ability to form new long-term memories (anterograde amnesia) while generally sparing previously established memories and procedural memory."
+        },
+        {
+          "id": "ns-q-030",
+          "stem": "A patient with cerebellar damage would most likely exhibit:",
+          "options": ["A. paralysis of voluntary muscles", "B. loss of sensation on one side of the body", "C. impaired coordination, balance, and motor learning", "D. inability to understand language"],
+          "correct": 2,
+          "explanation": "The cerebellum coordinates voluntary movements, maintains balance and posture, and is involved in motor learning. Cerebellar damage causes ataxia (uncoordinated movements), intention tremor, dysarthria (slurred speech), and impaired balance, but does not cause paralysis because the cerebellum modulates rather than initiates movements."
+        }
+      ]
+    },
+    {
+      "id": "ns-ps-007",
+      "passage": "Reflexes are rapid, involuntary responses to specific stimuli that are mediated by neural circuits called reflex arcs. A basic reflex arc consists of five components: a receptor (detects the stimulus), a sensory (afferent) neuron (transmits the signal to the CNS), an integration center (typically in the spinal cord), a motor (efferent) neuron (transmits the response signal), and an effector (muscle or gland that carries out the response). The simplest reflex arc is the monosynaptic stretch reflex (e.g., the patellar reflex), which involves only two neurons: a sensory neuron and a motor neuron, with a single synapse between them in the spinal cord. When the patellar tendon is tapped, muscle spindles in the quadriceps detect the stretch and send signals via Ia afferent sensory neurons to the spinal cord. These neurons synapse directly onto alpha motor neurons that stimulate the quadriceps to contract (the knee-jerk response). Simultaneously, the Ia afferents activate inhibitory interneurons that suppress the motor neurons innervating the antagonist muscle (hamstrings), a process called reciprocal inhibition. Most reflexes are polysynaptic, involving one or more interneurons in the integration center. The withdrawal reflex, triggered by a painful stimulus, is polysynaptic and includes a crossed-extensor reflex that extends the contralateral limb for postural support. Reflexes are clinically important because their absence, exaggeration, or asymmetry can indicate specific neurological lesions.",
+      "questions": [
+        {
+          "id": "ns-q-031",
+          "stem": "The patellar reflex is classified as a monosynaptic reflex because:",
+          "options": ["A. it involves only one neuron", "B. it involves a single synapse between the sensory neuron and the motor neuron in the spinal cord", "C. it does not involve the spinal cord", "D. it requires conscious input from the brain"],
+          "correct": 1,
+          "explanation": "The patellar reflex involves two neurons (sensory and motor) connected by a single synapse in the spinal cord, making it monosynaptic. The Ia afferent sensory neuron from the muscle spindle synapses directly onto the alpha motor neuron without any interneurons in the direct excitatory pathway."
+        },
+        {
+          "id": "ns-q-032",
+          "stem": "Reciprocal inhibition during the patellar reflex serves to:",
+          "options": ["A. enhance the contraction of the quadriceps by simultaneously relaxing the hamstrings", "B. prevent the quadriceps from contracting too forcefully", "C. transmit pain signals to the brain", "D. cause contraction of both the quadriceps and hamstrings simultaneously"],
+          "correct": 0,
+          "explanation": "Reciprocal inhibition ensures that when the quadriceps contracts during the knee-jerk reflex, the antagonist hamstring muscles are simultaneously relaxed through inhibitory interneuron activity. This coordination prevents opposing muscle groups from contracting simultaneously, which would impede the reflex movement."
+        },
+        {
+          "id": "ns-q-033",
+          "stem": "The withdrawal reflex differs from the patellar reflex in that it:",
+          "options": ["A. does not involve sensory neurons", "B. is polysynaptic, involving interneurons between the sensory and motor neurons", "C. does not produce a motor response", "D. requires conscious decision-making before the response occurs"],
+          "correct": 1,
+          "explanation": "The withdrawal reflex is polysynaptic, involving one or more interneurons between the sensory input and the motor output. These interneurons allow for more complex processing, including activation of multiple muscle groups, the crossed-extensor reflex, and modulation of the response. The patellar reflex is simpler, with a direct monosynaptic connection."
+        },
+        {
+          "id": "ns-q-034",
+          "stem": "In a reflex arc, the integration center is typically located in the:",
+          "options": ["A. peripheral receptor organ", "B. effector muscle or gland", "C. spinal cord or brainstem", "D. cerebral cortex"],
+          "correct": 2,
+          "explanation": "The integration center of a reflex arc is where sensory information is processed and the motor response is initiated. For most spinal reflexes, this occurs in the gray matter of the spinal cord, where synapses between sensory neurons, interneurons, and motor neurons are located. Some reflexes have integration centers in the brainstem."
+        },
+        {
+          "id": "ns-q-035",
+          "stem": "Hyperactive deep tendon reflexes could indicate damage to which structure?",
+          "options": ["A. The sensory nerve carrying afferent signals", "B. Upper motor neurons that normally inhibit spinal reflex circuits", "C. The muscle spindle receptors", "D. The neuromuscular junction"],
+          "correct": 1,
+          "explanation": "Upper motor neurons from the brain normally exert inhibitory control over spinal reflex circuits. When these descending pathways are damaged (as in upper motor neuron lesions from stroke or spinal cord injury), the inhibition is lost, causing reflexes to become hyperactive (hyperreflexia). Lower motor neuron damage, in contrast, causes absent or diminished reflexes."
+        }
+      ]
+    },
+    {
+      "id": "ns-ps-008",
+      "passage": "Sensory processing involves the conversion of environmental stimuli into neural signals (transduction), transmission of those signals to the CNS, and interpretation by the brain. Sensory receptors are classified by the type of stimulus they detect: mechanoreceptors (touch, pressure, hearing), thermoreceptors (temperature), nociceptors (pain), photoreceptors (light), and chemoreceptors (chemical stimuli including taste and smell). In the visual system, photoreceptors in the retina (rods and cones) transduce light into neural signals. Rods are highly sensitive to light and function in dim conditions (scotopic vision) but do not detect color. Cones require more light (photopic vision) and come in three types (S, M, L) that are sensitive to short (blue), medium (green), and long (red) wavelengths, enabling trichromatic color vision. Phototransduction involves the photopigment rhodopsin (in rods): light converts 11-cis-retinal to all-trans-retinal, activating the G-protein transducin, which activates phosphodiesterase (PDE). PDE hydrolyzes cGMP, causing cGMP-gated sodium channels to close, hyperpolarizing the photoreceptor. This is unusual because most sensory receptors depolarize in response to stimulation. Visual information travels via the optic nerve to the lateral geniculate nucleus (LGN) of the thalamus and then to the primary visual cortex (V1) in the occipital lobe. The auditory system converts sound waves into neural signals via mechanotransduction in the cochlea, where hair cells in the organ of Corti detect vibrations of the basilar membrane.",
+      "questions": [
+        {
+          "id": "ns-q-036",
+          "stem": "Photoreceptors in the retina are unusual among sensory receptors because they:",
+          "options": ["A. depolarize in response to their adequate stimulus", "B. hyperpolarize when stimulated by light", "C. do not require a specific receptor protein", "D. send signals directly to the visual cortex without relay through the thalamus"],
+          "correct": 1,
+          "explanation": "Most sensory receptors depolarize when stimulated, but photoreceptors hyperpolarize in response to light. In the dark, cGMP-gated sodium channels are open, and the photoreceptor is relatively depolarized. Light activates the phototransduction cascade that closes these channels, reducing Na+ influx and hyperpolarizing the cell."
+        },
+        {
+          "id": "ns-q-037",
+          "stem": "Trichromatic color vision in humans depends on:",
+          "options": ["A. three types of rods with different spectral sensitivities", "B. three types of cones (S, M, L) sensitive to different wavelengths of light", "C. a single photopigment that can detect all colors", "D. color-sensitive ganglion cells in the retina"],
+          "correct": 1,
+          "explanation": "Trichromatic color vision is based on three types of cone photoreceptors, each containing a different photopigment with peak sensitivity to short (blue), medium (green), or long (red) wavelengths. The brain interprets color by comparing the relative activation of these three cone types, allowing perception of the full visible spectrum."
+        },
+        {
+          "id": "ns-q-038",
+          "stem": "In the phototransduction cascade, the role of phosphodiesterase (PDE) is to:",
+          "options": ["A. convert 11-cis-retinal to all-trans-retinal", "B. activate the G-protein transducin", "C. hydrolyze cGMP, leading to closure of sodium channels and hyperpolarization", "D. synthesize rhodopsin from opsin and retinal"],
+          "correct": 2,
+          "explanation": "Activated phosphodiesterase (PDE) hydrolyzes cyclic GMP (cGMP) to GMP, reducing the intracellular cGMP concentration. Since cGMP normally keeps sodium channels open in the dark, its hydrolysis causes these channels to close, reducing Na+ influx and hyperpolarizing the photoreceptor cell."
+        },
+        {
+          "id": "ns-q-039",
+          "stem": "Tonotopic organization in the cochlea means that:",
+          "options": ["A. all frequencies of sound are detected at the same location on the basilar membrane", "B. different locations along the basilar membrane respond preferentially to different frequencies of sound", "C. the cochlea can only detect a single frequency at a time", "D. hair cells in the cochlea respond to light as well as sound"],
+          "correct": 1,
+          "explanation": "The basilar membrane varies in width and stiffness along its length: the base is narrow and stiff (resonating with high-frequency sounds), while the apex is wide and flexible (resonating with low-frequency sounds). This spatial mapping of frequency along the cochlea is called tonotopic organization and is preserved throughout the auditory pathway to the auditory cortex."
+        },
+        {
+          "id": "ns-q-040",
+          "stem": "A patient with damage to the primary visual cortex (V1) in the right occipital lobe would most likely experience:",
+          "options": ["A. blindness in the right eye only", "B. loss of vision in the left visual field of both eyes", "C. inability to perceive colors", "D. loss of hearing in the right ear"],
+          "correct": 1,
+          "explanation": "Visual information from each eye is processed by both hemispheres, but information from the left visual field is processed by the right visual cortex (and vice versa) due to the partial crossing of optic nerve fibers at the optic chiasm. Damage to V1 in the right occipital lobe would cause loss of the left visual field (left homonymous hemianopia) in both eyes."
+        }
+      ]
+    },
+    {
+      "id": "ns-ps-009",
+      "passage": "Neuroplasticity refers to the nervous system's ability to reorganize its structure and function in response to experience, learning, or injury. Synaptic plasticity, the strengthening or weakening of synaptic connections, is considered the cellular basis of learning and memory. Long-term potentiation (LTP) is a persistent strengthening of synaptic transmission that occurs after high-frequency stimulation of a synapse. LTP at glutamatergic synapses in the hippocampus involves NMDA receptors, which are both ligand-gated (requiring glutamate) and voltage-dependent (requiring concurrent depolarization to remove the Mg2+ block from the channel pore). When both conditions are met, NMDA receptors allow Ca2+ influx, which activates calcium-dependent signaling cascades including CaMKII (calcium/calmodulin-dependent protein kinase II). These cascades lead to insertion of additional AMPA receptors into the postsynaptic membrane and, with sustained activity, changes in gene expression that produce structural modifications of the synapse (growth of new dendritic spines). Long-term depression (LTD) is the opposite process, weakening synaptic connections after low-frequency stimulation. The balance between LTP and LTD allows neural circuits to be refined and strengthened based on experience. Critical periods are developmental windows during which the nervous system is particularly plastic and responsive to environmental input. For example, the visual cortex has a critical period during which binocular vision must be established; monocular deprivation during this period leads to permanent changes in cortical organization (ocular dominance plasticity).",
+      "questions": [
+        {
+          "id": "ns-q-041",
+          "stem": "NMDA receptors are considered coincidence detectors because they require:",
+          "options": ["A. only glutamate binding to open the channel", "B. both presynaptic glutamate release and postsynaptic depolarization to allow ion flow", "C. only postsynaptic depolarization to function", "D. simultaneous activation by two different neurotransmitters"],
+          "correct": 1,
+          "explanation": "NMDA receptors require two simultaneous conditions to allow calcium influx: glutamate must bind to the receptor (indicating presynaptic activity), and the postsynaptic membrane must be depolarized to relieve the Mg2+ block from the channel pore (indicating postsynaptic activity). This dual requirement makes them coincidence detectors that respond only when both pre- and postsynaptic neurons are active together."
+        },
+        {
+          "id": "ns-q-042",
+          "stem": "Long-term potentiation (LTP) involves which of the following changes at the synapse?",
+          "options": ["A. Removal of AMPA receptors from the postsynaptic membrane", "B. Decreased presynaptic glutamate release", "C. Insertion of additional AMPA receptors into the postsynaptic membrane", "D. Blockade of NMDA receptors"],
+          "correct": 2,
+          "explanation": "During LTP, calcium influx through NMDA receptors activates CaMKII and other signaling enzymes that promote the trafficking and insertion of additional AMPA receptors into the postsynaptic membrane. More AMPA receptors mean a larger postsynaptic response to the same amount of glutamate released, effectively strengthening the synapse."
+        },
+        {
+          "id": "ns-q-043",
+          "stem": "The role of Ca2+ influx through NMDA receptors in LTP is to:",
+          "options": ["A. directly depolarize the postsynaptic membrane to generate an action potential", "B. activate intracellular signaling cascades that lead to synaptic strengthening", "C. block further glutamate release from the presynaptic terminal", "D. degrade existing AMPA receptors in the postsynaptic membrane"],
+          "correct": 1,
+          "explanation": "Ca2+ entering through NMDA receptors serves as a crucial second messenger that activates calcium-dependent enzymes, particularly CaMKII. These enzymes trigger a cascade of molecular events including AMPA receptor phosphorylation and trafficking, leading to increased synaptic strength. With prolonged signaling, gene expression changes produce lasting structural modifications."
+        },
+        {
+          "id": "ns-q-044",
+          "stem": "Monocular deprivation during the critical period for visual development results in permanent changes because:",
+          "options": ["A. the deprived eye degenerates physically", "B. the visual cortex reorganizes its connections in favor of the non-deprived eye during the critical period of heightened plasticity", "C. the optic nerve of the deprived eye is severed by the procedure", "D. NMDA receptors are permanently blocked in the visual cortex"],
+          "correct": 1,
+          "explanation": "During the critical period, the visual cortex is highly plastic and actively refines its connections based on visual input. Depriving one eye of input during this window causes cortical neurons to preferentially strengthen connections from the open eye and weaken those from the closed eye. After the critical period closes, this reorganization becomes largely permanent."
+        },
+        {
+          "id": "ns-q-045",
+          "stem": "Long-term depression (LTD) differs from LTP in that LTD:",
+          "options": ["A. does not involve NMDA receptors or calcium", "B. leads to weakening of synaptic connections, typically through removal of AMPA receptors", "C. occurs only during development and not in the adult brain", "D. strengthens synaptic connections through increased neurotransmitter release"],
+          "correct": 1,
+          "explanation": "LTD is a persistent weakening of synaptic transmission that typically results from low-frequency stimulation. It involves the internalization (removal) of AMPA receptors from the postsynaptic membrane, reducing the postsynaptic response. LTD and LTP work together to allow bidirectional modification of synaptic strength, enabling refinement of neural circuits."
+        }
+      ]
+    },
+    {
+      "id": "ns-ps-010",
+      "passage": "The peripheral nervous system (PNS) connects the CNS to the rest of the body and consists of the somatic nervous system (voluntary control of skeletal muscles) and the autonomic nervous system (involuntary control of smooth muscle, cardiac muscle, and glands). Peripheral nerves contain bundles of axons (nerve fibers) classified by diameter and myelination. Type A fibers are the largest and most heavily myelinated, conducting signals at 12-120 m/s; these include alpha motor neurons to skeletal muscle and Ia sensory fibers from muscle spindles. Type B fibers are smaller myelinated fibers (3-15 m/s), including preganglionic autonomic fibers. Type C fibers are unmyelinated and the slowest (0.5-2 m/s), carrying pain and temperature information. When a peripheral nerve is damaged, Wallerian degeneration occurs distal to the injury site: the axon and myelin sheath degenerate, and macrophages clear the debris. Schwann cells then form a regeneration tube (bands of Bungner) that guides the regrowing axon from the proximal stump. Peripheral nerve regeneration occurs at approximately 1-3 mm per day. In contrast, CNS axon regeneration is severely limited due to inhibitory factors in the CNS environment, including myelin-associated glycoprotein (MAG), Nogo, and glial scar formation by reactive astrocytes. Researchers studying nerve injuries classified them using the Seddon classification: neurapraxia (demyelination without axon damage, full recovery expected), axonotmesis (axon damage with intact connective tissue sheaths, favorable recovery), and neurotmesis (complete nerve transection, requiring surgical repair).",
+      "questions": [
+        {
+          "id": "ns-q-046",
+          "stem": "Type C nerve fibers conduct signals slowly because they are:",
+          "options": ["A. the largest diameter fibers in peripheral nerves", "B. unmyelinated, requiring continuous conduction along the entire axon membrane", "C. exclusively motor fibers to cardiac muscle", "D. located only in the central nervous system"],
+          "correct": 1,
+          "explanation": "Type C fibers are unmyelinated and have the smallest diameter among peripheral nerve fibers. Without myelin, they cannot conduct signals via saltatory conduction and must depolarize every segment of the axon membrane sequentially (continuous conduction). This, combined with their small diameter and high internal resistance, results in the slowest conduction velocities (0.5-2 m/s)."
+        },
+        {
+          "id": "ns-q-047",
+          "stem": "During Wallerian degeneration following peripheral nerve injury, which of the following occurs distal to the injury site?",
+          "options": ["A. The axon regenerates immediately without any degeneration", "B. The distal axon and myelin sheath degenerate, and debris is cleared by macrophages", "C. Schwann cells undergo apoptosis and are permanently lost", "D. New neurons are generated from stem cells to replace damaged ones"],
+          "correct": 1,
+          "explanation": "Following nerve injury, the axon segment distal to the lesion degenerates along with its myelin sheath because it is separated from the cell body and its supply of proteins and organelles. Macrophages and Schwann cells clear the degenerating debris, and the Schwann cells then proliferate and form bands of Bungner that guide axon regeneration from the proximal stump."
+        },
+        {
+          "id": "ns-q-048",
+          "stem": "CNS axon regeneration is more limited than PNS regeneration primarily because:",
+          "options": ["A. CNS neurons lack the genetic programs for axon growth", "B. the CNS environment contains inhibitory molecules (MAG, Nogo) and glial scar tissue that prevent regrowth", "C. CNS axons do not undergo Wallerian degeneration", "D. CNS axons are not myelinated"],
+          "correct": 1,
+          "explanation": "The CNS environment is inhibitory to axon regeneration due to myelin-associated inhibitors (MAG, Nogo, OMgp) produced by oligodendrocytes and the formation of a glial scar by reactive astrocytes that creates a physical and chemical barrier. In contrast, the PNS environment is permissive, with Schwann cells providing growth factors and forming guidance channels."
+        },
+        {
+          "id": "ns-q-049",
+          "stem": "A patient with neurapraxia of a peripheral nerve would be expected to show:",
+          "options": ["A. permanent loss of nerve function requiring surgical repair", "B. temporary loss of function due to focal demyelination, with full recovery expected", "C. complete transection of the nerve with no possibility of regeneration", "D. Wallerian degeneration throughout the entire nerve"],
+          "correct": 1,
+          "explanation": "Neurapraxia is the mildest form of nerve injury, involving local demyelination without damage to the axon or connective tissue sheaths. Because the axon remains intact, nerve function is lost temporarily (due to conduction block at the demyelinated segment) but recovers fully once remyelination occurs, typically within weeks to months."
+        },
+        {
+          "id": "ns-q-050",
+          "stem": "Peripheral nerve regeneration occurs at approximately 1-3 mm per day. If a nerve is damaged 30 cm from its target muscle, approximately how long would recovery take?",
+          "options": ["A. 10-30 days", "B. 100-300 days", "C. 1-3 days", "D. 1,000-3,000 days"],
+          "correct": 1,
+          "explanation": "With 30 cm (300 mm) of nerve to regenerate at a rate of 1-3 mm per day, recovery would take approximately 300/3 to 300/1 = 100 to 300 days. This calculation illustrates why recovery from severe peripheral nerve injuries can take many months, and why injuries farther from the target organ have longer recovery times."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "subtopic": "Light & Optics",
+  "sectionId": "chem-phys",
+  "passageSets": [
+    {
+      "id": "optics-ps1",
+      "passage": "A researcher studied the refraction of light at the interface between air and glass. A beam of monochromatic light with a wavelength of 589 nm in air was directed at a flat glass surface at an angle of incidence of 45 degrees. The glass had an index of refraction of 1.52. Snell's law, n1 sin(theta1) = n2 sin(theta2), describes the relationship between the angles of incidence and refraction. The researcher measured the angle of refraction and also calculated the speed and wavelength of light inside the glass. The speed of light in a medium is v = c/n, where c is the speed of light in vacuum (3.0 x 10^8 m/s) and n is the refractive index. The wavelength in the medium is similarly reduced: lambda_medium = lambda_vacuum / n. The researcher noted that the frequency of light does not change as it passes from one medium to another.",
+      "questions": [
+        {
+          "id": "optics-q1",
+          "stem": "What is the angle of refraction when the light enters the glass?",
+          "options": ["A. 22.5 degrees", "B. 27.7 degrees", "C. 30.0 degrees", "D. 33.3 degrees"],
+          "correct": 1,
+          "explanation": "Using Snell's law: sin(theta2) = n1 sin(theta1) / n2 = (1.00)(sin 45) / 1.52 = 0.707 / 1.52 = 0.465. theta2 = arcsin(0.465) = 27.7 degrees. Light bends toward the normal when entering a more optically dense medium."
+        },
+        {
+          "id": "optics-q2",
+          "stem": "What is the speed of light inside the glass?",
+          "options": ["A. 1.50 x 10^8 m/s", "B. 1.97 x 10^8 m/s", "C. 2.25 x 10^8 m/s", "D. 3.00 x 10^8 m/s"],
+          "correct": 1,
+          "explanation": "v = c/n = (3.0 x 10^8) / 1.52 = 1.97 x 10^8 m/s. The speed of light decreases in a medium with a refractive index greater than 1. The refractive index is a measure of how much slower light travels in the medium compared to vacuum."
+        },
+        {
+          "id": "optics-q3",
+          "stem": "What is the wavelength of the light inside the glass?",
+          "options": ["A. 295 nm", "B. 388 nm", "C. 450 nm", "D. 589 nm"],
+          "correct": 1,
+          "explanation": "lambda_glass = lambda_air / n = 589 / 1.52 = 387.5 nm, approximately 388 nm. The wavelength decreases in the denser medium while the frequency remains constant. This maintains the relationship v = f x lambda."
+        },
+        {
+          "id": "optics-q4",
+          "stem": "Why does the frequency of light remain unchanged when passing between media?",
+          "options": ["A. Frequency is determined by the source, not the medium", "B. Conservation of energy requires constant frequency at the boundary", "C. Both A and B are correct", "D. Frequency actually does change but by a negligible amount"],
+          "correct": 2,
+          "explanation": "The frequency remains constant for two related reasons: it is determined by the source that produced the light, and energy conservation requires that the rate of wave crests arriving at the boundary equals the rate leaving it. If frequency changed, energy would accumulate or be lost at the interface."
+        },
+        {
+          "id": "optics-q5",
+          "stem": "If the angle of incidence is increased, total internal reflection will occur when light travels from:",
+          "options": ["A. Air into glass", "B. Glass into air", "C. Vacuum into glass", "D. Air into water"],
+          "correct": 1,
+          "explanation": "Total internal reflection can only occur when light travels from a medium with a higher refractive index to one with a lower refractive index (e.g., glass to air). It occurs when the angle of incidence exceeds the critical angle, at which point Snell's law predicts a refracted angle of 90 degrees or more."
+        }
+      ]
+    },
+    {
+      "id": "optics-ps2",
+      "passage": "An optometry student studied the image formation by thin converging and diverging lenses. A thin converging lens with a focal length of 20.0 cm was used in several configurations. The thin lens equation is 1/f = 1/d_o + 1/d_i, where f is the focal length, d_o is the object distance, and d_i is the image distance. The magnification is m = -d_i / d_o, where a negative magnification indicates an inverted image. For converging lenses, the focal length is positive. The student placed objects at various distances from the lens and measured the corresponding image positions. When the object was placed beyond twice the focal length, a real, inverted, and reduced image was formed. When the object was between the focal point and the lens, a virtual, upright, and magnified image was formed. Diverging lenses always form virtual, upright, and reduced images regardless of object position.",
+      "questions": [
+        {
+          "id": "optics-q6",
+          "stem": "An object is placed 60.0 cm from the converging lens. Where is the image formed?",
+          "options": ["A. 15.0 cm on the same side", "B. 20.0 cm on the opposite side", "C. 30.0 cm on the opposite side", "D. 60.0 cm on the opposite side"],
+          "correct": 2,
+          "explanation": "Using 1/f = 1/d_o + 1/d_i: 1/20 = 1/60 + 1/d_i, so 1/d_i = 1/20 - 1/60 = 3/60 - 1/60 = 2/60 = 1/30. Therefore d_i = 30.0 cm on the opposite side of the lens. The positive image distance confirms a real image."
+        },
+        {
+          "id": "optics-q7",
+          "stem": "What is the magnification of the image in the previous question?",
+          "options": ["A. -2.0", "B. -0.50", "C. +0.50", "D. +2.0"],
+          "correct": 1,
+          "explanation": "m = -d_i / d_o = -30/60 = -0.50. The negative sign indicates the image is inverted, and the magnitude less than 1 indicates the image is smaller than the object. This is consistent with the object being placed beyond 2f."
+        },
+        {
+          "id": "optics-q8",
+          "stem": "If the object is placed at the focal point (20.0 cm from the lens), what happens to the image?",
+          "options": ["A. The image forms at the focal point on the other side", "B. The image forms at 40.0 cm", "C. No image is formed; rays emerge parallel", "D. A virtual image forms behind the object"],
+          "correct": 2,
+          "explanation": "When the object is at the focal point, 1/d_i = 1/f - 1/d_o = 1/20 - 1/20 = 0, which means d_i approaches infinity. The refracted rays emerge parallel to each other and do not converge to form an image at any finite distance."
+        },
+        {
+          "id": "optics-q9",
+          "stem": "An object is placed 10.0 cm from the converging lens. What type of image is formed?",
+          "options": ["A. Real, inverted, and reduced", "B. Real, inverted, and magnified", "C. Virtual, upright, and magnified", "D. Virtual, upright, and reduced"],
+          "correct": 2,
+          "explanation": "Using 1/d_i = 1/20 - 1/10 = 1/20 - 2/20 = -1/20, so d_i = -20.0 cm. The negative image distance indicates a virtual image on the same side as the object. The magnification m = -(-20)/10 = +2.0, meaning the image is upright and twice the size of the object."
+        },
+        {
+          "id": "optics-q10",
+          "stem": "A diverging lens with focal length -15.0 cm has an object placed 30.0 cm in front of it. Where is the image?",
+          "options": ["A. 10.0 cm, same side as object", "B. 10.0 cm, opposite side", "C. 30.0 cm, same side as object", "D. 30.0 cm, opposite side"],
+          "correct": 0,
+          "explanation": "1/d_i = 1/f - 1/d_o = 1/(-15) - 1/30 = -2/30 - 1/30 = -3/30 = -1/10, so d_i = -10.0 cm. The negative sign means the image is virtual, located on the same side as the object. Diverging lenses always produce virtual, upright, reduced images."
+        }
+      ]
+    },
+    {
+      "id": "optics-ps3",
+      "passage": "A laboratory exercise examined the behavior of concave and convex mirrors. A concave mirror with a radius of curvature of 40.0 cm was used to form images of objects at various distances. The focal length of a spherical mirror is f = R/2, where R is the radius of curvature. For concave mirrors, the focal length is positive. The mirror equation is identical in form to the thin lens equation: 1/f = 1/d_o + 1/d_i. However, for mirrors, real images form on the same side as the incoming light (in front of the mirror), while virtual images form behind the mirror. The magnification formula m = -d_i / d_o also applies, with a negative magnification indicating an inverted image. Convex mirrors always produce virtual, upright, and reduced images, making them useful as wide-angle security mirrors in stores and for vehicle side mirrors.",
+      "questions": [
+        {
+          "id": "optics-q11",
+          "stem": "What is the focal length of the concave mirror?",
+          "options": ["A. 10.0 cm", "B. 20.0 cm", "C. 40.0 cm", "D. 80.0 cm"],
+          "correct": 1,
+          "explanation": "f = R/2 = 40.0/2 = 20.0 cm. The focal point is located halfway between the center of curvature and the mirror surface. For a concave mirror, parallel rays converge at the focal point after reflection."
+        },
+        {
+          "id": "optics-q12",
+          "stem": "An object is placed 30.0 cm in front of the concave mirror. Where does the image form?",
+          "options": ["A. 20.0 cm in front", "B. 60.0 cm in front", "C. 30.0 cm behind", "D. 60.0 cm behind"],
+          "correct": 1,
+          "explanation": "1/d_i = 1/f - 1/d_o = 1/20 - 1/30 = 3/60 - 2/60 = 1/60, so d_i = 60.0 cm. The positive sign indicates a real image formed in front of the mirror (on the same side as the object). This image would be inverted and magnified."
+        },
+        {
+          "id": "optics-q13",
+          "stem": "What is the magnification when the object is at 30.0 cm from the concave mirror?",
+          "options": ["A. -2.0", "B. -1.0", "C. +1.0", "D. +2.0"],
+          "correct": 0,
+          "explanation": "m = -d_i/d_o = -60/30 = -2.0. The negative sign indicates the image is inverted, and the magnitude of 2 indicates the image is twice the size of the object. The object is between f and 2f, which produces a real, inverted, magnified image."
+        },
+        {
+          "id": "optics-q14",
+          "stem": "An object placed 10.0 cm from the concave mirror (inside the focal length) produces what type of image?",
+          "options": ["A. Real, inverted, magnified", "B. Real, inverted, reduced", "C. Virtual, upright, magnified", "D. Virtual, upright, reduced"],
+          "correct": 2,
+          "explanation": "1/d_i = 1/20 - 1/10 = -1/20, so d_i = -20.0 cm. The negative value indicates a virtual image behind the mirror. m = -(-20)/10 = +2.0, confirming the image is upright and magnified. This is how concave mirrors are used as magnifying/makeup mirrors."
+        },
+        {
+          "id": "optics-q15",
+          "stem": "Why are convex mirrors used for vehicle side mirrors?",
+          "options": ["A. They magnify distant objects", "B. They produce real images of approaching vehicles", "C. They provide a wider field of view due to diverging reflected rays", "D. They eliminate blind spots by focusing light"],
+          "correct": 2,
+          "explanation": "Convex mirrors diverge reflected light, creating a virtual, upright, and reduced image. This reduction allows a wider field of view compared to flat mirrors, helping drivers see more of the area behind and beside their vehicle, though objects appear smaller and farther away than they actually are."
+        }
+      ]
+    },
+    {
+      "id": "optics-ps4",
+      "passage": "An optics experiment investigated total internal reflection and its applications. A semicircular glass block with a refractive index of 1.50 was used. Light was directed from inside the glass toward the flat surface at various angles. The critical angle is defined as the angle of incidence at which the refracted ray travels along the surface (refracted angle = 90 degrees). At angles greater than the critical angle, all light is reflected back into the glass. Total internal reflection is the principle behind fiber optics, in which light travels through a glass or plastic core by repeatedly reflecting off the core-cladding interface. The researchers measured the critical angle and compared it to the theoretical value calculated using Snell's law. They also discussed how the critical angle depends on the refractive indices of both media and how different wavelengths of light have slightly different critical angles due to dispersion.",
+      "questions": [
+        {
+          "id": "optics-q16",
+          "stem": "What is the critical angle for the glass-air interface?",
+          "options": ["A. 33.3 degrees", "B. 41.8 degrees", "C. 48.6 degrees", "D. 56.4 degrees"],
+          "correct": 1,
+          "explanation": "At the critical angle, sin(theta_c) = n2/n1 = 1.00/1.50 = 0.667. theta_c = arcsin(0.667) = 41.8 degrees. At this angle, the refracted ray grazes along the surface. For any angle of incidence greater than 41.8 degrees, total internal reflection occurs."
+        },
+        {
+          "id": "optics-q17",
+          "stem": "If the glass block were submerged in water (n = 1.33) instead of air, how would the critical angle change?",
+          "options": ["A. It would decrease", "B. It would remain the same", "C. It would increase", "D. Total internal reflection would no longer be possible"],
+          "correct": 2,
+          "explanation": "sin(theta_c) = n2/n1 = 1.33/1.50 = 0.887, giving theta_c = 62.5 degrees. The critical angle increases because the ratio n2/n1 is larger when the external medium is water instead of air. A smaller difference in refractive indices results in a larger critical angle."
+        },
+        {
+          "id": "optics-q18",
+          "stem": "In a fiber optic cable, light remains within the core because:",
+          "options": ["A. The cladding absorbs all transmitted light", "B. The core has a higher refractive index than the cladding, allowing total internal reflection", "C. The core has a lower refractive index than the cladding", "D. Light cannot escape from glass under any conditions"],
+          "correct": 1,
+          "explanation": "The core of a fiber optic cable has a higher refractive index than the surrounding cladding. When light hits the core-cladding interface at an angle greater than the critical angle, total internal reflection occurs, keeping the light confined within the core as it travels along the fiber."
+        },
+        {
+          "id": "optics-q19",
+          "stem": "Dispersion causes different wavelengths of light to have slightly different critical angles because:",
+          "options": ["A. Different wavelengths travel at the same speed in all media", "B. The refractive index of a material depends on the wavelength of light", "C. Longer wavelengths are absorbed more than shorter wavelengths", "D. The critical angle depends only on the geometry of the interface"],
+          "correct": 1,
+          "explanation": "Dispersion means the refractive index of a material varies with wavelength. In most transparent materials, shorter wavelengths (blue/violet) have a higher refractive index than longer wavelengths (red). Since the critical angle depends on the refractive index, different colors have slightly different critical angles."
+        },
+        {
+          "id": "optics-q20",
+          "stem": "A diamond has a refractive index of 2.42. Its critical angle for a diamond-air interface is closest to:",
+          "options": ["A. 24.4 degrees", "B. 33.3 degrees", "C. 41.8 degrees", "D. 48.8 degrees"],
+          "correct": 0,
+          "explanation": "sin(theta_c) = 1.00/2.42 = 0.413, so theta_c = arcsin(0.413) = 24.4 degrees. The very small critical angle of diamond means light is easily trapped inside by total internal reflection, which is why diamonds sparkle so brilliantly when properly cut."
+        }
+      ]
+    },
+    {
+      "id": "optics-ps5",
+      "passage": "A physics class studied the diffraction of light through single slits and diffraction gratings. A monochromatic laser beam with a wavelength of 632.8 nm was directed at a single slit of width 0.10 mm. The diffraction pattern was observed on a screen 2.0 m away. For a single slit, dark fringes (minima) occur at angles given by a sin(theta) = m lambda, where a is the slit width and m is a nonzero integer. The class then replaced the single slit with a diffraction grating having 500 lines per mm. For a diffraction grating, bright fringes (maxima) occur at d sin(theta) = m lambda, where d is the spacing between adjacent slits. The grating produced much sharper and brighter maxima than the single slit. The students discussed how diffraction gratings are used in spectrometers to separate light into its component wavelengths.",
+      "questions": [
+        {
+          "id": "optics-q21",
+          "stem": "At what angle does the first dark fringe appear in the single-slit diffraction pattern?",
+          "options": ["A. 0.18 degrees", "B. 0.36 degrees", "C. 0.72 degrees", "D. 1.44 degrees"],
+          "correct": 1,
+          "explanation": "Using a sin(theta) = m lambda: sin(theta) = lambda/a = 632.8 x 10^-9 / 0.10 x 10^-3 = 6.328 x 10^-3. theta = arcsin(6.328 x 10^-3) = 0.36 degrees. For small angles, sin(theta) is approximately equal to theta in radians."
+        },
+        {
+          "id": "optics-q22",
+          "stem": "What is the slit spacing d for the diffraction grating with 500 lines per mm?",
+          "options": ["A. 0.5 micrometers", "B. 2.0 micrometers", "C. 5.0 micrometers", "D. 20.0 micrometers"],
+          "correct": 1,
+          "explanation": "d = 1/(500 lines/mm) = 1/500 mm = 0.002 mm = 2.0 micrometers. The slit spacing is the reciprocal of the number of lines per unit length. Finer gratings (more lines per mm) have smaller spacing and produce greater angular separation of diffracted orders."
+        },
+        {
+          "id": "optics-q23",
+          "stem": "At what angle does the first-order maximum appear for the diffraction grating?",
+          "options": ["A. 9.2 degrees", "B. 18.4 degrees", "C. 27.9 degrees", "D. 36.8 degrees"],
+          "correct": 1,
+          "explanation": "d sin(theta) = m lambda: sin(theta) = lambda/d = 632.8 x 10^-9 / 2.0 x 10^-6 = 0.3164. theta = arcsin(0.3164) = 18.4 degrees. The grating produces much larger angular separations than a single slit because d is much smaller than a."
+        },
+        {
+          "id": "optics-q24",
+          "stem": "Why are diffraction grating maxima much sharper than single-slit diffraction patterns?",
+          "options": ["A. Gratings use thicker glass", "B. Multiple slits produce constructive interference only at very specific angles", "C. Gratings reflect rather than transmit light", "D. The slit width in a grating is zero"],
+          "correct": 1,
+          "explanation": "A diffraction grating has many slits contributing to the interference pattern. Constructive interference from all slits only occurs at very precise angles, producing narrow, bright maxima. Between these maxima, the many waves from different slits cancel through destructive interference, creating dark regions."
+        },
+        {
+          "id": "optics-q25",
+          "stem": "If the laser wavelength were increased to 700 nm, the angular position of the first-order grating maximum would:",
+          "options": ["A. Decrease", "B. Remain the same", "C. Increase", "D. Become undefined"],
+          "correct": 2,
+          "explanation": "Since sin(theta) = m lambda / d, increasing the wavelength increases sin(theta) and thus the angle. Longer wavelengths are diffracted through larger angles. This is the principle behind using diffraction gratings to separate white light into its component colors."
+        }
+      ]
+    },
+    {
+      "id": "optics-ps6",
+      "passage": "An experiment explored the polarization of light. Unpolarized light from an incandescent bulb was passed through a polarizing filter (polarizer), producing linearly polarized light. The transmitted intensity after the first polarizer was half the incident intensity (I = I_0/2). The polarized light then passed through a second polarizer (analyzer) oriented at an angle theta relative to the first. According to Malus's law, the transmitted intensity is I = I_0 cos^2(theta), where I_0 is the intensity of polarized light incident on the analyzer. The students measured transmitted intensity at various analyzer angles. They also observed that reflected light from surfaces becomes partially polarized, with complete polarization occurring at Brewster's angle, where tan(theta_B) = n2/n1. At Brewster's angle, the reflected and refracted rays are perpendicular to each other.",
+      "questions": [
+        {
+          "id": "optics-q26",
+          "stem": "If unpolarized light with intensity I_0 passes through a single polarizer, what is the transmitted intensity?",
+          "options": ["A. I_0", "B. I_0 / 2", "C. I_0 / 4", "D. Zero"],
+          "correct": 1,
+          "explanation": "A polarizer transmits only the component of light vibrating along its transmission axis. For unpolarized light, which has equal intensity in all polarization directions, exactly half the intensity is transmitted: I = I_0/2. This is because, on average, cos^2(theta) = 1/2 over all random orientations."
+        },
+        {
+          "id": "optics-q27",
+          "stem": "Polarized light passes through an analyzer oriented at 60 degrees to the polarizer. What fraction of the polarized light intensity is transmitted?",
+          "options": ["A. 0.25", "B. 0.50", "C. 0.75", "D. 0.87"],
+          "correct": 0,
+          "explanation": "By Malus's law, I = I_0 cos^2(60) = I_0 (0.50)^2 = 0.25 I_0. One quarter of the polarized light intensity passes through the analyzer. At 60 degrees, the electric field component along the analyzer axis is cos(60) = 0.5, and intensity is proportional to the square of the field."
+        },
+        {
+          "id": "optics-q28",
+          "stem": "At what analyzer angle is the transmitted intensity zero?",
+          "options": ["A. 0 degrees", "B. 45 degrees", "C. 60 degrees", "D. 90 degrees"],
+          "correct": 3,
+          "explanation": "When the analyzer is perpendicular to the polarizer (theta = 90 degrees), cos^2(90) = 0, and no light passes through. This configuration is called crossed polarizers. The polarization direction of the incident light is completely perpendicular to the transmission axis of the analyzer."
+        },
+        {
+          "id": "optics-q29",
+          "stem": "What is Brewster's angle for light reflecting off glass (n = 1.52) in air?",
+          "options": ["A. 33.4 degrees", "B. 41.2 degrees", "C. 48.8 degrees", "D. 56.7 degrees"],
+          "correct": 3,
+          "explanation": "tan(theta_B) = n2/n1 = 1.52/1.00 = 1.52. theta_B = arctan(1.52) = 56.7 degrees. At this angle, the reflected light is completely polarized perpendicular to the plane of incidence. Polarizing sunglasses exploit this by blocking horizontally polarized reflected glare."
+        },
+        {
+          "id": "optics-q30",
+          "stem": "If unpolarized light passes through two polarizers with the second at 30 degrees to the first, what is the final intensity?",
+          "options": ["A. I_0 / 8", "B. 3 I_0 / 8", "C. I_0 / 4", "D. I_0 / 2"],
+          "correct": 1,
+          "explanation": "After the first polarizer, the intensity is I_0/2. After the second polarizer at 30 degrees, I = (I_0/2) cos^2(30) = (I_0/2)(sqrt(3)/2)^2 = (I_0/2)(3/4) = 3I_0/8. Each polarizer reduces the intensity according to Malus's law applied to the polarized light incident upon it."
+        }
+      ]
+    },
+    {
+      "id": "optics-ps7",
+      "passage": "A student investigated the formation of images by combinations of thin lenses. A converging lens with focal length f1 = 15.0 cm was placed 40.0 cm from a diverging lens with focal length f2 = -10.0 cm. An object was placed 30.0 cm in front of the converging lens. To find the final image, the student used a two-step process: first finding the image formed by the first lens, then using that image as the object for the second lens. If the intermediate image fell beyond the second lens, a negative object distance was used for the second lens calculation (virtual object). The student also calculated the total magnification as the product of the individual magnifications: m_total = m1 x m2. This multi-lens system is the basis for many optical instruments, including microscopes and telescopes.",
+      "questions": [
+        {
+          "id": "optics-q31",
+          "stem": "Where does the first lens form its image?",
+          "options": ["A. 15.0 cm after the first lens", "B. 30.0 cm after the first lens", "C. 45.0 cm after the first lens", "D. 60.0 cm after the first lens"],
+          "correct": 1,
+          "explanation": "1/d_i = 1/f - 1/d_o = 1/15 - 1/30 = 2/30 - 1/30 = 1/30, so d_i = 30.0 cm after the first lens. This intermediate image is real and inverted. It serves as the object for the second lens."
+        },
+        {
+          "id": "optics-q32",
+          "stem": "What is the object distance for the second lens?",
+          "options": ["A. -10.0 cm (virtual object)", "B. 10.0 cm", "C. 30.0 cm", "D. 40.0 cm"],
+          "correct": 1,
+          "explanation": "The intermediate image forms 30.0 cm after the first lens. The second lens is 40.0 cm after the first lens, so the intermediate image is 40.0 - 30.0 = 10.0 cm in front of the second lens. This is a real object for the second lens, with d_o = 10.0 cm."
+        },
+        {
+          "id": "optics-q33",
+          "stem": "Where does the second lens form the final image?",
+          "options": ["A. At infinity", "B. 10.0 cm before the second lens (virtual)", "C. 10.0 cm after the second lens", "D. 5.0 cm before the second lens (virtual)"],
+          "correct": 3,
+          "explanation": "Using 1/f = 1/d_o + 1/d_i: 1/(-10) = 1/10 + 1/d_i, so 1/d_i = -1/10 - 1/10 = -2/10 = -1/5, giving d_i = -5.0 cm. The negative image distance indicates a virtual image located 5.0 cm in front of (before) the diverging lens, on the same side as the incoming light."
+        },
+        {
+          "id": "optics-q34",
+          "stem": "What is the magnification produced by the first lens alone?",
+          "options": ["A. -2.0", "B. -1.0", "C. -0.5", "D. +0.5"],
+          "correct": 1,
+          "explanation": "m1 = -d_i/d_o = -30/30 = -1.0. The first lens produces an image that is the same size as the object but inverted. This occurs when the object is placed at a distance of 2f from a converging lens."
+        },
+        {
+          "id": "optics-q35",
+          "stem": "In a compound microscope, the objective lens and eyepiece lens are arranged so that:",
+          "options": ["A. Both lenses are diverging", "B. The objective forms a magnified real image that the eyepiece further magnifies", "C. The objective forms a virtual image", "D. The eyepiece forms a real image on the retina"],
+          "correct": 1,
+          "explanation": "In a compound microscope, the objective lens (short focal length) forms a magnified real intermediate image inside the focal length of the eyepiece. The eyepiece then acts as a magnifying glass, further enlarging this intermediate image to produce a final virtual image at a comfortable viewing distance."
+        }
+      ]
+    },
+    {
+      "id": "optics-ps8",
+      "passage": "Researchers studied thin-film interference, which occurs when light reflects from the top and bottom surfaces of a thin transparent film. A soap film in air was illuminated with white light, producing colorful interference patterns. For a film of thickness t and refractive index n, the condition for constructive interference in reflected light (when the film is in air on both sides) is 2nt = (m + 1/2) lambda, where m is an integer. This accounts for the 180-degree phase change that occurs when light reflects from a surface with a higher refractive index. The condition for destructive interference is 2nt = m lambda. The researchers observed that as the film became very thin, it appeared dark in reflected light, and as it thickened, bands of different colors appeared. Anti-reflection coatings on camera lenses work on the same principle, using a thin coating to create destructive interference for reflected light, thereby increasing transmission.",
+      "questions": [
+        {
+          "id": "optics-q36",
+          "stem": "A soap film (n = 1.33) appears bright green (lambda = 532 nm in air) in reflected light. What is the minimum nonzero thickness of the film?",
+          "options": ["A. 100 nm", "B. 200 nm", "C. 266 nm", "D. 400 nm"],
+          "correct": 0,
+          "explanation": "For constructive interference with m = 0: 2nt = (0 + 1/2) lambda, so t = lambda / (4n) = 532 / (4 x 1.33) = 532 / 5.32 = 100 nm. The factor of 1/2 in the constructive condition accounts for the phase change at the top surface reflection."
+        },
+        {
+          "id": "optics-q37",
+          "stem": "Why does a very thin soap film appear dark in reflected light?",
+          "options": ["A. Thin films absorb all light", "B. The two reflected waves are nearly in phase and interfere constructively", "C. The path length difference is negligible, but the phase change from reflection causes destructive interference", "D. Thin films transmit only ultraviolet light"],
+          "correct": 2,
+          "explanation": "When the film is extremely thin, the path length difference between light reflected from the top and bottom surfaces approaches zero. However, the reflection at the top surface (air to higher-n film) produces a 180-degree phase change, while the bottom reflection (film to lower-n air) does not. This phase difference causes destructive interference."
+        },
+        {
+          "id": "optics-q38",
+          "stem": "An anti-reflection coating (n = 1.38) is applied to glass (n = 1.52). For the coating to minimize reflection of 550 nm light, what should its minimum thickness be?",
+          "options": ["A. 50 nm", "B. 99.6 nm", "C. 138 nm", "D. 199 nm"],
+          "correct": 1,
+          "explanation": "For an anti-reflection coating where n_air < n_coating < n_glass, both reflections undergo a phase change. Destructive interference occurs when 2nt = lambda/2, so t = lambda/(4n) = 550/(4 x 1.38) = 99.6 nm. This quarter-wave coating cancels reflected light through destructive interference."
+        },
+        {
+          "id": "optics-q39",
+          "stem": "Why do soap films display multiple colors when illuminated with white light?",
+          "options": ["A. The soap molecules fluoresce at different wavelengths", "B. Different thicknesses of the film produce constructive interference for different wavelengths", "C. The film acts as a prism separating white light", "D. Chemical reactions in the soap produce colored light"],
+          "correct": 1,
+          "explanation": "A soap film typically has varying thickness across its surface due to gravity and surface tension. At each point, the thickness satisfies the constructive interference condition for a particular wavelength, causing that color to be preferentially reflected. Different locations with different thicknesses display different colors."
+        },
+        {
+          "id": "optics-q40",
+          "stem": "A phase change of 180 degrees occurs upon reflection when:",
+          "options": ["A. Light reflects from a surface of lower refractive index", "B. Light reflects from a surface of higher refractive index", "C. Light passes through a thin film", "D. Light is diffracted by a slit"],
+          "correct": 1,
+          "explanation": "A 180-degree (half-wavelength) phase change occurs when light reflects from a medium with a higher refractive index. This is analogous to the inversion of a pulse reflected from a fixed end of a string. No phase change occurs when reflecting from a medium with a lower refractive index."
+        }
+      ]
+    },
+    {
+      "id": "optics-ps9",
+      "passage": "A vision science class studied the optics of the human eye. The eye uses a converging lens system (cornea plus crystalline lens) to form a real, inverted image on the retina. The cornea provides about two-thirds of the eye's refractive power, while the crystalline lens provides the remaining third. Accommodation is the process by which the ciliary muscles change the shape of the crystalline lens to focus on objects at different distances. The near point is the closest distance at which the eye can focus (typically 25 cm for a young adult), and the far point is the farthest distance (infinity for a normal eye). Myopia (nearsightedness) occurs when the eye is too long or the lens too powerful, causing distant objects to focus in front of the retina. It is corrected with diverging lenses. Hyperopia (farsightedness) occurs when the eye is too short or the lens too weak, and is corrected with converging lenses. The power of a lens in diopters is P = 1/f, where f is in meters.",
+      "questions": [
+        {
+          "id": "optics-q41",
+          "stem": "A myopic person has a far point of 2.0 m. What lens power (in diopters) is needed to correct their vision?",
+          "options": ["A. -0.50 D", "B. -2.0 D", "C. +0.50 D", "D. +2.0 D"],
+          "correct": 0,
+          "explanation": "The corrective lens must take an object at infinity and form a virtual image at the far point (2.0 m). Using 1/f = 1/d_i + 1/d_o: the object is at infinity (1/d_o = 0) and the image must be at -2.0 m (virtual). So P = 1/f = 1/(-2.0) = -0.50 D. A diverging lens is needed."
+        },
+        {
+          "id": "optics-q42",
+          "stem": "A hyperopic person has a near point of 100 cm. What lens power is needed to bring the near point to 25 cm?",
+          "options": ["A. +1.0 D", "B. +2.0 D", "C. +3.0 D", "D. +4.0 D"],
+          "correct": 2,
+          "explanation": "The lens must take an object at 25 cm and form a virtual image at 100 cm (the person's actual near point). P = 1/f = 1/d_o + 1/d_i = 1/0.25 + 1/(-1.00) = 4.0 - 1.0 = 3.0 D. A converging lens with power +3.0 D is needed."
+        },
+        {
+          "id": "optics-q43",
+          "stem": "The cornea provides most of the eye's refractive power because:",
+          "options": ["A. It is thicker than the crystalline lens", "B. The large difference in refractive index between air and the cornea produces strong refraction", "C. The cornea can change shape more easily than the lens", "D. The cornea is located behind the pupil"],
+          "correct": 1,
+          "explanation": "The cornea provides about two-thirds of the eye's focusing power because the refractive index difference at the air-cornea interface (1.00 to 1.38) is much larger than at the aqueous humor-lens interface (1.33 to 1.40). Greater differences in refractive index produce stronger bending of light."
+        },
+        {
+          "id": "optics-q44",
+          "stem": "During accommodation to focus on a nearby object, the ciliary muscles:",
+          "options": ["A. Relax, allowing the lens to flatten", "B. Contract, reducing tension on the lens and allowing it to become more curved", "C. Contract, pulling the lens flatter", "D. Have no effect on the lens shape"],
+          "correct": 1,
+          "explanation": "When focusing on nearby objects, the ciliary muscles contract, which reduces tension on the zonular fibers attached to the lens. This allows the elastic lens to become thicker and more curved, increasing its refractive power and enabling the eye to focus on close objects."
+        },
+        {
+          "id": "optics-q45",
+          "stem": "A lens has a power of -4.0 D. What is its focal length?",
+          "options": ["A. -0.25 m", "B. -0.50 m", "C. +0.25 m", "D. +4.0 m"],
+          "correct": 0,
+          "explanation": "f = 1/P = 1/(-4.0) = -0.25 m. The negative focal length indicates this is a diverging lens. Diopters (D) are the unit of lens power equal to inverse meters (m^-1), and negative values correspond to diverging lenses used to correct myopia."
+        }
+      ]
+    },
+    {
+      "id": "optics-ps10",
+      "passage": "A physics laboratory explored the electromagnetic spectrum and the wave-particle duality of light. Light is an electromagnetic wave consisting of oscillating electric and magnetic fields perpendicular to each other and to the direction of propagation. The electromagnetic spectrum extends from radio waves (wavelengths of meters to kilometers) through microwaves, infrared, visible light (approximately 400-700 nm), ultraviolet, X-rays, and gamma rays. The energy of a photon is E = hf = hc/lambda, where h is Planck's constant (6.63 x 10^-34 J s). The photoelectric effect demonstrated that light behaves as particles (photons), with each photon carrying a discrete quantum of energy. The work function (phi) is the minimum energy needed to eject an electron from a metal surface. The maximum kinetic energy of ejected electrons is KE_max = hf - phi.",
+      "questions": [
+        {
+          "id": "optics-q46",
+          "stem": "What is the energy of a photon of green light with wavelength 500 nm?",
+          "options": ["A. 1.33 x 10^-19 J", "B. 2.49 x 10^-19 J", "C. 3.98 x 10^-19 J", "D. 6.63 x 10^-19 J"],
+          "correct": 2,
+          "explanation": "E = hc/lambda = (6.63 x 10^-34)(3.0 x 10^8) / (500 x 10^-9) = (1.989 x 10^-25) / (5.0 x 10^-7) = 3.98 x 10^-19 J. Photon energy is inversely proportional to wavelength, so shorter wavelengths carry more energy per photon."
+        },
+        {
+          "id": "optics-q47",
+          "stem": "A metal has a work function of 2.0 eV. What is the threshold frequency below which no electrons are ejected?",
+          "options": ["A. 2.4 x 10^14 Hz", "B. 4.8 x 10^14 Hz", "C. 7.2 x 10^14 Hz", "D. 9.6 x 10^14 Hz"],
+          "correct": 1,
+          "explanation": "At the threshold, hf = phi. So f = phi/h = (2.0 eV x 1.6 x 10^-19 J/eV) / (6.63 x 10^-34 J s) = (3.2 x 10^-19) / (6.63 x 10^-34) = 4.83 x 10^14 Hz. Below this frequency, individual photons lack sufficient energy to overcome the work function."
+        },
+        {
+          "id": "optics-q48",
+          "stem": "In the electromagnetic spectrum, which type of radiation has the highest energy per photon?",
+          "options": ["A. Radio waves", "B. Infrared", "C. Ultraviolet", "D. Gamma rays"],
+          "correct": 3,
+          "explanation": "Gamma rays have the shortest wavelengths and highest frequencies in the electromagnetic spectrum. Since photon energy E = hf, higher frequency corresponds to higher energy. Gamma rays can have energies millions of times greater than visible light photons."
+        },
+        {
+          "id": "optics-q49",
+          "stem": "If the intensity of light is increased but the frequency remains constant, the photoelectric effect shows:",
+          "options": ["A. Electrons are ejected with greater kinetic energy", "B. More electrons are ejected per unit time but with the same maximum kinetic energy", "C. The threshold frequency decreases", "D. No electrons are ejected"],
+          "correct": 1,
+          "explanation": "Increasing intensity means more photons per second, but each photon has the same energy (since frequency is unchanged). Therefore, more electrons are ejected (greater photocurrent), but the maximum kinetic energy of each electron remains the same. This observation was key evidence for the particle nature of light."
+        },
+        {
+          "id": "optics-q50",
+          "stem": "The electric and magnetic fields in an electromagnetic wave are oriented:",
+          "options": ["A. Parallel to each other and to the direction of propagation", "B. Parallel to each other and perpendicular to the direction of propagation", "C. Perpendicular to each other and to the direction of propagation", "D. Perpendicular to each other but parallel to the direction of propagation"],
+          "correct": 2,
+          "explanation": "In an electromagnetic wave, the electric field, magnetic field, and direction of propagation are all mutually perpendicular. This transverse nature means the E and B fields oscillate at right angles to the direction the wave travels, forming a self-sustaining wave that requires no medium."
+        }
+      ]
+    }
+  ]
+}

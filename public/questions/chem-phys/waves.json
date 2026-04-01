@@ -1,0 +1,416 @@
+{
+  "subtopic": "Waves & Sound",
+  "sectionId": "chem-phys",
+  "passageSets": [
+    {
+      "id": "waves-ps1",
+      "passage": "A research team studying the physics of musical instruments analyzed the behavior of standing waves in a pipe organ. The organ pipe under investigation was open at both ends and had a length of 1.70 m. The speed of sound in air at the ambient temperature of 20 degrees Celsius was measured to be 343 m/s. The team recorded the fundamental frequency and several harmonics produced by the pipe. They also examined how changes in temperature affected the frequencies produced, noting that the speed of sound increases by approximately 0.6 m/s for every 1 degree Celsius rise in temperature. Additionally, the researchers compared the frequencies of open pipes to those of pipes closed at one end with identical lengths. They observed that closed pipes produced only odd harmonics and had a fundamental frequency exactly half that of an open pipe of the same length. The team used spectrum analyzers to identify the harmonic content of each pipe and correlated the results with the perceived timbre of each instrument.",
+      "questions": [
+        {
+          "id": "waves-q1",
+          "stem": "What is the fundamental frequency of the open organ pipe described in the passage?",
+          "options": ["A. 50.4 Hz", "B. 100.9 Hz", "C. 201.8 Hz", "D. 403.5 Hz"],
+          "correct": 1,
+          "explanation": "For an open pipe, the fundamental frequency is f = v / (2L) = 343 / (2 x 1.70) = 343 / 3.40 = 100.9 Hz. Open pipes have antinodes at both ends, so the fundamental wavelength is twice the length of the pipe."
+        },
+        {
+          "id": "waves-q2",
+          "stem": "If a pipe of the same length were closed at one end, what would its fundamental frequency be?",
+          "options": ["A. 25.2 Hz", "B. 50.4 Hz", "C. 100.9 Hz", "D. 201.8 Hz"],
+          "correct": 1,
+          "explanation": "A closed pipe has a node at the closed end and an antinode at the open end. Its fundamental wavelength is 4L, so f = v / (4L) = 343 / (4 x 1.70) = 343 / 6.80 = 50.4 Hz. This is exactly half the fundamental frequency of an open pipe of the same length."
+        },
+        {
+          "id": "waves-q3",
+          "stem": "Which harmonics are present in a pipe that is closed at one end?",
+          "options": ["A. All integer multiples of the fundamental", "B. Only odd multiples of the fundamental", "C. Only even multiples of the fundamental", "D. Only the fundamental frequency with no overtones"],
+          "correct": 1,
+          "explanation": "A pipe closed at one end supports only odd harmonics (1st, 3rd, 5th, etc.) because the boundary conditions require a node at the closed end and an antinode at the open end. This constraint eliminates all even harmonics from the series."
+        },
+        {
+          "id": "waves-q4",
+          "stem": "If the temperature rises to 30 degrees Celsius, what is the approximate new speed of sound?",
+          "options": ["A. 337 m/s", "B. 343 m/s", "C. 349 m/s", "D. 355 m/s"],
+          "correct": 2,
+          "explanation": "The passage states the speed of sound increases by 0.6 m/s per degree Celsius. A rise from 20 to 30 degrees Celsius is a 10-degree increase, so the new speed is 343 + (0.6 x 10) = 343 + 6 = 349 m/s. This increase is due to faster molecular motion at higher temperatures."
+        },
+        {
+          "id": "waves-q5",
+          "stem": "The third harmonic of the open pipe has a frequency closest to which value?",
+          "options": ["A. 100.9 Hz", "B. 201.8 Hz", "C. 302.6 Hz", "D. 403.5 Hz"],
+          "correct": 2,
+          "explanation": "For an open pipe, all harmonics are present. The third harmonic has a frequency of 3 times the fundamental: 3 x 100.9 = 302.6 Hz. Open pipes support all integer multiples of the fundamental frequency because both ends are displacement antinodes."
+        }
+      ]
+    },
+    {
+      "id": "waves-ps2",
+      "passage": "An acoustics laboratory measured sound intensity levels at various distances from a point source emitting sound uniformly in all directions. At a distance of 2.0 m from the source, the sound intensity was measured at 1.0 x 10^-4 W/m^2. The threshold of hearing is defined as I_0 = 1.0 x 10^-12 W/m^2, and the sound intensity level in decibels is given by beta = 10 log(I/I_0). The researchers noted that sound intensity follows an inverse square law with distance from a point source, meaning I is proportional to 1/r^2. They also studied the relationship between sound intensity and the amplitude of pressure variations, finding that intensity is proportional to the square of the pressure amplitude. The team investigated how barriers and enclosures could reduce sound intensity levels in workplace environments, aiming to bring noise levels below the 85 dB threshold recommended by occupational health guidelines.",
+      "questions": [
+        {
+          "id": "waves-q6",
+          "stem": "What is the sound intensity level in decibels at 2.0 m from the source?",
+          "options": ["A. 40 dB", "B. 60 dB", "C. 80 dB", "D. 100 dB"],
+          "correct": 2,
+          "explanation": "Using beta = 10 log(I/I_0) = 10 log(1.0 x 10^-4 / 1.0 x 10^-12) = 10 log(10^8) = 10 x 8 = 80 dB. The logarithmic scale compresses the enormous range of audible intensities into a manageable numerical scale."
+        },
+        {
+          "id": "waves-q7",
+          "stem": "What is the sound intensity at a distance of 4.0 m from the source?",
+          "options": ["A. 5.0 x 10^-5 W/m^2", "B. 2.5 x 10^-5 W/m^2", "C. 1.0 x 10^-5 W/m^2", "D. 5.0 x 10^-4 W/m^2"],
+          "correct": 1,
+          "explanation": "By the inverse square law, doubling the distance reduces intensity by a factor of 4. So I = (1.0 x 10^-4) / 4 = 2.5 x 10^-5 W/m^2. The inverse square law arises because the same power is spread over a sphere whose surface area increases as r^2."
+        },
+        {
+          "id": "waves-q8",
+          "stem": "If the sound intensity at a location is doubled, by how many decibels does the sound intensity level increase?",
+          "options": ["A. 2 dB", "B. 3 dB", "C. 6 dB", "D. 10 dB"],
+          "correct": 1,
+          "explanation": "When intensity doubles, the change in dB is 10 log(2I/I) = 10 log(2) = 10 x 0.301 = approximately 3 dB. This is a useful rule of thumb in acoustics: every doubling of intensity corresponds to a 3 dB increase in sound level."
+        },
+        {
+          "id": "waves-q9",
+          "stem": "If the pressure amplitude of a sound wave is tripled, by what factor does the intensity change?",
+          "options": ["A. 3", "B. 6", "C. 9", "D. 27"],
+          "correct": 2,
+          "explanation": "Since intensity is proportional to the square of the pressure amplitude, tripling the pressure amplitude increases intensity by a factor of 3^2 = 9. This relationship derives from the fact that energy carried by a wave is proportional to the square of its amplitude."
+        },
+        {
+          "id": "waves-q10",
+          "stem": "At what distance from the source would the sound intensity level equal approximately 74 dB?",
+          "options": ["A. 3.0 m", "B. 4.0 m", "C. 5.0 m", "D. 6.0 m"],
+          "correct": 1,
+          "explanation": "At 4.0 m, the intensity is 2.5 x 10^-5 W/m^2. The level is 10 log(2.5 x 10^-5 / 10^-12) = 10 log(2.5 x 10^7) = 10(7 + log 2.5) = 10(7 + 0.4) = 74 dB. Doubling the distance from 2 m to 4 m reduces the level by 6 dB (from 80 to 74 dB)."
+        }
+      ]
+    },
+    {
+      "id": "waves-ps3",
+      "passage": "A physics demonstration explored the Doppler effect using a speaker mounted on a cart moving along a track. The speaker emitted a pure tone at a frequency of 1000 Hz. The speed of sound in the room was 340 m/s. A stationary observer recorded the perceived frequency as the cart approached and then receded. The cart moved at a constant speed of 20 m/s. The demonstrator also discussed applications of the Doppler effect in medical ultrasound, where frequencies of 2-10 MHz are used to measure blood flow velocities. In ultrasound, the reflected wave undergoes two Doppler shifts: one when the wave encounters the moving blood cells and another when the reflected wave returns to the stationary transducer. The formula for the Doppler-shifted frequency when the source approaches a stationary observer is f' = f x v / (v - v_s), where v is the speed of sound, v_s is the source speed, and f is the emitted frequency.",
+      "questions": [
+        {
+          "id": "waves-q11",
+          "stem": "What frequency does the stationary observer hear as the speaker approaches?",
+          "options": ["A. 941 Hz", "B. 1000 Hz", "C. 1063 Hz", "D. 1125 Hz"],
+          "correct": 2,
+          "explanation": "Using f' = f x v / (v - v_s) = 1000 x 340 / (340 - 20) = 1000 x 340/320 = 1062.5 Hz, approximately 1063 Hz. As the source approaches, the wavefronts are compressed, resulting in a shorter wavelength and higher perceived frequency."
+        },
+        {
+          "id": "waves-q12",
+          "stem": "What frequency does the observer hear as the speaker moves away?",
+          "options": ["A. 889 Hz", "B. 917 Hz", "C. 944 Hz", "D. 972 Hz"],
+          "correct": 2,
+          "explanation": "When the source recedes, f' = f x v / (v + v_s) = 1000 x 340 / (340 + 20) = 1000 x 340/360 = 944.4 Hz, approximately 944 Hz. The wavefronts are stretched behind a receding source, producing a longer wavelength and lower perceived frequency."
+        },
+        {
+          "id": "waves-q13",
+          "stem": "Why does ultrasound Doppler experience two frequency shifts when measuring blood flow?",
+          "options": ["A. The blood cells absorb and re-emit at a different frequency", "B. The wave is Doppler-shifted when hitting moving cells and again when reflecting back to the stationary transducer", "C. The ultrasound transducer moves during the measurement", "D. The two shifts are caused by the compression and rarefaction phases of the wave"],
+          "correct": 1,
+          "explanation": "The first Doppler shift occurs when the ultrasound wave from the stationary transducer encounters the moving blood cells (acting as a moving observer). The second shift occurs when the blood cells re-emit the wave back toward the stationary transducer (acting as a moving source). This double shift makes the technique sensitive to blood flow velocity."
+        },
+        {
+          "id": "waves-q14",
+          "stem": "If the cart speed were doubled to 40 m/s, what approaching frequency would the observer hear?",
+          "options": ["A. 1063 Hz", "B. 1105 Hz", "C. 1133 Hz", "D. 1200 Hz"],
+          "correct": 2,
+          "explanation": "f' = 1000 x 340 / (340 - 40) = 1000 x 340/300 = 1133.3 Hz, approximately 1133 Hz. Increasing the source speed compresses the wavefronts more, producing a greater upward shift in the perceived frequency."
+        },
+        {
+          "id": "waves-q15",
+          "stem": "What is the wavelength of the sound emitted by the speaker when it is stationary?",
+          "options": ["A. 0.29 m", "B. 0.34 m", "C. 0.68 m", "D. 3.40 m"],
+          "correct": 1,
+          "explanation": "The wavelength is lambda = v / f = 340 / 1000 = 0.34 m. This is the wavelength of the sound in the medium when neither source nor observer is moving. The Doppler effect changes the perceived frequency and wavelength but not the actual speed of the wave in the medium."
+        }
+      ]
+    },
+    {
+      "id": "waves-ps4",
+      "passage": "Researchers studied wave interference patterns using two coherent speakers placed 3.0 m apart, both emitting sound at a frequency of 680 Hz. The speed of sound was 340 m/s. Observers moved along a line parallel to the speaker axis at a distance of 10.0 m from the speakers. Constructive interference was observed at points where the path length difference between the two sources was an integer multiple of the wavelength, and destructive interference occurred where the path length difference was a half-integer multiple of the wavelength. The team noted that the intensity at constructive interference maxima was four times the intensity of a single speaker, while at destructive interference minima the intensity was zero. They discussed how this pattern relates to Young's double-slit experiment with light and how the fringe spacing depends on the wavelength, slit separation, and distance to the observation screen.",
+      "questions": [
+        {
+          "id": "waves-q16",
+          "stem": "What is the wavelength of the sound used in the experiment?",
+          "options": ["A. 0.25 m", "B. 0.50 m", "C. 1.00 m", "D. 2.00 m"],
+          "correct": 1,
+          "explanation": "lambda = v / f = 340 / 680 = 0.50 m. This wavelength determines the spacing of the interference pattern along the observation line. Longer wavelengths would produce wider spacing between maxima and minima."
+        },
+        {
+          "id": "waves-q17",
+          "stem": "At a constructive interference maximum, if one speaker alone produces an intensity I, what is the combined intensity?",
+          "options": ["A. I", "B. 2I", "C. 3I", "D. 4I"],
+          "correct": 3,
+          "explanation": "At constructive interference, the amplitudes add, giving twice the amplitude of a single source. Since intensity is proportional to amplitude squared, the combined intensity is (2A)^2 / A^2 = 4 times a single source intensity. This is consistent with energy conservation when averaged over all points in the pattern."
+        },
+        {
+          "id": "waves-q18",
+          "stem": "What is the minimum path length difference that produces destructive interference?",
+          "options": ["A. 0.125 m", "B. 0.25 m", "C. 0.50 m", "D. 1.00 m"],
+          "correct": 1,
+          "explanation": "Destructive interference first occurs when the path length difference is half a wavelength: lambda/2 = 0.50/2 = 0.25 m. At this path difference, the waves arrive exactly out of phase and cancel each other completely, producing zero intensity."
+        },
+        {
+          "id": "waves-q19",
+          "stem": "If the frequency were doubled to 1360 Hz, how would the fringe spacing change?",
+          "options": ["A. The spacing would double", "B. The spacing would remain the same", "C. The spacing would be halved", "D. The spacing would be quartered"],
+          "correct": 2,
+          "explanation": "Doubling the frequency halves the wavelength to 0.25 m. Since fringe spacing is proportional to wavelength (analogous to Young's double-slit formula), the spacing between maxima would be halved. Higher frequencies produce finer interference patterns."
+        },
+        {
+          "id": "waves-q20",
+          "stem": "For the interference pattern to be observable, the two sources must be:",
+          "options": ["A. At different frequencies to create beats", "B. Coherent with a constant phase relationship", "C. Moving relative to each other", "D. Producing waves of different amplitudes"],
+          "correct": 1,
+          "explanation": "Sustained interference patterns require coherent sources that maintain a constant phase relationship. If the phase relationship varied randomly, the pattern would shift rapidly and average out, making no stable pattern observable. This is why lasers (coherent light) are used for optical interference experiments."
+        }
+      ]
+    },
+    {
+      "id": "waves-ps5",
+      "passage": "A laboratory investigation examined the properties of transverse waves on a stretched string. A string with a linear mass density of 4.0 x 10^-3 kg/m was fixed at both ends and stretched with a tension of 100 N. The length of the string was 2.0 m. The students generated various standing wave patterns by driving the string at different frequencies. They observed nodes at each fixed end and measured the number of antinodes for each resonant frequency. The wave speed on the string is given by v = sqrt(T/mu), where T is the tension and mu is the linear mass density. The students also investigated how changing the tension affected the wave speed and the resonant frequencies. They noted that the frequencies of the harmonics formed a harmonic series with the fundamental frequency as the base.",
+      "questions": [
+        {
+          "id": "waves-q21",
+          "stem": "What is the speed of the wave on the string?",
+          "options": ["A. 25 m/s", "B. 50 m/s", "C. 100 m/s", "D. 158 m/s"],
+          "correct": 3,
+          "explanation": "v = sqrt(T/mu) = sqrt(100 / 4.0 x 10^-3) = sqrt(25000) = 158.1 m/s. The wave speed on a string depends on the tension (restoring force) and the linear mass density (inertia). Higher tension or lower mass density increases the wave speed."
+        },
+        {
+          "id": "waves-q22",
+          "stem": "What is the fundamental frequency of the string?",
+          "options": ["A. 19.8 Hz", "B. 39.5 Hz", "C. 79.0 Hz", "D. 158 Hz"],
+          "correct": 1,
+          "explanation": "The fundamental frequency is f1 = v / (2L) = 158.1 / (2 x 2.0) = 158.1 / 4.0 = 39.5 Hz. For a string fixed at both ends, the fundamental mode has nodes at both ends and one antinode in the center, with a wavelength of 2L."
+        },
+        {
+          "id": "waves-q23",
+          "stem": "How many antinodes does the third harmonic standing wave pattern have?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 6"],
+          "correct": 2,
+          "explanation": "The nth harmonic has n antinodes. Therefore, the third harmonic has 3 antinodes. The third harmonic also has 4 nodes (including the two fixed endpoints), and its wavelength is 2L/3."
+        },
+        {
+          "id": "waves-q24",
+          "stem": "If the tension in the string is quadrupled to 400 N, by what factor does the fundamental frequency change?",
+          "options": ["A. It doubles", "B. It quadruples", "C. It increases by a factor of sqrt(2)", "D. It remains the same"],
+          "correct": 0,
+          "explanation": "Since v = sqrt(T/mu), quadrupling the tension doubles the wave speed. Since f = v/(2L) and L is unchanged, the frequency also doubles. The fundamental frequency is directly proportional to the wave speed, which depends on the square root of the tension."
+        },
+        {
+          "id": "waves-q25",
+          "stem": "The standing wave pattern on the string results from:",
+          "options": ["A. Longitudinal oscillations of the string material", "B. Superposition of two traveling waves moving in opposite directions", "C. Compression and rarefaction of the string", "D. The gravitational force on the string"],
+          "correct": 1,
+          "explanation": "Standing waves form from the superposition (interference) of two waves traveling in opposite directions on the string. One wave travels toward a fixed end and reflects, creating a wave traveling the other way. The resulting pattern has fixed nodes and antinodes."
+        }
+      ]
+    },
+    {
+      "id": "waves-ps6",
+      "passage": "A marine biologist studied how sound propagates through ocean water to understand whale communication. The speed of sound in seawater is approximately 1500 m/s, compared to 340 m/s in air. The biologist measured the frequency of a blue whale call at 20 Hz, near the lower limit of human hearing. Sound waves in water are longitudinal, with alternating compressions and rarefactions of the water molecules. The intensity of the whale call was measured at 180 dB (re: 1 micropascal in water) at a distance of 1 m from the whale. The biologist noted that low-frequency sounds travel much farther in the ocean than high-frequency sounds due to reduced absorption. A phenomenon known as the SOFAR channel, a layer of minimum sound speed at depths of about 600-1200 m, allows sound to travel thousands of kilometers by refracting sound waves back toward this channel, effectively acting as a waveguide.",
+      "questions": [
+        {
+          "id": "waves-q26",
+          "stem": "What is the wavelength of the 20 Hz blue whale call in seawater?",
+          "options": ["A. 17 m", "B. 34 m", "C. 75 m", "D. 150 m"],
+          "correct": 2,
+          "explanation": "lambda = v / f = 1500 / 20 = 75 m. This extremely long wavelength is characteristic of low-frequency sounds and is one reason they travel so efficiently in the ocean, as they diffract around obstacles and are less affected by scattering."
+        },
+        {
+          "id": "waves-q27",
+          "stem": "How does the speed of sound in water compare to that in air, and what is the primary reason?",
+          "options": ["A. Faster in water because water is more dense", "B. Faster in water because water has greater bulk modulus relative to its density", "C. Slower in water because water molecules move more slowly", "D. The same in both media because sound speed is universal"],
+          "correct": 1,
+          "explanation": "Sound travels about 4.4 times faster in water than in air. Although water is denser than air (which would slow sound), water has a much greater bulk modulus (resistance to compression), and this effect dominates. The speed of sound depends on the ratio of the bulk modulus to the density."
+        },
+        {
+          "id": "waves-q28",
+          "stem": "Sound waves in the ocean are which type of wave?",
+          "options": ["A. Transverse", "B. Longitudinal", "C. Electromagnetic", "D. Surface"],
+          "correct": 1,
+          "explanation": "Sound waves are longitudinal waves in which the particles of the medium oscillate parallel to the direction of wave propagation. In water, this means alternating regions of compression (high pressure) and rarefaction (low pressure) travel through the medium."
+        },
+        {
+          "id": "waves-q29",
+          "stem": "Why do low-frequency sounds travel farther in the ocean than high-frequency sounds?",
+          "options": ["A. Low-frequency sounds have more energy per photon", "B. Low-frequency sounds experience less absorption by the medium", "C. High-frequency sounds are reflected by the ocean surface", "D. Low-frequency sounds travel faster than high-frequency sounds"],
+          "correct": 1,
+          "explanation": "Low-frequency sounds experience significantly less absorption (energy loss per unit distance) in seawater compared to high-frequency sounds. This reduced absorption allows them to propagate over vast distances, which is why whales use low-frequency calls for long-range communication."
+        },
+        {
+          "id": "waves-q30",
+          "stem": "The SOFAR channel acts as a waveguide because:",
+          "options": ["A. It reflects sound waves off the ocean floor", "B. It refracts sound waves back toward the zone of minimum sound speed", "C. It amplifies the sound through resonance", "D. It converts longitudinal waves to transverse waves"],
+          "correct": 1,
+          "explanation": "The SOFAR channel is a depth range where sound speed is at a minimum. Sound waves that deviate from this channel encounter regions of higher sound speed, which causes them to refract back toward the minimum. This continuous refraction traps sound energy within the channel, allowing it to travel thousands of kilometers."
+        }
+      ]
+    },
+    {
+      "id": "waves-ps7",
+      "passage": "A physics experiment investigated beats and superposition of sound waves. Two tuning forks were used: one calibrated at 440 Hz (concert A) and another of slightly different frequency. When sounded together, the students heard a periodic variation in loudness with a beat frequency of 4 Hz. The beat frequency equals the absolute difference between the two source frequencies: f_beat = |f1 - f2|. To determine whether the unknown fork was higher or lower in frequency, the students placed a small piece of wax on the unknown fork (which slightly lowers its frequency) and observed that the beat frequency increased to 6 Hz. The students also explored how superposition of waves with very different frequencies does not produce audible beats but instead creates complex waveforms that can be analyzed using Fourier decomposition into their component frequencies.",
+      "questions": [
+        {
+          "id": "waves-q31",
+          "stem": "What are the possible frequencies of the unknown tuning fork before the wax was added?",
+          "options": ["A. 436 Hz or 444 Hz", "B. 438 Hz or 442 Hz", "C. 434 Hz or 446 Hz", "D. 440 Hz or 444 Hz"],
+          "correct": 0,
+          "explanation": "Since f_beat = |f1 - f2| = 4 Hz, the unknown fork has a frequency of either 440 + 4 = 444 Hz or 440 - 4 = 436 Hz. Both values would produce the same 4 Hz beat frequency when sounded with the 440 Hz fork."
+        },
+        {
+          "id": "waves-q32",
+          "stem": "After adding wax, the beat frequency increased. What is the frequency of the unknown fork (without wax)?",
+          "options": ["A. 436 Hz", "B. 438 Hz", "C. 442 Hz", "D. 444 Hz"],
+          "correct": 0,
+          "explanation": "Adding wax lowers the frequency of the unknown fork. If the beat frequency increased from 4 Hz to 6 Hz, the unknown fork moved farther from 440 Hz, meaning it was already below 440 Hz. Therefore, the unknown fork was at 436 Hz, and adding wax lowered it further to 434 Hz."
+        },
+        {
+          "id": "waves-q33",
+          "stem": "What is the period of the beat pattern heard when both forks are sounded together (before wax)?",
+          "options": ["A. 0.10 s", "B. 0.25 s", "C. 0.50 s", "D. 1.00 s"],
+          "correct": 1,
+          "explanation": "The period of the beats is T = 1/f_beat = 1/4 = 0.25 s. This means the volume oscillates from loud to soft and back to loud every 0.25 seconds. The beat pattern is the envelope of the superposition of the two waves."
+        },
+        {
+          "id": "waves-q34",
+          "stem": "Beats are most easily heard when the two frequencies are:",
+          "options": ["A. Very different from each other", "B. Integer multiples of each other", "C. Close together in frequency", "D. Both below 20 Hz"],
+          "correct": 2,
+          "explanation": "Beats are most easily perceived when two frequencies are close together, producing a slow periodic variation in amplitude. If the frequencies differ by more than about 15-20 Hz, the fluctuations become too rapid to perceive as beats and are instead heard as a rough or dissonant tone."
+        },
+        {
+          "id": "waves-q35",
+          "stem": "Fourier analysis of a complex waveform reveals:",
+          "options": ["A. The speed of the wave in the medium", "B. The individual sinusoidal frequency components that make up the complex wave", "C. The direction of wave propagation", "D. The polarization state of the wave"],
+          "correct": 1,
+          "explanation": "Fourier analysis decomposes any periodic waveform into a sum of sinusoidal waves at specific frequencies and amplitudes. This mathematical technique is fundamental to understanding complex sounds, as it reveals the harmonic content (frequency spectrum) of any waveform."
+        }
+      ]
+    },
+    {
+      "id": "waves-ps8",
+      "passage": "Engineers designed an ultrasonic testing device to detect flaws in metal components. The device emitted ultrasonic pulses at a frequency of 5.0 MHz into a steel specimen. The speed of sound in steel is approximately 5900 m/s. The device operated on the pulse-echo principle: a short pulse of ultrasound was transmitted into the material, and the device measured the time for echoes to return from internal interfaces or flaws. A flaw located 0.10 m below the surface produced an echo that returned in a measured time interval. The engineers also considered the acoustic impedance of materials, Z = rho x v, where rho is the density and v is the sound speed. The fraction of wave energy reflected at an interface between two materials depends on the mismatch in acoustic impedance. A coupling gel was used between the transducer and the specimen to minimize reflection at the transducer-specimen interface.",
+      "questions": [
+        {
+          "id": "waves-q36",
+          "stem": "What is the wavelength of the ultrasonic wave in the steel specimen?",
+          "options": ["A. 0.59 mm", "B. 1.18 mm", "C. 5.90 mm", "D. 11.8 mm"],
+          "correct": 1,
+          "explanation": "lambda = v / f = 5900 / (5.0 x 10^6) = 1.18 x 10^-3 m = 1.18 mm. The short wavelength of ultrasound in steel allows detection of small internal flaws, as the wave can resolve features that are comparable in size to or larger than the wavelength."
+        },
+        {
+          "id": "waves-q37",
+          "stem": "What is the round-trip time for the echo from the flaw at 0.10 m depth?",
+          "options": ["A. 17 microseconds", "B. 34 microseconds", "C. 68 microseconds", "D. 100 microseconds"],
+          "correct": 1,
+          "explanation": "The pulse must travel to the flaw and back, covering a total distance of 2 x 0.10 = 0.20 m. Time = distance/speed = 0.20 / 5900 = 3.39 x 10^-5 s = approximately 34 microseconds. The factor of 2 accounts for the round trip of the pulse."
+        },
+        {
+          "id": "waves-q38",
+          "stem": "Why is coupling gel applied between the transducer and the steel specimen?",
+          "options": ["A. To increase the frequency of the ultrasound", "B. To reduce the acoustic impedance mismatch and minimize reflection at the interface", "C. To convert longitudinal waves to transverse waves", "D. To slow down the ultrasound pulse"],
+          "correct": 1,
+          "explanation": "Without coupling gel, there would be an air gap between the transducer and the steel. Air and steel have vastly different acoustic impedances, causing nearly all the ultrasound energy to reflect at the interface. The gel fills the gap and provides an intermediate impedance, allowing more energy to enter the specimen."
+        },
+        {
+          "id": "waves-q39",
+          "stem": "If the steel has a density of 7800 kg/m^3, what is its acoustic impedance?",
+          "options": ["A. 7.56 x 10^6 kg/(m^2 s)", "B. 4.60 x 10^7 kg/(m^2 s)", "C. 1.32 x 10^7 kg/(m^2 s)", "D. 2.36 x 10^8 kg/(m^2 s)"],
+          "correct": 1,
+          "explanation": "Z = rho x v = 7800 x 5900 = 4.602 x 10^7 kg/(m^2 s). Acoustic impedance determines how much sound energy is reflected or transmitted at a boundary. Materials with similar impedances allow more sound transmission across their interface."
+        },
+        {
+          "id": "waves-q40",
+          "stem": "Higher ultrasound frequencies are preferred in flaw detection because they:",
+          "options": ["A. Travel faster through the material", "B. Have shorter wavelengths, enabling detection of smaller flaws", "C. Produce louder echoes", "D. Can penetrate thicker specimens"],
+          "correct": 1,
+          "explanation": "Higher frequencies have shorter wavelengths, allowing the ultrasound to resolve smaller flaws. However, higher frequencies are also more strongly attenuated in the material, limiting penetration depth. The choice of frequency involves a tradeoff between resolution and penetration."
+        }
+      ]
+    },
+    {
+      "id": "waves-ps9",
+      "passage": "A demonstration of resonance was performed using a variable-frequency oscillator connected to a speaker placed near the open end of a glass tube partially submerged in water. By adjusting the water level, the effective length of the air column could be changed. The tube had an inner diameter of 4.0 cm. At a driving frequency of 512 Hz, the first resonance was observed when the air column length was 16.0 cm. Successive resonances were found at air column lengths of 49.3 cm and 82.6 cm. The speed of sound could be calculated from these measurements. The students noted that a small end correction must be applied because the antinode at the open end of the tube extends slightly beyond the physical end of the tube. The end correction is approximately 0.6 times the radius of the tube.",
+      "questions": [
+        {
+          "id": "waves-q41",
+          "stem": "The tube with water acts as a pipe that is:",
+          "options": ["A. Open at both ends", "B. Closed at one end by the water surface", "C. Closed at both ends", "D. Open at both ends with a node in the middle"],
+          "correct": 1,
+          "explanation": "The water surface acts as a closed (rigid) end, creating a displacement node, while the open end of the tube has a displacement antinode. This configuration is equivalent to a pipe closed at one end, which supports only odd harmonics."
+        },
+        {
+          "id": "waves-q42",
+          "stem": "What is the distance between successive resonance positions?",
+          "options": ["A. 16.0 cm", "B. 33.3 cm", "C. 49.3 cm", "D. 66.6 cm"],
+          "correct": 1,
+          "explanation": "The distance between successive resonances is 49.3 - 16.0 = 33.3 cm (and 82.6 - 49.3 = 33.3 cm confirms this). This distance equals half a wavelength because successive resonances for a closed pipe correspond to adding an additional half-wavelength to the air column."
+        },
+        {
+          "id": "waves-q43",
+          "stem": "What is the approximate speed of sound calculated from these measurements?",
+          "options": ["A. 320 m/s", "B. 341 m/s", "C. 356 m/s", "D. 375 m/s"],
+          "correct": 1,
+          "explanation": "The distance between successive resonances is half a wavelength: lambda/2 = 33.3 cm, so lambda = 66.6 cm = 0.666 m. Then v = f x lambda = 512 x 0.666 = 341 m/s. This method provides a good estimate of the speed of sound and is a classic laboratory experiment."
+        },
+        {
+          "id": "waves-q44",
+          "stem": "What is the end correction for this tube?",
+          "options": ["A. 0.8 cm", "B. 1.2 cm", "C. 2.0 cm", "D. 2.4 cm"],
+          "correct": 1,
+          "explanation": "The end correction is 0.6 times the radius. The tube has an inner diameter of 4.0 cm, so the radius is 2.0 cm. End correction = 0.6 x 2.0 = 1.2 cm. This correction accounts for the fact that the displacement antinode extends slightly beyond the open end of the tube."
+        },
+        {
+          "id": "waves-q45",
+          "stem": "At resonance, the air column length plus the end correction equals:",
+          "options": ["A. An integer multiple of the wavelength", "B. An odd multiple of one-quarter of the wavelength", "C. An even multiple of one-quarter of the wavelength", "D. One-half of the wavelength only"],
+          "correct": 1,
+          "explanation": "For a pipe closed at one end, the effective length (physical length plus end correction) at resonance equals an odd multiple of lambda/4: L_eff = (2n-1) x lambda/4, where n = 1, 2, 3, etc. This is because the closed end must have a node and the open end must have an antinode."
+        }
+      ]
+    },
+    {
+      "id": "waves-ps10",
+      "passage": "A seismology team analyzed the propagation of earthquake waves through Earth's interior. Earthquakes generate two primary types of body waves: P-waves (primary, compressional) and S-waves (secondary, shear). P-waves are longitudinal and travel through both solids and liquids, while S-waves are transverse and travel only through solids. In a particular rock formation near the surface, P-waves traveled at 6.0 km/s and S-waves at 3.5 km/s. A seismic station detected the P-waves 30 seconds before the S-waves. The difference in arrival times, combined with the known wave speeds, allowed the team to calculate the distance to the earthquake epicenter. The team also studied surface waves, which travel along Earth's surface and are generally slower but more destructive than body waves. The amplitude of surface waves decreases more slowly with distance compared to body waves because surface waves spread in two dimensions rather than three.",
+      "questions": [
+        {
+          "id": "waves-q46",
+          "stem": "Why can S-waves not propagate through Earth's liquid outer core?",
+          "options": ["A. S-waves have too high a frequency for liquid media", "B. Liquids cannot support the shear stress required for transverse wave propagation", "C. S-waves are reflected at the core-mantle boundary", "D. The outer core is too hot for wave propagation"],
+          "correct": 1,
+          "explanation": "S-waves are transverse (shear) waves that require the medium to resist shear deformation. Liquids have no shear modulus and cannot support shear stress, so transverse waves cannot propagate through them. This property is how seismologists determined that Earth's outer core is liquid."
+        },
+        {
+          "id": "waves-q47",
+          "stem": "Based on the 30-second delay between P-wave and S-wave arrival, approximately how far is the earthquake epicenter from the station?",
+          "options": ["A. 90 km", "B. 180 km", "C. 252 km", "D. 420 km"],
+          "correct": 2,
+          "explanation": "Let d be the distance. The time difference is d/v_s - d/v_p = 30 s. So d(1/3.5 - 1/6.0) = 30, giving d(0.2857 - 0.1667) = 30, d(0.1190) = 30, d = 252 km. This S-P time method is a standard technique for determining earthquake distances."
+        },
+        {
+          "id": "waves-q48",
+          "stem": "P-waves are classified as which type of wave?",
+          "options": ["A. Transverse", "B. Longitudinal", "C. Surface", "D. Electromagnetic"],
+          "correct": 1,
+          "explanation": "P-waves (primary waves) are longitudinal compression waves where particle motion is parallel to the wave propagation direction. They create alternating compressions and rarefactions in the rock, similar to sound waves in air. They are the fastest seismic waves and arrive first."
+        },
+        {
+          "id": "waves-q49",
+          "stem": "Why do surface waves cause more damage than body waves despite being slower?",
+          "options": ["A. Surface waves have higher frequency", "B. Surface waves are electromagnetic and carry more energy", "C. Surface wave amplitude decreases more slowly with distance because they spread in two dimensions", "D. Surface waves travel through denser material"],
+          "correct": 2,
+          "explanation": "Surface waves spread their energy over an expanding circle (2D) rather than an expanding sphere (3D), so their amplitude decreases more slowly with distance compared to body waves. This means they retain more energy at greater distances, causing more sustained and damaging ground shaking."
+        },
+        {
+          "id": "waves-q50",
+          "stem": "If a seismic station needs at least 3 stations to pinpoint an earthquake epicenter, the method used is:",
+          "options": ["A. Fourier analysis of the seismic signal", "B. Triangulation using the calculated distances from each station", "C. Measurement of wave polarization", "D. Comparison of P-wave amplitudes"],
+          "correct": 1,
+          "explanation": "Each station determines its distance to the epicenter using the S-P time method, defining a circle of possible locations. Three such circles from different stations intersect at a single point, which is the epicenter. This triangulation method requires a minimum of three stations for a unique solution."
+        }
+      ]
+    }
+  ]
+}

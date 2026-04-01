@@ -1,0 +1,416 @@
+{
+  "subtopic": "Genetics & Heredity",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "gen-ps-001",
+      "passage": "A genetics researcher studied the inheritance of coat color in a population of mice. In this species, coat color is determined by a single autosomal gene with two alleles: B (black, dominant) and b (brown, recessive). The researcher performed a series of crosses to determine the genotypes of several black-coated mice. In Cross 1, a black male was mated with a brown female, producing 52 black offspring and 0 brown offspring. In Cross 2, a different black male was mated with the same brown female, producing 27 black offspring and 24 brown offspring. In Cross 3, two black mice from Cross 2 were mated, producing 34 black offspring and 13 brown offspring. The researcher also noted that when homozygous black mice (BB) were crossed with homozygous brown mice (bb), all F1 offspring were black, confirming complete dominance. A test cross involves mating an individual of unknown genotype with a homozygous recessive individual to determine the unknown genotype based on the phenotypic ratios of the offspring. The chi-square test was used to evaluate whether observed offspring ratios deviated significantly from expected Mendelian ratios.",
+      "questions": [
+        {
+          "id": "gen-q-001",
+          "stem": "Based on the results of Cross 1, what is the most likely genotype of the black male?",
+          "options": ["A. Bb", "B. BB", "C. bb", "D. The genotype cannot be determined from this cross"],
+          "correct": 1,
+          "explanation": "In Cross 1, the black male was mated with a brown (bb) female, and all 52 offspring were black. If the male were heterozygous (Bb), approximately half the offspring would be expected to be brown. The absence of any brown offspring strongly suggests the male is homozygous dominant (BB), as all offspring would then be Bb and black."
+        },
+        {
+          "id": "gen-q-002",
+          "stem": "What is the genotype of the black male in Cross 2?",
+          "options": ["A. BB", "B. Bb", "C. bb", "D. Either BB or Bb"],
+          "correct": 1,
+          "explanation": "In Cross 2, the black male was crossed with a brown (bb) female and produced approximately equal numbers of black and brown offspring (27:24), which is close to the expected 1:1 ratio. This result is consistent with the male being heterozygous (Bb), producing Bb (black) and bb (brown) offspring in equal proportions."
+        },
+        {
+          "id": "gen-q-003",
+          "stem": "In Cross 3, two black mice from Cross 2 were mated. What is the expected phenotypic ratio if both parents are Bb?",
+          "options": ["A. 1 black : 1 brown", "B. 2 black : 1 brown", "C. 3 black : 1 brown", "D. All black"],
+          "correct": 2,
+          "explanation": "If both parents are Bb, the expected genotypic ratio from a monohybrid cross is 1 BB : 2 Bb : 1 bb. Since B is dominant over b, both BB and Bb mice appear black, giving a phenotypic ratio of 3 black : 1 brown. The observed results of 34 black to 13 brown (approximately 2.6:1) are consistent with this expected 3:1 ratio."
+        },
+        {
+          "id": "gen-q-004",
+          "stem": "A test cross is used to determine the genotype of an individual with the dominant phenotype. Which cross constitutes a test cross?",
+          "options": ["A. BB x BB", "B. Bb x Bb", "C. B? x bb", "D. bb x bb"],
+          "correct": 2,
+          "explanation": "A test cross involves mating an individual expressing the dominant phenotype but of unknown genotype (B?) with a homozygous recessive individual (bb). If the unknown individual is BB, all offspring will be black; if Bb, offspring will be approximately half black and half brown, revealing the unknown genotype."
+        },
+        {
+          "id": "gen-q-005",
+          "stem": "If the researcher calculated a chi-square value of 0.18 with 1 degree of freedom for Cross 2 (testing a 1:1 ratio), and the critical value at p = 0.05 is 3.84, what conclusion should be drawn?",
+          "options": ["A. The observed ratio significantly deviates from 1:1", "B. The null hypothesis should be rejected", "C. The observed ratio does not significantly deviate from 1:1", "D. The experiment needs to be repeated with more offspring"],
+          "correct": 2,
+          "explanation": "Since the calculated chi-square value (0.18) is less than the critical value (3.84) at p = 0.05, the researcher fails to reject the null hypothesis. This means the observed offspring ratio does not significantly deviate from the expected 1:1 ratio, supporting the conclusion that the black male in Cross 2 is heterozygous (Bb)."
+        }
+      ]
+    },
+    {
+      "id": "gen-ps-002",
+      "passage": "Pedigree analysis is a fundamental tool in human genetics for determining the mode of inheritance of genetic traits and disorders. A genetic counselor analyzed a family pedigree for a rare disorder. The pedigree showed that affected individuals appeared in every generation, affected fathers never had affected sons (but all daughters of affected fathers were carriers), and the disorder was more prevalent in males than females. Approximately half of the sons born to carrier mothers were affected. The counselor also noted a second family in which a different disorder showed a distinct pattern: affected children were born to unaffected parents, the disorder affected males and females equally, and approximately one-quarter of children from carrier parents were affected. Consanguineous marriages (unions between related individuals) increased the probability of affected offspring in the second family. The counselor used Bayesian analysis to calculate carrier probabilities for at-risk family members, incorporating both pedigree information and population carrier frequencies. For X-linked recessive conditions, the counselor noted that affected males inherit the mutant allele from their carrier mothers, since fathers contribute only the Y chromosome to sons.",
+      "questions": [
+        {
+          "id": "gen-q-006",
+          "stem": "The first disorder described in the passage is most consistent with which mode of inheritance?",
+          "options": ["A. Autosomal dominant", "B. Autosomal recessive", "C. X-linked recessive", "D. X-linked dominant"],
+          "correct": 2,
+          "explanation": "The key features of the first disorder -- appearing more frequently in males, affected fathers never having affected sons, and all daughters of affected fathers being carriers -- are hallmarks of X-linked recessive inheritance. Since fathers pass their X chromosome only to daughters and their Y to sons, an affected father cannot transmit the X-linked allele to sons."
+        },
+        {
+          "id": "gen-q-007",
+          "stem": "In the second family, what inheritance pattern best explains the observation that unaffected parents can have affected children?",
+          "options": ["A. X-linked dominant", "B. Autosomal dominant with complete penetrance", "C. Autosomal recessive", "D. Mitochondrial inheritance"],
+          "correct": 2,
+          "explanation": "Autosomal recessive inheritance explains how two unaffected carrier parents (heterozygous) can produce affected children. The 1:4 ratio of affected offspring, equal frequency in both sexes, and increased incidence with consanguinity are all characteristic of autosomal recessive conditions."
+        },
+        {
+          "id": "gen-q-008",
+          "stem": "Why does consanguinity increase the probability of autosomal recessive disorders?",
+          "options": ["A. It increases the mutation rate in offspring", "B. It increases the chance that both parents carry the same recessive allele from a common ancestor", "C. It causes X-linked alleles to become autosomal", "D. It reduces the penetrance of dominant alleles"],
+          "correct": 1,
+          "explanation": "Consanguineous parents are more likely to carry identical copies of recessive alleles inherited from their common ancestor (identical by descent). This increases the probability that their offspring will be homozygous for the recessive disease allele compared to offspring of unrelated parents."
+        },
+        {
+          "id": "gen-q-009",
+          "stem": "A carrier female for an X-linked recessive disorder marries an unaffected male. What proportion of their sons would be expected to be affected?",
+          "options": ["A. None", "B. One-quarter", "C. One-half", "D. All"],
+          "correct": 2,
+          "explanation": "A carrier female (X^A X^a) produces two types of eggs: X^A and X^a in equal proportions. Sons receive their single X chromosome from the mother, so half the sons will receive X^a and be affected, while the other half receive X^A and are unaffected. The father contributes only the Y chromosome to sons."
+        },
+        {
+          "id": "gen-q-010",
+          "stem": "Which of the following pedigree features would help distinguish autosomal dominant from autosomal recessive inheritance?",
+          "options": ["A. The disorder affects both males and females", "B. Affected individuals appear in every generation (no skipping) in autosomal dominant", "C. The disorder is present in consanguineous families", "D. Both parents of affected children are always affected"],
+          "correct": 1,
+          "explanation": "In autosomal dominant inheritance, affected individuals typically appear in every generation because only one copy of the mutant allele is needed to cause the phenotype. In autosomal recessive inheritance, the trait can skip generations because carriers (heterozygotes) are phenotypically normal, and affected individuals appear only when two carriers mate."
+        }
+      ]
+    },
+    {
+      "id": "gen-ps-003",
+      "passage": "The Hardy-Weinberg equilibrium principle provides a mathematical framework for understanding allele and genotype frequencies in populations. For a locus with two alleles (A and a) with frequencies p and q respectively (where p + q = 1), the expected genotype frequencies at equilibrium are p^2 (AA), 2pq (Aa), and q^2 (aa). Five conditions must be met for Hardy-Weinberg equilibrium: no mutation, no natural selection, random mating, no genetic drift (infinite population size), and no gene flow (migration). A population geneticist surveyed a large population for a genetic disorder that follows autosomal recessive inheritance. Among 10,000 individuals tested, 100 were found to be affected (homozygous recessive). The geneticist used these data to estimate allele frequencies and carrier frequency in the population. Additionally, the geneticist examined whether the population was in Hardy-Weinberg equilibrium by comparing observed genotype frequencies to expected frequencies using a chi-square goodness-of-fit test. Deviations from Hardy-Weinberg expectations can indicate that one or more evolutionary forces (selection, drift, non-random mating, etc.) are acting on the population.",
+      "questions": [
+        {
+          "id": "gen-q-011",
+          "stem": "Based on the data provided, what is the frequency of the recessive allele (q) in this population?",
+          "options": ["A. 0.01", "B. 0.1", "C. 0.10", "D. 0.001"],
+          "correct": 1,
+          "explanation": "The frequency of affected individuals (q^2) is 100/10,000 = 0.01. Therefore, q = sqrt(0.01) = 0.1. The recessive allele frequency is 0.1, or 10%. This calculation assumes the population is in Hardy-Weinberg equilibrium."
+        },
+        {
+          "id": "gen-q-012",
+          "stem": "What is the estimated carrier frequency (heterozygote frequency) in this population?",
+          "options": ["A. 0.01", "B. 0.09", "C. 0.18", "D. 0.81"],
+          "correct": 2,
+          "explanation": "The carrier frequency is 2pq, where p = 1 - q = 1 - 0.1 = 0.9 and q = 0.1. Therefore, 2pq = 2(0.9)(0.1) = 0.18, or 18% of the population. This means approximately 1,800 of the 10,000 individuals are expected to be heterozygous carriers."
+        },
+        {
+          "id": "gen-q-013",
+          "stem": "Which of the following would most likely cause a deviation from Hardy-Weinberg equilibrium at this locus?",
+          "options": ["A. Random mating in a large population", "B. Absence of mutation at this locus", "C. Natural selection against homozygous recessive individuals", "D. Equal gene flow into and out of the population"],
+          "correct": 2,
+          "explanation": "Natural selection against homozygous recessive individuals would reduce the frequency of the recessive allele over time, causing genotype frequencies to deviate from Hardy-Weinberg expectations. The other options describe conditions that maintain equilibrium rather than disrupt it."
+        },
+        {
+          "id": "gen-q-014",
+          "stem": "If a small subset of this population migrated to an isolated island, which evolutionary force would most likely affect allele frequencies in the founding population?",
+          "options": ["A. Natural selection", "B. Mutation", "C. Genetic drift (founder effect)", "D. Non-random mating"],
+          "correct": 2,
+          "explanation": "When a small group of individuals colonizes a new area, the allele frequencies in the founding population may differ significantly from the source population purely by chance. This is the founder effect, a special case of genetic drift, and it is most pronounced in small populations where random sampling errors have the greatest impact."
+        },
+        {
+          "id": "gen-q-015",
+          "stem": "In a population at Hardy-Weinberg equilibrium, if the frequency of allele A increases due to immigration, what will happen to the frequency of the AA genotype?",
+          "options": ["A. It will decrease", "B. It will remain the same because equilibrium is maintained", "C. It will increase", "D. It cannot be predicted without knowing the frequency of allele a"],
+          "correct": 2,
+          "explanation": "If the frequency of allele A (p) increases, then p^2 (the frequency of the AA genotype) will also increase. Immigration disrupts Hardy-Weinberg equilibrium in the generation when it occurs, but if all other conditions are met, the population will return to equilibrium in the next generation at the new allele frequencies."
+        }
+      ]
+    },
+    {
+      "id": "gen-ps-004",
+      "passage": "Genetic linkage occurs when two or more genes are located on the same chromosome and tend to be inherited together. The recombination frequency between linked genes is proportional to the physical distance between them on the chromosome, a principle that forms the basis of genetic mapping. One map unit (centimorgan, cM) corresponds to a 1% recombination frequency. Thomas Hunt Morgan first demonstrated linkage using Drosophila melanogaster, observing that certain gene combinations were inherited together more often than expected by independent assortment. A researcher performed a testcross between a doubly heterozygous female (AaBb, with both dominant alleles on the same chromosome, in cis configuration) and a doubly homozygous recessive male (aabb). Among 1,000 offspring, the following were observed: 420 AaBb, 430 aabb, 72 Aabb, and 78 aaBb. The researcher noted that the parental types (AaBb and aabb) were far more frequent than the recombinant types (Aabb and aaBb), confirming linkage between genes A and B. The total recombination frequency was calculated and used to estimate the map distance between the two loci. Three-point testcrosses can be used to determine the order of three linked genes and the distances between them, accounting for double crossovers that might otherwise lead to underestimation of map distances.",
+      "questions": [
+        {
+          "id": "gen-q-016",
+          "stem": "What is the recombination frequency between genes A and B based on the testcross data?",
+          "options": ["A. 7.5%", "B. 15%", "C. 42%", "D. 85%"],
+          "correct": 1,
+          "explanation": "The recombination frequency is calculated as the number of recombinant offspring divided by the total offspring: (72 + 78) / 1,000 = 150/1,000 = 0.15, or 15%. This indicates that genes A and B are 15 cM apart on the chromosome."
+        },
+        {
+          "id": "gen-q-017",
+          "stem": "If genes A and B were on different chromosomes (unlinked), what phenotypic ratio would be expected from the testcross?",
+          "options": ["A. 3:1", "B. 1:1:1:1", "C. 9:3:3:1", "D. 1:2:1"],
+          "correct": 1,
+          "explanation": "If genes A and B assorted independently (unlinked), a testcross of AaBb x aabb would produce four phenotypic classes in equal proportions (1:1:1:1): AaBb, Aabb, aaBb, and aabb. The significant deviation from this ratio in the observed data confirms that the genes are linked."
+        },
+        {
+          "id": "gen-q-018",
+          "stem": "The cis configuration of alleles in the heterozygous female means that:",
+          "options": ["A. the dominant alleles A and B are on different homologous chromosomes", "B. the dominant alleles A and B are on the same chromosome", "C. one allele is on the X chromosome and the other on an autosome", "D. the alleles are in Hardy-Weinberg equilibrium"],
+          "correct": 1,
+          "explanation": "In the cis (coupling) configuration, both dominant alleles (A and B) are located on the same chromosome, while both recessive alleles (a and b) are on the homologous chromosome. The alternative arrangement, with A and b on one chromosome and a and B on the other, is called trans (repulsion) configuration."
+        },
+        {
+          "id": "gen-q-019",
+          "stem": "Why might a two-point testcross underestimate the true genetic distance between distantly linked genes?",
+          "options": ["A. Recombination never occurs between distant genes", "B. Double crossovers between distant genes can restore the parental configuration, going undetected", "C. Distant genes always assort independently", "D. The chi-square test cannot be applied to large distances"],
+          "correct": 1,
+          "explanation": "When two genes are far apart, double crossovers (two crossing-over events between them) can occur. A double crossover restores the parental arrangement of alleles, so these events are counted as parental rather than recombinant types. This causes the measured recombination frequency to underestimate the true genetic distance."
+        },
+        {
+          "id": "gen-q-020",
+          "stem": "A recombination frequency of 50% between two genes indicates that:",
+          "options": ["A. the genes are very close together on the same chromosome", "B. no crossing over occurs between the genes", "C. the genes are either on different chromosomes or very far apart on the same chromosome", "D. the genes show complete linkage"],
+          "correct": 2,
+          "explanation": "A recombination frequency of 50% is the maximum observable value and indicates that the genes assort independently, either because they are on different chromosomes or because they are so far apart on the same chromosome that at least one crossover occurs between them in virtually every meiosis, making them behave as if unlinked."
+        }
+      ]
+    },
+    {
+      "id": "gen-ps-005",
+      "passage": "Epigenetics refers to heritable changes in gene expression that do not involve alterations to the DNA sequence itself. Two major epigenetic mechanisms are DNA methylation and histone modification. DNA methylation typically occurs at cytosine bases in CpG dinucleotides, catalyzed by DNA methyltransferases (DNMTs). Methylation of CpG islands in gene promoter regions is generally associated with transcriptional silencing, as methyl-CpG-binding proteins recruit histone deacetylase complexes that promote chromatin compaction. Histones are subject to numerous post-translational modifications, including acetylation, methylation, phosphorylation, and ubiquitination. Histone acetylation, catalyzed by histone acetyltransferases (HATs), neutralizes the positive charge of lysine residues on histone tails, weakening histone-DNA interactions and promoting an open chromatin state (euchromatin) that is accessible to transcription factors. Histone deacetylases (HDACs) remove acetyl groups, favoring a closed chromatin state (heterochromatin) and gene silencing. Genomic imprinting is an epigenetic phenomenon in which certain genes are expressed in a parent-of-origin-specific manner due to differential methylation established during gametogenesis. For example, the insulin-like growth factor 2 (IGF2) gene is normally expressed only from the paternal allele, while the maternal allele is silenced. Prader-Willi syndrome and Angelman syndrome result from loss of function of imprinted genes in the 15q11-q13 chromosomal region, with the specific syndrome depending on whether the deletion is inherited from the father or the mother.",
+      "questions": [
+        {
+          "id": "gen-q-021",
+          "stem": "DNA methylation at CpG islands in a gene's promoter region would most likely result in:",
+          "options": ["A. increased gene expression due to enhanced transcription factor binding", "B. no change in gene expression", "C. decreased gene expression due to transcriptional silencing", "D. increased mRNA stability and translation"],
+          "correct": 2,
+          "explanation": "Methylation of CpG islands in promoter regions recruits methyl-CpG-binding proteins, which in turn recruit histone deacetylase complexes. This leads to chromatin compaction and prevents transcription factors from accessing the promoter, resulting in transcriptional silencing of the associated gene."
+        },
+        {
+          "id": "gen-q-022",
+          "stem": "A drug that inhibits histone deacetylases (HDACs) would be expected to:",
+          "options": ["A. increase chromatin compaction and decrease gene expression", "B. increase histone acetylation and promote gene expression", "C. increase DNA methylation at CpG islands", "D. have no effect on chromatin structure"],
+          "correct": 1,
+          "explanation": "Inhibiting HDACs would prevent the removal of acetyl groups from histone tails, leading to accumulation of acetylated histones. Acetylated histones maintain an open chromatin conformation (euchromatin) that is accessible to transcription factors, generally promoting gene expression."
+        },
+        {
+          "id": "gen-q-023",
+          "stem": "In genomic imprinting, the IGF2 gene is normally expressed only from the paternal allele. If a child inherits a deletion of the paternal IGF2 gene, what would be the expected outcome?",
+          "options": ["A. Normal IGF2 expression from the maternal allele", "B. No IGF2 expression, because the maternal allele is silenced by imprinting", "C. Doubled IGF2 expression from the maternal allele", "D. IGF2 expression from both alleles due to loss of imprinting"],
+          "correct": 1,
+          "explanation": "Because the maternal IGF2 allele is silenced by genomic imprinting, it is not expressed regardless of what happens to the paternal allele. If the paternal copy is deleted, the child would have no functional IGF2 expression, since the only potentially active copy has been lost and the maternal copy remains epigenetically silenced."
+        },
+        {
+          "id": "gen-q-024",
+          "stem": "Prader-Willi syndrome and Angelman syndrome both involve deletions in the 15q11-q13 region but cause different phenotypes because:",
+          "options": ["A. the deletions affect different genes within the region", "B. the deleted region contains imprinted genes expressed from different parental alleles", "C. one syndrome is autosomal dominant and the other is recessive", "D. one involves DNA methylation and the other involves histone modification"],
+          "correct": 1,
+          "explanation": "The 15q11-q13 region contains genes that are differentially imprinted. Some genes are expressed only from the paternal allele (loss causes Prader-Willi) while others are expressed only from the maternal allele (loss causes Angelman). A deletion of the same region produces different syndromes depending on which parent contributes the deleted chromosome."
+        },
+        {
+          "id": "gen-q-025",
+          "stem": "Which of the following best explains why epigenetic modifications are considered heritable?",
+          "options": ["A. They alter the DNA sequence, which is passed to daughter cells", "B. They change protein structure, which is inherited through the cytoplasm", "C. Methylation and histone modification patterns can be maintained through DNA replication and cell division", "D. They are encoded in mitochondrial DNA, which is maternally inherited"],
+          "correct": 2,
+          "explanation": "Epigenetic modifications such as DNA methylation can be faithfully copied during DNA replication by maintenance methyltransferases (like DNMT1) that recognize hemimethylated DNA and methylate the newly synthesized strand. Histone modifications can also be propagated through mechanisms involving reader-writer complexes that copy marks from parental to daughter nucleosomes."
+        }
+      ]
+    },
+    {
+      "id": "gen-ps-006",
+      "passage": "Chromosomal abnormalities are deviations from the normal chromosome complement and can be classified as numerical or structural. Numerical abnormalities include aneuploidy (gain or loss of individual chromosomes) and polyploidy (gain of entire chromosome sets). The most common mechanism producing aneuploidy is nondisjunction during meiosis. Trisomy (2n + 1) occurs when a gamete with an extra chromosome fuses with a normal gamete; monosomy (2n - 1) results from a gamete missing a chromosome. In humans, most autosomal monosomies and trisomies are lethal, with notable exceptions including trisomy 21 (Down syndrome), trisomy 18 (Edwards syndrome), and trisomy 13 (Patau syndrome). Sex chromosome aneuploidies are generally better tolerated due to X-inactivation and the small gene content of the Y chromosome. Turner syndrome (45,X) is the only viable human monosomy. Structural abnormalities include deletions, duplications, inversions, and translocations. Reciprocal translocations involve exchange of segments between non-homologous chromosomes and can be balanced (no net gain or loss of genetic material) or unbalanced. Robertsonian translocations involve fusion of two acrocentric chromosomes at or near their centromeres, reducing the chromosome count by one. Approximately 3-4% of Down syndrome cases result from a Robertsonian translocation involving chromosome 21, usually t(14;21), rather than from simple trisomy 21.",
+      "questions": [
+        {
+          "id": "gen-q-026",
+          "stem": "Turner syndrome (45,X) is the only viable human monosomy most likely because:",
+          "options": ["A. the X chromosome contains very few genes", "B. X-inactivation normally silences one X in females, so cells can function with a single X", "C. the missing chromosome is replaced by gene duplication", "D. monosomy for the X chromosome does not affect development"],
+          "correct": 1,
+          "explanation": "In normal females, one X chromosome is inactivated in each somatic cell, so cells already function with the gene products of a single active X chromosome. This makes monosomy X (Turner syndrome) viable because cells can function with one X, unlike autosomal monosomies where the loss of one copy of a chromosome removes critical genes with no compensatory mechanism."
+        },
+        {
+          "id": "gen-q-027",
+          "stem": "A carrier of a balanced Robertsonian translocation t(14;21) would have how many chromosomes?",
+          "options": ["A. 44", "B. 45", "C. 46", "D. 47"],
+          "correct": 1,
+          "explanation": "In a Robertsonian translocation, two acrocentric chromosomes fuse at their centromeres to form a single derivative chromosome. The carrier retains all the essential genetic material but has one fewer chromosome, giving a total of 45 instead of the normal 46. Despite the reduced count, the translocation is balanced and carriers are typically phenotypically normal."
+        },
+        {
+          "id": "gen-q-028",
+          "stem": "A woman who is a balanced carrier of t(14;21) and her unaffected husband want to know their risk of having a child with Down syndrome. Which of the following is true?",
+          "options": ["A. They have no increased risk because the translocation is balanced", "B. They have an increased risk because abnormal segregation can produce gametes with extra chromosome 21 material", "C. Their risk is 100% because one parent carries chromosome 21 material on chromosome 14", "D. Only their sons would be at risk for Down syndrome"],
+          "correct": 1,
+          "explanation": "Although the carrier parent is phenotypically normal, during meiosis the translocation chromosome can segregate in ways that produce unbalanced gametes with either extra or missing chromosome 21 material. Gametes with extra chromosome 21 material can produce offspring with translocation Down syndrome. The theoretical risk is about 1/3, but empirically observed risk is lower."
+        },
+        {
+          "id": "gen-q-029",
+          "stem": "Which of the following karyotypes represents Klinefelter syndrome?",
+          "options": ["A. 45,X", "B. 47,XXY", "C. 47,XYY", "D. 47,XXX"],
+          "correct": 1,
+          "explanation": "Klinefelter syndrome is characterized by the karyotype 47,XXY. Affected individuals are phenotypically male (due to the presence of the Y chromosome and SRY gene) but have an extra X chromosome. Clinical features include tall stature, small testes, gynecomastia, and infertility. The extra X is largely inactivated, which mitigates the effects."
+        },
+        {
+          "id": "gen-q-030",
+          "stem": "A paracentric inversion in a chromosome would be expected to:",
+          "options": ["A. change the position of the centromere", "B. reverse the order of genes within one arm of the chromosome without involving the centromere", "C. result in loss of genetic material from one arm", "D. cause duplication of genes near the breakpoints"],
+          "correct": 1,
+          "explanation": "A paracentric inversion involves two breakpoints within the same chromosome arm, with the intervening segment reversed. The centromere position is not altered (unlike pericentric inversions, which include the centromere). While the gene content is preserved, the gene order is reversed in the inverted segment, which can cause problems during meiotic crossing over."
+        }
+      ]
+    },
+    {
+      "id": "gen-ps-007",
+      "passage": "Incomplete dominance, codominance, and multiple alleles expand upon simple Mendelian genetics. In incomplete dominance, the heterozygote exhibits a phenotype intermediate between the two homozygous phenotypes. A classic example is flower color in snapdragons: crossing a red-flowered plant (RR) with a white-flowered plant (WW) produces pink-flowered F1 heterozygotes (RW). Codominance occurs when both alleles are fully expressed in the heterozygote, as seen in the ABO blood group system. The ABO locus has three alleles: I^A, I^B, and i. I^A and I^B are codominant with each other and both are dominant over i. Individuals with genotype I^A I^B express both A and B antigens on their red blood cells (type AB). Pleiotropy occurs when a single gene affects multiple phenotypic traits; for example, sickle cell disease results from a single point mutation in the beta-globin gene but affects red blood cell shape, oxygen transport, spleen function, and susceptibility to malaria. Epistasis describes the interaction between genes at different loci, where alleles at one locus can mask or modify the expression of alleles at another locus. In Labrador retriever coat color, the E gene is epistatic to the B gene: the ee genotype produces a yellow coat regardless of the B locus genotype.",
+      "questions": [
+        {
+          "id": "gen-q-031",
+          "stem": "In a cross between two pink snapdragons (RW x RW), what phenotypic ratio would be expected among the offspring?",
+          "options": ["A. 3 red : 1 white", "B. 1 red : 2 pink : 1 white", "C. All pink", "D. 1 red : 1 pink"],
+          "correct": 1,
+          "explanation": "Because flower color in snapdragons shows incomplete dominance, the heterozygote (RW) has an intermediate pink phenotype. Crossing two heterozygotes yields a 1:2:1 genotypic ratio (RR:RW:WW), and since each genotype has a distinct phenotype, the phenotypic ratio is also 1 red : 2 pink : 1 white."
+        },
+        {
+          "id": "gen-q-032",
+          "stem": "A man with blood type AB and a woman with blood type O have children. What blood types are possible among their offspring?",
+          "options": ["A. Type A and type B only", "B. Type AB only", "C. Type A, type B, and type AB", "D. Type A, type B, type AB, and type O"],
+          "correct": 0,
+          "explanation": "The father with type AB blood has genotype I^A I^B, and the mother with type O has genotype ii. The father can pass either I^A or I^B to each child, while the mother passes i. This produces children with genotypes I^A i (type A) or I^B i (type B). No child can be type AB (requiring I^A I^B) or type O (requiring ii)."
+        },
+        {
+          "id": "gen-q-033",
+          "stem": "Sickle cell disease is an example of pleiotropy because:",
+          "options": ["A. it is caused by mutations in multiple genes", "B. a single gene mutation causes multiple phenotypic effects across different organ systems", "C. heterozygous carriers have no symptoms whatsoever", "D. the disease only affects individuals of one specific genotype"],
+          "correct": 1,
+          "explanation": "Pleiotropy means a single gene affects multiple phenotypic traits. The sickle cell mutation in the beta-globin gene causes abnormal hemoglobin that polymerizes under low oxygen, deforming red blood cells. This single change leads to multiple consequences: anemia, vaso-occlusive crises, organ damage, susceptibility to infection, and paradoxically, resistance to malaria in heterozygotes."
+        },
+        {
+          "id": "gen-q-034",
+          "stem": "In Labrador retrievers, a cross between two black dogs (BbEe x BbEe) would produce what ratio of coat color phenotypes?",
+          "options": ["A. 9 black : 3 brown : 4 yellow", "B. 12 black : 3 brown : 1 yellow", "C. 9 black : 3 brown : 3 yellow : 1 white", "D. 3 black : 1 brown"],
+          "correct": 0,
+          "explanation": "This is a classic example of recessive epistasis. The dihybrid cross produces a 9:3:3:1 ratio, but all ee genotypes (3/16 + 1/16 = 4/16) are yellow regardless of B genotype. Among E_ genotypes: B_E_ (9/16) are black and bbE_ (3/16) are brown. The final ratio is 9 black : 3 brown : 4 yellow."
+        },
+        {
+          "id": "gen-q-035",
+          "stem": "Codominance differs from incomplete dominance in that:",
+          "options": ["A. codominance requires more than two alleles", "B. in codominance, both alleles are fully expressed rather than producing an intermediate phenotype", "C. incomplete dominance only occurs in plants", "D. codominance cannot be detected by phenotypic analysis"],
+          "correct": 1,
+          "explanation": "In codominance, both alleles of a heterozygote are fully and distinctly expressed, as seen in the AB blood type where both A and B antigens are present on red blood cells. In incomplete dominance, the two alleles produce a blended or intermediate phenotype, such as the pink flowers in snapdragons resulting from one red and one white allele."
+        }
+      ]
+    },
+    {
+      "id": "gen-ps-008",
+      "passage": "Sex-linked inheritance and sex determination mechanisms vary across organisms. In mammals, sex is determined by the XY system: females are XX and males are XY. The SRY gene on the Y chromosome encodes a transcription factor that initiates male sexual development. In the absence of SRY, the default developmental pathway is female. X-inactivation (lyonization) is a dosage compensation mechanism in which one X chromosome in each cell of XX females is randomly inactivated during early embryonic development, forming a condensed Barr body. This ensures that males and females have equivalent expression levels of X-linked genes. X-inactivation is random with respect to which X (maternal or paternal) is silenced but is then clonally maintained in all descendant cells. This explains the mosaic expression pattern seen in calico cats, where patches of orange and black fur correspond to clones of cells with different X chromosomes active. Hemophilia A is an X-linked recessive bleeding disorder caused by deficiency of clotting factor VIII. Queen Victoria of England was a carrier of hemophilia A, and the allele was transmitted to several European royal families through her descendants. X-linked dominant disorders, though rarer, affect both heterozygous females and hemizygous males, but typically with greater severity in males.",
+      "questions": [
+        {
+          "id": "gen-q-036",
+          "stem": "The mosaic coat pattern of calico cats is a direct consequence of:",
+          "options": ["A. codominance of coat color alleles", "B. random X-inactivation in cells of heterozygous females", "C. autosomal epistasis affecting pigment genes", "D. somatic mutations during development"],
+          "correct": 1,
+          "explanation": "In calico cats, the gene for orange/black coat color is X-linked. Heterozygous females carry one allele for orange and one for black on their two X chromosomes. Random X-inactivation during early development creates patches of cells expressing different X chromosomes, producing the characteristic mosaic pattern of orange and black fur."
+        },
+        {
+          "id": "gen-q-037",
+          "stem": "How many Barr bodies would be observed in cells from an individual with Klinefelter syndrome (47,XXY)?",
+          "options": ["A. 0", "B. 1", "C. 2", "D. 3"],
+          "correct": 1,
+          "explanation": "The number of Barr bodies is always one fewer than the number of X chromosomes (n - 1 rule). An individual with 47,XXY has two X chromosomes, so one would be inactivated and visible as a Barr body. Normal females (XX) also have one Barr body, while normal males (XY) have zero."
+        },
+        {
+          "id": "gen-q-038",
+          "stem": "If Queen Victoria was a carrier of hemophilia A (X^H X^h), what proportion of her sons would be expected to have hemophilia?",
+          "options": ["A. None", "B. One-quarter", "C. One-half", "D. All"],
+          "correct": 2,
+          "explanation": "As a carrier (X^H X^h), Queen Victoria would produce two types of eggs: X^H and X^h in equal proportions. Sons receive their X chromosome from their mother, so half would receive X^h (and be hemophilic, since they have only one X) and half would receive X^H (and be unaffected)."
+        },
+        {
+          "id": "gen-q-039",
+          "stem": "An individual with a 46,XY karyotype but a deletion of the SRY gene would be expected to develop as:",
+          "options": ["A. a phenotypically normal male", "B. a phenotypically female individual despite the XY karyotype", "C. an individual with ambiguous genitalia", "D. a phenotypically normal male with infertility"],
+          "correct": 1,
+          "explanation": "The SRY gene is the master switch for male sexual development. Without SRY, the default developmental pathway is female, regardless of the presence of the Y chromosome. An XY individual lacking SRY would develop female external genitalia and internal structures, a condition known as Swyer syndrome."
+        },
+        {
+          "id": "gen-q-040",
+          "stem": "X-inactivation serves primarily as a mechanism of:",
+          "options": ["A. sex determination in mammals", "B. dosage compensation to equalize X-linked gene expression between males and females", "C. protection against X-linked recessive disorders", "D. elimination of deleterious mutations on the X chromosome"],
+          "correct": 1,
+          "explanation": "X-inactivation is a dosage compensation mechanism that ensures males (with one X) and females (with two X chromosomes) have equivalent levels of X-linked gene expression. By silencing one X chromosome in each female cell, the effective dosage of X-linked genes is equalized between the sexes."
+        }
+      ]
+    },
+    {
+      "id": "gen-ps-009",
+      "passage": "Quantitative genetics examines the inheritance of traits that show continuous variation, such as height, weight, and skin color. These polygenic traits are influenced by multiple genes (quantitative trait loci, QTLs), each contributing a small additive effect, along with environmental influences. The phenotypic variance (VP) of a quantitative trait in a population can be partitioned into genetic variance (VG) and environmental variance (VE): VP = VG + VE. Heritability in the broad sense (H^2) is the proportion of phenotypic variance attributable to genetic variance: H^2 = VG/VP. Narrow-sense heritability (h^2) considers only additive genetic variance (VA) and is defined as h^2 = VA/VP. Narrow-sense heritability is particularly important in predicting response to selection. Twin studies are a classical method for estimating heritability in humans. Monozygotic (identical) twins share 100% of their genes, while dizygotic (fraternal) twins share approximately 50%. If a trait has high heritability, monozygotic twins reared apart should show greater phenotypic similarity than dizygotic twins. Researchers studying intelligence in twins found that the correlation between IQ scores was 0.86 for monozygotic twins reared together, 0.72 for monozygotic twins reared apart, and 0.60 for dizygotic twins reared together. These results suggested a substantial genetic component to IQ, while the difference between monozygotic twins reared together and apart indicated an environmental contribution.",
+      "questions": [
+        {
+          "id": "gen-q-041",
+          "stem": "A high heritability value for a trait in a population indicates that:",
+          "options": ["A. the trait is entirely determined by genes and cannot be influenced by the environment", "B. a large proportion of the phenotypic variation in the population is due to genetic differences", "C. the trait will respond strongly to environmental interventions", "D. all individuals in the population have the same genotype for that trait"],
+          "correct": 1,
+          "explanation": "Heritability measures the proportion of phenotypic variation attributable to genetic variation within a specific population. A high heritability value means that genetic differences among individuals account for most of the observed phenotypic variation. It does not mean the trait is immutable or that environment has no effect on individuals."
+        },
+        {
+          "id": "gen-q-042",
+          "stem": "Based on the twin study data, the difference in IQ correlation between monozygotic twins reared together (0.86) and reared apart (0.72) is best explained by:",
+          "options": ["A. genetic differences between the two groups of twins", "B. the influence of shared environment on IQ", "C. measurement error in IQ testing", "D. epigenetic changes caused by different gestational environments"],
+          "correct": 1,
+          "explanation": "Monozygotic twins are genetically identical, so any difference in their IQ correlation between reared-together and reared-apart conditions must be due to environmental factors. Twins reared together share both genes and environment, so their higher correlation reflects the additive effect of shared environment on IQ similarity."
+        },
+        {
+          "id": "gen-q-043",
+          "stem": "Narrow-sense heritability (h^2) is more useful than broad-sense heritability (H^2) for predicting response to selection because:",
+          "options": ["A. it accounts for environmental variance", "B. it includes only additive genetic variance, which is the component passed from parents to offspring", "C. it is always larger than broad-sense heritability", "D. it measures the total genetic contribution to a trait"],
+          "correct": 1,
+          "explanation": "Narrow-sense heritability considers only additive genetic variance (VA), which represents the portion of genetic variation that is predictably transmitted from parents to offspring. Dominance and epistatic genetic variances, included in broad-sense heritability, are reshuffled each generation and do not reliably predict offspring phenotypes."
+        },
+        {
+          "id": "gen-q-044",
+          "stem": "If a polygenic trait is controlled by 4 independently assorting loci, each with two alleles showing additive effects, how many phenotypic classes would be expected in the F2 generation?",
+          "options": ["A. 4", "B. 5", "C. 8", "D. 9"],
+          "correct": 3,
+          "explanation": "For n loci with additive effects and two alleles each, the number of phenotypic classes in the F2 is 2n + 1. With 4 loci, this gives 2(4) + 1 = 9 phenotypic classes, ranging from 0 contributing alleles to 8 contributing alleles. This creates the characteristic bell-shaped distribution of a polygenic trait."
+        },
+        {
+          "id": "gen-q-045",
+          "stem": "A heritability estimate of 0.0 for a trait in a population means that:",
+          "options": ["A. the trait has no genetic basis", "B. all phenotypic variation in the population is due to environmental differences", "C. the population has reached fixation for all alleles affecting the trait", "D. Both B and C could explain this observation"],
+          "correct": 3,
+          "explanation": "A heritability of zero means there is no genetic variance contributing to phenotypic variation. This could occur if all individuals share the same genotype for that trait (genetic fixation, meaning VG = 0) or if all phenotypic variation is caused by environmental differences. Both scenarios yield H^2 = 0, so without additional information, either explanation is valid."
+        }
+      ]
+    },
+    {
+      "id": "gen-ps-010",
+      "passage": "Gene regulation in eukaryotes is a complex, multi-layered process that controls when, where, and how much protein is produced from each gene. Transcription factors (TFs) bind to regulatory DNA sequences including promoters, enhancers, and silencers to activate or repress gene expression. Enhancers can be located thousands of base pairs upstream or downstream of the gene they regulate, and they function through DNA looping to bring TFs into contact with the basal transcription machinery at the promoter. Chromatin remodeling complexes use ATP hydrolysis to reposition nucleosomes, making DNA accessible or inaccessible to transcription factors. Post-transcriptional regulation includes alternative splicing, which allows a single pre-mRNA to be processed into multiple mature mRNA variants encoding different protein isoforms. For example, the Drosophila DSCAM gene can produce over 38,000 different mRNA variants through alternative splicing. mRNA stability is regulated by sequences in the 3' untranslated region (3' UTR) and by microRNAs (miRNAs), which are small non-coding RNAs (~22 nucleotides) that bind complementary sequences in the 3' UTR of target mRNAs, leading to translational repression or mRNA degradation. Post-translational regulation includes protein modification (phosphorylation, ubiquitination), protein folding, and targeted degradation via the ubiquitin-proteasome system.",
+      "questions": [
+        {
+          "id": "gen-q-046",
+          "stem": "Enhancers can regulate genes located thousands of base pairs away because:",
+          "options": ["A. they encode small RNA molecules that diffuse to the promoter", "B. DNA looping brings the enhancer-bound transcription factors into proximity with the basal transcription machinery at the promoter", "C. they modify histones across the entire chromosome", "D. they travel along the DNA strand toward the promoter by a sliding mechanism"],
+          "correct": 1,
+          "explanation": "Enhancers function through a DNA looping mechanism where the intervening DNA between the enhancer and promoter forms a loop, bringing enhancer-bound transcription factors and co-activators into direct physical contact with the basal transcription machinery assembled at the promoter. This interaction stimulates transcription regardless of the linear distance."
+        },
+        {
+          "id": "gen-q-047",
+          "stem": "Alternative splicing increases proteome diversity by:",
+          "options": ["A. creating new genes from existing DNA sequences", "B. allowing one pre-mRNA to produce multiple mRNA variants encoding different protein isoforms", "C. increasing the rate of translation for specific mRNAs", "D. promoting recombination between exons of different genes"],
+          "correct": 1,
+          "explanation": "Alternative splicing allows different combinations of exons from a single pre-mRNA to be included or excluded in the mature mRNA. Each splice variant can encode a different protein isoform with potentially different functions, dramatically increasing the diversity of proteins that can be produced from a limited number of genes."
+        },
+        {
+          "id": "gen-q-048",
+          "stem": "MicroRNAs (miRNAs) regulate gene expression primarily at which level?",
+          "options": ["A. DNA replication", "B. Transcriptional initiation", "C. Post-transcriptional, by targeting mRNAs for degradation or translational repression", "D. Post-translational protein modification"],
+          "correct": 2,
+          "explanation": "miRNAs are small non-coding RNAs that base-pair with complementary sequences in the 3' UTR of target mRNAs. This interaction recruits the RNA-induced silencing complex (RISC), which either degrades the mRNA or blocks ribosomal translation, thereby reducing protein production post-transcriptionally."
+        },
+        {
+          "id": "gen-q-049",
+          "stem": "A mutation in a gene's enhancer sequence would most likely affect:",
+          "options": ["A. the amino acid sequence of the encoded protein", "B. the timing, location, or level of gene expression without altering the protein itself", "C. mRNA splicing patterns", "D. protein folding and stability"],
+          "correct": 1,
+          "explanation": "Enhancers are regulatory DNA sequences that control when, where, and how much a gene is transcribed. A mutation in an enhancer would alter the binding of transcription factors and change the expression pattern of the gene (its level, tissue specificity, or developmental timing) without affecting the coding sequence or the structure of the protein itself."
+        },
+        {
+          "id": "gen-q-050",
+          "stem": "The ubiquitin-proteasome system regulates gene expression at which level?",
+          "options": ["A. Transcriptional regulation", "B. Post-transcriptional regulation", "C. Translational regulation", "D. Post-translational regulation through targeted protein degradation"],
+          "correct": 3,
+          "explanation": "The ubiquitin-proteasome system operates at the post-translational level by tagging specific proteins with ubiquitin chains, targeting them for degradation by the 26S proteasome. This allows cells to rapidly adjust protein levels by selectively destroying proteins that are no longer needed, damaged, or misfolded."
+        }
+      ]
+    }
+  ]
+}

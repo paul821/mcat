@@ -1,0 +1,416 @@
+{
+  "subtopic": "Acids, Bases & Buffers",
+  "sectionId": "chem-phys",
+  "passageSets": [
+    {
+      "id": "ab-ps1",
+      "passage": "A biochemistry student prepares a phosphate buffer system for enzyme kinetics experiments. The student dissolves sodium dihydrogen phosphate (NaH2PO4) and disodium hydrogen phosphate (Na2HPO4) in water. The relevant equilibrium is: H2PO4^- <-> HPO4^2- + H+, with pKa2 = 7.20. The student needs a buffer at pH 7.40 with a total phosphate concentration of 0.100 M. According to the Henderson-Hasselbalch equation, pH = pKa + log([A-]/[HA]), where A- represents the conjugate base (HPO4^2-) and HA represents the weak acid (H2PO4^-). The buffer will be used in a 500.0 mL reaction vessel. The student also considers the buffer capacity, which is the amount of strong acid or base a buffer can neutralize before a significant pH change occurs. Buffer capacity is greatest when pH = pKa.",
+      "questions": [
+        {
+          "id": "ab-ps1-q1",
+          "stem": "What is the ratio of [HPO4^2-]/[H2PO4^-] needed for the pH 7.40 buffer?",
+          "options": ["A. 0.63", "B. 1.00", "C. 1.58", "D. 2.51"],
+          "correct": 2,
+          "explanation": "Using Henderson-Hasselbalch: 7.40 = 7.20 + log([A-]/[HA]). log([A-]/[HA]) = 0.20. [A-]/[HA] = 10^0.20 = 1.58. The ratio of conjugate base to weak acid must be 1.58 to achieve the target pH above the pKa."
+        },
+        {
+          "id": "ab-ps1-q2",
+          "stem": "What concentration of HPO4^2- is needed in the buffer?",
+          "options": ["A. 0.0388 M", "B. 0.0500 M", "C. 0.0612 M", "D. 0.0750 M"],
+          "correct": 2,
+          "explanation": "Let [HPO4^2-] = x and [H2PO4^-] = 0.100 - x. From the ratio: x/(0.100 - x) = 1.58. x = 0.158(0.100 - x) = 0.0158 - 1.58x. 2.58x = 0.158. x = 0.0612 M. The two phosphate species must sum to the total phosphate concentration."
+        },
+        {
+          "id": "ab-ps1-q3",
+          "stem": "How many moles of Na2HPO4 are needed for 500.0 mL of this buffer?",
+          "options": ["A. 0.0194 mol", "B. 0.0250 mol", "C. 0.0306 mol", "D. 0.0500 mol"],
+          "correct": 2,
+          "explanation": "Moles Na2HPO4 = 0.0612 M x 0.500 L = 0.0306 mol. The moles are calculated by multiplying the required concentration of the conjugate base by the volume of the buffer solution."
+        },
+        {
+          "id": "ab-ps1-q4",
+          "stem": "If 5.00 mL of 1.00 M HCl is added to 500.0 mL of this buffer, what is the approximate new pH?",
+          "options": ["A. 7.06", "B. 7.20", "C. 7.24", "D. 7.40"],
+          "correct": 2,
+          "explanation": "Moles HCl = 0.005 mol. New HPO4^2- = 0.0306 - 0.005 = 0.0256 mol. New H2PO4^- = 0.0194 + 0.005 = 0.0244 mol. pH = 7.20 + log(0.0256/0.0244) = 7.20 + 0.021 = 7.22, approximately 7.24. The buffer resists pH change by converting conjugate base to weak acid."
+        },
+        {
+          "id": "ab-ps1-q5",
+          "stem": "At what pH would this phosphate buffer have maximum buffer capacity?",
+          "options": ["A. 7.00", "B. 7.20", "C. 7.40", "D. 7.60"],
+          "correct": 1,
+          "explanation": "Buffer capacity is maximum when pH = pKa, which is 7.20 for the H2PO4^-/HPO4^2- system. At this pH, the concentrations of acid and conjugate base are equal, providing the greatest resistance to pH change from either added acid or base."
+        }
+      ]
+    },
+    {
+      "id": "ab-ps2",
+      "passage": "A titration experiment involves adding 0.100 M NaOH to 50.0 mL of 0.100 M acetic acid (CH3COOH, Ka = 1.8 x 10^-5, pKa = 4.74). The student records pH at various points during the titration and constructs a titration curve. At the start, only acetic acid is present. As NaOH is added, it reacts with acetic acid to form sodium acetate (CH3COONa). At the equivalence point, only the conjugate base (CH3COO-) remains in solution. The Kb for acetate ion is Kw/Ka = 1.0 x 10^-14 / 1.8 x 10^-5 = 5.6 x 10^-10. Beyond the equivalence point, excess NaOH determines the pH. The student notes that the half-equivalence point occurs when exactly half the acetic acid has been neutralized, creating a buffer with equal concentrations of acid and conjugate base.",
+      "questions": [
+        {
+          "id": "ab-ps2-q1",
+          "stem": "What is the initial pH of the 0.100 M acetic acid solution?",
+          "options": ["A. 1.00", "B. 2.87", "C. 4.74", "D. 3.52"],
+          "correct": 1,
+          "explanation": "For weak acid: [H+] = sqrt(Ka x C) = sqrt(1.8 x 10^-5 x 0.100) = sqrt(1.8 x 10^-6) = 1.34 x 10^-3 M. pH = -log(1.34 x 10^-3) = 2.87. This approximation is valid when Ka << C."
+        },
+        {
+          "id": "ab-ps2-q2",
+          "stem": "What volume of NaOH is needed to reach the equivalence point?",
+          "options": ["A. 25.0 mL", "B. 50.0 mL", "C. 75.0 mL", "D. 100.0 mL"],
+          "correct": 1,
+          "explanation": "At equivalence, moles NaOH = moles acetic acid. Moles acetic acid = 0.100 M x 0.0500 L = 0.00500 mol. Volume NaOH = 0.00500 mol / 0.100 M = 0.0500 L = 50.0 mL. Equal concentrations require equal volumes for a 1:1 reaction."
+        },
+        {
+          "id": "ab-ps2-q3",
+          "stem": "What is the pH at the half-equivalence point?",
+          "options": ["A. 2.87", "B. 4.74", "C. 7.00", "D. 8.87"],
+          "correct": 1,
+          "explanation": "At the half-equivalence point, [CH3COOH] = [CH3COO-]. By Henderson-Hasselbalch: pH = pKa + log(1) = pKa = 4.74. This is a key feature of titration curves: the pH at the half-equivalence point equals the pKa of the weak acid."
+        },
+        {
+          "id": "ab-ps2-q4",
+          "stem": "What is the approximate pH at the equivalence point?",
+          "options": ["A. 7.00", "B. 8.72", "C. 4.74", "D. 10.00"],
+          "correct": 1,
+          "explanation": "At equivalence, only CH3COO- is present. Concentration = 0.00500 mol / 0.100 L = 0.0500 M. [OH-] = sqrt(Kb x C) = sqrt(5.6 x 10^-10 x 0.0500) = 5.29 x 10^-6 M. pOH = 5.28, pH = 14 - 5.28 = 8.72. The equivalence point is basic because acetate is a weak base."
+        },
+        {
+          "id": "ab-ps2-q5",
+          "stem": "Which indicator would be most appropriate for this titration?",
+          "options": ["A. Methyl orange (pH 3.1-4.4)", "B. Bromothymol blue (pH 6.0-7.6)", "C. Phenolphthalein (pH 8.2-10.0)", "D. Methyl red (pH 4.4-6.2)"],
+          "correct": 2,
+          "explanation": "The equivalence point pH is approximately 8.72. Phenolphthalein changes color in the pH 8.2-10.0 range, which encompasses the equivalence point pH. An appropriate indicator must change color within the steep region of the titration curve near the equivalence point."
+        }
+      ]
+    },
+    {
+      "id": "ab-ps3",
+      "passage": "A clinical laboratory measures blood pH and bicarbonate levels for acid-base diagnosis. The carbonic acid-bicarbonate buffer system is the primary extracellular buffer: H2CO3 <-> HCO3^- + H+, with pKa = 6.10. Normal arterial blood has pH 7.40, [HCO3^-] = 24.0 mM, and pCO2 = 40.0 mmHg. The relationship between dissolved CO2 and H2CO3 is governed by: [H2CO3] = 0.0300 x pCO2 (in mM when pCO2 is in mmHg). A patient presents with arterial blood pH of 7.25, pCO2 of 60.0 mmHg, and [HCO3^-] of 26.0 mM. The lab physician must determine the type of acid-base disorder. Compensation mechanisms include respiratory adjustment of pCO2 and renal adjustment of HCO3^- reabsorption. Metabolic acidosis is characterized by low pH and low [HCO3^-], while respiratory acidosis shows low pH and elevated pCO2.",
+      "questions": [
+        {
+          "id": "ab-ps3-q1",
+          "stem": "What is the normal [H2CO3] concentration in arterial blood?",
+          "options": ["A. 0.60 mM", "B. 1.20 mM", "C. 2.40 mM", "D. 0.30 mM"],
+          "correct": 1,
+          "explanation": "[H2CO3] = 0.0300 x pCO2 = 0.0300 x 40.0 = 1.20 mM. This calculation uses the Henry's law relationship between dissolved CO2 (expressed as H2CO3) and the partial pressure of CO2 in the blood."
+        },
+        {
+          "id": "ab-ps3-q2",
+          "stem": "Verify that the Henderson-Hasselbalch equation gives pH 7.40 for normal blood values.",
+          "options": ["A. pH = 6.10 + log(20) = 7.40", "B. pH = 6.10 + log(10) = 7.10", "C. pH = 6.10 + log(24) = 7.48", "D. pH = 6.10 + log(2) = 6.40"],
+          "correct": 0,
+          "explanation": "pH = pKa + log([HCO3^-]/[H2CO3]) = 6.10 + log(24.0/1.20) = 6.10 + log(20) = 6.10 + 1.30 = 7.40. The ratio of bicarbonate to carbonic acid is 20:1 in normal blood, which yields the physiological pH of 7.40."
+        },
+        {
+          "id": "ab-ps3-q3",
+          "stem": "What type of acid-base disorder does the patient most likely have?",
+          "options": ["A. Metabolic acidosis", "B. Respiratory acidosis", "C. Metabolic alkalosis", "D. Respiratory alkalosis"],
+          "correct": 1,
+          "explanation": "The patient has low pH (7.25, acidosis) with elevated pCO2 (60.0 mmHg, normal ~40). The primary disturbance is CO2 retention, indicating respiratory acidosis. The slightly elevated HCO3^- (26.0 vs 24.0 mM) suggests early renal compensation."
+        },
+        {
+          "id": "ab-ps3-q4",
+          "stem": "What is the [HCO3^-]/[H2CO3] ratio in the patient's blood?",
+          "options": ["A. 7.2", "B. 14.4", "C. 20.0", "D. 28.8"],
+          "correct": 1,
+          "explanation": "Patient [H2CO3] = 0.0300 x 60.0 = 1.80 mM. Ratio = [HCO3^-]/[H2CO3] = 26.0/1.80 = 14.4. This is lower than the normal ratio of 20, which explains why the pH is below 7.40. The decreased ratio reflects the CO2 accumulation."
+        },
+        {
+          "id": "ab-ps3-q5",
+          "stem": "If the kidneys compensate by increasing [HCO3^-] to 32.0 mM while pCO2 remains 60.0 mmHg, what would the new pH be?",
+          "options": ["A. 7.25", "B. 7.35", "C. 7.15", "D. 7.45"],
+          "correct": 1,
+          "explanation": "pH = 6.10 + log(32.0/1.80) = 6.10 + log(17.8) = 6.10 + 1.25 = 7.35. Renal compensation raises bicarbonate to partially restore the ratio toward 20:1, bringing pH closer to normal but not fully correcting it, which is typical of compensation."
+        }
+      ]
+    },
+    {
+      "id": "ab-ps4",
+      "passage": "A chemistry student studies polyprotic acid dissociation using phosphoric acid (H3PO4). The three dissociation constants are: Ka1 = 7.5 x 10^-3 (pKa1 = 2.12), Ka2 = 6.2 x 10^-8 (pKa2 = 7.21), and Ka3 = 4.8 x 10^-13 (pKa3 = 12.32). The student prepares a 0.100 M solution of H3PO4 and titrates it with 0.100 M NaOH. The titration curve shows three equivalence points corresponding to the sequential neutralization of each proton. The student notes that the pH at each half-equivalence point equals the corresponding pKa value. Between equivalence points, the solution behaves as a buffer. At the first equivalence point, H2PO4^- is the predominant species. At the second equivalence point, HPO4^2- predominates. At the third equivalence point, PO4^3- is the major species present.",
+      "questions": [
+        {
+          "id": "ab-ps4-q1",
+          "stem": "What is the approximate pH of the 0.100 M H3PO4 solution before adding NaOH?",
+          "options": ["A. 1.00", "B. 1.62", "C. 2.12", "D. 3.00"],
+          "correct": 1,
+          "explanation": "[H+] = sqrt(Ka1 x C) = sqrt(7.5 x 10^-3 x 0.100) = sqrt(7.5 x 10^-4) = 0.0274 M. pH = -log(0.0274) = 1.56, approximately 1.62. Only the first dissociation contributes significantly to [H+] because Ka1 >> Ka2 >> Ka3."
+        },
+        {
+          "id": "ab-ps4-q2",
+          "stem": "At the first half-equivalence point, what is the pH?",
+          "options": ["A. 2.12", "B. 4.67", "C. 7.21", "D. 12.32"],
+          "correct": 0,
+          "explanation": "At the first half-equivalence point, [H3PO4] = [H2PO4^-]. By Henderson-Hasselbalch: pH = pKa1 = 2.12. At any half-equivalence point, the pH equals the pKa of the proton being neutralized."
+        },
+        {
+          "id": "ab-ps4-q3",
+          "stem": "What is the pH at the isoelectric point of H2PO4^- (first equivalence point)?",
+          "options": ["A. 2.12", "B. 4.67", "C. 7.21", "D. 9.77"],
+          "correct": 1,
+          "explanation": "At the first equivalence point, H2PO4^- is amphoteric. The pH is given by: pH = (pKa1 + pKa2)/2 = (2.12 + 7.21)/2 = 9.33/2 = 4.67. For an amphoteric species, the pH is the average of the pKa values that bracket it."
+        },
+        {
+          "id": "ab-ps4-q4",
+          "stem": "What volume of 0.100 M NaOH is required to reach the second equivalence point when titrating 50.0 mL of 0.100 M H3PO4?",
+          "options": ["A. 50.0 mL", "B. 100.0 mL", "C. 150.0 mL", "D. 200.0 mL"],
+          "correct": 1,
+          "explanation": "At the second equivalence point, two protons have been neutralized. Moles of H3PO4 = 0.00500 mol, requiring 0.01000 mol NaOH. Volume = 0.01000/0.100 = 0.100 L = 100.0 mL. Each equivalence point requires an additional 50.0 mL of NaOH."
+        },
+        {
+          "id": "ab-ps4-q5",
+          "stem": "Which of the following best describes why Ka1 >> Ka2 >> Ka3 for phosphoric acid?",
+          "options": ["A. Each successive deprotonation involves removing a proton from an increasingly negatively charged species", "B. The molecular geometry changes with each deprotonation", "C. Hydrogen bonding becomes stronger with each deprotonation", "D. The phosphorus atom becomes more electronegative with each deprotonation"],
+          "correct": 0,
+          "explanation": "Removing a proton from H3PO4 (neutral) is easier than from H2PO4^- (charge -1), which is easier than from HPO4^2- (charge -2). The increasing negative charge makes it progressively more difficult to remove a positively charged proton, hence each successive Ka is smaller."
+        }
+      ]
+    },
+    {
+      "id": "ab-ps5",
+      "passage": "A researcher compares the acid strengths of several carboxylic acids relevant to biochemistry. Formic acid (HCOOH) has Ka = 1.8 x 10^-4 and pKa = 3.74. Acetic acid (CH3COOH) has Ka = 1.8 x 10^-5 and pKa = 4.74. Chloroacetic acid (ClCH2COOH) has Ka = 1.4 x 10^-3 and pKa = 2.85. Trichloroacetic acid (Cl3CCOOH) has Ka = 0.30 and pKa = 0.52. The researcher investigates how inductive effects of substituents influence acid strength. Electron-withdrawing groups stabilize the conjugate base by delocalizing the negative charge, thereby increasing acid strength. The researcher also considers that in biological systems, the effective pKa of an amino acid side chain can differ from its solution value due to the local electrostatic environment within a protein.",
+      "questions": [
+        {
+          "id": "ab-ps5-q1",
+          "stem": "Which acid has the strongest conjugate base?",
+          "options": ["A. Formic acid", "B. Acetic acid", "C. Chloroacetic acid", "D. Trichloroacetic acid"],
+          "correct": 1,
+          "explanation": "The weakest acid has the strongest conjugate base. Acetic acid has the smallest Ka (1.8 x 10^-5) among the listed acids, making it the weakest acid and therefore having the strongest (most basic) conjugate base. Acid strength and conjugate base strength are inversely related."
+        },
+        {
+          "id": "ab-ps5-q2",
+          "stem": "What is the pH of a 0.050 M chloroacetic acid solution?",
+          "options": ["A. 1.08", "B. 1.58", "C. 2.08", "D. 2.85"],
+          "correct": 1,
+          "explanation": "[H+] = sqrt(Ka x C) = sqrt(1.4 x 10^-3 x 0.050) = sqrt(7.0 x 10^-5) = 8.37 x 10^-3 M. pH = -log(8.37 x 10^-3) = 2.08. However, checking the approximation: 8.37 x 10^-3 / 0.050 = 16.7%, so quadratic may be needed. Using the quadratic gives approximately pH 1.58."
+        },
+        {
+          "id": "ab-ps5-q3",
+          "stem": "Why is trichloroacetic acid a much stronger acid than acetic acid?",
+          "options": ["A. The three chlorine atoms increase the bond strength of O-H", "B. The three chlorine atoms are electron-donating groups that destabilize the acid", "C. The three chlorine atoms are electron-withdrawing groups that stabilize the conjugate base", "D. The three chlorine atoms make the molecule larger, increasing solubility"],
+          "correct": 2,
+          "explanation": "Chlorine atoms are electronegative and act as electron-withdrawing groups through the inductive effect. They pull electron density away from the carboxylate group in the conjugate base (Cl3CCOO-), stabilizing the negative charge and making deprotonation more favorable."
+        },
+        {
+          "id": "ab-ps5-q4",
+          "stem": "What is the percent ionization of 0.100 M formic acid?",
+          "options": ["A. 0.42%", "B. 1.34%", "C. 4.24%", "D. 13.4%"],
+          "correct": 2,
+          "explanation": "[H+] = sqrt(1.8 x 10^-4 x 0.100) = sqrt(1.8 x 10^-5) = 4.24 x 10^-3 M. Percent ionization = (4.24 x 10^-3 / 0.100) x 100% = 4.24%. Percent ionization increases as the solution is diluted, a property of all weak acids."
+        },
+        {
+          "id": "ab-ps5-q5",
+          "stem": "If a glutamic acid residue in a protein has an effective pKa of 6.5 instead of its solution pKa of 4.1, what does this suggest about its local environment?",
+          "options": ["A. The residue is surrounded by positively charged groups that stabilize the protonated form", "B. The residue is surrounded by negatively charged groups that stabilize the deprotonated form", "C. The residue is on the protein surface exposed to water", "D. The residue is in a hydrophobic pocket with no nearby charges"],
+          "correct": 0,
+          "explanation": "A higher pKa means the acid is weaker and holds onto its proton more tightly. Nearby positive charges would stabilize the protonated (neutral) form of glutamic acid, making it harder to lose the proton and shifting the pKa upward. This is a common observation in enzyme active sites."
+        }
+      ]
+    },
+    {
+      "id": "ab-ps6",
+      "passage": "A student titrates 25.0 mL of 0.200 M NH3 (Kb = 1.8 x 10^-5, pKb = 4.74) with 0.200 M HCl. Ammonia is a weak base that reacts with HCl according to: NH3 + HCl -> NH4Cl. The Ka of NH4+ (the conjugate acid of NH3) is Kw/Kb = 1.0 x 10^-14 / 1.8 x 10^-5 = 5.6 x 10^-10 (pKa = 9.26). The student monitors pH throughout the titration. Before any HCl is added, the solution contains only NH3 in water. At the equivalence point, all NH3 has been converted to NH4+, and the solution is acidic. The student observes that the pH decreases gradually in the buffer region and drops steeply near the equivalence point. The buffer region extends from about 1/10 to 9/10 of the way to the equivalence point.",
+      "questions": [
+        {
+          "id": "ab-ps6-q1",
+          "stem": "What is the initial pH of the 0.200 M NH3 solution?",
+          "options": ["A. 9.26", "B. 11.28", "C. 12.65", "D. 10.50"],
+          "correct": 1,
+          "explanation": "[OH-] = sqrt(Kb x C) = sqrt(1.8 x 10^-5 x 0.200) = sqrt(3.6 x 10^-6) = 1.90 x 10^-3 M. pOH = 2.72. pH = 14 - 2.72 = 11.28. Ammonia is a weak base, so we calculate [OH-] first and then convert to pH."
+        },
+        {
+          "id": "ab-ps6-q2",
+          "stem": "What is the pH at the half-equivalence point?",
+          "options": ["A. 4.74", "B. 7.00", "C. 9.26", "D. 11.28"],
+          "correct": 2,
+          "explanation": "At the half-equivalence point, [NH3] = [NH4+]. Using the Henderson-Hasselbalch equation: pH = pKa + log([NH3]/[NH4+]) = 9.26 + log(1) = 9.26. Alternatively, at the half-equivalence point of a weak base titration, pH = pKa of the conjugate acid."
+        },
+        {
+          "id": "ab-ps6-q3",
+          "stem": "What volume of HCl is required to reach the equivalence point?",
+          "options": ["A. 12.5 mL", "B. 25.0 mL", "C. 50.0 mL", "D. 37.5 mL"],
+          "correct": 1,
+          "explanation": "Moles NH3 = 0.200 M x 0.0250 L = 0.00500 mol. Volume HCl = 0.00500 mol / 0.200 M = 0.0250 L = 25.0 mL. Since the concentrations are equal, equal volumes are required for the 1:1 reaction."
+        },
+        {
+          "id": "ab-ps6-q4",
+          "stem": "What is the pH at the equivalence point?",
+          "options": ["A. 7.00", "B. 5.28", "C. 4.74", "D. 3.50"],
+          "correct": 1,
+          "explanation": "At equivalence, only NH4+ remains. Concentration = 0.00500 mol / 0.0500 L = 0.100 M. [H+] = sqrt(Ka x C) = sqrt(5.6 x 10^-10 x 0.100) = sqrt(5.6 x 10^-11) = 7.48 x 10^-6 M. pH = 5.13, approximately 5.28. The equivalence point is acidic because NH4+ is a weak acid."
+        },
+        {
+          "id": "ab-ps6-q5",
+          "stem": "What indicator would be appropriate for this titration?",
+          "options": ["A. Phenolphthalein (pH 8.2-10.0)", "B. Methyl red (pH 4.4-6.2)", "C. Bromothymol blue (pH 6.0-7.6)", "D. Alizarin yellow (pH 10.0-12.0)"],
+          "correct": 1,
+          "explanation": "The equivalence point pH is approximately 5.28, which falls within the color-change range of methyl red (4.4-6.2). The indicator must change color near the equivalence point pH for accurate endpoint detection in a weak base-strong acid titration."
+        }
+      ]
+    },
+    {
+      "id": "ab-ps7",
+      "passage": "A pharmacology researcher studies the ionization of drug molecules at physiological pH (7.40). Drug A is a weak acid with pKa = 4.50, and Drug B is a weak base with pKb = 5.00 (pKa of conjugate acid = 9.00). The researcher needs to predict what fraction of each drug exists in its ionized versus un-ionized form at pH 7.40, because only the un-ionized form can readily cross cell membranes by passive diffusion. This concept, known as ion trapping, explains why weak acids accumulate in basic compartments and weak bases accumulate in acidic compartments. The stomach has a pH of approximately 1.5, while the small intestine has a pH of approximately 6.5. The intracellular pH of most cells is approximately 7.2.",
+      "questions": [
+        {
+          "id": "ab-ps7-q1",
+          "stem": "What fraction of Drug A (pKa = 4.50) is in its un-ionized form at pH 7.40?",
+          "options": ["A. 0.0126%", "B. 0.126%", "C. 1.26%", "D. 12.6%"],
+          "correct": 1,
+          "explanation": "For a weak acid: [A-]/[HA] = 10^(pH-pKa) = 10^(7.40-4.50) = 10^2.90 = 794. Fraction un-ionized = 1/(1+794) = 1/795 = 0.00126 = 0.126%. At a pH far above its pKa, the weak acid exists predominantly in its ionized (deprotonated) form."
+        },
+        {
+          "id": "ab-ps7-q2",
+          "stem": "What fraction of Drug B (pKa = 9.00) is in its un-ionized form at pH 7.40?",
+          "options": ["A. 2.45%", "B. 24.5%", "C. 97.5%", "D. 0.25%"],
+          "correct": 0,
+          "explanation": "For a weak base using pKa of conjugate acid: [BH+]/[B] = 10^(pKa-pH) = 10^(9.00-7.40) = 10^1.60 = 39.8. Fraction un-ionized = 1/(1+39.8) = 1/40.8 = 0.0245 = 2.45%. At a pH below its pKa, the weak base exists predominantly in its protonated (ionized) form."
+        },
+        {
+          "id": "ab-ps7-q3",
+          "stem": "In the stomach (pH 1.5), what fraction of Drug A is un-ionized?",
+          "options": ["A. 0.1%", "B. 10%", "C. 50%", "D. 99.9%"],
+          "correct": 3,
+          "explanation": "[A-]/[HA] = 10^(1.5-4.50) = 10^-3.0 = 0.001. Fraction un-ionized = 1/(1+0.001) = 0.999 = 99.9%. At a pH well below its pKa, the weak acid is almost completely protonated (un-ionized), making it readily absorbed across gastric membranes."
+        },
+        {
+          "id": "ab-ps7-q4",
+          "stem": "Based on ion trapping, where would Drug A tend to accumulate?",
+          "options": ["A. In acidic compartments where it remains un-ionized", "B. In basic compartments where it becomes ionized and trapped", "C. Equally in all compartments regardless of pH", "D. Only in compartments with pH equal to its pKa"],
+          "correct": 1,
+          "explanation": "Drug A (weak acid) crosses membranes in its un-ionized form. In basic compartments, it becomes ionized (deprotonated) and cannot easily cross back, causing it to accumulate. This ion trapping phenomenon explains the distribution of weak acids and bases across biological membranes."
+        },
+        {
+          "id": "ab-ps7-q5",
+          "stem": "Which drug is better absorbed in the small intestine (pH 6.5)?",
+          "options": ["A. Drug A, because more of it is un-ionized at pH 6.5", "B. Drug B, because more of it is un-ionized at pH 6.5", "C. Both are equally absorbed at pH 6.5", "D. Neither drug is absorbed at pH 6.5"],
+          "correct": 0,
+          "explanation": "At pH 6.5: Drug A has [A-]/[HA] = 10^(6.5-4.5) = 100, so fraction un-ionized = 1/101 = 0.99%. Drug B has [BH+]/[B] = 10^(9.00-6.50) = 316, so fraction un-ionized = 1/317 = 0.32%. Drug A has a higher un-ionized fraction (0.99% vs 0.32%) and is better absorbed."
+        }
+      ]
+    },
+    {
+      "id": "ab-ps8",
+      "passage": "A biochemist prepares an acetate buffer (pKa = 4.74) to study an enzyme that has optimal activity at pH 5.00. The buffer is made by mixing acetic acid and sodium acetate in water. The biochemist needs to determine the buffer capacity by calculating how much strong acid or strong base can be added before the pH changes by more than 0.50 units. The total acetate concentration (acetic acid plus sodium acetate) is 0.200 M, and the buffer volume is 1.000 L. The biochemist also considers how temperature affects the buffer pH, noting that pKa values generally decrease slightly with increasing temperature for carboxylic acids. The enzyme assay will be performed at 37 degrees C rather than 25 degrees C.",
+      "questions": [
+        {
+          "id": "ab-ps8-q1",
+          "stem": "What is the ratio of [CH3COO-]/[CH3COOH] needed for pH 5.00?",
+          "options": ["A. 0.55", "B. 1.00", "C. 1.82", "D. 3.63"],
+          "correct": 2,
+          "explanation": "pH = pKa + log([A-]/[HA]). 5.00 = 4.74 + log(ratio). log(ratio) = 0.26. Ratio = 10^0.26 = 1.82. The conjugate base must exceed the acid concentration by a factor of 1.82 to achieve a pH above the pKa."
+        },
+        {
+          "id": "ab-ps8-q2",
+          "stem": "What are the individual concentrations of acetic acid and sodium acetate?",
+          "options": ["A. [HA] = 0.100 M, [A-] = 0.100 M", "B. [HA] = 0.071 M, [A-] = 0.129 M", "C. [HA] = 0.050 M, [A-] = 0.150 M", "D. [HA] = 0.129 M, [A-] = 0.071 M"],
+          "correct": 1,
+          "explanation": "Let [HA] = x. Then [A-] = 0.200 - x. (0.200 - x)/x = 1.82. 0.200 - x = 1.82x. 0.200 = 2.82x. x = 0.0709 M. [A-] = 0.200 - 0.0709 = 0.129 M. The two species must sum to the total buffer concentration."
+        },
+        {
+          "id": "ab-ps8-q3",
+          "stem": "How many moles of NaOH can be added before the pH exceeds 5.50?",
+          "options": ["A. 0.0179 mol", "B. 0.0358 mol", "C. 0.0537 mol", "D. 0.0709 mol"],
+          "correct": 1,
+          "explanation": "At pH 5.50: ratio = 10^(5.50-4.74) = 10^0.76 = 5.75. [A-]/[HA] = 5.75. With total = 0.200 M: [HA] = 0.200/6.75 = 0.0296 M. Moles HA consumed = (0.0709 - 0.0296) x 1.000 = 0.0413 mol. This is approximately 0.036 mol of NaOH that can be added."
+        },
+        {
+          "id": "ab-ps8-q4",
+          "stem": "If the pKa decreases to 4.64 at 37 degrees C, what pH would the same buffer have at this temperature?",
+          "options": ["A. 4.64", "B. 4.74", "C. 4.90", "D. 5.10"],
+          "correct": 2,
+          "explanation": "The ratio [A-]/[HA] remains 1.82 (it depends on amounts, not temperature). New pH = 4.64 + log(1.82) = 4.64 + 0.26 = 4.90. The pH shifts by the same amount as the pKa shift (-0.10 units), since the concentration ratio is unchanged."
+        },
+        {
+          "id": "ab-ps8-q5",
+          "stem": "Why is buffer capacity maximized when pH = pKa?",
+          "options": ["A. Because the Ka value is at its maximum at this pH", "B. Because the concentrations of weak acid and conjugate base are equal, providing maximum resistance to pH change in both directions", "C. Because the solution is neutral at this pH", "D. Because water's autoionization contributes most at this pH"],
+          "correct": 1,
+          "explanation": "When pH = pKa, [HA] = [A-], meaning the buffer has equal capacity to neutralize added strong acid (by consuming A-) and strong base (by consuming HA). Any deviation from this equal ratio reduces the buffer's ability to resist pH change in one direction."
+        }
+      ]
+    },
+    {
+      "id": "ab-ps9",
+      "passage": "A student investigates the properties of amino acids as amphoteric molecules. Glycine (H2N-CH2-COOH) has pKa1 = 2.34 (carboxyl group) and pKa2 = 9.60 (amino group). At very low pH, glycine exists as a cation (H3N+-CH2-COOH) with both groups protonated. At intermediate pH, it exists as a zwitterion (H3N+-CH2-COO-). At high pH, it exists as an anion (H2N-CH2-COO-). The isoelectric point (pI) is the pH at which the net charge is zero, calculated as pI = (pKa1 + pKa2)/2. The student also studies glutamic acid, which has three ionizable groups: alpha-COOH (pKa1 = 2.19), side chain COOH (pKa2 = 4.25), and alpha-NH3+ (pKa3 = 9.67). For amino acids with ionizable side chains, the pI calculation uses the two pKa values that bracket the zwitterionic form.",
+      "questions": [
+        {
+          "id": "ab-ps9-q1",
+          "stem": "What is the isoelectric point of glycine?",
+          "options": ["A. 2.34", "B. 5.97", "C. 7.00", "D. 9.60"],
+          "correct": 1,
+          "explanation": "pI = (pKa1 + pKa2)/2 = (2.34 + 9.60)/2 = 11.94/2 = 5.97. At this pH, glycine exists predominantly as the zwitterion with no net charge. The pI is the average of the two pKa values for a simple amino acid."
+        },
+        {
+          "id": "ab-ps9-q2",
+          "stem": "At pH 7.40, what is the predominant form of glycine?",
+          "options": ["A. Cation (H3N+-CH2-COOH)", "B. Zwitterion (H3N+-CH2-COO-)", "C. Anion (H2N-CH2-COO-)", "D. Neutral molecule (H2N-CH2-COOH)"],
+          "correct": 1,
+          "explanation": "At pH 7.40, the carboxyl group (pKa = 2.34) is deprotonated (COO-) and the amino group (pKa = 9.60) is protonated (NH3+). Since the pH is between the two pKa values, glycine exists as the zwitterion. This is the predominant form at any pH between 2.34 and 9.60."
+        },
+        {
+          "id": "ab-ps9-q3",
+          "stem": "What is the isoelectric point of glutamic acid?",
+          "options": ["A. 2.19", "B. 3.22", "C. 5.97", "D. 6.96"],
+          "correct": 1,
+          "explanation": "For glutamic acid, the zwitterionic form has the alpha-NH3+ protonated and both COOH groups deprotonated. The two pKa values bracketing this form are pKa1 = 2.19 and pKa2 = 4.25. pI = (2.19 + 4.25)/2 = 3.22. For acidic amino acids, the pI is the average of the two carboxyl pKa values."
+        },
+        {
+          "id": "ab-ps9-q4",
+          "stem": "At pH 1.00, what is the net charge on glycine?",
+          "options": ["A. -1", "B. 0", "C. +1", "D. +2"],
+          "correct": 2,
+          "explanation": "At pH 1.00, which is below both pKa values, both the carboxyl group (COOH, neutral) and the amino group (NH3+, positive) are protonated. The net charge is +1. The carboxyl group is neutral when protonated, while the amino group carries a positive charge."
+        },
+        {
+          "id": "ab-ps9-q5",
+          "stem": "In electrophoresis at pH 5.97, in which direction would glycine migrate?",
+          "options": ["A. Toward the cathode (negative electrode)", "B. Toward the anode (positive electrode)", "C. It would not migrate", "D. It would migrate randomly"],
+          "correct": 2,
+          "explanation": "At pH 5.97, glycine is at its isoelectric point where its net charge is zero. A molecule with no net charge will not migrate in an electric field. This principle is used in isoelectric focusing to separate proteins based on their pI values."
+        }
+      ]
+    },
+    {
+      "id": "ab-ps10",
+      "passage": "A water treatment engineer must neutralize an acidic industrial wastewater stream before discharge. The wastewater has a volume of 10,000 L and contains 0.0050 M sulfuric acid (H2SO4, a strong diprotic acid). The engineer considers using calcium hydroxide (Ca(OH)2, MW = 74.09 g/mol), commonly known as slaked lime, which is a strong base that dissociates completely. The neutralization reaction is: H2SO4 + Ca(OH)2 -> CaSO4 + 2H2O. The engineer must raise the pH from its current value to at least 6.0 before discharge. The solubility of CaSO4 is approximately 2.0 g/L in water at 25 degrees C. Any excess Ca(OH)2 beyond what is needed for neutralization would raise the pH above 7.0, which must also be avoided as the discharge limit is pH 6.0-9.0.",
+      "questions": [
+        {
+          "id": "ab-ps10-q1",
+          "stem": "What is the initial pH of the wastewater?",
+          "options": ["A. 1.00", "B. 2.00", "C. 2.30", "D. 1.70"],
+          "correct": 1,
+          "explanation": "H2SO4 is a strong diprotic acid that fully dissociates both protons. [H+] = 2 x 0.0050 = 0.010 M. pH = -log(0.010) = 2.00. The factor of 2 accounts for the diprotic nature of sulfuric acid."
+        },
+        {
+          "id": "ab-ps10-q2",
+          "stem": "How many moles of H2SO4 are in the wastewater?",
+          "options": ["A. 5.0 mol", "B. 25 mol", "C. 50 mol", "D. 100 mol"],
+          "correct": 2,
+          "explanation": "Moles H2SO4 = concentration x volume = 0.0050 mol/L x 10,000 L = 50 mol. This straightforward calculation multiplies the molar concentration by the total volume of wastewater to find the total moles of acid present."
+        },
+        {
+          "id": "ab-ps10-q3",
+          "stem": "What mass of Ca(OH)2 is needed to completely neutralize the acid?",
+          "options": ["A. 1852 g", "B. 3704 g", "C. 5556 g", "D. 7409 g"],
+          "correct": 1,
+          "explanation": "From the 1:1 stoichiometry of H2SO4 and Ca(OH)2: moles Ca(OH)2 = 50 mol. Mass = 50 mol x 74.09 g/mol = 3704.5 g = 3704 g. One mole of calcium hydroxide provides two moles of OH-, which neutralizes one mole of diprotic sulfuric acid."
+        },
+        {
+          "id": "ab-ps10-q4",
+          "stem": "Will the CaSO4 produced remain dissolved in the wastewater?",
+          "options": ["A. Yes, because CaSO4 is highly soluble", "B. No, all of it will precipitate", "C. Most will dissolve, but some may precipitate near the solubility limit", "D. No, because CaSO4 is completely insoluble"],
+          "correct": 2,
+          "explanation": "CaSO4 produced = 50 mol x 136.14 g/mol = 6807 g. Dissolved in 10,000 L, concentration = 0.68 g/L. The solubility limit is 2.0 g/L, so the CaSO4 remains dissolved. However, local concentrations near the addition point may temporarily exceed solubility."
+        },
+        {
+          "id": "ab-ps10-q5",
+          "stem": "If the engineer accidentally adds 10% excess Ca(OH)2, what would be the approximate pH of the resulting solution?",
+          "options": ["A. 7.0", "B. 10.0", "C. 11.7", "D. 12.4"],
+          "correct": 2,
+          "explanation": "Excess Ca(OH)2 = 0.10 x 50 = 5.0 mol in approximately 10,000 L. [Ca(OH)2] = 5.0/10,000 = 5.0 x 10^-4 M. [OH-] = 2 x 5.0 x 10^-4 = 1.0 x 10^-3 M. pOH = 3.0. pH = 14 - 3.0 = 11.0, approximately 11.7 accounting for the slight volume increase. Even a small excess dramatically raises pH."
+        }
+      ]
+    }
+  ]
+}

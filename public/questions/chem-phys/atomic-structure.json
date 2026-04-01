@@ -1,0 +1,416 @@
+{
+  "subtopic": "Atomic Structure & Periodic Table",
+  "sectionId": "chem-phys",
+  "passageSets": [
+    {
+      "id": "atomic-ps1",
+      "passage": "A chemistry student reviewed the quantum mechanical model of the atom, focusing on the four quantum numbers that describe each electron. The principal quantum number (n) determines the energy level and general size of the orbital, with values n = 1, 2, 3, etc. The angular momentum quantum number (l) determines the shape of the orbital, with values from 0 to n-1. The values l = 0, 1, 2, 3 correspond to s, p, d, and f orbitals, respectively. The magnetic quantum number (m_l) specifies the orientation of the orbital, with values from -l to +l. The spin quantum number (m_s) has values of +1/2 or -1/2. The Pauli exclusion principle states that no two electrons in an atom can have the same set of four quantum numbers. The student used these rules to determine electron configurations and to predict the number of orbitals and electrons in each subshell.",
+      "questions": [
+        {
+          "id": "atomic-q1",
+          "stem": "How many orbitals are in the 3d subshell?",
+          "options": ["A. 3", "B. 5", "C. 7", "D. 10"],
+          "correct": 1,
+          "explanation": "For the 3d subshell, l = 2. The magnetic quantum number m_l ranges from -2 to +2, giving values -2, -1, 0, +1, +2, for a total of 5 orbitals. Each orbital can hold 2 electrons, so the 3d subshell can hold a maximum of 10 electrons."
+        },
+        {
+          "id": "atomic-q2",
+          "stem": "What is the maximum number of electrons that can occupy the n = 3 energy level?",
+          "options": ["A. 8", "B. 10", "C. 18", "D. 32"],
+          "correct": 2,
+          "explanation": "The maximum number of electrons in energy level n is 2n^2 = 2(3)^2 = 18. The n = 3 level contains the 3s (2 electrons), 3p (6 electrons), and 3d (10 electrons) subshells, totaling 18 electrons."
+        },
+        {
+          "id": "atomic-q3",
+          "stem": "Which set of quantum numbers is NOT allowed?",
+          "options": ["A. n=2, l=1, m_l=0, m_s=+1/2", "B. n=3, l=2, m_l=-1, m_s=-1/2", "C. n=2, l=2, m_l=0, m_s=+1/2", "D. n=4, l=0, m_l=0, m_s=-1/2"],
+          "correct": 2,
+          "explanation": "For n=2, the maximum value of l is n-1 = 1. Therefore l=2 is not allowed when n=2. The angular momentum quantum number must always be less than the principal quantum number. This would require a 2d subshell, which does not exist."
+        },
+        {
+          "id": "atomic-q4",
+          "stem": "The Pauli exclusion principle limits the number of electrons in a single orbital to:",
+          "options": ["A. 1", "B. 2", "C. 6", "D. 10"],
+          "correct": 1,
+          "explanation": "Each orbital is defined by a unique set of n, l, and m_l values. The only remaining quantum number is m_s, which has two possible values (+1/2 and -1/2). Therefore, at most 2 electrons with opposite spins can occupy a single orbital, as required by the Pauli exclusion principle."
+        },
+        {
+          "id": "atomic-q5",
+          "stem": "An electron in a 4f orbital has which values of n and l?",
+          "options": ["A. n=4, l=0", "B. n=4, l=2", "C. n=4, l=3", "D. n=4, l=4"],
+          "correct": 2,
+          "explanation": "The 4f orbital has n=4 (principal quantum number) and l=3 (since f orbitals correspond to l=3). The angular momentum quantum number values 0, 1, 2, 3 correspond to s, p, d, f orbital types, respectively."
+        }
+      ]
+    },
+    {
+      "id": "atomic-ps2",
+      "passage": "A general chemistry class studied electron configurations of atoms and ions using the aufbau principle, Hund's rule, and the Pauli exclusion principle. The aufbau principle states that electrons fill orbitals in order of increasing energy, following the sequence 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, and so on. Hund's rule states that electrons fill degenerate orbitals singly with parallel spins before pairing up. Notable exceptions to the expected filling order include chromium (Cr, Z=24) and copper (Cu, Z=29), which adopt half-filled or fully filled d subshells for extra stability. Chromium has the configuration [Ar] 3d^5 4s^1 instead of the expected [Ar] 3d^4 4s^2, and copper has [Ar] 3d^10 4s^1 instead of [Ar] 3d^9 4s^2. When transition metals form cations, electrons are removed from the 4s orbital before the 3d orbitals.",
+      "questions": [
+        {
+          "id": "atomic-q6",
+          "stem": "What is the electron configuration of iron (Fe, Z=26)?",
+          "options": ["A. [Ar] 3d^8", "B. [Ar] 3d^6 4s^2", "C. [Ar] 3d^5 4s^3", "D. [Ar] 4s^2 4p^6"],
+          "correct": 1,
+          "explanation": "Iron has 26 electrons. The noble gas core is [Ar] (18 electrons), leaving 8 electrons. Following the aufbau principle, the 4s orbital fills first (2 electrons), then the 3d orbital receives the remaining 6 electrons, giving [Ar] 3d^6 4s^2."
+        },
+        {
+          "id": "atomic-q7",
+          "stem": "What is the electron configuration of Fe^2+?",
+          "options": ["A. [Ar] 3d^4 4s^2", "B. [Ar] 3d^6", "C. [Ar] 3d^5 4s^1", "D. [Ar] 3d^4 4p^2"],
+          "correct": 1,
+          "explanation": "When iron loses 2 electrons to form Fe^2+, the electrons are removed from the 4s orbital first (not 3d), because 4s electrons are at higher energy in transition metal cations. Removing both 4s electrons from [Ar] 3d^6 4s^2 gives Fe^2+ = [Ar] 3d^6."
+        },
+        {
+          "id": "atomic-q8",
+          "stem": "Why does chromium adopt the configuration [Ar] 3d^5 4s^1 instead of [Ar] 3d^4 4s^2?",
+          "options": ["A. The 3d orbitals are lower in energy than 4s in all cases", "B. A half-filled d subshell provides extra stability due to exchange energy", "C. Chromium has too many protons for normal filling", "D. The Pauli exclusion principle requires this arrangement"],
+          "correct": 1,
+          "explanation": "A half-filled d subshell (d^5) provides additional stability due to exchange energy and favorable electron-electron interactions. Each of the five d orbitals is singly occupied with parallel spins, maximizing exchange energy. This energetic advantage outweighs the cost of promoting one electron from 4s to 3d."
+        },
+        {
+          "id": "atomic-q9",
+          "stem": "According to Hund's rule, how are three electrons distributed among the three 2p orbitals?",
+          "options": ["A. All three in one orbital", "B. Two in one orbital and one in another", "C. One in each orbital with parallel spins", "D. One in each orbital with alternating spins"],
+          "correct": 2,
+          "explanation": "Hund's rule requires that degenerate orbitals (orbitals with the same energy) be filled singly with electrons having parallel spins before any pairing occurs. Three electrons in three 2p orbitals means one electron in each orbital, all with the same spin direction, maximizing total spin."
+        },
+        {
+          "id": "atomic-q10",
+          "stem": "Which element has the electron configuration [Kr] 4d^10 5s^1?",
+          "options": ["A. Palladium (Pd)", "B. Silver (Ag)", "C. Cadmium (Cd)", "D. Rhodium (Rh)"],
+          "correct": 1,
+          "explanation": "Silver (Ag, Z=47) has this configuration, analogous to copper's exception. The expected configuration would be [Kr] 4d^9 5s^2, but the extra stability of a completely filled 4d^10 subshell causes one electron to shift from 5s to 4d, giving [Kr] 4d^10 5s^1."
+        }
+      ]
+    },
+    {
+      "id": "atomic-ps3",
+      "passage": "A study examined periodic trends across the periodic table, focusing on atomic radius, ionization energy, and electron affinity. Atomic radius generally decreases across a period from left to right due to increasing nuclear charge pulling electrons closer, and increases down a group as additional electron shells are added. Ionization energy (the energy required to remove the outermost electron) generally increases across a period and decreases down a group. However, there are notable exceptions: the ionization energy of oxygen (Z=8) is lower than that of nitrogen (Z=7), and the ionization energy of boron (Z=5) is lower than that of beryllium (Z=4). These exceptions can be explained by electron subshell structure and electron-electron repulsion effects. Electron affinity, the energy change when an electron is added to a neutral atom, becomes more negative (more exothermic) across a period, with halogens having the most negative electron affinities.",
+      "questions": [
+        {
+          "id": "atomic-q11",
+          "stem": "Which of the following correctly ranks atomic radius from smallest to largest?",
+          "options": ["A. Na < Mg < Al < Si", "B. Si < Al < Mg < Na", "C. Na < Si < Al < Mg", "D. Mg < Na < Al < Si"],
+          "correct": 1,
+          "explanation": "Across a period from left to right, atomic radius decreases because increasing nuclear charge pulls electrons closer to the nucleus. Since Na, Mg, Al, and Si are in Period 3 in that order, Si has the smallest radius and Na has the largest. The correct order from smallest to largest is Si < Al < Mg < Na."
+        },
+        {
+          "id": "atomic-q12",
+          "stem": "Why does boron have a lower first ionization energy than beryllium?",
+          "options": ["A. Boron has fewer protons than beryllium", "B. Boron's outermost electron is in a 2p orbital, which is higher in energy and easier to remove than beryllium's 2s electron", "C. Boron is a metalloid and metalloids have low ionization energies", "D. Electron-electron repulsion is greater in boron"],
+          "correct": 1,
+          "explanation": "Beryllium's outermost electrons are in the 2s subshell, which penetrates closer to the nucleus and is well shielded. Boron's outermost electron is in a 2p orbital, which is higher in energy and farther from the nucleus on average. The 2p electron is easier to remove despite the additional proton."
+        },
+        {
+          "id": "atomic-q13",
+          "stem": "Why does oxygen have a lower first ionization energy than nitrogen?",
+          "options": ["A. Oxygen has fewer electrons than nitrogen", "B. Nitrogen's half-filled 2p subshell provides extra stability", "C. Oxygen has a larger atomic radius than nitrogen", "D. Oxygen has a higher nuclear charge than nitrogen"],
+          "correct": 1,
+          "explanation": "Nitrogen has a half-filled 2p^3 configuration with one electron in each 2p orbital, which has extra stability from exchange energy. Oxygen has 2p^4, with one orbital containing a paired electron. This paired electron experiences electron-electron repulsion, making it easier to remove than expected, lowering oxygen's ionization energy relative to nitrogen."
+        },
+        {
+          "id": "atomic-q14",
+          "stem": "Which element has the highest first ionization energy?",
+          "options": ["A. Lithium", "B. Carbon", "C. Fluorine", "D. Neon"],
+          "correct": 3,
+          "explanation": "Neon has the highest first ionization energy among these elements. As a noble gas with a completely filled outer shell (2s^2 2p^6), its electrons are strongly held by the nuclear charge. Ionization energy generally increases across a period, and noble gases have the highest values in their respective periods."
+        },
+        {
+          "id": "atomic-q15",
+          "stem": "Atomic radius increases down a group primarily because:",
+          "options": ["A. Nuclear charge decreases down a group", "B. Inner electrons repel outer electrons more strongly", "C. Each successive element has an additional principal energy level, increasing the distance of outermost electrons from the nucleus", "D. The number of neutrons increases"],
+          "correct": 2,
+          "explanation": "Going down a group, each element has one more principal energy level (shell) than the element above it. These additional shells mean the outermost electrons are farther from the nucleus. Although nuclear charge also increases, the shielding effect of inner electrons largely offsets the increased nuclear attraction."
+        }
+      ]
+    },
+    {
+      "id": "atomic-ps4",
+      "passage": "Researchers analyzed the emission spectrum of hydrogen to validate the Bohr model of the atom. When hydrogen gas is excited by electrical discharge, it emits light at specific wavelengths corresponding to electron transitions between energy levels. The energy of each level in hydrogen is given by E_n = -13.6 eV / n^2, where n is the principal quantum number. The Lyman series corresponds to transitions ending at n=1 (ultraviolet), the Balmer series ends at n=2 (visible), and the Paschen series ends at n=3 (infrared). The wavelength of emitted light can be calculated from the energy difference: delta_E = hc / lambda. The Rydberg equation gives 1/lambda = R_H (1/n_f^2 - 1/n_i^2), where R_H = 1.097 x 10^7 m^-1. The researchers measured four visible lines in the Balmer series and confirmed that the wavelengths matched the predicted values.",
+      "questions": [
+        {
+          "id": "atomic-q16",
+          "stem": "What is the energy of the n=2 level in hydrogen?",
+          "options": ["A. -13.6 eV", "B. -6.8 eV", "C. -3.4 eV", "D. -1.5 eV"],
+          "correct": 2,
+          "explanation": "E_2 = -13.6 / 2^2 = -13.6 / 4 = -3.4 eV. The energy levels in hydrogen are inversely proportional to n^2. The negative sign indicates that the electron is bound to the nucleus; energy must be added to remove it."
+        },
+        {
+          "id": "atomic-q17",
+          "stem": "What is the energy of the photon emitted during the transition from n=3 to n=2?",
+          "options": ["A. 0.66 eV", "B. 1.89 eV", "C. 3.4 eV", "D. 10.2 eV"],
+          "correct": 1,
+          "explanation": "E_photon = E_3 - E_2 = (-13.6/9) - (-13.6/4) = -1.51 - (-3.40) = 1.89 eV. This transition is part of the Balmer series and corresponds to the red H-alpha line, the longest wavelength visible line in the hydrogen spectrum."
+        },
+        {
+          "id": "atomic-q18",
+          "stem": "The Lyman series produces radiation in which region of the electromagnetic spectrum?",
+          "options": ["A. Infrared", "B. Visible", "C. Ultraviolet", "D. Microwave"],
+          "correct": 2,
+          "explanation": "The Lyman series involves transitions to the n=1 ground state, which produce the largest energy differences. These transitions emit photons with enough energy to be in the ultraviolet region. The minimum energy Lyman transition (n=2 to n=1) produces 10.2 eV, well into the UV range."
+        },
+        {
+          "id": "atomic-q19",
+          "stem": "Which transition in the Balmer series produces the shortest wavelength?",
+          "options": ["A. n=3 to n=2", "B. n=4 to n=2", "C. n=5 to n=2", "D. n=infinity to n=2"],
+          "correct": 3,
+          "explanation": "The shortest wavelength corresponds to the highest energy transition. As n_i approaches infinity, the energy difference approaches its maximum value for the series. The series limit (n=infinity to n=2) produces the shortest wavelength, equal to 1/(R_H x 1/4) = 364.6 nm."
+        },
+        {
+          "id": "atomic-q20",
+          "stem": "The Bohr model accurately predicts the spectrum of:",
+          "options": ["A. All atoms", "B. All elements in the first period", "C. Only hydrogen and hydrogen-like (one-electron) species", "D. All noble gases"],
+          "correct": 2,
+          "explanation": "The Bohr model works accurately only for hydrogen and hydrogen-like ions (He+, Li2+, etc.) that have a single electron. For multi-electron atoms, electron-electron interactions make the energy levels more complex than the simple 1/n^2 dependence, requiring quantum mechanical calculations."
+        }
+      ]
+    },
+    {
+      "id": "atomic-ps5",
+      "passage": "A materials science lecture discussed electronegativity and its influence on bond character. Electronegativity is the tendency of an atom to attract shared electrons in a chemical bond. The Pauling electronegativity scale assigns fluorine the highest value (4.0) and francium the lowest (0.7). Electronegativity generally increases across a period and decreases down a group, following similar trends to ionization energy. The difference in electronegativity between two bonded atoms determines the bond's character: small differences (less than 0.5) indicate nonpolar covalent bonds, moderate differences (0.5-1.7) indicate polar covalent bonds, and large differences (greater than 1.7) indicate ionic bonds. The professor emphasized that these boundaries are approximate and that bond character exists on a continuum. Dipole moments arise in bonds between atoms of different electronegativity, with the direction pointing from the less electronegative to the more electronegative atom.",
+      "questions": [
+        {
+          "id": "atomic-q21",
+          "stem": "Which element has the highest electronegativity?",
+          "options": ["A. Oxygen", "B. Nitrogen", "C. Fluorine", "D. Chlorine"],
+          "correct": 2,
+          "explanation": "Fluorine has the highest electronegativity of all elements at 4.0 on the Pauling scale. Its small size and high effective nuclear charge give it the strongest tendency to attract bonding electrons. Oxygen (3.5) is the second most electronegative element."
+        },
+        {
+          "id": "atomic-q22",
+          "stem": "A bond between sodium (electronegativity 0.9) and chlorine (electronegativity 3.0) would be classified as:",
+          "options": ["A. Nonpolar covalent", "B. Polar covalent", "C. Ionic", "D. Metallic"],
+          "correct": 2,
+          "explanation": "The electronegativity difference is 3.0 - 0.9 = 2.1, which exceeds the 1.7 threshold for ionic character. In NaCl, the large electronegativity difference means sodium effectively donates its valence electron to chlorine, forming Na+ and Cl- ions held together by electrostatic attraction."
+        },
+        {
+          "id": "atomic-q23",
+          "stem": "Electronegativity increases across a period because:",
+          "options": ["A. Atomic radius increases across a period", "B. Increasing nuclear charge attracts bonding electrons more strongly while atomic radius decreases", "C. More electron shells are added across a period", "D. The number of neutrons increases"],
+          "correct": 1,
+          "explanation": "Across a period, nuclear charge increases while the number of electron shells remains constant, causing the atomic radius to decrease. The combination of higher nuclear charge and smaller atomic radius means the nucleus exerts a stronger pull on shared bonding electrons, increasing electronegativity."
+        },
+        {
+          "id": "atomic-q24",
+          "stem": "In the bond H-Cl, the dipole moment points:",
+          "options": ["A. From Cl toward H", "B. From H toward Cl", "C. There is no dipole moment because the bond is nonpolar", "D. Perpendicular to the bond axis"],
+          "correct": 1,
+          "explanation": "The dipole moment points from the less electronegative atom (H, 2.1) toward the more electronegative atom (Cl, 3.0). Chlorine attracts the shared electrons more strongly, creating a partial negative charge on Cl and a partial positive charge on H, with the dipole moment directed from positive to negative."
+        },
+        {
+          "id": "atomic-q25",
+          "stem": "Which pair of elements would form the most polar covalent bond?",
+          "options": ["A. C and H", "B. N and H", "C. O and H", "D. C and C"],
+          "correct": 2,
+          "explanation": "The O-H bond has the largest electronegativity difference among the covalent options: O (3.5) - H (2.1) = 1.4. The N-H difference is 3.0 - 2.1 = 0.9, and C-H is 2.5 - 2.1 = 0.4. C-C has zero difference. The larger the electronegativity difference, the more polar the bond."
+        }
+      ]
+    },
+    {
+      "id": "atomic-ps6",
+      "passage": "A physical chemistry class explored the concept of effective nuclear charge (Z_eff) and electron shielding. The effective nuclear charge experienced by an electron is less than the actual nuclear charge (Z) because inner electrons partially shield outer electrons from the full nuclear charge. Slater's rules provide a systematic method for estimating Z_eff: each electron in the same group contributes a shielding constant of 0.35, electrons in the (n-1) shell contribute 0.85, and electrons in deeper shells contribute 1.00. For a given atom, core electrons are much more effective at shielding than valence electrons. The effective nuclear charge increases across a period because each additional proton is only partially offset by the additional electron in the same shell. This increasing Z_eff explains the decrease in atomic radius and increase in ionization energy across a period.",
+      "questions": [
+        {
+          "id": "atomic-q26",
+          "stem": "For a sodium atom (Z=11), using a simplified shielding model, the approximate effective nuclear charge felt by a 3s valence electron is:",
+          "options": ["A. +1", "B. +2.5", "C. +7", "D. +11"],
+          "correct": 1,
+          "explanation": "Sodium has 10 inner electrons shielding the valence electron. Using Slater's rules, the 2 electrons in 1s contribute 2(1.00) = 2.00, and the 8 electrons in 2s2p contribute 8(0.85) = 6.80. Z_eff = 11 - 8.80 = 2.20, approximately 2.5. The core electrons screen most but not all of the nuclear charge."
+        },
+        {
+          "id": "atomic-q27",
+          "stem": "Why does effective nuclear charge increase across a period?",
+          "options": ["A. The number of electron shells increases", "B. Each added proton is fully shielded by the added electron", "C. Each added electron only partially shields the additional proton from other valence electrons", "D. The atomic radius increases across a period"],
+          "correct": 2,
+          "explanation": "Across a period, each added electron goes into the same principal shell and provides only partial shielding (shielding constant of about 0.35 per Slater's rules). Since the full nuclear charge increases by 1 but shielding increases by only about 0.35, the net effect is an increase in Z_eff of approximately 0.65 per element."
+        },
+        {
+          "id": "atomic-q28",
+          "stem": "Which electrons are most effective at shielding outer electrons from the nuclear charge?",
+          "options": ["A. Electrons in the same shell", "B. Core electrons in inner shells", "C. Electrons in the outermost shell", "D. Unpaired electrons"],
+          "correct": 1,
+          "explanation": "Core electrons in inner shells are the most effective at shielding because they are positioned between the nucleus and the outer electrons. By Slater's rules, electrons in shells two or more levels below contribute a shielding constant of 1.00, meaning they each block nearly one full unit of nuclear charge."
+        },
+        {
+          "id": "atomic-q29",
+          "stem": "Comparing Na and Mg, the first ionization energy of Mg is higher because:",
+          "options": ["A. Mg has a smaller atomic radius but the same shielding", "B. Mg has a higher effective nuclear charge acting on its valence electrons", "C. Mg has more core electrons", "D. Mg's valence electrons are in the 3p subshell"],
+          "correct": 1,
+          "explanation": "Mg has one more proton than Na but both have the same number of core electrons (10). The additional proton increases Z_eff for the valence electrons, pulling them closer to the nucleus and requiring more energy to remove. Mg also has the added stability of a filled 3s subshell."
+        },
+        {
+          "id": "atomic-q30",
+          "stem": "The concept of electron shielding explains why:",
+          "options": ["A. Noble gases are reactive", "B. Valence electrons are easier to remove than core electrons", "C. All electrons in an atom have the same energy", "D. Transition metals have no ionization energy trend"],
+          "correct": 1,
+          "explanation": "Valence electrons experience a much lower effective nuclear charge than core electrons because they are shielded by all inner electrons. Core electrons, being close to the nucleus with little shielding, are held very tightly. This difference in Z_eff makes valence electrons far easier to remove."
+        }
+      ]
+    },
+    {
+      "id": "atomic-ps7",
+      "passage": "A spectroscopy lab investigated the relationship between atomic emission spectra and electronic transitions. Each element produces a unique emission spectrum that serves as a fingerprint for identification. The lab used flame tests and gas discharge tubes to observe the characteristic colors produced by various elements. Sodium produced a bright yellow doublet at 589.0 and 589.6 nm, while mercury produced lines at 404.7 nm (violet), 435.8 nm (blue), 546.1 nm (green), and 579.0 nm (yellow). The energy of emitted photons corresponds to the energy difference between the initial and final electronic states. Selection rules govern which transitions are allowed; for example, the angular momentum quantum number must change by exactly 1 (delta_l = +/- 1). The lab also discussed how absorption spectra contain dark lines at the same wavelengths as emission lines, providing complementary information about electronic structure.",
+      "questions": [
+        {
+          "id": "atomic-q31",
+          "stem": "The sodium yellow doublet at 589 nm corresponds to an electron transition with an energy of approximately:",
+          "options": ["A. 0.5 eV", "B. 1.0 eV", "C. 2.1 eV", "D. 4.2 eV"],
+          "correct": 2,
+          "explanation": "E = hc/lambda = (6.63 x 10^-34)(3.0 x 10^8)/(589 x 10^-9) = 3.38 x 10^-19 J. Converting to eV: 3.38 x 10^-19 / 1.6 x 10^-19 = 2.1 eV. Yellow-orange light corresponds to photon energies around 2.0-2.2 eV."
+        },
+        {
+          "id": "atomic-q32",
+          "stem": "Why does each element have a unique emission spectrum?",
+          "options": ["A. Each element has a unique set of energy levels determined by its nuclear charge and electron configuration", "B. The speed of light is different for each element", "C. Each element has a different temperature", "D. Emission spectra depend only on the number of neutrons"],
+          "correct": 0,
+          "explanation": "Each element has a unique number of protons and a unique electronic structure, producing a distinct set of energy levels. Since emission wavelengths correspond to transitions between these energy levels, the emission spectrum is unique to each element, acting like an atomic fingerprint."
+        },
+        {
+          "id": "atomic-q33",
+          "stem": "Which mercury emission line has the highest photon energy?",
+          "options": ["A. 404.7 nm (violet)", "B. 435.8 nm (blue)", "C. 546.1 nm (green)", "D. 579.0 nm (yellow)"],
+          "correct": 0,
+          "explanation": "Photon energy is inversely proportional to wavelength (E = hc/lambda). The shortest wavelength, 404.7 nm (violet), corresponds to the highest energy photon. Violet light has a higher frequency and therefore more energy per photon than blue, green, or yellow light."
+        },
+        {
+          "id": "atomic-q34",
+          "stem": "An absorption spectrum of an element shows:",
+          "options": ["A. Bright colored lines on a dark background", "B. Dark lines at specific wavelengths on a continuous bright background", "C. A uniform continuous spectrum with no features", "D. Only infrared radiation"],
+          "correct": 1,
+          "explanation": "An absorption spectrum shows dark lines at specific wavelengths where atoms have absorbed photons from a continuous light source. These dark absorption lines occur at exactly the same wavelengths as the element's emission lines, because the same energy transitions are involved."
+        },
+        {
+          "id": "atomic-q35",
+          "stem": "The selection rule delta_l = +/-1 means that a transition from a 3s orbital to a 3d orbital:",
+          "options": ["A. Is allowed because l changes from 0 to 2", "B. Is forbidden because delta_l = 2, not +/-1", "C. Is allowed because the n value does not change", "D. Is forbidden because n must change"],
+          "correct": 1,
+          "explanation": "The selection rule requires delta_l = +/-1 for an allowed transition. A transition from s (l=0) to d (l=2) has delta_l = 2, which violates this rule. Such a transition is therefore forbidden (or more precisely, has very low probability). An allowed transition from 3s would be to a p orbital (l=1)."
+        }
+      ]
+    },
+    {
+      "id": "atomic-ps8",
+      "passage": "A nuclear chemistry module reviewed the structure of the nucleus and radioactive decay. The nucleus contains protons (positively charged) and neutrons (neutral), collectively called nucleons. The atomic number (Z) equals the number of protons, while the mass number (A) equals the total number of nucleons. Isotopes of an element have the same Z but different A (different numbers of neutrons). The strong nuclear force holds the nucleus together, overcoming the electrostatic repulsion between protons. For light nuclei, the most stable configuration has approximately equal numbers of protons and neutrons, while heavier stable nuclei have a neutron-to-proton ratio greater than 1. Unstable nuclei undergo radioactive decay: alpha decay emits a helium-4 nucleus, beta-minus decay converts a neutron to a proton with emission of an electron and antineutrino, and gamma decay emits a high-energy photon without changing the nucleon composition.",
+      "questions": [
+        {
+          "id": "atomic-q36",
+          "stem": "Carbon-14 and carbon-12 differ in:",
+          "options": ["A. The number of protons", "B. The number of neutrons", "C. The number of electrons in a neutral atom", "D. Their chemical properties"],
+          "correct": 1,
+          "explanation": "Isotopes have the same atomic number (same number of protons) but different mass numbers due to different numbers of neutrons. Carbon-14 has 8 neutrons (14-6) while carbon-12 has 6 neutrons (12-6). Since they have the same electron configurations, their chemical properties are virtually identical."
+        },
+        {
+          "id": "atomic-q37",
+          "stem": "When uranium-238 undergoes alpha decay, what is the daughter nucleus?",
+          "options": ["A. Thorium-234", "B. Uranium-234", "C. Plutonium-242", "D. Radium-226"],
+          "correct": 0,
+          "explanation": "Alpha decay emits a helium-4 nucleus (2 protons and 2 neutrons). The mass number decreases by 4 (238-4=234) and the atomic number decreases by 2 (92-2=90). Element 90 is thorium, so the daughter nucleus is thorium-234."
+        },
+        {
+          "id": "atomic-q38",
+          "stem": "In beta-minus decay, a neutron is converted into:",
+          "options": ["A. A proton, an electron, and a gamma ray", "B. A proton, an electron, and an antineutrino", "C. Two protons and an electron", "D. A proton and a positron"],
+          "correct": 1,
+          "explanation": "In beta-minus decay, a neutron transforms into a proton, an electron (beta particle), and an electron antineutrino. The proton remains in the nucleus (increasing Z by 1), while the electron and antineutrino are emitted. This process is mediated by the weak nuclear force."
+        },
+        {
+          "id": "atomic-q39",
+          "stem": "Gamma decay differs from alpha and beta decay because gamma decay:",
+          "options": ["A. Changes the atomic number", "B. Changes the mass number", "C. Does not change the number of protons or neutrons", "D. Converts protons to neutrons"],
+          "correct": 2,
+          "explanation": "Gamma decay involves the emission of a high-energy photon from an excited nucleus. Since no nucleons are emitted or converted, both the atomic number and mass number remain unchanged. Gamma emission typically follows alpha or beta decay when the daughter nucleus is in an excited state."
+        },
+        {
+          "id": "atomic-q40",
+          "stem": "The strong nuclear force is necessary because:",
+          "options": ["A. Gravity is too weak to hold the nucleus together", "B. Electrons would otherwise enter the nucleus", "C. It must overcome the electrostatic repulsion between positively charged protons", "D. Neutrons would otherwise decay immediately"],
+          "correct": 2,
+          "explanation": "Protons in the nucleus repel each other through the electromagnetic (Coulomb) force. The strong nuclear force is a short-range but very powerful attractive force that binds nucleons together, overcoming this electrostatic repulsion. Without it, no nucleus with more than one proton could exist."
+        }
+      ]
+    },
+    {
+      "id": "atomic-ps9",
+      "passage": "A physical chemistry course examined the wave-particle duality of electrons and the Heisenberg uncertainty principle. Louis de Broglie proposed that all matter has wave-like properties, with the wavelength given by lambda = h / (mv), where h is Planck's constant, m is the mass, and v is the velocity. For macroscopic objects, the wavelength is immeasurably small, but for electrons, the wavelength is comparable to atomic dimensions. The Heisenberg uncertainty principle states that the product of the uncertainties in position and momentum must be at least h/(4 pi): delta_x * delta_p >= h/(4 pi). This principle is not a limitation of measurement instruments but a fundamental property of nature. Electron diffraction experiments, in which electrons passing through a crystal produce interference patterns similar to X-ray diffraction, provided dramatic confirmation of de Broglie's hypothesis.",
+      "questions": [
+        {
+          "id": "atomic-q41",
+          "stem": "What is the de Broglie wavelength of an electron (mass 9.11 x 10^-31 kg) traveling at 2.0 x 10^6 m/s?",
+          "options": ["A. 0.036 nm", "B. 0.36 nm", "C. 3.6 nm", "D. 36 nm"],
+          "correct": 1,
+          "explanation": "lambda = h/(mv) = (6.63 x 10^-34) / (9.11 x 10^-31 x 2.0 x 10^6) = 6.63 x 10^-34 / 1.822 x 10^-24 = 3.64 x 10^-10 m = 0.36 nm. This wavelength is comparable to atomic spacing in crystals, which is why electron diffraction works."
+        },
+        {
+          "id": "atomic-q42",
+          "stem": "Why are de Broglie wavelengths not observable for macroscopic objects?",
+          "options": ["A. Macroscopic objects do not have wave properties", "B. The wavelength is so small it is undetectable because of the large mass", "C. Planck's constant is too large for macroscopic calculations", "D. Only charged particles have wave properties"],
+          "correct": 1,
+          "explanation": "For a macroscopic object like a 1 kg ball moving at 1 m/s, lambda = h/mv = 6.63 x 10^-34 m, which is far too small to detect or produce observable interference effects. The large mass in the denominator makes the wavelength negligibly small for everyday objects."
+        },
+        {
+          "id": "atomic-q43",
+          "stem": "According to the uncertainty principle, if the position of an electron is known with high precision, then:",
+          "options": ["A. Its momentum can also be known precisely", "B. Its momentum becomes highly uncertain", "C. Its mass becomes uncertain", "D. Its charge becomes uncertain"],
+          "correct": 1,
+          "explanation": "The Heisenberg uncertainty principle states that delta_x * delta_p >= h/(4 pi). If the uncertainty in position (delta_x) is very small, then the uncertainty in momentum (delta_p) must be correspondingly large. This is a fundamental limit of nature, not a measurement limitation."
+        },
+        {
+          "id": "atomic-q44",
+          "stem": "Electron diffraction patterns are similar to X-ray diffraction patterns because:",
+          "options": ["A. Electrons and X-rays have similar masses", "B. Both have wavelengths comparable to atomic spacings in crystals", "C. Both are electromagnetic radiation", "D. Crystals only diffract negatively charged particles"],
+          "correct": 1,
+          "explanation": "Diffraction occurs when the wavelength of a wave is comparable to the spacing of the diffracting structure. Both electrons (with appropriate kinetic energy) and X-rays can have wavelengths on the order of angstroms (0.1 nm), which matches typical atomic spacings in crystal lattices."
+        },
+        {
+          "id": "atomic-q45",
+          "stem": "If an electron is accelerated to a higher velocity, its de Broglie wavelength:",
+          "options": ["A. Increases", "B. Decreases", "C. Remains the same", "D. Becomes zero"],
+          "correct": 1,
+          "explanation": "Since lambda = h/(mv), increasing the velocity v increases the denominator, which decreases the wavelength. Faster-moving particles have shorter de Broglie wavelengths. This is analogous to how higher-energy photons have shorter wavelengths."
+        }
+      ]
+    },
+    {
+      "id": "atomic-ps10",
+      "passage": "An advanced general chemistry class examined the shapes of atomic orbitals and their role in chemical bonding. The s orbitals are spherically symmetric, with the probability of finding the electron depending only on the distance from the nucleus. The p orbitals are dumbbell-shaped and oriented along the x, y, and z axes. The d orbitals have more complex shapes, with four of the five d orbitals having four lobes and the fifth (d_z^2) having a unique shape with two lobes and a donut-shaped ring. Nodes are regions where the electron probability density is zero. Radial nodes are spherical surfaces, and angular nodes are planar or conical surfaces. The total number of nodes for an orbital is n-1, with l angular nodes and n-l-1 radial nodes. The class used these concepts to understand orbital overlap and the formation of sigma and pi bonds.",
+      "questions": [
+        {
+          "id": "atomic-q46",
+          "stem": "How many radial nodes does a 3s orbital have?",
+          "options": ["A. 0", "B. 1", "C. 2", "D. 3"],
+          "correct": 2,
+          "explanation": "The number of radial nodes is n - l - 1 = 3 - 0 - 1 = 2. For the 3s orbital, n=3 and l=0. These radial nodes are spherical surfaces where the probability of finding the electron drops to zero. The 3s orbital has a more complex radial structure than the 1s or 2s orbitals."
+        },
+        {
+          "id": "atomic-q47",
+          "stem": "How many angular nodes does a 3d orbital have?",
+          "options": ["A. 0", "B. 1", "C. 2", "D. 3"],
+          "correct": 2,
+          "explanation": "The number of angular nodes equals l. For a d orbital, l=2, so there are 2 angular nodes. Angular nodes are planar or conical surfaces passing through the nucleus. Combined with n-l-1 = 3-2-1 = 0 radial nodes, the total nodes for a 3d orbital is 2."
+        },
+        {
+          "id": "atomic-q48",
+          "stem": "The p orbitals in a given subshell are oriented:",
+          "options": ["A. All in the same direction", "B. Along the x, y, and z axes, mutually perpendicular", "C. At 109.5 degree angles to each other", "D. At 120 degree angles in a plane"],
+          "correct": 1,
+          "explanation": "The three p orbitals (p_x, p_y, p_z) are oriented along the three Cartesian axes, making them mutually perpendicular (90 degrees to each other). Each p orbital has a dumbbell shape with two lobes on opposite sides of the nucleus, separated by a nodal plane."
+        },
+        {
+          "id": "atomic-q49",
+          "stem": "What is the total number of nodes in a 4p orbital?",
+          "options": ["A. 1", "B. 2", "C. 3", "D. 4"],
+          "correct": 2,
+          "explanation": "The total number of nodes is n-1 = 4-1 = 3. This consists of l = 1 angular node (a plane through the nucleus) and n-l-1 = 4-1-1 = 2 radial nodes (spherical surfaces). Nodes are important because they represent boundaries between regions of opposite wave function sign."
+        },
+        {
+          "id": "atomic-q50",
+          "stem": "A sigma bond is formed by:",
+          "options": ["A. Side-to-side overlap of p orbitals", "B. Head-on overlap of orbitals along the internuclear axis", "C. Overlap of d orbitals only", "D. No orbital overlap; only electrostatic attraction"],
+          "correct": 1,
+          "explanation": "Sigma bonds result from head-on (end-to-end) overlap of orbitals along the axis connecting the two nuclei. This can involve s-s, s-p, or p-p head-on overlap. Sigma bonds are cylindrically symmetric about the internuclear axis and are the first bond formed between two atoms."
+        }
+      ]
+    }
+  ]
+}

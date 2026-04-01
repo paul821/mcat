@@ -1,0 +1,416 @@
+{
+  "subtopic": "Cardiovascular & Respiratory Systems",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "cardio-ps1",
+      "passage": "The cardiac cycle consists of coordinated phases of contraction (systole) and relaxation (diastole) that propel blood through the circulatory system. During ventricular filling (diastole), the atrioventricular (AV) valves (mitral and tricuspid) are open while the semilunar valves (aortic and pulmonic) are closed. As the atria contract (atrial systole), they contribute the final 20-30% of ventricular filling, known as the atrial kick. When ventricular pressure exceeds atrial pressure, the AV valves close, producing the first heart sound (S1). During isovolumetric contraction, ventricular pressure rises with all valves closed until it exceeds aortic or pulmonary artery pressure, opening the semilunar valves and initiating ventricular ejection. When ventricular pressure falls below aortic pressure during relaxation, the aortic valve closes, producing the second heart sound (S2). Researchers used pressure-volume loops to compare cardiac function in a healthy subject and a patient with systolic heart failure. The heart failure patient showed a rightward shift of the pressure-volume loop with decreased ejection fraction and increased end-systolic volume.",
+      "questions": [
+        {
+          "id": "cardio-ps1-q1",
+          "stem": "During isovolumetric contraction, the ventricular volume remains constant because:",
+          "options": ["A. Blood is being ejected at the same rate it enters", "B. Both AV and semilunar valves are closed, creating a sealed chamber", "C. The ventricle is fully relaxed during this phase", "D. The atria are actively filling the ventricle"],
+          "correct": 1,
+          "explanation": "Isovolumetric contraction occurs after AV valve closure (S1) but before semilunar valve opening. With all four valves closed, the ventricle contracts as a sealed chamber, generating increasing pressure without any change in volume. This phase ends when ventricular pressure exceeds arterial pressure, forcing the semilunar valves open."
+        },
+        {
+          "id": "cardio-ps1-q2",
+          "stem": "Loss of atrial contraction, as in atrial fibrillation, would most significantly affect cardiac output by:",
+          "options": ["A. Completely eliminating ventricular filling", "B. Reducing the atrial kick contribution to ventricular filling by 20-30%", "C. Preventing semilunar valve opening", "D. Causing backflow into the pulmonary veins"],
+          "correct": 1,
+          "explanation": "In atrial fibrillation, the atria fibrillate rather than contract in a coordinated manner, eliminating the atrial kick that normally contributes 20-30% of ventricular end-diastolic volume. Most ventricular filling (70-80%) occurs passively during early diastole, so cardiac output is reduced but not eliminated. However, in conditions requiring high cardiac output or in patients with stiff ventricles, loss of the atrial kick can be hemodynamically significant."
+        },
+        {
+          "id": "cardio-ps1-q3",
+          "stem": "The rightward shift of the pressure-volume loop in the heart failure patient indicates:",
+          "options": ["A. Decreased preload and increased contractility", "B. Increased end-diastolic volume (preload) with decreased stroke volume and ejection fraction", "C. Decreased afterload and improved cardiac performance", "D. Reduced ventricular compliance with decreased filling"],
+          "correct": 1,
+          "explanation": "In systolic heart failure, the weakened ventricle cannot eject blood efficiently, leading to increased end-systolic volume. As blood accumulates, end-diastolic volume also increases (rightward shift). Despite the increased preload, stroke volume remains reduced because contractility is impaired. The ejection fraction (stroke volume / end-diastolic volume) decreases as the ventricle dilates."
+        },
+        {
+          "id": "cardio-ps1-q4",
+          "stem": "The S2 heart sound is best described as resulting from:",
+          "options": ["A. Opening of the AV valves at the start of diastole", "B. Closure of the aortic and pulmonic valves when ventricular pressure drops below arterial pressure", "C. Contraction of the papillary muscles", "D. Turbulent blood flow through stenotic valves"],
+          "correct": 1,
+          "explanation": "S2 is produced by the closure of the semilunar valves (aortic and pulmonic) at the end of ventricular systole. As the ventricles begin to relax, the pressure within them falls below the pressure in the aorta and pulmonary artery, causing blood to briefly flow backward, catching the valve leaflets and snapping them shut. Physiologic splitting of S2 can occur during inspiration."
+        },
+        {
+          "id": "cardio-ps1-q5",
+          "stem": "According to the Frank-Starling mechanism, increasing ventricular preload (end-diastolic volume) would:",
+          "options": ["A. Decrease contractile force and stroke volume", "B. Have no effect on stroke volume", "C. Increase contractile force and stroke volume up to a physiological limit", "D. Cause immediate heart failure"],
+          "correct": 2,
+          "explanation": "The Frank-Starling mechanism states that increased ventricular filling stretches cardiac myocytes, optimizing the overlap between actin and myosin filaments and increasing calcium sensitivity. This results in a more forceful contraction and greater stroke volume. However, this relationship has a physiological limit, beyond which excessive stretch impairs contractile function, as seen in severe heart failure."
+        }
+      ]
+    },
+    {
+      "id": "cardio-ps2",
+      "passage": "The cardiac conduction system coordinates the electrical activity of the heart to produce efficient, rhythmic contractions. The sinoatrial (SA) node, located in the right atrium, serves as the primary pacemaker due to its fastest intrinsic rate of depolarization (60-100 beats per minute). SA node cells exhibit automaticity through the funny current (If), a mixed Na+/K+ inward current that causes slow diastolic depolarization. When threshold is reached, L-type calcium channels open, producing the action potential upstroke. The impulse spreads through atrial myocardium and reaches the atrioventricular (AV) node, which introduces a delay of approximately 0.1 seconds, allowing atrial contraction to complete before ventricular activation. The signal then travels through the bundle of His, right and left bundle branches, and Purkinje fibers, which rapidly depolarize the ventricular myocardium from apex to base. Ventricular myocyte action potentials differ from SA node cells in that they depend on fast sodium channels for their rapid upstroke (phase 0) and have a characteristic plateau phase (phase 2) maintained by L-type calcium influx balanced by potassium efflux.",
+      "questions": [
+        {
+          "id": "cardio-ps2-q1",
+          "stem": "The funny current (If) in SA node cells is physiologically important because it:",
+          "options": ["A. Produces the rapid upstroke of the ventricular action potential", "B. Causes spontaneous slow diastolic depolarization that drives pacemaker automaticity", "C. Maintains the plateau phase of the action potential", "D. Causes rapid repolarization at the end of the action potential"],
+          "correct": 1,
+          "explanation": "The funny current (If) is activated by hyperpolarization at the end of repolarization and carries a mixed Na+/K+ inward current. This gradually depolarizes the SA node cell during diastole until threshold is reached, generating a new action potential without any external stimulus. This automaticity is what makes the SA node the natural pacemaker of the heart."
+        },
+        {
+          "id": "cardio-ps2-q2",
+          "stem": "The AV node delay is clinically important because it:",
+          "options": ["A. Increases the speed of ventricular depolarization", "B. Allows completion of atrial systole before ventricular systole begins, optimizing ventricular filling", "C. Prevents the atria from contracting", "D. Generates the QRS complex on the electrocardiogram"],
+          "correct": 1,
+          "explanation": "The approximately 0.1-second conduction delay at the AV node ensures that the atria finish contracting and emptying their blood into the ventricles before the ventricles are activated. Without this delay, simultaneous atrial and ventricular contraction would reduce ventricular filling and compromise cardiac output. The AV node also serves as a gatekeeper, preventing excessively rapid atrial rhythms from conducting to the ventricles."
+        },
+        {
+          "id": "cardio-ps2-q3",
+          "stem": "The plateau phase (phase 2) of the ventricular myocyte action potential is important for cardiac function because it:",
+          "options": ["A. Shortens the refractory period, allowing rapid re-excitation", "B. Prolongs the action potential duration, maintaining contraction and preventing tetany", "C. Causes the heart to relax immediately after depolarization", "D. Eliminates the need for calcium in excitation-contraction coupling"],
+          "correct": 1,
+          "explanation": "The plateau phase, maintained by inward L-type calcium current balanced against outward potassium current, prolongs the action potential to approximately 200-300 ms. This extended depolarization creates a long absolute refractory period, preventing tetanic contraction of cardiac muscle (which would be fatal). The prolonged action potential ensures each contraction-relaxation cycle completes fully before the next stimulus can excite the cell."
+        },
+        {
+          "id": "cardio-ps2-q4",
+          "stem": "If the SA node fails, the next structure to assume pacemaker function would be:",
+          "options": ["A. The Purkinje fibers at 60-100 bpm", "B. The AV node at 40-60 bpm", "C. The ventricular myocardium at 100-120 bpm", "D. The atrial myocardium at 20-30 bpm"],
+          "correct": 1,
+          "explanation": "The AV node has the next fastest intrinsic rate of automaticity (40-60 bpm) after the SA node. If the SA node fails, the AV node serves as a backup pacemaker, generating a junctional escape rhythm. The hierarchy of automaticity continues to the bundle of His and Purkinje fibers (20-40 bpm), which serve as tertiary pacemakers with even slower intrinsic rates."
+        },
+        {
+          "id": "cardio-ps2-q5",
+          "stem": "Ventricular myocyte action potentials have a rapid upstroke (phase 0) due to fast sodium channels, unlike SA node cells which rely on calcium channels. Blocking fast sodium channels would:",
+          "options": ["A. Eliminate SA node automaticity", "B. Slow conduction velocity in ventricular myocardium without significantly affecting SA node firing rate", "C. Speed up ventricular conduction", "D. Prolong the plateau phase of SA node action potentials"],
+          "correct": 1,
+          "explanation": "Fast sodium channels (Nav1.5) are responsible for the rapid phase 0 upstroke in ventricular myocytes, and their activity determines conduction velocity through the working myocardium. SA node cells lack significant fast sodium channel expression and instead rely on L-type calcium channels for their upstroke. Therefore, blocking fast sodium channels would slow ventricular conduction while leaving SA node automaticity relatively intact."
+        }
+      ]
+    },
+    {
+      "id": "cardio-ps3",
+      "passage": "Blood pressure regulation involves multiple overlapping systems operating on different timescales. The baroreceptor reflex provides moment-to-moment regulation. Baroreceptors in the carotid sinus and aortic arch detect arterial wall stretch and send afferent signals via the glossopharyngeal (CN IX) and vagus (CN X) nerves to the nucleus tractus solitarius (NTS) in the medulla. Increased blood pressure enhances baroreceptor firing, which increases parasympathetic output (decreasing heart rate via the vagus nerve) and decreases sympathetic output (reducing heart rate, contractility, and peripheral resistance). The renin-angiotensin-aldosterone system (RAAS) provides intermediate-term regulation. Renin, released from juxtaglomerular cells in response to decreased renal perfusion, low sodium delivery to the macula densa, or sympathetic stimulation, converts angiotensinogen to angiotensin I. Angiotensin-converting enzyme (ACE), primarily in pulmonary capillaries, converts angiotensin I to angiotensin II. Angiotensin II causes arteriolar vasoconstriction, stimulates aldosterone secretion, promotes ADH release, and stimulates thirst. Long-term regulation involves renal control of blood volume through sodium and water balance.",
+      "questions": [
+        {
+          "id": "cardio-ps3-q1",
+          "stem": "If a patient suddenly stands from a supine position, the immediate baroreceptor response would include:",
+          "options": ["A. Decreased heart rate and vasodilation", "B. Increased parasympathetic tone and decreased cardiac output", "C. Increased sympathetic tone, increased heart rate, and vasoconstriction", "D. Activation of the RAAS and aldosterone secretion"],
+          "correct": 2,
+          "explanation": "Standing causes venous blood pooling in the lower extremities, reducing venous return and cardiac output. The resulting drop in arterial pressure decreases baroreceptor stretch and firing rate, leading to reduced parasympathetic output and increased sympathetic output from the medullary cardiovascular center. This produces increased heart rate, contractility, and peripheral vasoconstriction to restore blood pressure within seconds."
+        },
+        {
+          "id": "cardio-ps3-q2",
+          "stem": "ACE inhibitors lower blood pressure through all of the following mechanisms EXCEPT:",
+          "options": ["A. Reducing angiotensin II-mediated vasoconstriction", "B. Decreasing aldosterone-mediated sodium retention", "C. Increasing bradykinin levels (since ACE also degrades bradykinin)", "D. Directly stimulating renin release from juxtaglomerular cells"],
+          "correct": 3,
+          "explanation": "ACE inhibitors block the conversion of angiotensin I to angiotensin II, reducing vasoconstriction and aldosterone secretion. They also prevent ACE-mediated degradation of bradykinin, a vasodilator, leading to increased bradykinin levels (which also explains the side effect of dry cough). ACE inhibitors do not directly stimulate renin release; in fact, the reduced angiotensin II levels may lead to a compensatory increase in renin via loss of negative feedback."
+        },
+        {
+          "id": "cardio-ps3-q3",
+          "stem": "The macula densa senses decreased sodium delivery and responds by:",
+          "options": ["A. Directly constricting the efferent arteriole", "B. Signaling juxtaglomerular cells to increase renin release", "C. Secreting aldosterone into the tubular lumen", "D. Inhibiting ADH secretion from the posterior pituitary"],
+          "correct": 1,
+          "explanation": "The macula densa is a group of specialized epithelial cells in the distal convoluted tubule that monitors NaCl concentration in the tubular fluid. When sodium delivery decreases (indicating reduced GFR or volume depletion), the macula densa releases prostaglandins that signal adjacent juxtaglomerular cells to release renin. This tubuloglomerular feedback mechanism is one of three main stimuli for renin release."
+        },
+        {
+          "id": "cardio-ps3-q4",
+          "stem": "Angiotensin II preferentially constricts the efferent arteriole of the glomerulus, which serves to:",
+          "options": ["A. Decrease glomerular filtration rate", "B. Maintain glomerular filtration pressure despite reduced renal blood flow", "C. Increase sodium excretion", "D. Dilate the afferent arteriole"],
+          "correct": 1,
+          "explanation": "By preferentially constricting the efferent arteriole, angiotensin II increases hydrostatic pressure within the glomerular capillaries, helping to maintain the glomerular filtration rate even when systemic blood pressure and renal blood flow are reduced. This is an important compensatory mechanism during states of reduced perfusion, though excessive efferent constriction can eventually reduce renal blood flow enough to impair filtration."
+        },
+        {
+          "id": "cardio-ps3-q5",
+          "stem": "Baroreceptor resetting occurs in chronic hypertension, meaning that:",
+          "options": ["A. Baroreceptors become more sensitive to pressure changes", "B. The set point of baroreceptors shifts upward, accepting the higher pressure as normal", "C. Baroreceptors are destroyed by sustained high pressure", "D. The baroreceptor reflex becomes more effective at lowering blood pressure"],
+          "correct": 1,
+          "explanation": "In chronic hypertension, baroreceptors undergo resetting, adapting their firing threshold to the higher baseline pressure. The baroreceptors begin to treat the elevated pressure as the new normal set point, reducing the reflex drive to lower blood pressure. This resetting explains why the baroreceptor reflex is effective for short-term but not long-term blood pressure regulation."
+        }
+      ]
+    },
+    {
+      "id": "cardio-ps4",
+      "passage": "Gas exchange in the lungs occurs by diffusion across the respiratory membrane, which consists of the alveolar epithelium, the fused basement membranes of the alveolar and capillary walls, and the capillary endothelium. The total thickness is approximately 0.5 micrometers, and the total surface area available for gas exchange is approximately 70 square meters. According to Fick's law of diffusion, the rate of gas transfer is proportional to the surface area, the partial pressure gradient, and the solubility of the gas, and inversely proportional to the membrane thickness. Oxygen diffuses from alveolar air (PO2 approximately 104 mmHg) into pulmonary capillary blood (PO2 approximately 40 mmHg), while carbon dioxide diffuses in the opposite direction (PCO2 approximately 45 mmHg in blood versus 40 mmHg in alveolar air). Despite the smaller partial pressure gradient for CO2, it diffuses approximately 20 times faster than O2 because CO2 is much more soluble in aqueous solutions. In pulmonary fibrosis, thickening of the respiratory membrane impairs gas exchange, while in emphysema, destruction of alveolar walls reduces the surface area available for diffusion.",
+      "questions": [
+        {
+          "id": "cardio-ps4-q1",
+          "stem": "CO2 equilibrates across the respiratory membrane faster than O2 despite having a smaller partial pressure gradient because:",
+          "options": ["A. CO2 has a higher molecular weight", "B. CO2 has approximately 20 times greater solubility in aqueous solutions", "C. CO2 is actively transported across the membrane", "D. The respiratory membrane is selectively permeable to CO2"],
+          "correct": 1,
+          "explanation": "According to Fick's law, gas diffusion rate depends on both the partial pressure gradient and the gas's solubility coefficient. CO2 is approximately 20 times more soluble than O2 in aqueous solutions, which more than compensates for its smaller partial pressure gradient (5 mmHg for CO2 versus 64 mmHg for O2). This is why CO2 retention is a late finding in diffusion impairment diseases."
+        },
+        {
+          "id": "cardio-ps4-q2",
+          "stem": "A patient with emphysema would be expected to have impaired gas exchange primarily due to:",
+          "options": ["A. Increased thickness of the respiratory membrane", "B. Decreased surface area for diffusion from alveolar wall destruction", "C. Increased CO2 solubility in the blood", "D. Obstruction of the pulmonary arteries"],
+          "correct": 1,
+          "explanation": "Emphysema is characterized by destruction of alveolar walls, which reduces the total surface area available for gas exchange. According to Fick's law, diffusion rate is directly proportional to surface area. The loss of alveolar septa also reduces the elastic recoil of the lung and destroys pulmonary capillary beds. In contrast, pulmonary fibrosis impairs diffusion primarily through increased membrane thickness."
+        },
+        {
+          "id": "cardio-ps4-q3",
+          "stem": "During exercise, gas exchange efficiency increases because:",
+          "options": ["A. The respiratory membrane becomes thinner", "B. Increased cardiac output recruits additional pulmonary capillaries and increases surface area for diffusion", "C. The solubility of O2 increases during exercise", "D. Alveolar dead space increases"],
+          "correct": 1,
+          "explanation": "During exercise, increased cardiac output raises pulmonary blood flow, which recruits previously unperfused capillaries (especially in the lung apices) and distends existing capillaries. This capillary recruitment increases the total surface area for gas exchange and increases the time that blood is exposed to the respiratory membrane, enhancing oxygen uptake to match the increased metabolic demand."
+        },
+        {
+          "id": "cardio-ps4-q4",
+          "stem": "In pulmonary fibrosis, the first gas exchange abnormality typically detected is:",
+          "options": ["A. CO2 retention (hypercapnia)", "B. Impaired O2 diffusion (hypoxemia), especially during exercise", "C. Metabolic alkalosis", "D. Increased alveolar surface area"],
+          "correct": 1,
+          "explanation": "Because CO2 diffuses 20 times faster than O2, thickening of the respiratory membrane in pulmonary fibrosis first impairs O2 transfer. The much greater diffusibility of CO2 means it can still equilibrate across the thickened membrane. Hypoxemia is initially apparent only during exercise (when transit time through pulmonary capillaries decreases) and later at rest as fibrosis worsens. CO2 retention occurs only in very advanced disease."
+        },
+        {
+          "id": "cardio-ps4-q5",
+          "stem": "Type II alveolar cells (pneumocytes) contribute to gas exchange efficiency by:",
+          "options": ["A. Directly performing gas exchange across their surfaces", "B. Producing surfactant that reduces alveolar surface tension and prevents alveolar collapse", "C. Phagocytosing inhaled particles", "D. Transporting oxygen to the capillaries via active transport"],
+          "correct": 1,
+          "explanation": "Type II pneumocytes secrete pulmonary surfactant, a phospholipid mixture (primarily dipalmitoylphosphatidylcholine) that reduces alveolar surface tension. According to the law of Laplace, without surfactant, smaller alveoli would have higher collapsing pressures and empty into larger alveoli (atelectasis). Surfactant equalizes pressures and maintains alveolar stability, preserving the large surface area needed for efficient gas exchange."
+        }
+      ]
+    },
+    {
+      "id": "cardio-ps5",
+      "passage": "Hemoglobin is a tetrameric protein composed of two alpha and two beta globin chains, each containing a heme group with a central iron atom that reversibly binds oxygen. The oxygen-hemoglobin dissociation curve describes the relationship between the partial pressure of oxygen (PO2) and hemoglobin saturation. The curve has a sigmoidal shape due to cooperative binding: binding of O2 to one subunit increases the affinity of the remaining subunits for O2 (positive cooperativity) through conformational changes from the T (tense, deoxy) state to the R (relaxed, oxy) state. The position of the curve can shift. A rightward shift (decreased O2 affinity, enhanced O2 unloading) is caused by increased temperature, increased PCO2, decreased pH (Bohr effect), and increased 2,3-bisphosphoglycerate (2,3-BPG). A leftward shift (increased O2 affinity) occurs with the opposite conditions. Fetal hemoglobin (HbF), composed of two alpha and two gamma chains, has a higher O2 affinity than adult hemoglobin because gamma chains bind 2,3-BPG less effectively, resulting in a leftward-shifted curve that facilitates oxygen transfer from maternal to fetal blood.",
+      "questions": [
+        {
+          "id": "cardio-ps5-q1",
+          "stem": "The Bohr effect describes how decreased pH causes:",
+          "options": ["A. Increased hemoglobin oxygen affinity and a leftward shift of the dissociation curve", "B. Decreased hemoglobin oxygen affinity and a rightward shift, promoting O2 unloading in metabolically active tissues", "C. No change in the oxygen dissociation curve", "D. Hemoglobin denaturation"],
+          "correct": 1,
+          "explanation": "The Bohr effect describes the inverse relationship between pH and hemoglobin oxygen affinity. In metabolically active tissues, increased CO2 production leads to decreased pH (via carbonic acid formation). The lower pH promotes protonation of specific histidine residues on hemoglobin, stabilizing the T state and reducing O2 affinity. This rightward shift enhances O2 unloading precisely where it is most needed."
+        },
+        {
+          "id": "cardio-ps5-q2",
+          "stem": "The sigmoidal shape of the oxygen-hemoglobin dissociation curve is a consequence of:",
+          "options": ["A. The linear relationship between PO2 and saturation", "B. Cooperative binding, where O2 binding to one subunit increases the affinity of other subunits", "C. The decreasing affinity of hemoglobin as more O2 binds", "D. The independent binding of O2 to each heme group"],
+          "correct": 1,
+          "explanation": "Cooperative binding produces the sigmoidal curve shape. When the first O2 molecule binds a deoxyhemoglobin subunit, it induces a conformational change that increases the affinity of the remaining subunits. This means the transition from low to high saturation occurs over a relatively narrow range of PO2 values. Myoglobin, which is monomeric and lacks cooperativity, has a hyperbolic dissociation curve."
+        },
+        {
+          "id": "cardio-ps5-q3",
+          "stem": "Fetal hemoglobin has a higher O2 affinity than adult hemoglobin primarily because:",
+          "options": ["A. Fetal hemoglobin has a different iron oxidation state", "B. Gamma chains have a weaker interaction with 2,3-BPG, resulting in less allosteric stabilization of the T state", "C. Fetal hemoglobin has more subunits than adult hemoglobin", "D. Fetal blood has a higher pH than maternal blood"],
+          "correct": 1,
+          "explanation": "HbF contains gamma chains instead of beta chains. The gamma chains have a serine substitution for histidine at a key position in the 2,3-BPG binding pocket, resulting in weaker 2,3-BPG binding. Since 2,3-BPG stabilizes the T state and decreases O2 affinity, reduced 2,3-BPG binding means HbF remains more readily in the R state. This higher affinity allows HbF to extract oxygen from maternal HbA in the placenta."
+        },
+        {
+          "id": "cardio-ps5-q4",
+          "stem": "During intense exercise, all of the following promote O2 unloading to skeletal muscle EXCEPT:",
+          "options": ["A. Increased local temperature from metabolic heat", "B. Increased CO2 production and decreased local pH", "C. Increased 2,3-BPG synthesis in erythrocytes", "D. Decreased local PCO2 from hyperventilation at the muscle"],
+          "correct": 3,
+          "explanation": "During intense exercise, metabolically active muscle produces excess CO2, which increases local PCO2 and decreases local pH. The local PCO2 at the tissue level is elevated, not decreased. All of the other options (increased temperature, decreased pH/increased CO2, and increased 2,3-BPG) rightward-shift the curve and promote O2 release. While systemic hyperventilation lowers alveolar PCO2, the tissue-level PCO2 remains elevated due to high metabolic activity."
+        },
+        {
+          "id": "cardio-ps5-q5",
+          "stem": "Carbon monoxide (CO) poisoning is dangerous because CO:",
+          "options": ["A. Destroys the heme group permanently", "B. Binds hemoglobin with approximately 200 times greater affinity than O2 and shifts the curve leftward, impairing O2 delivery", "C. Converts hemoglobin to methemoglobin", "D. Causes hemoglobin to precipitate out of solution"],
+          "correct": 1,
+          "explanation": "CO binds the heme iron with approximately 200-250 times the affinity of O2, forming carboxyhemoglobin (COHb) that cannot transport oxygen. Additionally, CO binding to some subunits leftward-shifts the dissociation curve for the remaining subunits, further impairing O2 unloading at the tissues. This double mechanism makes CO poisoning particularly dangerous, as tissues become hypoxic even when total hemoglobin levels are normal."
+        }
+      ]
+    },
+    {
+      "id": "cardio-ps6",
+      "passage": "Ventilation and perfusion (V/Q) matching is essential for efficient gas exchange in the lungs. In an upright individual, both ventilation and perfusion increase from apex to base due to gravitational effects, but perfusion increases more steeply than ventilation. This results in a higher V/Q ratio at the apex (approximately 3.3) and a lower V/Q ratio at the base (approximately 0.6), with an overall average V/Q ratio of approximately 0.8. When ventilation exceeds perfusion (high V/Q or dead space ventilation), alveoli are ventilated but not perfused, wasting ventilatory effort. When perfusion exceeds ventilation (low V/Q or shunt), blood passes through poorly ventilated alveoli and remains deoxygenated. The lung has a local autoregulatory mechanism called hypoxic pulmonary vasoconstriction (HPV): when alveolar PO2 falls, the surrounding pulmonary arterioles constrict, diverting blood away from poorly ventilated regions toward better-ventilated areas. This is opposite to the systemic circulation, where local hypoxia causes vasodilation to increase oxygen delivery to ischemic tissues.",
+      "questions": [
+        {
+          "id": "cardio-ps6-q1",
+          "stem": "Hypoxic pulmonary vasoconstriction (HPV) is physiologically important because it:",
+          "options": ["A. Increases overall pulmonary vascular resistance uniformly", "B. Diverts blood away from poorly ventilated alveoli to better-ventilated regions, optimizing V/Q matching", "C. Causes systemic hypertension", "D. Increases oxygen delivery to hypoxic tissues throughout the body"],
+          "correct": 1,
+          "explanation": "HPV is a unique property of pulmonary arterioles that constrict in response to low alveolar PO2. By redirecting blood flow away from hypoxic (poorly ventilated) alveoli toward well-ventilated ones, HPV optimizes ventilation-perfusion matching and maximizes overall gas exchange efficiency. This local autoregulatory mechanism operates at the level of individual alveolar units."
+        },
+        {
+          "id": "cardio-ps6-q2",
+          "stem": "HPV differs from systemic vascular responses to hypoxia because:",
+          "options": ["A. Systemic vessels constrict in response to hypoxia, while pulmonary vessels dilate", "B. Pulmonary vessels constrict in response to hypoxia, while systemic vessels dilate to increase O2 delivery", "C. Both systemic and pulmonary vessels respond identically to hypoxia", "D. Pulmonary vessels are unaffected by oxygen levels"],
+          "correct": 1,
+          "explanation": "Pulmonary and systemic circulations respond oppositely to hypoxia. Pulmonary arterioles constrict when local PO2 is low (HPV), diverting blood away from poorly ventilated alveoli. In contrast, systemic arterioles dilate in response to local tissue hypoxia, increasing blood flow and oxygen delivery to the ischemic area. These opposite responses reflect the different physiological goals of each circulation."
+        },
+        {
+          "id": "cardio-ps6-q3",
+          "stem": "In a patient with a pulmonary embolism blocking blood flow to a lung segment, that segment becomes:",
+          "options": ["A. A region of shunt (low V/Q)", "B. A region of dead space (high V/Q or infinite V/Q)", "C. A region with normal V/Q matching", "D. A region with increased perfusion"],
+          "correct": 1,
+          "explanation": "A pulmonary embolism blocks perfusion to the affected segment while ventilation continues normally. This creates dead space ventilation, where alveoli are ventilated but not perfused (V/Q approaches infinity). The ventilatory effort directed at these alveoli is wasted because no gas exchange can occur without blood flow. The increased dead space fraction reduces overall gas exchange efficiency."
+        },
+        {
+          "id": "cardio-ps6-q4",
+          "stem": "In the upright lung, the apex has the highest PO2 because:",
+          "options": ["A. The apex receives the most blood flow", "B. The high V/Q ratio at the apex means ventilation exceeds perfusion, maintaining high alveolar O2", "C. The apex has thicker alveolar walls that trap oxygen", "D. Gravity forces oxygen molecules upward in the lung"],
+          "correct": 1,
+          "explanation": "At the lung apex, the V/Q ratio is high (approximately 3.3) because ventilation relatively exceeds perfusion. With proportionally less blood flowing through the apex to extract oxygen, the alveolar PO2 remains high. Conversely, at the base, the low V/Q ratio means more blood flows past the alveoli relative to ventilation, extracting more oxygen and resulting in lower alveolar PO2."
+        },
+        {
+          "id": "cardio-ps6-q5",
+          "stem": "Supplemental oxygen can improve hypoxemia in a patient with V/Q mismatch but NOT in a patient with a true right-to-left shunt because:",
+          "options": ["A. Supplemental oxygen increases cardiac output", "B. In V/Q mismatch, increased FiO2 improves gas exchange in poorly ventilated alveoli, while in a true shunt, blood completely bypasses ventilated alveoli", "C. Oxygen toxicity develops immediately in shunt patients", "D. Shunt patients have hemoglobin that cannot bind oxygen"],
+          "correct": 1,
+          "explanation": "In V/Q mismatch, poorly ventilated alveoli still receive some ventilation. Increasing the fraction of inspired oxygen (FiO2) raises the alveolar PO2 even in these hypoventilated regions, improving oxygen transfer. In a true shunt (V/Q = 0), blood bypasses ventilated alveoli entirely, so no amount of supplemental oxygen can oxygenate the shunted blood. This distinction is clinically important for differentiating the causes of hypoxemia."
+        }
+      ]
+    },
+    {
+      "id": "cardio-ps7",
+      "passage": "Carbon dioxide transport in the blood occurs through three mechanisms. Approximately 7% is dissolved directly in plasma. About 23% binds to amino groups on hemoglobin to form carbaminohemoglobin. The majority (approximately 70%) is transported as bicarbonate ions (HCO3-). In erythrocytes, carbonic anhydrase catalyzes the rapid conversion of CO2 and water to carbonic acid (H2CO3), which then dissociates to H+ and HCO3-. The HCO3- is transported out of the red blood cell into the plasma via the chloride-bicarbonate exchanger (band 3 protein), with chloride ions moving in to maintain electrical neutrality (the chloride shift). The H+ ions are buffered by deoxyhemoglobin. At the lungs, the process reverses: HCO3- re-enters the erythrocyte, recombines with H+ to form carbonic acid, and carbonic anhydrase catalyzes its decomposition back to CO2 and water. The CO2 then diffuses into the alveoli for exhalation. This bicarbonate buffer system also plays a critical role in maintaining blood pH, with the Henderson-Hasselbalch equation describing the relationship: pH = 6.1 + log([HCO3-]/[0.03 x PCO2]).",
+      "questions": [
+        {
+          "id": "cardio-ps7-q1",
+          "stem": "The chloride shift occurs during CO2 loading at the tissues to:",
+          "options": ["A. Increase the oxygen-carrying capacity of hemoglobin", "B. Maintain electrical neutrality as HCO3- exits the erythrocyte in exchange for Cl- entry", "C. Activate carbonic anhydrase", "D. Convert all CO2 to dissolved gas in plasma"],
+          "correct": 1,
+          "explanation": "As carbonic anhydrase generates HCO3- inside the erythrocyte, the HCO3- is transported out into the plasma via the band 3 chloride-bicarbonate exchanger. To maintain electrochemical neutrality across the erythrocyte membrane, chloride ions move into the cell. This chloride shift allows continued bicarbonate production by removing the product from the intracellular environment."
+        },
+        {
+          "id": "cardio-ps7-q2",
+          "stem": "Deoxyhemoglobin is a better buffer for H+ ions than oxyhemoglobin because:",
+          "options": ["A. Deoxyhemoglobin has a higher molecular weight", "B. The T-state conformation of deoxyhemoglobin exposes more histidine residues with buffering capacity", "C. Deoxyhemoglobin cannot bind any gases", "D. Oxyhemoglobin has no ionizable groups"],
+          "correct": 1,
+          "explanation": "Deoxyhemoglobin in the T (tense) state has a greater affinity for H+ ions than oxyhemoglobin in the R state. This is because the T-state conformation exposes additional histidine residues (particularly His146 on the beta chain) that can accept protons. This buffering capacity links CO2 transport to O2 transport: as hemoglobin releases O2 at the tissues and transitions to the deoxy state, it simultaneously buffers the H+ produced from CO2 hydration."
+        },
+        {
+          "id": "cardio-ps7-q3",
+          "stem": "Based on the Henderson-Hasselbalch equation, a patient with a PCO2 of 60 mmHg (normal: 40 mmHg) and HCO3- of 24 mEq/L (normal) would have:",
+          "options": ["A. Respiratory alkalosis", "B. Respiratory acidosis with a pH below 7.4", "C. Metabolic alkalosis", "D. Normal blood pH"],
+          "correct": 1,
+          "explanation": "Using the Henderson-Hasselbalch equation: pH = 6.1 + log(24 / (0.03 x 60)) = 6.1 + log(24/1.8) = 6.1 + log(13.3) = 6.1 + 1.12 = 7.22. The elevated PCO2 with normal HCO3- indicates acute respiratory acidosis (uncompensated), as the kidneys have not yet had time to retain additional bicarbonate for compensation."
+        },
+        {
+          "id": "cardio-ps7-q4",
+          "stem": "If carbonic anhydrase were inhibited (as by acetazolamide), the most immediate effect on CO2 transport would be:",
+          "options": ["A. Complete cessation of all CO2 transport", "B. Reduced conversion of CO2 to HCO3- in erythrocytes, leading to CO2 retention and respiratory acidosis", "C. Increased oxygen binding to hemoglobin", "D. Decreased dissolved CO2 in plasma"],
+          "correct": 1,
+          "explanation": "Carbonic anhydrase catalyzes the rapid interconversion of CO2 and water to carbonic acid, which is essential for efficient bicarbonate-mediated CO2 transport. Inhibiting this enzyme with acetazolamide would markedly slow the conversion of CO2 to HCO3-, reducing the dominant mode of CO2 transport. This would lead to CO2 accumulation in tissues and blood, causing respiratory acidosis."
+        },
+        {
+          "id": "cardio-ps7-q5",
+          "stem": "At the lungs, the reverse chloride shift occurs. This process involves:",
+          "options": ["A. HCO3- re-entering the erythrocyte while Cl- exits, followed by recombination with H+ and CO2 liberation", "B. Chloride permanently binding to hemoglobin", "C. CO2 being actively pumped out of the blood by alveolar cells", "D. Carbonic anhydrase being inactivated in the pulmonary capillaries"],
+          "correct": 0,
+          "explanation": "At the lungs, the low PCO2 environment drives the bicarbonate reaction in reverse. HCO3- moves back into the erythrocyte from plasma via the band 3 exchanger, with Cl- moving out (reverse chloride shift). Inside the erythrocyte, HCO3- combines with H+ (released from hemoglobin as it binds O2 and shifts to R state) to form carbonic acid, which carbonic anhydrase converts back to CO2 and water. The CO2 then diffuses into the alveoli."
+        }
+      ]
+    },
+    {
+      "id": "cardio-ps8",
+      "passage": "The microcirculation consists of arterioles, capillaries, and venules, where the exchange of gases, nutrients, and waste products between blood and tissues occurs. Capillary exchange is governed by Starling forces: hydrostatic pressure pushes fluid out of capillaries, while oncotic (colloid osmotic) pressure, primarily generated by plasma albumin, draws fluid back in. At the arteriolar end of a capillary, the net filtration pressure favors filtration (fluid leaving the capillary), while at the venular end, reabsorption predominates. Approximately 90% of filtered fluid is reabsorbed, with the remaining 10% returned to the circulation via the lymphatic system. In conditions such as nephrotic syndrome, massive proteinuria leads to hypoalbuminemia and decreased plasma oncotic pressure, disrupting the balance of Starling forces and causing edema. Similarly, in heart failure, elevated venous pressure increases capillary hydrostatic pressure, also promoting edema. Lymphatic obstruction, as in filariasis or after lymph node dissection, prevents the return of interstitial fluid and causes lymphedema.",
+      "questions": [
+        {
+          "id": "cardio-ps8-q1",
+          "stem": "Edema in nephrotic syndrome develops primarily because:",
+          "options": ["A. Increased capillary hydrostatic pressure forces fluid out", "B. Decreased plasma oncotic pressure from hypoalbuminemia reduces the reabsorptive force, favoring net filtration", "C. Lymphatic drainage is blocked", "D. Capillary permeability is decreased"],
+          "correct": 1,
+          "explanation": "In nephrotic syndrome, massive urinary protein loss depletes plasma albumin, the primary determinant of plasma oncotic pressure. With reduced oncotic pressure, the reabsorptive force at the venular end of capillaries is diminished. This shifts the net Starling forces toward filtration throughout the capillary bed, causing excessive fluid accumulation in the interstitial space (edema)."
+        },
+        {
+          "id": "cardio-ps8-q2",
+          "stem": "At the arteriolar end of a normal capillary, net filtration occurs because:",
+          "options": ["A. Oncotic pressure exceeds hydrostatic pressure", "B. Capillary hydrostatic pressure exceeds plasma oncotic pressure, creating a net outward force", "C. Active transport pumps fluid into the interstitium", "D. The arteriolar end has no capillary wall"],
+          "correct": 1,
+          "explanation": "At the arteriolar end of the capillary, hydrostatic pressure (approximately 35 mmHg) exceeds plasma oncotic pressure (approximately 25 mmHg), creating a net outward filtration pressure. As blood flows toward the venular end, hydrostatic pressure falls (to approximately 15 mmHg) while oncotic pressure remains relatively constant, shifting the balance toward net reabsorption."
+        },
+        {
+          "id": "cardio-ps8-q3",
+          "stem": "The lymphatic system's role in fluid balance is best described as:",
+          "options": ["A. Producing plasma proteins to maintain oncotic pressure", "B. Returning filtered interstitial fluid and proteins to the venous circulation, preventing interstitial edema", "C. Regulating capillary hydrostatic pressure", "D. Directly oxygenating interstitial fluid"],
+          "correct": 1,
+          "explanation": "The lymphatic system collects the approximately 10% of capillary filtrate that is not reabsorbed at the venular end, plus any proteins that have leaked into the interstitium. Lymphatic capillaries drain this fluid through progressively larger lymphatic vessels and return it to the venous system via the thoracic duct. This prevents progressive accumulation of interstitial fluid and maintains tissue protein balance."
+        },
+        {
+          "id": "cardio-ps8-q4",
+          "stem": "In right-sided heart failure, pedal edema develops because:",
+          "options": ["A. Decreased plasma protein production by the liver", "B. Elevated systemic venous pressure is transmitted backward to capillaries, increasing capillary hydrostatic pressure", "C. The lymphatic system becomes overactive", "D. Arterial blood pressure drops, reducing capillary hydrostatic pressure"],
+          "correct": 1,
+          "explanation": "Right-sided heart failure impairs the heart's ability to pump blood forward from the venous system. Blood backs up in the systemic veins, elevating central venous pressure. This increased venous pressure is transmitted retrograde to capillaries, raising capillary hydrostatic pressure. The increased hydrostatic pressure shifts Starling forces toward filtration, particularly in dependent areas like the lower extremities, causing pedal edema."
+        },
+        {
+          "id": "cardio-ps8-q5",
+          "stem": "Arterioles are considered the primary site of peripheral vascular resistance because:",
+          "options": ["A. They have the largest total cross-sectional area", "B. They have thick smooth muscle walls relative to their small lumen diameter, allowing precise regulation of blood flow", "C. They lack smooth muscle and offer no resistance", "D. Blood flows fastest through the arterioles"],
+          "correct": 1,
+          "explanation": "Arterioles have a high wall-to-lumen ratio with prominent circular smooth muscle that can constrict or dilate under neural, hormonal, and local metabolic control. According to Poiseuille's law, resistance is inversely proportional to the fourth power of the radius, so even small changes in arteriolar diameter produce large changes in resistance and blood flow. This makes arterioles the primary determinant of total peripheral resistance and mean arterial pressure."
+        }
+      ]
+    },
+    {
+      "id": "cardio-ps9",
+      "passage": "The electrocardiogram (ECG) records the electrical activity of the heart from the body surface. The standard 12-lead ECG uses limb leads (I, II, III, aVR, aVL, aVF) and precordial leads (V1-V6). The P wave represents atrial depolarization. The PR interval (normally 0.12-0.20 seconds) represents conduction time from the SA node through the atria, AV node, and His-Purkinje system. The QRS complex represents ventricular depolarization (normally < 0.12 seconds). The ST segment represents the period when the ventricles are fully depolarized (plateau phase), and the T wave represents ventricular repolarization. A researcher analyzed ECGs from patients with various cardiac conditions. Patient 1 showed a PR interval of 0.28 seconds with a regular rhythm. Patient 2 had a narrow QRS complex tachycardia at 150 bpm with absent P waves and an irregularly irregular rhythm. Patient 3 showed ST-segment elevation in leads II, III, and aVF with reciprocal ST depression in leads I and aVL.",
+      "questions": [
+        {
+          "id": "cardio-ps9-q1",
+          "stem": "Patient 1's prolonged PR interval most likely indicates:",
+          "options": ["A. Atrial fibrillation", "B. First-degree AV block, indicating delayed conduction through the AV node", "C. Ventricular tachycardia", "D. Bundle branch block"],
+          "correct": 1,
+          "explanation": "A PR interval exceeding 0.20 seconds with a regular rhythm and preserved 1:1 AV conduction defines first-degree AV block. This represents delayed conduction through the AV node (or less commonly the His-Purkinje system). While first-degree AV block is often benign, it can indicate increased vagal tone, AV nodal disease, or medication effects (e.g., beta-blockers, digoxin)."
+        },
+        {
+          "id": "cardio-ps9-q2",
+          "stem": "Patient 2's ECG findings are most consistent with:",
+          "options": ["A. Sinus tachycardia", "B. Atrial fibrillation with rapid ventricular response", "C. Ventricular fibrillation", "D. Complete heart block"],
+          "correct": 1,
+          "explanation": "Atrial fibrillation is characterized by absent organized P waves (replaced by fibrillatory baseline), an irregularly irregular ventricular rhythm (the hallmark feature), and narrow QRS complexes (indicating normal ventricular conduction). The rapid ventricular rate of 150 bpm indicates inadequate rate control. The irregular rhythm distinguishes atrial fibrillation from other supraventricular tachycardias."
+        },
+        {
+          "id": "cardio-ps9-q3",
+          "stem": "Patient 3's ST-segment elevation in leads II, III, and aVF localizes the injury to the:",
+          "options": ["A. Anterior wall of the left ventricle", "B. Inferior wall of the left ventricle, typically supplied by the right coronary artery", "C. Lateral wall of the left ventricle", "D. Right atrium"],
+          "correct": 1,
+          "explanation": "Leads II, III, and aVF are the inferior leads, which view the inferior (diaphragmatic) wall of the left ventricle. ST-segment elevation in these leads with reciprocal changes in the lateral leads (I, aVL) is classic for an acute inferior myocardial infarction, most commonly caused by occlusion of the right coronary artery. The reciprocal ST depression in leads I and aVL confirms the inferior localization."
+        },
+        {
+          "id": "cardio-ps9-q4",
+          "stem": "The T wave normally has the same polarity as the QRS complex in most leads because:",
+          "options": ["A. Depolarization and repolarization proceed in the same direction", "B. Repolarization proceeds in the opposite direction to depolarization (from epicardium to endocardium), and since both the depolarization vector and the repolarization reversal are recorded as positive deflections", "C. The T wave is a continuation of the QRS complex", "D. Both P waves and T waves represent atrial activity"],
+          "correct": 1,
+          "explanation": "Ventricular depolarization spreads from endocardium to epicardium, while repolarization proceeds from epicardium to endocardium (the reverse direction). Because repolarization is both reversed in direction and reversed in electrical polarity (repolarization is the return to resting potential), these two reversals cancel out, and the T wave ends up with the same polarity as the QRS complex. This is referred to as concordant T waves."
+        },
+        {
+          "id": "cardio-ps9-q5",
+          "stem": "A widened QRS complex (> 0.12 seconds) most likely indicates:",
+          "options": ["A. Accelerated AV nodal conduction", "B. Abnormal ventricular conduction, such as bundle branch block or ventricular origin of the impulse", "C. Shortened atrial depolarization time", "D. First-degree AV block"],
+          "correct": 1,
+          "explanation": "A QRS duration exceeding 0.12 seconds indicates that ventricular depolarization is taking longer than normal. This occurs when the normal rapid conduction pathway (His-Purkinje system) is disrupted, as in bundle branch block, or when the impulse originates in the ventricular myocardium (ventricular tachycardia, PVCs), which conducts more slowly through working myocardium rather than the specialized conduction system."
+        }
+      ]
+    },
+    {
+      "id": "cardio-ps10",
+      "passage": "Ventilation mechanics involve the interplay of lung compliance, airway resistance, and the elastic properties of the chest wall. During normal quiet inspiration, the diaphragm contracts and descends, increasing the vertical dimension of the thoracic cavity. The external intercostal muscles elevate the ribs, increasing the anteroposterior and lateral dimensions. According to Boyle's law, increasing thoracic volume decreases intrapleural and intra-alveolar pressures, creating a pressure gradient that draws air into the lungs. Lung compliance describes the ease with which the lung inflates per unit change in pressure: high compliance means the lung stretches easily (as in emphysema), while low compliance means greater pressure is required for inflation (as in pulmonary fibrosis). The intrapleural space maintains a subatmospheric pressure (approximately -5 cmH2O at rest) due to the opposing elastic recoil forces of the lung (inward) and chest wall (outward). Surfactant reduces alveolar surface tension, increasing compliance and preventing atelectasis. Total lung capacity is subdivided into volumes: tidal volume (TV), inspiratory reserve volume (IRV), expiratory reserve volume (ERV), and residual volume (RV). The forced expiratory volume in one second (FEV1) and the FEV1/FVC ratio are key spirometric measures used to distinguish obstructive from restrictive lung diseases.",
+      "questions": [
+        {
+          "id": "cardio-ps10-q1",
+          "stem": "In emphysema, lung compliance is increased, which means:",
+          "options": ["A. Greater pressure is needed to inflate the lungs", "B. The lungs expand easily but have difficulty emptying due to loss of elastic recoil", "C. The lungs cannot expand beyond normal tidal volume", "D. Airway resistance is the primary problem"],
+          "correct": 1,
+          "explanation": "In emphysema, destruction of alveolar walls and the elastic fiber network reduces the lung's elastic recoil. This increases compliance (the lung is easily distensible) but impairs passive expiration, which normally depends on elastic recoil. The loss of radial traction on small airways also allows them to collapse during expiration, trapping air and increasing residual volume. This is why emphysema is classified as an obstructive disease."
+        },
+        {
+          "id": "cardio-ps10-q2",
+          "stem": "A pneumothorax (air entering the intrapleural space) causes lung collapse because:",
+          "options": ["A. Air in the pleural space compresses the lung from the outside", "B. Loss of the negative intrapleural pressure eliminates the force that opposes the lung's elastic recoil, allowing the lung to collapse inward", "C. The diaphragm can no longer contract", "D. Surfactant production ceases immediately"],
+          "correct": 1,
+          "explanation": "Normally, the negative intrapleural pressure (subatmospheric) holds the lung expanded against the chest wall, opposing the lung's natural tendency to collapse due to elastic recoil. When air enters the pleural space, intrapleural pressure equalizes with atmospheric pressure, removing the transmural pressure gradient that keeps the lung inflated. The lung then collapses inward under its own elastic recoil."
+        },
+        {
+          "id": "cardio-ps10-q3",
+          "stem": "An obstructive lung disease would characteristically show:",
+          "options": ["A. Decreased FEV1 with decreased FEV1/FVC ratio", "B. Proportionally decreased FEV1 and FVC with normal FEV1/FVC ratio", "C. Increased FEV1 with normal FVC", "D. Decreased FVC with increased FEV1"],
+          "correct": 0,
+          "explanation": "In obstructive lung diseases (asthma, COPD, emphysema), airflow limitation during expiration reduces FEV1 disproportionately more than FVC. This produces a characteristic decrease in the FEV1/FVC ratio (typically below 0.70). In restrictive diseases, both FEV1 and FVC are reduced proportionally, so the ratio remains normal or even elevated."
+        },
+        {
+          "id": "cardio-ps10-q4",
+          "stem": "Residual volume cannot be measured by simple spirometry because:",
+          "options": ["A. It is too small to measure accurately", "B. It is the volume remaining in the lungs after maximal expiration and cannot be exhaled into a spirometer", "C. It varies too much between breaths", "D. Spirometry can only measure inspiratory volumes"],
+          "correct": 1,
+          "explanation": "Residual volume (RV) is the air that remains in the lungs after a maximal forced expiration. Since it cannot be exhaled, it cannot be directly measured by spirometry, which only measures air that moves in and out of the lungs. RV must be measured indirectly using methods such as helium dilution, nitrogen washout, or body plethysmography."
+        },
+        {
+          "id": "cardio-ps10-q5",
+          "stem": "During quiet expiration, the primary driving force is:",
+          "options": ["A. Active contraction of the internal intercostal muscles", "B. Passive elastic recoil of the lungs and chest wall", "C. Contraction of the abdominal muscles", "D. Active relaxation of the diaphragm pulling the lungs upward"],
+          "correct": 1,
+          "explanation": "Quiet expiration is a passive process that does not require muscle contraction. When the inspiratory muscles relax, the elastic recoil of the stretched lung tissue and the surface tension of the alveolar fluid generate an inward recoil force that compresses the alveolar gas and drives air out. Active expiration, using the internal intercostal and abdominal muscles, occurs only during forced breathing such as exercise or coughing."
+        }
+      ]
+    }
+  ]
+}

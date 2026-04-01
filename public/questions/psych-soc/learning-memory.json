@@ -1,0 +1,416 @@
+{
+  "subtopic": "Learning & Memory",
+  "sectionId": "psych-soc",
+  "passageSets": [
+    {
+      "id": "lm-passage-1",
+      "passage": "A behavioral psychologist conducted an experiment on classical conditioning using a taste aversion paradigm with rats. In the study, 60 rats were randomly assigned to three groups. Group 1 (paired group) received a novel saccharin solution (conditioned stimulus, CS) followed 30 minutes later by an injection of lithium chloride (unconditioned stimulus, US), which induces nausea (unconditioned response, UR). Group 2 (unpaired control) received the saccharin solution and lithium chloride injection on separate days. Group 3 (CS-only control) received only the saccharin solution with no injection. After a single pairing trial, rats were tested for saccharin consumption over 5 days. Group 1 rats showed a dramatic reduction in saccharin consumption (M=2.1 mL, SD=0.8) compared to Group 2 (M=14.3 mL, SD=2.1) and Group 3 (M=15.7 mL, SD=1.9), F(2,57)=189.4, p<0.001. Extinction was then tested by presenting saccharin without lithium chloride for 10 consecutive days. Saccharin consumption in Group 1 gradually increased but did not fully return to baseline levels even after 10 extinction trials. The researchers noted that taste aversion conditioning violates several traditional Pavlovian principles.",
+      "questions": [
+        {
+          "id": "lm-1-q1",
+          "stem": "The taste aversion observed in Group 1 violates traditional Pavlovian conditioning principles primarily because:",
+          "options": ["A. It requires multiple pairing trials to establish", "B. It can be established with a single trial and a long CS-US interval", "C. It only works with visual stimuli paired with nausea", "D. It requires the CS and US to be presented simultaneously"],
+          "correct": 1,
+          "explanation": "Taste aversion conditioning is unique because it can be established in a single trial (one-trial learning) and with a CS-US interval of 30 minutes or longer, which violates the traditional principle that contiguity (close temporal pairing) is necessary for conditioning. Traditional Pavlovian conditioning typically requires multiple trials and short CS-US intervals."
+        },
+        {
+          "id": "lm-1-q2",
+          "stem": "The concept of biological preparedness best explains why taste aversion conditioning:",
+          "options": ["A. Requires extensive practice to establish", "B. Occurs more readily with taste-nausea pairings than with other CS-US combinations", "C. Cannot occur in human participants", "D. Follows the same rules as all other forms of classical conditioning"],
+          "correct": 1,
+          "explanation": "Biological preparedness (Seligman) refers to the evolutionary predisposition to form certain associations more readily than others. Organisms are biologically prepared to associate tastes with gastrointestinal illness because this pairing has survival value. Animals are less prepared to associate tastes with external pain or to associate visual/auditory stimuli with nausea, as Garcia demonstrated."
+        },
+        {
+          "id": "lm-1-q3",
+          "stem": "The incomplete extinction observed in Group 1 after 10 trials is most consistent with which phenomenon?",
+          "options": ["A. Spontaneous recovery, indicating the original association was suppressed rather than erased", "B. Stimulus generalization to all liquid stimuli", "C. Second-order conditioning to the testing apparatus", "D. Sensory preconditioning with the injection procedure"],
+          "correct": 0,
+          "explanation": "The incomplete extinction and the potential for spontaneous recovery support the view that extinction represents new inhibitory learning that suppresses, rather than erases, the original CS-US association. The original taste-nausea association persists beneath the extinction learning, which is why conditioned responses can spontaneously recover after a rest period."
+        },
+        {
+          "id": "lm-1-q4",
+          "stem": "Group 2 (unpaired control) was included in the experimental design primarily to:",
+          "options": ["A. Demonstrate that saccharin itself causes nausea", "B. Control for the possibility that mere exposure to both stimuli, without pairing, could produce aversion", "C. Show that lithium chloride is not a valid unconditioned stimulus", "D. Test whether repeated saccharin exposure leads to habituation"],
+          "correct": 1,
+          "explanation": "The unpaired control group receives both the CS and US but not in a temporally paired fashion. This controls for pseudoconditioning and sensitization effects, ensuring that the aversion in Group 1 is specifically due to the associative pairing of saccharin with nausea, not merely due to exposure to both stimuli independently."
+        },
+        {
+          "id": "lm-1-q5",
+          "stem": "If a rat in Group 1 subsequently showed reduced consumption of a different sweet-tasting solution it had never encountered, this would be an example of:",
+          "options": ["A. Discrimination learning", "B. Higher-order conditioning", "C. Stimulus generalization", "D. Latent inhibition"],
+          "correct": 2,
+          "explanation": "Stimulus generalization occurs when a conditioned response transfers to stimuli that are similar to the original conditioned stimulus. If a rat conditioned to avoid saccharin also avoids other sweet-tasting solutions, it has generalized the aversion from the original CS to perceptually similar stimuli. The degree of generalization typically decreases with increasing dissimilarity to the original CS."
+        }
+      ]
+    },
+    {
+      "id": "lm-passage-2",
+      "passage": "A cognitive psychologist investigated the levels-of-processing effect on memory using a within-subjects design. Participants (N=48) were presented with 90 words, one at a time, and performed one of three encoding tasks for each word (30 words per task, counterbalanced). In the structural encoding condition, participants judged whether the word was printed in uppercase or lowercase letters. In the phonemic encoding condition, participants judged whether the word rhymed with a given cue word. In the semantic encoding condition, participants judged whether the word fit meaningfully into a given sentence. After a 30-minute delay filled with a distractor task, participants completed a surprise recognition memory test containing the 90 studied words and 90 new words. Results showed a robust levels-of-processing effect: recognition accuracy was highest for semantically encoded words (M=0.87, SD=0.06), intermediate for phonemically encoded words (M=0.64, SD=0.09), and lowest for structurally encoded words (M=0.42, SD=0.11), F(2,94)=186.7, p<0.001. False alarm rates did not differ across conditions (p=0.61). The researchers also measured remember/know judgments and found that semantic encoding was associated with significantly more 'remember' responses, indicating more vivid recollective experiences.",
+      "questions": [
+        {
+          "id": "lm-2-q1",
+          "stem": "According to Craik and Lockhart's levels-of-processing framework, the superior memory for semantically encoded words is due to:",
+          "options": ["A. Semantic encoding requiring less cognitive effort than other types", "B. Deeper, more meaningful processing creating more durable and elaborate memory traces", "C. Structural encoding being too complex for participants to perform accurately", "D. Phonemic encoding interfering with subsequent semantic processing"],
+          "correct": 1,
+          "explanation": "The levels-of-processing framework proposes that deeper, more meaningful processing (semantic encoding) creates more durable and elaborated memory traces compared to shallow processing (structural encoding). Semantic processing engages more associations, connections, and meaningful analysis of the stimulus, resulting in a richer, more distinctive memory trace that is easier to retrieve."
+        },
+        {
+          "id": "lm-2-q2",
+          "stem": "The finding that semantic encoding produced more 'remember' judgments is most consistent with which memory distinction?",
+          "options": ["A. Procedural versus declarative memory", "B. Recollection versus familiarity as dual processes in recognition memory", "C. Sensory memory versus short-term memory", "D. Implicit versus explicit memory encoding"],
+          "correct": 1,
+          "explanation": "The remember/know paradigm distinguishes between recollection (remembering specific details and context of the encoding episode) and familiarity (a general sense of having encountered the item without specific contextual details). More 'remember' responses for semantically encoded words indicate that deep processing enhances recollection-based memory, which is richer and more detailed than familiarity-based recognition."
+        },
+        {
+          "id": "lm-2-q3",
+          "stem": "The distractor task administered during the 30-minute delay was most likely included to:",
+          "options": ["A. Strengthen the memory traces through spaced practice", "B. Prevent rehearsal that could confound the levels-of-processing manipulation", "C. Induce proactive interference from the distractor material", "D. Test implicit memory for the studied words"],
+          "correct": 1,
+          "explanation": "The distractor task prevents participants from continuing to rehearse or think about the studied words during the delay period. Without a distractor, participants might engage in additional elaborative processing that could reduce or eliminate differences between encoding conditions, thereby confounding the levels-of-processing manipulation."
+        },
+        {
+          "id": "lm-2-q4",
+          "stem": "A major criticism of the levels-of-processing framework is that:",
+          "options": ["A. Shallow processing always produces better memory than deep processing", "B. The concept of 'depth' is defined circularly, with deeper processing defined by better memory", "C. It predicts that all semantic encoding tasks produce identical memory performance", "D. It cannot account for any effects of encoding on memory"],
+          "correct": 1,
+          "explanation": "A primary criticism of the levels-of-processing framework is its circularity: depth of processing is often defined by memory performance (deeper processing = better memory), and better memory is explained by deeper processing. There is no independent measure of processing depth, making it difficult to predict in advance which encoding tasks will produce the best memory without already knowing the outcome."
+        },
+        {
+          "id": "lm-2-q5",
+          "stem": "If the researcher added a condition where participants generated their own sentences using each word (self-generation), memory performance would most likely:",
+          "options": ["A. Be lower than all other conditions due to cognitive overload", "B. Be equivalent to the structural encoding condition", "C. Exceed semantic encoding performance due to the generation effect", "D. Show no difference from the phonemic encoding condition"],
+          "correct": 2,
+          "explanation": "The generation effect refers to the finding that information that is self-generated during encoding is better remembered than information that is simply read or provided. Self-generating sentences would combine deep semantic processing with active generation, likely producing even better memory than the standard semantic encoding condition where participants merely judged whether a word fit a provided sentence."
+        }
+      ]
+    },
+    {
+      "id": "lm-passage-3",
+      "passage": "Researchers studied operant conditioning principles by examining the effects of different reinforcement schedules on lever-pressing behavior in pigeons. Forty pigeons were randomly assigned to four groups, each receiving food reinforcement on a different schedule: fixed-ratio 10 (FR-10, reinforced after every 10th response), variable-ratio 10 (VR-10, reinforced on average after every 10th response), fixed-interval 30 seconds (FI-30, reinforced for the first response after 30 seconds), and variable-interval 30 seconds (VI-30, reinforced for the first response after an average of 30 seconds). After 20 sessions of training, response rates were compared. The VR-10 schedule produced the highest response rates (M=85 responses/min), followed by FR-10 (M=72 responses/min), VI-30 (M=25 responses/min), and FI-30 (M=18 responses/min). Cumulative response records revealed characteristic patterns: FR-10 showed post-reinforcement pauses followed by rapid responding, FI-30 showed scalloped patterns with acceleration toward the end of each interval, VR-10 showed steady high rates, and VI-30 showed steady moderate rates. Extinction was then tested by removing all reinforcement. Resistance to extinction was greatest for VR-10 (M=450 responses before extinction criterion), followed by VI-30 (M=320), FR-10 (M=180), and FI-30 (M=110).",
+      "questions": [
+        {
+          "id": "lm-3-q1",
+          "stem": "The post-reinforcement pause observed in the FR-10 schedule occurs because:",
+          "options": ["A. The pigeon becomes fatigued from rapid responding", "B. The pigeon can predict that reinforcement will not be available immediately after a reinforcement delivery", "C. The food reinforcer causes temporary satiation that lasts exactly 10 responses", "D. The fixed ratio schedule does not actually reinforce behavior"],
+          "correct": 1,
+          "explanation": "In fixed-ratio schedules, the organism learns that reinforcement will not occur immediately after receiving a reward (since a fixed number of responses must be completed first). This predictability leads to a pause after each reinforcement before responding resumes. The pause reflects the organism's learned expectation about the schedule contingency, not physical fatigue or satiation."
+        },
+        {
+          "id": "lm-3-q2",
+          "stem": "The scalloped response pattern in the FI-30 schedule demonstrates that the pigeon:",
+          "options": ["A. Cannot discriminate time intervals", "B. Has learned to estimate the passage of time and increases responding as the interval endpoint approaches", "C. Responds at a constant rate throughout the interval", "D. Only responds immediately after reinforcement delivery"],
+          "correct": 1,
+          "explanation": "The scalloped pattern in fixed-interval schedules shows slow responding immediately after reinforcement, gradually accelerating as the end of the interval approaches. This demonstrates that the organism has learned the temporal contingency and can estimate the passage of time, increasing response rate when reinforcement becomes more likely. This is an example of temporal discrimination."
+        },
+        {
+          "id": "lm-3-q3",
+          "stem": "The VR-10 schedule produced the highest resistance to extinction primarily because:",
+          "options": ["A. Variable-ratio schedules provide the most total reinforcement", "B. The unpredictable reinforcement schedule makes it difficult for the organism to discriminate extinction from the regular schedule", "C. Variable schedules cause stronger biological responses to food", "D. The pigeon develops a stronger physical lever-pressing habit"],
+          "correct": 1,
+          "explanation": "Variable-ratio schedules produce high resistance to extinction because the organism is accustomed to long, unpredictable sequences of unreinforced responses during training. When extinction begins, the absence of reinforcement is difficult to distinguish from a typical long sequence without reinforcement during the VR schedule. This is called the partial reinforcement extinction effect (PREE)."
+        },
+        {
+          "id": "lm-3-q4",
+          "stem": "A casino slot machine operates most similarly to which reinforcement schedule used in this study?",
+          "options": ["A. Fixed-ratio 10, because a set number of pulls is required", "B. Fixed-interval 30, because reinforcement occurs at regular time intervals", "C. Variable-ratio 10, because reinforcement occurs after an unpredictable number of responses", "D. Variable-interval 30, because reinforcement occurs after unpredictable time periods"],
+          "correct": 2,
+          "explanation": "Slot machines operate on a variable-ratio schedule because reinforcement (a payout) occurs after an unpredictable number of responses (lever pulls or button presses). The ratio varies from trial to trial, but averages to a specific value determined by the machine's programming. This schedule produces the high, steady response rates and high resistance to extinction that characterize gambling behavior."
+        },
+        {
+          "id": "lm-3-q5",
+          "stem": "If the researchers introduced a discriminative stimulus (a green light) that signaled the availability of reinforcement, the pigeon's lever pressing in the presence of the green light would be an example of:",
+          "options": ["A. Stimulus generalization across different light colors", "B. Respondent conditioning to the green light", "C. A three-term contingency involving an antecedent discriminative stimulus", "D. Negative reinforcement through removal of the green light"],
+          "correct": 2,
+          "explanation": "The three-term contingency (antecedent-behavior-consequence or SD-R-SR) is the fundamental unit of operant conditioning. The discriminative stimulus (green light) signals that reinforcement is available for lever pressing, the response (lever pressing) is the operant behavior, and the food is the reinforcing consequence. The pigeon learns that responding is reinforced only in the presence of the discriminative stimulus."
+        }
+      ]
+    },
+    {
+      "id": "lm-passage-4",
+      "passage": "A neuroscience study examined the role of the hippocampus in memory consolidation using patient H.M. as a case study alongside a group of matched controls. Patient H.M. underwent bilateral medial temporal lobe resection, including removal of the hippocampus and surrounding cortex, to treat severe epilepsy. Following surgery, H.M. exhibited profound anterograde amnesia, being unable to form new long-term declarative memories. He could not remember people he met, events that occurred, or new factual information encountered after his surgery. However, testing revealed several preserved memory abilities. H.M. could hold information in working memory for brief periods as long as he was not distracted, and his performance on digit span tasks was within normal limits (7 plus or minus 2 items). He could learn new motor skills, showing improvement on a mirror-tracing task across sessions despite having no conscious recollection of having practiced the task. His memory for events that occurred more than two years before his surgery was largely intact, suggesting that remote memories had been consolidated in neocortical areas independent of the hippocampus. IQ testing showed no significant decline from pre-surgical levels, and his language abilities remained intact.",
+      "questions": [
+        {
+          "id": "lm-4-q1",
+          "stem": "H.M.'s preserved ability to learn the mirror-tracing task despite no conscious recollection of practice demonstrates the dissociation between:",
+          "options": ["A. Sensory memory and short-term memory", "B. Explicit (declarative) and implicit (procedural) memory systems", "C. Encoding and retrieval processes in episodic memory", "D. Semantic memory and episodic memory within the same system"],
+          "correct": 1,
+          "explanation": "H.M.'s case provides strong evidence for the dissociation between explicit (declarative) memory, which requires the hippocampus and was severely impaired, and implicit (procedural) memory, which depends on different brain structures (basal ganglia, cerebellum) and was preserved. He could learn new motor skills (implicit/procedural) without any conscious memory (explicit/declarative) of the learning episodes."
+        },
+        {
+          "id": "lm-4-q2",
+          "stem": "H.M.'s normal digit span performance indicates that the hippocampus is NOT required for:",
+          "options": ["A. Long-term memory consolidation", "B. Retrieval of semantic knowledge", "C. Maintenance of information in short-term/working memory", "D. Emotional processing of fear-inducing stimuli"],
+          "correct": 2,
+          "explanation": "H.M.'s normal performance on digit span tasks (short-term/working memory) despite hippocampal removal demonstrates that the hippocampus is not required for maintaining information in short-term or working memory. This function depends on prefrontal and parietal cortical areas. The hippocampus is specifically critical for the consolidation of new information into long-term declarative memory."
+        },
+        {
+          "id": "lm-4-q3",
+          "stem": "The preservation of H.M.'s pre-surgical remote memories supports which model of memory consolidation?",
+          "options": ["A. The standard model of consolidation, in which memories are gradually transferred from hippocampus to neocortex", "B. The modal model, which proposes that all memories are stored in the hippocampus permanently", "C. The working memory model, which proposes that all long-term memories are stored in the phonological loop", "D. The encoding specificity principle, which states that memories are context-dependent"],
+          "correct": 0,
+          "explanation": "The standard model of memory consolidation proposes that the hippocampus initially encodes and temporarily stores new memories, which are then gradually consolidated into neocortical storage over time. H.M.'s preserved remote memories (older than 2 years) but impaired recent memory formation supports this model: older memories had already been transferred to neocortex before surgery, while new memories could not be consolidated without the hippocampus."
+        },
+        {
+          "id": "lm-4-q4",
+          "stem": "H.M.'s intact IQ and language abilities after surgery are important because they demonstrate that:",
+          "options": ["A. Intelligence and language are stored in the hippocampus", "B. The memory deficit was specific to hippocampal-dependent functions rather than a global cognitive impairment", "C. IQ tests do not require any form of memory", "D. Language and intelligence are entirely innate abilities that do not depend on the brain"],
+          "correct": 1,
+          "explanation": "H.M.'s preserved IQ and language demonstrate that his deficit was specifically limited to hippocampal-dependent memory functions (new declarative memory formation) rather than reflecting a general cognitive decline. This specificity is critical because it establishes that the hippocampus has a specialized role in memory consolidation, not a general role in all cognition."
+        },
+        {
+          "id": "lm-4-q5",
+          "stem": "Based on H.M.'s case, which of the following patients would be MOST likely to show a similar pattern of memory impairment?",
+          "options": ["A. A patient with damage to Broca's area", "B. A patient with bilateral damage to the amygdala", "C. A patient with bilateral hippocampal damage from viral encephalitis", "D. A patient with damage to the primary motor cortex"],
+          "correct": 2,
+          "explanation": "A patient with bilateral hippocampal damage from viral encephalitis (such as herpes simplex encephalitis, which preferentially targets the medial temporal lobes) would be expected to show a similar pattern of anterograde amnesia with preserved working memory, procedural learning, and remote memories. The critical factor is bilateral hippocampal destruction, regardless of the cause."
+        }
+      ]
+    },
+    {
+      "id": "lm-passage-5",
+      "passage": "A developmental psychologist studied observational learning in children using a modified Bobo doll experiment. Children aged 4-6 years (N=96) were randomly assigned to one of four conditions. In the reward condition, children watched a video of an adult model behaving aggressively toward a Bobo doll and then being praised and given candy by another adult. In the punishment condition, the model was scolded and warned not to behave aggressively. In the no-consequence condition, the model's behavior had no visible consequence. A control group watched a video of the model engaging in non-aggressive play. Children were then placed in a room with a Bobo doll and various other toys while observers recorded aggressive behaviors through a one-way mirror. Results showed that children in the reward condition displayed the most aggressive behaviors (M=7.2 acts), followed by the no-consequence condition (M=5.8), punishment condition (M=2.4), and control (M=1.1), F(3,92)=32.1, p<0.001. In a subsequent phase, all children were offered stickers for reproducing the aggressive behaviors they had observed. In this incentive phase, children in all three model groups (reward, punishment, and no-consequence) demonstrated similar levels of aggressive behavior (p=0.28), all significantly higher than the control group.",
+      "questions": [
+        {
+          "id": "lm-5-q1",
+          "stem": "The difference in aggressive behavior between the initial observation and the incentive phase for the punishment condition demonstrates the distinction between:",
+          "options": ["A. Encoding and storage in memory", "B. Learning (acquisition) and performance of behavior", "C. Classical conditioning and operant conditioning", "D. Short-term memory and long-term memory"],
+          "correct": 1,
+          "explanation": "Bandura emphasized the critical distinction between learning (acquisition) and performance. Children in the punishment condition learned the aggressive behaviors through observation (as demonstrated when incentivized) but did not spontaneously perform them because vicarious punishment suppressed the behavior. The incentive phase revealed that the behavior had been acquired even when it was not initially performed."
+        },
+        {
+          "id": "lm-5-q2",
+          "stem": "The finding that children who observed the model being punished showed reduced aggression initially reflects the concept of:",
+          "options": ["A. Vicarious reinforcement increasing the likelihood of imitation", "B. Vicarious punishment reducing the likelihood of behavioral performance", "C. Stimulus generalization from the model to the child", "D. Classical conditioning of fear to the Bobo doll"],
+          "correct": 1,
+          "explanation": "Vicarious punishment occurs when an observer sees a model being punished for a behavior, which reduces the observer's likelihood of performing that same behavior. The children learned from observing the negative consequences experienced by the model, even though they themselves were never directly punished. This demonstrates that consequences need not be directly experienced to influence behavior."
+        },
+        {
+          "id": "lm-5-q3",
+          "stem": "According to Bandura's social learning theory, which cognitive process is LEAST necessary for observational learning to occur?",
+          "options": ["A. Attention to the model's behavior", "B. Retention of the observed behavior in memory", "C. Direct reinforcement of the observer during observation", "D. Motor reproduction capability to perform the behavior"],
+          "correct": 2,
+          "explanation": "Bandura identified four processes necessary for observational learning: attention, retention, motor reproduction, and motivation. Notably, direct reinforcement of the observer is NOT required for learning to occur. The experiment demonstrated that children learned the aggressive behaviors simply by observing the model, without receiving any direct reinforcement during the observation phase."
+        },
+        {
+          "id": "lm-5-q4",
+          "stem": "The control group's low level of aggression (M=1.1 acts) serves as a baseline measure that helps establish:",
+          "options": ["A. That the Bobo doll itself elicits aggressive behavior", "B. That observing the aggressive model was the cause of increased aggression in experimental groups", "C. That all children are inherently non-aggressive", "D. That the testing environment suppressed all behavior"],
+          "correct": 1,
+          "explanation": "The control group, which observed non-aggressive play, provides a baseline measure of aggression that occurs without exposure to an aggressive model. By comparing experimental groups to this baseline, the researchers can attribute the increased aggression in the model-observation groups specifically to the influence of observing the aggressive model, rather than to the testing situation itself."
+        },
+        {
+          "id": "lm-5-q5",
+          "stem": "The use of one-way mirrors and behavioral coding by observers in this study addresses which potential methodological concern?",
+          "options": ["A. Demand characteristics and social desirability bias in the children", "B. Random assignment of participants to conditions", "C. The ecological validity of the Bobo doll as a target", "D. The reliability of parental reports of child aggression"],
+          "correct": 0,
+          "explanation": "One-way mirrors allowed researchers to observe children's behavior without the children being aware they were being watched, reducing demand characteristics (cues that might signal expected behavior) and social desirability effects (tendency to behave in socially acceptable ways). This unobtrusive observation method increases confidence that the recorded behaviors reflect the children's genuine responses to the experimental manipulation."
+        }
+      ]
+    },
+    {
+      "id": "lm-passage-6",
+      "passage": "Researchers investigated the misinformation effect on eyewitness memory using Loftus's post-event misinformation paradigm. Participants (N=150) watched a video of a simulated car accident at an intersection with a yield sign. After the video, participants were randomly assigned to three conditions. In the consistent condition, participants answered questions that accurately referenced the yield sign. In the misinformation condition, participants answered questions that incorrectly referenced a stop sign at the intersection. In the control condition, participants answered questions that did not reference any traffic sign. One week later, all participants completed a forced-choice recognition test asking whether the intersection had a yield sign or a stop sign. Results showed that 78% of consistent-condition participants correctly identified the yield sign, compared to only 41% in the misinformation condition and 67% in the control condition, chi-square(2)=34.8, p<0.001. Confidence ratings revealed that misinformed participants who incorrectly chose the stop sign were as confident in their incorrect choice (M=4.2 on a 5-point scale) as consistent-condition participants were in their correct choice (M=4.4), t(108)=0.8, p=0.42. Source monitoring errors were identified as a key mechanism underlying the misinformation effect.",
+      "questions": [
+        {
+          "id": "lm-6-q1",
+          "stem": "The finding that misinformed participants were equally confident in their incorrect memories compared to accurate participants demonstrates that:",
+          "options": ["A. Confidence is a reliable indicator of memory accuracy", "B. Post-event misinformation can create vivid, subjectively compelling false memories", "C. All participants were simply guessing on the recognition test", "D. The misinformation had no real effect on memory"],
+          "correct": 1,
+          "explanation": "The equal confidence levels for correct and incorrect memories demonstrate that misinformation can create false memories that feel just as real and vivid as accurate memories. This is a critical finding because it shows that confidence is not a reliable indicator of memory accuracy, which has important implications for evaluating eyewitness testimony in legal settings."
+        },
+        {
+          "id": "lm-6-q2",
+          "stem": "Source monitoring errors in this study occur when participants:",
+          "options": ["A. Forget the content of the original event entirely", "B. Confuse the source of information, attributing post-event suggestions to the original event", "C. Deliberately fabricate memories to please the experimenter", "D. Correctly identify the source of all information they encountered"],
+          "correct": 1,
+          "explanation": "Source monitoring errors involve the failure to correctly attribute a memory to its actual source. In the misinformation paradigm, participants may remember the stop sign from the post-event questionnaire but incorrectly attribute this memory to the original video. They confuse where they learned the information, mistaking the misinformation source for the original event source."
+        },
+        {
+          "id": "lm-6-q3",
+          "stem": "The performance of the control group (67% accuracy) compared to the misinformation group (41%) demonstrates that the misinformation specifically:",
+          "options": ["A. Improved memory for the original event", "B. Impaired memory beyond the natural forgetting that occurred over one week", "C. Had no effect compared to normal memory performance", "D. Only affected participants who were not paying attention to the video"],
+          "correct": 1,
+          "explanation": "The control group shows the natural level of forgetting over one week (67% accuracy, indicating some forgetting from the original 78% in the consistent condition). The misinformation group's much lower accuracy (41%) demonstrates that the misleading post-event information specifically impaired memory beyond what would be expected from normal forgetting alone. The misinformation actively distorted the memory trace."
+        },
+        {
+          "id": "lm-6-q4",
+          "stem": "According to the interference theory explanation of the misinformation effect, the post-event information about a stop sign:",
+          "options": ["A. Strengthens the original memory of the yield sign", "B. Retroactively interferes with retrieval of the original yield sign memory", "C. Has no effect because old memories are permanent and unchangeable", "D. Creates proactive interference with future learning"],
+          "correct": 1,
+          "explanation": "Retroactive interference occurs when new information interferes with the retrieval of previously learned information. In this case, the post-event misinformation (stop sign) retroactively interferes with the participant's ability to retrieve the original memory (yield sign). The newer information competes with or overwrites the original memory trace, making accurate retrieval more difficult."
+        },
+        {
+          "id": "lm-6-q5",
+          "stem": "If researchers wanted to reduce the misinformation effect, which strategy would be MOST effective based on memory research?",
+          "options": ["A. Testing participants immediately after the event before exposure to misinformation", "B. Showing the video multiple times to increase exposure", "C. Using only open-ended questions in the post-event questionnaire", "D. Increasing the delay between the event and the memory test to two weeks"],
+          "correct": 0,
+          "explanation": "Testing memory immediately after the event, before any misinformation is encountered, would be the most effective strategy. This leverages the testing effect (retrieval practice strengthens memory) and ensures that participants commit to the accurate memory before being exposed to misleading information. Once a strong, accurate memory trace is established through retrieval, it is more resistant to subsequent misinformation."
+        }
+      ]
+    },
+    {
+      "id": "lm-passage-7",
+      "passage": "A neuroscience laboratory investigated long-term potentiation (LTP) in hippocampal slice preparations as a cellular model of learning and memory. Researchers stimulated Schaffer collateral fibers in the CA3 region and recorded excitatory postsynaptic potentials (EPSPs) in CA1 pyramidal neurons. Baseline EPSPs were recorded for 30 minutes, followed by high-frequency stimulation (HFS, 100 Hz for 1 second, repeated 3 times at 20-second intervals). Post-HFS recordings continued for 3 hours. Results showed that EPSPs increased by approximately 150% immediately after HFS and remained elevated at 120% above baseline after 3 hours. Application of the NMDA receptor antagonist AP5 before HFS completely blocked LTP induction, with EPSPs remaining at baseline levels. However, application of AP5 after LTP was established did not reverse the potentiation. Blocking protein synthesis with anisomycin during the induction phase did not affect early-phase LTP (first 1-2 hours) but completely prevented late-phase LTP (beyond 2-3 hours). The researchers concluded that LTP involves distinct early and late phases with different molecular mechanisms, and that NMDA receptor activation is necessary for induction but not maintenance of LTP.",
+      "questions": [
+        {
+          "id": "lm-7-q1",
+          "stem": "The finding that NMDA receptor blockade prevents LTP induction but not maintenance suggests that NMDA receptors function as:",
+          "options": ["A. The primary mediators of all synaptic transmission in the hippocampus", "B. Coincidence detectors that are necessary for triggering the molecular cascade leading to synaptic strengthening", "C. Inhibitory receptors that normally suppress synaptic plasticity", "D. Receptors responsible for the expression of potentiated synaptic responses"],
+          "correct": 1,
+          "explanation": "NMDA receptors function as coincidence detectors because they require both presynaptic glutamate release and postsynaptic depolarization to open (voltage-dependent magnesium block must be removed). This dual requirement makes them ideal for detecting the simultaneous activity of pre- and postsynaptic neurons, which is the cellular analog of associative learning. They trigger LTP but are not needed for its maintenance."
+        },
+        {
+          "id": "lm-7-q2",
+          "stem": "The distinction between early-phase LTP (protein synthesis independent) and late-phase LTP (protein synthesis dependent) parallels the memory distinction between:",
+          "options": ["A. Implicit and explicit memory", "B. Short-term and long-term memory consolidation", "C. Episodic and semantic memory", "D. Procedural and declarative memory"],
+          "correct": 1,
+          "explanation": "Early-phase LTP (lasting 1-2 hours, independent of protein synthesis) parallels short-term memory, which relies on existing proteins and temporary modifications. Late-phase LTP (lasting hours to days, requiring protein synthesis) parallels long-term memory consolidation, which requires new protein synthesis for structural synaptic changes. This molecular distinction maps onto the behavioral distinction between temporary and lasting memory storage."
+        },
+        {
+          "id": "lm-7-q3",
+          "stem": "The mechanism by which NMDA receptors detect coincident pre- and postsynaptic activity involves:",
+          "options": ["A. The receptor being activated by any single neurotransmitter", "B. A voltage-dependent magnesium block that is removed only when the postsynaptic membrane is sufficiently depolarized", "C. The receptor producing inhibitory postsynaptic potentials", "D. Direct physical coupling between pre- and postsynaptic membranes"],
+          "correct": 1,
+          "explanation": "NMDA receptors have a unique property: at resting membrane potential, a magnesium ion blocks the channel pore. The receptor requires both glutamate binding (indicating presynaptic activity) and sufficient postsynaptic depolarization (to expel the magnesium block) before calcium can flow through. This dual requirement makes the NMDA receptor a molecular coincidence detector for Hebbian learning."
+        },
+        {
+          "id": "lm-7-q4",
+          "stem": "The Schaffer collateral pathway from CA3 to CA1 in the hippocampus is part of:",
+          "options": ["A. The visual processing stream from retina to cortex", "B. The trisynaptic circuit involved in hippocampal memory processing", "C. The corticospinal tract for voluntary motor control", "D. The limbic pathway exclusively for emotional processing"],
+          "correct": 1,
+          "explanation": "The Schaffer collateral pathway connects CA3 to CA1 neurons and is part of the hippocampal trisynaptic circuit (entorhinal cortex to dentate gyrus to CA3 to CA1). This circuit is fundamental to hippocampal memory processing and is one of the most extensively studied pathways for LTP. The trisynaptic circuit processes information flowing through the hippocampus during memory encoding and consolidation."
+        },
+        {
+          "id": "lm-7-q5",
+          "stem": "LTP is considered a cellular model of learning because it demonstrates the neural principle proposed by Hebb, which states that:",
+          "options": ["A. Neurons that fire together become inhibited", "B. Neurons that fire together strengthen their synaptic connections", "C. All synapses in the brain have equal strength", "D. Learning requires the formation of entirely new neurons"],
+          "correct": 1,
+          "explanation": "Hebb's rule (1949) states that when a presynaptic neuron repeatedly contributes to firing a postsynaptic neuron, the synapse between them is strengthened ('neurons that fire together wire together'). LTP demonstrates this principle at the cellular level: coincident pre- and postsynaptic activity leads to lasting synaptic strengthening, providing a plausible cellular mechanism for how the brain encodes learned associations."
+        }
+      ]
+    },
+    {
+      "id": "lm-passage-8",
+      "passage": "A cognitive psychologist investigated encoding specificity and context-dependent memory using a naturalistic deep-sea diving paradigm. Professional divers (N=40) learned lists of 36 words in two environments: on dry land and 20 feet underwater. Each diver learned one list on land and one list underwater (counterbalanced). Memory was tested by free recall in either the same environment as encoding (land-land or underwater-underwater) or a different environment (land-underwater or underwater-land). Results showed a significant interaction between encoding and retrieval context, F(1,38)=22.4, p<0.001. Words encoded and retrieved in the same context were recalled significantly better (land-land: M=13.5 words; underwater-underwater: M=11.4 words) than words encoded and retrieved in different contexts (land-underwater: M=8.6 words; underwater-land: M=8.4 words). Overall recall was slightly higher for land encoding regardless of retrieval context. Importantly, when recognition memory was tested instead of free recall, the context-dependent effect was significantly reduced (F(1,38)=3.2, p=0.08), suggesting that context serves primarily as a retrieval cue rather than affecting the strength of the underlying memory trace.",
+      "questions": [
+        {
+          "id": "lm-8-q1",
+          "stem": "The finding that memory was better when encoding and retrieval contexts matched is known as:",
+          "options": ["A. The spacing effect", "B. The encoding specificity principle", "C. Proactive interference", "D. The serial position effect"],
+          "correct": 1,
+          "explanation": "The encoding specificity principle (Tulving) states that memory retrieval is most successful when the cues available at retrieval match those present during encoding. In this study, the physical environment served as a contextual cue. When the encoding and retrieval environments matched, the environmental context served as an effective retrieval cue, facilitating recall of the encoded words."
+        },
+        {
+          "id": "lm-8-q2",
+          "stem": "The reduced context-dependent effect for recognition compared to free recall suggests that:",
+          "options": ["A. Recognition memory is unaffected by any encoding factors", "B. Free recall depends more heavily on self-generated retrieval cues, including context, than recognition does", "C. The words were not actually encoded in long-term memory", "D. Recognition tests are always easier than recall tests for unrelated reasons"],
+          "correct": 1,
+          "explanation": "Free recall requires self-generated retrieval cues (including contextual cues) to search memory, making it more sensitive to context-dependent effects. Recognition provides the studied item itself as a strong retrieval cue, reducing reliance on contextual cues. This dissociation suggests that the context effect operates at the level of retrieval cue utilization rather than the strength of the stored memory trace."
+        },
+        {
+          "id": "lm-8-q3",
+          "stem": "The slightly lower overall recall for underwater encoding, regardless of retrieval context, is most likely due to:",
+          "options": ["A. The context-dependent memory effect", "B. Divided attention and increased cognitive load from the underwater environment affecting encoding quality", "C. Water pressure enhancing memory consolidation", "D. The words being inherently harder to learn underwater due to auditory interference"],
+          "correct": 1,
+          "explanation": "The underwater environment likely created additional cognitive demands (managing diving equipment, monitoring air supply, dealing with physical discomfort) that divided attention during encoding. Divided attention during encoding consistently reduces memory performance because fewer cognitive resources are available for deep, elaborative processing of the study material."
+        },
+        {
+          "id": "lm-8-q4",
+          "stem": "State-dependent memory, a related phenomenon, would predict that recall would also be enhanced when:",
+          "options": ["A. The emotional significance of the words matches the retrieval context", "B. The internal physiological or pharmacological state at retrieval matches the state at encoding", "C. The words are encoded in multiple different states", "D. The participant is in a neutral emotional state during both encoding and retrieval"],
+          "correct": 1,
+          "explanation": "State-dependent memory refers to the finding that memory retrieval is enhanced when the individual's internal state (physiological, pharmacological, or emotional) at the time of retrieval matches their internal state during encoding. For example, information learned while under the influence of a drug may be better recalled in that same drug state. Internal states serve as retrieval cues similar to external environmental contexts."
+        },
+        {
+          "id": "lm-8-q5",
+          "stem": "A student who studies for an exam in the same classroom where the exam will be administered is applying the principle of:",
+          "options": ["A. Distributed practice to enhance long-term retention", "B. Context-dependent memory to maximize retrieval cue overlap", "C. The testing effect to strengthen memory through retrieval", "D. Elaborative rehearsal to deepen processing of material"],
+          "correct": 1,
+          "explanation": "By studying in the same environment where retrieval will occur (the exam classroom), the student maximizes the overlap between encoding and retrieval contexts. According to the encoding specificity principle and context-dependent memory research, the matching environmental cues present during the exam will facilitate retrieval of information encoded in that same context."
+        }
+      ]
+    },
+    {
+      "id": "lm-passage-9",
+      "passage": "A clinical neuropsychologist documented the case of a 45-year-old patient, K.C., who suffered extensive bilateral hippocampal damage following a motorcycle accident. K.C. displayed a striking dissociation between episodic and semantic memory. He had complete loss of episodic memory, being unable to recall any specific personal events from any point in his life, whether before or after his injury. He could not mentally travel back in time to re-experience any past events or imagine himself in future scenarios. However, his semantic memory was relatively preserved. He retained factual knowledge about the world, knew the meanings of words, and could answer general knowledge questions at a level consistent with his education and pre-injury intelligence. He knew facts about his own life (that he owned a certain car, that he had attended a particular school) but experienced these as bare facts without any accompanying experiential memories. K.C. also showed impaired future thinking, being unable to describe what he might do tomorrow or construct plausible future scenarios. His working memory, procedural memory, and perceptual abilities were all within normal limits.",
+      "questions": [
+        {
+          "id": "lm-9-q1",
+          "stem": "K.C.'s preserved semantic memory with impaired episodic memory supports which theoretical distinction?",
+          "options": ["A. The difference between short-term and long-term memory stores", "B. Tulving's distinction between episodic memory (personal experiences) and semantic memory (general knowledge) as separate systems", "C. The difference between implicit and explicit memory", "D. The distinction between sensory memory and working memory"],
+          "correct": 1,
+          "explanation": "K.C.'s case strongly supports Tulving's proposal that episodic memory (memory for personally experienced events with spatiotemporal context) and semantic memory (general factual knowledge) are distinct memory systems that can be independently impaired. K.C. lost all episodic memories while retaining semantic knowledge, demonstrating that these two types of declarative memory have at least partially separate neural substrates."
+        },
+        {
+          "id": "lm-9-q2",
+          "stem": "K.C.'s inability to imagine future scenarios, in addition to his loss of past episodic memories, suggests that:",
+          "options": ["A. Future thinking and episodic memory share common neural substrates and cognitive processes", "B. Future imagination is entirely independent of memory systems", "C. K.C. was simply unmotivated to think about the future", "D. Only semantic memory is needed for future planning"],
+          "correct": 0,
+          "explanation": "The co-occurrence of impaired episodic memory and impaired future thinking in K.C. supports the hypothesis that mental time travel into both the past and the future depends on overlapping neural and cognitive mechanisms (the constructive episodic simulation hypothesis). Both processes require the ability to flexibly recombine elements of experience, a capacity that depends on the hippocampal system."
+        },
+        {
+          "id": "lm-9-q3",
+          "stem": "K.C.'s knowledge that he owned a certain car, experienced as a bare fact without experiential memories, illustrates the concept of:",
+          "options": ["A. Procedural memory for car-related motor skills", "B. Knowing without remembering, or the distinction between noetic and autonoetic consciousness", "C. Sensory memory for visual images of the car", "D. Working memory maintenance of car-related information"],
+          "correct": 1,
+          "explanation": "Tulving distinguished between autonoetic consciousness (self-knowing awareness that accompanies episodic memory, allowing mental time travel) and noetic consciousness (knowing awareness associated with semantic memory). K.C. retained noetic access to personal facts (knowing he owned a car) without autonoetic re-experiencing of the event (remembering buying or driving the car). This demonstrates the distinction between knowing and remembering."
+        },
+        {
+          "id": "lm-9-q4",
+          "stem": "The fact that K.C. lost episodic memories from BEFORE his injury (retrograde amnesia for episodic memory) while retaining semantic knowledge from the same periods suggests that:",
+          "options": ["A. Episodic and semantic memories are stored in identical brain regions", "B. Episodic memory retrieval may depend more heavily on the hippocampus than semantic memory retrieval, even for remote memories", "C. All pre-injury memories are always completely erased by hippocampal damage", "D. Semantic memories are stored in the hippocampus while episodic memories are cortical"],
+          "correct": 1,
+          "explanation": "K.C.'s pattern of retrograde amnesia limited to episodic memory suggests that the hippocampus plays a more enduring role in episodic memory retrieval than in semantic memory retrieval. While semantic memories may become fully independent of the hippocampus over time (through cortical consolidation), episodic memories may continue to require hippocampal involvement for their experiential, contextual qualities even long after encoding."
+        },
+        {
+          "id": "lm-9-q5",
+          "stem": "K.C.'s preserved procedural memory and working memory demonstrate that hippocampal damage selectively impairs:",
+          "options": ["A. All forms of memory equally", "B. Declarative memory while sparing non-declarative memory and temporary storage systems", "C. Motor skills and habit formation", "D. The ability to pay attention to environmental stimuli"],
+          "correct": 1,
+          "explanation": "K.C.'s preserved procedural memory (a form of non-declarative/implicit memory dependent on basal ganglia and cerebellum) and working memory (dependent on prefrontal and parietal cortex) alongside severely impaired episodic memory confirms that hippocampal damage selectively impairs declarative memory systems, particularly episodic memory, while leaving non-declarative memory systems and temporary storage mechanisms intact."
+        }
+      ]
+    },
+    {
+      "id": "lm-passage-10",
+      "passage": "Educational psychologists conducted a large-scale study on effective learning strategies with college students (N=320). Students studied textbook chapters using one of four strategies: rereading (reading the chapter twice), highlighting (highlighting key passages during reading), practice testing (taking a quiz on the material after reading), or elaborative interrogation (explaining why each key fact is true). Immediate tests administered 5 minutes after study showed relatively small differences between groups, F(3,316)=3.8, p=0.01. However, delayed tests administered one week later revealed dramatic differences, F(3,316)=42.1, p<0.001. Practice testing produced the highest scores (M=72%, SD=8), followed by elaborative interrogation (M=64%, SD=10), rereading (M=43%, SD=12), and highlighting (M=41%, SD=11). Practice testing and elaborative interrogation were significantly superior to rereading and highlighting at the delayed test. Additionally, students in the practice testing condition showed better transfer to new questions requiring application of the studied concepts (M=58%, SD=12) compared to all other groups (all Ms below 45%). Students were also surveyed about their perception of strategy effectiveness: 68% of students rated rereading as the most effective strategy, while only 18% chose practice testing.",
+      "questions": [
+        {
+          "id": "lm-10-q1",
+          "stem": "The superior delayed recall performance of the practice testing group compared to the rereading group is known as:",
+          "options": ["A. The spacing effect", "B. The testing effect or retrieval practice effect", "C. The primacy effect", "D. Elaborative rehearsal"],
+          "correct": 1,
+          "explanation": "The testing effect (also called the retrieval practice effect) refers to the finding that actively retrieving information from memory through testing produces stronger, more durable long-term memory than passive restudy. Practice testing forces active retrieval, which strengthens memory traces and creates additional retrieval pathways, leading to superior long-term retention compared to rereading."
+        },
+        {
+          "id": "lm-10-q2",
+          "stem": "The finding that 68% of students rated rereading as the most effective strategy despite its poor performance demonstrates:",
+          "options": ["A. That rereading is actually the best strategy for some students", "B. A metacognitive illusion in which fluency of processing is mistaken for learning", "C. That student preferences should guide all educational decisions", "D. The Dunning-Kruger effect in academic performance"],
+          "correct": 1,
+          "explanation": "Students' preference for rereading despite its poor performance reflects a metacognitive illusion. Rereading produces a feeling of fluency (the material seems familiar and easy to process), which students mistake for actual learning. This illusion of competence leads students to choose ineffective study strategies because they feel like they are learning, even when objective measures show they are not."
+        },
+        {
+          "id": "lm-10-q3",
+          "stem": "The finding that practice testing enhanced transfer to new application questions suggests that retrieval practice:",
+          "options": ["A. Only strengthens rote memorization of specific facts", "B. Promotes deeper, more flexible knowledge representations that can be applied to novel contexts", "C. Is equivalent to elaborative interrogation in all respects", "D. Only benefits verbatim recall of studied material"],
+          "correct": 1,
+          "explanation": "The transfer benefit of practice testing indicates that retrieval practice does more than strengthen specific memory traces. It promotes the development of more flexible, organized knowledge representations that can be accessed and applied in novel contexts. This suggests that the act of retrieval involves reconstructive processes that elaborate and strengthen the connections between concepts."
+        },
+        {
+          "id": "lm-10-q4",
+          "stem": "The small differences on immediate testing but large differences on delayed testing between strategies is best explained by:",
+          "options": ["A. All strategies producing equivalent initial learning but differing in resistance to forgetting", "B. Participants in the practice testing group studying harder", "C. The delayed test being easier than the immediate test", "D. Random variation in test difficulty between time points"],
+          "correct": 0,
+          "explanation": "All strategies can produce adequate performance on an immediate test because the information is still relatively accessible in memory shortly after study. However, strategies differ in how well they protect against forgetting over time. Practice testing and elaborative interrogation create stronger, more durable memory traces that resist forgetting better than rereading and highlighting, which only create shallow, short-lived traces."
+        },
+        {
+          "id": "lm-10-q5",
+          "stem": "Elaborative interrogation enhances memory primarily by encouraging learners to:",
+          "options": ["A. Repeat information verbatim multiple times", "B. Generate explanations that connect new information to existing knowledge", "C. Highlight the most important passages in the text", "D. Reduce the amount of material they need to study"],
+          "correct": 1,
+          "explanation": "Elaborative interrogation works by prompting learners to generate explanations for why facts are true, which forces them to connect new information to their existing knowledge structures. This self-explanation process creates richer, more meaningful memory traces with more retrieval pathways compared to passive reading strategies. The generation of connections and explanations produces deeper processing consistent with the levels-of-processing framework."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "subtopic": "Immune System",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "immune-ps1",
+      "passage": "The innate immune system provides the first line of defense against pathogens through mechanisms that are rapid but non-specific. Physical barriers include the skin, mucosal epithelium, and secretions such as lysozyme in tears and defensins in the gut. When pathogens breach these barriers, pattern recognition receptors (PRRs) on innate immune cells detect conserved pathogen-associated molecular patterns (PAMPs). Toll-like receptors (TLRs) are a major class of PRRs: TLR4 recognizes lipopolysaccharide (LPS) from Gram-negative bacteria, TLR3 detects double-stranded RNA from viruses, and TLR9 recognizes unmethylated CpG DNA motifs. Activation of TLRs triggers intracellular signaling cascades (often through NF-kB) that induce the production of pro-inflammatory cytokines, including TNF-alpha, IL-1, and IL-6. These cytokines promote inflammation by increasing vascular permeability, recruiting neutrophils and macrophages, and inducing fever. Researchers studying sepsis found that patients with a polymorphism in the TLR4 gene had an attenuated inflammatory response to Gram-negative bacteria, resulting in increased susceptibility to severe infection but reduced risk of inflammatory damage.",
+      "questions": [
+        {
+          "id": "immune-ps1-q1",
+          "stem": "PAMPs are effective targets for innate immune recognition because they are:",
+          "options": ["A. Unique to each individual pathogen strain", "B. Conserved molecular structures shared by broad classes of pathogens but absent in host cells", "C. Identical to human self-antigens", "D. Only expressed during latent infection"],
+          "correct": 1,
+          "explanation": "PAMPs are evolutionarily conserved molecular patterns essential for pathogen survival, such as LPS, peptidoglycan, and viral nucleic acids. Because these structures are shared across broad groups of microorganisms but not found in host cells, the innate immune system can use a limited set of receptors to detect a wide variety of pathogens without prior exposure."
+        },
+        {
+          "id": "immune-ps1-q2",
+          "stem": "The TLR4 polymorphism described in the passage illustrates the concept that:",
+          "options": ["A. All immune responses are beneficial to the host", "B. There is a trade-off between mounting a strong inflammatory response and avoiding excessive tissue damage", "C. TLR4 is not important for immune defense", "D. Gram-negative bacteria do not trigger innate immunity"],
+          "correct": 1,
+          "explanation": "The finding that reduced TLR4 function leads to increased infection susceptibility but decreased inflammatory damage highlights the double-edged nature of inflammation. A robust innate response effectively clears pathogens but can cause collateral tissue damage (as in sepsis). This trade-off explains why the inflammatory response is tightly regulated and why anti-inflammatory mechanisms exist."
+        },
+        {
+          "id": "immune-ps1-q3",
+          "stem": "NF-kB is a critical mediator of innate immune responses because it:",
+          "options": ["A. Directly kills pathogens through enzymatic activity", "B. Functions as a transcription factor that upregulates genes encoding pro-inflammatory cytokines, chemokines, and antimicrobial peptides", "C. Serves as a structural component of the cell membrane", "D. Degrades pathogen DNA in the cytoplasm"],
+          "correct": 1,
+          "explanation": "NF-kB is a transcription factor that is normally sequestered in the cytoplasm by inhibitory proteins (IkB). Upon TLR activation, signaling cascades lead to IkB degradation, allowing NF-kB to translocate to the nucleus and activate transcription of genes for pro-inflammatory cytokines (TNF-alpha, IL-1, IL-6), chemokines, adhesion molecules, and antimicrobial mediators."
+        },
+        {
+          "id": "immune-ps1-q4",
+          "stem": "Neutrophils are recruited to sites of infection primarily through:",
+          "options": ["A. Random migration through all tissues", "B. Chemotaxis guided by chemokines and complement fragments, combined with selectin and integrin-mediated adhesion to activated endothelium", "C. Direct neural signaling from the brain", "D. Passive diffusion through capillary walls"],
+          "correct": 1,
+          "explanation": "Neutrophil recruitment is a multi-step process. Pro-inflammatory cytokines activate endothelial cells to express selectins (E-selectin, P-selectin) that capture rolling neutrophils. Chemokines displayed on the endothelial surface activate integrins on neutrophils, causing firm adhesion. Neutrophils then migrate through the endothelium (diapedesis) and follow chemokine gradients and complement fragments (C5a) to the site of infection."
+        },
+        {
+          "id": "immune-ps1-q5",
+          "stem": "Fever induced by pro-inflammatory cytokines (IL-1, IL-6, TNF-alpha) is generated through:",
+          "options": ["A. Direct heating of blood by activated macrophages", "B. Cytokine-induced prostaglandin E2 (PGE2) production in the hypothalamus, which raises the thermoregulatory set point", "C. Increased metabolic activity in skeletal muscle only", "D. Vasodilation of skin blood vessels"],
+          "correct": 1,
+          "explanation": "Circulating pyrogens (IL-1, IL-6, TNF-alpha) act on the hypothalamic thermoregulatory center, stimulating cyclooxygenase-2 (COX-2) to produce prostaglandin E2 (PGE2). PGE2 raises the temperature set point, causing the body to initiate heat-generating responses (shivering, vasoconstriction) until body temperature matches the new set point. This is why antipyretics like aspirin and ibuprofen work by inhibiting COX enzymes."
+        }
+      ]
+    },
+    {
+      "id": "immune-ps2",
+      "passage": "The complement system consists of over 30 plasma proteins that function as an enzymatic cascade, activated through three pathways that converge on the formation of C3 convertase. The classical pathway is initiated by C1q binding to antigen-antibody complexes (IgG or IgM). The lectin pathway is activated when mannose-binding lectin (MBL) binds mannose residues on pathogen surfaces. The alternative pathway is constitutively active at a low level through spontaneous hydrolysis of C3 (tick-over mechanism) and is amplified on pathogen surfaces that lack complement regulatory proteins. All three pathways generate C3 convertase, which cleaves C3 into C3a (an anaphylatoxin promoting inflammation) and C3b (an opsonin that coats pathogens). C3b also participates in forming C5 convertase, generating C5a (a potent chemotactic factor and anaphylatoxin) and C5b, which initiates the assembly of the membrane attack complex (MAC, C5b-C9). The MAC creates pores in the pathogen membrane, causing osmotic lysis. Host cells are protected from complement by regulatory proteins including decay-accelerating factor (DAF/CD55) and membrane cofactor protein (MCP/CD46).",
+      "questions": [
+        {
+          "id": "immune-ps2-q1",
+          "stem": "The classical pathway of complement activation links innate and adaptive immunity because:",
+          "options": ["A. It is activated by mannose on pathogen surfaces", "B. It requires antibodies (IgG or IgM) bound to antigen, connecting adaptive antibody responses to innate effector mechanisms", "C. It functions independently of any other immune components", "D. It is only active in neonates before adaptive immunity develops"],
+          "correct": 1,
+          "explanation": "The classical pathway is initiated when C1q binds to the Fc regions of IgG or IgM antibodies complexed with antigen. This directly links the adaptive immune response (antibody production by B cells) to the effector functions of the innate complement system (opsonization, inflammation, and lysis). Without antibodies, the classical pathway cannot be activated."
+        },
+        {
+          "id": "immune-ps2-q2",
+          "stem": "C3b functions as an opsonin, meaning it:",
+          "options": ["A. Directly lyses pathogens", "B. Coats pathogen surfaces, enhancing phagocytosis by macrophages and neutrophils that express complement receptors", "C. Neutralizes toxins in the bloodstream", "D. Activates T cells directly"],
+          "correct": 1,
+          "explanation": "Opsonization is the process of coating a pathogen with molecules that enhance recognition and engulfment by phagocytes. C3b binds covalently to pathogen surfaces, and phagocytes expressing complement receptor 1 (CR1) recognize C3b-coated particles. This dramatically increases the efficiency of phagocytosis, particularly for encapsulated bacteria that might otherwise resist direct phagocyte contact."
+        },
+        {
+          "id": "immune-ps2-q3",
+          "stem": "Host cells are protected from complement-mediated damage by:",
+          "options": ["A. The absence of any C3 in host tissues", "B. Membrane-bound regulatory proteins such as DAF and MCP that inactivate complement components deposited on self surfaces", "C. Constant antibody coating that blocks complement binding", "D. Producing their own MAC to counteract complement"],
+          "correct": 1,
+          "explanation": "Host cells express complement regulatory proteins on their surfaces. DAF (CD55) accelerates the decay of C3 and C5 convertases formed on host cell membranes, while MCP (CD46) serves as a cofactor for Factor I-mediated cleavage of C3b. These regulators ensure that complement activation on host cell surfaces is rapidly terminated, while pathogen surfaces that lack these regulators allow complement amplification."
+        },
+        {
+          "id": "immune-ps2-q4",
+          "stem": "The membrane attack complex (MAC) kills target cells by:",
+          "options": ["A. Triggering apoptosis through caspase activation", "B. Creating transmembrane pores (composed of C5b-C9 polymerization) that disrupt osmotic balance and cause cell lysis", "C. Inhibiting protein synthesis within the target cell", "D. Activating intracellular DNases"],
+          "correct": 1,
+          "explanation": "The MAC is assembled when C5b sequentially recruits C6, C7, C8, and multiple C9 molecules. The C9 molecules polymerize to form a pore-like structure that inserts through the target cell's lipid bilayer. These pores allow uncontrolled ion and water flux, destroying the cell's osmotic gradient and ultimately causing lysis. The MAC is most effective against Gram-negative bacteria with thin cell walls."
+        },
+        {
+          "id": "immune-ps2-q5",
+          "stem": "The alternative pathway's tick-over mechanism is significant because it:",
+          "options": ["A. Requires antibodies to initiate", "B. Provides constant low-level surveillance by spontaneously depositing C3b on all surfaces, but amplifying only on surfaces lacking host regulatory proteins", "C. Is only activated during viral infections", "D. Functions exclusively in the liver"],
+          "correct": 1,
+          "explanation": "The alternative pathway maintains a low level of C3 hydrolysis that deposits C3b on all nearby surfaces. On host cells, regulatory proteins (DAF, MCP, Factor H) rapidly inactivate this C3b. On pathogen surfaces lacking these regulators, deposited C3b can bind Factor B and form C3 convertase, initiating a powerful amplification loop. This provides immediate, antibody-independent defense against pathogens."
+        }
+      ]
+    },
+    {
+      "id": "immune-ps3",
+      "passage": "T cell development occurs in the thymus through a stringent selection process that ensures self-MHC restriction and self-tolerance. Immature T cells (thymocytes) entering the thymus are double-negative (CD4-CD8-) and rearrange their T cell receptor (TCR) genes. Successful TCR rearrangement leads to the double-positive (CD4+CD8+) stage. Positive selection in the thymic cortex tests whether the TCR can interact with self-MHC molecules presented by cortical epithelial cells. Thymocytes that bind self-MHC with sufficient affinity survive; those that fail undergo apoptosis (death by neglect). Thymocytes that interact with MHC class I become CD8+ cytotoxic T cells, while those interacting with MHC class II become CD4+ helper T cells. Negative selection in the thymic medulla eliminates T cells whose TCRs bind self-peptide-MHC complexes with high affinity, removing potentially self-reactive cells. This process involves medullary thymic epithelial cells expressing the AIRE (autoimmune regulator) protein, which drives expression of tissue-specific antigens in the thymus. Approximately 95-98% of thymocytes die during selection, with only 2-5% emerging as mature, self-tolerant T cells.",
+      "questions": [
+        {
+          "id": "immune-ps3-q1",
+          "stem": "Positive selection ensures that mature T cells can:",
+          "options": ["A. Recognize any foreign antigen without MHC", "B. Interact with self-MHC molecules, which is necessary for recognizing antigen presented on host cell surfaces", "C. Bind directly to free-floating antigens in the blood", "D. Produce antibodies against pathogens"],
+          "correct": 1,
+          "explanation": "Positive selection tests whether the thymocyte's TCR can productively engage self-MHC molecules. This is essential because mature T cells must recognize antigens only when presented by self-MHC molecules on host cells (MHC restriction). Thymocytes that cannot interact with self-MHC at all would be useless, as they could never recognize antigen-presenting cells in the periphery."
+        },
+        {
+          "id": "immune-ps3-q2",
+          "stem": "The AIRE protein is critical for preventing autoimmunity because it:",
+          "options": ["A. Inhibits T cell receptor gene rearrangement", "B. Enables medullary thymic epithelial cells to express tissue-specific antigens, allowing negative selection of T cells reactive to those self-antigens", "C. Directly kills autoreactive T cells through cytotoxic mechanisms", "D. Promotes the development of all T cells regardless of their specificity"],
+          "correct": 1,
+          "explanation": "AIRE drives the ectopic expression of peripheral tissue-specific antigens (such as insulin, thyroglobulin, and myelin proteins) in medullary thymic epithelial cells. This allows the thymus to test developing T cells against a wide repertoire of self-antigens. Thymocytes that bind these self-peptide-MHC complexes with high affinity are eliminated by negative selection. AIRE mutations cause autoimmune polyendocrinopathy syndrome."
+        },
+        {
+          "id": "immune-ps3-q3",
+          "stem": "A thymocyte that binds self-MHC class I during positive selection will become:",
+          "options": ["A. A CD4+ helper T cell", "B. A CD8+ cytotoxic T cell", "C. A natural killer cell", "D. A regulatory T cell"],
+          "correct": 1,
+          "explanation": "During positive selection, thymocytes that interact productively with MHC class I downregulate CD4 and retain CD8, becoming CD8+ single-positive T cells. These cells will mature into cytotoxic T lymphocytes (CTLs) that recognize intracellular antigens (such as viral proteins) presented by MHC class I on nucleated cells. The co-receptor (CD4 or CD8) determines MHC restriction."
+        },
+        {
+          "id": "immune-ps3-q4",
+          "stem": "The high rate of thymocyte death (95-98%) during selection reflects:",
+          "options": ["A. The inefficiency of the immune system", "B. The stringent dual requirements that T cells must recognize self-MHC (positive selection) but not react too strongly to self-antigens (negative selection)", "C. Pathogen-induced killing of thymocytes", "D. Nutrient deficiency in the thymus"],
+          "correct": 1,
+          "explanation": "The massive thymocyte attrition reflects the narrow window of acceptable TCR binding affinity. T cells must bind self-MHC with enough affinity to be functional (passing positive selection) but not bind self-peptide-MHC so strongly as to be autoreactive (passing negative selection). Most randomly generated TCRs fail one or both of these stringent tests, resulting in death by neglect or clonal deletion."
+        },
+        {
+          "id": "immune-ps3-q5",
+          "stem": "MHC class I molecules present antigens to CD8+ T cells and are found on:",
+          "options": ["A. Only professional antigen-presenting cells", "B. All nucleated cells", "C. Only red blood cells", "D. Only thymic epithelial cells"],
+          "correct": 1,
+          "explanation": "MHC class I molecules are expressed on virtually all nucleated cells in the body. This allows CD8+ cytotoxic T cells to survey any cell for the presence of intracellular pathogens (especially viruses). Cells that display foreign peptides on MHC class I are targeted for killing. Red blood cells are notable for lacking MHC class I expression. MHC class II, in contrast, is restricted primarily to professional antigen-presenting cells."
+        }
+      ]
+    },
+    {
+      "id": "immune-ps4",
+      "passage": "B cell activation and antibody production are central to humoral immunity. B cells express surface immunoglobulin (the B cell receptor, BCR) that binds native antigen directly without MHC presentation. In T-dependent B cell activation, the B cell internalizes antigen bound to its BCR, processes it, and presents peptide fragments on MHC class II to cognate CD4+ T helper cells. The T cell provides co-stimulatory signals (CD40L binding CD40 on the B cell) and cytokines that drive B cell proliferation, class switching, somatic hypermutation, and differentiation into plasma cells and memory B cells. Class switch recombination (CSR) changes the antibody isotype from IgM to IgG, IgA, or IgE by recombining the constant region genes while preserving antigen specificity. Somatic hypermutation introduces point mutations into the variable regions, and B cells with higher-affinity BCRs are preferentially selected in germinal centers (affinity maturation). IgG is the predominant serum antibody and the only class that crosses the placenta. IgA is the predominant mucosal antibody. IgE mediates type I hypersensitivity reactions by binding FcepsilonRI on mast cells and basophils.",
+      "questions": [
+        {
+          "id": "immune-ps4-q1",
+          "stem": "B cell receptors differ from T cell receptors in their antigen recognition because BCRs:",
+          "options": ["A. Can only recognize processed peptide antigens on MHC", "B. Can bind native (unprocessed) antigens directly in their three-dimensional conformation", "C. Do not have variable regions", "D. Are always membrane-bound and never secreted"],
+          "correct": 1,
+          "explanation": "BCRs (surface immunoglobulins) recognize and bind intact, native antigens in their three-dimensional conformation, including proteins, carbohydrates, lipids, and nucleic acids. This contrasts with TCRs, which can only recognize short linear peptide fragments presented in the groove of MHC molecules. When B cells are activated, they can secrete soluble forms of their BCR as antibodies."
+        },
+        {
+          "id": "immune-ps4-q2",
+          "stem": "The CD40-CD40L interaction between B cells and T helper cells is critical because:",
+          "options": ["A. It allows the T cell to kill the B cell", "B. It provides the co-stimulatory signal necessary for class switch recombination, somatic hypermutation, and germinal center formation", "C. It inhibits B cell proliferation", "D. It causes the B cell to present antigen on MHC class I"],
+          "correct": 1,
+          "explanation": "CD40L (CD154) on activated T helper cells binds CD40 on B cells, delivering an essential co-stimulatory signal. This interaction is required for germinal center formation, class switch recombination from IgM to other isotypes, somatic hypermutation and affinity maturation, and differentiation into long-lived plasma cells and memory B cells. Deficiency of CD40L causes hyper-IgM syndrome."
+        },
+        {
+          "id": "immune-ps4-q3",
+          "stem": "Affinity maturation occurs through the combined processes of:",
+          "options": ["A. Negative selection in the thymus and MHC restriction", "B. Somatic hypermutation in germinal center B cells followed by selection of high-affinity clones", "C. V(D)J recombination in the bone marrow", "D. Complement activation and opsonization"],
+          "correct": 1,
+          "explanation": "Affinity maturation occurs in germinal centers within secondary lymphoid organs. The enzyme activation-induced cytidine deaminase (AID) introduces random point mutations into the variable region genes of B cell immunoglobulin (somatic hypermutation). B cells with mutations that improve antigen binding affinity are selected by competing for limited antigen on follicular dendritic cells. Those with lower affinity undergo apoptosis."
+        },
+        {
+          "id": "immune-ps4-q4",
+          "stem": "IgG is the only antibody class that crosses the placenta. This is mediated by:",
+          "options": ["A. Passive diffusion due to its small molecular weight", "B. The neonatal Fc receptor (FcRn) on placental trophoblasts that specifically binds IgG Fc regions and transports it via transcytosis", "C. Active secretion by fetal B cells", "D. Complement-mediated transport"],
+          "correct": 1,
+          "explanation": "The neonatal Fc receptor (FcRn) is expressed on syncytiotrophoblast cells of the placenta and specifically binds the Fc region of IgG antibodies at acidic pH in endosomes. After transcytosis to the fetal side, IgG is released at physiologic pH into the fetal circulation. This provides passive immunity to the newborn, who has limited ability to produce its own antibodies in early life."
+        },
+        {
+          "id": "immune-ps4-q5",
+          "stem": "In class switch recombination, the antibody changes its:",
+          "options": ["A. Antigen specificity by altering the variable region", "B. Heavy chain constant region (and thus isotype and effector function) while maintaining the same antigen specificity", "C. Light chain type from kappa to lambda", "D. Affinity for antigen through point mutations"],
+          "correct": 1,
+          "explanation": "Class switch recombination changes the constant region of the heavy chain from mu (IgM) to gamma (IgG), alpha (IgA), or epsilon (IgE) by recombining switch regions flanking the constant region genes. The variable region (which determines antigen specificity) remains unchanged. Different isotypes have different effector functions: IgG fixes complement and opsonizes, IgA protects mucosal surfaces, and IgE mediates allergic responses."
+        }
+      ]
+    },
+    {
+      "id": "immune-ps5",
+      "passage": "CD4+ T helper cells differentiate into several functional subsets that orchestrate different types of immune responses. Th1 cells, induced by IL-12 and IFN-gamma, produce IFN-gamma and TNF-beta, promoting macrophage activation and cell-mediated immunity against intracellular pathogens. Th2 cells, induced by IL-4, produce IL-4, IL-5, and IL-13, promoting B cell class switching to IgE, eosinophil activation, and defense against helminths (parasitic worms). Th17 cells, induced by IL-6 and TGF-beta, produce IL-17 and IL-22, promoting neutrophil recruitment and mucosal immunity against extracellular bacteria and fungi. Regulatory T cells (Tregs), characterized by the transcription factor FoxP3, produce IL-10 and TGF-beta, which suppress immune responses and maintain self-tolerance. Dysregulation of T helper subsets is associated with disease: excessive Th1 responses contribute to organ-specific autoimmunity, excessive Th2 responses contribute to allergy and asthma, defective Th17 responses increase susceptibility to mucocutaneous candidiasis, and Treg dysfunction leads to autoimmune disease.",
+      "questions": [
+        {
+          "id": "immune-ps5-q1",
+          "stem": "A patient with a deficiency in Th1 responses would be most susceptible to:",
+          "options": ["A. Helminth infections", "B. Allergic reactions", "C. Intracellular pathogens such as Mycobacterium tuberculosis", "D. Extracellular bacterial infections"],
+          "correct": 2,
+          "explanation": "Th1 cells produce IFN-gamma, which is the primary activator of macrophages for killing intracellular pathogens. IFN-gamma activates the macrophage's microbicidal mechanisms, including reactive oxygen species and nitric oxide production. Without Th1 responses, macrophages cannot effectively kill organisms like Mycobacterium tuberculosis, Leishmania, and other intracellular pathogens."
+        },
+        {
+          "id": "immune-ps5-q2",
+          "stem": "The Th2 response promotes defense against helminths through all of the following EXCEPT:",
+          "options": ["A. IL-4-driven IgE class switching in B cells", "B. IL-5-mediated eosinophil activation", "C. IFN-gamma-mediated macrophage activation", "D. IL-13-induced mucus production and smooth muscle contraction"],
+          "correct": 2,
+          "explanation": "IFN-gamma-mediated macrophage activation is a Th1, not Th2, effector mechanism. Th2 responses combat helminths through IgE (which binds helminths and triggers antibody-dependent cell cytotoxicity by eosinophils), direct eosinophil activation via IL-5, and mucus secretion and increased intestinal peristalsis via IL-13 to physically expel worms. Th1 and Th2 responses are cross-regulatory."
+        },
+        {
+          "id": "immune-ps5-q3",
+          "stem": "FoxP3+ regulatory T cells are essential for preventing autoimmunity because they:",
+          "options": ["A. Kill all autoreactive T cells through direct cytotoxicity", "B. Produce immunosuppressive cytokines (IL-10, TGF-beta) that dampen effector T cell responses and maintain peripheral tolerance", "C. Prevent all T cell activation regardless of antigen", "D. Function only in the thymus during development"],
+          "correct": 1,
+          "explanation": "Tregs maintain immune homeostasis by suppressing excessive and self-reactive immune responses through multiple mechanisms. They produce suppressive cytokines IL-10 and TGF-beta, compete with effector T cells for IL-2 (via high-affinity CD25 expression), and directly inhibit dendritic cell function. Loss of FoxP3 function in humans causes IPEX syndrome, characterized by severe multi-organ autoimmunity."
+        },
+        {
+          "id": "immune-ps5-q4",
+          "stem": "The Th1/Th2 balance is clinically important because:",
+          "options": ["A. Th1 and Th2 cells have identical functions", "B. Each subset produces cytokines that cross-inhibit the other, and imbalance leads to different disease patterns", "C. Both subsets always work together synergistically", "D. Neither subset affects the adaptive immune response"],
+          "correct": 1,
+          "explanation": "Th1 and Th2 responses are mutually antagonistic. IFN-gamma (from Th1 cells) inhibits Th2 differentiation, while IL-4 (from Th2 cells) inhibits Th1 development. A shift toward Th1 dominance promotes cell-mediated immunity but can cause autoimmune inflammation, while Th2 dominance promotes humoral/allergic responses and susceptibility to intracellular infections. This balance determines the nature of immune responses to pathogens."
+        },
+        {
+          "id": "immune-ps5-q5",
+          "stem": "A patient with mucocutaneous candidiasis would most likely have a defect in:",
+          "options": ["A. Th1 cell function", "B. Th2 cell function", "C. Th17 cell function", "D. B cell antibody production"],
+          "correct": 2,
+          "explanation": "Th17 cells are critical for defense against extracellular fungi (particularly Candida) and extracellular bacteria at mucosal surfaces. They produce IL-17, which recruits neutrophils and stimulates epithelial cells to produce antimicrobial peptides. Defects in Th17 differentiation or IL-17 signaling lead to chronic mucocutaneous candidiasis, demonstrating the non-redundant role of Th17 cells in antifungal immunity."
+        }
+      ]
+    },
+    {
+      "id": "immune-ps6",
+      "passage": "Major histocompatibility complex (MHC) molecules are cell-surface glycoproteins essential for T cell antigen recognition. MHC class I molecules, composed of an alpha chain and beta-2 microglobulin, are expressed on all nucleated cells and present endogenously synthesized peptides (8-10 amino acids) derived from proteasomal degradation of cytosolic proteins. Peptides are loaded onto MHC class I in the endoplasmic reticulum after transport by the TAP (transporter associated with antigen processing) complex. MHC class II molecules, composed of alpha and beta chains, are expressed primarily on professional antigen-presenting cells (dendritic cells, macrophages, B cells) and present exogenous peptides (13-25 amino acids) derived from endosomal/lysosomal processing of endocytosed proteins. MHC class II molecules are assembled in the ER with invariant chain (Ii) blocking the peptide-binding groove to prevent premature peptide loading. In the endosome, Ii is degraded to CLIP, which is then exchanged for antigenic peptide by HLA-DM. MHC genes are the most polymorphic in the human genome, and this diversity ensures that populations can present a wide variety of pathogen-derived peptides.",
+      "questions": [
+        {
+          "id": "immune-ps6-q1",
+          "stem": "The TAP complex is essential for MHC class I antigen presentation because it:",
+          "options": ["A. Degrades proteins in the cytoplasm", "B. Transports proteasome-generated peptides from the cytosol into the ER lumen for loading onto MHC class I molecules", "C. Assembles MHC class II molecules in the endosome", "D. Presents antigens directly to T cells on the cell surface"],
+          "correct": 1,
+          "explanation": "The TAP transporter is a heterodimeric ABC transporter (TAP1/TAP2) embedded in the ER membrane. It actively transports peptides generated by the proteasome in the cytosol into the ER lumen, where they can be loaded onto newly synthesized MHC class I molecules. Deficiency of TAP results in bare lymphocyte syndrome type I, with severely reduced MHC class I surface expression."
+        },
+        {
+          "id": "immune-ps6-q2",
+          "stem": "The invariant chain (Ii) associated with MHC class II molecules in the ER serves to:",
+          "options": ["A. Present antigen directly to CD8+ T cells", "B. Block the peptide-binding groove of MHC class II, preventing premature loading with ER-resident peptides", "C. Target MHC class II molecules for degradation", "D. Activate complement on the cell surface"],
+          "correct": 1,
+          "explanation": "The invariant chain (Ii) binds the peptide groove of MHC class II molecules during assembly in the ER, preventing endogenous ER peptides from binding. It also directs trafficking of MHC class II molecules from the ER through the Golgi to endosomal/lysosomal compartments where exogenous antigens have been processed. In these compartments, Ii is proteolytically degraded, leaving the CLIP fragment, which is exchanged for antigenic peptide."
+        },
+        {
+          "id": "immune-ps6-q3",
+          "stem": "MHC polymorphism is advantageous for species survival because:",
+          "options": ["A. It ensures all individuals respond identically to the same pathogen", "B. It increases the diversity of peptides that can be presented across a population, reducing the chance that a pathogen can evade immune detection in all individuals", "C. It prevents organ transplantation", "D. It eliminates the need for T cell selection in the thymus"],
+          "correct": 1,
+          "explanation": "MHC polymorphism means different individuals in a population have different MHC alleles that bind and present different sets of peptides. This diversity ensures that virtually any pathogen peptide can be presented by at least some individuals' MHC molecules, making it very unlikely that a single pathogen could evade the immune response of an entire population. This is a major driver of MHC evolution."
+        },
+        {
+          "id": "immune-ps6-q4",
+          "stem": "Cross-presentation is the process by which:",
+          "options": ["A. B cells present antigen to CD8+ T cells", "B. Dendritic cells present exogenous antigens on MHC class I, enabling CD8+ T cell activation against extracellular pathogens or tumor cells", "C. T cells present antigen to other T cells", "D. MHC class II molecules present endogenous antigens"],
+          "correct": 1,
+          "explanation": "Cross-presentation is a specialized pathway used primarily by dendritic cells to load exogenous antigens onto MHC class I molecules, rather than the default MHC class II pathway for endocytosed antigens. This is critical for initiating CD8+ T cell responses against viruses that do not directly infect dendritic cells, and against tumor antigens from cells that are not professional APCs."
+        },
+        {
+          "id": "immune-ps6-q5",
+          "stem": "A virus that downregulates MHC class I expression to evade CD8+ T cell recognition would still be susceptible to killing by:",
+          "options": ["A. CD4+ T helper cells", "B. Natural killer (NK) cells, which kill cells with absent or reduced MHC class I expression", "C. Regulatory T cells", "D. Eosinophils"],
+          "correct": 1,
+          "explanation": "NK cells express inhibitory receptors (killer immunoglobulin-like receptors, KIR) that recognize self-MHC class I. Normal cells with adequate MHC class I expression deliver inhibitory signals that prevent NK cell killing. When viruses downregulate MHC class I to escape CD8+ T cell detection, the loss of inhibitory signaling activates NK cells to kill the infected cell (missing-self hypothesis)."
+        }
+      ]
+    },
+    {
+      "id": "immune-ps7",
+      "passage": "Vaccination exploits immunological memory to provide long-lasting protection against infectious diseases. Primary immune responses are slow (7-10 days to produce antibodies) and generate predominantly low-affinity IgM. Upon re-exposure to the same antigen, memory B and T cells mount a secondary response that is faster (1-3 days), stronger (10-100 fold higher antibody titers), longer-lasting, and dominated by high-affinity IgG due to prior class switching and affinity maturation. Vaccine types include live attenuated vaccines (weakened pathogens that replicate and elicit strong immune responses), inactivated/killed vaccines (non-replicating pathogens requiring boosters), subunit/recombinant vaccines (purified protein antigens), toxoid vaccines (inactivated toxins), conjugate vaccines (polysaccharide antigens linked to protein carriers to elicit T-dependent responses), and mRNA vaccines (encoding pathogen proteins for in situ expression). Adjuvants such as aluminum salts enhance immune responses to non-live vaccines by prolonging antigen exposure, activating innate immune cells, and promoting T cell help. Herd immunity occurs when a sufficient proportion of the population is immune, reducing pathogen transmission and protecting unvaccinated individuals.",
+      "questions": [
+        {
+          "id": "immune-ps7-q1",
+          "stem": "The secondary immune response produces higher-affinity IgG compared to the primary response because:",
+          "options": ["A. Memory B cells have already undergone class switching and affinity maturation in germinal centers", "B. The pathogen mutates to become more immunogenic", "C. T cells are not involved in secondary responses", "D. IgM is converted directly to IgG in the serum"],
+          "correct": 0,
+          "explanation": "During the primary response, B cells in germinal centers undergo somatic hypermutation and affinity maturation, producing memory B cells with higher-affinity BCRs. These memory B cells have also already undergone class switch recombination to IgG. Upon re-exposure, they rapidly differentiate into plasma cells secreting high-affinity IgG, without needing to repeat the maturation process."
+        },
+        {
+          "id": "immune-ps7-q2",
+          "stem": "Conjugate vaccines were developed to address the limitation that:",
+          "options": ["A. Protein antigens are poorly immunogenic", "B. Polysaccharide antigens alone elicit T-independent responses that produce mainly IgM without immunological memory, particularly in young children", "C. All vaccines require live pathogens to be effective", "D. Polysaccharides cannot be purified from pathogens"],
+          "correct": 1,
+          "explanation": "Polysaccharide antigens (such as bacterial capsules) are T-independent antigens that activate B cells without T cell help. This produces mainly IgM with no class switching, affinity maturation, or memory cell formation. By covalently linking the polysaccharide to a protein carrier, the vaccine enables T-dependent B cell activation, resulting in IgG production and long-lasting memory. This is especially important for children under 2, whose immune systems respond poorly to polysaccharides alone."
+        },
+        {
+          "id": "immune-ps7-q3",
+          "stem": "Adjuvants are added to non-live vaccines because:",
+          "options": ["A. They contain the pathogen that causes disease", "B. Non-live vaccines lack the PAMPs and replicative capacity of live vaccines, so adjuvants compensate by activating innate immune signals that enhance the adaptive response", "C. They directly produce antibodies", "D. They replace the need for memory cells"],
+          "correct": 1,
+          "explanation": "Live attenuated vaccines naturally activate strong innate immune responses through their PAMPs and limited replication, providing danger signals that enhance adaptive immunity. Non-live vaccines (inactivated, subunit, toxoid) lack these properties. Adjuvants like aluminum salts activate dendritic cells, create a depot effect that prolongs antigen presentation, and promote cytokine production, thereby enhancing the magnitude and duration of the adaptive immune response."
+        },
+        {
+          "id": "immune-ps7-q4",
+          "stem": "Herd immunity protects unvaccinated individuals by:",
+          "options": ["A. Directly providing antibodies to unvaccinated people", "B. Reducing the number of susceptible hosts below the threshold needed for sustained pathogen transmission in the population", "C. Eliminating the pathogen from the environment completely", "D. Increasing the virulence of the pathogen so it kills itself"],
+          "correct": 1,
+          "explanation": "When a sufficient proportion of the population is immune (through vaccination or natural infection), the probability that a susceptible individual encounters an infectious person decreases dramatically. The pathogen cannot sustain chains of transmission, and outbreaks are contained. This indirectly protects those who cannot be vaccinated, such as immunocompromised individuals and young infants. The threshold for herd immunity varies by pathogen."
+        },
+        {
+          "id": "immune-ps7-q5",
+          "stem": "mRNA vaccines work by:",
+          "options": ["A. Integrating mRNA into the host genome to permanently produce antigen", "B. Delivering mRNA that is translated by host cells into pathogen proteins, which are then processed and presented to the immune system", "C. Directly providing preformed antibodies for passive immunity", "D. Introducing live attenuated virus into the host"],
+          "correct": 1,
+          "explanation": "mRNA vaccines deliver synthetic mRNA encoding a pathogen antigen (such as the SARS-CoV-2 spike protein) encapsulated in lipid nanoparticles. Host cells take up the mRNA and translate it using their own ribosomes, producing the antigen protein. This protein is then processed and presented on MHC molecules, activating both humoral and cellular immune responses. The mRNA is degraded within days and does not integrate into DNA."
+        }
+      ]
+    },
+    {
+      "id": "immune-ps8",
+      "passage": "Type I hypersensitivity (immediate or allergic hypersensitivity) involves IgE-mediated mast cell and basophil degranulation. During sensitization, initial exposure to an allergen stimulates Th2 cells to produce IL-4, which drives B cell class switching to IgE. The IgE binds to high-affinity FcepsilonRI receptors on mast cell and basophil surfaces. Upon re-exposure, the allergen cross-links surface-bound IgE, triggering rapid degranulation and release of preformed mediators (histamine, tryptase, heparin) and newly synthesized mediators (leukotrienes, prostaglandins, platelet-activating factor). Histamine causes vasodilation, increased vascular permeability, and bronchoconstriction. Leukotrienes C4, D4, and E4 are potent bronchoconstrictors and are responsible for the late-phase reaction occurring 4-8 hours after initial symptoms. Systemic anaphylaxis involves widespread mast cell degranulation causing severe hypotension (from massive vasodilation and fluid extravasation), bronchospasm, and potential cardiovascular collapse. Epinephrine is the first-line treatment because it stimulates alpha-1 receptors (vasoconstriction), beta-1 receptors (increased cardiac contractility), and beta-2 receptors (bronchodilation), directly counteracting the pathophysiology.",
+      "questions": [
+        {
+          "id": "immune-ps8-q1",
+          "stem": "Cross-linking of surface-bound IgE by multivalent allergen is required for mast cell degranulation because:",
+          "options": ["A. Single IgE-allergen binding provides sufficient signal", "B. Cross-linking aggregates FcepsilonRI receptors, activating intracellular tyrosine kinase signaling cascades that trigger degranulation", "C. The allergen must directly enter the mast cell", "D. Cross-linking destroys the IgE molecule"],
+          "correct": 1,
+          "explanation": "Mast cell activation requires aggregation of multiple FcepsilonRI receptors, which occurs when a multivalent allergen bridges two or more surface-bound IgE molecules. This receptor clustering activates the intracellular tyrosine kinases Lyn and Syk, initiating signaling cascades that lead to calcium influx, degranulation, and de novo synthesis of lipid mediators and cytokines. Monovalent antigen binding does not trigger this response."
+        },
+        {
+          "id": "immune-ps8-q2",
+          "stem": "The late-phase reaction in type I hypersensitivity is primarily mediated by:",
+          "options": ["A. Preformed histamine released during initial degranulation", "B. Newly synthesized leukotrienes and prostaglandins, along with recruited eosinophils and inflammatory cells", "C. IgG antibodies", "D. Complement-mediated cell lysis"],
+          "correct": 1,
+          "explanation": "The late-phase reaction (occurring 4-8 hours after allergen exposure) is driven by newly synthesized lipid mediators (leukotrienes C4/D4/E4, prostaglandin D2) and cytokines (IL-4, IL-5, TNF-alpha) produced by activated mast cells. These mediators recruit eosinophils, basophils, and Th2 cells to the site, causing a second wave of inflammation that can persist for hours to days and contribute to chronic allergic inflammation."
+        },
+        {
+          "id": "immune-ps8-q3",
+          "stem": "Epinephrine is the first-line treatment for anaphylaxis rather than antihistamines because:",
+          "options": ["A. Antihistamines are more effective at treating hypotension", "B. Epinephrine directly reverses the life-threatening cardiovascular and respiratory effects through alpha and beta receptor stimulation, while antihistamines only block one of many mediators", "C. Epinephrine stops IgE production", "D. Antihistamines cause anaphylaxis"],
+          "correct": 1,
+          "explanation": "Anaphylaxis involves multiple mediators beyond histamine, and antihistamines cannot reverse the severe hemodynamic compromise and bronchospasm. Epinephrine rapidly counteracts the pathophysiology through alpha-1-mediated vasoconstriction (reversing hypotension), beta-1-mediated increased cardiac output, and beta-2-mediated bronchodilation. It also inhibits further mast cell degranulation. This multi-target approach makes it uniquely effective in this life-threatening emergency."
+        },
+        {
+          "id": "immune-ps8-q4",
+          "stem": "A patient who has never been exposed to an allergen would NOT experience an allergic reaction upon first exposure because:",
+          "options": ["A. The allergen is not immunogenic on first exposure", "B. Sensitization requires initial IgE production and binding to mast cells, which is not present before first exposure", "C. Mast cells are not present in unsensitized individuals", "D. T cells cannot recognize allergens"],
+          "correct": 1,
+          "explanation": "Type I hypersensitivity requires a sensitization phase during which initial allergen exposure activates Th2 cells, drives IgE class switching, and allows IgE to bind FcepsilonRI on mast cells. Only upon subsequent re-exposure can the allergen cross-link surface-bound IgE to trigger degranulation. The first exposure generates the allergen-specific IgE but does not cause clinical symptoms because the IgE has not yet bound to mast cells in sufficient quantities."
+        },
+        {
+          "id": "immune-ps8-q5",
+          "stem": "Leukotriene receptor antagonists (e.g., montelukast) are used in asthma management because leukotrienes:",
+          "options": ["A. Are the primary cause of fever in asthma", "B. Are potent bronchoconstrictors and promoters of mucus secretion and eosinophil recruitment in the airways", "C. Directly kill airway epithelial cells", "D. Inhibit surfactant production in the alveoli"],
+          "correct": 1,
+          "explanation": "Leukotrienes C4, D4, and E4 (the cysteinyl leukotrienes) are synthesized from arachidonic acid via the 5-lipoxygenase pathway in mast cells and eosinophils. They are 1000 times more potent as bronchoconstrictors than histamine and also promote mucus hypersecretion, vascular permeability, and eosinophil recruitment. Blocking their receptors (CysLT1) with drugs like montelukast reduces these effects in both allergic and exercise-induced asthma."
+        }
+      ]
+    },
+    {
+      "id": "immune-ps9",
+      "passage": "Autoimmune diseases result from a breakdown of self-tolerance, where the immune system attacks the body's own tissues. Central tolerance mechanisms (thymic negative selection for T cells, bone marrow deletion for B cells) eliminate most strongly self-reactive lymphocytes, but some escape to the periphery. Peripheral tolerance mechanisms, including anergy (functional unresponsiveness from TCR engagement without co-stimulation), regulatory T cells, and activation-induced cell death, normally keep these cells in check. Autoimmunity can be organ-specific (e.g., type 1 diabetes targeting pancreatic beta cells, Hashimoto's thyroiditis targeting the thyroid) or systemic (e.g., systemic lupus erythematosus, SLE, targeting multiple organs through autoantibody-mediated mechanisms). Molecular mimicry, where pathogen antigens share structural similarity with self-antigens, can trigger autoimmune responses. For example, rheumatic fever following Group A Streptococcal infection involves antibodies against streptococcal M protein that cross-react with cardiac myosin. Genetic susceptibility, particularly certain HLA alleles, strongly influences autoimmune disease risk. Environmental triggers including infections, hormones, and microbiome composition also contribute.",
+      "questions": [
+        {
+          "id": "immune-ps9-q1",
+          "stem": "Anergy as a mechanism of peripheral tolerance means that a self-reactive T cell:",
+          "options": ["A. Is killed immediately upon encountering self-antigen", "B. Becomes functionally unresponsive because it receives TCR signal (signal 1) without the required co-stimulatory signal (signal 2)", "C. Proliferates but produces only anti-inflammatory cytokines", "D. Migrates to the thymus for re-education"],
+          "correct": 1,
+          "explanation": "T cell activation requires two signals: TCR engagement with peptide-MHC (signal 1) and co-stimulation through CD28-B7 interaction (signal 2). When a T cell encounters self-antigen on a cell that lacks co-stimulatory molecules (most non-professional APCs), it receives signal 1 without signal 2. Rather than becoming activated, the T cell enters a state of functional unresponsiveness (anergy) and cannot respond to the antigen even if proper co-stimulation is later provided."
+        },
+        {
+          "id": "immune-ps9-q2",
+          "stem": "Molecular mimicry in rheumatic fever illustrates how:",
+          "options": ["A. Bacteria directly invade cardiac tissue", "B. Immune responses generated against pathogen antigens cross-react with structurally similar self-antigens, causing autoimmune tissue damage", "C. The heart produces its own antibodies", "D. Streptococcal bacteria live permanently in the heart"],
+          "correct": 1,
+          "explanation": "In rheumatic fever, antibodies and T cells generated against Group A Streptococcal M protein cross-react with cardiac myosin and other heart tissue antigens due to structural similarity (molecular mimicry). The immune system cannot distinguish between the pathogen epitope and the self-epitope, leading to inflammatory damage to the heart valves, myocardium, and pericardium even after the infection has been cleared."
+        },
+        {
+          "id": "immune-ps9-q3",
+          "stem": "HLA alleles are strongly associated with autoimmune disease susceptibility because:",
+          "options": ["A. HLA genes control the rate of cell division", "B. Different HLA alleles present different sets of self-peptides, and some alleles may present self-peptides that activate autoreactive T cells more effectively", "C. HLA alleles determine blood type", "D. All HLA alleles cause autoimmunity"],
+          "correct": 1,
+          "explanation": "MHC (HLA in humans) molecules determine which peptides can be presented to T cells. Certain HLA alleles have binding grooves that can accommodate specific self-peptides in a way that mimics pathogen-derived peptides, facilitating activation of autoreactive T cells. For example, HLA-B27 is strongly associated with ankylosing spondylitis, and HLA-DR4 with rheumatoid arthritis. However, HLA alleles are risk factors, not deterministic causes."
+        },
+        {
+          "id": "immune-ps9-q4",
+          "stem": "In type 1 diabetes, the autoimmune destruction of pancreatic beta cells is primarily mediated by:",
+          "options": ["A. IgE antibodies and mast cells", "B. CD8+ cytotoxic T lymphocytes that recognize beta cell antigens presented on MHC class I", "C. Complement-mediated lysis without any lymphocyte involvement", "D. Natural killer cells responding to bacterial infection"],
+          "correct": 1,
+          "explanation": "Type 1 diabetes is primarily a T cell-mediated autoimmune disease. Autoreactive CD8+ cytotoxic T lymphocytes recognize beta cell antigens (such as insulin, GAD65, and IA-2) presented on MHC class I molecules on the beta cell surface. These CTLs directly kill the beta cells through perforin/granzyme pathways. CD4+ T cells and autoantibodies also contribute, but cellular immunity is the dominant effector mechanism."
+        },
+        {
+          "id": "immune-ps9-q5",
+          "stem": "Systemic lupus erythematosus (SLE) differs from organ-specific autoimmune diseases in that SLE:",
+          "options": ["A. Only affects the skin", "B. Involves autoantibodies against ubiquitous self-antigens (such as dsDNA and histones), forming immune complexes that deposit in multiple organs", "C. Is caused by a single autoreactive T cell clone", "D. Does not involve autoantibodies"],
+          "correct": 1,
+          "explanation": "SLE is characterized by autoantibodies against nuclear components (anti-dsDNA, anti-histone, anti-Smith) that are present in all cells. These autoantibodies form immune complexes with circulating nuclear antigens. The immune complexes deposit in multiple tissues including kidneys (lupus nephritis), joints, skin, and blood vessels, activating complement and causing type III hypersensitivity-mediated inflammation in diverse organs."
+        }
+      ]
+    },
+    {
+      "id": "immune-ps10",
+      "passage": "Cytotoxic T lymphocytes (CTLs, CD8+ T cells) and natural killer (NK) cells use similar mechanisms to kill target cells but are activated by different signals. CTLs recognize specific peptide-MHC class I complexes through their T cell receptor, requiring prior antigen-specific activation and clonal expansion. Once activated, CTLs kill target cells through two main pathways. The perforin/granzyme pathway involves exocytosis of cytotoxic granules containing perforin, which polymerizes in the target cell membrane to form pores, and granzymes (serine proteases) that enter through these pores and activate caspases, inducing apoptosis. The Fas/FasL pathway involves CTL expression of Fas ligand (FasL/CD95L), which binds Fas (CD95) on target cells, activating the extrinsic apoptotic pathway through caspase-8. NK cells, part of the innate immune system, do not require prior sensitization or antigen-specific receptors. They are regulated by a balance of activating receptors (NKG2D, which recognizes stress-induced ligands like MICA/MICB) and inhibitory receptors (KIR, which recognizes MHC class I). When activating signals exceed inhibitory signals, NK cells kill the target using the same perforin/granzyme mechanism.",
+      "questions": [
+        {
+          "id": "immune-ps10-q1",
+          "stem": "The perforin/granzyme pathway induces target cell death specifically through:",
+          "options": ["A. Necrosis caused by membrane rupture from perforin pores", "B. Apoptosis, as granzymes entering through perforin pores activate the caspase cascade", "C. Autophagy triggered by perforin binding to surface receptors", "D. Senescence of the target cell"],
+          "correct": 1,
+          "explanation": "While perforin creates pores in the target cell membrane, the primary killing mechanism is apoptosis, not necrotic lysis. Granzymes (particularly granzyme B) enter the target cell through perforin pores and directly activate caspases (especially caspase-3) and cleave the BH3-only protein Bid, triggering both the intrinsic and extrinsic apoptotic pathways. Apoptotic cell death is immunologically cleaner than necrosis."
+        },
+        {
+          "id": "immune-ps10-q2",
+          "stem": "NK cells kill virally infected cells that downregulate MHC class I because:",
+          "options": ["A. NK cells recognize viral antigens through specific receptors", "B. Loss of MHC class I removes the inhibitory signal from KIR receptors, allowing activating signals to predominate and trigger killing", "C. NK cells are activated by high MHC class I expression", "D. NK cells require T cell help to function"],
+          "correct": 1,
+          "explanation": "NK cell activity is determined by the balance between activating and inhibitory receptor signals. KIR receptors recognize MHC class I and deliver inhibitory signals that prevent NK cell killing. When virus-infected cells downregulate MHC class I (as an immune evasion strategy against CTLs), the inhibitory signals are lost. If activating receptor signals (from stress ligands) are present, the balance tips toward activation, and the NK cell kills the target."
+        },
+        {
+          "id": "immune-ps10-q3",
+          "stem": "The Fas/FasL pathway of CTL-mediated killing differs from perforin/granzyme in that:",
+          "options": ["A. It does not involve caspase activation", "B. It activates the extrinsic apoptotic pathway directly through death receptor signaling without requiring granule exocytosis", "C. It causes necrosis rather than apoptosis", "D. It only kills bacteria, not host cells"],
+          "correct": 1,
+          "explanation": "The Fas/FasL pathway activates apoptosis through the extrinsic (death receptor) pathway. FasL on the CTL binds Fas (CD95) on the target cell, recruiting the adaptor protein FADD, which activates caspase-8. This initiates the caspase cascade leading to apoptosis. Unlike the perforin/granzyme pathway, this does not require exocytosis of cytotoxic granules and can be used for repeated killing."
+        },
+        {
+          "id": "immune-ps10-q4",
+          "stem": "NKG2D on NK cells recognizes MICA and MICB, which are:",
+          "options": ["A. Normal proteins expressed on all healthy cells", "B. Stress-induced ligands upregulated on infected, transformed, or damaged cells", "C. Viral surface proteins", "D. Complement components"],
+          "correct": 1,
+          "explanation": "MICA and MICB are MHC class I-related proteins that are not normally expressed on healthy cells but are upregulated in response to cellular stress, DNA damage, viral infection, or malignant transformation. Their expression serves as a danger signal that activates NK cells (and some T cells) through the NKG2D activating receptor. This mechanism allows NK cells to detect and kill damaged or abnormal cells."
+        },
+        {
+          "id": "immune-ps10-q5",
+          "stem": "A key difference between CTL and NK cell killing is that CTLs:",
+          "options": ["A. Use the perforin/granzyme pathway while NK cells do not", "B. Require antigen-specific TCR recognition of peptide-MHC class I, while NK cells are activated by the balance of activating and inhibitory receptor signals", "C. Can only kill bacteria while NK cells kill viruses", "D. Do not require prior activation to kill targets"],
+          "correct": 1,
+          "explanation": "CTLs are adaptive immune cells that must undergo clonal selection, activation, and expansion in response to a specific antigen before they can kill. They recognize specific peptide-MHC class I complexes through their TCR. NK cells, as innate immune cells, do not have antigen-specific receptors and do not require prior sensitization. They are instead regulated by the integration of signals from germline-encoded activating and inhibitory receptors."
+        }
+      ]
+    }
+  ]
+}

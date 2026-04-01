@@ -1,0 +1,416 @@
+{
+  "subtopic": "Sociology & Social Structures",
+  "sectionId": "psych-soc",
+  "passageSets": [
+    {
+      "id": "soc-ps-001",
+      "passage": "A sociological study examined the relationship between social class and educational achievement across three generations of families in a mid-sized American city. Researchers followed 400 families over a 30-year period, tracking educational attainment, occupational status, income levels, and cultural practices. The study found that children from upper-middle-class families were 4.6 times more likely to obtain a bachelor's degree compared to children from working-class families, even after controlling for measured cognitive ability. Analysis revealed that class-based advantages operated through multiple mechanisms: upper-middle-class parents invested significantly more in educational enrichment activities (tutoring, extracurriculars, cultural events), engaged in a parenting style characterized by concerted cultivation (actively fostering children's talents through organized activities and institutional advocacy), and possessed greater cultural capital that facilitated navigation of educational institutions. Working-class parents more commonly employed a natural growth approach, providing basic needs and allowing children greater autonomy in leisure time but engaging less with institutional structures. The study also documented how social networks functioned as conduits for occupational information and opportunities, with upper-class networks providing access to professional mentors and internship opportunities that were largely invisible to working-class students. Despite some upward mobility, the overall pattern showed significant intergenerational reproduction of class position.",
+      "questions": [
+        {
+          "id": "soc-ps-001-q1",
+          "stem": "The concept of concerted cultivation, as described in the passage, was originally developed by which sociologist?",
+          "options": ["A. Pierre Bourdieu", "B. Annette Lareau", "C. Max Weber", "D. Talcott Parsons"],
+          "correct": 1,
+          "explanation": "Annette Lareau developed the concept of concerted cultivation in her ethnographic research on child-rearing practices across social classes. She contrasted the middle-class strategy of concerted cultivation (active organization of children's leisure and institutional advocacy) with the working-class approach of natural growth."
+        },
+        {
+          "id": "soc-ps-001-q2",
+          "stem": "The finding that class advantages persist even after controlling for cognitive ability most directly challenges which perspective on social inequality?",
+          "options": ["A. Conflict theory's emphasis on structural power dynamics", "B. Meritocratic ideology that success is determined primarily by individual talent and effort", "C. Symbolic interactionism's focus on meaning construction", "D. Feminist theory's analysis of gender-based inequality"],
+          "correct": 1,
+          "explanation": "Meritocratic ideology holds that social position is primarily determined by individual ability and effort. The finding that class background predicts educational outcomes even when ability is held constant contradicts this ideology, demonstrating that structural advantages independent of merit significantly influence life outcomes."
+        },
+        {
+          "id": "soc-ps-001-q3",
+          "stem": "The role of upper-class social networks in providing access to professional opportunities exemplifies which sociological concept?",
+          "options": ["A. Mechanical solidarity", "B. Social capital", "C. Anomie", "D. Role strain"],
+          "correct": 1,
+          "explanation": "Social capital refers to the resources and advantages that individuals gain through their social networks and relationships. Upper-class networks function as repositories of social capital by providing access to information, mentorship, and opportunities that are unavailable to those outside these networks, thereby perpetuating class-based advantages."
+        },
+        {
+          "id": "soc-ps-001-q4",
+          "stem": "The intergenerational reproduction of class position described in the study is best analyzed through which theoretical framework?",
+          "options": ["A. Structural functionalism emphasizing meritocratic mobility", "B. Social reproduction theory emphasizing how institutions perpetuate inequality", "C. Symbolic interactionism emphasizing individual meaning-making", "D. Exchange theory emphasizing rational cost-benefit calculations"],
+          "correct": 1,
+          "explanation": "Social reproduction theory, associated with Pierre Bourdieu and others, examines how educational and cultural institutions reproduce existing social inequalities across generations. The study's findings that class advantages transmit through cultural capital, institutional navigation skills, and social networks exemplify the mechanisms of social reproduction."
+        },
+        {
+          "id": "soc-ps-001-q5",
+          "stem": "The cultural capital that facilitated upper-middle-class families' navigation of educational institutions includes:",
+          "options": ["A. Financial wealth and material assets exclusively", "B. Knowledge of institutional norms, educational expectations, and communication styles valued by institutions", "C. Physical strength and manual labor skills", "D. Religious beliefs and spiritual practices"],
+          "correct": 1,
+          "explanation": "Cultural capital, as conceptualized by Pierre Bourdieu, includes the knowledge, skills, education, and cultural competencies that provide advantages within social institutions. This includes familiarity with institutional norms, ability to communicate effectively with authority figures, and understanding of how to navigate bureaucratic systems, all of which are class-distributed resources."
+        }
+      ]
+    },
+    {
+      "id": "soc-ps-002",
+      "passage": "A comparative sociological study examined bureaucratic structures in healthcare systems across four countries. Researchers analyzed organizational charts, decision-making protocols, communication patterns, and patient outcomes in 80 hospitals. Max Weber's ideal-type bureaucracy served as the theoretical framework, with researchers evaluating each institution on Weber's six key characteristics: formal hierarchical structure, management by rules, functional specialization, employment based on technical qualifications, impersonal relationships, and documentation of all activities. Results showed that hospitals scoring highest on Weber's bureaucratic dimensions had more standardized care protocols and lower rates of medical errors (14% lower than low-scoring hospitals). However, these same hospitals also showed significantly lower patient satisfaction scores, longer wait times for non-emergency procedures, and reduced practitioner autonomy. Staff surveys revealed that physicians in highly bureaucratic hospitals reported higher rates of burnout and frustration with administrative requirements, spending an average of 4.2 hours per day on documentation compared to 1.8 hours in less bureaucratic settings. The study identified what researchers called bureaucratic ritualism, where adherence to procedures became an end in itself rather than a means to quality care, with staff prioritizing documentation completeness over patient interaction. Interestingly, hospitals that adopted a hybrid model combining standardized protocols for high-risk procedures with flexible, team-based approaches for routine care achieved the best outcomes on both error rates and patient satisfaction.",
+      "questions": [
+        {
+          "id": "soc-ps-002-q1",
+          "stem": "Weber's concept of bureaucracy as an ideal type means that it is:",
+          "options": ["A. The most desirable form of organizational structure", "B. An analytical construct representing the pure characteristics of bureaucracy, not a description of any actual organization", "C. A moral prescription for how organizations should be structured", "D. An empirical average of bureaucratic features found in real organizations"],
+          "correct": 1,
+          "explanation": "Weber's ideal type is a methodological tool, not a normative judgment. It is a conceptual model that emphasizes the essential characteristics of a phenomenon in their purest form to provide a standard for comparison. No real-world bureaucracy perfectly matches the ideal type, but the concept helps analyze how closely actual organizations approximate these features."
+        },
+        {
+          "id": "soc-ps-002-q2",
+          "stem": "The concept of bureaucratic ritualism described in the passage, where procedure adherence becomes an end in itself, was originally identified by which sociologist?",
+          "options": ["A. Emile Durkheim", "B. Robert Merton", "C. Karl Marx", "D. Erving Goffman"],
+          "correct": 1,
+          "explanation": "Robert Merton identified ritualism as one of his modes of individual adaptation to social strain. In the context of bureaucracy, ritualism occurs when organizational members become so focused on following established rules and procedures that they lose sight of the underlying goals these procedures were designed to achieve."
+        },
+        {
+          "id": "soc-ps-002-q3",
+          "stem": "The finding that highly bureaucratic hospitals had lower error rates but lower patient satisfaction represents which sociological concept?",
+          "options": ["A. Manifest versus latent functions of bureaucratic organization", "B. Cultural relativism in evaluating organizational structures", "C. Role conflict between physician and bureaucrat roles", "D. The McDonaldization of healthcare delivery"],
+          "correct": 0,
+          "explanation": "Manifest functions are the intended and recognized consequences of an organizational feature (lower error rates through standardization), while latent functions are the unintended and often unrecognized consequences (reduced patient satisfaction, practitioner burnout). This dual outcome exemplifies how bureaucratic structures simultaneously produce intended benefits and unintended costs."
+        },
+        {
+          "id": "soc-ps-002-q4",
+          "stem": "Physicians spending 4.2 hours daily on documentation in highly bureaucratic hospitals best illustrates Weber's concern about:",
+          "options": ["A. The iron cage of rationalization constraining individual autonomy", "B. Charismatic authority undermining rational-legal authority", "C. Class conflict between administrators and workers", "D. Anomie resulting from rapid social change"],
+          "correct": 0,
+          "explanation": "Weber's iron cage metaphor describes how the rationalization and bureaucratization of social life can trap individuals in systems of efficiency and control that constrain freedom, creativity, and meaningful engagement. The excessive documentation burden on physicians exemplifies how bureaucratic rationality can become oppressive and counterproductive."
+        },
+        {
+          "id": "soc-ps-002-q5",
+          "stem": "The hybrid model achieving the best outcomes by combining standardized and flexible approaches suggests that:",
+          "options": ["A. Bureaucracy should be completely eliminated from healthcare", "B. Optimal organizational design requires adapting bureaucratic elements to context rather than applying them uniformly", "C. Weber's theory is entirely incorrect", "D. Patient satisfaction is irrelevant to organizational effectiveness"],
+          "correct": 1,
+          "explanation": "The hybrid model's success suggests that the relationship between bureaucratization and organizational effectiveness is not linear. Context-dependent application of bureaucratic features, using standardization where it prevents harm and flexibility where it enhances care, produces better outcomes than either extreme."
+        }
+      ]
+    },
+    {
+      "id": "soc-ps-003",
+      "passage": "Sociologists conducted an ethnographic study of deviance and social control in three distinct communities: an affluent suburban neighborhood, an inner-city public housing project, and a rural farming community. Researchers spent 18 months embedded in each community, observing how residents defined deviance, responded to rule-breaking behavior, and enforced social norms. In the suburban community, deviance was primarily defined in terms of status violations (unmaintained lawns, visible clutter, unconventional personal appearance) and was enforced through informal mechanisms such as gossip, social exclusion, and homeowners' association rules. The inner-city community defined deviance more around survival-related behaviors and employed both informal social control (community elders mediating disputes) and formal mechanisms (police presence, surveillance cameras). The rural community relied heavily on informal social control through close-knit kinship networks and religious institutions, with formal legal intervention viewed as a last resort and sometimes as an intrusion. Labeling theory was supported by the finding that identical behaviors received different social responses depending on the actor's social status within each community. In all three communities, individuals labeled as deviant by authority figures showed increased subsequent deviant behavior over a two-year follow-up period, consistent with the concept of secondary deviance. The study also found that communities with stronger collective efficacy, defined as mutual trust and willingness to intervene for the common good, had lower overall rates of both deviant behavior and formal social control intervention.",
+      "questions": [
+        {
+          "id": "soc-ps-003-q1",
+          "stem": "The finding that identical behaviors received different social responses based on the actor's social status most directly supports which sociological theory of deviance?",
+          "options": ["A. Strain theory emphasizing blocked legitimate opportunities", "B. Labeling theory emphasizing the social construction of deviance", "C. Differential association theory emphasizing learned criminal behavior", "D. Social control theory emphasizing weak social bonds"],
+          "correct": 1,
+          "explanation": "Labeling theory argues that deviance is not inherent in any act but is instead a label applied by society. The finding that the same behavior elicits different responses depending on who performs it demonstrates that deviance is socially constructed through the labeling process rather than being an objective quality of the behavior itself."
+        },
+        {
+          "id": "soc-ps-003-q2",
+          "stem": "The concept of secondary deviance, observed when labeled individuals increased their deviant behavior, refers to:",
+          "options": ["A. Minor rule violations that everyone occasionally commits", "B. Deviant behavior that results from the social reaction to initial labeling", "C. Deviance that occurs in secondary social institutions", "D. The second most common form of deviance in a community"],
+          "correct": 1,
+          "explanation": "Secondary deviance, as conceptualized by Edwin Lemert, occurs when an individual who has been labeled as deviant internalizes that label and reorganizes their self-concept and behavior around the deviant identity. The initial labeling triggers a self-fulfilling prophecy where the person adopts the deviant role, leading to increased deviant behavior."
+        },
+        {
+          "id": "soc-ps-003-q3",
+          "stem": "The suburban community's enforcement of norms through gossip and social exclusion represents which type of social control?",
+          "options": ["A. Formal social control through legal institutions", "B. Informal social control through social sanctions", "C. Coercive social control through physical force", "D. Bureaucratic social control through organizational rules"],
+          "correct": 1,
+          "explanation": "Informal social control operates through unofficial social sanctions such as gossip, ridicule, social exclusion, and disapproval rather than through formal institutions like the legal system. These mechanisms are particularly effective in communities where social ties are strong and reputation matters for social standing."
+        },
+        {
+          "id": "soc-ps-003-q4",
+          "stem": "The rural community's reliance on kinship networks and religious institutions for social control, with formal intervention viewed as intrusive, reflects which sociological concept?",
+          "options": ["A. Organic solidarity based on functional interdependence", "B. Mechanical solidarity based on shared values and close social bonds", "C. Anomie resulting from normative breakdown", "D. Rationalization of social institutions"],
+          "correct": 1,
+          "explanation": "Durkheim's concept of mechanical solidarity characterizes societies where social cohesion is based on shared beliefs, values, and close interpersonal bonds. Rural communities with strong kinship networks and shared religious values exemplify mechanical solidarity, where informal social control through collective conscience is preferred over formal legal mechanisms."
+        },
+        {
+          "id": "soc-ps-003-q5",
+          "stem": "Collective efficacy, which was associated with lower deviance rates, combines mutual trust with:",
+          "options": ["A. Individual economic self-sufficiency", "B. Shared willingness to intervene for the common good", "C. Formal law enforcement presence", "D. Homogeneity of racial and ethnic composition"],
+          "correct": 1,
+          "explanation": "Collective efficacy, as defined by Robert Sampson and colleagues, consists of two components: social cohesion (mutual trust among community members) and shared expectations for informal social control (willingness to intervene when norms are violated). Together, these create a community capacity to regulate behavior and maintain order without heavy reliance on formal institutions."
+        }
+      ]
+    },
+    {
+      "id": "soc-ps-004",
+      "passage": "A sociological analysis examined the process of medicalization by tracking how certain human conditions became redefined as medical problems requiring clinical intervention over the past five decades. The study focused on three case studies: the medicalization of childhood hyperactivity into attention-deficit/hyperactivity disorder (ADHD), the medicalization of shyness into social anxiety disorder, and the medicalization of aging through anti-aging medicine. Researchers analyzed medical literature, pharmaceutical marketing materials, diagnostic rate trends, and prescription data. ADHD diagnosis rates increased 500% between 1990 and 2020, with stimulant medication prescriptions following a parallel trajectory. Social anxiety disorder, formally recognized in 1980, saw diagnosis rates triple following direct-to-consumer pharmaceutical advertising campaigns beginning in 1997. The anti-aging medicine industry grew to a $62 billion market by medicalizing normal aging processes as treatable conditions. The study employed a conflict theory lens, arguing that medicalization serves the economic interests of pharmaceutical companies and the professional interests of physicians by expanding the boundaries of medical authority. However, the researchers also acknowledged that medicalization has genuine benefits, including destigmatization of certain conditions and providing access to effective treatments. They noted a competing trend of demedicalization, exemplified by the removal of homosexuality from the DSM in 1973 and growing movements to depathologize gender diversity, illustrating that medical categories are subject to social and political contestation.",
+      "questions": [
+        {
+          "id": "soc-ps-004-q1",
+          "stem": "Medicalization, as described in the passage, refers to the process by which:",
+          "options": ["A. Medical treatments become more technologically advanced", "B. Conditions previously considered normal or non-medical become defined and treated as medical problems", "C. Doctors receive more extensive training in social determinants of health", "D. Healthcare becomes more accessible to underserved populations"],
+          "correct": 1,
+          "explanation": "Medicalization is the sociological process by which human conditions, behaviors, or experiences that were previously considered normal aspects of life become redefined as medical problems requiring diagnosis and treatment. This process expands the scope of medical authority into domains previously considered social, moral, or personal."
+        },
+        {
+          "id": "soc-ps-004-q2",
+          "stem": "The conflict theory analysis of medicalization argues that it primarily serves the interests of:",
+          "options": ["A. Patients who gain access to beneficial treatments", "B. Powerful groups such as pharmaceutical companies and medical professionals who benefit economically and professionally", "C. Government agencies seeking to control population health", "D. Insurance companies seeking to reduce healthcare costs"],
+          "correct": 1,
+          "explanation": "Conflict theory examines how social institutions serve the interests of powerful groups. Applied to medicalization, this perspective highlights how pharmaceutical companies profit from expanding diagnostic categories and selling treatments, while medical professionals expand their authority and market, potentially at the expense of individuals who are unnecessarily pathologized."
+        },
+        {
+          "id": "soc-ps-004-q3",
+          "stem": "The removal of homosexuality from the DSM in 1973 as an example of demedicalization demonstrates that:",
+          "options": ["A. Psychiatric diagnoses are based purely on objective biological criteria", "B. Medical categories are socially constructed and subject to cultural and political influence", "C. Science eventually corrects all errors through self-correction mechanisms", "D. Demedicalization always follows medicalization in a predictable sequence"],
+          "correct": 1,
+          "explanation": "The removal of homosexuality from the DSM illustrates that diagnostic categories are not purely objective scientific constructs but are influenced by social values, political advocacy, and changing cultural attitudes. This process of demedicalization demonstrates the socially constructed nature of medical knowledge and the role of social movements in contesting medical authority."
+        },
+        {
+          "id": "soc-ps-004-q4",
+          "stem": "The 500% increase in ADHD diagnosis rates alongside parallel increases in stimulant prescriptions raises concerns about:",
+          "options": ["A. Improved diagnostic accuracy identifying previously undetected cases", "B. Overdiagnosis driven by pharmaceutical industry influence and broadened diagnostic criteria", "C. A genuine increase in the biological incidence of ADHD in the population", "D. Better insurance coverage making diagnosis more accessible"],
+          "correct": 1,
+          "explanation": "While some increase in diagnosis may reflect improved recognition, the dramatic 500% increase, particularly when correlated with pharmaceutical marketing and broadened diagnostic criteria, raises concerns about overdiagnosis. This pattern is consistent with medicalization theory's prediction that commercial interests drive expansion of diagnostic categories beyond what evidence supports."
+        },
+        {
+          "id": "soc-ps-004-q5",
+          "stem": "A functionalist perspective on medicalization, in contrast to the conflict perspective presented, would emphasize:",
+          "options": ["A. How medicalization exploits vulnerable populations for profit", "B. How medicalization serves important social functions such as reducing stigma and providing legitimate sick role access", "C. How medicalization reinforces class-based power structures", "D. How medicalization is purely a product of cultural imperialism"],
+          "correct": 1,
+          "explanation": "Structural functionalism would analyze medicalization in terms of the social functions it serves, such as providing individuals with a legitimate sick role (as described by Talcott Parsons), reducing moral stigma by reframing deviance as illness, and facilitating social order by channeling problematic behaviors into the medical system for management."
+        }
+      ]
+    },
+    {
+      "id": "soc-ps-005",
+      "passage": "Researchers investigated the sociology of religion by examining how religious institutions function in contemporary American society. The study surveyed 3,000 adults across 50 congregations representing diverse religious traditions and analyzed census data on religious affiliation trends. Results confirmed ongoing secularization trends: weekly religious attendance declined from 40% in 1990 to 22% by 2024, while the proportion identifying as religiously unaffiliated (\"nones\") grew from 8% to 30%. However, the study challenged simplistic secularization narratives by finding that religious institutions continued to serve critical social functions beyond spiritual practice. Congregations provided social services (food banks, housing assistance, counseling) equivalent to an estimated $2.6 billion annually in the study's metropolitan area alone. Religious participation was positively correlated with social network density, volunteerism, civic participation, and self-reported well-being. Durkheim's analysis of religion as a source of social cohesion was supported by findings that congregations created moral communities characterized by shared rituals, collective effervescence during worship, and reinforcement of shared values. Weber's concept of the Protestant ethic was partially supported, as members of theologically conservative Protestant denominations reported significantly higher work commitment scores, though the relationship between religiosity and economic outcomes was mediated by social network effects rather than theological belief alone. The study also documented how religious organizations adapted to declining membership through digital outreach and community-oriented programming.",
+      "questions": [
+        {
+          "id": "soc-ps-005-q1",
+          "stem": "Durkheim's concept of collective effervescence, as observed in worship services, refers to:",
+          "options": ["A. Individual spiritual experiences occurring in isolation", "B. A heightened sense of energy and connection generated through shared group ritual", "C. The economic productivity of religious communities", "D. Conflict between religious and secular values in society"],
+          "correct": 1,
+          "explanation": "Collective effervescence is Durkheim's term for the heightened emotional energy and sense of unity that individuals experience during collective rituals and gatherings. Through shared rhythmic activities, symbols, and emotional arousal, participants develop a powerful sense of connection to something greater than themselves, reinforcing group solidarity."
+        },
+        {
+          "id": "soc-ps-005-q2",
+          "stem": "Durkheim's analysis of religion focused primarily on its function as a source of:",
+          "options": ["A. Individual salvation and afterlife preparation", "B. Social cohesion and moral community reinforcement", "C. Economic development and material prosperity", "D. Political power and governmental authority"],
+          "correct": 1,
+          "explanation": "Durkheim viewed religion primarily as a social institution that functions to create and maintain social solidarity. By establishing shared beliefs, moral codes, and collective rituals, religion creates a moral community that binds individuals together and reinforces social norms, regardless of the specific theological content of beliefs."
+        },
+        {
+          "id": "soc-ps-005-q3",
+          "stem": "The secularization thesis, which the study both supports and challenges, predicts that:",
+          "options": ["A. All societies will eventually become more violent as religion declines", "B. Modernization leads to declining religious authority and participation in public and private life", "C. Religion will become more influential as societies modernize", "D. Secular and religious values will always remain in equilibrium"],
+          "correct": 1,
+          "explanation": "The secularization thesis proposes that as societies modernize through industrialization, urbanization, and scientific advancement, the social significance of religion declines in both public institutions and private beliefs. The study supports this through declining attendance and affiliation data but challenges it by demonstrating religion's persistent social functions."
+        },
+        {
+          "id": "soc-ps-005-q4",
+          "stem": "Weber's Protestant ethic thesis proposed that Calvinist theology contributed to the development of capitalism through which mechanism?",
+          "options": ["A. Direct religious commandments to accumulate wealth", "B. A psychological orientation toward disciplined work and rational economic behavior as evidence of divine favor", "C. Church-organized investment funds and banking institutions", "D. Religious prohibition of leisure activities forcing increased labor"],
+          "correct": 1,
+          "explanation": "Weber argued that Calvinist beliefs about predestination created psychological anxiety about salvation, which believers addressed by seeking signs of divine favor through worldly success. This created a cultural orientation toward disciplined work, rational economic conduct, and reinvestment of profits rather than consumption, providing the cultural foundation for capitalist development."
+        },
+        {
+          "id": "soc-ps-005-q5",
+          "stem": "The finding that religiosity's relationship to economic outcomes was mediated by social networks rather than theological belief alone suggests that:",
+          "options": ["A. Weber's thesis is completely wrong and should be abandoned", "B. The social capital provided by religious communities may be more important than belief content for producing economic effects", "C. Religious beliefs have no influence on behavior whatsoever", "D. Social networks operate independently of institutional contexts"],
+          "correct": 1,
+          "explanation": "The mediation by social networks suggests that the economic benefits associated with religiosity may operate primarily through the social capital embedded in religious communities (access to information, support, business connections) rather than through the direct influence of theological beliefs on individual work ethic, qualifying Weber's original thesis."
+        }
+      ]
+    },
+    {
+      "id": "soc-ps-006",
+      "passage": "A sociological study examined social stratification in the contemporary United States using multiple indicators of socioeconomic status: income, wealth, education, and occupational prestige. Researchers analyzed data from 15,000 households and found that while income inequality had been widely documented, wealth inequality was substantially greater. The top 10% of households owned 76% of total wealth, while the bottom 50% owned just 2%. Racial wealth gaps were particularly stark: median white household wealth was 7.8 times that of median Black household wealth and 5.2 times that of median Latino household wealth. The study distinguished between social class (relationship to the means of production) and socioeconomic status (a composite measure of income, education, and occupation), noting that these concepts, while related, capture different dimensions of stratification. Intergenerational mobility analysis revealed that while absolute mobility (doing better than one's parents) had decreased since the 1980s, relative mobility (moving between quintiles) had remained roughly constant, suggesting that the overall economic pie mattered more than individual movement within it. The study tested three theoretical perspectives: Davis and Moore's functionalist theory that stratification motivates talented individuals to fill important positions, Marx's conflict theory that stratification reflects exploitation of workers by capital owners, and Weber's multidimensional approach distinguishing class, status, and party as independent dimensions of stratification.",
+      "questions": [
+        {
+          "id": "soc-ps-006-q1",
+          "stem": "The Davis-Moore thesis argues that social stratification is functionally necessary because:",
+          "options": ["A. It ensures that powerful groups maintain their dominance", "B. It provides differential rewards to motivate talented individuals to fill societally important positions", "C. It reflects natural biological inequalities between individuals", "D. It prevents social conflict by keeping people in their assigned positions"],
+          "correct": 1,
+          "explanation": "The Davis-Moore thesis, a functionalist perspective, argues that social stratification exists because society needs to motivate the most talented individuals to fill the most important and demanding positions. Differential rewards (income, prestige, power) serve as incentives that ensure these positions are filled by qualified people."
+        },
+        {
+          "id": "soc-ps-006-q2",
+          "stem": "Marx would interpret the finding that the top 10% owns 76% of wealth as evidence of:",
+          "options": ["A. Meritocratic reward distribution based on individual contributions", "B. Exploitation of labor by the capitalist class who extract surplus value from workers", "C. Functional necessity for economic growth and innovation", "D. Random market fluctuations producing temporary inequality"],
+          "correct": 1,
+          "explanation": "Marxist theory views extreme wealth concentration as evidence of the capitalist class (bourgeoisie) extracting surplus value from workers (proletariat). From this perspective, wealth accumulation by the few reflects the structural exploitation inherent in capitalist production relations, where workers produce more value than they receive in wages."
+        },
+        {
+          "id": "soc-ps-006-q3",
+          "stem": "Weber's multidimensional approach to stratification differs from Marx's primarily by arguing that:",
+          "options": ["A. Economic factors are the only determinant of social position", "B. Class (economics), status (prestige), and party (power) are partially independent dimensions of inequality", "C. Social stratification does not exist in modern societies", "D. Cultural factors are irrelevant to understanding social hierarchy"],
+          "correct": 1,
+          "explanation": "Weber expanded upon Marx's primarily economic analysis by identifying three distinct dimensions of stratification: class (economic position), status (social prestige and honor), and party (political power and influence). These dimensions can vary independently, meaning an individual might have high status but moderate economic class, or vice versa."
+        },
+        {
+          "id": "soc-ps-006-q4",
+          "stem": "The distinction between absolute mobility and relative mobility is important because:",
+          "options": ["A. They always produce identical conclusions about social openness", "B. A society can show improvements in living standards (absolute mobility) while maintaining rigid positional hierarchy (stable relative mobility)", "C. Relative mobility is easier to measure than absolute mobility", "D. Absolute mobility only applies to downward movement in the class structure"],
+          "correct": 1,
+          "explanation": "Absolute mobility measures whether individuals do better than their parents in absolute terms (e.g., higher income), while relative mobility measures movement between positions in the overall distribution. A society where everyone's income doubles shows high absolute mobility but zero relative mobility, making the distinction critical for understanding whether true positional change is occurring."
+        },
+        {
+          "id": "soc-ps-006-q5",
+          "stem": "The racial wealth gap described in the passage (7.8:1 white-to-Black ratio) is best understood through which sociological lens?",
+          "options": ["A. Individual-level differences in financial literacy and savings behavior", "B. Historical and structural factors including discriminatory policies, denied homeownership opportunities, and cumulative disadvantage", "C. Biological differences in cognitive ability between racial groups", "D. Cultural values that prioritize different relationships with money"],
+          "correct": 1,
+          "explanation": "The racial wealth gap reflects centuries of structural and institutional racism, including slavery, Jim Crow laws, discriminatory housing policies (redlining), exclusion from wealth-building programs (GI Bill), and ongoing institutional discrimination. These historical policies created cumulative disadvantage that persists across generations through wealth transmission mechanisms."
+        }
+      ]
+    },
+    {
+      "id": "soc-ps-007",
+      "passage": "Sociologists studying symbolic interactionism conducted a micro-level analysis of identity construction in everyday social interactions. The study combined participant observation, in-depth interviews, and video analysis of social encounters in five settings: a corporate workplace, a university campus, a hospital, a courtroom, and a neighborhood barbershop. Erving Goffman's dramaturgical approach was used as the primary theoretical framework, analyzing how individuals manage impressions in different social contexts. Researchers found that individuals maintained distinct front-stage performances tailored to each setting: corporate workers adopted professional personas characterized by formal language, restrained emotion, and competence displays; medical professionals performed clinical detachment while simultaneously displaying warmth; lawyers engaged in strategic emotional displays calibrated to jury expectations. Backstage behavior in all settings showed marked departures from front-stage performances, including emotional venting, informal language, and acknowledgment of uncertainty. The study documented the concept of role strain when individuals occupied positions with conflicting expectations (physician balancing empathy with clinical objectivity) and role conflict when occupying multiple positions with contradictory demands (parent-employee managing work and family responsibilities). Charles Horton Cooley's looking-glass self was evident in how individuals calibrated their self-presentations based on perceived evaluations from significant others in each setting.",
+      "questions": [
+        {
+          "id": "soc-ps-007-q1",
+          "stem": "Goffman's dramaturgical approach analyzes social life as analogous to:",
+          "options": ["A. A biological organism with interconnected functional parts", "B. A theatrical performance where individuals manage impressions for audiences", "C. An economic marketplace where actors exchange resources", "D. A battlefield where groups compete for dominance"],
+          "correct": 1,
+          "explanation": "Goffman's dramaturgical approach uses theatrical metaphors to analyze social interaction, conceptualizing individuals as actors who perform roles for audiences. Front stage, individuals carefully manage impressions to present desired images; backstage, they can relax their performances and prepare for future encounters."
+        },
+        {
+          "id": "soc-ps-007-q2",
+          "stem": "The difference between role strain and role conflict as described in the passage is that:",
+          "options": ["A. Role strain involves external constraints while role conflict involves internal motivation", "B. Role strain involves competing demands within a single role while role conflict involves competing demands between multiple roles", "C. Role strain is more severe than role conflict", "D. Role strain occurs only in professional settings while role conflict occurs only in personal settings"],
+          "correct": 1,
+          "explanation": "Role strain refers to difficulty meeting the competing expectations within a single role (e.g., a physician expected to be both clinically detached and emotionally warm). Role conflict occurs when an individual occupies multiple roles with contradictory demands (e.g., the competing expectations of being both a dedicated employee and an attentive parent)."
+        },
+        {
+          "id": "soc-ps-007-q3",
+          "stem": "Cooley's looking-glass self concept proposes that self-concept develops through:",
+          "options": ["A. Genetic programming and biological maturation", "B. A three-step process of imagining how others perceive us, imagining their judgment, and developing feelings about ourselves based on those perceived judgments", "C. Direct instruction from authority figures about our strengths and weaknesses", "D. Objective self-assessment independent of social feedback"],
+          "correct": 1,
+          "explanation": "Cooley's looking-glass self describes a three-component process: we imagine how we appear to others, we imagine others' judgments of that appearance, and we develop self-feelings (pride, shame) based on those imagined judgments. The self is thus fundamentally social, constructed through our interpretations of others' perceptions."
+        },
+        {
+          "id": "soc-ps-007-q4",
+          "stem": "The marked difference between front-stage and backstage behavior observed across all settings supports which sociological insight?",
+          "options": ["A. Individuals have fixed, authentic selves that they express consistently across all contexts", "B. Social identity is performative and context-dependent rather than fixed and essential", "C. Backstage behavior is always more authentic than front-stage behavior", "D. Social roles have no influence on individual behavior"],
+          "correct": 1,
+          "explanation": "The consistent front-stage/backstage distinction across diverse settings demonstrates that social identity is actively constructed and managed in interaction rather than being a fixed, essential quality. Individuals strategically adapt their self-presentations to the demands and expectations of different social contexts, supporting the symbolic interactionist view of self as process rather than entity."
+        },
+        {
+          "id": "soc-ps-007-q5",
+          "stem": "The use of participant observation and video analysis in this study exemplifies which methodological approach in sociology?",
+          "options": ["A. Quantitative survey methodology", "B. Qualitative micro-sociological methods emphasizing interpretive understanding", "C. Macro-level structural analysis using census data", "D. Experimental methods with random assignment"],
+          "correct": 1,
+          "explanation": "Participant observation and detailed video analysis of social encounters are qualitative micro-sociological methods aligned with symbolic interactionism's emphasis on understanding social life from the perspective of participants. These methods prioritize interpretive understanding (verstehen) of meaning-making processes in everyday interaction over statistical generalization."
+        }
+      ]
+    },
+    {
+      "id": "soc-ps-008",
+      "passage": "A sociological study of globalization examined how transnational economic processes affect local communities in both developed and developing nations. Researchers conducted comparative field research in a deindustrialized American Midwest city, a rapidly industrializing region in southern China, a maquiladora zone in northern Mexico, and a tech outsourcing hub in Bangalore, India. In the American city, the closure of manufacturing plants by multinational corporations had produced chronic unemployment (18%), population decline (35% over two decades), increased substance abuse, and deterioration of civic institutions including schools and healthcare facilities. In contrast, the Chinese and Indian sites experienced rapid economic growth but with significant social costs: rural-to-urban migration disrupted traditional family structures, income inequality increased dramatically within communities, and environmental degradation affected public health. The Mexican maquiladora zone showed a pattern of dependent development, with foreign-owned factories providing employment but offering low wages, limited benefits, and exposure to occupational hazards, while profits were repatriated to corporate headquarters abroad. Wallerstein's world-systems theory was applied to analyze these sites as occupying different positions in the global economic hierarchy: the American city as part of the declining core, the Chinese and Indian sites as rising semi-periphery, and the Mexican zone as peripheral. The study challenged both pure free-market globalization advocates and anti-globalization critics, finding that globalization produced both opportunities and exploitation simultaneously.",
+      "questions": [
+        {
+          "id": "soc-ps-008-q1",
+          "stem": "Wallerstein's world-systems theory categorizes nations into which three zones?",
+          "options": ["A. First world, second world, third world", "B. Core, semi-periphery, and periphery based on their position in the global economic system", "C. Developed, developing, and undeveloped based on GDP", "D. Agricultural, industrial, and post-industrial based on economic sector"],
+          "correct": 1,
+          "explanation": "Wallerstein's world-systems theory divides the global economy into three zones: core nations (wealthy, industrialized, dominant in global trade), semi-peripheral nations (intermediate, with both core-like and peripheral characteristics), and peripheral nations (economically dependent, providing raw materials and cheap labor to core nations)."
+        },
+        {
+          "id": "soc-ps-008-q2",
+          "stem": "The pattern in the Mexican maquiladora zone, where foreign factories provide employment but extract profits while offering poor conditions, exemplifies:",
+          "options": ["A. Modernization theory's prediction of progressive development", "B. Dependency theory's concept of economic exploitation maintaining underdevelopment", "C. Functionalism's argument that inequality motivates development", "D. Weber's theory of rational capitalist enterprise"],
+          "correct": 1,
+          "explanation": "Dependency theory argues that the global economic system creates and maintains underdevelopment in peripheral nations through exploitative relationships where wealth flows from periphery to core. The maquiladora pattern, with foreign ownership, low wages, profit repatriation, and poor conditions, exemplifies this dependent relationship that benefits core nations at the expense of peripheral ones."
+        },
+        {
+          "id": "soc-ps-008-q3",
+          "stem": "The deindustrialization in the American Midwest city, resulting in unemployment and civic decline, is an example of:",
+          "options": ["A. Creative destruction benefiting the local community", "B. The social consequences of capital mobility in the global economy", "C. Planned economic transition to a service economy", "D. Natural economic cycles unrelated to globalization"],
+          "correct": 1,
+          "explanation": "Capital mobility, the ability of corporations to relocate production to lower-cost locations globally, is a central feature of economic globalization. When manufacturing capital moves from core nations to peripheral or semi-peripheral locations, it produces deindustrialization, unemployment, and community decline in the abandoned locations, demonstrating the uneven social impacts of globalization."
+        },
+        {
+          "id": "soc-ps-008-q4",
+          "stem": "Rural-to-urban migration in China disrupting traditional family structures illustrates which sociological concept?",
+          "options": ["A. Social mobility without cultural change", "B. Social disorganization resulting from rapid structural change", "C. Functionalist equilibrium in social systems", "D. Marx's concept of species-being"],
+          "correct": 1,
+          "explanation": "Social disorganization theory describes the breakdown of social institutions and community structures when rapid social change outpaces the ability of communities to adapt. Mass rural-to-urban migration disrupts kinship networks, intergenerational relationships, and traditional social support systems, creating social disorganization in both sending and receiving communities."
+        },
+        {
+          "id": "soc-ps-008-q5",
+          "stem": "The study's finding that globalization produces both opportunities and exploitation simultaneously is most consistent with which analytical approach?",
+          "options": ["A. A purely functionalist analysis emphasizing system equilibrium", "B. A dialectical analysis recognizing contradictory outcomes within the same process", "C. A positivist analysis seeking universal laws of social change", "D. A postmodern rejection of all structural analysis"],
+          "correct": 1,
+          "explanation": "A dialectical approach, rooted in Marxian and critical theory, recognizes that social processes contain internal contradictions and can produce opposing outcomes simultaneously. Globalization's capacity to generate both economic opportunity and exploitation within the same system reflects this dialectical understanding of social change as inherently contradictory."
+        }
+      ]
+    },
+    {
+      "id": "soc-ps-009",
+      "passage": "Sociologists conducted a study on the agents and processes of socialization by following 300 children from birth to age 18 across diverse family structures and socioeconomic backgrounds. The longitudinal design tracked the influence of primary agents of socialization (family, peers, schools, media) on the development of values, norms, gender identity, and political attitudes. Results showed that family was the strongest predictor of children's core values and political orientation through age 12, with parent-child value concordance rates of 72%. However, peer influence surpassed family influence during adolescence, particularly for attitudes toward risk behavior, sexuality, and subcultural identification. Schools functioned as agents of both manifest socialization (teaching academic content) and hidden curriculum (teaching punctuality, obedience to authority, competitive individualism, and acceptance of hierarchy). Media consumption, averaging 7.5 hours daily by age 16, significantly influenced gender role expectations, body image attitudes, and consumer behavior. The study identified critical differences in socialization outcomes based on family structure: children in single-parent households showed comparable outcomes to two-parent households when controlling for socioeconomic resources, suggesting that economic capital rather than family structure per se drove observed differences. George Herbert Mead's stages of self-development were observed: preparatory (imitation), play (role-taking with specific others), and game (understanding generalized other). Children who participated in organized team sports showed earlier development of the game stage.",
+      "questions": [
+        {
+          "id": "soc-ps-009-q1",
+          "stem": "Mead's concept of the generalized other, developed during the game stage, refers to:",
+          "options": ["A. The specific individuals a child interacts with most frequently", "B. The internalized attitudes and expectations of society as a whole", "C. A child's imaginary friend who provides companionship", "D. The primary caregiver who models social behavior"],
+          "correct": 1,
+          "explanation": "Mead's generalized other represents the internalized attitudes, expectations, and viewpoints of the broader social group or society. During the game stage, children learn to take the perspective of multiple others simultaneously and understand their role in relation to the organized group, internalizing the collective expectations that guide behavior."
+        },
+        {
+          "id": "soc-ps-009-q2",
+          "stem": "The hidden curriculum in schools, as described in the passage, primarily functions to:",
+          "options": ["A. Teach advanced academic content beyond the standard curriculum", "B. Implicitly transmit social norms, values, and behavioral expectations that support existing social structures", "C. Provide individualized instruction for students with learning differences", "D. Offer extracurricular activities for student enrichment"],
+          "correct": 1,
+          "explanation": "The hidden curriculum refers to the implicit lessons, values, and norms that schools transmit through their organizational structure and practices, beyond explicit academic instruction. This includes teaching obedience to authority, punctuality, competitive individualism, and acceptance of hierarchy, which critics argue prepares students for their roles in the existing social structure."
+        },
+        {
+          "id": "soc-ps-009-q3",
+          "stem": "The finding that economic capital rather than family structure explained differences in socialization outcomes challenges which commonly held assumption?",
+          "options": ["A. That education is the most important factor in child development", "B. That single-parent family structure is inherently detrimental to child outcomes", "C. That peer influence is irrelevant to adolescent development", "D. That media has no effect on socialization"],
+          "correct": 1,
+          "explanation": "The finding that controlling for socioeconomic resources eliminated the differences between single-parent and two-parent households challenges the assumption that single-parent family structure itself is harmful. Instead, it suggests that the economic disadvantages often associated with single-parent households, not the family structure per se, are responsible for observed differences in outcomes."
+        },
+        {
+          "id": "soc-ps-009-q4",
+          "stem": "The shift from family to peer influence during adolescence is most significant for sociological theory because it demonstrates that:",
+          "options": ["A. Family socialization is ineffective and should be replaced by institutional socialization", "B. The relative influence of different socialization agents varies across the life course", "C. Peers always have a negative influence on adolescent development", "D. Primary socialization ends at puberty and secondary socialization begins"],
+          "correct": 1,
+          "explanation": "The developmental shift in the relative influence of socialization agents demonstrates that socialization is not a uniform process but varies across the life course. Different agents become more or less influential at different developmental stages, with peer influence becoming particularly powerful during adolescence when identity formation and social belonging are central developmental tasks."
+        },
+        {
+          "id": "soc-ps-009-q5",
+          "stem": "The earlier development of Mead's game stage in children who participated in organized team sports occurred because team sports require:",
+          "options": ["A. Physical strength and athletic ability", "B. Simultaneously understanding multiple roles and coordinating behavior with the group", "C. Obedience to a single authority figure (the coach)", "D. Competition against opponents from different social backgrounds"],
+          "correct": 1,
+          "explanation": "Organized team sports require players to understand their own role in relation to the roles of teammates and opponents simultaneously, anticipating others' actions and coordinating behavior accordingly. This mirrors Mead's game stage, where children must take the perspective of the generalized other rather than just one specific other, explaining why sports participation accelerates this developmental process."
+        }
+      ]
+    },
+    {
+      "id": "soc-ps-010",
+      "passage": "A sociological study examined the intersection of gender, race, and class in the division of household labor among 600 dual-earner couples. Researchers collected time-use diary data, in-depth interviews, and observational data over a one-year period. Despite both partners working full-time, women performed an average of 65% of household labor (cooking, cleaning, childcare, emotional labor) compared to 35% performed by men, confirming the persistence of the second shift documented by Arlie Hochschild. However, the study revealed significant variation by race, class, and educational attainment. The gender gap in household labor was smallest among couples where both partners held graduate degrees (55% women, 45% men) and largest among working-class couples with traditional gender ideology (78% women, 22% men). Intersectional analysis revealed that Black women in the sample performed slightly less household labor relative to their partners compared to white women, which researchers attributed to historically different gender role expectations in Black communities shaped by the economic necessity of dual-earner households. The study introduced the concept of cognitive labor or mental load, referring to the invisible work of planning, organizing, remembering, and coordinating household activities. Women performed 82% of cognitive labor across all demographic groups, even in couples where physical household tasks were more equitably divided. Symbolic interactionist analysis revealed that couples engaged in gender display through household labor, using task allocation to construct and communicate gender identities consistent with cultural expectations.",
+      "questions": [
+        {
+          "id": "soc-ps-010-q1",
+          "stem": "Hochschild's concept of the second shift refers to:",
+          "options": ["A. The trend toward evening and night shift employment in the service economy", "B. The disproportionate burden of household labor that employed women perform after their paid workday", "C. The second career change that professionals make during midlife", "D. The shift from industrial to post-industrial economic organization"],
+          "correct": 1,
+          "explanation": "Hochschild's second shift describes the phenomenon where women who work full-time in paid employment return home to perform a disproportionate share of unpaid household labor, effectively working a second shift. This dual burden creates significant inequality in leisure time, rest, and overall well-being between men and women in dual-earner households."
+        },
+        {
+          "id": "soc-ps-010-q2",
+          "stem": "The concept of intersectionality, as applied in this study's analysis of gender, race, and class, was originally developed by:",
+          "options": ["A. Max Weber", "B. Kimberle Crenshaw", "C. Talcott Parsons", "D. Emile Durkheim"],
+          "correct": 1,
+          "explanation": "Kimberle Crenshaw developed intersectionality theory to analyze how different forms of inequality (race, gender, class) intersect and interact to produce unique experiences of oppression or privilege. This framework recognizes that social identities are not additive but interactive, producing outcomes that cannot be understood by examining any single dimension in isolation."
+        },
+        {
+          "id": "soc-ps-010-q3",
+          "stem": "The concept of cognitive labor or mental load being disproportionately performed by women (82%) is significant because it:",
+          "options": ["A. Is easily measured and therefore well-documented in previous research", "B. Represents invisible, unrecognized work that persists even when physical tasks are shared equally", "C. Affects only women in upper-class households", "D. Can be easily redistributed through simple behavioral changes"],
+          "correct": 1,
+          "explanation": "Cognitive labor (planning, organizing, remembering, coordinating) is particularly insidious because it is largely invisible and unrecognized as work. Even couples who achieve equitable division of physical tasks may maintain significant gender inequality through the unequal distribution of this mental load, which is cognitively demanding, constant, and often unacknowledged."
+        },
+        {
+          "id": "soc-ps-010-q4",
+          "stem": "The use of household task allocation to construct and communicate gender identities exemplifies the concept of:",
+          "options": ["A. Gender as a fixed biological category", "B. Doing gender through everyday interactional performance", "C. Gender role socialization occurring only in childhood", "D. Sex differences in cognitive ability determining task allocation"],
+          "correct": 1,
+          "explanation": "The concept of 'doing gender,' developed by West and Zimmerman, argues that gender is not a fixed attribute but an ongoing interactional accomplishment. Individuals construct and display gender through everyday activities, including household labor, using task allocation as a way to demonstrate conformity to or departure from culturally expected gender identities."
+        },
+        {
+          "id": "soc-ps-010-q5",
+          "stem": "The finding that the gender gap varied by educational attainment and gender ideology suggests that household labor division is influenced by:",
+          "options": ["A. Biological differences in aptitude for domestic tasks", "B. Both structural resources (education, income) and cultural beliefs about gender roles", "C. Random individual preferences with no systematic pattern", "D. Government policies mandating equal household labor division"],
+          "correct": 1,
+          "explanation": "The variation by education and ideology demonstrates that household labor division is shaped by both structural factors (education and resources that provide bargaining power and exposure to egalitarian norms) and cultural factors (internalized beliefs about appropriate gender roles). Neither structure nor culture alone explains the pattern; their interaction determines household labor outcomes."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,416 @@
+{
+  "subtopic": "Sensation & Perception",
+  "sectionId": "psych-soc",
+  "passageSets": [
+    {
+      "id": "sp-passage-1",
+      "passage": "Researchers at a university audiology lab conducted an experiment to evaluate hearing sensitivity in young adults exposed to prolonged recreational noise. Participants (N=120) were divided into two groups: those who regularly attended concerts and clubs (high-exposure, n=60) and those who did not (low-exposure, n=60). Each participant completed a signal detection task in which they listened for a faint 4000 Hz tone embedded in white noise. Researchers measured hit rates, false alarm rates, and calculated sensitivity (d') and response bias (beta) for each participant. Results showed that the high-exposure group had significantly lower d' values (M=1.2, SD=0.4) compared to the low-exposure group (M=2.8, SD=0.5), t(118)=19.6, p<0.001. However, response bias did not differ significantly between groups (p=0.42). Audiometric testing confirmed that the high-exposure group had elevated hearing thresholds at 4000 Hz, consistent with noise-induced hearing loss. The researchers concluded that recreational noise exposure impairs sensory sensitivity without altering decision-making criteria, and recommended public health interventions targeting noise exposure in young adults.",
+      "questions": [
+        {
+          "id": "sp-1-q1",
+          "stem": "The finding that d' values were lower in the high-exposure group most directly indicates that these participants had:",
+          "options": ["A. A more liberal response criterion", "B. Reduced ability to discriminate signal from noise", "C. A more conservative response criterion", "D. Higher motivation to detect the signal"],
+          "correct": 1,
+          "explanation": "In signal detection theory, d' (d-prime) measures sensitivity, which is the ability to discriminate between signal and noise. A lower d' indicates reduced discriminability, not a shift in response criterion. Response bias (beta) measures the criterion, which was not significantly different between groups."
+        },
+        {
+          "id": "sp-1-q2",
+          "stem": "The lack of significant difference in response bias (beta) between groups suggests that:",
+          "options": ["A. Both groups were equally unable to detect the signal", "B. The high-exposure group was more cautious in responding", "C. Decision-making criteria were similar regardless of noise exposure history", "D. The experimental paradigm was not sensitive enough to measure response differences"],
+          "correct": 2,
+          "explanation": "Response bias (beta or criterion c) reflects the decision-making threshold a participant uses to determine whether a signal is present. The non-significant difference in beta means both groups applied similar criteria for deciding whether to report hearing the tone, despite differing in their actual sensitivity to detect it."
+        },
+        {
+          "id": "sp-1-q3",
+          "stem": "The elevated hearing thresholds at 4000 Hz in the high-exposure group are most likely due to damage to which structure?",
+          "options": ["A. The tympanic membrane", "B. The ossicles of the middle ear", "C. Hair cells in the organ of Corti", "D. The auditory cortex in the temporal lobe"],
+          "correct": 2,
+          "explanation": "Noise-induced hearing loss primarily results from damage to the outer hair cells in the organ of Corti within the cochlea. The 4000 Hz frequency range is particularly susceptible because of the tonotopic organization of the basilar membrane, where the region responding to this frequency is most vulnerable to noise damage."
+        },
+        {
+          "id": "sp-1-q4",
+          "stem": "A participant who frequently reports hearing the tone when no tone is present would be classified as having a high rate of:",
+          "options": ["A. Hits", "B. Correct rejections", "C. Misses", "D. False alarms"],
+          "correct": 3,
+          "explanation": "In signal detection theory, a false alarm occurs when a participant reports detecting a signal that is not actually present. This is distinct from a hit (correctly detecting a present signal), a miss (failing to detect a present signal), or a correct rejection (correctly reporting no signal when none is present)."
+        },
+        {
+          "id": "sp-1-q5",
+          "stem": "If researchers wanted to determine whether the high-exposure group's reduced sensitivity was due to peripheral versus central auditory processing deficits, which additional measure would be MOST useful?",
+          "options": ["A. Administering a personality questionnaire to assess anxiety", "B. Measuring otoacoustic emissions to assess outer hair cell function", "C. Repeating the experiment with a visual detection task", "D. Increasing the intensity of the white noise background"],
+          "correct": 1,
+          "explanation": "Otoacoustic emissions (OAEs) are sounds generated by healthy outer hair cells in the cochlea and can be measured non-invasively. If OAEs are absent or reduced, this confirms peripheral damage at the cochlear level. If OAEs are normal but sensitivity is still reduced, the deficit would more likely involve central auditory processing pathways."
+        }
+      ]
+    },
+    {
+      "id": "sp-passage-2",
+      "passage": "A cognitive psychologist investigated the phenomenon of change blindness using a flicker paradigm. Participants (N=80) viewed alternating images of complex visual scenes on a computer monitor. Each pair of images was identical except for one change (either a central object change or a peripheral object change). The images alternated with a brief blank screen (200 ms) inserted between them. Participants pressed a button as soon as they detected the change. The dependent variable was reaction time to change detection. Results showed that changes to central objects were detected significantly faster (M=3.2 s, SD=1.1) than changes to peripheral objects (M=8.7 s, SD=3.4), F(1,78)=142.3, p<0.001. Additionally, 15% of participants failed to detect peripheral changes within the 60-second time limit, compared to only 2% for central changes. Eye-tracking data revealed that participants made significantly more fixations in the central region of the scene, consistent with attentional bias toward areas of high semantic importance. The researchers related these findings to theories of selective attention and the role of attention in conscious visual awareness.",
+      "questions": [
+        {
+          "id": "sp-2-q1",
+          "stem": "The finding that peripheral changes were harder to detect than central changes is best explained by which concept?",
+          "options": ["A. The phi phenomenon", "B. Inattentional blindness and selective attention", "C. The opponent-process theory of color vision", "D. Sensory adaptation to repeated stimuli"],
+          "correct": 1,
+          "explanation": "Change blindness is closely related to inattentional blindness and selective attention. Peripheral objects receive less attentional focus, making changes to them harder to detect. Attention appears to be necessary for conscious awareness of visual changes, and the eye-tracking data confirmed that participants directed more attention to central scene elements."
+        },
+        {
+          "id": "sp-2-q2",
+          "stem": "The brief blank screen inserted between alternating images serves primarily to:",
+          "options": ["A. Allow the visual system to adapt to changing luminance", "B. Mask the transient motion signal that would otherwise draw attention to the change", "C. Prevent retinal fatigue from prolonged image viewing", "D. Increase the overall difficulty of the task for experimental purposes"],
+          "correct": 1,
+          "explanation": "In the flicker paradigm, the blank screen disrupts the transient motion signal (a brief flash of change) that would normally draw automatic attention to the altered region. Without this masking, changes are easily detected because the visual system is highly sensitive to motion transients. The blank creates a global transient across the entire image, preventing localized change detection."
+        },
+        {
+          "id": "sp-2-q3",
+          "stem": "The eye-tracking data showing more fixations on central scene regions is most consistent with which theory of attention?",
+          "options": ["A. Broadbent's filter model suggesting early selection of all stimuli", "B. Feature integration theory, which proposes that attention binds features", "C. The spotlight model, in which attention is focused on a limited spatial area", "D. Late selection theory, which proposes that all stimuli are fully processed"],
+          "correct": 2,
+          "explanation": "The spotlight model of attention proposes that attention functions like a beam that can be directed to specific spatial locations, enhancing processing in that area. The finding that participants fixated more on central regions and detected central changes faster supports the idea that attention was focused on a limited area, consistent with the spatial spotlight metaphor."
+        },
+        {
+          "id": "sp-2-q4",
+          "stem": "A participant who detects a change in the color of a traffic light in the scene but fails to notice a change in the shape of a cloud would most likely be demonstrating the influence of:",
+          "options": ["A. Bottom-up processing driven by stimulus salience alone", "B. Top-down processing driven by knowledge and expectations about important scene elements", "C. Parallel processing of all visual features simultaneously", "D. The just-noticeable difference threshold for color versus shape"],
+          "correct": 1,
+          "explanation": "Top-down processing involves using prior knowledge, expectations, and goals to guide attention. A traffic light has high semantic importance for driving and safety, making it more likely to capture attention compared to a cloud, which has low semantic relevance. This demonstrates how meaning and knowledge guide attention allocation in complex scenes."
+        },
+        {
+          "id": "sp-2-q5",
+          "stem": "If the researchers repeated the study but removed the blank screen between image alternations, they would most likely find:",
+          "options": ["A. No change in detection times because the task difficulty is inherent", "B. Significantly faster detection of both central and peripheral changes", "C. Slower detection times due to increased visual fatigue", "D. A reversal in the pattern, with peripheral changes detected faster"],
+          "correct": 1,
+          "explanation": "Without the blank screen, the transient motion signal created by the change would be visible and would automatically draw attention to the location of the change. This would make detection much faster for both central and peripheral changes, essentially eliminating the change blindness effect that depends on the masking of transients."
+        }
+      ]
+    },
+    {
+      "id": "sp-passage-3",
+      "passage": "A neuroscience research team conducted a study examining the gate control theory of pain using a cold pressor task. Participants (N=90) submerged their non-dominant hand in ice water (2 degrees Celsius) and reported pain intensity on a 0-10 visual analog scale every 30 seconds for up to 3 minutes. Participants were randomly assigned to one of three conditions: control (no intervention), tactile stimulation (vibration applied to the ipsilateral forearm during the task), or cognitive distraction (counting backward from 1000 by 7s). Results indicated that both the tactile stimulation group (M=5.1, SD=1.3) and the cognitive distraction group (M=4.8, SD=1.5) reported significantly lower pain ratings than the control group (M=7.2, SD=1.1), p<0.001 for both comparisons. The tactile and cognitive groups did not differ from each other (p=0.34). Functional MRI data collected during the task showed that the cognitive distraction condition was associated with increased activation of the prefrontal cortex and decreased activation of the anterior cingulate cortex compared to the control condition. The tactile stimulation condition showed increased activation of the somatosensory cortex in regions corresponding to the forearm.",
+      "questions": [
+        {
+          "id": "sp-3-q1",
+          "stem": "According to gate control theory, the tactile stimulation condition reduced pain perception most likely by:",
+          "options": ["A. Blocking pain signals at the level of the cerebral cortex", "B. Activating large-diameter A-beta fibers that close the spinal gate to pain transmission", "C. Reducing the production of substance P at nociceptor terminals", "D. Increasing the release of endorphins from the pituitary gland"],
+          "correct": 1,
+          "explanation": "Gate control theory (Melzack and Wall) proposes that activation of large-diameter, myelinated A-beta fibers (which carry tactile information) can inhibit or 'close the gate' on pain signals carried by small-diameter C fibers and A-delta fibers at the level of the spinal cord dorsal horn. Vibration activates these large fibers, thereby reducing the transmission of pain signals to the brain."
+        },
+        {
+          "id": "sp-3-q2",
+          "stem": "The decreased activation of the anterior cingulate cortex in the cognitive distraction condition most likely reflects reduced:",
+          "options": ["A. Motor planning for the hand submerged in ice water", "B. Affective and emotional processing of pain", "C. Sensory discrimination of pain location and intensity", "D. Autonomic nervous system responses to cold stimuli"],
+          "correct": 1,
+          "explanation": "The anterior cingulate cortex (ACC) is strongly associated with the affective-motivational component of pain processing, including the unpleasantness and emotional suffering associated with pain. Reduced ACC activation during cognitive distraction suggests that the emotional or suffering component of pain was diminished, rather than the pure sensory discrimination of pain."
+        },
+        {
+          "id": "sp-3-q3",
+          "stem": "The pain signals from the cold pressor task are primarily transmitted to the spinal cord via:",
+          "options": ["A. A-beta fibers, which are large and myelinated", "B. A-delta and C fibers, which carry nociceptive information", "C. Efferent motor neurons from the ventral horn", "D. Parasympathetic fibers of the vagus nerve"],
+          "correct": 1,
+          "explanation": "Nociceptive (pain) signals are primarily carried by two types of afferent fibers: A-delta fibers (small, myelinated, carrying fast/sharp pain) and C fibers (small, unmyelinated, carrying slow/dull/aching pain). The cold pressor task activates both fiber types. A-beta fibers carry touch and pressure information, not pain."
+        },
+        {
+          "id": "sp-3-q4",
+          "stem": "The increased prefrontal cortex activation in the cognitive distraction group most likely reflects:",
+          "options": ["A. Sensory processing of the cold stimulus", "B. Executive control and working memory demands of the counting task", "C. Activation of the sympathetic nervous system stress response", "D. Encoding of the pain experience into long-term memory"],
+          "correct": 1,
+          "explanation": "The prefrontal cortex is heavily involved in executive functions including working memory, attentional control, and cognitive processing. Counting backward by 7s from 1000 is a demanding working memory task that engages the prefrontal cortex, thereby potentially competing with and reducing pain processing resources through top-down attentional modulation."
+        },
+        {
+          "id": "sp-3-q5",
+          "stem": "If a participant experienced phantom limb pain after amputation, the gate control theory would predict that this pain could potentially be reduced by:",
+          "options": ["A. Applying topical anesthetic to the remaining stump", "B. Providing tactile stimulation to the stump area to activate large-diameter fibers", "C. Severing the remaining peripheral nerves at the stump", "D. Administering a drug that blocks only A-delta fiber transmission"],
+          "correct": 1,
+          "explanation": "Gate control theory predicts that activating large-diameter A-beta fibers can inhibit pain transmission at the spinal level. Providing tactile stimulation (such as massage or vibration) to the stump could activate these fibers and potentially close the gate on phantom pain signals. This is consistent with some therapeutic approaches to phantom limb pain, such as mirror therapy and TENS."
+        }
+      ]
+    },
+    {
+      "id": "sp-passage-4",
+      "passage": "A vision researcher investigated the effects of color context on color perception using a simultaneous color contrast paradigm. Participants (N=60) viewed a series of displays in which a central gray square was surrounded by different colored backgrounds (red, green, blue, or yellow). Participants adjusted the hue of a comparison patch until it appeared identical to the central gray square. Results showed systematic color shifts: gray squares on red backgrounds were adjusted to appear slightly green, those on green backgrounds appeared slightly red, those on blue backgrounds appeared slightly yellow, and those on yellow backgrounds appeared slightly blue. These effects were consistent with the opponent-process theory of color vision. Additionally, the magnitude of the color contrast effect was significantly larger when participants viewed the stimuli monocularly (with one eye) compared to binocularly (M=12.3 vs M=8.7 units of color shift, p=0.003). The researcher also measured event-related potentials (ERPs) and found that the N1 component, occurring approximately 170 ms after stimulus onset, was modulated by the background color, suggesting that the effect occurs at a relatively early stage of visual processing.",
+      "questions": [
+        {
+          "id": "sp-4-q1",
+          "stem": "The systematic color shifts observed in this study are best explained by which theory of color vision?",
+          "options": ["A. Trichromatic theory, which proposes three types of cones", "B. Opponent-process theory, which proposes antagonistic color channels", "C. The Gestalt principle of figure-ground organization", "D. Weber's law of just-noticeable differences"],
+          "correct": 1,
+          "explanation": "The opponent-process theory of color vision (Hering) proposes that color is processed through antagonistic channels: red-green, blue-yellow, and black-white. The observation that red backgrounds make gray appear green (and vice versa) directly reflects this opponent coding: when one member of an opponent pair is suppressed through adaptation or surround inhibition, the other member becomes more prominent."
+        },
+        {
+          "id": "sp-4-q2",
+          "stem": "The finding that monocular viewing produced larger contrast effects than binocular viewing suggests that the color contrast effect is at least partially mediated at the level of the:",
+          "options": ["A. Visual cortex, where binocular integration occurs", "B. Retina, before signals from the two eyes are combined", "C. Lateral geniculate nucleus, where color constancy is established", "D. Inferior temporal cortex, where object recognition occurs"],
+          "correct": 1,
+          "explanation": "If the effect were entirely cortical (after binocular convergence), monocular and binocular viewing should produce similar effects. The larger effect with monocular viewing suggests that some of the processing occurs at the retinal level, where each eye processes independently. At the retina, lateral inhibition between neighboring neurons can produce surround contrast effects before signals are combined binocularly."
+        },
+        {
+          "id": "sp-4-q3",
+          "stem": "A patient with damage to the parvocellular pathway of the lateral geniculate nucleus would most likely show impairment in:",
+          "options": ["A. Motion detection and depth perception", "B. Color perception and fine spatial detail", "C. Peripheral vision and dark adaptation", "D. Auditory-visual integration and multisensory processing"],
+          "correct": 1,
+          "explanation": "The parvocellular pathway processes color information and fine spatial detail (high spatial frequency). Damage to this pathway would impair color perception and the ability to see fine details. The magnocellular pathway, in contrast, is specialized for motion detection, flicker detection, and coarse spatial information."
+        },
+        {
+          "id": "sp-4-q4",
+          "stem": "The modulation of the N1 ERP component by background color at approximately 170 ms most strongly suggests that:",
+          "options": ["A. Color contrast effects require conscious deliberation and late cognitive processing", "B. Color context influences visual processing at a relatively early perceptual stage", "C. The effects are entirely due to decision-level biases in color matching", "D. Participants were using top-down expectations to guide their color judgments"],
+          "correct": 1,
+          "explanation": "The N1 component at 170 ms is considered an early visual ERP component associated with perceptual processing in visual cortex. Its modulation by background color indicates that the surround color is influencing visual processing at an early stage of perception, rather than at a later decision or cognitive stage. This supports the interpretation that color contrast is a perceptual rather than purely cognitive phenomenon."
+        },
+        {
+          "id": "sp-4-q5",
+          "stem": "According to trichromatic theory, a person who lacks functional M-cones (medium-wavelength cones) would be classified as having:",
+          "options": ["A. Tritanopia, with difficulty distinguishing blue from yellow", "B. Deuteranopia, with difficulty distinguishing red from green", "C. Protanopia, with reduced sensitivity to long wavelengths", "D. Achromatopsia, with complete loss of color vision"],
+          "correct": 1,
+          "explanation": "Deuteranopia is a type of color blindness caused by the absence of functional M-cones (medium-wavelength sensitive cones, which respond most to green light). This results in difficulty distinguishing red from green. Protanopia involves absent L-cones (long-wavelength), and tritanopia involves absent S-cones (short-wavelength)."
+        }
+      ]
+    },
+    {
+      "id": "sp-passage-5",
+      "passage": "Researchers conducted an experiment on proprioception and body ownership using a modified rubber hand illusion (RHI) paradigm. Participants (N=50) placed their left hand behind a screen while a realistic rubber hand was placed in view in front of them. An experimenter simultaneously stroked both the hidden real hand and the visible rubber hand with a paintbrush. After 2 minutes of synchronous stroking, participants reported a strong sense of ownership over the rubber hand, as measured by a 7-point Likert scale (M=5.8, SD=0.9). In a control condition with asynchronous stroking, ownership ratings were significantly lower (M=2.1, SD=1.2), t(49)=18.4, p<0.001. Proprioceptive drift, measured as the perceived location of the real hand shifting toward the rubber hand, was 2.8 cm on average in the synchronous condition versus 0.4 cm in the asynchronous condition. Skin conductance responses to a threatening stimulus directed at the rubber hand were also significantly greater in the synchronous condition (M=3.2 microsiemens, SD=1.1) compared to the asynchronous condition (M=0.8 microsiemens, SD=0.6), p<0.001. The researchers proposed that multisensory integration of visual, tactile, and proprioceptive information underlies the construction of body ownership.",
+      "questions": [
+        {
+          "id": "sp-5-q1",
+          "stem": "The rubber hand illusion demonstrates that body ownership is primarily constructed through:",
+          "options": ["A. Vestibular processing and equilibrium maintenance", "B. Multisensory integration of visual, tactile, and proprioceptive information", "C. Purely cognitive beliefs about which objects belong to the body", "D. Motor feedback from voluntary movements of the hand"],
+          "correct": 1,
+          "explanation": "The rubber hand illusion demonstrates that when visual information (seeing the rubber hand being stroked) and tactile information (feeling one's own hand being stroked) are temporally correlated, the brain integrates these signals to produce a sense of ownership over the rubber hand. This reflects the fundamental role of multisensory integration in constructing body ownership."
+        },
+        {
+          "id": "sp-5-q2",
+          "stem": "The proprioceptive drift observed in the synchronous condition indicates that:",
+          "options": ["A. Participants consciously decided to shift their hand position", "B. The brain recalibrated the perceived position of the real hand toward the visually dominant rubber hand", "C. Tactile sensitivity in the real hand was reduced by the experimental procedure", "D. The rubber hand physically moved closer to the participant's real hand"],
+          "correct": 1,
+          "explanation": "Proprioceptive drift refers to a shift in the perceived position of one's own hand toward the rubber hand, reflecting visual dominance in spatial localization. When multisensory integration creates a sense of ownership over the rubber hand, the brain resolves the spatial conflict between proprioceptive information (actual hand position) and visual information (rubber hand position) by shifting perceived position toward the visual input."
+        },
+        {
+          "id": "sp-5-q3",
+          "stem": "The elevated skin conductance response to threats directed at the rubber hand in the synchronous condition most directly reflects activation of the:",
+          "options": ["A. Parasympathetic nervous system promoting relaxation", "B. Somatic nervous system controlling voluntary muscle contractions", "C. Sympathetic nervous system generating an autonomic arousal response", "D. Enteric nervous system regulating digestive functions"],
+          "correct": 2,
+          "explanation": "Skin conductance responses (electrodermal activity) are mediated by the sympathetic nervous system, which controls eccrine sweat gland activity. An increased skin conductance response to a threat directed at the rubber hand indicates sympathetic arousal, suggesting that the participant experienced a genuine physiological threat response because they had incorporated the rubber hand into their body representation."
+        },
+        {
+          "id": "sp-5-q4",
+          "stem": "The necessity of synchronous stroking for the illusion to occur supports the idea that body ownership depends on:",
+          "options": ["A. Temporal correlation between multisensory inputs", "B. Prior experience with rubber objects", "C. The visual appearance of the rubber hand matching the participant's skin tone", "D. Explicit instruction that the rubber hand belongs to the participant"],
+          "correct": 0,
+          "explanation": "The critical role of synchronous (temporally correlated) stroking demonstrates that the brain uses temporal correspondence between visual and tactile inputs as a cue for integrating information from multiple senses. Asynchronous stroking breaks this temporal correlation, preventing the multisensory integration necessary for the illusion of body ownership."
+        },
+        {
+          "id": "sp-5-q5",
+          "stem": "Proprioceptors that provide information about hand position are primarily located in:",
+          "options": ["A. The epidermis of the skin", "B. Free nerve endings in the dermis", "C. Muscles, tendons, and joint capsules", "D. Pacinian corpuscles in subcutaneous tissue"],
+          "correct": 2,
+          "explanation": "Proprioceptors are specialized sensory receptors found in muscles (muscle spindles), tendons (Golgi tendon organs), and joint capsules that provide information about body position, movement, and force. While Pacinian corpuscles detect deep pressure and vibration, proprioception specifically relies on receptors in the musculoskeletal system to sense limb position and movement."
+        }
+      ]
+    },
+    {
+      "id": "sp-passage-6",
+      "passage": "A psychophysics laboratory investigated Weber's law across different sensory modalities. Participants (N=100) completed just-noticeable difference (JND) tasks in three modalities: weight discrimination (lifting pairs of weights), brightness discrimination (comparing two patches of light), and pitch discrimination (comparing two tones). For each modality, participants compared a standard stimulus to a comparison stimulus and indicated which was greater. Weber fractions (delta I / I) were calculated for each modality. Results confirmed that Weber fractions were approximately constant across a wide range of stimulus intensities within each modality: weight discrimination yielded a Weber fraction of approximately 0.02, brightness discrimination approximately 0.08, and pitch discrimination approximately 0.003. However, at very low stimulus intensities near absolute threshold, Weber fractions increased significantly, deviating from Weber's law. The researchers also noted individual differences, with musicians showing significantly smaller Weber fractions for pitch discrimination (M=0.002) compared to non-musicians (M=0.004), t(98)=4.1, p<0.001. These findings were discussed in relation to neural coding precision and the role of experience in perceptual sensitivity.",
+      "questions": [
+        {
+          "id": "sp-6-q1",
+          "stem": "According to Weber's law, if a person can just barely detect the difference between a 100g weight and a 102g weight, what is the minimum detectable difference for a 500g weight?",
+          "options": ["A. 2g", "B. 5g", "C. 10g", "D. 20g"],
+          "correct": 2,
+          "explanation": "Weber's law states that the just-noticeable difference (JND) is a constant proportion of the standard stimulus intensity. With a Weber fraction of 0.02 (2/100), the JND for a 500g weight would be 500 x 0.02 = 10g. This means the person would need the comparison weight to be at least 510g to detect a difference."
+        },
+        {
+          "id": "sp-6-q2",
+          "stem": "The deviation from Weber's law at very low stimulus intensities is most likely due to:",
+          "options": ["A. Internal neural noise becoming proportionally larger relative to the stimulus signal", "B. Participants becoming bored and losing motivation at low intensity levels", "C. The Weber fraction becoming negative at low stimulus intensities", "D. Sensory adaptation eliminating the ability to detect any differences"],
+          "correct": 0,
+          "explanation": "At very low stimulus intensities near absolute threshold, internal neural noise represents a proportionally larger contribution to the overall signal. This makes discrimination more difficult than Weber's law predicts because the signal-to-noise ratio becomes unfavorable. This is accounted for in the modified Weber's law equation that includes a constant term for internal noise."
+        },
+        {
+          "id": "sp-6-q3",
+          "stem": "The smaller Weber fraction for pitch discrimination in musicians compared to non-musicians is best explained by:",
+          "options": ["A. Musicians having larger cochleae than non-musicians", "B. Experience-dependent neural plasticity enhancing auditory processing precision", "C. Musicians being more likely to guess correctly on the task", "D. Non-musicians having higher absolute thresholds for hearing"],
+          "correct": 1,
+          "explanation": "The superior pitch discrimination in musicians reflects experience-dependent neural plasticity, where extensive musical training leads to more precise neural representations of pitch in auditory cortex. This perceptual learning enhances the precision of neural coding for pitch differences, resulting in smaller JNDs and Weber fractions."
+        },
+        {
+          "id": "sp-6-q4",
+          "stem": "The finding that different sensory modalities have different Weber fractions indicates that:",
+          "options": ["A. Weber's law is invalid and should be replaced", "B. Sensory systems differ in their inherent precision of encoding stimulus magnitudes", "C. All senses use the same neural coding mechanism", "D. The experiment had methodological flaws in comparing modalities"],
+          "correct": 1,
+          "explanation": "Different Weber fractions across modalities (0.003 for pitch vs 0.08 for brightness) indicate that different sensory systems have different inherent levels of precision in encoding stimulus intensity. Pitch discrimination is remarkably precise (small Weber fraction), while brightness discrimination is comparatively coarse (larger Weber fraction). Weber's law still holds within each modality."
+        },
+        {
+          "id": "sp-6-q5",
+          "stem": "A researcher studying the absolute threshold for detecting a dim light in a dark room would most likely use which psychophysical method?",
+          "options": ["A. The method of constant stimuli, presenting stimuli of varying intensities in random order", "B. Magnitude estimation, asking participants to assign numbers to stimulus intensity", "C. Cross-modal matching, comparing the light to a sound", "D. The two-point threshold method used in touch discrimination"],
+          "correct": 0,
+          "explanation": "The method of constant stimuli is a classic psychophysical method for determining absolute thresholds. Stimuli of various intensities around the expected threshold are presented in random order, and the participant reports whether they detected each stimulus. The threshold is defined as the intensity detected 50% of the time. This method avoids the biases of ascending/descending methods."
+        }
+      ]
+    },
+    {
+      "id": "sp-passage-7",
+      "passage": "A clinical neuropsychologist evaluated a 58-year-old patient who presented with unusual perceptual symptoms following a stroke affecting the right parietal lobe. The patient exhibited hemispatial neglect, failing to attend to stimuli presented in the left visual field despite having intact visual acuity in both eyes as confirmed by ophthalmological examination. When asked to bisect horizontal lines, the patient consistently placed the midpoint to the right of the actual center. When copying drawings, the patient omitted details on the left side of objects. Interestingly, the patient also showed extinction, correctly identifying single stimuli presented to either visual field alone, but failing to report the left-sided stimulus when bilateral simultaneous stimulation was performed. The patient was unaware of her deficit (anosognosia) and insisted her perception was normal. Neuroimaging revealed damage to the right inferior parietal lobule and the temporoparietal junction, areas associated with spatial attention networks. The neuropsychologist recommended rehabilitation involving prism adaptation therapy, which has shown some evidence for reducing neglect symptoms.",
+      "questions": [
+        {
+          "id": "sp-7-q1",
+          "stem": "The patient's hemispatial neglect is best classified as a deficit in:",
+          "options": ["A. Sensation, due to damage to primary visual cortex", "B. Attention, due to impaired spatial awareness despite intact sensory processing", "C. Memory, due to inability to remember left-sided stimuli", "D. Motor function, due to inability to move the eyes leftward"],
+          "correct": 1,
+          "explanation": "Hemispatial neglect is a disorder of spatial attention, not sensation. The patient's visual acuity is intact, confirming that the primary visual pathways are functioning. The deficit lies in the attentional processing of stimuli from the left side of space, mediated by damage to the right parietal attention networks that normally direct attention across the entire visual field."
+        },
+        {
+          "id": "sp-7-q2",
+          "stem": "The extinction phenomenon observed in this patient demonstrates that:",
+          "options": ["A. The left visual field is completely blind", "B. Attentional resources are insufficient to process competing bilateral stimuli", "C. The patient has damage to the optic chiasm", "D. Both hemispheres have sustained equal damage"],
+          "correct": 1,
+          "explanation": "Extinction occurs when a patient can detect stimuli in either visual field alone but fails to detect the contralesional (left) stimulus when both sides are stimulated simultaneously. This demonstrates that the patient retains some ability to process left-sided stimuli, but when attentional resources must be divided between competing bilateral inputs, the damaged right hemisphere cannot adequately attend to the left side."
+        },
+        {
+          "id": "sp-7-q3",
+          "stem": "The patient's anosognosia (unawareness of her deficit) is significant because it suggests:",
+          "options": ["A. The patient is deliberately concealing her symptoms", "B. The brain regions involved in self-monitoring and awareness of deficits are also compromised", "C. The neglect symptoms are psychogenic rather than neurological", "D. The patient will spontaneously recover within days"],
+          "correct": 1,
+          "explanation": "Anosognosia, or lack of awareness of one's own neurological deficit, is commonly associated with right hemisphere damage, particularly in the parietal and frontal regions involved in self-monitoring and metacognition. This unawareness is itself a neurological symptom reflecting damage to brain systems responsible for monitoring and evaluating one's own perceptual and cognitive processes."
+        },
+        {
+          "id": "sp-7-q4",
+          "stem": "The rightward bias in line bisection tasks occurs because the patient:",
+          "options": ["A. Has superior motor control of the right hand", "B. Fails to attend to the left extent of the line, perceiving the line as shorter and shifting the midpoint rightward", "C. Has impaired depth perception affecting distance judgments", "D. Is compensating for left-sided motor weakness"],
+          "correct": 1,
+          "explanation": "In hemispatial neglect, the patient fails to attend to the left portion of the line, effectively perceiving a shorter line. When attempting to bisect this apparently shorter line, the perceived midpoint shifts rightward because the patient is finding the center of only the portion of the line they are aware of, which is biased toward the right side of space."
+        },
+        {
+          "id": "sp-7-q5",
+          "stem": "Prism adaptation therapy works by:",
+          "options": ["A. Correcting the underlying visual field defect through optical compensation", "B. Inducing a systematic rightward optical shift that forces the patient to recalibrate spatial attention leftward", "C. Strengthening the muscles of the left eye to improve left visual field coverage", "D. Reducing inflammation in the damaged parietal cortex"],
+          "correct": 1,
+          "explanation": "Prism adaptation therapy involves having the patient wear prism glasses that shift the visual field rightward, causing initial pointing errors. As the patient adapts to the prisms by adjusting their pointing leftward, this recalibration appears to transfer to spatial attention more broadly, reducing neglect symptoms. The adaptation induces a leftward shift in spatial attention that persists after the prisms are removed."
+        }
+      ]
+    },
+    {
+      "id": "sp-passage-8",
+      "passage": "Researchers studying auditory perception investigated the cocktail party effect using a dichotic listening paradigm. Participants (N=75) wore headphones and received different spoken messages in each ear. They were instructed to shadow (repeat aloud) the message in the right ear while ignoring the left ear message. After the task, participants were tested on their recall of information from the unattended (left ear) channel. Results showed that participants could report almost nothing about the semantic content of the unattended message, with only 8% accuracy on content questions. However, when their own name was embedded in the unattended message, 65% of participants noticed it. Furthermore, when the unattended message switched from English to a foreign language, only 12% of participants detected the change. Physical characteristics of the unattended message were more readily noticed: 78% detected when the speaker changed from male to female voice, and 82% detected when the message switched to a tone. Event-related potential data showed that the N400 component, associated with semantic processing, was significantly attenuated for unattended compared to attended messages, suggesting reduced semantic processing of unattended stimuli.",
+      "questions": [
+        {
+          "id": "sp-8-q1",
+          "stem": "The finding that participants could report physical but not semantic characteristics of the unattended message is most consistent with:",
+          "options": ["A. Late selection theory, which holds that all stimuli are semantically processed", "B. Broadbent's early selection filter theory, which proposes filtering based on physical features", "C. Treisman's attenuation theory, which suggests no processing of unattended stimuli occurs", "D. The binding problem theory of consciousness"],
+          "correct": 1,
+          "explanation": "Broadbent's early selection filter model proposes that attention acts as a filter early in processing, allowing physical characteristics (such as voice pitch, location) to be registered but blocking semantic processing of unattended stimuli. The finding that participants noticed physical changes but not semantic content in the unattended ear supports this model of early selection based on physical features."
+        },
+        {
+          "id": "sp-8-q2",
+          "stem": "The finding that 65% of participants noticed their own name in the unattended channel poses a challenge to strict early selection theory because it suggests:",
+          "options": ["A. Physical characteristics are never processed from unattended channels", "B. Some degree of semantic processing occurs for highly personally relevant stimuli even in unattended channels", "C. Participants were not actually attending to the shadowed message", "D. The own-name effect is entirely due to physical acoustic properties"],
+          "correct": 1,
+          "explanation": "The cocktail party effect (noticing one's own name in an unattended channel) challenges strict early selection theory because detecting one's name requires semantic processing, which the theory predicts should be blocked. This finding is better accommodated by Treisman's attenuation model, which proposes that unattended stimuli are attenuated but not completely filtered, allowing highly relevant stimuli to break through."
+        },
+        {
+          "id": "sp-8-q3",
+          "stem": "The attenuated N400 component for unattended messages indicates that:",
+          "options": ["A. Semantic processing of unattended messages is completely absent", "B. Unattended messages receive reduced but not eliminated semantic processing", "C. The N400 component is unrelated to attention", "D. Participants were equally processing both channels semantically"],
+          "correct": 1,
+          "explanation": "The N400 ERP component is associated with semantic processing and meaning extraction. An attenuated (reduced but still present) N400 for unattended messages suggests that some degree of semantic processing occurs for unattended stimuli, but at a reduced level compared to attended stimuli. This is consistent with Treisman's attenuation theory rather than a strict all-or-none filtering model."
+        },
+        {
+          "id": "sp-8-q4",
+          "stem": "The right ear advantage for the shadowing task in this study is related to:",
+          "options": ["A. The right ear being physically closer to the speech source", "B. Contralateral auditory pathways projecting right ear input to the language-dominant left hemisphere", "C. Superior sound localization ability of the right ear", "D. The right ear having more hair cells in the cochlea"],
+          "correct": 1,
+          "explanation": "In most right-handed individuals, language processing is lateralized to the left hemisphere. Because auditory pathways are primarily contralateral (right ear projects to left hemisphere), right ear input has more direct access to left hemisphere language areas. This right ear advantage for speech processing is well-documented in dichotic listening studies and reflects the hemispheric lateralization of language."
+        },
+        {
+          "id": "sp-8-q5",
+          "stem": "According to Treisman's attenuation model, which modification to Broadbent's theory best accounts for the cocktail party effect?",
+          "options": ["A. Unattended stimuli are completely blocked from all processing", "B. The filter completely switches between channels on a random basis", "C. Unattended stimuli are attenuated rather than fully filtered, allowing stimuli with low activation thresholds to break through", "D. All stimuli receive full processing, and selection occurs only at the response stage"],
+          "correct": 2,
+          "explanation": "Treisman's attenuation model modifies Broadbent's filter by proposing that unattended stimuli are attenuated (turned down) rather than completely blocked. Additionally, certain stimuli like one's own name have permanently lowered activation thresholds, so even attenuated input can exceed these thresholds and reach awareness. This elegantly explains why personally relevant stimuli can capture attention from an unattended channel."
+        }
+      ]
+    },
+    {
+      "id": "sp-passage-9",
+      "passage": "A developmental psychologist studied depth perception in infants using the visual cliff apparatus. Infants aged 6 to 14 months (N=72) were placed on a glass-covered table with a shallow side (a checkered pattern directly under the glass) and a deep side (the same pattern placed several feet below the glass, creating the illusion of a drop-off). The infant's mother stood on the far side of the deep end and encouraged the infant to crawl toward her. Results showed that 92% of infants aged 9 months and older refused to crawl across the deep side despite the solid glass surface, while only 38% of 6-month-old infants showed avoidance. Heart rate measurements revealed a dissociation: 6-month-olds showed heart rate deceleration (indicating interest) when placed on the deep side, whereas 9-month-olds and older showed heart rate acceleration (indicating fear). Pre-locomotor infants (aged 3-5 months) who were tested using a different methodology involving being lowered onto the deep versus shallow sides showed visual interest (increased looking time) at the deep side but no defensive or fear responses. The researchers concluded that depth perception develops before the ability to use depth information for behavioral avoidance.",
+      "questions": [
+        {
+          "id": "sp-9-q1",
+          "stem": "The finding that pre-locomotor infants showed increased looking time at the deep side but no fear response suggests that:",
+          "options": ["A. Depth perception and fear of heights develop independently and on different timelines", "B. Pre-locomotor infants have no depth perception whatsoever", "C. The visual cliff apparatus is not valid for studying depth perception", "D. Fear of heights is entirely innate and present from birth"],
+          "correct": 0,
+          "explanation": "The dissociation between depth perception (shown by increased looking time) and fear of heights (absent in pre-locomotor infants) indicates that these are separate developmental processes. Infants can perceive depth before they develop the fear response associated with heights, which appears to emerge with locomotor experience, suggesting that crawling experience contributes to the development of wariness of heights."
+        },
+        {
+          "id": "sp-9-q2",
+          "stem": "The heart rate deceleration in 6-month-olds versus heart rate acceleration in 9-month-olds when placed on the deep side reflects:",
+          "options": ["A. The same emotional response at different intensities", "B. Different physiological responses: orienting/interest versus fear/defensive arousal", "C. Maturation of the cardiac system unrelated to perception", "D. Habituation effects from repeated exposure to the apparatus"],
+          "correct": 1,
+          "explanation": "Heart rate deceleration is associated with an orienting response, indicating interest and attention to novel stimuli. Heart rate acceleration is associated with a defensive or fear response, indicating arousal and avoidance motivation. This shift from interest to fear between 6 and 9 months reflects a developmental transition in how infants emotionally respond to perceived depth, not just a difference in intensity."
+        },
+        {
+          "id": "sp-9-q3",
+          "stem": "The depth cues available on the visual cliff that allow infants to perceive the drop-off are primarily:",
+          "options": ["A. Accommodation cues from the lens changing shape", "B. Binocular and monocular depth cues such as texture gradient and binocular disparity", "C. Auditory localization cues from sounds reflecting off the surfaces", "D. Proprioceptive feedback from changes in body position"],
+          "correct": 1,
+          "explanation": "The visual cliff provides multiple depth cues including texture gradient (the checkered pattern appears finer and more compressed on the deep side), binocular disparity (slightly different images in each eye due to depth), motion parallax, and linear perspective. These binocular and monocular depth cues work together to create a compelling perception of depth even through the protective glass surface."
+        },
+        {
+          "id": "sp-9-q4",
+          "stem": "The role of crawling experience in developing fear of the deep side is best characterized as an example of:",
+          "options": ["A. Classical conditioning of fear to visual cliff stimuli", "B. Experience-expectant development requiring specific sensory input", "C. Experience-dependent development where self-produced locomotion calibrates visual-motor coupling", "D. Maturation that occurs regardless of environmental experience"],
+          "correct": 2,
+          "explanation": "The development of fear of heights through crawling experience is an example of experience-dependent development, where specific individual experiences (self-produced locomotion) shape neural and behavioral development. Crawling provides infants with experience linking their own movements to optic flow patterns associated with depth, calibrating the relationship between visual depth information and motor responses."
+        },
+        {
+          "id": "sp-9-q5",
+          "stem": "If a researcher used a monocular eye patch on the infants, depth perception on the visual cliff would most likely be:",
+          "options": ["A. Completely eliminated because binocular cues are required for all depth perception", "B. Reduced but still present because monocular depth cues such as texture gradient remain available", "C. Enhanced because monocular viewing sharpens depth sensitivity", "D. Unchanged because infants rely exclusively on auditory cues for depth"],
+          "correct": 1,
+          "explanation": "While covering one eye would eliminate binocular depth cues (binocular disparity and convergence), multiple monocular depth cues would remain available on the visual cliff, including texture gradient, relative size, linear perspective, and motion parallax. Depth perception would be reduced but not eliminated, as monocular cues provide substantial depth information independently of binocular vision."
+        }
+      ]
+    },
+    {
+      "id": "sp-passage-10",
+      "passage": "A sensory neuroscience laboratory investigated the phenomenon of sensory adaptation using a thermal adaptation paradigm. Participants (N=40) immersed their left hand in warm water (40 degrees C) and their right hand in cool water (18 degrees C) for 3 minutes. They then placed both hands simultaneously into a basin of lukewarm water (30 degrees C). Participants reported the perceived temperature of the lukewarm water for each hand separately. Results showed that the hand previously in warm water perceived the lukewarm water as cool (M=22.3 degrees C perceived), while the hand previously in cool water perceived the same water as warm (M=36.8 degrees C perceived). This phenomenon was stable for approximately 45 seconds before perception returned to baseline. The researchers also measured receptor firing rates using microneurography and found that thermoreceptor firing rates adapted significantly during the 3-minute exposure period, with warm receptor firing rates decreasing by 60% during warm water exposure and cold receptor firing rates decreasing by 55% during cool water exposure. The adaptation was attributed to changes in ion channel kinetics in thermoreceptor neurons, involving calcium-dependent desensitization of transient receptor potential (TRP) channels.",
+      "questions": [
+        {
+          "id": "sp-10-q1",
+          "stem": "The perceptual aftereffect observed when both hands are placed in lukewarm water demonstrates that:",
+          "options": ["A. The water temperature actually changes differently for each hand", "B. Perception is relative to the adapted state of sensory receptors, not absolute stimulus values", "C. Warm receptors and cold receptors are located in different hands", "D. Sensory adaptation only occurs in the thermal modality"],
+          "correct": 1,
+          "explanation": "This classic demonstration shows that perception is relative rather than absolute. After adaptation, the same physical stimulus (30 degree C water) is perceived differently by each hand because each hand's thermoreceptors have adapted to different baseline temperatures. Perception reflects the change from the adapted state, not the absolute temperature of the stimulus."
+        },
+        {
+          "id": "sp-10-q2",
+          "stem": "The decrease in thermoreceptor firing rates during prolonged exposure to constant temperature is an example of:",
+          "options": ["A. Habituation at the level of the cerebral cortex", "B. Sensory fatigue due to depletion of neurotransmitters", "C. Neural adaptation at the receptor level reducing responsiveness to constant stimulation", "D. Inhibition from descending pain modulation pathways"],
+          "correct": 2,
+          "explanation": "The decrease in firing rate during constant stimulation represents neural adaptation at the peripheral receptor level. This is distinct from habituation, which occurs at higher levels of the nervous system. The adaptation involves changes in the ion channels (TRP channels) of the receptor neurons themselves, reducing their responsiveness to a constant stimulus while maintaining sensitivity to changes."
+        },
+        {
+          "id": "sp-10-q3",
+          "stem": "The involvement of TRP channels in thermal adaptation is significant because TRP channels are:",
+          "options": ["A. Found exclusively in the visual system for phototransduction", "B. Ion channels that are directly activated by temperature changes and various chemical stimuli", "C. Voltage-gated channels involved only in action potential propagation", "D. Channels responsible for neurotransmitter release at synapses"],
+          "correct": 1,
+          "explanation": "Transient receptor potential (TRP) channels are a family of ion channels that serve as molecular sensors for temperature and various chemical stimuli. Different TRP channel subtypes respond to different temperature ranges (e.g., TRPV1 for heat and capsaicin, TRPM8 for cold and menthol). Their calcium-dependent desensitization provides the molecular mechanism for thermal sensory adaptation."
+        },
+        {
+          "id": "sp-10-q4",
+          "stem": "The adaptive function of sensory adaptation in the thermal system is most likely to:",
+          "options": ["A. Prevent the organism from ever detecting temperature changes", "B. Enhance sensitivity to changes in temperature rather than constant temperature levels", "C. Conserve energy by reducing overall neural firing rates permanently", "D. Eliminate the need for thermoreceptors in maintaining homeostasis"],
+          "correct": 1,
+          "explanation": "Sensory adaptation serves the critical function of enhancing sensitivity to changes in stimulation rather than constant levels. By reducing responsiveness to an ongoing constant stimulus, the sensory system becomes more sensitive to new changes, which are typically more biologically relevant. Detecting a sudden temperature change is usually more important for survival than continuously monitoring a stable temperature."
+        },
+        {
+          "id": "sp-10-q5",
+          "stem": "If a researcher applied capsaicin (found in hot peppers) to the skin of a participant, the resulting burning sensation would primarily involve activation of:",
+          "options": ["A. TRPM8 channels, which respond to cold and menthol", "B. TRPV1 channels, which respond to heat, capsaicin, and acid", "C. Mechanoreceptors such as Meissner's corpuscles", "D. Olfactory receptors that detect volatile chemical compounds"],
+          "correct": 1,
+          "explanation": "TRPV1 (transient receptor potential vanilloid 1) channels are activated by noxious heat (above 43 degrees C), capsaicin (the active ingredient in hot peppers), and acidic conditions. Capsaicin binds directly to TRPV1 channels, opening them and producing the sensation of burning heat. This is why capsaicin produces a burning sensation despite not actually raising skin temperature."
+        }
+      ]
+    }
+  ]
+}

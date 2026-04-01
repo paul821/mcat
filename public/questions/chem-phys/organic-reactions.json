@@ -1,0 +1,416 @@
+{
+  "subtopic": "Organic Chemistry Reactions",
+  "sectionId": "chem-phys",
+  "passageSets": [
+    {
+      "id": "org-ps1",
+      "passage": "A graduate student investigates nucleophilic substitution reactions of alkyl halides. The student reacts 2-bromobutane with sodium hydroxide (NaOH) in two different solvent systems. In Experiment A, the reaction is carried out in DMSO, a polar aprotic solvent, at 25 degrees C. In Experiment B, the reaction is carried out in a 50:50 water-ethanol mixture at 25 degrees C. The student monitors the reaction rate and stereochemical outcome. In Experiment A, the rate doubles when either the substrate or NaOH concentration is doubled. In Experiment B, the rate depends only on the substrate concentration and is unaffected by changes in NaOH concentration. The student also notes that Experiment A produces primarily one enantiomer of the product, while Experiment B produces a nearly racemic mixture with slight excess of inversion product.",
+      "questions": [
+        {
+          "id": "org-ps1-q1",
+          "stem": "What mechanism operates in Experiment A?",
+          "options": ["A. SN1", "B. SN2", "C. E1", "D. E2"],
+          "correct": 1,
+          "explanation": "The rate depends on both substrate and nucleophile concentrations (second-order kinetics), which is characteristic of the SN2 mechanism. The polar aprotic solvent (DMSO) favors SN2 by not solvating the nucleophile, leaving it more reactive."
+        },
+        {
+          "id": "org-ps1-q2",
+          "stem": "What stereochemical outcome is expected in Experiment A?",
+          "options": ["A. Retention of configuration", "B. Inversion of configuration (Walden inversion)", "C. Racemization", "D. No stereochemistry is relevant"],
+          "correct": 1,
+          "explanation": "SN2 reactions proceed through a backside attack mechanism, where the nucleophile attacks from the side opposite the leaving group. This results in complete inversion of stereochemistry at the carbon center, known as Walden inversion."
+        },
+        {
+          "id": "org-ps1-q3",
+          "stem": "What mechanism operates in Experiment B?",
+          "options": ["A. SN1", "B. SN2", "C. E1", "D. E2"],
+          "correct": 0,
+          "explanation": "The rate depends only on the substrate concentration (first-order kinetics), characteristic of the SN1 mechanism. The protic solvent (water-ethanol) stabilizes the carbocation intermediate through solvation, favoring the SN1 pathway."
+        },
+        {
+          "id": "org-ps1-q4",
+          "stem": "Why does Experiment B produce a nearly racemic mixture?",
+          "options": ["A. Because the nucleophile attacks from both sides equally", "B. Because a planar carbocation intermediate is formed, which can be attacked from either face", "C. Because the leaving group blocks one face completely", "D. Because the reaction temperature is too high"],
+          "correct": 1,
+          "explanation": "In SN1, the carbocation intermediate is sp2-hybridized and planar. The nucleophile can attack from either face of this planar intermediate, leading to nearly equal amounts of both enantiomers. The slight excess of inversion product occurs because the leaving group partially blocks one face before it fully departs."
+        },
+        {
+          "id": "org-ps1-q5",
+          "stem": "If the substrate were changed to (CH3)3CBr (tert-butyl bromide), which mechanism would be favored regardless of solvent?",
+          "options": ["A. SN2, because the tertiary carbon is more electrophilic", "B. SN1, because the tertiary carbocation is stabilized by hyperconjugation", "C. Both SN1 and SN2 equally", "D. Neither; no substitution would occur"],
+          "correct": 1,
+          "explanation": "Tertiary substrates strongly favor SN1 because three alkyl groups stabilize the carbocation through hyperconjugation and inductive effects. SN2 is essentially impossible at a tertiary carbon due to severe steric hindrance preventing backside attack by the nucleophile."
+        }
+      ]
+    },
+    {
+      "id": "org-ps2",
+      "passage": "A synthetic chemist studies elimination reactions of 2-bromopentane with potassium tert-butoxide (KOC(CH3)3) in tert-butanol solvent. Potassium tert-butoxide is a strong, bulky base. The chemist observes that the major product is 2-pentene rather than 1-pentene, following Zaitsev's rule. However, when the same substrate is reacted with an even bulkier base, the ratio shifts toward 1-pentene (the Hofmann product). The chemist also investigates the stereochemistry of the elimination by using stereospecifically labeled substrates. For E2 elimination, the hydrogen and leaving group must be anti-periplanar (180 degrees dihedral angle). The reaction is second-order overall, first-order in both substrate and base. The activation energy for E2 is typically 80-120 kJ/mol.",
+      "questions": [
+        {
+          "id": "org-ps2-q1",
+          "stem": "What is the rate law for the E2 elimination reaction?",
+          "options": ["A. Rate = k[substrate]", "B. Rate = k[base]", "C. Rate = k[substrate][base]", "D. Rate = k[substrate]^2"],
+          "correct": 2,
+          "explanation": "E2 elimination is a concerted, bimolecular reaction. The rate depends on the concentration of both the substrate and the base, giving a second-order rate law. Both the base and the substrate participate in the single transition state."
+        },
+        {
+          "id": "org-ps2-q2",
+          "stem": "Why is 2-pentene the major product (Zaitsev product)?",
+          "options": ["A. It has fewer substituents on the double bond", "B. It is the more substituted alkene, which is thermodynamically more stable", "C. It forms through a less stable transition state", "D. The leaving group directs to the less substituted position"],
+          "correct": 1,
+          "explanation": "Zaitsev's rule states that the more substituted alkene is the major product because it is thermodynamically more stable due to hyperconjugation. The transition state leading to the more substituted alkene is lower in energy, reflecting the stability of the product."
+        },
+        {
+          "id": "org-ps2-q3",
+          "stem": "Why do very bulky bases shift the product distribution toward the Hofmann (less substituted) product?",
+          "options": ["A. Bulky bases are weaker and cannot deprotonate at secondary positions", "B. Bulky bases preferentially abstract the less sterically hindered proton at the terminal position", "C. Bulky bases change the mechanism from E2 to E1", "D. Bulky bases stabilize the less substituted alkene"],
+          "correct": 1,
+          "explanation": "A very bulky base like KOC(CH3)3 has difficulty accessing the more sterically crowded protons at internal carbon positions. It preferentially abstracts the less hindered proton at the terminal methyl group, leading to the less substituted (Hofmann) alkene product."
+        },
+        {
+          "id": "org-ps2-q4",
+          "stem": "What is the geometric requirement for E2 elimination?",
+          "options": ["A. The H and leaving group must be syn-periplanar (0 degrees)", "B. The H and leaving group must be anti-periplanar (180 degrees)", "C. The H and leaving group must be at 90 degrees", "D. There is no geometric requirement"],
+          "correct": 1,
+          "explanation": "E2 elimination requires an anti-periplanar arrangement of the departing hydrogen and leaving group (180 degree dihedral angle). This geometry allows optimal orbital overlap between the breaking C-H bond, forming pi bond, and breaking C-LG bond in the concerted transition state."
+        },
+        {
+          "id": "org-ps2-q5",
+          "stem": "If 2-bromopentane were treated with a weak base in a protic solvent at high temperature, which mechanism and product type would predominate?",
+          "options": ["A. E2 with Zaitsev product", "B. E1 with Zaitsev product", "C. SN2 with inversion", "D. SN1 with racemization"],
+          "correct": 1,
+          "explanation": "A weak base in a protic solvent at high temperature favors E1 elimination. High temperature favors elimination over substitution (entropy-driven). The E1 mechanism proceeds through a carbocation intermediate, and the Zaitsev product predominates because the more substituted alkene is more stable."
+        }
+      ]
+    },
+    {
+      "id": "org-ps3",
+      "passage": "A medicinal chemist designs a synthesis involving electrophilic addition to alkenes. The target molecule requires the Markovnikov addition of HBr to propene (CH3CH=CH2). The reaction proceeds through a carbocation intermediate. The chemist also considers the anti-Markovnikov addition product, which can be obtained by using HBr in the presence of peroxides (ROOR), proceeding through a radical mechanism. In the Markovnikov pathway, HBr adds such that the hydrogen bonds to the less substituted carbon and the bromine bonds to the more substituted carbon. The chemist must also consider potential rearrangements of the carbocation intermediate, which can occur via 1,2-hydride or 1,2-methyl shifts to form more stable carbocations. The activation energy for carbocation rearrangement is typically very low (< 10 kJ/mol).",
+      "questions": [
+        {
+          "id": "org-ps3-q1",
+          "stem": "What is the major product of Markovnikov addition of HBr to propene?",
+          "options": ["A. 1-bromopropane", "B. 2-bromopropane", "C. 1,2-dibromopropane", "D. 3-bromopropane"],
+          "correct": 1,
+          "explanation": "Markovnikov's rule states that the hydrogen adds to the carbon with more hydrogens (less substituted), and the halide adds to the more substituted carbon. For propene, this gives 2-bromopropane as the major product, proceeding through the more stable secondary carbocation."
+        },
+        {
+          "id": "org-ps3-q2",
+          "stem": "Why does the Markovnikov product predominate in the ionic mechanism?",
+          "options": ["A. The primary carbocation is more stable", "B. The secondary carbocation intermediate is more stable than the primary alternative", "C. The Br- ion is more nucleophilic than H+", "D. The reaction is thermodynamically controlled"],
+          "correct": 1,
+          "explanation": "Protonation of propene can form either a primary or secondary carbocation. The secondary carbocation is more stable due to hyperconjugation and inductive electron donation from the adjacent alkyl groups. The reaction proceeds through the more stable intermediate, giving the Markovnikov product."
+        },
+        {
+          "id": "org-ps3-q3",
+          "stem": "What product is obtained from anti-Markovnikov addition of HBr to propene using peroxides?",
+          "options": ["A. 2-bromopropane", "B. 1-bromopropane", "C. A mixture of 1- and 2-bromopropane", "D. Propane (no bromine added)"],
+          "correct": 1,
+          "explanation": "With peroxides, HBr adds via a radical mechanism. The bromine radical adds first to the less substituted carbon (forming the more stable secondary radical), and then hydrogen adds to the other carbon. This gives 1-bromopropane, the anti-Markovnikov product."
+        },
+        {
+          "id": "org-ps3-q4",
+          "stem": "If HBr is added to 3,3-dimethyl-1-butene via the ionic mechanism, what rearranged product might form?",
+          "options": ["A. 2-bromo-3,3-dimethylbutane only", "B. 2-bromo-2,3-dimethylbutane via methyl shift", "C. 1-bromo-3,3-dimethylbutane", "D. 3-bromo-2,2-dimethylbutane"],
+          "correct": 1,
+          "explanation": "Initial Markovnikov addition gives a secondary carbocation at C-2. A 1,2-methyl shift converts this to a more stable tertiary carbocation at C-3. Bromide then attacks the tertiary carbocation to give 2-bromo-2,3-dimethylbutane as the rearranged product."
+        },
+        {
+          "id": "org-ps3-q5",
+          "stem": "Why does anti-Markovnikov addition occur only with HBr (not HCl or HI) in the presence of peroxides?",
+          "options": ["A. HBr is the strongest hydrohalic acid", "B. The radical chain propagation steps are exothermic for HBr but not energetically favorable for HCl or HI", "C. HCl and HI cannot form radicals", "D. Peroxides react with HCl and HI to form different products"],
+          "correct": 1,
+          "explanation": "For HBr, both propagation steps (Br radical adding to alkene and carbon radical abstracting H from HBr) are exothermic. For HCl, the Cl radical addition step is too exothermic (unselective), and for HI, the I radical addition is endothermic, making the chain propagation energetically unfavorable."
+        }
+      ]
+    },
+    {
+      "id": "org-ps4",
+      "passage": "A biochemistry researcher studies the reactions of carbonyl compounds in biological systems. Aldehydes and ketones undergo nucleophilic addition reactions, where a nucleophile attacks the electrophilic carbonyl carbon. In aqueous solution, formaldehyde (HCHO) exists almost entirely as its hydrate (methylene glycol, HOCH2OH), while acetone shows negligible hydration. The researcher examines the relative reactivity of various carbonyl compounds: formaldehyde > acetaldehyde > acetone > benzophenone. The reactivity trend reflects both steric and electronic factors. Electron-donating groups decrease electrophilicity of the carbonyl carbon, while steric bulk near the carbonyl hinders nucleophilic attack. In biological systems, the most important carbonyl reactions include imine (Schiff base) formation with amines and aldol condensations catalyzed by aldolase enzymes.",
+      "questions": [
+        {
+          "id": "org-ps4-q1",
+          "stem": "Why does formaldehyde exist primarily as its hydrate while acetone does not?",
+          "options": ["A. Formaldehyde is less electrophilic than acetone", "B. Formaldehyde lacks substituents that stabilize the carbonyl, making it more reactive toward nucleophilic addition of water", "C. Acetone is more soluble in water", "D. Formaldehyde has a higher boiling point"],
+          "correct": 1,
+          "explanation": "Formaldehyde has hydrogen atoms (not alkyl groups) flanking the carbonyl, providing no electron donation or steric hindrance. This makes the carbonyl carbon highly electrophilic and reactive toward water addition. Acetone's two methyl groups donate electron density and provide steric protection, stabilizing the carbonyl form."
+        },
+        {
+          "id": "org-ps4-q2",
+          "stem": "In the reactivity series formaldehyde > acetaldehyde > acetone > benzophenone, what explains benzophenone's low reactivity?",
+          "options": ["A. Benzophenone is not a carbonyl compound", "B. The phenyl groups provide steric hindrance and electron donation through resonance, reducing electrophilicity", "C. Benzophenone is insoluble in all solvents", "D. The carbonyl bond in benzophenone is weaker"],
+          "correct": 1,
+          "explanation": "Benzophenone's two phenyl groups donate electron density to the carbonyl carbon through resonance, reducing its electrophilicity. Additionally, the bulky phenyl groups create significant steric hindrance around the carbonyl, making nucleophilic attack difficult."
+        },
+        {
+          "id": "org-ps4-q3",
+          "stem": "What is the product of the reaction between acetaldehyde and a primary amine (RNH2)?",
+          "options": ["A. An alcohol", "B. An imine (Schiff base)", "C. An ester", "D. An amide"],
+          "correct": 1,
+          "explanation": "Primary amines react with aldehydes to form imines (Schiff bases) through nucleophilic addition followed by elimination of water. The mechanism involves initial formation of a carbinolamine intermediate (hemiaminal), which then dehydrates to give the C=N bond of the imine."
+        },
+        {
+          "id": "org-ps4-q4",
+          "stem": "What type of reaction is the aldol condensation?",
+          "options": ["A. A free radical reaction", "B. An electrophilic aromatic substitution", "C. A nucleophilic addition of an enolate to a carbonyl, followed by dehydration", "D. A pericyclic reaction"],
+          "correct": 2,
+          "explanation": "In an aldol condensation, an enolate ion (formed by deprotonation alpha to a carbonyl) acts as a nucleophile and attacks the electrophilic carbonyl carbon of another molecule. The initial aldol product (beta-hydroxy carbonyl) can dehydrate to form an alpha,beta-unsaturated carbonyl compound."
+        },
+        {
+          "id": "org-ps4-q5",
+          "stem": "Which of the following would INCREASE the reactivity of a ketone toward nucleophilic addition?",
+          "options": ["A. Adding electron-donating groups to the carbonyl carbon", "B. Adding electron-withdrawing groups to the alpha carbon", "C. Increasing the size of substituents on the carbonyl", "D. Decreasing the polarity of the solvent"],
+          "correct": 1,
+          "explanation": "Electron-withdrawing groups (such as halogens or nitro groups) on the alpha carbon pull electron density away from the carbonyl carbon, making it more electrophilic and more reactive toward nucleophilic addition. This is the opposite effect of electron-donating groups, which decrease reactivity."
+        }
+      ]
+    },
+    {
+      "id": "org-ps5",
+      "passage": "A researcher in peptide chemistry studies the reactivity of carboxylic acid derivatives. The relative reactivity toward nucleophilic acyl substitution follows the order: acid chlorides > acid anhydrides > esters > amides. This trend is governed by the ability of the attached group to stabilize the carbonyl through resonance donation. Amides are the least reactive because the nitrogen lone pair donates strongly into the carbonyl, giving the C-N bond partial double-bond character. The researcher performs several interconversion reactions: an acid chloride is converted to an ester by reaction with an alcohol, an ester is converted to an amide by aminolysis, and an amide is hydrolyzed under acidic conditions to regenerate the carboxylic acid. Each transformation involves a tetrahedral intermediate formed by nucleophilic attack on the carbonyl carbon.",
+      "questions": [
+        {
+          "id": "org-ps5-q1",
+          "stem": "Why are acid chlorides the most reactive carboxylic acid derivative?",
+          "options": ["A. Chlorine is a strong electron donor through resonance", "B. Chlorine is electronegative and a poor resonance donor, making the carbonyl highly electrophilic, and Cl- is an excellent leaving group", "C. Acid chlorides are more stable than other derivatives", "D. The C-Cl bond is the strongest bond in the series"],
+          "correct": 1,
+          "explanation": "Chlorine's electronegativity withdraws electron density inductively, making the carbonyl carbon highly electrophilic. Additionally, chlorine is a poor resonance donor (its 3p orbitals overlap poorly with carbon 2p), and Cl- is an excellent leaving group. All three factors contribute to high reactivity."
+        },
+        {
+          "id": "org-ps5-q2",
+          "stem": "Why are amides the least reactive carboxylic acid derivative?",
+          "options": ["A. The nitrogen lone pair is too small to interact with the carbonyl", "B. Nitrogen's lone pair donates strongly into the carbonyl via resonance, reducing electrophilicity, and NR2- is a poor leaving group", "C. Amides are sterically more hindered", "D. Amides have the weakest C-N bond"],
+          "correct": 1,
+          "explanation": "Nitrogen's lone pair effectively overlaps with the carbonyl pi system, delocalizing electron density onto the carbonyl carbon and reducing its electrophilicity. This resonance gives the C-N bond significant double-bond character (shown by the planar geometry of amides). Additionally, amide anions (NR2-) are very poor leaving groups."
+        },
+        {
+          "id": "org-ps5-q3",
+          "stem": "Can an ester be directly converted to an acid chloride?",
+          "options": ["A. Yes, by adding HCl", "B. Yes, by adding NaCl", "C. No, because this would require converting a less reactive derivative to a more reactive one", "D. Yes, by heating in the presence of a catalyst"],
+          "correct": 2,
+          "explanation": "Nucleophilic acyl substitution generally proceeds downhill in reactivity: more reactive derivatives can be converted to less reactive ones, but not the reverse. Converting an ester to an acid chloride would require going uphill in reactivity and does not occur under simple conditions."
+        },
+        {
+          "id": "org-ps5-q4",
+          "stem": "What is the mechanism of ester hydrolysis under acidic conditions?",
+          "options": ["A. Direct SN2 displacement of the alkoxide", "B. Protonation of carbonyl oxygen, nucleophilic addition of water, elimination of alcohol through a tetrahedral intermediate", "C. Free radical chain reaction", "D. Concerted pericyclic mechanism"],
+          "correct": 1,
+          "explanation": "Acid-catalyzed ester hydrolysis begins with protonation of the carbonyl oxygen, making the carbonyl more electrophilic. Water then attacks the carbonyl carbon to form a tetrahedral intermediate. Proton transfers and elimination of the alcohol regenerate the carbonyl, giving the carboxylic acid."
+        },
+        {
+          "id": "org-ps5-q5",
+          "stem": "What is the key intermediate in all nucleophilic acyl substitution reactions?",
+          "options": ["A. A carbocation", "B. A carbanion", "C. A tetrahedral intermediate", "D. A free radical"],
+          "correct": 2,
+          "explanation": "Nucleophilic acyl substitution proceeds through a tetrahedral intermediate formed when the nucleophile attacks the sp2 carbonyl carbon, converting it to sp3. The leaving group then departs, regenerating the planar sp2 carbonyl. This two-step addition-elimination mechanism distinguishes acyl substitution from simple addition to aldehydes and ketones."
+        }
+      ]
+    },
+    {
+      "id": "org-ps6",
+      "passage": "An organic chemistry student performs a Grignard reaction to synthesize a tertiary alcohol. The student prepares phenylmagnesium bromide (PhMgBr) by reacting bromobenzene with magnesium metal in anhydrous diethyl ether. The Grignard reagent is then added to acetone (CH3COCH3) to form 2-phenyl-2-propanol after acidic workup. The student must maintain strictly anhydrous conditions because Grignard reagents react rapidly with water, alcohols, and other protic sources. The mechanism involves nucleophilic addition of the carbanion equivalent (Ph-) to the electrophilic carbonyl carbon of acetone. The student also considers using the Grignard reagent with other carbonyl substrates: formaldehyde would give a primary alcohol, other aldehydes would give secondary alcohols, and ketones give tertiary alcohols. Esters react with two equivalents of Grignard reagent.",
+      "questions": [
+        {
+          "id": "org-ps6-q1",
+          "stem": "Why must the Grignard reaction be performed under anhydrous conditions?",
+          "options": ["A. Water catalyzes unwanted side reactions", "B. Water is a proton source that destroys the Grignard reagent by protonating the carbanion: RMgBr + H2O -> RH + Mg(OH)Br", "C. Water dissolves the magnesium metal", "D. Water reduces the yield of diethyl ether"],
+          "correct": 1,
+          "explanation": "Grignard reagents are powerful bases and nucleophiles. They react immediately with any proton source (water, alcohols, amines) to form the hydrocarbon: PhMgBr + H2O -> PhH + Mg(OH)Br. This destroys the reagent before it can react with the desired carbonyl compound."
+        },
+        {
+          "id": "org-ps6-q2",
+          "stem": "What product would result from adding PhMgBr to formaldehyde followed by acidic workup?",
+          "options": ["A. Benzaldehyde", "B. Benzyl alcohol (PhCH2OH)", "C. Phenol", "D. Biphenyl"],
+          "correct": 1,
+          "explanation": "Formaldehyde (HCHO) has no carbon substituents, so Grignard addition gives a primary alcohol. The phenyl group adds to the carbonyl carbon: PhMgBr + HCHO -> PhCH2OMgBr -> PhCH2OH (benzyl alcohol) after acidic workup."
+        },
+        {
+          "id": "org-ps6-q3",
+          "stem": "What type of alcohol is produced when PhMgBr reacts with acetaldehyde?",
+          "options": ["A. Primary alcohol", "B. Secondary alcohol", "C. Tertiary alcohol", "D. Phenol"],
+          "correct": 1,
+          "explanation": "Acetaldehyde (CH3CHO) is an aldehyde with one carbon substituent. Grignard addition puts the phenyl group on the carbonyl carbon, giving CH3CH(OH)Ph, a secondary alcohol. The carbon bearing the OH has two carbon substituents (CH3 and Ph)."
+        },
+        {
+          "id": "org-ps6-q4",
+          "stem": "Why does an ester react with two equivalents of Grignard reagent?",
+          "options": ["A. The first equivalent reduces the ester to an aldehyde", "B. The first equivalent converts the ester to a ketone via acyl substitution, and the second adds to the ketone to give a tertiary alcohol", "C. Both equivalents add simultaneously in a concerted mechanism", "D. The second equivalent deprotonates the alcohol product"],
+          "correct": 1,
+          "explanation": "The first Grignard equivalent adds to the ester carbonyl, forming a tetrahedral intermediate that collapses by ejecting the alkoxide leaving group to give a ketone. The ketone is more electrophilic than the ester, so the second Grignard equivalent immediately adds to give a tertiary alkoxide."
+        },
+        {
+          "id": "org-ps6-q5",
+          "stem": "What is the role of diethyl ether in the Grignard reaction?",
+          "options": ["A. It acts as a reactant", "B. Its oxygen lone pairs coordinate to magnesium, stabilizing the Grignard reagent in solution", "C. It prevents oxidation of the product", "D. It lowers the boiling point of the mixture"],
+          "correct": 1,
+          "explanation": "Diethyl ether is an essential solvent for Grignard reactions because its oxygen lone pairs coordinate to the magnesium atom, stabilizing the organomagnesium species in solution. Without this coordination, the Grignard reagent would not dissolve and the reaction would not proceed. THF works similarly."
+        }
+      ]
+    },
+    {
+      "id": "org-ps7",
+      "passage": "A researcher studies electrophilic aromatic substitution (EAS) reactions on substituted benzene rings. When toluene (methylbenzene) undergoes nitration with HNO3/H2SO4, the major products are ortho-nitrotoluene and para-nitrotoluene, with very little meta product. In contrast, nitration of nitrobenzene produces predominantly meta-dinitrobenzene. The researcher explains these results using the concepts of activating and deactivating groups. The methyl group is an electron-donating group (EDG) that activates the ring and directs incoming electrophiles to the ortho and para positions. The nitro group is an electron-withdrawing group (EWG) that deactivates the ring and directs to the meta position. The relative rates of nitration are: toluene 25 times faster than benzene, while nitrobenzene reacts 10,000 times slower than benzene.",
+      "questions": [
+        {
+          "id": "org-ps7-q1",
+          "stem": "What is the electrophile in aromatic nitration?",
+          "options": ["A. NO3-", "B. NO2+", "C. HNO3", "D. H2SO4"],
+          "correct": 1,
+          "explanation": "The nitronium ion (NO2+) is the electrophile generated from the reaction of HNO3 with H2SO4: HNO3 + H2SO4 -> NO2+ + HSO4- + H2O. The nitronium ion attacks the electron-rich aromatic pi system in the rate-determining step of the reaction."
+        },
+        {
+          "id": "org-ps7-q2",
+          "stem": "Why does the methyl group in toluene direct to ortho and para positions?",
+          "options": ["A. The methyl group blocks the meta position sterically", "B. The methyl group donates electron density through hyperconjugation, stabilizing the arenium ion intermediate when attack occurs at ortho and para positions", "C. The meta product is thermodynamically unstable", "D. The methyl group withdraws electrons from the meta position"],
+          "correct": 1,
+          "explanation": "When electrophilic attack occurs at the ortho or para position relative to the methyl group, one resonance structure of the arenium ion places the positive charge directly on the carbon bearing the methyl group. The methyl group stabilizes this positive charge through hyperconjugation, lowering the activation energy for ortho/para attack."
+        },
+        {
+          "id": "org-ps7-q3",
+          "stem": "Why does the nitro group direct to the meta position?",
+          "options": ["A. The nitro group activates the meta position by donating electrons there", "B. Ortho and para attack places the positive charge on the carbon bearing the electron-withdrawing nitro group, which is strongly destabilizing", "C. The meta position is sterically most accessible", "D. The nitro group forms hydrogen bonds at the meta position"],
+          "correct": 1,
+          "explanation": "When attack occurs at the ortho or para position, one resonance structure of the arenium ion places the positive charge on the carbon directly bearing the nitro group. Since the nitro group is electron-withdrawing, this is extremely destabilizing. Meta attack avoids this unfavorable arrangement, making it the least disfavored pathway."
+        },
+        {
+          "id": "org-ps7-q4",
+          "stem": "Which of the following groups is a meta-directing deactivator?",
+          "options": ["A. -OH", "B. -NH2", "C. -CF3", "D. -OCH3"],
+          "correct": 2,
+          "explanation": "The trifluoromethyl group (-CF3) is a strong electron-withdrawing group due to the three electronegative fluorine atoms. It deactivates the ring through inductive withdrawal and directs incoming electrophiles to the meta position. The other groups (-OH, -NH2, -OCH3) are all electron donors that direct to ortho/para."
+        },
+        {
+          "id": "org-ps7-q5",
+          "stem": "Halogens (F, Cl, Br, I) are ortho/para directors but deactivate the ring. What explains this unusual combination?",
+          "options": ["A. They are actually activating groups", "B. They withdraw electrons inductively (deactivating) but donate electrons through resonance to ortho/para positions of the intermediate", "C. They direct only to the para position", "D. They have no effect on the ring"],
+          "correct": 1,
+          "explanation": "Halogens have two competing effects: strong inductive withdrawal (deactivating) and weaker resonance donation through lone pair overlap. The inductive effect dominates for overall rate (deactivation), but the resonance donation stabilizes the arenium ion at ortho/para positions, controlling regiochemistry."
+        }
+      ]
+    },
+    {
+      "id": "org-ps8",
+      "passage": "A pharmaceutical researcher studies oxidation and reduction reactions in organic chemistry. The researcher oxidizes a primary alcohol (1-butanol) using different reagents to control the product. Treatment with pyridinium chlorochromate (PCC) in dichloromethane gives butanal (an aldehyde). Treatment with potassium permanganate (KMnO4) or chromic acid (H2CrO4) gives butanoic acid (a carboxylic acid). Secondary alcohols are oxidized to ketones by any of these reagents. Tertiary alcohols cannot be oxidized under normal conditions because there is no hydrogen on the carbon bearing the hydroxyl group. For reduction reactions, the researcher uses sodium borohydride (NaBH4) to selectively reduce ketones and aldehydes without affecting esters or carboxylic acids, and lithium aluminum hydride (LiAlH4) to reduce all carbonyl functional groups including esters and carboxylic acids.",
+      "questions": [
+        {
+          "id": "org-ps8-q1",
+          "stem": "Why does PCC oxidize primary alcohols to aldehydes rather than carboxylic acids?",
+          "options": ["A. PCC is a weaker oxidizing agent that operates in anhydrous conditions, preventing further oxidation of the aldehyde", "B. PCC is a stronger oxidizing agent than KMnO4", "C. PCC selectively oxidizes the O-H bond only", "D. Aldehydes are more stable than carboxylic acids"],
+          "correct": 0,
+          "explanation": "PCC is a mild oxidizing agent used in anhydrous dichloromethane. Without water present, the aldehyde cannot form the hydrate intermediate necessary for further oxidation to the carboxylic acid. Stronger oxidants like KMnO4 operate in aqueous conditions where over-oxidation occurs."
+        },
+        {
+          "id": "org-ps8-q2",
+          "stem": "What is the oxidation state of carbon in 1-butanol, butanal, and butanoic acid (at C-1)?",
+          "options": ["A. -1, +1, +3", "B. -1, 0, +1", "C. 0, +1, +2", "D. -1, +1, +2"],
+          "correct": 0,
+          "explanation": "In 1-butanol (CH3CH2CH2CH2OH), C-1 has oxidation state -1. In butanal (CH3CH2CH2CHO), C-1 has oxidation state +1 (two-electron oxidation). In butanoic acid (CH3CH2CH2COOH), C-1 has oxidation state +3. Each oxidation step is a two-electron change."
+        },
+        {
+          "id": "org-ps8-q3",
+          "stem": "Why can tertiary alcohols not be oxidized under normal conditions?",
+          "options": ["A. Tertiary alcohols are too sterically hindered", "B. There is no C-H bond on the carbinol carbon to be broken during oxidation", "C. Tertiary alcohols are too stable", "D. The oxidizing agents are too weak for tertiary alcohols"],
+          "correct": 1,
+          "explanation": "Alcohol oxidation requires breaking a C-H bond on the carbon bearing the hydroxyl group. Tertiary alcohols have no such hydrogen (three carbon substituents instead), making conventional oxidation impossible. Forcing conditions would lead to C-C bond cleavage rather than clean oxidation."
+        },
+        {
+          "id": "org-ps8-q4",
+          "stem": "What makes NaBH4 a milder reducing agent than LiAlH4?",
+          "options": ["A. NaBH4 delivers hydride less readily due to the B-H bond being less polar than the Al-H bond", "B. NaBH4 is insoluble in organic solvents", "C. LiAlH4 is a weaker Lewis acid", "D. NaBH4 reacts faster than LiAlH4"],
+          "correct": 0,
+          "explanation": "NaBH4 is a milder hydride donor because boron is more electronegative than aluminum, making the B-H bond less hydridic (less polar). LiAlH4 has more ionic Al-H bonds, making it a more powerful hydride donor capable of reducing esters and carboxylic acids that NaBH4 cannot."
+        },
+        {
+          "id": "org-ps8-q5",
+          "stem": "If you needed to reduce an ester to a primary alcohol in the presence of a ketone, what strategy would you use?",
+          "options": ["A. Use NaBH4 to reduce both groups, then re-oxidize the ketone", "B. Use LiAlH4 to reduce both groups simultaneously", "C. This selective reduction is not possible with these reagents alone", "D. Use excess PCC to reduce the ester"],
+          "correct": 2,
+          "explanation": "NaBH4 reduces ketones but not esters, while LiAlH4 reduces both. There is no common reagent that reduces esters but not ketones. This selectivity problem requires either protection of the ketone before LiAlH4 reduction, or use of specialized reagents like DIBAL-H at low temperature."
+        }
+      ]
+    },
+    {
+      "id": "org-ps9",
+      "passage": "A student studies the chemistry of enolates and their role in carbon-carbon bond formation. Treatment of acetone with lithium diisopropylamide (LDA) at -78 degrees C generates the kinetic enolate, while treatment with NaOH at room temperature generates the thermodynamic enolate. For unsymmetrical ketones like 2-methylcyclohexanone, the kinetic enolate forms at the less substituted alpha carbon (less hindered), while the thermodynamic enolate forms at the more substituted alpha carbon (more stable due to greater substitution of the double bond). The student uses these enolates in aldol reactions with benzaldehyde to form beta-hydroxy ketones. The crossed aldol reaction requires careful control to avoid self-condensation of the ketone. Using a non-enolizable aldehyde (like benzaldehyde, which has no alpha hydrogens) as the electrophile simplifies the reaction.",
+      "questions": [
+        {
+          "id": "org-ps9-q1",
+          "stem": "Why does LDA at -78 degrees C generate the kinetic enolate?",
+          "options": ["A. LDA is a weak base that selects the most acidic proton", "B. LDA is a strong, bulky, non-nucleophilic base that rapidly and irreversibly deprotonates the less hindered alpha proton at low temperature", "C. LDA generates the most stable enolate", "D. Low temperature increases the equilibrium constant"],
+          "correct": 1,
+          "explanation": "LDA is a strong, sterically hindered base that deprotonates rapidly and irreversibly. At -78 degrees C, there is insufficient thermal energy for equilibration to the more stable enolate. The bulky base preferentially attacks the less sterically hindered alpha proton, giving the kinetic product."
+        },
+        {
+          "id": "org-ps9-q2",
+          "stem": "For 2-methylcyclohexanone, which alpha carbon gives the thermodynamic enolate?",
+          "options": ["A. C-6 (less substituted side)", "B. C-2 (the side adjacent to the methyl group)", "C. Both equally", "D. Neither; cyclohexanones cannot form enolates"],
+          "correct": 1,
+          "explanation": "The thermodynamic enolate forms at C-2, which is the more substituted alpha carbon. The resulting enolate has a more substituted double bond (trisubstituted vs disubstituted), making it thermodynamically more stable due to hyperconjugation, analogous to the stability of more substituted alkenes."
+        },
+        {
+          "id": "org-ps9-q3",
+          "stem": "Why is benzaldehyde a good electrophilic partner for crossed aldol reactions?",
+          "options": ["A. Benzaldehyde is very nucleophilic", "B. Benzaldehyde has no alpha hydrogens and cannot self-condense or form an enolate", "C. Benzaldehyde is less electrophilic than ketones", "D. Benzaldehyde is cheaper than other aldehydes"],
+          "correct": 1,
+          "explanation": "Benzaldehyde lacks alpha hydrogens (the adjacent carbon is part of the aromatic ring), so it cannot form an enolate or undergo self-condensation. It can only serve as the electrophilic component, simplifying the crossed aldol and preventing unwanted side products."
+        },
+        {
+          "id": "org-ps9-q4",
+          "stem": "What is the product of an aldol reaction between acetone enolate and benzaldehyde?",
+          "options": ["A. A beta-hydroxy ketone (PhCH(OH)CH2COCH3)", "B. A beta-diketone", "C. A carboxylic acid", "D. An ether"],
+          "correct": 0,
+          "explanation": "The enolate of acetone attacks the carbonyl carbon of benzaldehyde in a nucleophilic addition. The product is a beta-hydroxy ketone: PhCH(OH)CH2COCH3. This product has a hydroxyl group beta to the ketone carbonyl, which is the hallmark of an aldol product."
+        },
+        {
+          "id": "org-ps9-q5",
+          "stem": "If the aldol product is heated under acidic or basic conditions, what occurs?",
+          "options": ["A. The product is reduced to an alcohol", "B. The product undergoes dehydration (elimination of water) to form an alpha,beta-unsaturated ketone", "C. The product rearranges to an ester", "D. The product polymerizes"],
+          "correct": 1,
+          "explanation": "Heating the beta-hydroxy ketone causes dehydration (loss of water) to form an alpha,beta-unsaturated ketone (enone). This is thermodynamically favorable because the resulting conjugated system (C=C-C=O) is stabilized by extended pi overlap. The overall aldol condensation is the combination of aldol addition and dehydration."
+        }
+      ]
+    },
+    {
+      "id": "org-ps10",
+      "passage": "A medicinal chemist designs synthetic routes using SN1 and SN2 reactions strategically. For the synthesis of a chiral drug molecule, stereochemistry must be precisely controlled. The chemist plans two key steps: (1) converting an alcohol to a tosylate (OTs) leaving group using tosyl chloride, which proceeds with retention of configuration since the C-O bond is not broken; (2) displacing the tosylate with an azide nucleophile (NaN3) via SN2 mechanism. The azide can later be reduced to an amine for the final drug structure. The chemist also considers competing E2 elimination, which can occur when strong bases are used with secondary substrates. To minimize elimination, the chemist uses a good nucleophile that is a weak base (azide, N3-) and keeps the temperature low. For another step requiring racemization, the chemist deliberately uses SN1 conditions with a polar protic solvent.",
+      "questions": [
+        {
+          "id": "org-ps10-q1",
+          "stem": "What is the overall stereochemical result of converting an (R)-alcohol to tosylate, then displacing with azide via SN2?",
+          "options": ["A. Retention of configuration at the stereocenter", "B. Inversion of configuration at the stereocenter", "C. Racemization", "D. No change in stereochemistry"],
+          "correct": 1,
+          "explanation": "Tosylation retains configuration (C-O bond not broken). The subsequent SN2 displacement inverts configuration (backside attack). Net result: one inversion overall, converting (R) to (S). This two-step strategy allows predictable stereochemical inversion at a hydroxyl-bearing carbon."
+        },
+        {
+          "id": "org-ps10-q2",
+          "stem": "Why is azide (N3-) a good nucleophile for minimizing E2 elimination?",
+          "options": ["A. Azide is a strong base that favors substitution", "B. Azide is a good nucleophile but a weak base, favoring SN2 over E2", "C. Azide is too bulky for elimination", "D. Azide cannot react with secondary substrates"],
+          "correct": 1,
+          "explanation": "The azide ion is an excellent nucleophile (good electron pair donor, polarizable) but a relatively weak base (pKa of HN3 is about 4.7). Since E2 requires a strong base while SN2 requires a good nucleophile, azide favors substitution over elimination."
+        },
+        {
+          "id": "org-ps10-q3",
+          "stem": "What factors favor SN2 over SN1 for the azide displacement step?",
+          "options": ["A. A polar protic solvent and a tertiary substrate", "B. A polar aprotic solvent, a primary or secondary substrate, and a strong nucleophile", "C. High temperature and a weak nucleophile", "D. A nonpolar solvent and no nucleophile"],
+          "correct": 1,
+          "explanation": "SN2 is favored by: (1) polar aprotic solvents (like DMSO or DMF) that do not solvate the nucleophile; (2) primary or secondary substrates with accessible electrophilic carbon; (3) strong, unhindered nucleophiles. These conditions maximize the rate of the bimolecular mechanism."
+        },
+        {
+          "id": "org-ps10-q4",
+          "stem": "Why would a tosylate (OTs) be used as a leaving group instead of directly displacing the hydroxyl?",
+          "options": ["A. Hydroxide (OH-) is a poor leaving group that would require harsh conditions for direct displacement", "B. Tosylates are cheaper than alcohols", "C. Direct displacement of OH gives better yields", "D. Tosylation changes the stereochemistry at carbon"],
+          "correct": 0,
+          "explanation": "The hydroxide ion (OH-) is a strong base and a poor leaving group. Direct SN2 displacement of -OH is essentially impossible under normal conditions. Converting to a tosylate installs an excellent leaving group (TsO-), making the subsequent SN2 reaction facile under mild conditions."
+        },
+        {
+          "id": "org-ps10-q5",
+          "stem": "How does low temperature help favor SN2 over E2?",
+          "options": ["A. Low temperature increases nucleophilicity", "B. E2 has a higher activation energy than SN2, so lowering temperature disproportionately slows elimination", "C. Low temperature makes the substrate more reactive", "D. Temperature has no effect on the SN2/E2 ratio"],
+          "correct": 1,
+          "explanation": "E2 elimination generally has a higher activation energy than SN2 substitution. According to the Arrhenius equation, reactions with higher activation energies are more sensitive to temperature changes. Lowering the temperature slows both reactions but slows E2 more, shifting the product ratio toward SN2."
+        }
+      ]
+    }
+  ]
+}

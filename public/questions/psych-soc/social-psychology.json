@@ -1,0 +1,416 @@
+{
+  "subtopic": "Social Psychology & Group Behavior",
+  "sectionId": "psych-soc",
+  "passageSets": [
+    {
+      "id": "sp-ps-001",
+      "passage": "A team of social psychologists replicated and extended Stanley Milgram's classic obedience experiments in a modern university setting with 240 participants. In the updated protocol, participants were told they were assisting in a learning study and were instructed by an authority figure in a lab coat to administer increasingly intense (simulated) electric shocks to a confederate learner who gave incorrect answers. The study included four conditions: a standard condition replicating Milgram's original setup, a condition where the experimenter gave instructions remotely via video screen, a condition where two experimenters gave contradictory instructions, and a condition where a peer confederate refused to continue. Results showed that 63% of participants in the standard condition administered shocks to the maximum level, closely replicating Milgram's original findings. Obedience dropped to 41% when instructions were given remotely, to 12% when experimenters disagreed, and to 18% when a peer refused to comply. Post-experiment debriefing revealed that obedient participants frequently cited the experimenter's authority and responsibility as justification for their actions, a phenomenon researchers linked to the agentic state theory. Participants who defied the experimenter reported higher levels of personal moral conflict and were more likely to attribute responsibility to themselves rather than the authority figure.",
+      "questions": [
+        {
+          "id": "sp-ps-001-q1",
+          "stem": "According to Milgram's agentic state theory, obedient participants continued shocking the learner primarily because they:",
+          "options": ["A. Experienced pleasure from exerting power over another person", "B. Shifted responsibility for their actions to the authority figure", "C. Were unaware that the shocks could cause harm", "D. Had pre-existing aggressive personality traits"],
+          "correct": 1,
+          "explanation": "The agentic state theory proposes that individuals shift from an autonomous state to an agentic state when they perceive themselves as agents carrying out the wishes of an authority figure. In this state, they transfer responsibility for their actions to the authority, which reduces the psychological discomfort of harming another person."
+        },
+        {
+          "id": "sp-ps-001-q2",
+          "stem": "The dramatic reduction in obedience when two experimenters gave contradictory instructions (12%) most likely occurred because:",
+          "options": ["A. Participants became confused and could not complete the task", "B. Conflicting authority undermined the legitimacy and clarity of the command structure", "C. Participants felt they were being deceived and withdrew from the study", "D. The contradictory instructions made the task less interesting"],
+          "correct": 1,
+          "explanation": "When two authority figures disagreed, it disrupted the clear hierarchical command structure that sustains obedience. Without a unified authoritative directive, participants could no longer attribute their actions to a single legitimate authority, which weakened the psychological mechanism driving compliance and allowed them to exercise autonomous judgment."
+        },
+        {
+          "id": "sp-ps-001-q3",
+          "stem": "The finding that defiant participants reported higher levels of personal moral conflict is most consistent with which psychological concept?",
+          "options": ["A. Cognitive dissonance between personal values and situational demands", "B. Learned helplessness from repeated exposure to uncontrollable situations", "C. The bystander effect reducing personal responsibility", "D. Social facilitation enhancing dominant responses"],
+          "correct": 0,
+          "explanation": "Cognitive dissonance theory predicts that when behavior conflicts with one's attitudes or moral beliefs, psychological discomfort results. Defiant participants experienced this dissonance between the authority's commands and their personal moral values, and their resolution was to align their behavior with their values by refusing to continue."
+        },
+        {
+          "id": "sp-ps-001-q4",
+          "stem": "The reduction in obedience when a peer refused to comply (18%) best demonstrates the influence of:",
+          "options": ["A. Informational social influence and social proof", "B. Deindividuation and loss of self-awareness", "C. Groupthink and pressure for unanimity", "D. Social loafing and diffusion of effort"],
+          "correct": 0,
+          "explanation": "When a peer confederate refused to continue, this provided participants with social proof that disobedience was an acceptable and viable option. This informational social influence gave participants a model for defiance and demonstrated that refusal was possible, reducing the perceived social pressure to obey the authority figure."
+        },
+        {
+          "id": "sp-ps-001-q5",
+          "stem": "A modern institutional review board (IRB) would most likely raise concerns about this study based on which ethical principle?",
+          "options": ["A. Justice in participant selection", "B. Informed consent and protection from psychological harm", "C. Scientific merit and research design", "D. Fair compensation for participation"],
+          "correct": 1,
+          "explanation": "The primary ethical concerns involve the potential for significant psychological distress experienced by participants who believed they were harming another person. Modern IRBs prioritize informed consent and protection from harm, and the use of deception in this paradigm raises concerns about whether participants can truly provide informed consent and whether the psychological distress constitutes unacceptable harm."
+        }
+      ]
+    },
+    {
+      "id": "sp-ps-002",
+      "passage": "Researchers conducted a field experiment examining the bystander effect in a large metropolitan transit system. Over a six-month period, trained confederates staged 200 emergency scenarios (simulated medical emergencies such as fainting or apparent cardiac distress) across varying conditions: during rush hour with many bystanders present, during off-peak hours with few bystanders, in enclosed train cars versus open platform areas, and with varying degrees of victim similarity to the bystander population (same apparent ethnicity or different apparent ethnicity). Hidden cameras recorded bystander responses, including latency to offer help, number of people who intervened, and whether help was direct (approaching the victim) or indirect (calling emergency services). Results confirmed the classic bystander effect: response latency increased and helping rates decreased as the number of bystanders increased. During rush hour, the average time to first intervention was 4.2 minutes compared to 1.1 minutes during off-peak hours. However, the effect was modulated by perceived emergency severity; when confederates exhibited more dramatic symptoms (clutching chest, gasping), the bystander effect was significantly attenuated. Victim similarity to bystanders increased helping rates by 22%, and enclosed spaces (train cars) produced faster responses than open platforms, potentially due to reduced anonymity and increased perceived responsibility.",
+      "questions": [
+        {
+          "id": "sp-ps-002-q1",
+          "stem": "The bystander effect observed in this study is primarily explained by which two psychological processes?",
+          "options": ["A. Social facilitation and social inhibition", "B. Diffusion of responsibility and pluralistic ignorance", "C. Deindividuation and group polarization", "D. Conformity and compliance"],
+          "correct": 1,
+          "explanation": "The bystander effect is driven by diffusion of responsibility (each individual feels less personally responsible when others are present) and pluralistic ignorance (each bystander looks to others for cues on how to respond, and when no one acts, each interprets the situation as non-emergency). Together, these processes inhibit helping behavior in group settings."
+        },
+        {
+          "id": "sp-ps-002-q2",
+          "stem": "The finding that dramatic symptoms attenuated the bystander effect is best explained by which stage of the bystander intervention model?",
+          "options": ["A. Noticing the event", "B. Interpreting the event as an emergency", "C. Assuming personal responsibility", "D. Knowing how to help"],
+          "correct": 1,
+          "explanation": "In the Latane and Darley bystander intervention model, one critical step is interpreting the situation as an emergency. When symptoms are ambiguous, pluralistic ignorance can lead bystanders to conclude no emergency exists. Dramatic, unambiguous symptoms remove this interpretive ambiguity, making it clear that intervention is needed and overriding the inhibitory effects of other bystanders."
+        },
+        {
+          "id": "sp-ps-002-q3",
+          "stem": "The 22% increase in helping when the victim was perceived as similar to bystanders is best explained by:",
+          "options": ["A. The mere exposure effect increasing familiarity", "B. In-group bias and greater empathic identification with similar others", "C. The halo effect generalizing positive attributes", "D. Fundamental attribution error in judging the victim"],
+          "correct": 1,
+          "explanation": "In-group bias leads individuals to favor members of their perceived in-group, resulting in greater empathy, identification, and willingness to help. When bystanders perceive the victim as similar to themselves, they are more likely to experience empathic concern and feel motivated to intervene, consistent with social identity theory."
+        },
+        {
+          "id": "sp-ps-002-q4",
+          "stem": "Faster helping responses in enclosed train cars compared to open platforms can be attributed to:",
+          "options": ["A. Higher ambient noise levels facilitating communication", "B. Reduced anonymity and inability to physically escape the situation", "C. Greater physical proximity causing social facilitation", "D. Increased arousal from claustrophobic conditions"],
+          "correct": 1,
+          "explanation": "Enclosed spaces reduce anonymity because bystanders are more identifiable and cannot easily leave the situation. This increases perceived personal responsibility and decreases the ability to diffuse responsibility, as the limited number of identifiable bystanders makes each person's inaction more conspicuous."
+        },
+        {
+          "id": "sp-ps-002-q5",
+          "stem": "The use of hidden cameras to record bystander behavior without prior consent raises which ethical concern, and what is the typical justification?",
+          "options": ["A. Deception, justified by debriefing participants afterward", "B. Violation of privacy, justified by the public setting and minimal risk", "C. Lack of beneficence, justified by the potential to save lives", "D. Coercion, justified by the observational nature of the study"],
+          "correct": 1,
+          "explanation": "Observational research in public settings is generally considered ethically permissible because individuals in public spaces have a reduced expectation of privacy. The justification rests on the fact that behavior observed is already publicly visible, the study poses minimal risk to participants, and requiring consent would fundamentally alter the natural behavior being studied."
+        }
+      ]
+    },
+    {
+      "id": "sp-ps-003",
+      "passage": "Social psychologists conducted a series of experiments examining the formation and persistence of stereotypes using the illusory correlation paradigm. In the primary experiment, 300 participants read descriptions of behaviors performed by members of two fictional groups: Group A (a larger majority group with 26 members described) and Group B (a smaller minority group with 13 members described). The ratio of positive to negative behaviors was held constant at 2:1 for both groups (Group A: 18 positive, 9 negative; Group B: 9 positive, 4.5 rounded to 5 negative). Despite the equal ratio, participants consistently overestimated the frequency of negative behaviors performed by Group B, the minority group, and rated Group B members more negatively on trait evaluations. This illusory correlation effect was robust across demographic subgroups and persisted even when participants were explicitly informed about the equal ratios before making their judgments. A follow-up study found that the illusory correlation was stronger when participants were under cognitive load (performing a simultaneous memory task), suggesting that stereotype formation is facilitated by conditions that reduce systematic processing capacity. EEG recordings revealed that participants showing stronger illusory correlations exhibited greater activation in brain regions associated with automatic, heuristic processing and reduced activation in regions associated with controlled, deliberative processing.",
+      "questions": [
+        {
+          "id": "sp-ps-003-q1",
+          "stem": "The illusory correlation effect demonstrated in this study occurs because participants overattend to the co-occurrence of:",
+          "options": ["A. Common events that are easy to process", "B. Two distinctive or infrequent events (minority group membership and negative behavior)", "C. Positive behaviors and majority group membership", "D. Random events with no statistical relationship"],
+          "correct": 1,
+          "explanation": "Illusory correlation arises from the paired distinctiveness of two statistically infrequent events: being a minority group member and performing a negative behavior. Because both are relatively rare, their co-occurrence is particularly salient and memorable, leading to overestimation of their association and biased negative evaluations of the minority group."
+        },
+        {
+          "id": "sp-ps-003-q2",
+          "stem": "The finding that the illusory correlation was stronger under cognitive load supports which model of information processing?",
+          "options": ["A. The single-process model suggesting all judgments are deliberative", "B. Dual-process models distinguishing between automatic and controlled processing", "C. The serial processing model requiring sequential analysis", "D. The parallel distributed processing model of memory"],
+          "correct": 1,
+          "explanation": "Dual-process models propose that judgments can result from either fast, automatic (System 1) processing or slow, deliberative (System 2) processing. When cognitive load reduces the capacity for controlled processing, automatic heuristic-based processes dominate, increasing reliance on distinctive pairings and producing stronger illusory correlations."
+        },
+        {
+          "id": "sp-ps-003-q3",
+          "stem": "The persistence of illusory correlations even after participants were informed about equal behavior ratios best illustrates:",
+          "options": ["A. The sleeper effect in persuasion", "B. Belief perseverance despite contradictory evidence", "C. The primacy effect in impression formation", "D. The self-serving bias in attribution"],
+          "correct": 1,
+          "explanation": "Belief perseverance refers to the tendency to maintain beliefs even when the evidence supporting them has been discredited. The finding that explicit correction did not eliminate the illusory correlation demonstrates how initial impressions and stereotypes resist change even in the face of directly contradictory information."
+        },
+        {
+          "id": "sp-ps-003-q4",
+          "stem": "This research on illusory correlation provides insight into the cognitive basis of:",
+          "options": ["A. Realistic group conflict", "B. Stereotype formation toward minority groups", "C. Social identity threat", "D. Relative deprivation"],
+          "correct": 1,
+          "explanation": "The illusory correlation paradigm demonstrates how stereotypes can form through purely cognitive mechanisms without any real intergroup conflict or actual behavioral differences. The tendency to overestimate the association between minority group membership and negative behaviors mirrors real-world stereotype formation processes."
+        },
+        {
+          "id": "sp-ps-003-q5",
+          "stem": "The EEG finding of greater activation in heuristic processing regions among participants with stronger illusory correlations is most consistent with which concept?",
+          "options": ["A. Controlled processing leads to more biased judgments", "B. Implicit cognitive biases operate through automatic mental shortcuts", "C. Explicit attitudes always override implicit attitudes", "D. Stereotype formation requires deliberate, conscious effort"],
+          "correct": 1,
+          "explanation": "The EEG data showing greater heuristic processing activation supports the view that stereotype formation can operate through automatic cognitive shortcuts (heuristics) rather than deliberate reasoning. Implicit biases arise from these automatic processes, which can produce biased judgments without conscious awareness or intent."
+        }
+      ]
+    },
+    {
+      "id": "sp-ps-004",
+      "passage": "A longitudinal study examined the effects of social media use on attitude formation and political polarization among 1,200 young adults over a three-year period. Participants completed annual surveys measuring political attitudes, media consumption habits, and social network composition, and provided access to their anonymized social media activity data. Results revealed that participants who primarily consumed ideologically homogeneous content (echo chambers) showed significant increases in attitude extremity over time, with political attitude scores moving an average of 1.8 standard deviations toward their initial ideological pole. In contrast, participants exposed to diverse viewpoints showed more moderate attitude trajectories. The study identified a feedback loop: algorithmic content curation presented users with attitude-consistent information, which reinforced existing beliefs and reduced exposure to counterarguments. This pattern was amplified by confirmation bias, as participants were 3.4 times more likely to engage with (like, share, comment on) content that confirmed their existing views compared to content that challenged them. Network analysis showed that participants' social media connections became increasingly ideologically homogeneous over time, with an average 40% reduction in cross-partisan ties over the study period. Importantly, participants who engaged in structured cross-partisan dialogue interventions showed reduced polarization and increased perspective-taking capacity.",
+      "questions": [
+        {
+          "id": "sp-ps-004-q1",
+          "stem": "The finding that participants in echo chambers became more extreme in their attitudes over time is most consistent with the concept of:",
+          "options": ["A. Social loafing in group decision making", "B. Group polarization through exposure to like-minded views", "C. Deindividuation in online environments", "D. The fundamental attribution error in political judgment"],
+          "correct": 1,
+          "explanation": "Group polarization occurs when group discussion leads members to adopt more extreme positions in the direction of their initial inclination. Echo chambers function as virtual groups where exposure to confirming opinions and arguments amplifies pre-existing attitudes, producing the attitudinal extremity observed in the study."
+        },
+        {
+          "id": "sp-ps-004-q2",
+          "stem": "The 3.4-fold greater engagement with attitude-consistent content exemplifies:",
+          "options": ["A. The availability heuristic biasing risk perception", "B. Confirmation bias in selective exposure to information", "C. The anchoring effect in numerical estimation", "D. The representativeness heuristic in categorization"],
+          "correct": 1,
+          "explanation": "Confirmation bias involves the tendency to seek out, attend to, and preferentially engage with information that confirms one's existing beliefs while avoiding or discounting contradictory information. The preferential engagement with attitude-consistent content is a direct manifestation of this well-documented cognitive bias."
+        },
+        {
+          "id": "sp-ps-004-q3",
+          "stem": "The algorithmic content curation described in the passage functions as a form of:",
+          "options": ["A. Random reinforcement schedule", "B. Selective exposure facilitated by technology", "C. Systematic desensitization to opposing views", "D. Counterconditioning of political attitudes"],
+          "correct": 1,
+          "explanation": "Algorithmic content curation creates technologically mediated selective exposure by presenting users with content aligned with their interests and past behavior. This amplifies the natural human tendency toward selective exposure by making attitude-consistent information more accessible while reducing incidental exposure to diverse perspectives."
+        },
+        {
+          "id": "sp-ps-004-q4",
+          "stem": "The 40% reduction in cross-partisan social ties over the study period illustrates which social network phenomenon?",
+          "options": ["A. Network centrality increasing individual influence", "B. Homophily and ideological sorting in social networks", "C. Weak tie strength increasing information diversity", "D. Bridging social capital connecting disparate groups"],
+          "correct": 1,
+          "explanation": "Homophily is the tendency for individuals to associate with others who are similar to themselves. The progressive loss of cross-partisan ties demonstrates ideological homophily, where individuals increasingly sort into ideologically uniform networks, reducing exposure to diverse viewpoints and reinforcing polarization."
+        },
+        {
+          "id": "sp-ps-004-q5",
+          "stem": "The success of structured cross-partisan dialogue in reducing polarization can best be explained by which theory?",
+          "options": ["A. Realistic conflict theory emphasizing competition for resources", "B. The contact hypothesis suggesting that structured intergroup contact reduces prejudice", "C. Social dominance theory predicting hierarchy maintenance", "D. System justification theory supporting status quo bias"],
+          "correct": 1,
+          "explanation": "The contact hypothesis, proposed by Gordon Allport, states that intergroup contact under appropriate conditions (equal status, common goals, institutional support, cooperative interaction) can reduce prejudice and intergroup bias. Structured cross-partisan dialogue creates these conditions, enabling perspective-taking and reducing the dehumanization that sustains polarization."
+        }
+      ]
+    },
+    {
+      "id": "sp-ps-005",
+      "passage": "A series of experiments investigated the role of cognitive dissonance in attitude change following counter-attitudinal behavior. In the primary study, 180 college students who held strong pro-environmental attitudes were asked to write a persuasive essay arguing against environmental regulation. Participants were randomly assigned to one of three conditions: high choice (told their participation was completely voluntary), low choice (told their participation was required for course credit), or a control condition (wrote a neutral essay). After writing the essays, participants rated their attitudes toward environmental regulation. Results showed that participants in the high-choice condition showed significant attitude change in the direction of their essay, becoming less favorable toward environmental regulation compared to their pre-study attitudes. Low-choice participants showed minimal attitude change, and control participants showed no change. Physiological measures revealed that high-choice participants exhibited increased galvanic skin response (GSR) during essay writing, indicating greater arousal consistent with experiencing cognitive dissonance. A follow-up study demonstrated that providing participants with an external justification for their counter-attitudinal behavior (a monetary payment of $50) eliminated the attitude change effect, while a minimal justification ($2) produced the greatest attitude change, replicating the classic insufficient justification paradigm.",
+      "questions": [
+        {
+          "id": "sp-ps-005-q1",
+          "stem": "The greater attitude change in the high-choice condition compared to the low-choice condition is best explained by:",
+          "options": ["A. Greater arousal from cognitive dissonance when behavior cannot be attributed to external pressure", "B. Higher motivation to please the experimenter in the high-choice condition", "C. Social desirability bias inflating self-reported attitude change", "D. Demand characteristics specific to the high-choice condition"],
+          "correct": 0,
+          "explanation": "When participants freely chose to write the counter-attitudinal essay, they could not attribute their behavior to external coercion. This created cognitive dissonance between their pro-environmental attitudes and their freely chosen behavior. To reduce this dissonance, they adjusted their attitudes to be more consistent with their behavior."
+        },
+        {
+          "id": "sp-ps-005-q2",
+          "stem": "The finding that $2 payment produced more attitude change than $50 payment is known as the:",
+          "options": ["A. Overjustification effect", "B. Insufficient justification effect", "C. Self-perception phenomenon", "D. Elaboration likelihood shift"],
+          "correct": 1,
+          "explanation": "The insufficient justification effect demonstrates that when external justification for counter-attitudinal behavior is minimal (a small payment), individuals experience greater cognitive dissonance because they cannot adequately explain their behavior through external rewards. This produces more internal attitude change to reduce the dissonance."
+        },
+        {
+          "id": "sp-ps-005-q3",
+          "stem": "Increased galvanic skin response during essay writing in the high-choice condition provides evidence that cognitive dissonance is:",
+          "options": ["A. A purely cognitive phenomenon without physiological correlates", "B. An aversive motivational state with measurable physiological arousal", "C. A conscious, deliberate process of attitude evaluation", "D. Indistinguishable from normal cognitive processing"],
+          "correct": 1,
+          "explanation": "The elevated GSR indicates physiological arousal accompanying cognitive dissonance, supporting Festinger's original conceptualization of dissonance as an aversive motivational state. This arousal drives the individual to reduce the uncomfortable inconsistency between cognitions, providing physiological evidence for what had been primarily a cognitive theory."
+        },
+        {
+          "id": "sp-ps-005-q4",
+          "stem": "An alternative explanation for the attitude change in the high-choice condition, based on Bem's self-perception theory, would argue that participants:",
+          "options": ["A. Experienced unconscious guilt about betraying their values", "B. Inferred their attitudes from observing their own freely chosen behavior", "C. Conformed to perceived social norms about environmental policy", "D. Were persuaded by the quality of their own arguments"],
+          "correct": 1,
+          "explanation": "Bem's self-perception theory offers an alternative to dissonance theory by proposing that when internal cues are weak or ambiguous, individuals infer their attitudes by observing their own behavior. Under this account, participants who freely wrote against regulation inferred that they must be less supportive of regulation, without experiencing aversive arousal."
+        },
+        {
+          "id": "sp-ps-005-q5",
+          "stem": "Which of the following real-world phenomena is most analogous to the insufficient justification effect?",
+          "options": ["A. An employee who receives a large bonus becomes more loyal to the company", "B. A volunteer who works without pay develops stronger commitment to the organization", "C. A student who is forced to study hard develops a love of learning", "D. A consumer who receives a free product becomes a brand advocate"],
+          "correct": 1,
+          "explanation": "A volunteer working without pay has insufficient external justification for their effortful behavior. To reduce dissonance between the effort invested and the lack of external reward, the volunteer internally justifies their behavior by developing stronger attitudes of commitment and belief in the organization's mission, paralleling the insufficient justification paradigm."
+        }
+      ]
+    },
+    {
+      "id": "sp-ps-006",
+      "passage": "Researchers investigated prosocial behavior by examining the factors that predict whether individuals will engage in helping behavior during everyday situations. The study deployed 500 trained observers across 30 cities to systematically record instances of spontaneous helping behavior in public settings. Observers documented situations where help was potentially needed (dropped items, requests for directions, visible distress) and coded whether bystanders offered assistance, the type of help provided, and characteristics of both helpers and recipients. Results revealed that rural areas showed significantly higher rates of spontaneous helping (72%) compared to urban areas (45%), consistent with the urban overload hypothesis proposed by Stanley Milgram. Mood state was a strong predictor: individuals who had just experienced a positive event (finding money, receiving a compliment in a staged encounter) were 35% more likely to help than baseline participants. The study also examined empathy-altruism versus social exchange explanations for helping. When helping was anonymous (no possibility of social recognition), helping rates decreased by only 8% compared to public helping, suggesting that genuine empathic concern rather than reputational motivation was a primary driver. However, when the potential cost of helping was high (risk of physical harm or significant time investment), helping rates dropped by 62%, supporting the social exchange model's prediction that cost-benefit calculations influence prosocial decisions.",
+      "questions": [
+        {
+          "id": "sp-ps-006-q1",
+          "stem": "The urban overload hypothesis explains lower urban helping rates by proposing that city dwellers:",
+          "options": ["A. Are inherently less empathetic than rural residents", "B. Adapt to excessive environmental stimulation by restricting attention to relevant stimuli", "C. Receive less socialization promoting prosocial values", "D. Experience higher rates of mental illness that impair social functioning"],
+          "correct": 1,
+          "explanation": "Milgram's urban overload hypothesis suggests that the high volume of stimulation in urban environments forces city dwellers to develop adaptive strategies to manage information overload, including filtering out non-essential social inputs. This results in reduced attention to others' needs and lower rates of spontaneous helping, not because of character differences but due to environmental adaptation."
+        },
+        {
+          "id": "sp-ps-006-q2",
+          "stem": "The finding that positive mood states increased helping behavior by 35% is most consistent with which model?",
+          "options": ["A. The negative state relief model", "B. The mood maintenance hypothesis and feel-good, do-good effect", "C. The frustration-aggression hypothesis", "D. The James-Lange theory of emotion"],
+          "correct": 1,
+          "explanation": "The feel-good, do-good effect posits that positive moods increase the likelihood of prosocial behavior. People in good moods have greater access to positive thoughts about others, feel more optimistic about the outcomes of helping, and are motivated to maintain their positive emotional state through continued positive actions."
+        },
+        {
+          "id": "sp-ps-006-q3",
+          "stem": "The small decrease in helping when it was anonymous (8%) versus the large decrease when costs were high (62%) suggests that prosocial behavior is primarily driven by:",
+          "options": ["A. Desire for public recognition over all other motives", "B. A combination of genuine empathic concern and cost-benefit evaluation", "C. Pure altruism with no consideration of personal consequences", "D. Social norms prescribing helping behavior in public settings only"],
+          "correct": 1,
+          "explanation": "The minimal effect of anonymity suggests that genuine empathic concern plays a significant role in motivating helping behavior. However, the substantial effect of high costs indicates that people also engage in cost-benefit analysis when deciding whether to help. This supports an integrated model where both empathic motivation and rational cost assessment influence prosocial behavior."
+        },
+        {
+          "id": "sp-ps-006-q4",
+          "stem": "Batson's empathy-altruism hypothesis would predict that helping behavior motivated by empathic concern is:",
+          "options": ["A. Ultimately selfish because it reduces the helper's personal distress", "B. Genuinely altruistic with the primary goal of reducing the other person's suffering", "C. Driven by anticipated reciprocity from the person being helped", "D. Motivated by fear of social punishment for not helping"],
+          "correct": 1,
+          "explanation": "Batson's empathy-altruism hypothesis specifically proposes that empathic concern for another person produces truly altruistic motivation, where the ultimate goal is to reduce the other person's suffering. This contrasts with egoistic models that explain helping as ultimately motivated by self-interest, such as reducing one's own personal distress."
+        },
+        {
+          "id": "sp-ps-006-q5",
+          "stem": "The use of trained observers recording naturally occurring behavior in this study represents which research method?",
+          "options": ["A. Laboratory experiment with random assignment", "B. Naturalistic observation with systematic coding", "C. Quasi-experimental design with matched groups", "D. Survey research with self-report measures"],
+          "correct": 1,
+          "explanation": "Naturalistic observation involves systematically observing and recording behavior as it occurs in natural settings without experimental manipulation. The use of trained observers with systematic coding protocols in public settings exemplifies this method, which provides high ecological validity but limited ability to establish causal relationships."
+        }
+      ]
+    },
+    {
+      "id": "sp-ps-007",
+      "passage": "A social psychology experiment examined the effects of deindividuation on aggressive behavior in an online gaming environment. Researchers recruited 320 participants who were randomly assigned to one of four conditions in a 2x2 factorial design: identifiable versus anonymous, and individual versus group condition. In the identifiable conditions, participants used their real names and profile photos; in anonymous conditions, they used randomly assigned usernames with no identifying information. In individual conditions, participants played alone; in group conditions, they played as part of a four-person team. The dependent variable was the frequency of aggressive behaviors (trolling, harassment, deliberate sabotage of other players) during a 90-minute gaming session. Results revealed a significant main effect of anonymity: anonymous participants engaged in 2.8 times more aggressive behaviors than identifiable participants. There was also a significant main effect of group condition: participants playing in groups showed 1.9 times more aggression than individual players. Critically, there was a significant interaction effect: the combination of anonymity and group membership produced disproportionately high aggression levels, exceeding what would be predicted by the additive effects of each factor alone. Self-awareness measures administered post-session showed that anonymous group participants reported the lowest levels of self-awareness and personal responsibility. However, when a subset of anonymous group participants were exposed to a brief self-awareness manipulation (seeing their own reflection on screen), their aggression levels dropped by 47%.",
+      "questions": [
+        {
+          "id": "sp-ps-007-q1",
+          "stem": "The interaction effect between anonymity and group membership on aggression levels is best explained by the theory of:",
+          "options": ["A. Social facilitation enhancing dominant responses", "B. Deindividuation reducing self-awareness and personal accountability", "C. Realistic group conflict generating intergroup hostility", "D. Social learning through observation of aggressive models"],
+          "correct": 1,
+          "explanation": "Deindividuation theory proposes that conditions reducing self-awareness and personal identifiability (such as anonymity combined with group immersion) lead to reduced self-regulation and increased impulsive or antisocial behavior. The synergistic effect of both anonymity and group membership aligns with deindividuation's emphasis on the combined impact of reduced accountability and diminished self-focus."
+        },
+        {
+          "id": "sp-ps-007-q2",
+          "stem": "The 47% reduction in aggression following the self-awareness manipulation supports which mechanism underlying deindividuation?",
+          "options": ["A. Reduced arousal in the presence of self-reflective stimuli", "B. Increased private self-awareness restoring internal behavioral standards", "C. Social comparison processes inhibiting extreme behavior", "D. Classical conditioning associating self-image with prosocial behavior"],
+          "correct": 1,
+          "explanation": "The self-awareness manipulation (seeing one's reflection) increases private self-awareness, which activates internal behavioral standards and moral codes. This restoration of self-focus counteracts deindividuation by reengaging self-regulatory processes, leading to behavior that is more consistent with personal values and social norms."
+        },
+        {
+          "id": "sp-ps-007-q3",
+          "stem": "The 2x2 factorial design used in this study allows researchers to examine:",
+          "options": ["A. Only the individual effects of anonymity and group condition", "B. Main effects of each independent variable and their interaction effect", "C. Causal mechanisms underlying aggressive behavior at the neural level", "D. Longitudinal changes in aggression over the gaming session"],
+          "correct": 1,
+          "explanation": "A 2x2 factorial design simultaneously manipulates two independent variables, allowing researchers to examine the main effect of each variable independently as well as their interaction effect. The interaction effect reveals whether the combined effect of the two variables differs from the sum of their individual effects."
+        },
+        {
+          "id": "sp-ps-007-q4",
+          "stem": "The finding that anonymous group participants reported the lowest levels of personal responsibility is consistent with which attribution pattern?",
+          "options": ["A. Self-serving attributional bias", "B. External attribution of responsibility for behavior to situational factors", "C. Fundamental attribution error applied to one's own behavior", "D. Actor-observer asymmetry in causal explanation"],
+          "correct": 1,
+          "explanation": "Anonymous group participants attributed their behavior to external situational factors (the game environment, group dynamics) rather than to personal agency, reflecting an external attribution of responsibility. Deindividuation facilitates this shift by reducing the sense of individual authorship of one's actions."
+        },
+        {
+          "id": "sp-ps-007-q5",
+          "stem": "These findings have direct implications for understanding aggressive behavior in which real-world context?",
+          "options": ["A. Face-to-face classroom interactions with assigned seating", "B. Anonymous online environments with group-based identities", "C. Small group therapy sessions with established rapport", "D. Workplace teams with clearly defined individual roles"],
+          "correct": 1,
+          "explanation": "The study's findings directly apply to anonymous online environments where users can hide behind pseudonyms and align with group identities. These conditions mirror the experimental manipulation of anonymity and group membership, explaining why cyberbullying, trolling, and online harassment are prevalent in platforms that combine user anonymity with group dynamics."
+        }
+      ]
+    },
+    {
+      "id": "sp-ps-008",
+      "passage": "Researchers conducted a study on the elaboration likelihood model (ELM) of persuasion by examining how consumers process health-related advertisements. A total of 400 participants viewed advertisements promoting a new dietary supplement. The ads were presented in two versions: one featuring strong, evidence-based arguments (citing peer-reviewed research, statistical efficacy data) and another featuring weak arguments paired with attractive celebrity endorsements and appealing visual design. Participants were divided into high personal relevance (told the supplement addressed a health condition they reported having) and low personal relevance (told it addressed a condition they did not have) groups. Results showed that high-relevance participants were significantly more persuaded by the strong-argument ad and resistant to the weak-argument ad, indicating central route processing. Low-relevance participants showed equal persuasion from both ad versions and were particularly influenced by the celebrity endorsement, indicating peripheral route processing. Attitude change resulting from central route processing was more persistent at a four-week follow-up and more predictive of actual purchasing behavior. The study also measured need for cognition (NFC); high-NFC individuals were more likely to engage in central route processing regardless of personal relevance, while low-NFC individuals defaulted to peripheral processing across conditions.",
+      "questions": [
+        {
+          "id": "sp-ps-008-q1",
+          "stem": "According to the elaboration likelihood model, which factor most determines whether a person processes a persuasive message through the central or peripheral route?",
+          "options": ["A. The visual quality of the persuasive message", "B. The person's motivation and ability to process the message content", "C. The number of arguments presented in the message", "D. The credibility of the message source alone"],
+          "correct": 1,
+          "explanation": "The ELM proposes that the route of processing depends on the individual's motivation (personal relevance, accountability) and ability (cognitive resources, knowledge) to elaborate on message content. When both motivation and ability are high, individuals engage in central route processing; when either is low, they rely on peripheral cues."
+        },
+        {
+          "id": "sp-ps-008-q2",
+          "stem": "The greater persistence and behavioral prediction of attitudes formed through central route processing is because these attitudes are:",
+          "options": ["A. Based on superficial cues that are easily recalled", "B. Formed through careful evaluation and are more deeply integrated into the cognitive structure", "C. Dependent on continued exposure to persuasive cues", "D. Primarily driven by emotional responses rather than cognitive evaluation"],
+          "correct": 1,
+          "explanation": "Central route processing involves careful consideration of argument quality and evidence, producing attitudes that are more deeply integrated into one's belief system. These attitudes are held with greater confidence, are more resistant to counter-persuasion, and better predict behavior because they are based on genuine understanding and evaluation of the issue."
+        },
+        {
+          "id": "sp-ps-008-q3",
+          "stem": "The celebrity endorsement in the weak-argument ad functions as a:",
+          "options": ["A. Central route argument strengthening the logical case", "B. Peripheral cue that influences attitudes through heuristic processing", "C. Systematic processing trigger that enhances message elaboration", "D. Cognitive load reducer that facilitates deep analysis"],
+          "correct": 1,
+          "explanation": "Celebrity endorsements serve as peripheral cues that influence attitudes through simple heuristic processing (e.g., 'if a celebrity endorses it, it must be good') rather than through careful evaluation of argument quality. They are effective primarily when individuals lack the motivation or ability to engage in central route processing."
+        },
+        {
+          "id": "sp-ps-008-q4",
+          "stem": "The trait of need for cognition (NFC) as described in the study refers to an individual's:",
+          "options": ["A. Intelligence level and cognitive capacity", "B. Tendency to enjoy and engage in effortful cognitive activities", "C. Need for social approval through intellectual performance", "D. Level of formal education and academic achievement"],
+          "correct": 1,
+          "explanation": "Need for cognition is a stable individual difference reflecting the extent to which people enjoy thinking and engaging in effortful cognitive activities. High-NFC individuals are intrinsically motivated to analyze and evaluate information thoroughly, making them more likely to process persuasive messages through the central route regardless of situational factors."
+        },
+        {
+          "id": "sp-ps-008-q5",
+          "stem": "A public health campaign aiming to produce lasting attitude change about vaccination should, based on these findings:",
+          "options": ["A. Rely primarily on celebrity endorsements and emotional appeals", "B. Present strong evidence-based arguments while increasing personal relevance", "C. Use only peripheral cues to reach the widest audience quickly", "D. Minimize information to avoid overwhelming the audience"],
+          "correct": 1,
+          "explanation": "To produce lasting attitude change that predicts behavior, the ELM suggests promoting central route processing by presenting strong, evidence-based arguments while increasing personal relevance (e.g., highlighting individual risk). This combination motivates careful evaluation and produces persistent, behavior-guiding attitudes rather than the temporary effects of peripheral processing."
+        }
+      ]
+    },
+    {
+      "id": "sp-ps-009",
+      "passage": "A classic social psychology study on conformity was revisited with modern modifications. Researchers replicated Asch's line judgment paradigm with 200 participants across three conditions: an in-person group condition (replicating Asch), a virtual group condition (confederates appeared via video conference), and a social media condition (confederates' responses were presented as social media poll results). In each condition, confederates unanimously gave an obviously incorrect answer on 12 of 18 trials. Overall conformity rates (agreeing with the incorrect majority) were 32% in the in-person condition, 24% in the video condition, and 19% in the social media condition. When participants were asked to explain their conformity, two distinct patterns emerged: normative influence (going along to avoid social rejection despite knowing the answer was wrong) accounted for 65% of conformity in the in-person condition but only 30% in the social media condition. Informational influence (genuinely doubting one's own judgment based on others' responses) was relatively stable across conditions at approximately 25-30%. The study also varied group size and found that conformity increased sharply from 1 to 3 confederates but showed diminishing returns beyond 5 confederates. Importantly, the presence of a single dissenting ally reduced conformity by 80% across all conditions, regardless of whether the ally gave the correct answer or a different incorrect answer.",
+      "questions": [
+        {
+          "id": "sp-ps-009-q1",
+          "stem": "The distinction between normative and informational influence in this study is best characterized as:",
+          "options": ["A. Conforming to gain rewards versus conforming to avoid punishment", "B. Conforming to be accepted by the group versus conforming because one believes the group is correct", "C. Public compliance versus private acceptance of group norms", "D. Conforming in ambiguous versus unambiguous situations"],
+          "correct": 1,
+          "explanation": "Normative influence involves conforming to group expectations to gain social acceptance or avoid rejection, even when one privately disagrees. Informational influence involves conforming because one genuinely believes the group possesses better information or judgment. These two processes represent fundamentally different motivations for conformity."
+        },
+        {
+          "id": "sp-ps-009-q2",
+          "stem": "The finding that conformity increased sharply up to 3 confederates but plateaued afterward suggests that:",
+          "options": ["A. Groups larger than 3 produce reactance rather than conformity", "B. A critical threshold of social pressure is reached with a relatively small unanimous majority", "C. Participants could detect deception with larger groups", "D. Larger groups always produce less conformity than smaller groups"],
+          "correct": 1,
+          "explanation": "Research consistently shows that conformity pressure increases with group size up to a point (typically 3-5 members) and then levels off. Once a sufficient majority has been established, additional members add relatively little additional social pressure, suggesting that a critical threshold of unanimous opposition is the key factor rather than absolute group size."
+        },
+        {
+          "id": "sp-ps-009-q3",
+          "stem": "The 80% reduction in conformity when a single ally was present, even when the ally gave a different wrong answer, suggests that the ally's primary function was to:",
+          "options": ["A. Provide the correct answer for participants to follow", "B. Break the unanimity of the majority, making dissent socially acceptable", "C. Distract participants from the social pressure", "D. Create a new majority favoring a different answer"],
+          "correct": 1,
+          "explanation": "The ally's effectiveness regardless of answer accuracy demonstrates that the critical factor is not providing correct information but breaking group unanimity. Once the unanimous consensus is disrupted, the normative pressure to conform is dramatically reduced because participants see that dissent is socially permissible and survivable."
+        },
+        {
+          "id": "sp-ps-009-q4",
+          "stem": "Lower conformity in the social media condition compared to the in-person condition is most likely due to:",
+          "options": ["A. Social media users being inherently more independent thinkers", "B. Reduced normative pressure due to decreased social presence and accountability", "C. Social media platforms distorting perception of group size", "D. Greater anonymity eliminating both normative and informational influence"],
+          "correct": 1,
+          "explanation": "The reduced social presence in the social media condition decreases the salience of social evaluation and the potential for direct social rejection. With less perceived accountability to the group, normative influence is weakened, explaining both the lower overall conformity and the shift from normative to informational influence as the primary driver of remaining conformity."
+        },
+        {
+          "id": "sp-ps-009-q5",
+          "stem": "A participant who conforms publicly but privately maintains their original judgment is demonstrating:",
+          "options": ["A. Internalization of group norms", "B. Compliance without attitude change", "C. Identification with the group's values", "D. Obedience to authority figures"],
+          "correct": 1,
+          "explanation": "Compliance involves outwardly conforming to social pressure while privately maintaining one's original beliefs or attitudes. This is the shallowest level of social influence, driven by normative pressure to gain approval or avoid rejection, and the behavior typically ceases when the social pressure is removed."
+        }
+      ]
+    },
+    {
+      "id": "sp-ps-010",
+      "passage": "Social psychologists investigated the relationship between prejudice, stereotyping, and discrimination using a multi-method approach with 800 participants. The study measured explicit prejudice (self-reported attitudes via questionnaires), implicit prejudice (Implicit Association Test scores), stereotypic beliefs (trait attribution tasks), and discriminatory behavior (simulated hiring decisions using identical resumes with names suggesting different racial/ethnic backgrounds). Results revealed a significant dissociation between explicit and implicit measures: while only 12% of participants expressed overtly prejudiced attitudes on self-report measures, 68% showed significant implicit bias on the IAT. Discriminatory behavior in hiring decisions was predicted more strongly by implicit bias scores (r = 0.41) than by explicit attitudes (r = 0.14). The study also tested the effectiveness of three prejudice reduction interventions: perspective-taking (imagining the experiences of an out-group member), counter-stereotypic exemplar exposure (learning about individuals who defy group stereotypes), and intergroup cooperation on shared goals. All three interventions reduced implicit bias scores at immediate post-test, but only the intergroup cooperation condition maintained reduced bias at a three-month follow-up. Perspective-taking was particularly effective at increasing empathy but showed rebound effects at follow-up when participants encountered stereotype-confirming information. The researchers noted that structural and institutional forms of discrimination often persist independently of individual-level prejudice reduction.",
+      "questions": [
+        {
+          "id": "sp-ps-010-q1",
+          "stem": "The finding that implicit bias predicted hiring discrimination more strongly than explicit attitudes suggests that:",
+          "options": ["A. Self-report measures of prejudice are always invalid", "B. Discriminatory behavior can be driven by automatic cognitive processes outside conscious awareness", "C. Explicit attitudes have no influence on behavior in any context", "D. The IAT measures a fundamentally different construct than prejudice"],
+          "correct": 1,
+          "explanation": "The stronger predictive validity of implicit bias measures for discriminatory behavior indicates that automatic, unconscious associations can influence behavior even when individuals consciously endorse egalitarian values. This highlights the role of automatic cognitive processes in perpetuating discrimination beyond what explicit attitudes would predict."
+        },
+        {
+          "id": "sp-ps-010-q2",
+          "stem": "The dissociation between explicit (12% prejudiced) and implicit (68% biased) measures most likely reflects:",
+          "options": ["A. Poor reliability of implicit measures", "B. Social desirability bias suppressing explicit prejudice reports while implicit biases remain unaffected", "C. Random measurement error in both types of assessment", "D. The IAT measuring familiarity rather than prejudice"],
+          "correct": 1,
+          "explanation": "Social desirability bias leads individuals to underreport socially unacceptable attitudes on explicit measures. Implicit measures like the IAT bypass this self-presentation concern by assessing automatic associations that are difficult to consciously control, revealing biases that individuals may be unwilling or unable to report."
+        },
+        {
+          "id": "sp-ps-010-q3",
+          "stem": "The superior long-term effectiveness of intergroup cooperation compared to the other interventions is best explained by:",
+          "options": ["A. Cooper's theory of cognitive consolidation during sleep", "B. Allport's contact hypothesis emphasizing cooperative interdependence for sustained attitude change", "C. The mere exposure effect increasing familiarity over time", "D. Operant conditioning reinforcing non-prejudiced behavior"],
+          "correct": 1,
+          "explanation": "Allport's contact hypothesis identifies cooperative interdependence as a key condition for lasting prejudice reduction. Intergroup cooperation creates positive experiences and shared goals that fundamentally restructure intergroup perceptions, producing more durable attitude change than cognitive exercises like perspective-taking, which may be more superficial and context-dependent."
+        },
+        {
+          "id": "sp-ps-010-q4",
+          "stem": "The rebound effect observed after perspective-taking when participants encountered stereotype-confirming information illustrates:",
+          "options": ["A. The robustness of internalized attitude change", "B. The fragility of cognitively effortful prejudice reduction strategies in the face of confirming evidence", "C. The effectiveness of perspective-taking across all contexts", "D. The impossibility of reducing prejudice through any intervention"],
+          "correct": 1,
+          "explanation": "The rebound effect demonstrates that cognitively effortful strategies like perspective-taking can be undermined by subsequent stereotype-confirming information. This suggests that these interventions may produce temporary suppression of bias rather than fundamental restructuring, making them vulnerable to reversal when contextual information reactivates stereotypic associations."
+        },
+        {
+          "id": "sp-ps-010-q5",
+          "stem": "The researchers' note that institutional discrimination persists independently of individual prejudice reduction highlights the distinction between:",
+          "options": ["A. Explicit and implicit prejudice at the individual level", "B. Individual-level prejudice and structural/systemic forms of discrimination", "C. Old-fashioned and modern racism", "D. Realistic and symbolic group threat"],
+          "correct": 1,
+          "explanation": "Institutional or structural discrimination refers to systematic inequities embedded in policies, practices, and social structures that disadvantage certain groups regardless of individual attitudes. Even if individual prejudice is reduced, discriminatory outcomes can persist through structural mechanisms such as biased policies, historical inequities, and systemic barriers."
+        }
+      ]
+    }
+  ]
+}

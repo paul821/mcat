@@ -1,0 +1,416 @@
+{
+  "subtopic": "Stoichiometry & Solutions",
+  "sectionId": "chem-phys",
+  "passageSets": [
+    {
+      "id": "stoich-ps1",
+      "passage": "A research team is studying the combustion of hydrazine (N2H4), a rocket fuel component. The balanced equation for the reaction is: N2H4(l) + O2(g) -> N2(g) + 2H2O(g). The molar mass of hydrazine is 32.05 g/mol, and the molar mass of O2 is 32.00 g/mol. In one experiment, 64.10 g of hydrazine is mixed with 48.00 g of oxygen gas in a sealed reaction vessel. The researchers measure the total mass of products formed and compare their theoretical yield calculations to the actual yield obtained. They note that the reaction proceeds to near completion under the high-temperature conditions used. The enthalpy of combustion for hydrazine is -534.3 kJ/mol. The team also investigates side reactions that may produce nitrogen oxides under certain conditions, which would affect the overall yield of the desired products. Temperature and pressure are carefully controlled to minimize these side reactions.",
+      "questions": [
+        {
+          "id": "stoich-ps1-q1",
+          "stem": "How many moles of hydrazine are present in the experiment?",
+          "options": ["A. 1.00 mol", "B. 2.00 mol", "C. 0.50 mol", "D. 4.00 mol"],
+          "correct": 1,
+          "explanation": "Moles of hydrazine = mass / molar mass = 64.10 g / 32.05 g/mol = 2.00 mol. This is a straightforward application of the mole concept using the given molar mass."
+        },
+        {
+          "id": "stoich-ps1-q2",
+          "stem": "What is the limiting reagent in this reaction?",
+          "options": ["A. Hydrazine, because it has fewer moles", "B. Oxygen, because it has fewer moles", "C. Oxygen, because the mole ratio requires equal moles", "D. Neither, because they are present in stoichiometric amounts"],
+          "correct": 2,
+          "explanation": "Moles of O2 = 48.00/32.00 = 1.50 mol. The 1:1 stoichiometry requires 2.00 mol O2 for 2.00 mol N2H4. Since only 1.50 mol O2 is available, oxygen is the limiting reagent because the reaction requires equal moles of each reactant."
+        },
+        {
+          "id": "stoich-ps1-q3",
+          "stem": "What is the theoretical yield of water in grams?",
+          "options": ["A. 36.03 g", "B. 54.04 g", "C. 72.06 g", "D. 108.08 g"],
+          "correct": 1,
+          "explanation": "O2 is limiting at 1.50 mol. From stoichiometry, 1 mol O2 produces 2 mol H2O, so 1.50 mol O2 produces 3.00 mol H2O. Mass = 3.00 mol x 18.015 g/mol = 54.04 g. The calculation must be based on the limiting reagent."
+        },
+        {
+          "id": "stoich-ps1-q4",
+          "stem": "How much energy is released when the limiting reagent is completely consumed?",
+          "options": ["A. 534.3 kJ", "B. 801.5 kJ", "C. 1068.6 kJ", "D. 400.7 kJ"],
+          "correct": 1,
+          "explanation": "The limiting reagent (O2) allows only 1.50 mol of N2H4 to react. Energy released = 1.50 mol x 534.3 kJ/mol = 801.5 kJ. The enthalpy of combustion is given per mole of hydrazine consumed."
+        },
+        {
+          "id": "stoich-ps1-q5",
+          "stem": "How many grams of excess reactant remain after the reaction is complete?",
+          "options": ["A. 8.01 g", "B. 16.03 g", "C. 24.04 g", "D. 32.05 g"],
+          "correct": 1,
+          "explanation": "N2H4 is in excess. Moles of N2H4 reacted = 1.50 mol (equal to moles of O2). Excess N2H4 = 2.00 - 1.50 = 0.50 mol. Mass remaining = 0.50 mol x 32.05 g/mol = 16.03 g."
+        }
+      ]
+    },
+    {
+      "id": "stoich-ps2",
+      "passage": "A clinical laboratory prepares various solutions for diagnostic tests. A stock solution of sodium chloride (NaCl, MW = 58.44 g/mol) is prepared by dissolving 292.2 g of NaCl in enough water to make 1.000 L of solution. The density of this solution is measured as 1.189 g/mL. A technician needs to prepare 500.0 mL of a 0.500 M NaCl solution from the stock by dilution. Normal saline used in IV drips is 0.9% NaCl (w/v), meaning 0.9 g NaCl per 100 mL of solution. The laboratory also tracks the osmolarity of their solutions, noting that NaCl fully dissociates into Na+ and Cl- ions in aqueous solution. Quality control requires that solution concentrations be within 2% of the target value.",
+      "questions": [
+        {
+          "id": "stoich-ps2-q1",
+          "stem": "What is the molarity of the stock NaCl solution?",
+          "options": ["A. 2.50 M", "B. 5.00 M", "C. 10.0 M", "D. 1.00 M"],
+          "correct": 1,
+          "explanation": "Moles of NaCl = 292.2 g / 58.44 g/mol = 5.00 mol. Molarity = moles/volume = 5.00 mol / 1.000 L = 5.00 M. The molarity is calculated by dividing the number of moles of solute by the volume of solution in liters."
+        },
+        {
+          "id": "stoich-ps2-q2",
+          "stem": "What volume of the stock solution is needed to prepare the diluted solution?",
+          "options": ["A. 25.0 mL", "B. 50.0 mL", "C. 100.0 mL", "D. 250.0 mL"],
+          "correct": 1,
+          "explanation": "Using M1V1 = M2V2: (5.00 M)(V1) = (0.500 M)(500.0 mL). V1 = 50.0 mL. The dilution equation relates the concentration and volume before and after dilution, assuming moles of solute are conserved."
+        },
+        {
+          "id": "stoich-ps2-q3",
+          "stem": "What is the osmolarity of normal saline (0.9% w/v NaCl)?",
+          "options": ["A. 0.154 Osm/L", "B. 0.308 Osm/L", "C. 0.900 Osm/L", "D. 0.462 Osm/L"],
+          "correct": 1,
+          "explanation": "0.9% w/v = 9.0 g/L. Moles NaCl = 9.0/58.44 = 0.154 mol/L. Since NaCl dissociates into 2 ions (Na+ and Cl-), osmolarity = 0.154 x 2 = 0.308 Osm/L. Osmolarity accounts for all dissolved particles in solution."
+        },
+        {
+          "id": "stoich-ps2-q4",
+          "stem": "What is the mass percent (w/w) of NaCl in the stock solution?",
+          "options": ["A. 24.6%", "B. 29.2%", "C. 19.5%", "D. 33.3%"],
+          "correct": 0,
+          "explanation": "Total mass of 1.000 L solution = 1.189 g/mL x 1000 mL = 1189 g. Mass percent = (292.2 g / 1189 g) x 100% = 24.6%. Mass percent uses the mass of solute divided by the total mass of solution."
+        },
+        {
+          "id": "stoich-ps2-q5",
+          "stem": "What is the molality of the stock NaCl solution?",
+          "options": ["A. 5.00 m", "B. 5.57 m", "C. 4.50 m", "D. 6.12 m"],
+          "correct": 1,
+          "explanation": "Mass of solvent = total mass - mass of solute = 1189 g - 292.2 g = 896.8 g = 0.8968 kg. Molality = moles solute / kg solvent = 5.00 mol / 0.8968 kg = 5.57 m. Molality differs from molarity because it uses mass of solvent rather than volume of solution."
+        }
+      ]
+    },
+    {
+      "id": "stoich-ps3",
+      "passage": "A pharmaceutical company synthesizes aspirin (acetylsalicylic acid, C9H8O4, MW = 180.16 g/mol) through the reaction of salicylic acid (C7H6O3, MW = 138.12 g/mol) with acetic anhydride (C4H6O3, MW = 102.09 g/mol). The balanced equation is: C7H6O3 + C4H6O3 -> C9H8O4 + CH3COOH. In a production run, 500.0 g of salicylic acid is reacted with 400.0 g of acetic anhydride. After purification, 520.0 g of aspirin is obtained. The company must meet strict purity standards requiring at least 99.5% pure aspirin. Impurities may include unreacted salicylic acid, acetic acid byproduct, and polymeric byproducts. The team uses recrystallization from ethanol-water mixtures to purify the crude product, monitoring the process by melting point determination and thin-layer chromatography.",
+      "questions": [
+        {
+          "id": "stoich-ps3-q1",
+          "stem": "What is the limiting reagent in this aspirin synthesis?",
+          "options": ["A. Salicylic acid, because it has fewer moles", "B. Acetic anhydride, because it has fewer moles", "C. Salicylic acid, because it has a higher molar mass", "D. They are present in equimolar amounts"],
+          "correct": 0,
+          "explanation": "Moles of salicylic acid = 500.0/138.12 = 3.620 mol. Moles of acetic anhydride = 400.0/102.09 = 3.919 mol. The 1:1 stoichiometry means salicylic acid is limiting because it has fewer moles available for the reaction."
+        },
+        {
+          "id": "stoich-ps3-q2",
+          "stem": "What is the theoretical yield of aspirin in grams?",
+          "options": ["A. 500.0 g", "B. 652.2 g", "C. 720.6 g", "D. 580.4 g"],
+          "correct": 1,
+          "explanation": "Based on the limiting reagent (salicylic acid, 3.620 mol) and 1:1 stoichiometry, theoretical yield = 3.620 mol x 180.16 g/mol = 652.2 g. The theoretical yield represents the maximum amount of product that could form from the limiting reagent."
+        },
+        {
+          "id": "stoich-ps3-q3",
+          "stem": "What is the percent yield of aspirin in this production run?",
+          "options": ["A. 65.0%", "B. 72.0%", "C. 79.7%", "D. 85.3%"],
+          "correct": 2,
+          "explanation": "Percent yield = (actual yield / theoretical yield) x 100% = (520.0 g / 652.2 g) x 100% = 79.7%. The percent yield compares the actual amount of product obtained to the maximum theoretically possible."
+        },
+        {
+          "id": "stoich-ps3-q4",
+          "stem": "How many grams of acetic anhydride remain unreacted?",
+          "options": ["A. 15.3 g", "B. 30.5 g", "C. 45.8 g", "D. 60.1 g"],
+          "correct": 1,
+          "explanation": "Moles of acetic anhydride reacted = 3.620 mol (same as limiting reagent). Excess moles = 3.919 - 3.620 = 0.299 mol. Mass remaining = 0.299 mol x 102.09 g/mol = 30.5 g."
+        },
+        {
+          "id": "stoich-ps3-q5",
+          "stem": "How many moles of acetic acid byproduct are theoretically produced?",
+          "options": ["A. 1.810 mol", "B. 3.620 mol", "C. 7.240 mol", "D. 5.430 mol"],
+          "correct": 1,
+          "explanation": "The balanced equation shows a 1:1:1:1 ratio. Since 3.620 mol of the limiting reagent reacts, 3.620 mol of acetic acid (CH3COOH) is theoretically produced. The moles of byproduct equal the moles of limiting reagent consumed."
+        }
+      ]
+    },
+    {
+      "id": "stoich-ps4",
+      "passage": "An environmental chemistry lab analyzes water samples for hardness by titrating with EDTA (ethylenediaminetetraacetic acid). Water hardness is primarily caused by dissolved Ca2+ and Mg2+ ions. EDTA forms 1:1 complexes with these metal ions. In a standard procedure, a 100.0 mL water sample is titrated with 0.0100 M EDTA solution. The endpoint is detected using Eriochrome Black T indicator, which changes from wine-red to blue. For sample A, 23.50 mL of EDTA is required to reach the endpoint. For sample B from a different source, 45.20 mL is required. Water with hardness above 180 mg/L CaCO3 equivalent is classified as very hard. The molar mass of CaCO3 is 100.09 g/mol. The lab also performs a separate determination to distinguish calcium hardness from magnesium hardness by titrating at pH 12, where Mg(OH)2 precipitates and only Ca2+ reacts with EDTA.",
+      "questions": [
+        {
+          "id": "stoich-ps4-q1",
+          "stem": "What is the total hardness of sample A in mg/L CaCO3 equivalents?",
+          "options": ["A. 23.5 mg/L", "B. 117.6 mg/L", "C. 235.2 mg/L", "D. 47.0 mg/L"],
+          "correct": 2,
+          "explanation": "Moles EDTA = 0.02350 L x 0.0100 mol/L = 2.350 x 10^-4 mol = moles of divalent cations. As CaCO3 equivalents: 2.350 x 10^-4 mol x 100.09 g/mol = 0.02352 g = 23.52 mg in 100.0 mL. Concentration = 23.52 mg / 0.1000 L = 235.2 mg/L."
+        },
+        {
+          "id": "stoich-ps4-q2",
+          "stem": "How would sample B be classified based on its hardness?",
+          "options": ["A. Soft (< 60 mg/L)", "B. Moderately hard (60-120 mg/L)", "C. Hard (120-180 mg/L)", "D. Very hard (> 180 mg/L)"],
+          "correct": 3,
+          "explanation": "Moles EDTA for B = 0.04520 L x 0.0100 M = 4.520 x 10^-4 mol. CaCO3 equivalent = 4.520 x 10^-4 mol x 100.09 g/mol = 0.04524 g = 45.24 mg per 100 mL = 452.4 mg/L. This exceeds 180 mg/L, classifying it as very hard water."
+        },
+        {
+          "id": "stoich-ps4-q3",
+          "stem": "If sample A's hardness is entirely due to Ca2+, what is the concentration of Ca2+ in mol/L?",
+          "options": ["A. 1.175 x 10^-3 M", "B. 2.350 x 10^-3 M", "C. 4.700 x 10^-3 M", "D. 2.350 x 10^-2 M"],
+          "correct": 1,
+          "explanation": "Moles Ca2+ = moles EDTA = 2.350 x 10^-4 mol (1:1 complex). Concentration = 2.350 x 10^-4 mol / 0.1000 L = 2.350 x 10^-3 M. The 1:1 stoichiometry of EDTA-metal complexation makes this a direct calculation."
+        },
+        {
+          "id": "stoich-ps4-q4",
+          "stem": "If a separate titration at pH 12 for sample A required 15.00 mL of EDTA, what percentage of the total hardness is due to Mg2+?",
+          "options": ["A. 25.2%", "B. 36.2%", "C. 63.8%", "D. 74.8%"],
+          "correct": 1,
+          "explanation": "At pH 12, only Ca2+ reacts: moles Ca2+ = 0.01500 x 0.0100 = 1.500 x 10^-4 mol. Moles Mg2+ = total - Ca2+ = 2.350 x 10^-4 - 1.500 x 10^-4 = 0.850 x 10^-4 mol. Percent Mg2+ = (0.850/2.350) x 100% = 36.2%."
+        },
+        {
+          "id": "stoich-ps4-q5",
+          "stem": "What is the purpose of using Eriochrome Black T indicator in this titration?",
+          "options": ["A. It reacts with EDTA to form a colored complex", "B. It forms a colored complex with free metal ions and changes color when all metals are chelated by EDTA", "C. It directly measures the pH change at the endpoint", "D. It precipitates excess metal ions at the endpoint"],
+          "correct": 1,
+          "explanation": "Eriochrome Black T binds to free metal ions (wine-red color). As EDTA is added, it preferentially chelates the metal ions. At the endpoint, EDTA displaces the indicator from the last metal ions, causing the color change to blue. The indicator signals when all metal ions have been complexed."
+        }
+      ]
+    },
+    {
+      "id": "stoich-ps5",
+      "passage": "A student investigates colligative properties by dissolving various solutes in water. In Experiment 1, 18.0 g of glucose (C6H12O6, MW = 180.16 g/mol) is dissolved in 500.0 g of water. In Experiment 2, 11.7 g of NaCl (MW = 58.44 g/mol) is dissolved in 500.0 g of water. In Experiment 3, 15.0 g of CaCl2 (MW = 110.98 g/mol) is dissolved in 500.0 g of water. The student measures the boiling point elevation and freezing point depression for each solution. The relevant constants for water are: Kb = 0.512 degrees C/m and Kf = 1.86 degrees C/m. The normal boiling point of water is 100.00 degrees C and the normal freezing point is 0.00 degrees C. The student assumes complete dissociation for ionic compounds and ideal solution behavior throughout the experiments.",
+      "questions": [
+        {
+          "id": "stoich-ps5-q1",
+          "stem": "What is the expected boiling point of the glucose solution in Experiment 1?",
+          "options": ["A. 100.10 degrees C", "B. 100.05 degrees C", "C. 100.20 degrees C", "D. 100.51 degrees C"],
+          "correct": 0,
+          "explanation": "Moles glucose = 18.0/180.16 = 0.0999 mol. Molality = 0.0999/0.500 kg = 0.200 m. Delta Tb = Kb x m x i = 0.512 x 0.200 x 1 = 0.102 degrees C. Boiling point = 100.00 + 0.10 = 100.10 degrees C. Glucose is a non-electrolyte so i = 1."
+        },
+        {
+          "id": "stoich-ps5-q2",
+          "stem": "Which solution has the greatest freezing point depression?",
+          "options": ["A. Experiment 1 (glucose)", "B. Experiment 2 (NaCl)", "C. Experiment 3 (CaCl2)", "D. All three are equal"],
+          "correct": 2,
+          "explanation": "Freezing point depression depends on total particle molality (m x i). Exp 1: 0.200 x 1 = 0.200. Exp 2: (0.200)(2) = 0.400. Exp 3: molality = (15.0/110.98)/0.500 = 0.270 m; particles = 0.270 x 3 = 0.811. CaCl2 produces the most particles and thus the greatest depression."
+        },
+        {
+          "id": "stoich-ps5-q3",
+          "stem": "What is the freezing point of the NaCl solution in Experiment 2?",
+          "options": ["A. -0.37 degrees C", "B. -0.74 degrees C", "C. -1.49 degrees C", "D. -0.19 degrees C"],
+          "correct": 2,
+          "explanation": "Moles NaCl = 11.7/58.44 = 0.200 mol. Molality = 0.200 mol / 0.500 kg = 0.400 m. NaCl dissociates into 2 ions so i = 2. Delta Tf = Kf x m x i = 1.86 x 0.400 x 2 = 1.49 degrees C. Freezing point = 0.00 - 1.49 = -1.49 degrees C."
+        },
+        {
+          "id": "stoich-ps5-q4",
+          "stem": "If the van't Hoff factor for CaCl2 were measured as 2.60 instead of the ideal value of 3, what would the boiling point elevation be?",
+          "options": ["A. 0.359 degrees C", "B. 0.414 degrees C", "C. 0.277 degrees C", "D. 0.138 degrees C"],
+          "correct": 0,
+          "explanation": "Molality of CaCl2 = (15.0/110.98)/0.500 = 0.270 m. Delta Tb = Kb x m x i = 0.512 x 0.270 x 2.60 = 0.359 degrees C. The actual van't Hoff factor is less than ideal due to ion pairing in solution, which reduces the effective particle concentration."
+        },
+        {
+          "id": "stoich-ps5-q5",
+          "stem": "What is the osmotic pressure of the glucose solution at 25 degrees C (R = 0.0821 L atm/mol K)?",
+          "options": ["A. 2.44 atm", "B. 4.88 atm", "C. 1.22 atm", "D. 9.76 atm"],
+          "correct": 1,
+          "explanation": "For osmotic pressure, we use pi = MRT where M is molarity. Assuming the dilute solution volume is approximately 0.500 L, M = 0.0999/0.500 = 0.200 M. Pi = 0.200 x 0.0821 x 298 = 4.89 atm. Osmotic pressure is proportional to the molar concentration of solute particles."
+        }
+      ]
+    },
+    {
+      "id": "stoich-ps6",
+      "passage": "An analytical chemist performs a gravimetric analysis to determine the sulfate content of a water sample. A 250.0 mL water sample is treated with excess BaCl2 solution. The resulting BaSO4 precipitate (MW = 233.39 g/mol) is filtered, washed, dried, and weighed, yielding 0.4668 g. The balanced net ionic equation is: Ba2+(aq) + SO4 2-(aq) -> BaSO4(s). The Ksp of BaSO4 is 1.1 x 10^-10 at 25 degrees C. The EPA maximum contaminant level for sulfate in drinking water is 250 mg/L. The chemist also considers potential interferences from other anions such as chromate and carbonate, which can co-precipitate with barium. To minimize these interferences, the precipitation is carried out in a slightly acidic solution at elevated temperature, and the precipitate is digested before filtration.",
+      "questions": [
+        {
+          "id": "stoich-ps6-q1",
+          "stem": "What mass of sulfate ion is present in the water sample?",
+          "options": ["A. 96.1 mg", "B. 192.2 mg", "C. 48.0 mg", "D. 288.3 mg"],
+          "correct": 1,
+          "explanation": "Moles BaSO4 = 0.4668 g / 233.39 g/mol = 2.000 x 10^-3 mol. Since the ratio of SO4 2- to BaSO4 is 1:1, moles SO4 2- = 2.000 x 10^-3 mol. Mass SO4 2- = 2.000 x 10^-3 x 96.06 g/mol = 0.1921 g = 192.1 mg."
+        },
+        {
+          "id": "stoich-ps6-q2",
+          "stem": "What is the sulfate concentration in mg/L, and does it exceed the EPA limit?",
+          "options": ["A. 384 mg/L; exceeds the limit", "B. 768 mg/L; exceeds the limit", "C. 192 mg/L; below the limit", "D. 576 mg/L; exceeds the limit"],
+          "correct": 1,
+          "explanation": "Concentration = 192.1 mg / 0.250 L = 768.5 mg/L. This significantly exceeds the EPA maximum contaminant level of 250 mg/L for sulfate in drinking water. The sample would be considered non-compliant."
+        },
+        {
+          "id": "stoich-ps6-q3",
+          "stem": "What is the molar solubility of BaSO4 in pure water?",
+          "options": ["A. 1.05 x 10^-5 M", "B. 5.5 x 10^-11 M", "C. 1.1 x 10^-10 M", "D. 3.32 x 10^-4 M"],
+          "correct": 0,
+          "explanation": "BaSO4 dissociates as BaSO4 -> Ba2+ + SO4 2-. Ksp = [Ba2+][SO4 2-] = s x s = s^2 = 1.1 x 10^-10. Therefore s = sqrt(1.1 x 10^-10) = 1.05 x 10^-5 M. The molar solubility is the square root of Ksp for a 1:1 salt."
+        },
+        {
+          "id": "stoich-ps6-q4",
+          "stem": "Why is excess BaCl2 used rather than a stoichiometric amount?",
+          "options": ["A. To increase the Ksp of BaSO4", "B. To ensure complete precipitation of sulfate via the common ion effect", "C. To dissolve any interfering precipitates", "D. To prevent the formation of BaSO4"],
+          "correct": 1,
+          "explanation": "Excess Ba2+ shifts the equilibrium toward precipitation through Le Chatelier's principle (common ion effect), ensuring virtually all sulfate is removed from solution. This is essential for quantitative analysis where complete precipitation of the analyte is required."
+        },
+        {
+          "id": "stoich-ps6-q5",
+          "stem": "If the water sample also contained 0.010 M Na2SO4, what would the solubility of BaSO4 be in this solution?",
+          "options": ["A. 1.1 x 10^-8 M", "B. 1.05 x 10^-5 M", "C. 1.1 x 10^-10 M", "D. 5.5 x 10^-6 M"],
+          "correct": 0,
+          "explanation": "With 0.010 M SO4 2- already present: Ksp = [Ba2+][SO4 2-] = (s)(0.010 + s) ≈ (s)(0.010). s = 1.1 x 10^-10 / 0.010 = 1.1 x 10^-8 M. The common ion effect dramatically reduces the solubility compared to pure water."
+        }
+      ]
+    },
+    {
+      "id": "stoich-ps7",
+      "passage": "A biochemistry lab prepares phosphate-buffered saline (PBS) for cell culture experiments. The recipe calls for dissolving 8.00 g NaCl (MW = 58.44), 0.200 g KCl (MW = 74.55), 1.44 g Na2HPO4 (MW = 141.96), and 0.240 g KH2PO4 (MW = 136.09) in enough deionized water to make 1.000 L of solution. The solution must be sterilized by autoclaving at 121 degrees C. The lab also needs to prepare a 10X concentrated stock solution of PBS. They measure the final pH to be 7.4, consistent with physiological conditions. For some experiments, they need to add CaCl2 (MW = 110.98) to a final concentration of 1.00 mM, but this must be done carefully to avoid precipitation of calcium phosphate, which has very low solubility.",
+      "questions": [
+        {
+          "id": "stoich-ps7-q1",
+          "stem": "What is the molarity of NaCl in the 1X PBS solution?",
+          "options": ["A. 0.0800 M", "B. 0.137 M", "C. 0.274 M", "D. 0.500 M"],
+          "correct": 1,
+          "explanation": "Moles NaCl = 8.00 g / 58.44 g/mol = 0.1369 mol. Molarity = 0.1369 mol / 1.000 L = 0.137 M. This is the concentration of sodium chloride in the standard 1X PBS formulation."
+        },
+        {
+          "id": "stoich-ps7-q2",
+          "stem": "What mass of Na2HPO4 is needed for 500 mL of 10X PBS stock?",
+          "options": ["A. 7.20 g", "B. 14.4 g", "C. 0.720 g", "D. 1.44 g"],
+          "correct": 0,
+          "explanation": "For 10X concentration: mass per liter = 1.44 g x 10 = 14.4 g/L. For 500 mL: 14.4 g/L x 0.500 L = 7.20 g. A 10X stock contains ten times the solute concentration of the working solution."
+        },
+        {
+          "id": "stoich-ps7-q3",
+          "stem": "What mass of CaCl2 must be added to 200.0 mL of PBS to achieve 1.00 mM Ca2+?",
+          "options": ["A. 22.2 mg", "B. 11.1 mg", "C. 44.4 mg", "D. 5.55 mg"],
+          "correct": 0,
+          "explanation": "Moles CaCl2 needed = 1.00 x 10^-3 mol/L x 0.2000 L = 2.00 x 10^-4 mol. Mass = 2.00 x 10^-4 mol x 110.98 g/mol = 0.0222 g = 22.2 mg. The calculation converts from target molarity and volume to required mass."
+        },
+        {
+          "id": "stoich-ps7-q4",
+          "stem": "What is the total concentration of potassium ions in the 1X PBS solution?",
+          "options": ["A. 2.68 mM", "B. 4.44 mM", "C. 1.76 mM", "D. 6.12 mM"],
+          "correct": 1,
+          "explanation": "K+ from KCl: 0.200/74.55 = 2.682 x 10^-3 mol. K+ from KH2PO4: 0.240/136.09 = 1.763 x 10^-3 mol. Total K+ = 4.445 x 10^-3 mol in 1.000 L = 4.44 mM. Potassium ions come from both potassium-containing salts."
+        },
+        {
+          "id": "stoich-ps7-q5",
+          "stem": "How many moles of total phosphate species are present in 1.000 L of the 1X PBS?",
+          "options": ["A. 5.90 x 10^-3 mol", "B. 1.18 x 10^-2 mol", "C. 1.01 x 10^-2 mol", "D. 1.76 x 10^-3 mol"],
+          "correct": 1,
+          "explanation": "Phosphate from Na2HPO4: 1.44/141.96 = 1.014 x 10^-2 mol. Phosphate from KH2PO4: 0.240/136.09 = 1.763 x 10^-3 mol. Total = 1.014 x 10^-2 + 1.763 x 10^-3 = 1.190 x 10^-2 mol. Both salts contribute one phosphate group per formula unit."
+        }
+      ]
+    },
+    {
+      "id": "stoich-ps8",
+      "passage": "A materials science lab studies the thermal decomposition of calcium carbonate (CaCO3, MW = 100.09 g/mol) in a kiln to produce quicklime (CaO, MW = 56.08 g/mol) and carbon dioxide (CO2, MW = 44.01 g/mol). The reaction is: CaCO3(s) -> CaO(s) + CO2(g). A 500.0 g sample of limestone containing 85.0% CaCO3 by mass is heated. The remaining 15.0% consists of inert silicate minerals. The quicklime produced is then reacted with water to form slaked lime: CaO(s) + H2O(l) -> Ca(OH)2(s). The Ca(OH)2 (MW = 74.09 g/mol) is used in water treatment to raise pH. The purity of the quicklime product is critical for these applications, and the lab monitors the reaction progress by measuring mass loss due to CO2 evolution.",
+      "questions": [
+        {
+          "id": "stoich-ps8-q1",
+          "stem": "What mass of pure CaCO3 is present in the limestone sample?",
+          "options": ["A. 350.0 g", "B. 425.0 g", "C. 500.0 g", "D. 75.0 g"],
+          "correct": 1,
+          "explanation": "Mass of CaCO3 = 500.0 g x 0.850 = 425.0 g. The limestone sample is 85.0% CaCO3 by mass, with the remainder being inert silicate impurities that do not participate in the decomposition reaction."
+        },
+        {
+          "id": "stoich-ps8-q2",
+          "stem": "What is the theoretical yield of CaO from this limestone sample?",
+          "options": ["A. 238.1 g", "B. 168.2 g", "C. 280.4 g", "D. 196.5 g"],
+          "correct": 0,
+          "explanation": "Moles CaCO3 = 425.0/100.09 = 4.246 mol. From 1:1 stoichiometry, moles CaO = 4.246 mol. Mass CaO = 4.246 x 56.08 = 238.1 g. The theoretical yield is based on the pure CaCO3 content, not the total limestone mass."
+        },
+        {
+          "id": "stoich-ps8-q3",
+          "stem": "What mass of CO2 gas is released during complete decomposition?",
+          "options": ["A. 93.5 g", "B. 186.9 g", "C. 132.0 g", "D. 220.0 g"],
+          "correct": 1,
+          "explanation": "Moles CO2 = moles CaCO3 = 4.246 mol. Mass CO2 = 4.246 x 44.01 = 186.9 g. This mass loss can be monitored during the reaction as CO2 evolves from the kiln, providing a way to track reaction progress."
+        },
+        {
+          "id": "stoich-ps8-q4",
+          "stem": "What volume does the CO2 occupy at STP (22.4 L/mol)?",
+          "options": ["A. 47.6 L", "B. 95.1 L", "C. 142.7 L", "D. 190.2 L"],
+          "correct": 1,
+          "explanation": "Volume at STP = moles x 22.4 L/mol = 4.246 mol x 22.4 L/mol = 95.1 L. At standard temperature and pressure, one mole of an ideal gas occupies 22.4 liters."
+        },
+        {
+          "id": "stoich-ps8-q5",
+          "stem": "If all the CaO produced is converted to Ca(OH)2, what mass of Ca(OH)2 is obtained?",
+          "options": ["A. 314.6 g", "B. 238.1 g", "C. 425.0 g", "D. 157.3 g"],
+          "correct": 0,
+          "explanation": "Moles Ca(OH)2 = moles CaO = 4.246 mol (1:1 stoichiometry). Mass Ca(OH)2 = 4.246 x 74.09 = 314.6 g. The conversion of quicklime to slaked lime is also a 1:1 molar relationship."
+        }
+      ]
+    },
+    {
+      "id": "stoich-ps9",
+      "passage": "A forensic chemist uses a precipitation reaction to test for the presence of lead ions in drinking water. The reaction involves adding potassium iodide (KI, MW = 166.00 g/mol) to a sample suspected of containing lead(II) nitrate (Pb(NO3)2, MW = 331.21 g/mol). The balanced equation is: Pb(NO3)2(aq) + 2KI(aq) -> PbI2(s) + 2KNO3(aq). Lead(II) iodide (PbI2, MW = 461.01 g/mol) is a bright yellow precipitate. The Ksp of PbI2 is 9.8 x 10^-9 at 25 degrees C. The EPA action level for lead in drinking water is 15 parts per billion (ppb) by mass. A 1.000 L water sample is tested, and 0.0923 g of PbI2 precipitate is collected after adding excess KI. The chemist must determine whether the water exceeds the EPA action level. The density of the water sample is assumed to be 1.000 g/mL.",
+      "questions": [
+        {
+          "id": "stoich-ps9-q1",
+          "stem": "How many moles of PbI2 precipitate were collected?",
+          "options": ["A. 1.00 x 10^-4 mol", "B. 2.00 x 10^-4 mol", "C. 5.00 x 10^-5 mol", "D. 4.00 x 10^-4 mol"],
+          "correct": 1,
+          "explanation": "Moles PbI2 = mass/MW = 0.0923 g / 461.01 g/mol = 2.00 x 10^-4 mol. This straightforward calculation divides the mass of precipitate by its molar mass to find the number of moles collected."
+        },
+        {
+          "id": "stoich-ps9-q2",
+          "stem": "What is the concentration of Pb2+ in the original water sample in ppb?",
+          "options": ["A. 20.7 ppb", "B. 41.4 ppb", "C. 10.4 ppb", "D. 82.8 ppb"],
+          "correct": 1,
+          "explanation": "Moles Pb2+ = moles PbI2 = 2.00 x 10^-4 mol. Mass Pb2+ = 2.00 x 10^-4 x 207.2 g/mol = 0.04144 g = 41,440 micrograms. In 1.000 L (1,000,000 mg = 10^6 mg), concentration = 41.4 ppb (micrograms per liter). This exceeds the EPA limit of 15 ppb."
+        },
+        {
+          "id": "stoich-ps9-q3",
+          "stem": "Does this water sample exceed the EPA action level for lead?",
+          "options": ["A. No, it is well below the limit", "B. No, but it is close to the limit", "C. Yes, it exceeds the limit by approximately 2-3 times", "D. Yes, it exceeds the limit by approximately 10 times"],
+          "correct": 2,
+          "explanation": "The measured lead concentration is 41.4 ppb, and the EPA action level is 15 ppb. The ratio is 41.4/15 = 2.76, meaning the sample exceeds the limit by approximately 2-3 times. This water would require corrective action."
+        },
+        {
+          "id": "stoich-ps9-q4",
+          "stem": "What is the molar solubility of PbI2 in pure water?",
+          "options": ["A. 1.36 x 10^-3 M", "B. 2.10 x 10^-3 M", "C. 9.8 x 10^-9 M", "D. 4.92 x 10^-5 M"],
+          "correct": 0,
+          "explanation": "PbI2 -> Pb2+ + 2I-. Ksp = [Pb2+][I-]^2 = (s)(2s)^2 = 4s^3 = 9.8 x 10^-9. s^3 = 2.45 x 10^-9. s = 1.36 x 10^-3 M. For a 1:2 salt, the Ksp expression yields a cubic equation in the molar solubility."
+        },
+        {
+          "id": "stoich-ps9-q5",
+          "stem": "How many grams of KI are needed to provide a 10-fold molar excess over Pb2+ in this sample?",
+          "options": ["A. 0.166 g", "B. 0.332 g", "C. 0.664 g", "D. 1.328 g"],
+          "correct": 2,
+          "explanation": "Stoichiometric KI needed = 2 x 2.00 x 10^-4 = 4.00 x 10^-4 mol. A 10-fold excess = 4.00 x 10^-3 mol. Mass KI = 4.00 x 10^-3 x 166.00 = 0.664 g. The 2:1 KI to Pb2+ stoichiometry must be accounted for before applying the excess factor."
+        }
+      ]
+    },
+    {
+      "id": "stoich-ps10",
+      "passage": "An industrial chemist optimizes the Haber process for ammonia synthesis: N2(g) + 3H2(g) -> 2NH3(g). The plant receives nitrogen gas at 99.9% purity from an air separation unit and hydrogen gas at 99.5% purity from natural gas reforming. In a single pass through the reactor at 450 degrees C and 200 atm with an iron catalyst, the conversion of nitrogen to ammonia is 15%. The plant processes 2800 kg of N2 (MW = 28.02 g/mol) per hour. Unreacted gases are recycled back to the reactor inlet. After multiple passes with recycling, the overall conversion reaches 97%. The ammonia product (MW = 17.03 g/mol) is separated by condensation at high pressure, where it liquefies while N2 and H2 remain gaseous. The plant must also manage trace amounts of argon and methane that accumulate in the recycle loop.",
+      "questions": [
+        {
+          "id": "stoich-ps10-q1",
+          "stem": "How many moles of N2 are processed per hour?",
+          "options": ["A. 5.0 x 10^4 mol", "B. 1.0 x 10^5 mol", "C. 2.0 x 10^5 mol", "D. 5.0 x 10^5 mol"],
+          "correct": 1,
+          "explanation": "Moles N2 = 2,800,000 g / 28.02 g/mol = 99,929 mol, approximately 1.0 x 10^5 mol. This converts the mass flow rate of nitrogen to a molar flow rate using the molar mass."
+        },
+        {
+          "id": "stoich-ps10-q2",
+          "stem": "What mass of NH3 is produced per hour in a single pass (15% conversion)?",
+          "options": ["A. 255 kg", "B. 510 kg", "C. 1020 kg", "D. 170 kg"],
+          "correct": 1,
+          "explanation": "N2 reacted = 1.0 x 10^5 mol x 0.15 = 1.5 x 10^4 mol. NH3 produced = 2 x 1.5 x 10^4 = 3.0 x 10^4 mol. Mass = 3.0 x 10^4 x 17.03 = 510,900 g = 510 kg. The 2:1 stoichiometric ratio of NH3 to N2 doubles the moles of product."
+        },
+        {
+          "id": "stoich-ps10-q3",
+          "stem": "What mass of H2 is consumed per hour at 15% conversion?",
+          "options": ["A. 45.3 kg", "B. 90.6 kg", "C. 181.2 kg", "D. 30.2 kg"],
+          "correct": 1,
+          "explanation": "Moles N2 reacted = 1.5 x 10^4 mol. Moles H2 consumed = 3 x 1.5 x 10^4 = 4.5 x 10^4 mol. Mass H2 = 4.5 x 10^4 x 2.016 = 90,720 g = 90.7 kg. Three moles of H2 are consumed for every mole of N2 that reacts."
+        },
+        {
+          "id": "stoich-ps10-q4",
+          "stem": "With 97% overall conversion after recycling, what is the hourly NH3 production?",
+          "options": ["A. 1650 kg", "B. 3300 kg", "C. 4950 kg", "D. 6600 kg"],
+          "correct": 1,
+          "explanation": "N2 reacted overall = 1.0 x 10^5 x 0.97 = 9.7 x 10^4 mol. NH3 = 2 x 9.7 x 10^4 = 1.94 x 10^5 mol. Mass = 1.94 x 10^5 x 17.03 = 3,304 kg, approximately 3300 kg. Recycling dramatically increases overall conversion and production."
+        },
+        {
+          "id": "stoich-ps10-q5",
+          "stem": "What minimum mass of H2 must be supplied per hour to sustain 97% overall conversion?",
+          "options": ["A. 294 kg", "B. 588 kg", "C. 882 kg", "D. 196 kg"],
+          "correct": 1,
+          "explanation": "Moles N2 reacted = 9.7 x 10^4 mol. Moles H2 = 3 x 9.7 x 10^4 = 2.91 x 10^5 mol. Mass H2 = 2.91 x 10^5 x 2.016 = 586,656 g = 587 kg, approximately 588 kg. The 3:1 stoichiometric requirement of H2 to N2 means hydrogen demand is substantial."
+        }
+      ]
+    }
+  ]
+}

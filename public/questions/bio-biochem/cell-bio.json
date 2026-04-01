@@ -1,0 +1,416 @@
+{
+  "subtopic": "Cell Biology & Organelles",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "cb-ps-001",
+      "passage": "Researchers investigated the role of the plasma membrane in cellular signaling by studying the behavior of G-protein coupled receptors (GPCRs) in cultured mammalian cells. When a ligand binds to a GPCR, it induces a conformational change in the receptor that activates an associated heterotrimeric G-protein on the cytoplasmic side of the membrane. The activated G-alpha subunit dissociates from the beta-gamma complex and interacts with downstream effectors such as adenylyl cyclase, which converts ATP to cyclic AMP (cAMP). cAMP then activates protein kinase A (PKA), which phosphorylates target proteins to produce cellular responses. The researchers treated cells with cholera toxin, which permanently activates the G-alpha-s subunit by inhibiting its GTPase activity. They measured intracellular cAMP levels over time and observed a sustained elevation compared to control cells stimulated with the natural ligand alone. Additionally, they examined cells treated with pertussis toxin, which prevents the G-alpha-i subunit from being activated, thereby blocking inhibitory signaling pathways. The fluid mosaic model of the membrane was considered in interpreting the lateral mobility of receptor-effector complexes within the lipid bilayer.",
+      "questions": [
+        {
+          "id": "cb-q-001",
+          "stem": "What is the immediate effect of cholera toxin on G-protein signaling?",
+          "options": ["A. It prevents ligand binding to the GPCR", "B. It locks the G-alpha-s subunit in the active GTP-bound state", "C. It degrades cyclic AMP in the cytoplasm", "D. It blocks the beta-gamma complex from reassociating"],
+          "correct": 1,
+          "explanation": "Cholera toxin inhibits the intrinsic GTPase activity of the G-alpha-s subunit, preventing it from hydrolyzing GTP to GDP. This keeps the subunit permanently in its active, GTP-bound conformation, leading to continuous stimulation of adenylyl cyclase and sustained cAMP production."
+        },
+        {
+          "id": "cb-q-002",
+          "stem": "If a cell were treated with a non-hydrolyzable GTP analog, which of the following would most likely occur?",
+          "options": ["A. G-protein signaling would be permanently inhibited", "B. Adenylyl cyclase activity would be continuously stimulated", "C. The receptor would be unable to bind its ligand", "D. cAMP would be rapidly degraded by phosphodiesterase"],
+          "correct": 1,
+          "explanation": "A non-hydrolyzable GTP analog would bind to the G-alpha subunit but could not be hydrolyzed, keeping the subunit in a constitutively active state. This would lead to continuous activation of adenylyl cyclase, similar to the effect of cholera toxin described in the passage."
+        },
+        {
+          "id": "cb-q-003",
+          "stem": "Pertussis toxin would most directly affect which of the following cellular processes?",
+          "options": ["A. Stimulation of adenylyl cyclase by G-alpha-s", "B. Inhibition of adenylyl cyclase by G-alpha-i", "C. Phosphorylation of target proteins by PKA", "D. Conversion of GTP to GDP by GTPase activity"],
+          "correct": 1,
+          "explanation": "Pertussis toxin specifically targets the G-alpha-i subunit, preventing its activation by keeping it in the inactive GDP-bound state. Since G-alpha-i normally inhibits adenylyl cyclase, blocking its activation removes this inhibitory pathway, effectively preventing the cell from downregulating cAMP signaling."
+        },
+        {
+          "id": "cb-q-004",
+          "stem": "According to the fluid mosaic model, which property of the plasma membrane is most relevant to GPCR signaling?",
+          "options": ["A. The rigid structural framework provided by integral proteins", "B. The lateral mobility of proteins within the lipid bilayer", "C. The impermeability of the membrane to all charged molecules", "D. The symmetric distribution of lipids between the two leaflets"],
+          "correct": 1,
+          "explanation": "The fluid mosaic model emphasizes that membrane proteins can move laterally within the lipid bilayer. This lateral mobility is essential for GPCR signaling because receptors must physically interact with G-proteins and downstream effectors within the plane of the membrane to transduce signals."
+        },
+        {
+          "id": "cb-q-005",
+          "stem": "Which enzyme directly catalyzes the production of cAMP from ATP in the GPCR signaling pathway?",
+          "options": ["A. Protein kinase A", "B. Phosphodiesterase", "C. Adenylyl cyclase", "D. GTPase"],
+          "correct": 2,
+          "explanation": "Adenylyl cyclase is the enzyme that directly converts ATP to cyclic AMP (cAMP). It is activated by the G-alpha-s subunit upon GPCR stimulation. Protein kinase A is activated by cAMP but does not produce it, and phosphodiesterase degrades cAMP rather than synthesizing it."
+        }
+      ]
+    },
+    {
+      "id": "cb-ps-002",
+      "passage": "A cell biology laboratory studied the endomembrane system by tracking a newly synthesized secretory protein from its site of synthesis to its release from the cell. The protein was first translated on ribosomes bound to the rough endoplasmic reticulum (RER), where it was co-translationally inserted into the ER lumen via the signal recognition particle (SRP) pathway. Within the ER, the protein underwent N-linked glycosylation and proper folding assisted by chaperone proteins such as BiP. Misfolded proteins were targeted for ER-associated degradation (ERAD) via the ubiquitin-proteasome pathway. Correctly folded proteins were packaged into COPII-coated transport vesicles that budded from ER exit sites and traveled to the cis-Golgi network. As the protein moved through the Golgi stack from cis to trans cisternae, its glycan chains were further modified by the sequential action of glycosidases and glycosyltransferases. In the trans-Golgi network (TGN), the protein was sorted into secretory vesicles that fused with the plasma membrane in a process requiring SNARE proteins and calcium ions. The researchers used brefeldin A, which inhibits COPI coat assembly, to study retrograde transport from the Golgi back to the ER.",
+      "questions": [
+        {
+          "id": "cb-q-006",
+          "stem": "What is the role of the signal recognition particle (SRP) in protein synthesis?",
+          "options": ["A. It cleaves the signal peptide from the nascent polypeptide", "B. It directs the ribosome-mRNA complex to the rough ER membrane", "C. It catalyzes the glycosylation of proteins in the ER lumen", "D. It facilitates the folding of proteins by acting as a chaperone"],
+          "correct": 1,
+          "explanation": "The SRP recognizes and binds the signal sequence on a nascent polypeptide as it emerges from the ribosome, then directs the entire ribosome-mRNA-polypeptide complex to the ER membrane by docking with the SRP receptor. This ensures co-translational insertion of the protein into the ER lumen."
+        },
+        {
+          "id": "cb-q-007",
+          "stem": "Which coat protein is associated with anterograde transport from the ER to the Golgi?",
+          "options": ["A. Clathrin", "B. COPI", "C. COPII", "D. Caveolin"],
+          "correct": 2,
+          "explanation": "COPII-coated vesicles mediate anterograde transport from the ER to the cis-Golgi. COPI-coated vesicles are responsible for retrograde transport from the Golgi back to the ER. Clathrin-coated vesicles are involved in transport from the TGN to endosomes and in receptor-mediated endocytosis."
+        },
+        {
+          "id": "cb-q-008",
+          "stem": "A mutation that prevents SNARE protein function would most directly impair which step in the secretory pathway?",
+          "options": ["A. Translation of the protein on ribosomes", "B. Glycosylation of the protein in the ER lumen", "C. Budding of transport vesicles from ER exit sites", "D. Fusion of secretory vesicles with the plasma membrane"],
+          "correct": 3,
+          "explanation": "SNARE proteins are essential for membrane fusion events, mediating the docking and fusion of transport vesicles with their target membranes. A loss of SNARE function would prevent secretory vesicles from fusing with the plasma membrane, blocking the final step of exocytosis."
+        },
+        {
+          "id": "cb-q-009",
+          "stem": "What would be the expected effect of brefeldin A treatment on the Golgi apparatus?",
+          "options": ["A. The Golgi would fragment and merge with the ER", "B. The Golgi would become hypertrophied with excess vesicles", "C. Anterograde transport would be accelerated", "D. Protein glycosylation would be enhanced"],
+          "correct": 0,
+          "explanation": "Brefeldin A inhibits COPI coat assembly, which is required for retrograde transport and for maintaining Golgi structure. Without COPI function, the Golgi apparatus disassembles and its membranes redistribute back into the ER, effectively collapsing the Golgi compartment."
+        },
+        {
+          "id": "cb-q-010",
+          "stem": "Misfolded proteins in the ER are degraded by which pathway?",
+          "options": ["A. Autophagy-lysosome pathway", "B. Ubiquitin-proteasome pathway via ERAD", "C. Caspase-mediated proteolysis", "D. Secretion and extracellular degradation"],
+          "correct": 1,
+          "explanation": "Misfolded proteins in the ER are retrotranslocated to the cytoplasm through the ERAD (ER-associated degradation) pathway, where they are polyubiquitinated and subsequently degraded by the 26S proteasome. This quality control mechanism prevents the accumulation of aberrant proteins in the secretory pathway."
+        }
+      ]
+    },
+    {
+      "id": "cb-ps-003",
+      "passage": "Mitochondria are double-membrane organelles responsible for aerobic respiration and ATP production. The outer mitochondrial membrane (OMM) contains porins that allow passage of small molecules, while the inner mitochondrial membrane (IMM) is highly impermeable and folded into cristae to increase surface area. The electron transport chain (ETC) is located on the IMM and consists of four major complexes (I-IV) that transfer electrons from NADH and FADH2 to molecular oxygen. As electrons pass through the chain, protons are pumped from the mitochondrial matrix into the intermembrane space at Complexes I, III, and IV, establishing an electrochemical gradient. This proton-motive force drives ATP synthesis through Complex V (ATP synthase) via chemiosmotic coupling, as proposed by Peter Mitchell. Researchers investigated the effects of various inhibitors on mitochondrial function. Rotenone blocks Complex I, antimycin A blocks Complex III, and cyanide blocks Complex IV. Additionally, they tested 2,4-dinitrophenol (DNP), a chemical uncoupler that dissipates the proton gradient by transporting protons across the IMM independently of ATP synthase. Oligomycin, which directly inhibits ATP synthase, was also used as a control in experiments measuring oxygen consumption and ATP output.",
+      "questions": [
+        {
+          "id": "cb-q-011",
+          "stem": "If cells are treated with DNP (an uncoupler), what would be the expected effect on oxygen consumption and ATP production?",
+          "options": ["A. Oxygen consumption decreases; ATP production decreases", "B. Oxygen consumption increases; ATP production decreases", "C. Oxygen consumption decreases; ATP production increases", "D. Oxygen consumption increases; ATP production increases"],
+          "correct": 1,
+          "explanation": "DNP dissipates the proton gradient by allowing protons to leak across the inner membrane without passing through ATP synthase. This uncouples electron transport from ATP synthesis, so ATP production decreases. However, without the back-pressure of the proton gradient, the ETC runs faster, increasing oxygen consumption."
+        },
+        {
+          "id": "cb-q-012",
+          "stem": "Which of the following correctly identifies the site of proton accumulation that drives ATP synthesis?",
+          "options": ["A. The mitochondrial matrix", "B. The intermembrane space", "C. The cytoplasm", "D. The cristae lumen separate from the intermembrane space"],
+          "correct": 1,
+          "explanation": "Protons are pumped from the mitochondrial matrix into the intermembrane space by Complexes I, III, and IV of the electron transport chain. The resulting high proton concentration in the intermembrane space relative to the matrix creates the electrochemical gradient that drives protons back through ATP synthase to generate ATP."
+        },
+        {
+          "id": "cb-q-013",
+          "stem": "Treatment with oligomycin would most likely result in which of the following?",
+          "options": ["A. Increased oxygen consumption and increased ATP production", "B. Decreased oxygen consumption and decreased ATP production", "C. Increased oxygen consumption and decreased ATP production", "D. No change in either oxygen consumption or ATP production"],
+          "correct": 1,
+          "explanation": "Oligomycin directly blocks ATP synthase (Complex V), preventing protons from flowing back into the matrix through this channel. This stops ATP production and also causes the proton gradient to build up excessively, which in turn slows the electron transport chain and decreases oxygen consumption."
+        },
+        {
+          "id": "cb-q-014",
+          "stem": "If antimycin A is added to isolated mitochondria respiring on NADH-linked substrates, which complexes would still be able to function?",
+          "options": ["A. Complexes I, II, III, and IV", "B. Complexes I and II only", "C. Complexes III and IV only", "D. Complex IV only"],
+          "correct": 1,
+          "explanation": "Antimycin A blocks electron flow at Complex III, preventing electrons from passing to Complex IV and beyond. However, Complexes I and II can still accept electrons from NADH and FADH2 respectively and pass them to the ubiquinone pool, although electrons will accumulate at the block point. Complexes III and IV cannot function because electron flow through Complex III is inhibited."
+        },
+        {
+          "id": "cb-q-015",
+          "stem": "The endosymbiotic theory proposes that mitochondria originated from ancient prokaryotes. Which feature of mitochondria best supports this hypothesis?",
+          "options": ["A. Mitochondria are located in the cytoplasm of eukaryotic cells", "B. Mitochondria possess their own circular DNA and replicate by binary fission", "C. Mitochondria have a double membrane composed of phospholipids", "D. Mitochondria produce ATP through oxidative phosphorylation"],
+          "correct": 1,
+          "explanation": "The presence of circular DNA and replication by binary fission are distinctly prokaryotic features that strongly support the endosymbiotic origin of mitochondria. While the double membrane could also support this theory, circular DNA and independent replication are more directly analogous to bacterial characteristics and are considered the strongest evidence."
+        }
+      ]
+    },
+    {
+      "id": "cb-ps-004",
+      "passage": "The cytoskeleton is a dynamic network of protein filaments that provides structural support, facilitates intracellular transport, and enables cell motility. Three main types of filaments comprise the cytoskeleton: microfilaments (actin filaments, ~7 nm diameter), intermediate filaments (~10 nm), and microtubules (~25 nm). Microfilaments are composed of globular actin (G-actin) monomers that polymerize into filamentous actin (F-actin) in an ATP-dependent process. They are concentrated beneath the plasma membrane in the cell cortex and play essential roles in cell crawling, cytokinesis, and muscle contraction. Microtubules are hollow cylindrical structures assembled from alpha-tubulin and beta-tubulin heterodimers in a GTP-dependent process. They originate from the centrosome (microtubule-organizing center) and extend outward with a dynamic plus end and a more stable minus end. Microtubules serve as tracks for motor proteins: kinesin moves cargo toward the plus end (generally toward the cell periphery), while dynein moves cargo toward the minus end (toward the centrosome). Intermediate filaments, composed of proteins such as keratin, vimentin, and lamin, provide mechanical strength but are not polar and do not serve as tracks for motor proteins. Researchers used colchicine, which binds free tubulin and prevents polymerization, and cytochalasin D, which caps the plus end of actin filaments, to dissect the roles of each cytoskeletal element.",
+      "questions": [
+        {
+          "id": "cb-q-016",
+          "stem": "A cell treated with colchicine would most likely exhibit which of the following defects?",
+          "options": ["A. Inability to form a contractile ring during cytokinesis", "B. Failure to assemble the mitotic spindle during cell division", "C. Loss of mechanical strength in epithelial tissues", "D. Inability to crawl along a substrate surface"],
+          "correct": 1,
+          "explanation": "Colchicine binds to free tubulin dimers and prevents their polymerization into microtubules. Since the mitotic spindle is composed of microtubules, colchicine treatment would prevent spindle assembly and arrest cells in mitosis. Cytokinesis and cell crawling primarily depend on actin, and mechanical strength depends on intermediate filaments."
+        },
+        {
+          "id": "cb-q-017",
+          "stem": "Which motor protein would be responsible for transporting a vesicle from the cell body of a neuron toward the synaptic terminal?",
+          "options": ["A. Dynein, because it moves toward the minus end", "B. Kinesin, because it moves toward the plus end", "C. Myosin, because it walks along actin filaments", "D. Dynein, because it moves toward the plus end"],
+          "correct": 1,
+          "explanation": "In neurons, microtubules are oriented with their plus ends toward the synaptic terminal and minus ends toward the cell body. Kinesin is a plus-end-directed motor protein, so it would transport vesicles from the cell body toward the synapse (anterograde transport). Dynein moves toward the minus end and mediates retrograde transport."
+        },
+        {
+          "id": "cb-q-018",
+          "stem": "Which cytoskeletal element is unique in lacking polarity and not utilizing nucleotide hydrolysis for assembly?",
+          "options": ["A. Microfilaments", "B. Microtubules", "C. Intermediate filaments", "D. Thin filaments in sarcomeres"],
+          "correct": 2,
+          "explanation": "Intermediate filaments are non-polar structures that assemble without the direct requirement for ATP or GTP hydrolysis, unlike microfilaments (which use ATP) and microtubules (which use GTP). This non-polarity means they cannot serve as directional tracks for motor proteins, but they excel at providing tensile strength."
+        },
+        {
+          "id": "cb-q-019",
+          "stem": "Treatment with cytochalasin D would most directly impair which cellular process?",
+          "options": ["A. Chromosome separation during anaphase", "B. Intracellular vesicle transport along microtubules", "C. Cytokinesis in dividing animal cells", "D. Maintenance of nuclear envelope integrity"],
+          "correct": 2,
+          "explanation": "Cytochalasin D caps the plus end of actin filaments, preventing further polymerization. Since cytokinesis in animal cells requires the formation of a contractile ring composed of actin and myosin, cytochalasin D would directly impair this process. Chromosome separation depends on microtubules, and nuclear envelope integrity depends on lamins."
+        },
+        {
+          "id": "cb-q-020",
+          "stem": "Dynamic instability of microtubules refers to which of the following phenomena?",
+          "options": ["A. The constant treadmilling of tubulin subunits from plus to minus end", "B. The rapid switching between phases of growth and shrinkage at the plus end", "C. The oscillation of microtubules between the cytoplasm and nucleus", "D. The regulated degradation of tubulin monomers by the proteasome"],
+          "correct": 1,
+          "explanation": "Dynamic instability describes the stochastic switching of individual microtubules between periods of polymerization (growth) and rapid depolymerization (catastrophe) at the plus end. This behavior depends on the GTP hydrolysis state of the tubulin dimers and is crucial for processes such as mitotic spindle assembly and search-and-capture of kinetochores."
+        }
+      ]
+    },
+    {
+      "id": "cb-ps-005",
+      "passage": "Membrane transport processes are essential for maintaining cellular homeostasis. Passive transport mechanisms, including simple diffusion, facilitated diffusion, and osmosis, move substances down their concentration gradients without energy expenditure. Small nonpolar molecules such as O2 and CO2 diffuse freely across the lipid bilayer, while polar molecules and ions require channel proteins or carrier proteins. Active transport uses energy, typically from ATP hydrolysis, to move substances against their concentration gradients. The sodium-potassium ATPase (Na+/K+ pump) is a primary active transporter that pumps 3 Na+ ions out of the cell and 2 K+ ions into the cell per ATP hydrolyzed, generating an electrochemical gradient critical for nerve impulse transmission and cell volume regulation. Secondary active transport (cotransport) harnesses the energy stored in an ion gradient established by primary active transport. For example, the sodium-glucose cotransporter (SGLT1) in intestinal epithelial cells uses the Na+ gradient to drive glucose uptake against its concentration gradient. Researchers measured the membrane potential of cells under various conditions, finding a resting potential of approximately -70 mV. When ouabain, a specific inhibitor of the Na+/K+ ATPase, was applied, the membrane potential gradually depolarized as the Na+ and K+ gradients dissipated.",
+      "questions": [
+        {
+          "id": "cb-q-021",
+          "stem": "The Na+/K+ ATPase is considered electrogenic because it:",
+          "options": ["A. transports equal numbers of Na+ and K+ ions", "B. requires ATP hydrolysis to function", "C. generates a net charge difference across the membrane by pumping 3 Na+ out and 2 K+ in", "D. facilitates the diffusion of glucose across the membrane"],
+          "correct": 2,
+          "explanation": "The Na+/K+ ATPase is electrogenic because it creates a net movement of positive charge out of the cell (3 Na+ out vs. 2 K+ in per cycle), contributing to the negative resting membrane potential. This unequal transport of cations directly generates an electrical potential difference across the membrane."
+        },
+        {
+          "id": "cb-q-022",
+          "stem": "Treatment with ouabain would be expected to cause which of the following changes?",
+          "options": ["A. Hyperpolarization of the membrane and cell shrinkage", "B. Depolarization of the membrane and cell swelling", "C. No change in membrane potential but increased ATP production", "D. Increased Na+ efflux and decreased K+ influx"],
+          "correct": 1,
+          "explanation": "Ouabain inhibits the Na+/K+ ATPase, causing Na+ to accumulate inside the cell and K+ to leak out. This dissipation of ion gradients leads to membrane depolarization. Additionally, the increased intracellular Na+ concentration raises intracellular osmolarity, drawing water in by osmosis and causing cell swelling."
+        },
+        {
+          "id": "cb-q-023",
+          "stem": "The sodium-glucose cotransporter (SGLT1) is classified as which type of transport?",
+          "options": ["A. Primary active transport", "B. Facilitated diffusion", "C. Secondary active transport (symport)", "D. Simple diffusion"],
+          "correct": 2,
+          "explanation": "SGLT1 is a secondary active transporter that couples the movement of glucose against its concentration gradient to the movement of Na+ down its concentration gradient. Since both Na+ and glucose move in the same direction across the membrane, it is specifically classified as a symporter. The energy comes indirectly from the Na+ gradient maintained by the Na+/K+ ATPase."
+        },
+        {
+          "id": "cb-q-024",
+          "stem": "Which of the following molecules would be expected to cross the plasma membrane most rapidly by simple diffusion?",
+          "options": ["A. Glucose", "B. Na+ ions", "C. Steroid hormones", "D. Amino acids"],
+          "correct": 2,
+          "explanation": "Steroid hormones are small, nonpolar, hydrophobic molecules that can readily dissolve in and pass through the lipid bilayer by simple diffusion. Glucose, Na+ ions, and amino acids are polar or charged and cannot efficiently cross the hydrophobic core of the membrane without the assistance of transport proteins."
+        },
+        {
+          "id": "cb-q-025",
+          "stem": "If the extracellular Na+ concentration were experimentally reduced to equal the intracellular concentration, what would happen to SGLT1-mediated glucose transport?",
+          "options": ["A. Glucose transport would increase due to reduced competition", "B. Glucose transport would cease because the Na+ gradient driving force is eliminated", "C. Glucose transport would reverse direction", "D. Glucose transport would be unaffected because it is ATP-dependent"],
+          "correct": 1,
+          "explanation": "SGLT1 depends on the Na+ electrochemical gradient to drive glucose uptake against its concentration gradient. If extracellular and intracellular Na+ concentrations are equalized, the driving force for Na+ entry is eliminated, and SGLT1 can no longer transport glucose uphill. This demonstrates the dependence of secondary active transport on gradients established by primary active transport."
+        }
+      ]
+    },
+    {
+      "id": "cb-ps-006",
+      "passage": "Mitosis is the process by which a eukaryotic cell divides its duplicated chromosomes equally between two daughter cells. The cell cycle consists of interphase (G1, S, and G2 phases) and the mitotic phase (M phase). During S phase, DNA replication produces sister chromatids joined at the centromere by cohesin protein complexes. In prophase, chromatin condenses into visible chromosomes, the mitotic spindle begins to form from centrosomes, and the nuclear envelope starts to break down. During prometaphase, kinetochore microtubules attach to the kinetochores assembled on centromeric DNA. Metaphase is characterized by the alignment of chromosomes at the metaphase plate, with each sister chromatid attached to microtubules from opposite poles (biorientation). The spindle assembly checkpoint (SAC) monitors kinetochore-microtubule attachments and delays anaphase onset until all chromosomes achieve proper biorientation. The SAC operates through the mitotic checkpoint complex (MCC), which inhibits the anaphase-promoting complex/cyclosome (APC/C). Once all attachments are correct, the APC/C ubiquitinates securin, releasing separase, which cleaves cohesin and allows sister chromatid separation in anaphase. Researchers studying cancer cells found that weakened SAC function led to chromosome missegregation and aneuploidy, a hallmark of many tumors.",
+      "questions": [
+        {
+          "id": "cb-q-026",
+          "stem": "What is the primary function of the spindle assembly checkpoint (SAC)?",
+          "options": ["A. To ensure DNA replication is complete before mitosis begins", "B. To verify that all kinetochores are properly attached to spindle microtubules before anaphase", "C. To regulate the condensation of chromatin into chromosomes", "D. To control the breakdown of the nuclear envelope"],
+          "correct": 1,
+          "explanation": "The SAC monitors whether all kinetochores have achieved proper biorientation with microtubules from opposite spindle poles. It delays the onset of anaphase by inhibiting the APC/C until all chromosomes are correctly attached, preventing premature sister chromatid separation that would lead to aneuploidy."
+        },
+        {
+          "id": "cb-q-027",
+          "stem": "Separase directly promotes sister chromatid separation by:",
+          "options": ["A. depolymerizing kinetochore microtubules", "B. phosphorylating condensin complexes", "C. cleaving cohesin complexes at the centromere", "D. activating the APC/C ubiquitin ligase"],
+          "correct": 2,
+          "explanation": "Separase is a protease that cleaves the Scc1/Rad21 subunit of the cohesin complex holding sister chromatids together. It is kept inactive by binding to its inhibitor securin until the APC/C ubiquitinates securin for proteasomal degradation, freeing separase to cleave cohesin and allow chromatid separation."
+        },
+        {
+          "id": "cb-q-028",
+          "stem": "Cancer cells with weakened SAC function would be expected to show increased rates of:",
+          "options": ["A. apoptosis due to DNA damage checkpoint activation", "B. chromosome missegregation leading to aneuploidy", "C. cell cycle arrest in G1 phase", "D. reduced rates of cell division"],
+          "correct": 1,
+          "explanation": "A weakened SAC allows cells to proceed to anaphase even when chromosomes are not properly attached to the spindle, resulting in unequal distribution of chromosomes to daughter cells. This missegregation produces aneuploid cells with abnormal chromosome numbers, which is a common feature of cancer cells."
+        },
+        {
+          "id": "cb-q-029",
+          "stem": "During which phase of mitosis do chromosomes first become visible as distinct structures under a light microscope?",
+          "options": ["A. G2 phase", "B. Prophase", "C. Metaphase", "D. Anaphase"],
+          "correct": 1,
+          "explanation": "During prophase, the dispersed chromatin fibers condense and coil into compact, visible chromosomes that can be observed under a light microscope. Prior to prophase, during interphase (including G2), the DNA exists as diffuse chromatin that is not individually distinguishable."
+        },
+        {
+          "id": "cb-q-030",
+          "stem": "A drug that prevents APC/C activation would arrest cells at which stage?",
+          "options": ["A. G1/S transition", "B. S phase", "C. Metaphase-to-anaphase transition", "D. Cytokinesis"],
+          "correct": 2,
+          "explanation": "The APC/C is required for the metaphase-to-anaphase transition because it ubiquitinates securin, allowing separase to cleave cohesin and initiate sister chromatid separation. If the APC/C cannot be activated, securin remains intact, separase stays inhibited, and cells arrest at the metaphase-to-anaphase boundary with all chromosomes aligned at the metaphase plate."
+        }
+      ]
+    },
+    {
+      "id": "cb-ps-007",
+      "passage": "Meiosis is a specialized form of cell division that produces haploid gametes from diploid precursor cells. Unlike mitosis, meiosis consists of two successive divisions: meiosis I (reductional division) and meiosis II (equational division). During prophase I, homologous chromosomes pair up in a process called synapsis, forming bivalents (tetrads). Crossing over occurs between non-sister chromatids at chiasmata, generating recombinant chromosomes with novel combinations of alleles. This genetic recombination, along with independent assortment of homologous chromosomes during metaphase I, ensures genetic diversity among offspring. In anaphase I, homologous chromosomes are separated (not sister chromatids), reducing the chromosome number by half. Meiosis II resembles a mitotic division: sister chromatids are separated during anaphase II. Nondisjunction, the failure of chromosomes to separate properly, can occur during either meiotic division and leads to aneuploid gametes. Nondisjunction during meiosis I produces gametes that are either disomic (having both homologs) or nullisomic (missing both homologs) for a particular chromosome. Trisomy 21 (Down syndrome) is the most common viable autosomal trisomy in humans and often results from maternal nondisjunction during meiosis I, with incidence increasing with maternal age.",
+      "questions": [
+        {
+          "id": "cb-q-031",
+          "stem": "Crossing over during meiosis I increases genetic diversity by:",
+          "options": ["A. increasing the total number of chromosomes in gametes", "B. exchanging segments of DNA between non-sister chromatids of homologous chromosomes", "C. preventing the separation of sister chromatids during anaphase I", "D. ensuring all gametes receive identical copies of each chromosome"],
+          "correct": 1,
+          "explanation": "Crossing over involves the physical exchange of DNA segments between non-sister chromatids of homologous chromosomes at chiasmata during prophase I. This recombination creates chromosomes with new combinations of alleles that were not present on either parental chromosome, significantly increasing the genetic variation among gametes."
+        },
+        {
+          "id": "cb-q-032",
+          "stem": "Nondisjunction during meiosis I differs from nondisjunction during meiosis II in that:",
+          "options": ["A. meiosis I nondisjunction affects only sex chromosomes", "B. meiosis I nondisjunction results in all four gametes being abnormal", "C. meiosis II nondisjunction produces only trisomic offspring", "D. meiosis I nondisjunction has no effect on gamete chromosome number"],
+          "correct": 1,
+          "explanation": "When nondisjunction occurs during meiosis I, homologous chromosomes fail to separate, so all four resulting gametes will have abnormal chromosome numbers: two will have an extra chromosome and two will be missing that chromosome. In contrast, nondisjunction during meiosis II affects only two of the four gametes."
+        },
+        {
+          "id": "cb-q-033",
+          "stem": "How many genetically unique gametes can be produced by independent assortment alone in an organism with a diploid number of 2n = 6?",
+          "options": ["A. 3", "B. 6", "C. 8", "D. 16"],
+          "correct": 2,
+          "explanation": "The number of different gamete combinations from independent assortment alone is 2^n, where n is the haploid number. For 2n = 6, the haploid number n = 3, so 2^3 = 8 possible gamete combinations. This does not account for additional variation from crossing over."
+        },
+        {
+          "id": "cb-q-034",
+          "stem": "Which event distinguishes anaphase I from anaphase II?",
+          "options": ["A. Sister chromatids separate and move to opposite poles", "B. Homologous chromosomes separate and move to opposite poles", "C. The nuclear envelope reforms around the chromosomes", "D. Cytokinesis divides the cell into two daughter cells"],
+          "correct": 1,
+          "explanation": "In anaphase I, homologous chromosomes (each consisting of two sister chromatids) are pulled to opposite poles, reducing chromosome number. In anaphase II, sister chromatids separate, similar to mitotic anaphase. This distinction is fundamental to understanding how meiosis achieves the reduction from diploid to haploid."
+        },
+        {
+          "id": "cb-q-035",
+          "stem": "A human gamete produced by normal meiosis contains how many chromosomes?",
+          "options": ["A. 46", "B. 23", "C. 44", "D. 22"],
+          "correct": 1,
+          "explanation": "Human somatic cells contain 46 chromosomes (2n = 46). Meiosis reduces this by half, so normal human gametes contain 23 chromosomes (n = 23), consisting of 22 autosomes and one sex chromosome. This ensures that when two gametes fuse at fertilization, the resulting zygote has the normal diploid number of 46."
+        }
+      ]
+    },
+    {
+      "id": "cb-ps-008",
+      "passage": "Signal transduction pathways allow cells to respond to extracellular signals and coordinate complex behaviors. Receptor tyrosine kinases (RTKs) are transmembrane proteins that, upon ligand binding, dimerize and undergo autophosphorylation of tyrosine residues in their cytoplasmic domains. These phosphotyrosine residues serve as docking sites for signaling proteins containing SH2 domains, including adaptor proteins like Grb2. Grb2 recruits the guanine nucleotide exchange factor SOS, which activates the small GTPase Ras by promoting the exchange of GDP for GTP. Active Ras-GTP initiates the MAP kinase (MAPK) cascade: Ras activates Raf (MAPKKK), which phosphorylates MEK (MAPKK), which phosphorylates ERK (MAPK). Phosphorylated ERK translocates to the nucleus, where it activates transcription factors that promote cell proliferation and differentiation. Mutations in Ras are found in approximately 30% of human cancers; these mutations typically impair the GTPase activity of Ras, locking it in the active GTP-bound state. Researchers also studied negative regulation of this pathway, noting that phosphatases can dephosphorylate RTKs and downstream kinases, while GTPase-activating proteins (GAPs) accelerate the intrinsic GTPase activity of Ras, returning it to the inactive GDP-bound state. Receptor internalization via endocytosis also attenuates signaling.",
+      "questions": [
+        {
+          "id": "cb-q-036",
+          "stem": "Oncogenic mutations in Ras typically cause cancer because they:",
+          "options": ["A. prevent Ras from binding GTP", "B. enhance the GTPase activity of Ras", "C. lock Ras in the active GTP-bound state, constitutively activating downstream signaling", "D. prevent Ras from interacting with SOS"],
+          "correct": 2,
+          "explanation": "Oncogenic Ras mutations impair its intrinsic GTPase activity, preventing it from hydrolyzing GTP to GDP. This locks Ras in its active GTP-bound conformation, leading to constitutive activation of the MAPK cascade and continuous signaling for cell proliferation, even in the absence of growth factor stimulation."
+        },
+        {
+          "id": "cb-q-037",
+          "stem": "What is the role of SOS in the RTK signaling pathway?",
+          "options": ["A. It phosphorylates tyrosine residues on the RTK", "B. It acts as a guanine nucleotide exchange factor that activates Ras", "C. It directly phosphorylates ERK in the MAPK cascade", "D. It ubiquitinates the receptor for endosomal degradation"],
+          "correct": 1,
+          "explanation": "SOS functions as a guanine nucleotide exchange factor (GEF) that promotes the release of GDP from Ras and allows GTP to bind, thereby activating Ras. SOS is recruited to the membrane by the adaptor protein Grb2, which binds to phosphotyrosine residues on activated RTKs via its SH2 domain."
+        },
+        {
+          "id": "cb-q-038",
+          "stem": "Which of the following represents the correct order of kinase activation in the MAPK cascade?",
+          "options": ["A. ERK → MEK → Raf", "B. Raf → ERK → MEK", "C. MEK → Raf → ERK", "D. Raf → MEK → ERK"],
+          "correct": 3,
+          "explanation": "The MAPK cascade proceeds in the order Raf (MAPKKK) → MEK (MAPKK) → ERK (MAPK). Active Ras-GTP recruits and activates Raf, which phosphorylates and activates MEK, which in turn phosphorylates and activates ERK. This sequential amplification cascade allows a single receptor activation event to produce a robust intracellular response."
+        },
+        {
+          "id": "cb-q-039",
+          "stem": "A drug that inhibits receptor tyrosine kinase autophosphorylation would be expected to:",
+          "options": ["A. increase the activity of the MAPK cascade", "B. have no effect on downstream signaling", "C. prevent the recruitment of SH2 domain-containing proteins to the receptor", "D. cause constitutive activation of Ras"],
+          "correct": 2,
+          "explanation": "Autophosphorylation of the RTK creates phosphotyrosine residues that serve as docking sites for SH2 domain-containing signaling proteins such as Grb2. If autophosphorylation is inhibited, these docking sites are not created, and downstream signaling proteins cannot be recruited to the receptor, effectively silencing the pathway."
+        },
+        {
+          "id": "cb-q-040",
+          "stem": "GAPs (GTPase-activating proteins) serve as negative regulators of Ras by:",
+          "options": ["A. blocking Ras from binding to the plasma membrane", "B. preventing SOS from interacting with Ras", "C. accelerating the hydrolysis of GTP to GDP on Ras", "D. promoting the degradation of Ras protein"],
+          "correct": 2,
+          "explanation": "GAPs enhance the intrinsic GTPase activity of Ras, accelerating the conversion of active Ras-GTP to inactive Ras-GDP. This provides a crucial off-switch for Ras signaling, ensuring that the pathway is not constitutively active. Loss of GAP function can contribute to uncontrolled cell proliferation, similar to activating mutations in Ras."
+        }
+      ]
+    },
+    {
+      "id": "cb-ps-009",
+      "passage": "The lysosome is a membrane-bound organelle containing hydrolytic enzymes that function optimally at acidic pH (~4.5-5.0). The low pH is maintained by vacuolar H+-ATPase (V-ATPase) proton pumps in the lysosomal membrane that actively transport H+ ions into the lumen. Lysosomes degrade materials delivered via endocytosis, phagocytosis, and autophagy. Over 60 different acid hydrolases, including proteases (cathepsins), nucleases, lipases, glycosidases, and phosphatases, are responsible for breaking down macromolecules into their monomeric components for recycling. These enzymes are synthesized in the rough ER, glycosylated, and then tagged with mannose-6-phosphate (M6P) residues in the cis-Golgi. M6P receptors in the trans-Golgi network recognize this tag and direct the enzymes to late endosomes, which mature into lysosomes. Lysosomal storage diseases (LSDs) are a group of approximately 70 inherited metabolic disorders caused by deficiency of specific lysosomal enzymes. For example, Tay-Sachs disease results from deficiency of hexosaminidase A, leading to accumulation of GM2 gangliosides in neurons. Gaucher disease is caused by deficiency of glucocerebrosidase, and Pompe disease by deficiency of acid alpha-glucosidase. I-cell disease (mucolipidosis type II) is unique in that it results from a defective phosphotransferase enzyme that cannot add the M6P tag, causing multiple lysosomal enzymes to be secreted rather than targeted to lysosomes.",
+      "questions": [
+        {
+          "id": "cb-q-041",
+          "stem": "In I-cell disease, lysosomal enzymes are secreted extracellularly rather than delivered to lysosomes because:",
+          "options": ["A. the enzymes lack their catalytic active sites", "B. the enzymes cannot be translated on ribosomes", "C. the mannose-6-phosphate tagging system is defective", "D. the V-ATPase fails to acidify the lysosome"],
+          "correct": 2,
+          "explanation": "I-cell disease is caused by a deficiency in the phosphotransferase enzyme that adds mannose-6-phosphate tags to lysosomal enzymes in the Golgi. Without this tag, the enzymes are not recognized by M6P receptors and follow the default secretory pathway to the cell surface instead of being directed to lysosomes."
+        },
+        {
+          "id": "cb-q-042",
+          "stem": "If the V-ATPase proton pump in the lysosomal membrane were inhibited, which of the following would be the most immediate consequence?",
+          "options": ["A. Lysosomal enzymes would be degraded by the proteasome", "B. The lysosomal pH would increase, reducing enzyme activity", "C. Lysosomes would fuse with mitochondria", "D. New lysosomes would fail to form from the Golgi"],
+          "correct": 1,
+          "explanation": "The V-ATPase actively pumps protons into the lysosomal lumen to maintain its acidic pH. Inhibiting this pump would cause the lysosomal pH to rise toward cytoplasmic levels (~7.2), which would dramatically reduce the activity of acid hydrolases that require acidic conditions for optimal function."
+        },
+        {
+          "id": "cb-q-043",
+          "stem": "Tay-Sachs disease leads to neurodegeneration primarily because:",
+          "options": ["A. neurons are unable to synthesize GM2 gangliosides", "B. accumulated GM2 gangliosides disrupt normal neuronal function", "C. hexosaminidase A deficiency causes excessive neurotransmitter release", "D. neurons lack lysosomes and cannot degrade any lipids"],
+          "correct": 1,
+          "explanation": "In Tay-Sachs disease, the absence of hexosaminidase A prevents the degradation of GM2 gangliosides, which progressively accumulate within neuronal lysosomes. This accumulation leads to lysosomal distension, disruption of cellular processes, and ultimately neuronal death, manifesting as progressive neurodegeneration."
+        },
+        {
+          "id": "cb-q-044",
+          "stem": "The lysosomal membrane protects the cell from self-digestion primarily through:",
+          "options": ["A. the absence of any proteins in the lysosomal membrane", "B. a thick glycocalyx of glycosylated membrane proteins lining the luminal surface", "C. the presence of proteasomes on the cytoplasmic surface", "D. continuous synthesis of new membrane from the ER"],
+          "correct": 1,
+          "explanation": "The luminal surface of the lysosomal membrane is coated with heavily glycosylated integral membrane proteins (LAMPs and LIMPs) that form a glycocalyx. This sugar coat protects the membrane lipids and proteins from being degraded by the acid hydrolases within the lysosomal lumen."
+        },
+        {
+          "id": "cb-q-045",
+          "stem": "Which process delivers cytoplasmic organelles to the lysosome for degradation?",
+          "options": ["A. Endocytosis", "B. Phagocytosis", "C. Autophagy", "D. Exocytosis"],
+          "correct": 2,
+          "explanation": "Autophagy is the process by which cells deliver their own cytoplasmic components, including damaged organelles, to lysosomes for degradation and recycling. The targeted material is enclosed in a double-membrane autophagosome, which then fuses with a lysosome to form an autolysosome where degradation occurs."
+        }
+      ]
+    },
+    {
+      "id": "cb-ps-010",
+      "passage": "Cell-cell junctions are specialized structures that mediate adhesion, communication, and barrier formation between adjacent cells in tissues. Tight junctions (zonula occludens) form a continuous seal near the apical surface of epithelial cells, preventing paracellular transport of molecules and maintaining distinct apical and basolateral membrane domains. Claudins and occludins are the major transmembrane proteins of tight junctions, linked to the actin cytoskeleton via ZO adaptor proteins. Adherens junctions (zonula adherens) are located below tight junctions and provide mechanical linkage between cells through cadherin-cadherin interactions. Classical cadherins (e.g., E-cadherin in epithelial cells) are calcium-dependent adhesion molecules whose cytoplasmic tails connect to the actin cytoskeleton via catenin adaptor proteins, including beta-catenin. Desmosomes (macula adherens) are spot-like junctions that provide strong mechanical resistance by linking desmosomal cadherins (desmogleins and desmocollins) to intermediate filaments (keratin in epithelial cells) through plakoglobin and desmoplakin. Gap junctions are channels composed of connexin proteins that form hexameric connexons; two connexons from adjacent cells dock to create a pore that allows direct passage of small molecules and ions (up to ~1 kDa) between cells. Researchers studying pemphigus vulgaris, an autoimmune disease, found that autoantibodies against desmoglein 3 disrupted desmosome function, causing loss of cell adhesion and skin blistering.",
+      "questions": [
+        {
+          "id": "cb-q-046",
+          "stem": "Pemphigus vulgaris causes skin blistering because autoantibodies against desmoglein 3 disrupt:",
+          "options": ["A. tight junctions, allowing fluid leakage between cells", "B. gap junctions, preventing cell-cell communication", "C. desmosomes, weakening mechanical adhesion between epithelial cells", "D. adherens junctions, disrupting actin cytoskeleton connections"],
+          "correct": 2,
+          "explanation": "Desmoglein 3 is a desmosomal cadherin essential for desmosome-mediated cell adhesion. Autoantibodies against desmoglein 3 interfere with its adhesive function, causing loss of cell-cell adhesion (acantholysis) in the epidermis. Without functional desmosomes, epithelial cells separate under mechanical stress, leading to blister formation."
+        },
+        {
+          "id": "cb-q-047",
+          "stem": "Which junction type is primarily responsible for preventing the mixing of apical and basolateral membrane proteins?",
+          "options": ["A. Gap junctions", "B. Tight junctions", "C. Desmosomes", "D. Adherens junctions"],
+          "correct": 1,
+          "explanation": "Tight junctions create a diffusion barrier within the plane of the plasma membrane (fence function) that prevents the lateral movement of membrane proteins and lipids between the apical and basolateral domains. This maintains the polarized distribution of transporters and receptors essential for directional transport across epithelial layers."
+        },
+        {
+          "id": "cb-q-048",
+          "stem": "Removal of extracellular calcium ions would most directly affect the function of:",
+          "options": ["A. gap junctions and tight junctions only", "B. adherens junctions and desmosomes, because cadherins require calcium", "C. tight junctions only, because claudins are calcium-dependent", "D. all four junction types equally"],
+          "correct": 1,
+          "explanation": "Cadherins, the adhesion molecules in both adherens junctions and desmosomes, are calcium-dependent; they require extracellular Ca2+ to maintain their rigid conformation necessary for homophilic binding. Removing calcium causes cadherins to become flexible and susceptible to proteolysis, disrupting these junctions specifically."
+        },
+        {
+          "id": "cb-q-049",
+          "stem": "Gap junctions differ from other cell junctions in that they:",
+          "options": ["A. provide the strongest mechanical adhesion between cells", "B. allow direct cytoplasmic communication by permitting small molecules to pass between cells", "C. are exclusively found in epithelial tissues", "D. connect the intermediate filament networks of adjacent cells"],
+          "correct": 1,
+          "explanation": "Gap junctions form direct channels between the cytoplasm of adjacent cells, allowing ions, second messengers (such as cAMP and IP3), and small metabolites to pass directly between cells. This enables electrical and metabolic coupling, which is important for coordinated tissue responses such as cardiac muscle contraction."
+        },
+        {
+          "id": "cb-q-050",
+          "stem": "Desmosomes are linked to which component of the cytoskeleton?",
+          "options": ["A. Microfilaments (actin)", "B. Microtubules", "C. Intermediate filaments", "D. Myosin thick filaments"],
+          "correct": 2,
+          "explanation": "Desmosomes connect to the intermediate filament network of the cell through intracellular adaptor proteins including desmoplakin and plakoglobin. In epithelial cells, these intermediate filaments are composed of keratin. This linkage to the strong, flexible intermediate filament network gives desmosomes their characteristic resistance to mechanical stress."
+        }
+      ]
+    }
+  ]
+}

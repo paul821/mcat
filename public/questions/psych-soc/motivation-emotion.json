@@ -1,0 +1,416 @@
+{
+  "subtopic": "Motivation & Emotion",
+  "sectionId": "psych-soc",
+  "passageSets": [
+    {
+      "id": "me-passage-1",
+      "passage": "A health psychologist investigated the relationship between stress, coping strategies, and immune function in college students during final exam periods. Participants (N=120) completed stress questionnaires, coping style inventories, and provided blood samples for immune markers at three time points: one month before exams (baseline), during exam week (stress period), and one month after exams (recovery). Results showed that during exam week, participants exhibited significantly elevated cortisol levels (M=22.3 mcg/dL vs baseline M=14.1 mcg/dL, p<0.001), decreased natural killer (NK) cell activity (35% reduction from baseline, p<0.001), and decreased levels of secretory immunoglobulin A (sIgA). Coping style moderated the stress-immune relationship. Problem-focused copers showed smaller immune decrements (NK cell reduction: 20%) compared to emotion-focused copers (NK cell reduction: 45%), interaction F(1,116)=18.3, p<0.001. Social support also buffered the effects: participants reporting high social support showed 30% less cortisol elevation than those with low social support. Recovery measurements showed that immune function returned to baseline within one month for most participants, but those with ongoing perceived stress showed persistent immune suppression. The researchers discussed findings in the context of psychoneuroimmunology.",
+      "questions": [
+        {
+          "id": "me-1-q1",
+          "stem": "The elevated cortisol levels during exam week indicate activation of which physiological stress response system?",
+          "options": ["A. The sympathetic-adrenal-medullary (SAM) system releasing epinephrine", "B. The hypothalamic-pituitary-adrenal (HPA) axis", "C. The parasympathetic nervous system promoting rest and digest responses", "D. The enteric nervous system regulating digestive function"],
+          "correct": 1,
+          "explanation": "Cortisol is the primary glucocorticoid released through the HPA axis. When the hypothalamus detects stress, it releases CRH (corticotropin-releasing hormone), which stimulates the anterior pituitary to release ACTH (adrenocorticotropic hormone), which in turn stimulates the adrenal cortex to release cortisol. Elevated cortisol during exam stress reflects chronic activation of this neuroendocrine stress response system."
+        },
+        {
+          "id": "me-1-q2",
+          "stem": "The finding that problem-focused coping was associated with smaller immune decrements compared to emotion-focused coping suggests that:",
+          "options": ["A. Emotion-focused coping is never adaptive in any situation", "B. Directly addressing stressors through active strategies may be more protective for immune function than managing emotional responses alone", "C. Problem-focused coping eliminates all physiological stress responses", "D. Immune function is unaffected by psychological variables"],
+          "correct": 1,
+          "explanation": "Problem-focused coping involves directly addressing the source of stress through planning, studying, and taking action, which may reduce the actual stressor and the duration of stress activation. Emotion-focused coping manages emotional reactions but does not change the stressor itself. In controllable situations like exam preparation, problem-focused coping may be more effective at reducing the overall stress burden and its immunosuppressive effects."
+        },
+        {
+          "id": "me-1-q3",
+          "stem": "The buffering effect of social support on cortisol levels is best explained by the:",
+          "options": ["A. Main effect model, which predicts social support benefits only during non-stressful periods", "B. Stress-buffering model, which proposes that social support protects against the negative effects of stress specifically during high-stress periods", "C. Social comparison theory, which suggests people feel better by comparing themselves to those worse off", "D. Equity theory, which predicts that balanced relationships reduce stress"],
+          "correct": 1,
+          "explanation": "The stress-buffering model proposes that social support has its greatest protective effect during periods of high stress, serving as a buffer against the negative physiological and psychological consequences of stress. The finding that social support reduced cortisol elevation specifically during the stressful exam period, rather than simply improving well-being at all times, directly supports this buffering model."
+        },
+        {
+          "id": "me-1-q4",
+          "stem": "The field of psychoneuroimmunology, referenced by the researchers, studies the interactions between:",
+          "options": ["A. Diet, exercise, and sleep quality", "B. Psychological processes, the nervous system, and the immune system", "C. Genetics, evolution, and behavior", "D. Pharmacology, surgery, and rehabilitation"],
+          "correct": 1,
+          "explanation": "Psychoneuroimmunology (PNI) is the interdisciplinary field studying the interactions between psychological processes (stress, emotions, cognition), the nervous system (brain and neuroendocrine pathways), and the immune system. This study exemplifies PNI research by demonstrating how psychological stress (exams) influences neural-endocrine pathways (cortisol via HPA axis) that in turn affect immune function (NK cells, sIgA)."
+        },
+        {
+          "id": "me-1-q5",
+          "stem": "The persistent immune suppression in participants with ongoing perceived stress, even after exams ended, highlights the importance of:",
+          "options": ["A. Objective stressor severity as the sole determinant of immune response", "B. Cognitive appraisal of stress, where perceived stress continues to activate physiological stress responses regardless of actual stressor presence", "C. Genetic predisposition as the only factor in immune function", "D. Physical fitness in determining immune recovery"],
+          "correct": 1,
+          "explanation": "The finding that perceived stress, independent of actual stressor presence, maintained immune suppression underscores the role of cognitive appraisal in the stress response, consistent with Lazarus and Folkman's transactional model of stress. The physiological stress response is driven by how individuals perceive and appraise their situation, not solely by objective stressor characteristics. Continued perception of stress maintains HPA activation and immune suppression."
+        }
+      ]
+    },
+    {
+      "id": "me-passage-2",
+      "passage": "Researchers conducted a classic study on the two-factor theory of emotion by manipulating physiological arousal and cognitive labels in 180 male college students. Participants received an injection of either epinephrine (which produces sympathetic arousal: increased heart rate, trembling, flushing) or a saline placebo. Epinephrine participants were assigned to one of three information conditions: informed (told to expect arousal side effects), misinformed (told to expect unrelated side effects like numbness), or ignorant (given no information about side effects). Participants then waited in a room with a confederate who behaved either euphorically (playing with paper airplanes, using a hula hoop) or angrily (complaining about a questionnaire). Behavioral observations and self-report measures showed that misinformed and ignorant epinephrine participants reported and displayed emotions consistent with the confederate's behavior (euphoria or anger) significantly more than informed epinephrine participants or placebo participants. Informed participants attributed their arousal to the drug rather than to emotion. The researchers concluded that emotional experience requires both physiological arousal and a cognitive label for that arousal, and that people search for environmental explanations when they experience unexplained arousal.",
+      "questions": [
+        {
+          "id": "me-2-q1",
+          "stem": "The Schachter-Singer two-factor theory proposes that emotional experience is determined by:",
+          "options": ["A. Physiological arousal alone, without any cognitive component", "B. Cognitive appraisal alone, without any physiological component", "C. The interaction of physiological arousal and cognitive labeling of that arousal", "D. Facial muscle feedback patterns that directly cause emotional experience"],
+          "correct": 2,
+          "explanation": "The Schachter-Singer two-factor theory proposes that emotional experience requires two factors: (1) physiological arousal and (2) a cognitive label or interpretation of that arousal. When people experience arousal, they search their environment for a plausible explanation and label their emotion accordingly. Neither arousal alone nor cognition alone is sufficient; both factors must interact to produce the subjective experience of emotion."
+        },
+        {
+          "id": "me-2-q2",
+          "stem": "The informed epinephrine group's reduced emotional response compared to the misinformed group occurred because:",
+          "options": ["A. The epinephrine did not produce arousal in informed participants", "B. Informed participants had a ready explanation for their arousal (the drug) and did not need to search the environment for an emotional label", "C. Being informed about side effects eliminated all physiological arousal", "D. Informed participants did not notice the confederate's behavior"],
+          "correct": 1,
+          "explanation": "Informed participants correctly attributed their physiological arousal to the expected side effects of the epinephrine injection rather than to emotional states. Because they already had an adequate explanation for their arousal, they did not search the environment for alternative explanations. This attribution to the drug prevented the same arousal from being labeled as an emotional experience, demonstrating the role of cognitive interpretation."
+        },
+        {
+          "id": "me-2-q3",
+          "stem": "This study's design most directly contrasts the Schachter-Singer theory with which alternative theory of emotion?",
+          "options": ["A. The James-Lange theory, which proposes that specific physiological patterns produce specific emotions without cognitive mediation", "B. The cognitive appraisal theory, which proposes no role for physiological arousal", "C. The Yerkes-Dodson law relating arousal to performance", "D. Maslow's hierarchy of needs"],
+          "correct": 0,
+          "explanation": "The James-Lange theory proposes that specific patterns of physiological arousal directly produce specific emotional experiences without requiring cognitive labeling. The Schachter-Singer study directly challenges this by showing that the same physiological arousal (from epinephrine) can be experienced as different emotions (euphoria or anger) depending on cognitive context, demonstrating that arousal alone does not determine the specific emotion experienced."
+        },
+        {
+          "id": "me-2-q4",
+          "stem": "The Cannon-Bard theory of emotion would criticize this study's framework by arguing that:",
+          "options": ["A. Cognitive labels always precede physiological arousal", "B. Physiological arousal and subjective emotional experience occur simultaneously and independently, rather than arousal preceding and causing emotion", "C. Only facial expressions determine emotional experience", "D. Emotions cannot be studied experimentally"],
+          "correct": 1,
+          "explanation": "The Cannon-Bard theory proposes that the thalamus simultaneously sends signals to the cortex (producing subjective emotional experience) and to the autonomic nervous system (producing physiological arousal). Arousal and experience occur at the same time rather than sequentially. This contrasts with both the James-Lange theory (arousal causes emotion) and the Schachter-Singer theory (arousal + cognitive label = emotion)."
+        },
+        {
+          "id": "me-2-q5",
+          "stem": "The phenomenon demonstrated in this study, where unexplained arousal is attributed to an emotional source, is called:",
+          "options": ["A. Emotional regulation through cognitive reappraisal", "B. Misattribution of arousal, where physiological arousal from one source is attributed to another", "C. Habituation to emotional stimuli over time", "D. Emotional contagion through mirror neuron activation"],
+          "correct": 1,
+          "explanation": "Misattribution of arousal occurs when physiological arousal produced by one source (in this case, epinephrine) is incorrectly attributed to another source (the emotional context created by the confederate). Participants experienced genuine arousal from the drug but interpreted it as emotional arousal caused by the social situation, demonstrating how easily the cognitive labeling of arousal can be manipulated."
+        }
+      ]
+    },
+    {
+      "id": "me-passage-3",
+      "passage": "An organizational psychologist conducted a study on motivation in the workplace using self-determination theory (SDT) as a framework. Employees (N=250) from a technology company completed surveys assessing their basic psychological needs satisfaction (autonomy, competence, and relatedness), motivation type (intrinsic, identified, introjected, and external regulation), job satisfaction, and performance ratings. Path analysis revealed that satisfaction of autonomy needs (beta=0.42, p<0.001) and competence needs (beta=0.38, p<0.001) were the strongest predictors of intrinsic motivation. Relatedness need satisfaction also contributed significantly (beta=0.21, p=0.003). Intrinsic motivation was positively associated with job satisfaction (r=0.62), creativity (r=0.54), and supervisor-rated performance (r=0.41). In contrast, external regulation (motivation by rewards and punishments) showed near-zero correlations with performance (r=0.08, ns) and negative correlations with creativity (r=-0.28, p<0.001) and job satisfaction (r=-0.35, p<0.001). An experimental intervention that increased employee autonomy (allowing flexible scheduling and project choice) over 6 months resulted in significant increases in intrinsic motivation and job satisfaction compared to a control department.",
+      "questions": [
+        {
+          "id": "me-3-q1",
+          "stem": "According to self-determination theory, the finding that autonomy and competence were the strongest predictors of intrinsic motivation reflects the fundamental importance of:",
+          "options": ["A. External rewards in driving high-quality work performance", "B. Feeling volitional control over one's actions and effective at one's tasks", "C. Competition with coworkers for limited resources", "D. Rigid organizational hierarchies in structuring work"],
+          "correct": 1,
+          "explanation": "Self-determination theory identifies autonomy (feeling volitional control and self-direction), competence (feeling effective and capable), and relatedness (feeling connected to others) as basic psychological needs essential for intrinsic motivation. The strong predictive power of autonomy and competence reflects that people are most intrinsically motivated when they feel in control of their actions and capable of achieving meaningful outcomes."
+        },
+        {
+          "id": "me-3-q2",
+          "stem": "The negative correlation between external regulation and creativity is consistent with research on the overjustification effect, which suggests that:",
+          "options": ["A. External rewards always enhance creative performance", "B. Providing external rewards for intrinsically interesting activities can undermine intrinsic motivation and creative engagement", "C. Creativity is unaffected by motivational factors", "D. External regulation and intrinsic motivation always coexist harmoniously"],
+          "correct": 1,
+          "explanation": "The overjustification effect occurs when external rewards are provided for activities that are already intrinsically motivating, leading to a decrease in intrinsic motivation. People shift their perceived locus of causality from internal ('I do this because I enjoy it') to external ('I do this for the reward'), which can reduce creative engagement and spontaneous interest in the activity."
+        },
+        {
+          "id": "me-3-q3",
+          "stem": "SDT's motivation continuum from external regulation through introjected and identified regulation to intrinsic motivation reflects:",
+          "options": ["A. A categorical distinction between two types of motivation with no intermediate forms", "B. A continuum of internalization, from fully external control to fully self-determined behavior", "C. The idea that all motivation is ultimately external in origin", "D. A hierarchy where external motivation is always superior to intrinsic motivation"],
+          "correct": 1,
+          "explanation": "SDT proposes a continuum of motivation reflecting the degree to which behavioral regulation has been internalized. External regulation (motivated by external contingencies) represents the least internalized form, introjected regulation involves partial internalization (motivated by internal pressure like guilt), identified regulation involves valuing the behavior, and intrinsic motivation represents fully internalized, self-determined behavior."
+        },
+        {
+          "id": "me-3-q4",
+          "stem": "The autonomy-enhancing intervention's success in increasing intrinsic motivation is most consistent with which principle of SDT?",
+          "options": ["A. Social environments that thwart basic needs decrease motivation regardless of intervention", "B. Social contexts that support autonomy facilitate the internalization of motivation and enhance intrinsic motivation", "C. Increasing external rewards is the most effective way to enhance motivation", "D. Motivation is a fixed trait that cannot be changed by environmental factors"],
+          "correct": 1,
+          "explanation": "SDT predicts that social contexts and environments that support basic psychological needs, particularly autonomy, facilitate the natural human tendency toward internalization of motivation. The intervention's success in increasing intrinsic motivation through flexible scheduling and project choice confirms that environmental support for autonomy can shift employees along the motivation continuum toward more self-determined forms of motivation."
+        },
+        {
+          "id": "me-3-q5",
+          "stem": "The near-zero correlation between external regulation and performance suggests that:",
+          "options": ["A. Performance is entirely determined by innate ability", "B. Extrinsic rewards may produce compliance without genuine engagement, limiting their impact on quality of performance", "C. External regulation always improves performance", "D. Performance cannot be measured reliably"],
+          "correct": 1,
+          "explanation": "The weak correlation between external regulation and performance suggests that while extrinsic rewards can produce behavioral compliance (people do the minimum required to obtain the reward), they do not foster the deep engagement, persistence, and creative effort that drive high-quality performance. Externally motivated employees may complete tasks but without the investment that comes from intrinsic interest."
+        }
+      ]
+    },
+    {
+      "id": "me-passage-4",
+      "passage": "Researchers studied Maslow's hierarchy of needs in a cross-cultural context by surveying 5,000 adults across 15 countries spanning diverse economic conditions. Participants rated the satisfaction and importance of five categories of needs: physiological (food, shelter), safety (security, stability), belongingness (social connections, love), esteem (self-worth, recognition), and self-actualization (personal growth, fulfillment). Factor analysis largely supported the five-need structure proposed by Maslow. However, several findings challenged the strict hierarchical ordering. In economically developing countries, respondents rated physiological and safety needs as most important, with 73% indicating these were their primary concerns. In economically developed countries, belongingness and esteem needs were rated as most important by 61% of respondents. Notably, 28% of respondents in developing countries rated belongingness needs as equally or more important than physiological needs, contradicting the strict prepotency assumption. Self-actualization was rated as a significant motivator by 42% of respondents in developed countries but only 12% in developing countries. Regression analysis showed that need satisfaction at lower levels predicted but did not guarantee higher-need motivation, with the relationship being probabilistic rather than deterministic.",
+      "questions": [
+        {
+          "id": "me-4-q1",
+          "stem": "The finding that 28% of respondents in developing countries rated belongingness as equally important as physiological needs challenges Maslow's theory by suggesting that:",
+          "options": ["A. Maslow's categories of needs are completely invalid", "B. The strict hierarchical ordering may not hold universally, as higher needs can be important even when lower needs are not fully satisfied", "C. Belongingness is actually a physiological need", "D. People in developing countries do not have physiological needs"],
+          "correct": 1,
+          "explanation": "This finding challenges Maslow's prepotency assumption, which states that lower-level needs must be substantially satisfied before higher-level needs become motivating. The data show that belongingness needs can be simultaneously important alongside unsatisfied physiological needs, suggesting that the hierarchy is not as rigidly sequential as Maslow proposed. Multiple levels of needs can operate concurrently."
+        },
+        {
+          "id": "me-4-q2",
+          "stem": "The general trend that respondents in developing countries prioritize physiological and safety needs while those in developed countries prioritize belongingness and esteem needs provides support for:",
+          "options": ["A. The complete rejection of Maslow's framework", "B. The general ordering principle of Maslow's hierarchy, even if the strict sequential requirement does not hold", "C. The idea that culture has no influence on motivation", "D. Drive reduction theory as superior to Maslow's theory"],
+          "correct": 1,
+          "explanation": "While the strict hierarchical ordering is not perfectly supported, the general trend aligns with Maslow's prediction that lower-level needs tend to be prioritized when unmet, and higher-level needs become more prominent when basic needs are reasonably satisfied. The cross-cultural data support the general principle of the hierarchy while suggesting the relationship is more flexible and probabilistic than Maslow originally proposed."
+        },
+        {
+          "id": "me-4-q3",
+          "stem": "The probabilistic rather than deterministic relationship between lower-need satisfaction and higher-need motivation means that:",
+          "options": ["A. Lower-need satisfaction always leads to higher-need motivation", "B. Lower-need satisfaction increases the likelihood but does not guarantee the emergence of higher-need motivation", "C. There is no relationship between need levels whatsoever", "D. Higher needs always emerge regardless of lower-need satisfaction"],
+          "correct": 1,
+          "explanation": "A probabilistic relationship means that satisfying lower-level needs makes it more likely (but not certain) that higher-level needs will emerge as motivators. Individual differences, cultural values, personal history, and other factors also influence which needs become motivationally significant. This is a more nuanced view than Maslow's original deterministic formulation."
+        },
+        {
+          "id": "me-4-q4",
+          "stem": "Self-actualization being rated as significant by only 12% of respondents in developing countries is best understood in terms of:",
+          "options": ["A. People in developing countries being incapable of self-actualization", "B. Preoccupation with more pressing physiological and safety needs leaving fewer psychological resources for growth-oriented motivation", "C. Self-actualization being a Western cultural construct with no universal relevance", "D. Measurement error in the survey instrument"],
+          "correct": 1,
+          "explanation": "When individuals face ongoing challenges in meeting basic physiological and safety needs, their motivational resources are directed toward these pressing concerns, leaving less psychological space for contemplating higher-level growth needs like self-actualization. This is consistent with Maslow's general principle while acknowledging that the relationship is influenced by practical resource constraints rather than being a rigid psychological law."
+        },
+        {
+          "id": "me-4-q5",
+          "stem": "Compared to Maslow's hierarchy, drive reduction theory would explain motivation differently by emphasizing:",
+          "options": ["A. The importance of self-actualization and personal growth", "B. The role of biological drives and homeostatic imbalances in motivating behavior to restore equilibrium", "C. The hierarchy of social and psychological needs beyond basic survival", "D. Intrinsic motivation and the desire for personal fulfillment"],
+          "correct": 1,
+          "explanation": "Drive reduction theory (Hull) proposes that motivation arises from biological needs that create internal tension (drives), and behavior is motivated by the need to reduce these drives and restore homeostatic equilibrium. Unlike Maslow's hierarchy, which includes higher-level psychological and self-actualization needs, drive reduction theory focuses primarily on biological drives and does not adequately explain motivation for growth, curiosity, or self-actualization."
+        }
+      ]
+    },
+    {
+      "id": "me-passage-5",
+      "passage": "A neuroscientist studied the neural basis of fear conditioning and extinction using functional neuroimaging in 60 healthy adults. In the acquisition phase, participants viewed a blue square (CS+) paired with a mild electric shock (US) on 75% of trials, and a yellow square (CS-) never paired with shock. Skin conductance responses (SCRs) and fMRI data were collected. After acquisition, CS+ trials elicited significantly larger SCRs (M=2.8 microsiemens) compared to CS- trials (M=0.4 microsiemens), p<0.001. Neuroimaging showed that CS+ trials activated the amygdala bilaterally, the anterior insula, and the dorsal anterior cingulate cortex significantly more than CS- trials. In the extinction phase 24 hours later, the CS+ was presented repeatedly without the shock. SCRs to the CS+ gradually decreased over 20 trials, reaching CS- levels by trial 15. During early extinction, the ventromedial prefrontal cortex (vmPFC) showed increased activation, and its activity was negatively correlated with amygdala activation (r=-0.52, p<0.001). When participants were tested one week later for fear renewal, 40% showed spontaneous recovery of the conditioned fear response when the CS+ was presented in a new context.",
+      "questions": [
+        {
+          "id": "me-5-q1",
+          "stem": "The amygdala's increased activation to the CS+ compared to CS- during fear acquisition is consistent with its role in:",
+          "options": ["A. Processing auditory information from the cochlea", "B. Detecting threat-relevant stimuli and mediating the acquisition and expression of conditioned fear responses", "C. Generating voluntary motor responses to avoid the shock", "D. Consolidating procedural motor memories for the task"],
+          "correct": 1,
+          "explanation": "The amygdala is the central brain structure for processing threat-related information and mediating fear learning. It receives sensory information about the CS, associates it with the aversive US, and generates fear responses through its projections to autonomic, endocrine, and behavioral response systems. Greater amygdala activation to the CS+ reflects its role in detecting and responding to learned threat cues."
+        },
+        {
+          "id": "me-5-q2",
+          "stem": "The negative correlation between vmPFC and amygdala activation during extinction suggests that the vmPFC:",
+          "options": ["A. Enhances amygdala fear responses to maintain vigilance", "B. Inhibits amygdala fear responses, facilitating the learning that the CS+ is no longer threatening", "C. Is uninvolved in emotional regulation processes", "D. Generates the conditioned fear response independently of the amygdala"],
+          "correct": 1,
+          "explanation": "The negative correlation between vmPFC and amygdala activation during extinction indicates that the vmPFC exerts inhibitory control over the amygdala, suppressing the previously conditioned fear response. This is consistent with the model that extinction involves new inhibitory learning mediated by the vmPFC, which learns that the CS+ no longer predicts threat and actively dampens amygdala fear signaling."
+        },
+        {
+          "id": "me-5-q3",
+          "stem": "The spontaneous recovery of fear one week later when the CS+ was presented in a new context demonstrates that extinction:",
+          "options": ["A. Permanently erases the original fear memory", "B. Represents new inhibitory learning that suppresses but does not erase the original fear association", "C. Has no effect on conditioned fear responses", "D. Only affects physiological responses, not subjective fear"],
+          "correct": 1,
+          "explanation": "Spontaneous recovery (return of the conditioned fear response after a time delay) and fear renewal (return of fear in a new context) demonstrate that extinction does not erase the original CS-US association. Instead, extinction involves new learning that the CS no longer predicts the US, which inhibits the expression of fear. The original fear memory remains intact and can re-emerge when the inhibitory extinction memory is weakened."
+        },
+        {
+          "id": "me-5-q4",
+          "stem": "The use of a 75% reinforcement schedule (CS+ paired with shock on 75% of trials) rather than 100% is significant because it:",
+          "options": ["A. Makes the conditioned response easier to extinguish", "B. Produces stronger conditioning and greater resistance to extinction due to partial reinforcement", "C. Prevents any conditioning from occurring", "D. Is ethically required for all fear conditioning studies"],
+          "correct": 1,
+          "explanation": "Partial reinforcement (75% pairing) produces stronger conditioning that is more resistant to extinction compared to continuous reinforcement (100% pairing). This partial reinforcement extinction effect occurs because the organism is accustomed to some non-reinforced trials during acquisition, making it harder to discriminate between continued partial reinforcement and the beginning of extinction."
+        },
+        {
+          "id": "me-5-q5",
+          "stem": "These findings about fear conditioning and extinction have direct clinical implications for the treatment of:",
+          "options": ["A. Schizophrenia, which involves disordered thinking", "B. Anxiety disorders, where exposure-based therapies parallel extinction learning", "C. Autism spectrum disorder, which involves social communication deficits", "D. Attention-deficit/hyperactivity disorder, which involves inattention"],
+          "correct": 1,
+          "explanation": "Exposure-based therapies for anxiety disorders (such as systematic desensitization and flooding) are fundamentally based on extinction learning principles. By repeatedly presenting feared stimuli (CS+) without the aversive outcome (US), the therapeutic process mirrors extinction, engaging vmPFC inhibition of amygdala fear responses. Understanding the neuroscience of extinction informs clinical approaches to enhancing and maintaining therapeutic gains."
+        }
+      ]
+    },
+    {
+      "id": "me-passage-6",
+      "passage": "Psychologists investigated the James-Lange theory of emotion by studying patients with spinal cord injuries at different vertebral levels. Twenty patients with high cervical injuries (C1-C4, with minimal peripheral autonomic feedback), 20 patients with low thoracolumbar injuries (T10-L2, with preserved upper body autonomic function), and 20 able-bodied controls completed emotional experience questionnaires and viewed emotion-inducing film clips while reporting their subjective emotional intensity. Results showed that patients with high cervical injuries reported significantly reduced intensity of emotions that involve strong physiological components (fear: 35% reduction, anger: 30% reduction) compared to controls, p<0.01. However, these patients showed no significant reduction in emotions with less physiological involvement (sadness, sentimentality), p>0.20. Patients with low injuries showed intermediate emotional intensity levels that did not differ significantly from controls for most emotions. All patient groups showed preserved ability to cognitively identify and label emotions correctly, regardless of injury level. The researchers also documented that patients with high injuries often reported a 'cognitive awareness' of emotion without the full visceral feeling, describing anger as 'a mental kind of anger' rather than a physically felt experience.",
+      "questions": [
+        {
+          "id": "me-6-q1",
+          "stem": "The finding that high cervical injury patients reported reduced intensity of fear and anger provides partial support for the James-Lange theory because it suggests that:",
+          "options": ["A. Emotions are entirely independent of bodily sensations", "B. Peripheral physiological feedback contributes to the subjective intensity of at least some emotional experiences", "C. All emotions require identical patterns of physiological arousal", "D. Cognitive labeling is the sole determinant of emotional experience"],
+          "correct": 1,
+          "explanation": "The James-Lange theory proposes that physiological responses precede and contribute to emotional experience. The reduced emotional intensity in patients with diminished peripheral feedback (due to high spinal cord injuries) supports this theory by showing that bodily sensations contribute to the felt intensity of emotions, particularly those with strong physiological components like fear and anger."
+        },
+        {
+          "id": "me-6-q2",
+          "stem": "The preserved emotional intensity for sadness and sentimentality in high cervical injury patients challenges the James-Lange theory by suggesting that:",
+          "options": ["A. All emotions depend equally on peripheral physiological feedback", "B. Some emotions may rely more on cognitive appraisal and central nervous system processing than on peripheral bodily feedback", "C. Sadness has no cognitive component", "D. Spinal cord injuries enhance emotional experience for some emotions"],
+          "correct": 1,
+          "explanation": "The dissociation between emotions that were reduced (fear, anger) and those that were preserved (sadness, sentimentality) suggests that not all emotions depend equally on peripheral physiological feedback. Some emotions may rely more heavily on cognitive appraisal, memory, and central nervous system processing, which remain intact despite reduced peripheral autonomic feedback from the spinal cord injury."
+        },
+        {
+          "id": "me-6-q3",
+          "stem": "Patients' reports of 'a mental kind of anger' without the full visceral feeling most directly illustrates:",
+          "options": ["A. Complete absence of emotional experience", "B. A dissociation between the cognitive recognition of emotion and the felt bodily component of emotional experience", "C. Denial of emotional experience due to social desirability", "D. Confusion about the meaning of emotion words"],
+          "correct": 1,
+          "explanation": "The description of 'a mental kind of anger' reveals a dissociation between cognitive and somatic components of emotion. These patients can cognitively recognize and label their emotional state but lack the full visceral, bodily component that normally accompanies the emotion. This suggests that emotional experience has distinct cognitive and somatic components that can be independently affected."
+        },
+        {
+          "id": "me-6-q4",
+          "stem": "The graded relationship between injury level and emotional intensity (high injury = most reduced, low injury = least reduced) is consistent with:",
+          "options": ["A. The idea that all autonomic feedback is irrelevant to emotion", "B. The amount of preserved peripheral autonomic feedback being proportional to the degree of emotional intensity experienced", "C. Lower spinal injuries being more psychologically traumatic", "D. Emotional intensity being determined solely by the duration since injury"],
+          "correct": 1,
+          "explanation": "The graded relationship between injury level and emotional intensity supports the idea that the amount of peripheral autonomic feedback available to the brain is proportional to the intensity of emotional experience. High cervical injuries disconnect more of the body's autonomic nervous system from the brain, reducing more peripheral feedback, while lower injuries preserve more feedback, resulting in intermediate emotional intensity."
+        },
+        {
+          "id": "me-6-q5",
+          "stem": "The somatic marker hypothesis proposed by Damasio would interpret these findings as evidence that:",
+          "options": ["A. Decision-making is purely rational and independent of emotion", "B. Bodily sensations associated with emotions serve as important signals that guide decision-making and emotional processing", "C. The brain never uses peripheral feedback for any purpose", "D. Emotions are entirely generated by the frontal cortex without any bodily input"],
+          "correct": 1,
+          "explanation": "Damasio's somatic marker hypothesis proposes that bodily (somatic) states associated with emotions serve as markers that influence decision-making and emotional processing. The reduced emotional intensity in patients with diminished bodily feedback supports this hypothesis by showing that without full somatic markers, emotional experience is diminished, potentially affecting the quality of emotion-guided decision-making."
+        }
+      ]
+    },
+    {
+      "id": "me-passage-7",
+      "passage": "A psychologist studied the effects of cognitive reappraisal versus expressive suppression as emotion regulation strategies using a within-subjects design. Participants (N=80) viewed negatively valenced images (depicting injuries, threatening animals, and natural disasters) under three conditions: natural viewing (baseline), cognitive reappraisal (reinterpreting the meaning of the image to reduce its emotional impact), and expressive suppression (inhibiting outward emotional expression while experiencing the emotion). Physiological measures (skin conductance, heart rate, corrugator muscle activity) and self-reported emotional experience were recorded. Results showed that cognitive reappraisal reduced both self-reported negative emotion (40% reduction from baseline) and physiological arousal (skin conductance reduced by 30%, corrugator activity reduced by 35%). Expressive suppression reduced outward emotional expression (as measured by facial coding) but did not reduce self-reported negative emotion and actually increased sympathetic nervous system activation (skin conductance increased by 15% compared to baseline). fMRI data showed that reappraisal increased activation in the dorsolateral and ventrolateral prefrontal cortex while decreasing amygdala activation. Suppression showed sustained amygdala activation comparable to natural viewing. Long-term follow-up revealed that habitual reappraisers reported higher well-being and social functioning, while habitual suppressors reported lower well-being and poorer social relationships.",
+      "questions": [
+        {
+          "id": "me-7-q1",
+          "stem": "The finding that cognitive reappraisal reduced both subjective experience and physiological arousal while suppression did not is important because it demonstrates that:",
+          "options": ["A. All emotion regulation strategies are equally effective", "B. Changing the cognitive interpretation of a situation can alter the entire emotional response, whereas suppressing expression leaves the underlying emotional experience intact", "C. Physiological arousal is unrelated to emotional experience", "D. Suppression is always the more adaptive strategy"],
+          "correct": 1,
+          "explanation": "Cognitive reappraisal operates early in the emotion generation process by changing how a situation is interpreted, which alters both the subjective experience and the physiological response. Expressive suppression operates late in the process, merely inhibiting the outward expression of emotion without changing the underlying emotional experience or physiology. This demonstrates that where in the emotion generation process regulation occurs matters."
+        },
+        {
+          "id": "me-7-q2",
+          "stem": "The increased sympathetic activation during expressive suppression compared to baseline is paradoxical and suggests that:",
+          "options": ["A. Suppression eliminates all emotional processing", "B. The effort of inhibiting emotional expression creates additional physiological stress, making suppression counterproductive for reducing arousal", "C. Suppression reduces all aspects of the emotional response", "D. Sympathetic activation is unrelated to emotional regulation efforts"],
+          "correct": 1,
+          "explanation": "The increased sympathetic activation during suppression reflects the physiological cost of effortfully inhibiting emotional expression. Suppressing outward signs of emotion while still experiencing the emotion internally creates an additional source of stress and cognitive load, which actually increases sympathetic arousal rather than reducing it. This makes suppression a physiologically costly strategy."
+        },
+        {
+          "id": "me-7-q3",
+          "stem": "The increased prefrontal cortex activation and decreased amygdala activation during reappraisal is consistent with:",
+          "options": ["A. The amygdala driving all prefrontal cortex activity", "B. Top-down cognitive control from the prefrontal cortex modulating amygdala reactivity through reinterpretation of emotional significance", "C. The prefrontal cortex being uninvolved in emotion regulation", "D. The amygdala generating the reappraisal strategy"],
+          "correct": 1,
+          "explanation": "Cognitive reappraisal involves top-down regulation where prefrontal cortical regions (involved in cognitive control, working memory, and interpretation) modulate amygdala reactivity by changing the interpretation of the emotional stimulus. The increased prefrontal activation reflects the cognitive effort of generating a new interpretation, while the decreased amygdala activation reflects the successful down-regulation of the emotional response."
+        },
+        {
+          "id": "me-7-q4",
+          "stem": "The long-term outcomes showing that habitual suppressors had poorer social relationships may be because:",
+          "options": ["A. Suppressors are always more socially skilled", "B. Hiding emotional expressions reduces authenticity in social interactions and prevents others from providing appropriate social support", "C. Suppression enhances empathy and emotional understanding", "D. Social relationships are unaffected by emotion regulation habits"],
+          "correct": 1,
+          "explanation": "Habitual suppression creates a mismatch between internal experience and outward expression, reducing perceived authenticity in social interactions. When people cannot read someone's emotions through their expressions, social connection and understanding are impaired. Additionally, suppressors may not receive appropriate social support because others are unaware of their emotional states, leading to feelings of disconnection and poorer relationship quality."
+        },
+        {
+          "id": "me-7-q5",
+          "stem": "Gross's process model of emotion regulation classifies reappraisal and suppression as differing in:",
+          "options": ["A. Whether they target automatic versus controlled emotions", "B. The point in the emotion-generative process at which they intervene, with reappraisal being antecedent-focused and suppression being response-focused", "C. Whether they are conscious versus unconscious strategies", "D. Whether they involve the left versus right hemisphere"],
+          "correct": 1,
+          "explanation": "Gross's process model distinguishes emotion regulation strategies by when they intervene in the emotion-generative process. Cognitive reappraisal is an antecedent-focused strategy that intervenes before the full emotional response is generated (by changing the interpretation). Expressive suppression is a response-focused strategy that intervenes after the emotion has been generated (by inhibiting its expression). This temporal distinction explains their different effectiveness profiles."
+        }
+      ]
+    },
+    {
+      "id": "me-passage-8",
+      "passage": "A physiological psychologist studied the general adaptation syndrome (GAS) by examining cortisol patterns and health outcomes in 200 healthcare workers during a prolonged period of workplace stress spanning 18 months. Cortisol was measured via salivary samples collected at four time points: baseline (Month 0), during initial stress exposure (Month 2), during sustained stress (Month 8), and during extended chronic stress (Month 16). At baseline, mean morning cortisol was 15.2 nmol/L. During Month 2 (alarm reaction), cortisol rose significantly to 28.7 nmol/L (p<0.001), accompanied by self-reported anxiety and hypervigilance. By Month 8 (resistance stage), cortisol levels had partially normalized to 20.1 nmol/L, with participants reporting adaptation to the workplace demands. However, by Month 16, a subset of participants (35%) showed cortisol levels that dropped below baseline (M=10.3 nmol/L), indicating potential HPA axis dysregulation characteristic of the exhaustion stage. These participants also showed significantly higher rates of upper respiratory infections (3.2 infections vs 1.1 in the non-exhausted group), more depressive symptoms, and higher rates of burnout. Participants who engaged in regular exercise showed lower rates of exhaustion stage progression (18% vs 42% in non-exercisers).",
+      "questions": [
+        {
+          "id": "me-8-q1",
+          "stem": "The cortisol pattern observed across the four time points corresponds to Selye's three stages of the GAS in which order?",
+          "options": ["A. Exhaustion, resistance, alarm", "B. Alarm reaction (elevated cortisol), resistance (partial normalization), exhaustion (below-baseline cortisol)", "C. Resistance, alarm, exhaustion", "D. Alarm, exhaustion, resistance"],
+          "correct": 1,
+          "explanation": "Selye's General Adaptation Syndrome describes three sequential stages of the stress response. The alarm reaction (Month 2) involves initial mobilization with elevated cortisol. The resistance stage (Month 8) shows adaptation as the body attempts to cope, with partially normalized cortisol. The exhaustion stage (Month 16) occurs when resources are depleted, manifesting as HPA axis dysregulation with below-baseline cortisol and increased vulnerability to illness."
+        },
+        {
+          "id": "me-8-q2",
+          "stem": "The below-baseline cortisol levels at Month 16 in the exhaustion subgroup most likely reflect:",
+          "options": ["A. Superior stress coping and complete adaptation", "B. HPA axis dysregulation due to prolonged chronic stress depleting the system's capacity to mount an appropriate cortisol response", "C. Complete recovery from the stressful situation", "D. Measurement error in the cortisol assay"],
+          "correct": 1,
+          "explanation": "Below-baseline cortisol (hypocortisolism) in chronically stressed individuals reflects HPA axis dysregulation, where prolonged activation has depleted the system's capacity for appropriate cortisol production. This represents a breakdown of the normal stress response rather than successful adaptation, and is associated with increased vulnerability to illness, fatigue, and psychiatric symptoms characteristic of burnout and exhaustion."
+        },
+        {
+          "id": "me-8-q3",
+          "stem": "The higher rate of upper respiratory infections in the exhaustion subgroup demonstrates the concept of:",
+          "options": ["A. Stress-related enhancement of immune function", "B. Stress-related immunosuppression, where chronic stress compromises immune defenses against infection", "C. Infections causing stress rather than stress causing infections", "D. Random variation in infection rates unrelated to stress"],
+          "correct": 1,
+          "explanation": "Chronic stress and the resulting cortisol dysregulation impair immune function, including reduced activity of natural killer cells and lymphocytes, decreased antibody production, and impaired inflammatory responses. This immunosuppression increases vulnerability to infectious diseases, particularly upper respiratory infections, which are commonly used as markers of stress-related immune compromise in psychoneuroimmunology research."
+        },
+        {
+          "id": "me-8-q4",
+          "stem": "The protective effect of regular exercise against exhaustion stage progression may work through:",
+          "options": ["A. Exercise having no known physiological benefits", "B. Multiple mechanisms including modulation of HPA axis reactivity, stress hormone regulation, and enhanced mood through endorphin release", "C. Exercise simply distracting people from their problems", "D. Exercise increasing cortisol levels to prevent the exhaustion dip"],
+          "correct": 1,
+          "explanation": "Regular exercise provides stress resilience through multiple physiological and psychological mechanisms. It modulates HPA axis reactivity (reducing excessive cortisol responses to stressors), promotes the release of endorphins and other neurochemicals that improve mood, enhances sleep quality, provides a sense of mastery and competence, and may directly support immune function. These combined effects help prevent the transition to the exhaustion stage."
+        },
+        {
+          "id": "me-8-q5",
+          "stem": "The initial alarm reaction phase, characterized by cortisol elevation and hypervigilance, is adaptive in the short term because it:",
+          "options": ["A. Promotes immune function and tissue repair", "B. Mobilizes energy resources, increases alertness, and prepares the body for fight-or-flight responding", "C. Induces relaxation and parasympathetic dominance", "D. Suppresses the cardiovascular system to conserve energy"],
+          "correct": 1,
+          "explanation": "The alarm reaction is an adaptive short-term stress response that mobilizes the body's resources for dealing with a threat. Cortisol elevation increases blood glucose availability, suppresses non-essential functions, and enhances vigilance and cognitive focus. Sympathetic activation increases heart rate and blood pressure, redirecting blood to muscles. These changes are adaptive for short-term survival but become harmful when chronically sustained."
+        }
+      ]
+    },
+    {
+      "id": "me-passage-9",
+      "passage": "A social psychologist investigated the facial feedback hypothesis using a modified pen-holding paradigm. Participants (N=150) were randomly assigned to three conditions while rating the funniness of cartoons. In the smile condition, participants held a pen horizontally between their teeth (engaging the zygomaticus major muscle used in smiling). In the pout condition, participants held the pen with their lips (engaging the orbicularis oris muscle, preventing smiling). In the control condition, participants held the pen in their non-dominant hand. Participants were not told the true purpose of the study. Results showed that the smile condition rated cartoons as significantly funnier (M=5.8 on a 7-point scale) compared to the pout condition (M=4.3) and control (M=5.1), F(2,147)=12.4, p<0.001. Electromyographic (EMG) recordings confirmed that the pen manipulation successfully altered facial muscle activity. Participants in the smile condition also reported slightly more positive mood after the task compared to the pout condition. A replication attempt with a larger sample (N=450) found a smaller but still significant effect (d=0.22, p=0.03). The researchers discussed these findings in relation to embodied cognition and the peripheral feedback theories of emotion.",
+      "questions": [
+        {
+          "id": "me-9-q1",
+          "stem": "The facial feedback hypothesis tested in this study proposes that:",
+          "options": ["A. Facial expressions are irrelevant to emotional experience", "B. Facial muscle configurations can influence subjective emotional experience, with smiling enhancing positive affect", "C. Emotions always precede and cause facial expressions without any reverse influence", "D. Facial feedback only affects cognitive judgments, not emotional states"],
+          "correct": 1,
+          "explanation": "The facial feedback hypothesis proposes that facial expressions are not merely outputs of emotional states but can also influence emotional experience through a feedback loop. When facial muscles are configured in an expression associated with a particular emotion (such as smiling), this peripheral feedback can enhance or modulate the corresponding emotional experience, consistent with the James-Lange perspective on emotion."
+        },
+        {
+          "id": "me-9-q2",
+          "stem": "The pen-holding methodology was used rather than asking participants to smile directly because:",
+          "options": ["A. It was easier for participants to hold a pen than to smile", "B. It manipulated facial muscle activity without participants' awareness of the emotional implications, controlling for demand characteristics", "C. Direct smiling would not engage the correct facial muscles", "D. The pen provided nutritional benefits that improved mood"],
+          "correct": 1,
+          "explanation": "The pen-holding technique induces the target facial muscle configuration without participants being aware that their facial expression is being manipulated or that the study concerns emotion. This controls for demand characteristics (participants behaving as they think the experimenter expects) and ensures that any effects on emotional experience are due to the facial muscle configuration itself rather than cognitive expectations about how smiling should make one feel."
+        },
+        {
+          "id": "me-9-q3",
+          "stem": "The smaller effect size in the replication study (d=0.22) compared to the original study suggests that:",
+          "options": ["A. The facial feedback effect does not exist", "B. The effect is real but small, and the original study may have overestimated its magnitude due to smaller sample size and publication bias", "C. The replication used a completely different methodology", "D. Larger samples always produce smaller effects due to statistical artifacts"],
+          "correct": 1,
+          "explanation": "The smaller but still significant effect size in the larger replication is consistent with a genuine but modest facial feedback effect. Original studies often produce inflated effect sizes due to small sample sizes, publication bias (tendency to publish significant results), and other factors. The replication provides a more accurate estimate of the true effect size, suggesting facial feedback has a real but relatively small influence on emotional experience."
+        },
+        {
+          "id": "me-9-q4",
+          "stem": "These findings are most consistent with the framework of embodied cognition, which proposes that:",
+          "options": ["A. Cognition and emotion are entirely abstract processes independent of the body", "B. Cognitive and emotional processes are grounded in and influenced by bodily states and sensorimotor experience", "C. The body has no influence on mental processes", "D. All cognition occurs exclusively in the prefrontal cortex"],
+          "correct": 1,
+          "explanation": "Embodied cognition is the theoretical framework proposing that mental processes (including emotion and cognition) are not purely abstract but are grounded in and influenced by bodily states, sensory experiences, and motor actions. The facial feedback effect exemplifies embodied cognition by showing that a bodily state (facial muscle configuration) can influence a mental process (emotional experience and humor judgments)."
+        },
+        {
+          "id": "me-9-q5",
+          "stem": "If the facial feedback hypothesis is correct, Botox injections that paralyze the corrugator supercilii muscle (used in frowning) would be predicted to:",
+          "options": ["A. Increase negative emotional experience by compensatory mechanisms", "B. Reduce the intensity of negative emotional experiences such as sadness and anger", "C. Have no effect on emotional experience whatsoever", "D. Increase positive emotions by enhancing smiling ability"],
+          "correct": 1,
+          "explanation": "If facial feedback contributes to emotional experience, then preventing frowning (by paralyzing the corrugator muscle with Botox) should reduce the intensity of negative emotions that normally involve frowning, such as sadness and anger. Research has indeed shown that Botox injections to the frown muscles are associated with reduced negative emotional experience and even improvements in depressive symptoms, supporting the facial feedback hypothesis."
+        }
+      ]
+    },
+    {
+      "id": "me-passage-10",
+      "passage": "Researchers investigated the yerkes-dodson law by examining the relationship between anxiety levels and performance on tasks of varying complexity. Undergraduate students (N=200) were randomly assigned to low, moderate, or high anxiety conditions, manipulated through false feedback about upcoming evaluative consequences. They then completed either a simple task (digit copying) or a complex task (mental arithmetic with multiple steps). Self-reported anxiety and physiological arousal (heart rate) confirmed the manipulation was successful. For the simple task, performance improved linearly with arousal level: low anxiety (M=85), moderate anxiety (M=92), high anxiety (M=96), linear trend F(1,97)=14.2, p<0.001. For the complex task, performance showed an inverted-U relationship: low anxiety (M=62), moderate anxiety (M=78), high anxiety (M=55), quadratic trend F(1,97)=22.8, p<0.001. Working memory capacity, measured independently, moderated the effect: participants with higher working memory capacity maintained good performance at higher anxiety levels on the complex task. The researchers interpreted these findings using processing efficiency theory, which proposes that anxiety consumes working memory resources needed for complex task performance.",
+      "questions": [
+        {
+          "id": "me-10-q1",
+          "stem": "The Yerkes-Dodson law, as demonstrated in this study, states that:",
+          "options": ["A. Higher arousal always improves performance regardless of task complexity", "B. The relationship between arousal and performance depends on task complexity, with complex tasks having a lower optimal arousal level", "C. Lower arousal always produces better performance", "D. Arousal has no effect on cognitive performance"],
+          "correct": 1,
+          "explanation": "The Yerkes-Dodson law describes an inverted-U relationship between arousal and performance for complex tasks, with moderate arousal being optimal. For simple tasks, the relationship is more linear, with higher arousal continuing to improve performance. The critical interaction with task complexity means that the optimal arousal level for performance is lower for complex, demanding tasks and higher for simple, straightforward tasks."
+        },
+        {
+          "id": "me-10-q2",
+          "stem": "Processing efficiency theory explains the decline in complex task performance at high anxiety by proposing that anxiety:",
+          "options": ["A. Enhances all cognitive processes equally", "B. Consumes working memory resources through worry and threat-related processing, leaving fewer resources for task performance", "C. Improves attention to task-relevant information", "D. Has no effect on working memory or cognitive resources"],
+          "correct": 1,
+          "explanation": "Processing efficiency theory (Eysenck and Calvo) proposes that anxiety impairs performance on complex tasks by consuming limited working memory resources. Anxious thoughts, worry, and threat monitoring require cognitive processing capacity that would otherwise be available for the primary task. Simple tasks require few working memory resources, so anxiety has less impact, but complex tasks that heavily depend on working memory are disproportionately affected."
+        },
+        {
+          "id": "me-10-q3",
+          "stem": "The finding that higher working memory capacity provided a buffer against anxiety's effects on complex task performance suggests that:",
+          "options": ["A. Working memory is irrelevant to anxiety effects on performance", "B. Individuals with greater working memory resources can absorb the cognitive costs of anxiety while still maintaining sufficient capacity for task demands", "C. Working memory capacity is not an individual difference variable", "D. High anxiety always benefits people with high working memory"],
+          "correct": 1,
+          "explanation": "Individuals with higher working memory capacity have a larger pool of cognitive resources available. When anxiety consumes some of these resources, those with greater total capacity still have sufficient remaining resources to perform the complex task effectively. Those with lower capacity are more quickly overwhelmed as anxiety depletes their already limited resources, leading to greater performance decrements."
+        },
+        {
+          "id": "me-10-q4",
+          "stem": "The linear improvement in simple task performance with increasing arousal occurs because:",
+          "options": ["A. Simple tasks require extensive working memory resources that benefit from arousal", "B. Increased arousal enhances alertness and attentional focus, which benefits tasks with minimal cognitive complexity", "C. Higher anxiety causes participants to switch to simpler strategies", "D. Simple tasks are not affected by any level of arousal"],
+          "correct": 1,
+          "explanation": "Simple tasks like digit copying require minimal working memory or complex cognitive processing. For these tasks, increased arousal is primarily beneficial because it enhances alertness, vigilance, and attentional focus without overwhelming cognitive resources. Since the task makes few demands on working memory, the resource-consuming effects of anxiety do not impair performance, and the energizing effects of arousal dominate."
+        },
+        {
+          "id": "me-10-q5",
+          "stem": "A test-anxious student performing poorly on a complex exam despite knowing the material is best understood as demonstrating:",
+          "options": ["A. Lack of adequate preparation and study", "B. Anxiety consuming cognitive resources needed for retrieval and complex reasoning during the exam", "C. A deficit in long-term memory storage", "D. Social facilitation effects enhancing performance"],
+          "correct": 1,
+          "explanation": "Test anxiety exemplifies the Yerkes-Dodson law and processing efficiency theory: the student has acquired the knowledge (stored in long-term memory) but anxiety during the exam consumes the working memory resources needed for retrieval, reasoning, and problem-solving. The high arousal exceeds the optimal level for the complex cognitive demands of the exam, resulting in performance that underrepresents the student's actual knowledge."
+        }
+      ]
+    }
+  ]
+}

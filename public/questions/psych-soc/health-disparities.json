@@ -1,0 +1,416 @@
+{
+  "subtopic": "Health Disparities & Demographics",
+  "sectionId": "psych-soc",
+  "passageSets": [
+    {
+      "id": "hd-ps-001",
+      "passage": "A large-scale epidemiological study examined the relationship between socioeconomic status (SES) and cardiovascular disease (CVD) outcomes in a cohort of 25,000 adults followed over 15 years. Researchers measured SES using a composite index of household income, educational attainment, and occupational prestige. Results revealed a striking gradient: CVD incidence rates were 3.2 times higher in the lowest SES quintile compared to the highest. This gradient persisted even after adjusting for traditional biomedical risk factors including smoking, diet, physical activity, and BMI, suggesting that SES exerts health effects beyond individual behavioral pathways. Allostatic load, a composite measure of chronic physiological stress including cortisol levels, blood pressure, inflammatory markers, and metabolic parameters, was significantly elevated in low-SES participants and partially mediated the SES-CVD relationship. The study identified multiple pathways linking SES to CVD: material deprivation (inadequate nutrition, housing, healthcare access), psychosocial stress (job insecurity, financial strain, perceived discrimination), and environmental exposures (proximity to pollution sources, lack of green space, food deserts). Notably, the health gradient was continuous rather than threshold-based, meaning that each incremental increase in SES was associated with improved health outcomes, even among middle-income groups. This finding challenges the assumption that health disparities are primarily a problem of poverty and suggests that relative social position itself affects health.",
+      "questions": [
+        {
+          "id": "hd-ps-001-q1",
+          "stem": "The finding that SES effects on CVD persist after controlling for individual health behaviors suggests that:",
+          "options": ["A. Individual health behaviors are irrelevant to cardiovascular outcomes", "B. Structural and environmental determinants of health operate independently of individual behavioral choices", "C. SES is not a meaningful predictor of health outcomes", "D. All CVD is genetically determined regardless of social factors"],
+          "correct": 1,
+          "explanation": "The persistence of the SES-CVD relationship after controlling for health behaviors indicates that SES affects health through pathways beyond individual choices, including material conditions, chronic stress exposure, environmental hazards, and healthcare access. This supports a social determinants of health framework that recognizes structural factors as independent contributors to health outcomes."
+        },
+        {
+          "id": "hd-ps-001-q2",
+          "stem": "Allostatic load, which partially mediated the SES-CVD relationship, refers to:",
+          "options": ["A. The acute stress response activated during immediate physical danger", "B. The cumulative physiological wear and tear from chronic stress exposure over time", "C. The genetic predisposition to cardiovascular disease inherited from parents", "D. The body's ability to maintain homeostasis under normal conditions"],
+          "correct": 1,
+          "explanation": "Allostatic load represents the cumulative biological cost of chronic stress, measured through dysregulation of multiple physiological systems (neuroendocrine, cardiovascular, metabolic, immune). Repeated activation of stress response systems without adequate recovery leads to wear and tear that increases vulnerability to disease, connecting social adversity to biological pathology."
+        },
+        {
+          "id": "hd-ps-001-q3",
+          "stem": "The continuous health gradient across all SES levels, not just at the poverty threshold, is significant because it indicates that:",
+          "options": ["A. Only the poorest individuals experience health disadvantages", "B. Relative social position and inequality affect health at every level of the socioeconomic spectrum", "C. Health disparities would be eliminated if everyone rose above the poverty line", "D. SES has a threshold effect that only impacts those below a certain income level"],
+          "correct": 1,
+          "explanation": "The continuous gradient demonstrates that health disparities are not simply a matter of absolute deprivation (poverty) but are related to relative social position. Even comparisons between middle and upper-income groups show health differences, suggesting that psychosocial factors associated with social hierarchy, such as perceived status, control, and social comparison, affect health at every level."
+        },
+        {
+          "id": "hd-ps-001-q4",
+          "stem": "Food deserts, mentioned as an environmental exposure linking SES to CVD, are defined as:",
+          "options": ["A. Agricultural regions experiencing drought and crop failure", "B. Geographic areas with limited access to affordable, nutritious food options", "C. Neighborhoods with an overabundance of organic food stores", "D. Regions where food production has been disrupted by climate change"],
+          "correct": 1,
+          "explanation": "Food deserts are geographic areas, typically in low-income neighborhoods, where residents lack access to affordable fresh fruits, vegetables, and other nutritious food options. These areas are often saturated with fast food outlets and convenience stores offering calorie-dense, nutrient-poor foods, contributing to poor dietary patterns and elevated cardiovascular risk."
+        },
+        {
+          "id": "hd-ps-001-q5",
+          "stem": "Which theoretical framework best explains the multiple pathways (material, psychosocial, environmental) through which SES affects cardiovascular health?",
+          "options": ["A. The biomedical model focusing exclusively on biological risk factors", "B. The social determinants of health framework emphasizing upstream structural factors", "C. The health belief model focusing on individual perceptions and motivations", "D. The transtheoretical model of behavior change"],
+          "correct": 1,
+          "explanation": "The social determinants of health framework recognizes that health is shaped by the conditions in which people are born, grow, live, work, and age, including factors such as income distribution, education, housing, food availability, and environmental quality. This framework integrates the material, psychosocial, and environmental pathways identified in the study as upstream determinants of health."
+        }
+      ]
+    },
+    {
+      "id": "hd-ps-002",
+      "passage": "Researchers investigated racial and ethnic disparities in maternal mortality in the United States by analyzing birth and death certificate data for 3.8 million births over a five-year period. The study found that Black women were 3.5 times more likely to die from pregnancy-related complications compared to white women, a disparity that persisted across all income and education levels. Even Black women with college degrees had higher maternal mortality rates than white women without high school diplomas, challenging the assumption that education and income alone explain racial health disparities. The study examined multiple contributing factors: implicit racial bias among healthcare providers (measured using the Implicit Association Test) was associated with differences in pain assessment, treatment urgency, and patient communication. Black women were 40% less likely to receive adequate pain management during labor and delivery. Additionally, the weathering hypothesis was supported by findings that Black women showed accelerated biological aging markers, with telomere lengths equivalent to white women 7.5 years older, suggesting cumulative effects of chronic racism-related stress on cellular aging. Hospital-level analysis revealed that facilities serving predominantly Black communities had higher complication rates due to resource constraints, fewer specialists, and higher patient-to-nurse ratios. The study recommended multilevel interventions addressing provider bias training, community-level resource allocation, and policy changes to address structural racism in healthcare systems.",
+      "questions": [
+        {
+          "id": "hd-ps-002-q1",
+          "stem": "The finding that Black women with college degrees had higher maternal mortality than white women without high school diplomas most directly challenges which explanation for health disparities?",
+          "options": ["A. The explanation that structural racism affects health outcomes", "B. The explanation that disparities are primarily driven by individual SES factors like education and income", "C. The explanation that healthcare quality varies across facilities", "D. The explanation that chronic stress affects biological aging"],
+          "correct": 1,
+          "explanation": "This finding directly contradicts the assumption that racial health disparities are simply a proxy for socioeconomic differences. If education and income were the primary drivers, educated, higher-income Black women would have outcomes comparable to similarly situated white women. The persistence of disparities across SES levels points to race-specific factors such as discrimination and structural racism."
+        },
+        {
+          "id": "hd-ps-002-q2",
+          "stem": "The weathering hypothesis, supported by telomere data in this study, proposes that:",
+          "options": ["A. Climate and weather patterns directly cause racial health disparities", "B. Cumulative exposure to racism and social adversity accelerates biological aging and health deterioration in marginalized populations", "C. Physical exposure to environmental hazards is the sole cause of health disparities", "D. Racial differences in health are entirely genetic in origin"],
+          "correct": 1,
+          "explanation": "The weathering hypothesis, proposed by Arline Geronimus, argues that the health of Black Americans deteriorates earlier and more rapidly than that of white Americans due to the cumulative impact of chronic exposure to socioeconomic adversity and racial discrimination. The telomere data provides biological evidence for this accelerated aging process."
+        },
+        {
+          "id": "hd-ps-002-q3",
+          "stem": "Implicit racial bias among healthcare providers affecting pain assessment and treatment represents which type of discrimination?",
+          "options": ["A. De jure discrimination codified in formal policy", "B. Implicit or institutional discrimination operating through unconscious biases in clinical decision-making", "C. Intentional, overt discrimination by individual providers", "D. Reverse discrimination favoring minority patients"],
+          "correct": 1,
+          "explanation": "Implicit discrimination operates through unconscious biases that affect judgment and behavior without awareness or intent. Healthcare providers may hold implicit associations between race and pain tolerance or treatment urgency that influence clinical decisions, producing disparate outcomes even in the absence of conscious prejudice or discriminatory intent."
+        },
+        {
+          "id": "hd-ps-002-q4",
+          "stem": "The hospital-level disparities in resources between facilities serving Black versus white communities exemplify:",
+          "options": ["A. Individual-level discrimination by hospital administrators", "B. Institutional and structural racism embedded in healthcare resource allocation", "C. Random variation in hospital quality unrelated to racial composition", "D. Patient preference for lower-quality facilities"],
+          "correct": 1,
+          "explanation": "The systematic underfunding and under-resourcing of hospitals serving predominantly Black communities reflects institutional and structural racism, where historical and ongoing patterns of segregation, disinvestment, and discriminatory policy produce unequal distribution of healthcare resources along racial lines, independent of individual intent."
+        },
+        {
+          "id": "hd-ps-002-q5",
+          "stem": "The study's recommendation for multilevel interventions addresses disparities at which levels?",
+          "options": ["A. Only at the individual patient level through health education", "B. Individual provider level (bias training), community level (resource allocation), and structural level (policy changes)", "C. Only at the federal policy level through legislation", "D. Only at the hospital level through quality improvement programs"],
+          "correct": 1,
+          "explanation": "Multilevel interventions recognize that health disparities are produced by factors operating at multiple levels simultaneously. Addressing provider bias targets individual-level contributors, community resource allocation targets meso-level factors, and policy changes targeting structural racism address macro-level determinants. Effective disparity reduction requires coordinated action across all levels."
+        }
+      ]
+    },
+    {
+      "id": "hd-ps-003",
+      "passage": "An environmental justice study examined the distribution of toxic waste facilities, industrial pollution sources, and environmental health hazards across 500 census tracts in a major metropolitan area. Using geographic information systems (GIS) mapping and demographic data, researchers found that census tracts with majority-minority populations (predominantly Black and Latino) had 3.8 times more hazardous waste facilities and 2.6 times higher ambient air pollution levels compared to majority-white tracts, after controlling for population density and land use zoning. Health outcome data revealed that residents in high-pollution minority neighborhoods had significantly higher rates of asthma (2.4 times), childhood lead poisoning (5.1 times), and certain cancers (1.8 times) compared to residents in low-pollution areas. The study traced the historical roots of this environmental inequality to mid-20th century urban planning decisions, including the siting of highways through minority neighborhoods, redlining practices that concentrated poverty and prevented residential mobility, and zoning decisions that placed industrial facilities near communities of color. Economic analysis showed that while proximity to industrial facilities depressed property values, this created a feedback loop: lower property values attracted additional undesirable land uses, further depressing values and community investment. Community organizing efforts that successfully opposed new facility siting showed that politically empowered communities could resist environmental burden-shifting, but this power was unevenly distributed along racial and class lines.",
+      "questions": [
+        {
+          "id": "hd-ps-003-q1",
+          "stem": "Environmental justice, as a concept and movement, is primarily concerned with:",
+          "options": ["A. Protecting endangered species and natural habitats", "B. The fair distribution of environmental benefits and burdens across racial, ethnic, and socioeconomic groups", "C. Reducing overall pollution levels without regard to who is affected", "D. Promoting economic development regardless of environmental consequences"],
+          "correct": 1,
+          "explanation": "Environmental justice focuses on the equitable distribution of environmental hazards and benefits across communities, recognizing that environmental burdens disproportionately affect communities of color and low-income populations. The movement addresses both the distributional inequity (who bears environmental harm) and the procedural inequity (who has power in environmental decision-making)."
+        },
+        {
+          "id": "hd-ps-003-q2",
+          "stem": "The historical connection between redlining practices and current environmental inequality illustrates which sociological concept?",
+          "options": ["A. Social mobility and upward class movement", "B. Cumulative disadvantage and the compounding effects of historical discrimination", "C. Modernization theory and progressive social development", "D. Cultural assimilation and ethnic integration"],
+          "correct": 1,
+          "explanation": "Cumulative disadvantage describes how historical discrimination creates cascading negative effects that compound over time. Redlining confined minority populations to specific neighborhoods, which were then targeted for undesirable land uses, depressing property values and community resources, creating a cycle of concentrated poverty and environmental exposure that persists across generations."
+        },
+        {
+          "id": "hd-ps-003-q3",
+          "stem": "The feedback loop where pollution depresses property values, which then attracts more polluting facilities, is an example of:",
+          "options": ["A. Positive feedback reinforcing environmental inequality", "B. Negative feedback restoring environmental equilibrium", "C. Market self-correction eliminating inefficiencies", "D. Random fluctuation in real estate values"],
+          "correct": 0,
+          "explanation": "Positive feedback loops amplify the initial condition rather than correcting it. In this case, the initial placement of polluting facilities reduces property values, which makes the area more attractive for additional undesirable land uses (due to lower costs and less political resistance), further degrading the environment and property values in a self-reinforcing cycle of environmental injustice."
+        },
+        {
+          "id": "hd-ps-003-q4",
+          "stem": "The 5.1-fold disparity in childhood lead poisoning rates between high-pollution minority neighborhoods and low-pollution areas has particularly severe implications because lead exposure in children is associated with:",
+          "options": ["A. Temporary physical symptoms that resolve with treatment", "B. Irreversible neurodevelopmental damage affecting cognition, behavior, and academic achievement", "C. Enhanced immune system function and disease resistance", "D. Accelerated physical growth and early puberty"],
+          "correct": 1,
+          "explanation": "Childhood lead exposure causes irreversible damage to the developing nervous system, resulting in cognitive impairment, learning disabilities, behavioral problems, and reduced academic achievement. These effects contribute to intergenerational disadvantage by limiting educational and economic opportunities, making environmental lead exposure a significant mechanism linking neighborhood disadvantage to life outcomes."
+        },
+        {
+          "id": "hd-ps-003-q5",
+          "stem": "The finding that politically empowered communities could resist facility siting while less empowered communities could not illustrates the concept of:",
+          "options": ["A. Environmental determinism shaping community characteristics", "B. Environmental racism where race and class influence exposure to environmental hazards through differential political power", "C. Natural selection of communities based on fitness", "D. Voluntary community choice in residential location"],
+          "correct": 1,
+          "explanation": "Environmental racism describes the disproportionate siting of environmental hazards in communities of color, partly due to the differential political power these communities possess. When affluent, predominantly white communities successfully resist unwanted facilities (NIMBY movements), the burden is shifted to politically less powerful minority and low-income communities, perpetuating environmental inequality."
+        }
+      ]
+    },
+    {
+      "id": "hd-ps-004",
+      "passage": "A public health study examined healthcare access disparities among immigrant populations in the United States using survey data from 8,000 first-generation immigrants representing 40 countries of origin. The study found that immigrants were significantly less likely to have health insurance (38% uninsured compared to 9% among native-born citizens), to have a regular healthcare provider (42% versus 77%), and to utilize preventive services such as cancer screenings and vaccinations. Language barriers were identified as a critical factor: participants with limited English proficiency were 2.3 times less likely to seek medical care and 3.1 times more likely to report communication difficulties with providers. Paradoxically, the study confirmed the healthy immigrant effect, finding that recent immigrants had better health outcomes than native-born populations on several indicators, including lower rates of heart disease, obesity, and certain cancers. However, this health advantage eroded with length of residence, with immigrants living in the US for more than 15 years showing health profiles comparable to or worse than native-born populations. Researchers attributed this convergence to acculturation processes including adoption of Western dietary patterns, reduced physical activity, increased stress from discrimination and economic hardship, and loss of protective cultural practices and social networks. Documentation status emerged as a powerful predictor of healthcare access, with undocumented immigrants showing the greatest barriers to care and the highest rates of emergency department utilization for conditions that could have been managed in primary care settings.",
+      "questions": [
+        {
+          "id": "hd-ps-004-q1",
+          "stem": "The healthy immigrant effect, where recent immigrants show better health than native-born populations, is most likely explained by:",
+          "options": ["A. Superior healthcare systems in immigrants' countries of origin", "B. Selection effects (healthier individuals are more likely to migrate) and protective cultural health practices", "C. Genetic superiority of immigrant populations", "D. Better access to US healthcare immediately upon arrival"],
+          "correct": 1,
+          "explanation": "The healthy immigrant effect is primarily attributed to selection bias (immigration requires physical health, resources, and motivation, selecting for healthier individuals) and protective factors from origin cultures (traditional diets, stronger social networks, lower rates of substance use). These advantages are not due to better healthcare access but rather to who migrates and the health practices they bring."
+        },
+        {
+          "id": "hd-ps-004-q2",
+          "stem": "The erosion of the health advantage with longer US residence, attributed to acculturation, suggests that:",
+          "options": ["A. US healthcare improves immigrant health over time", "B. Adoption of mainstream American lifestyle patterns can be detrimental to health", "C. Immigrants become genetically different with longer residence", "D. Healthcare access improvements offset cultural health advantages"],
+          "correct": 1,
+          "explanation": "Acculturation, the process of adopting the cultural practices and norms of the host society, in this case leads to adoption of less healthy dietary patterns, reduced physical activity, and loss of protective cultural practices and social support networks. This suggests that aspects of mainstream American lifestyle (processed food, sedentary habits, social isolation) are detrimental to health."
+        },
+        {
+          "id": "hd-ps-004-q3",
+          "stem": "High emergency department utilization among undocumented immigrants for manageable conditions reflects which healthcare access problem?",
+          "options": ["A. Preference for emergency care over primary care", "B. Lack of access to preventive and primary care forcing reliance on emergency services as safety net", "C. Emergency departments providing superior quality care", "D. Cultural beliefs that only emergencies warrant medical attention"],
+          "correct": 1,
+          "explanation": "When individuals lack insurance, documentation, or access to regular primary care providers, they are forced to rely on emergency departments (which cannot refuse treatment) for conditions that could be managed more effectively and affordably in primary care settings. This represents a systemic failure of healthcare access rather than a patient preference."
+        },
+        {
+          "id": "hd-ps-004-q4",
+          "stem": "Language barriers reducing healthcare utilization by 2.3-fold represent which type of barrier to healthcare access?",
+          "options": ["A. A financial barrier related to the cost of care", "B. A structural barrier related to the organization and delivery of healthcare services", "C. A personal barrier related to individual health beliefs", "D. A geographic barrier related to distance from facilities"],
+          "correct": 1,
+          "explanation": "Language barriers represent structural barriers to healthcare access because they result from how healthcare services are organized and delivered. When healthcare systems do not adequately provide interpreter services, translated materials, or linguistically concordant providers, the system's structure creates obstacles for limited-English-proficiency patients."
+        },
+        {
+          "id": "hd-ps-004-q5",
+          "stem": "From a sociological perspective, the acculturation process experienced by immigrants in the study can best be analyzed through the concept of:",
+          "options": ["A. Cultural assimilation where immigrants adopt host culture norms, potentially at the cost of health-protective origin culture practices", "B. Cultural pluralism where immigrants maintain their original cultural practices completely unchanged", "C. Cultural imperialism where the host culture forcibly replaces all immigrant practices", "D. Cultural relativism where all cultural practices are evaluated as equally healthy"],
+          "correct": 0,
+          "explanation": "Cultural assimilation describes the process by which immigrants adopt the norms, values, and practices of the dominant culture. In this context, assimilation includes adopting American dietary patterns, lifestyle habits, and social norms that may be less health-protective than origin culture practices, explaining the erosion of the healthy immigrant effect over time."
+        }
+      ]
+    },
+    {
+      "id": "hd-ps-005",
+      "passage": "A study on the social determinants of mental health examined how neighborhood-level factors influence psychiatric outcomes in a sample of 12,000 adults living in 200 neighborhoods. Using multilevel modeling, researchers separated individual-level factors (age, sex, personal income, education) from neighborhood-level factors (concentrated poverty, social cohesion, collective efficacy, access to green space, crime rates, and institutional resources). Results showed that neighborhood factors accounted for 18% of the variance in depression and anxiety outcomes, even after controlling for individual-level characteristics. Residents of high-poverty neighborhoods with low social cohesion had 2.1 times the odds of meeting criteria for major depressive disorder compared to residents of more affluent, cohesive neighborhoods. Access to green space showed a significant protective effect, with each 10% increase in neighborhood green space associated with a 12% reduction in depression symptoms. The study also found a dose-response relationship between neighborhood violent crime exposure and PTSD symptoms, with residents exposed to the highest quartile of violent crime showing PTSD symptom levels 2.8 times higher than those in the lowest quartile. Importantly, the effects of neighborhood poverty on mental health were partially mediated by perceived discrimination and sense of powerlessness, suggesting that the subjective experience of disadvantage, not just material deprivation, contributes to psychiatric morbidity. Gentrification effects were also examined: while neighborhood investment improved some indicators, it increased psychological distress among long-term residents facing displacement pressure.",
+      "questions": [
+        {
+          "id": "hd-ps-005-q1",
+          "stem": "The finding that neighborhood factors accounted for 18% of variance in mental health outcomes after controlling for individual factors demonstrates that:",
+          "options": ["A. Individual characteristics are irrelevant to mental health", "B. Context-level factors independently contribute to mental health beyond personal attributes", "C. Neighborhood effects completely determine individual mental health outcomes", "D. The study had poor statistical power and unreliable results"],
+          "correct": 1,
+          "explanation": "The independent contribution of neighborhood factors, after accounting for individual characteristics, demonstrates that where people live matters for mental health beyond who they are individually. This supports ecological models of health that recognize the independent influence of contextual factors such as neighborhood poverty, social cohesion, and environmental characteristics on individual outcomes."
+        },
+        {
+          "id": "hd-ps-005-q2",
+          "stem": "The protective effect of green space on depression symptoms can be explained through which mechanisms?",
+          "options": ["A. Green space increases property values, which directly reduces depression", "B. Green space provides opportunities for physical activity, stress reduction, and social interaction", "C. The color green has a direct pharmacological effect on brain chemistry", "D. Green space correlates with warmer climates that improve mood"],
+          "correct": 1,
+          "explanation": "Research on green space and mental health identifies several mechanisms: natural environments reduce physiological stress markers (cortisol levels), provide settings for physical activity (which has antidepressant effects), facilitate social interaction and community building, and offer restorative experiences that reduce mental fatigue and improve mood."
+        },
+        {
+          "id": "hd-ps-005-q3",
+          "stem": "The finding that perceived discrimination and powerlessness mediated the relationship between neighborhood poverty and depression suggests that:",
+          "options": ["A. Material deprivation alone fully explains the mental health effects of poverty", "B. Psychological processes including how people interpret and experience their social position play a causal role in health outcomes", "C. Perceived discrimination has no relationship to actual discrimination", "D. Powerlessness is a personality trait unrelated to social conditions"],
+          "correct": 1,
+          "explanation": "Mediation by psychological variables (perceived discrimination, powerlessness) indicates that the subjective experience and interpretation of social disadvantage, not just objective material conditions, contribute to mental health outcomes. This supports psychosocial theories of health that emphasize how social conditions affect health partly through their impact on psychological well-being, sense of control, and perceived social standing."
+        },
+        {
+          "id": "hd-ps-005-q4",
+          "stem": "The dose-response relationship between crime exposure and PTSD symptoms, where greater exposure leads to proportionally greater symptoms, provides evidence of:",
+          "options": ["A. A threshold effect where any crime exposure produces maximum symptoms", "B. A systematic, quantifiable relationship consistent with a causal interpretation", "C. Random fluctuation in PTSD prevalence across neighborhoods", "D. The nocebo effect where expectation of harm causes symptoms"],
+          "correct": 1,
+          "explanation": "A dose-response relationship, where increasing levels of exposure produce proportionally increasing levels of outcome, is one of the Bradford Hill criteria for inferring causality in epidemiological research. This systematic relationship between crime exposure intensity and PTSD severity strengthens the causal interpretation that neighborhood violence contributes to trauma-related mental health outcomes."
+        },
+        {
+          "id": "hd-ps-005-q5",
+          "stem": "The finding that gentrification increased psychological distress among long-term residents facing displacement illustrates which concept?",
+          "options": ["A. The inevitability of progress requiring sacrifice from vulnerable populations", "B. The tension between neighborhood improvement and community disruption, where benefits accrue unequally", "C. The universal benefits of economic development for all community members", "D. The irrelevance of housing stability to mental health outcomes"],
+          "correct": 1,
+          "explanation": "Gentrification creates a paradox where neighborhood investment and physical improvement occur alongside displacement of existing residents through rising costs, changing community character, and loss of social networks. The psychological distress among long-term residents reflects the unequal distribution of gentrification's benefits and harms, with disadvantaged residents bearing the costs while incoming residents capture the benefits."
+        }
+      ]
+    },
+    {
+      "id": "hd-ps-006",
+      "passage": "Public health researchers conducted an epidemiological analysis of diabetes prevalence and management across rural and urban communities in the southeastern United States. The study included 6,500 adults from 40 counties, with equal representation from rural and urban areas. Type 2 diabetes prevalence was 16.8% in rural areas compared to 10.2% in urban areas, a disparity that remained significant after adjusting for age, race, BMI, and income. Rural residents with diabetes had significantly worse glycemic control (mean HbA1c 8.4% vs. 7.6%), higher rates of diabetes-related complications (retinopathy, nephropathy, peripheral neuropathy), and higher diabetes-related mortality. The study identified multiple contributors to rural health disadvantage: the nearest endocrinologist was an average of 68 miles from rural participants versus 4 miles from urban participants; rural communities had fewer healthy food retail options (0.8 supermarkets per 10,000 population vs. 2.4 in urban areas); and rural participants were less likely to have employer-sponsored health insurance (34% vs. 62%). Cultural factors also played a role: rural communities showed stronger fatalistic health beliefs (viewing diabetes as inevitable and uncontrollable), greater stigma around chronic disease management, and dietary traditions emphasizing high-fat, high-sugar foods. Telemedicine interventions showed promise in reducing rural-urban disparities, with rural participants who received diabetes management via telehealth achieving HbA1c reductions comparable to urban participants receiving in-person specialty care.",
+      "questions": [
+        {
+          "id": "hd-ps-006-q1",
+          "stem": "The persistence of the rural-urban diabetes disparity after adjusting for age, race, BMI, and income indicates that:",
+          "options": ["A. The statistical analysis was performed incorrectly", "B. Place-based factors beyond individual demographics contribute independently to diabetes risk and management", "C. Rural and urban populations are genetically different", "D. The covariates used in the analysis were measured inaccurately"],
+          "correct": 1,
+          "explanation": "When disparities persist after controlling for individual-level risk factors, it indicates that place-based contextual factors (healthcare access, food environment, cultural norms, infrastructure) exert independent effects on health outcomes. This supports the importance of geographic context as a social determinant of health beyond individual demographic characteristics."
+        },
+        {
+          "id": "hd-ps-006-q2",
+          "stem": "The average 68-mile distance to the nearest endocrinologist for rural residents represents which type of healthcare access barrier?",
+          "options": ["A. Financial barrier related to inability to pay", "B. Geographic or spatial barrier to specialty care", "C. Cultural barrier related to beliefs about medicine", "D. Linguistic barrier related to provider communication"],
+          "correct": 1,
+          "explanation": "Geographic barriers to healthcare access refer to the physical distance between patients and healthcare facilities or providers. For rural residents, the substantial distance to specialty care creates obstacles including transportation costs and time, difficulty attending regular appointments, and delayed access to specialized treatment, all of which contribute to poorer disease management."
+        },
+        {
+          "id": "hd-ps-006-q3",
+          "stem": "Fatalistic health beliefs about diabetes being inevitable and uncontrollable are best understood through which concept?",
+          "options": ["A. External locus of control regarding health outcomes", "B. Internal locus of control with high self-efficacy", "C. Unrealistic optimism about disease prognosis", "D. Health literacy deficits in understanding medical information"],
+          "correct": 0,
+          "explanation": "An external locus of control reflects the belief that outcomes are determined by forces outside one's control (fate, luck, powerful others) rather than by one's own actions. Fatalistic beliefs about diabetes represent an external health locus of control, which is associated with lower engagement in preventive health behaviors and disease self-management."
+        },
+        {
+          "id": "hd-ps-006-q4",
+          "stem": "The success of telemedicine in achieving comparable outcomes to in-person specialty care suggests that:",
+          "options": ["A. In-person medical care is entirely unnecessary and should be eliminated", "B. Technology-based interventions can reduce geographic access barriers while maintaining care quality", "C. Telemedicine is superior to all forms of in-person care", "D. Rural patients prefer technology-based interactions over face-to-face care"],
+          "correct": 1,
+          "explanation": "The telemedicine results demonstrate that technology can bridge geographic access barriers by delivering specialty care to remote populations without requiring physical travel. The comparable outcomes suggest that for certain conditions like diabetes management, the clinical relationship and guidance can be effectively delivered through telecommunication technologies."
+        },
+        {
+          "id": "hd-ps-006-q5",
+          "stem": "The lower availability of healthy food retail in rural areas (0.8 vs. 2.4 supermarkets per 10,000 population) contributes to diabetes through which pathway?",
+          "options": ["A. Reduced caloric intake due to limited food availability overall", "B. Reliance on energy-dense, nutrient-poor food options that promote obesity and insulin resistance", "C. Increased physical activity required to travel longer distances for food", "D. Enhanced dietary variety from utilizing multiple small food vendors"],
+          "correct": 1,
+          "explanation": "Limited access to supermarkets with fresh produce forces residents to rely on convenience stores, gas stations, and fast food outlets that predominantly offer energy-dense, nutrient-poor foods high in refined carbohydrates, added sugars, and unhealthy fats. This dietary pattern promotes obesity, insulin resistance, and poor glycemic control, contributing to diabetes development and complications."
+        }
+      ]
+    },
+    {
+      "id": "hd-ps-007",
+      "passage": "A study on health literacy and its impact on health outcomes surveyed 4,200 adult patients across 15 primary care clinics. Health literacy was defined as the degree to which individuals can obtain, process, and understand basic health information needed to make appropriate health decisions. Using the Test of Functional Health Literacy in Adults (TOFHLA), researchers classified participants as having inadequate (23%), marginal (12%), or adequate (65%) health literacy. Low health literacy was disproportionately prevalent among older adults (38% of those over 65 had inadequate literacy), non-native English speakers (42% inadequate), and individuals with less than a high school education (51% inadequate). The study found that participants with inadequate health literacy were 2.6 times more likely to report poor health status, 1.9 times more likely to be hospitalized in the past year, and 3.4 times more likely to misunderstand medication instructions compared to those with adequate health literacy. These associations remained significant after controlling for education, income, and insurance status, suggesting that health literacy operates as an independent determinant of health. Critically, 81% of participants with low health literacy reported feeling ashamed of their difficulty and used concealment strategies (pretending to understand, avoiding situations requiring reading) rather than asking for help. The study tested plain-language interventions: when discharge instructions were rewritten at a 5th-grade reading level with visual aids, comprehension rates among low-literacy patients improved from 32% to 78%, and medication adherence increased by 40%.",
+      "questions": [
+        {
+          "id": "hd-ps-007-q1",
+          "stem": "Health literacy, as defined in the passage, encompasses which skills?",
+          "options": ["A. Only the ability to read medical textbooks and journal articles", "B. The ability to obtain, process, and understand basic health information for making appropriate health decisions", "C. Only the ability to communicate verbally with healthcare providers", "D. Knowledge of medical terminology and disease pathophysiology"],
+          "correct": 1,
+          "explanation": "Health literacy is defined as a multidimensional construct involving the capacity to find health information, comprehend and evaluate it, and use it to make informed health decisions. This includes reading medication labels, understanding appointment instructions, navigating the healthcare system, and communicating with providers about health concerns."
+        },
+        {
+          "id": "hd-ps-007-q2",
+          "stem": "The finding that 81% of low-literacy patients used concealment strategies rather than asking for help can be explained by:",
+          "options": ["A. Effective coping strategies that adequately compensate for literacy limitations", "B. Stigma and shame associated with low literacy creating barriers to disclosure and help-seeking", "C. Satisfaction with their current level of health understanding", "D. Provider encouragement to manage health independently"],
+          "correct": 1,
+          "explanation": "The use of concealment strategies reflects the powerful stigma associated with low literacy in a society that presumes universal literacy. Shame and fear of judgment prevent patients from disclosing their difficulties, creating a hidden barrier to effective healthcare communication that healthcare systems must actively address rather than passively expect patients to overcome."
+        },
+        {
+          "id": "hd-ps-007-q3",
+          "stem": "The persistence of health literacy effects after controlling for education, income, and insurance suggests that:",
+          "options": ["A. Education and income have no relationship to health outcomes", "B. Health literacy is a distinct construct that affects health independently of these socioeconomic indicators", "C. The statistical controls were ineffective", "D. Health literacy is simply another measure of educational attainment"],
+          "correct": 1,
+          "explanation": "While health literacy is correlated with education, income, and other SES indicators, its independent effect on health outcomes demonstrates that it captures something beyond general education or economic resources. Health literacy reflects specific skills for navigating health information and systems that may not be fully developed even with higher formal education."
+        },
+        {
+          "id": "hd-ps-007-q4",
+          "stem": "The dramatic improvement in comprehension (32% to 78%) when materials were rewritten at a 5th-grade level with visual aids suggests that:",
+          "options": ["A. Patients with low literacy cannot understand any health information", "B. Much of the health communication burden lies with the healthcare system's use of unnecessarily complex materials", "C. Visual aids are distracting and should not be used in medical communication", "D. Literacy levels are permanently fixed and cannot be improved"],
+          "correct": 1,
+          "explanation": "The significant improvement with simplified materials demonstrates that the communication problem is largely system-generated rather than patient-inherent. When healthcare systems present information in accessible formats, even patients with limited literacy can understand and act on health information. This shifts responsibility from patients to systems to communicate effectively."
+        },
+        {
+          "id": "hd-ps-007-q5",
+          "stem": "From a public health perspective, the disproportionate impact of low health literacy on older adults, non-native English speakers, and less-educated individuals represents:",
+          "options": ["A. A random distribution of a neutral health characteristic", "B. A health equity issue where existing social disadvantages are compounded by literacy-related barriers in healthcare", "C. Evidence that these groups do not value health", "D. An inevitable consequence of aging and immigration"],
+          "correct": 1,
+          "explanation": "The concentration of low health literacy among already disadvantaged populations represents a health equity concern because it adds another layer of disadvantage to groups already facing barriers to health. Low health literacy compounds existing inequities in income, education, language, and age, creating multiplicative rather than additive disadvantage in health outcomes."
+        }
+      ]
+    },
+    {
+      "id": "hd-ps-008",
+      "passage": "Epidemiologists studied the concept of fundamental cause theory by examining how new medical technologies and treatments affected health disparities between socioeconomic groups over a 30-year period. The study tracked outcomes for three conditions: cervical cancer (for which screening became widely available), HIV/AIDS (for which effective antiretroviral therapy was developed), and coronary heart disease (for which both prevention and treatment advanced significantly). For all three conditions, when new knowledge or technology was introduced, initial adoption was fastest among high-SES groups, creating or widening disparities before gradually diffusing to lower-SES populations. For cervical cancer, Pap smear screening reduced mortality by 74% among high-SES women within the first decade of widespread availability but only by 28% among low-SES women over the same period. Similarly, antiretroviral therapy transformed HIV from a death sentence to a manageable chronic condition primarily for insured, higher-SES patients first, while mortality remained high among uninsured and marginalized populations for years afterward. The researchers argued that SES is a fundamental cause of disease because it embodies access to resources (knowledge, money, power, social connections) that can be deployed to avoid risks and adopt protective strategies regardless of which specific mechanisms link SES to health at any given time. This perspective predicts that new health interventions will consistently produce disparities unless specifically designed to be universally accessible.",
+      "questions": [
+        {
+          "id": "hd-ps-008-q1",
+          "stem": "Fundamental cause theory, as described in the passage, argues that SES is a fundamental cause of disease because:",
+          "options": ["A. SES directly causes specific biological pathways leading to disease", "B. SES provides flexible resources that can be deployed to avoid health risks regardless of the specific mechanisms involved", "C. SES is the only factor that matters for health outcomes", "D. SES effects on health are entirely mediated by individual behaviors"],
+          "correct": 1,
+          "explanation": "Fundamental cause theory, proposed by Link and Phelan, argues that SES is a fundamental cause because it involves access to flexible resources (money, knowledge, power, connections) that can be used to avoid disease and death regardless of which specific risk factors or diseases are relevant. As old risks are addressed and new ones emerge, SES advantages are redeployed to maintain health advantages."
+        },
+        {
+          "id": "hd-ps-008-q2",
+          "stem": "The pattern where new medical technologies initially widen rather than narrow health disparities is known as:",
+          "options": ["A. The prevention paradox", "B. The inverse care law and differential diffusion of innovation", "C. The placebo effect across populations", "D. Natural selection in disease resistance"],
+          "correct": 1,
+          "explanation": "The inverse care law (those who most need care are least likely to receive it) combined with differential diffusion of innovation (new technologies are adopted first by advantaged groups) produces the pattern where medical advances initially benefit those who are already advantaged. This widens disparities before broader diffusion eventually narrows them, if it occurs at all."
+        },
+        {
+          "id": "hd-ps-008-q3",
+          "stem": "The prediction that new health interventions will consistently produce disparities unless designed for universal access implies which policy approach?",
+          "options": ["A. Ceasing development of new medical technologies", "B. Proactively designing interventions with equity considerations to prevent disparity creation", "C. Allowing market forces to naturally distribute new technologies", "D. Restricting new technologies to high-SES populations who can afford them"],
+          "correct": 1,
+          "explanation": "Fundamental cause theory implies that without deliberate equity-oriented design, each new medical advance will be preferentially adopted by advantaged groups, widening disparities. This suggests that policymakers must proactively ensure universal access through strategies like public funding, community-based delivery, and removal of structural barriers to prevent the predictable creation of disparities."
+        },
+        {
+          "id": "hd-ps-008-q4",
+          "stem": "The 74% versus 28% reduction in cervical cancer mortality between high-SES and low-SES women after Pap smear availability reflects disparities in:",
+          "options": ["A. Biological susceptibility to cervical cancer between SES groups", "B. Access to and utilization of preventive screening services", "C. Genetic differences in response to cancer treatment", "D. Environmental exposure to cancer-causing agents"],
+          "correct": 1,
+          "explanation": "The disparity in mortality reduction reflects differential access to and utilization of screening services. High-SES women had greater access through insurance, regular healthcare relationships, health knowledge, and ability to take time for appointments. Low-SES women faced barriers including lack of insurance, transportation difficulties, competing time demands, and lower health literacy about screening benefits."
+        },
+        {
+          "id": "hd-ps-008-q5",
+          "stem": "According to fundamental cause theory, if a new risk factor for disease is discovered, which prediction follows?",
+          "options": ["A. All SES groups will be equally affected by the new risk factor", "B. High-SES groups will more rapidly learn about and protect themselves from the risk, while low-SES groups will be disproportionately affected", "C. Low-SES groups will be naturally immune to the new risk factor", "D. The discovery will have no effect on health disparities"],
+          "correct": 1,
+          "explanation": "Fundamental cause theory predicts that high-SES groups will use their flexible resources (knowledge access, financial means, social networks, political influence) to learn about new risks earlier and adopt protective behaviors more quickly. This creates a systematic pattern where each new health-relevant discovery or intervention produces SES-graded differential adoption and impact."
+        }
+      ]
+    },
+    {
+      "id": "hd-ps-009",
+      "passage": "A cross-national study compared healthcare systems and health outcomes across five countries with different healthcare financing models: the United States (private insurance-based), Canada (single-payer), the United Kingdom (national health service), Germany (social insurance), and Singapore (mandatory health savings accounts). Researchers analyzed data on healthcare expenditure, coverage rates, health outcomes, and patient satisfaction. The US spent 17.8% of GDP on healthcare, approximately twice the average of the other four nations, yet ranked last on several key health indicators including life expectancy, infant mortality, and preventable deaths. The US was also the only country without universal coverage, with approximately 27 million uninsured citizens. Analysis revealed that the US system's reliance on employer-sponsored private insurance created coverage gaps for unemployed, part-time, and gig economy workers. Administrative costs consumed 34% of US healthcare spending compared to 12-17% in the other systems. The study found that countries with universal coverage systems showed smaller socioeconomic gradients in healthcare utilization and outcomes, though disparities were not completely eliminated in any system. Patient satisfaction was highest in systems that combined universal access with patient choice (Germany), while satisfaction was lowest in systems with long wait times for elective procedures (UK, Canada). The researchers concluded that no system perfectly balanced access, quality, cost, and choice, but that universal coverage was a necessary (though not sufficient) condition for reducing health disparities.",
+      "questions": [
+        {
+          "id": "hd-ps-009-q1",
+          "stem": "The finding that the US spends the most on healthcare yet ranks lowest on key health indicators is known as the:",
+          "options": ["A. Healthcare paradox, where higher spending produces worse outcomes due to system inefficiencies", "B. Economies of scale effect in healthcare delivery", "C. Law of diminishing returns in medical spending", "D. Pareto efficiency in resource allocation"],
+          "correct": 0,
+          "explanation": "This healthcare paradox demonstrates that spending more does not necessarily produce better population health outcomes. The US system's inefficiencies, including high administrative costs, lack of universal coverage, fragmented care delivery, and emphasis on treatment over prevention, result in poorer population-level outcomes despite higher overall expenditure."
+        },
+        {
+          "id": "hd-ps-009-q2",
+          "stem": "The 34% administrative cost in the US healthcare system compared to 12-17% in other countries is largely attributable to:",
+          "options": ["A. Higher quality administrative services in the US", "B. The complexity of managing multiple private insurance plans with different rules, billing systems, and coverage requirements", "C. Greater investment in health information technology", "D. Higher salaries for healthcare administrators worldwide"],
+          "correct": 1,
+          "explanation": "The multi-payer private insurance system in the US generates substantial administrative complexity, with providers managing different billing procedures, coverage rules, prior authorization requirements, and claims processes for hundreds of different insurance plans. Single-payer and national health systems consolidate these functions, dramatically reducing administrative overhead."
+        },
+        {
+          "id": "hd-ps-009-q3",
+          "stem": "Coverage gaps for unemployed and gig economy workers in the US system illustrate which limitation of employer-sponsored insurance?",
+          "options": ["A. Employers providing too many insurance options for employees to choose from", "B. Linking healthcare access to employment status creates coverage instability during job transitions and excludes non-traditional workers", "C. Employer-sponsored insurance being too expensive for employers to offer", "D. All employers offering identical insurance benefits regardless of company size"],
+          "correct": 1,
+          "explanation": "Tying health insurance to employment creates structural vulnerability where job loss, part-time work, or non-traditional employment (gig economy, freelancing) results in loss of coverage. This system was designed for an era of stable, full-time employment and is increasingly mismatched with contemporary labor market realities of flexible and precarious work arrangements."
+        },
+        {
+          "id": "hd-ps-009-q4",
+          "stem": "The finding that universal coverage reduces but does not eliminate health disparities suggests that:",
+          "options": ["A. Universal coverage is ineffective and should not be pursued", "B. Access to healthcare is necessary but not sufficient for health equity; other social determinants also require attention", "C. Health disparities are entirely genetic and cannot be changed by policy", "D. Universal coverage creates new forms of health inequality"],
+          "correct": 1,
+          "explanation": "While universal coverage removes financial and insurance-related barriers to care, health disparities are also driven by social determinants of health including income inequality, education, housing, environmental conditions, discrimination, and health literacy. Achieving health equity requires addressing these broader social conditions alongside ensuring healthcare access."
+        },
+        {
+          "id": "hd-ps-009-q5",
+          "stem": "The concept of preventable deaths (amenable mortality), on which the US ranked poorly, measures:",
+          "options": ["A. Deaths from all causes regardless of medical intervention capability", "B. Deaths from conditions that should not result in death given timely and effective healthcare", "C. Deaths that could only be prevented through lifestyle changes", "D. Deaths among individuals who chose not to seek medical care"],
+          "correct": 1,
+          "explanation": "Amenable mortality refers to deaths from conditions for which effective medical interventions exist, meaning these deaths could have been prevented with timely access to appropriate healthcare. A high rate of amenable mortality indicates healthcare system failure in delivering effective care to those who need it, making it a key indicator of healthcare system performance."
+        }
+      ]
+    },
+    {
+      "id": "hd-ps-010",
+      "passage": "Researchers examined the impact of adverse childhood experiences (ACEs) on lifelong health outcomes using data from 17,000 adults in a large health maintenance organization. The ACE study measured exposure to ten categories of childhood adversity: physical abuse, sexual abuse, emotional abuse, physical neglect, emotional neglect, domestic violence, household substance abuse, household mental illness, parental separation/divorce, and incarcerated household member. Results showed a striking dose-response relationship between ACE scores and health outcomes across the lifespan. Compared to individuals with zero ACEs, those with four or more ACEs had 2.2 times the risk of ischemic heart disease, 1.9 times the risk of cancer, 3.9 times the risk of chronic obstructive pulmonary disease, 12.2 times the risk of suicide attempt, and 4.7 times the risk of alcohol use disorder. The biological mechanism linking childhood adversity to adult disease was identified as toxic stress, a term describing prolonged activation of the stress response system without adequate buffering relationships. Toxic stress produces lasting changes in brain architecture, immune system functioning, and epigenetic modifications that alter gene expression patterns. The study found that ACEs were remarkably prevalent across all demographic groups, with 67% of participants reporting at least one ACE and 12.6% reporting four or more. However, ACE exposure was not equally distributed: individuals from lower-SES backgrounds and certain racial/ethnic minority groups reported significantly higher ACE scores, creating a mechanism through which social disadvantage translates into biological vulnerability across generations.",
+      "questions": [
+        {
+          "id": "hd-ps-010-q1",
+          "stem": "The dose-response relationship between ACE scores and health outcomes means that:",
+          "options": ["A. A single ACE is sufficient to produce maximum health damage", "B. Each additional ACE incrementally increases the risk of negative health outcomes in a graded fashion", "C. Only specific types of ACEs produce health consequences", "D. ACE effects are only observable in childhood, not adulthood"],
+          "correct": 1,
+          "explanation": "A dose-response relationship indicates that health risks increase proportionally with the number of ACEs experienced. Each additional adverse experience incrementally increases the cumulative risk, meaning that individuals with more ACEs face progressively greater health risks. This graded relationship strengthens the causal interpretation of the ACE-health connection."
+        },
+        {
+          "id": "hd-ps-010-q2",
+          "stem": "Toxic stress, as defined in the passage, differs from normal stress responses in that it involves:",
+          "options": ["A. Brief, manageable activation of stress systems that builds resilience", "B. Prolonged stress system activation without adequate buffering from supportive relationships", "C. Stress that occurs only in toxic environmental conditions", "D. Stress responses that are immediately resolved through fight-or-flight"],
+          "correct": 1,
+          "explanation": "Toxic stress is distinguished from normal (positive) or tolerable stress by its prolonged duration and the absence of buffering protective relationships. While brief stress can be adaptive and even resilience-building, prolonged activation of stress response systems without adequate recovery or supportive relationships produces lasting physiological damage to developing brain architecture and organ systems."
+        },
+        {
+          "id": "hd-ps-010-q3",
+          "stem": "Epigenetic modifications caused by toxic stress are significant because they:",
+          "options": ["A. Change the DNA sequence permanently and are always irreversible", "B. Alter gene expression patterns without changing DNA sequence, potentially affecting health across the lifespan and across generations", "C. Only affect genes related to stress hormones and have no broader health impact", "D. Are protective adaptations that improve long-term health outcomes"],
+          "correct": 1,
+          "explanation": "Epigenetic modifications alter gene expression through mechanisms such as DNA methylation and histone modification without changing the underlying DNA sequence. These changes can persist across the lifespan and potentially be transmitted to offspring, providing a molecular mechanism through which early adversity creates lasting biological changes that increase disease vulnerability."
+        },
+        {
+          "id": "hd-ps-010-q4",
+          "stem": "The finding that ACE exposure was higher among lower-SES and minority populations creates a pathway through which:",
+          "options": ["A. Social advantage translates into biological resilience, unrelated to social conditions", "B. Social disadvantage becomes embedded in biology through stress-mediated physiological changes, perpetuating health inequities across generations", "C. Biological differences between social groups are the primary cause of social stratification", "D. Health outcomes are determined entirely by genetic factors independent of social experience"],
+          "correct": 1,
+          "explanation": "The higher ACE exposure among disadvantaged populations creates a mechanism of biological embedding, where social disadvantage translates into physiological changes through toxic stress. These biological changes then produce worse health outcomes, which further compound social disadvantage, creating an intergenerational cycle where social inequality becomes inscribed in biology."
+        },
+        {
+          "id": "hd-ps-010-q5",
+          "stem": "The high overall prevalence of ACEs (67% reporting at least one) across all demographic groups suggests that:",
+          "options": ["A. ACEs are rare events affecting only severely disadvantaged populations", "B. Childhood adversity is a widespread public health issue that cuts across social boundaries, not limited to any single demographic group", "C. The ACE measure is too broad and captures trivial experiences", "D. Most adults are permanently damaged by childhood experiences"],
+          "correct": 1,
+          "explanation": "The widespread prevalence of ACEs across demographic groups reveals childhood adversity as a major public health concern that is not confined to stereotypically 'at-risk' populations. While exposure is higher among disadvantaged groups, the broad prevalence demonstrates that childhood adversity is a common human experience requiring population-level prevention and intervention strategies."
+        }
+      ]
+    }
+  ]
+}

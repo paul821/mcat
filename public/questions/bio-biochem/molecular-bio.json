@@ -1,0 +1,666 @@
+{
+  "subtopic": "DNA, RNA & Protein Synthesis",
+  "sectionId": "bio-biochem",
+  "passageSets": [
+    {
+      "id": "mb-ps-001",
+      "passage": "A molecular biology laboratory was investigating the replication of a circular bacterial chromosome. They used pulse-chase experiments with tritiated thymidine to map the progression of replication forks. The results confirmed bidirectional replication from a single origin of replication (oriC), with two replication forks proceeding in opposite directions around the chromosome until they met at the terminus region. At each replication fork, DNA polymerase III synthesized the leading strand continuously in the 5' to 3' direction, while the lagging strand was synthesized discontinuously as Okazaki fragments approximately 1000-2000 nucleotides in length. Each Okazaki fragment required an RNA primer synthesized by primase (DnaG), which was later removed by DNA polymerase I using its 5' to 3' exonuclease activity. The resulting gaps were sealed by DNA ligase. The researchers observed that treatment with novobiocin, an inhibitor of DNA gyrase (topoisomerase II), halted replication fork progression, while treatment with rifampicin, an inhibitor of RNA polymerase, had no effect on ongoing replication but prevented new rounds of initiation. The unwinding of parental DNA ahead of the fork was catalyzed by DnaB helicase, which moves in the 5' to 3' direction on the lagging strand template.",
+      "questions": [
+        {
+          "id": "mb-q-001",
+          "stem": "DNA polymerase III synthesizes DNA only in the 5' to 3' direction because:",
+          "options": [
+            "A. the enzyme can only add nucleotides to the 5' end of a growing chain",
+            "B. the enzyme catalyzes nucleophilic attack by the 3'-OH of the growing chain on the alpha-phosphate of the incoming dNTP, which can only occur at the 3' end",
+            "C. DNA strands are always oriented 5' to 3'",
+            "D. the template strand can only be read in the 3' to 5' direction starting from the origin"
+          ],
+          "correct": 1,
+          "explanation": "DNA polymerase III adds nucleotides exclusively to the 3'-OH end of a growing DNA chain. The mechanism involves a nucleophilic attack by the 3'-hydroxyl group on the alpha-phosphate of the incoming deoxyribonucleoside triphosphate, releasing pyrophosphate. This chemistry dictates that chain growth can only proceed in the 5' to 3' direction, as there is no enzymatic mechanism for adding nucleotides to the 5' end."
+        },
+        {
+          "id": "mb-q-002",
+          "stem": "The requirement for RNA primers in DNA replication exists because:",
+          "options": [
+            "A. DNA polymerase requires a double-stranded template",
+            "B. DNA polymerase cannot initiate new strand synthesis de novo and requires a pre-existing 3'-OH group provided by the RNA primer",
+            "C. RNA primers provide the energy needed for DNA synthesis",
+            "D. RNA is more stable than DNA and protects the new strand"
+          ],
+          "correct": 1,
+          "explanation": "Unlike RNA polymerase, DNA polymerase cannot initiate synthesis de novo because it requires a pre-existing primer with a free 3'-hydroxyl group to which it can add new nucleotides. Primase (an RNA polymerase) can initiate synthesis without a primer and provides the short RNA oligonucleotide with a 3'-OH that DNA polymerase III then extends. This is a fundamental difference between DNA and RNA polymerases."
+        },
+        {
+          "id": "mb-q-003",
+          "stem": "Novobiocin halts replication fork progression because DNA gyrase is needed to:",
+          "options": [
+            "A. synthesize RNA primers for Okazaki fragments",
+            "B. relieve the positive supercoiling that accumulates ahead of the replication fork as the helix unwinds",
+            "C. join Okazaki fragments together on the lagging strand",
+            "D. proofread newly synthesized DNA for errors"
+          ],
+          "correct": 1,
+          "explanation": "As the replication fork advances and DnaB helicase unwinds the parental DNA, positive supercoils accumulate ahead of the fork due to the overwinding of the still-wound DNA. DNA gyrase (a type II topoisomerase) introduces negative supercoils to relieve this tension. Without gyrase activity, the accumulated positive supercoiling creates torsional stress that physically prevents further unwinding and fork progression."
+        },
+        {
+          "id": "mb-q-004",
+          "stem": "Rifampicin prevents new rounds of replication initiation but not ongoing replication because:",
+          "options": [
+            "A. new initiation at oriC requires transcription by RNA polymerase to open the DNA duplex, but ongoing replication uses primase instead",
+            "B. rifampicin only works at low temperatures",
+            "C. ongoing replication does not require any RNA synthesis",
+            "D. rifampicin is degraded by DnaB helicase during active replication"
+          ],
+          "correct": 0,
+          "explanation": "Initiation of replication at oriC requires transcriptional activation by RNA polymerase to help melt the AT-rich origin region and facilitate DnaA binding. Rifampicin inhibits bacterial RNA polymerase but does not affect primase (DnaG), which is a specialized RNA polymerase that synthesizes the short primers needed for ongoing Okazaki fragment synthesis. Thus, ongoing replication continues but new initiation events are blocked."
+        },
+        {
+          "id": "mb-q-005",
+          "stem": "The 5' to 3' exonuclease activity of DNA polymerase I is essential for:",
+          "options": [
+            "A. unwinding the DNA double helix ahead of the fork",
+            "B. removing RNA primers from Okazaki fragments and replacing them with DNA",
+            "C. adding nucleotides to the 3' end of the growing chain",
+            "D. detecting and correcting mismatched base pairs"
+          ],
+          "correct": 1,
+          "explanation": "DNA polymerase I has a unique 5' to 3' exonuclease activity that allows it to remove RNA primers from the 5' ends of Okazaki fragments while simultaneously synthesizing DNA to fill the gap (nick translation). This activity degrades the RNA primer nucleotides one at a time from the 5' end while the polymerase activity extends the adjacent Okazaki fragment. DNA ligase then seals the remaining nick."
+        }
+      ]
+    },
+    {
+      "id": "mb-ps-002",
+      "passage": "Researchers studied eukaryotic transcription of a protein-coding gene by analyzing the regulatory elements and transcription machinery involved. The gene's promoter contained a TATA box located approximately 25-30 base pairs upstream of the transcription start site, along with several upstream enhancer elements. Transcription initiation required the sequential assembly of general transcription factors: TFIID (containing the TATA-binding protein, TBP) bound first, followed by TFIIB, TFIIF with RNA polymerase II, and then TFIIE and TFIIH. TFIIH exhibited both helicase and kinase activities; its kinase activity phosphorylated the C-terminal domain (CTD) of RNA polymerase II, enabling the transition from initiation to elongation. The primary transcript (pre-mRNA) underwent three major processing events: addition of a 7-methylguanosine cap at the 5' end, splicing to remove introns and join exons, and cleavage/polyadenylation at the 3' end to add a poly-A tail of approximately 200 adenine residues. The researchers also observed alternative splicing of the pre-mRNA, producing three different mature mRNA isoforms from the same gene. Mutations in the splice donor site (GT) at the 5' end of intron 3 resulted in exon skipping, producing an aberrant mRNA lacking exon 3.",
+      "questions": [
+        {
+          "id": "mb-q-006",
+          "stem": "The TATA box functions in transcription by:",
+          "options": [
+            "A. serving as the start codon for translation",
+            "B. positioning RNA polymerase II at the correct transcription start site through binding of TBP within TFIID",
+            "C. acting as an enhancer that increases transcription rate from distant locations",
+            "D. serving as the termination signal for transcription"
+          ],
+          "correct": 1,
+          "explanation": "The TATA box is a core promoter element that recruits TFIID through its TBP subunit. TBP binds to the TATA box and bends the DNA, creating a platform for the assembly of the remaining general transcription factors and RNA polymerase II. The position of the TATA box (~25-30 bp upstream) determines where transcription initiates, ensuring the correct start site is used."
+        },
+        {
+          "id": "mb-q-007",
+          "stem": "Phosphorylation of the CTD of RNA polymerase II by TFIIH is important because it:",
+          "options": [
+            "A. enables the polymerase to bind the TATA box",
+            "B. triggers the release of general transcription factors and transition from initiation to productive elongation",
+            "C. adds a 5' cap to the mRNA",
+            "D. causes the polymerase to terminate transcription"
+          ],
+          "correct": 1,
+          "explanation": "CTD phosphorylation by the kinase activity of TFIIH is a critical regulatory step that converts RNA polymerase II from the initiation mode to the elongation mode. The phosphorylated CTD releases most general transcription factors from the promoter and recruits elongation factors and RNA processing machinery. This marks the commitment to productive transcription and coordinates mRNA processing events."
+        },
+        {
+          "id": "mb-q-008",
+          "stem": "The 5' cap and poly-A tail of mRNA serve to:",
+          "options": [
+            "A. encode additional amino acids at the protein termini",
+            "B. protect the mRNA from exonuclease degradation and facilitate nuclear export, ribosome binding, and translation initiation",
+            "C. provide the intron-exon splice signals",
+            "D. serve as the origin of replication for the mRNA"
+          ],
+          "correct": 1,
+          "explanation": "The 7-methylguanosine 5' cap protects mRNA from 5' exonuclease degradation and is recognized by the cap-binding complex for nuclear export and by eIF4E for translation initiation. The poly-A tail protects from 3' exonuclease degradation and is bound by poly-A binding protein, which enhances mRNA stability and promotes translation. Together, these modifications are essential for mRNA function and longevity."
+        },
+        {
+          "id": "mb-q-009",
+          "stem": "Alternative splicing of the same pre-mRNA into three isoforms demonstrates that:",
+          "options": [
+            "A. three different genes encode the three isoforms",
+            "B. a single gene can encode multiple protein variants by including or excluding different combinations of exons",
+            "C. only one mRNA isoform is functional",
+            "D. introns are always included in the mature mRNA"
+          ],
+          "correct": 1,
+          "explanation": "Alternative splicing allows a single gene to produce multiple mRNA isoforms by varying which exons are included or excluded in the mature mRNA. Different combinations of exons can encode proteins with different functional domains, tissue-specific expression patterns, or regulatory properties. This greatly increases proteomic diversity beyond what the gene number alone would predict."
+        },
+        {
+          "id": "mb-q-010",
+          "stem": "The exon skipping caused by the splice donor site mutation occurs because:",
+          "options": [
+            "A. the mutation prevents recognition of the 5' splice site of intron 3 by the spliceosome, causing it to skip exon 3 and join exon 2 directly to exon 4",
+            "B. the mutation creates a new stop codon in exon 3",
+            "C. the mutation activates a cryptic promoter within intron 3",
+            "D. the mutation converts the intron into an exon"
+          ],
+          "correct": 0,
+          "explanation": "Splice donor sites at the 5' end of introns contain the nearly invariant GT dinucleotide that is essential for spliceosome recognition. When this sequence is mutated, the spliceosome cannot recognize the boundary between exon 3 and intron 3. As a result, the splicing machinery skips exon 3 entirely, joining exon 2 to exon 4 and producing a shorter mRNA lacking the information encoded by exon 3."
+        }
+      ]
+    },
+    {
+      "id": "mb-ps-003",
+      "passage": "A genetics laboratory analyzed the translation of a eukaryotic mRNA encoding a 400-amino-acid cytoplasmic protein. The mRNA contained a 5' UTR of 120 nucleotides, an open reading frame of 1203 nucleotides (including the start and stop codons), and a 3' UTR of 350 nucleotides followed by the poly-A tail. Translation initiation required recognition of the 5' cap by eukaryotic initiation factor eIF4E, scanning by the 40S ribosomal subunit to the first AUG codon in an optimal Kozak sequence context, and joining of the 60S subunit to form the 80S initiation complex. During elongation, aminoacyl-tRNAs were delivered to the A site of the ribosome by EF-Tu (eEF1A in eukaryotes) in a GTP-dependent manner. Peptide bond formation was catalyzed by the peptidyl transferase center of the large ribosomal subunit, which is composed of ribosomal RNA rather than protein, making it a ribozyme. Translocation of the ribosome along the mRNA by one codon was driven by EF-G (eEF2) hydrolysis of GTP. The researchers treated cells with various antibiotics: chloramphenicol inhibited peptidyl transferase activity in bacterial ribosomes but not eukaryotic ribosomes, while cycloheximide inhibited eukaryotic translocation. Puromycin, which structurally mimics aminoacyl-tRNA, caused premature chain termination in both prokaryotic and eukaryotic systems.",
+      "questions": [
+        {
+          "id": "mb-q-011",
+          "stem": "The open reading frame encodes a 400-amino-acid protein from 1203 nucleotides because:",
+          "options": [
+            "A. each amino acid is encoded by 3 nucleotides, and the stop codon does not encode an amino acid: (400 x 3) + 3 = 1203",
+            "B. some amino acids require 4 nucleotides to encode",
+            "C. the UTR regions also encode amino acids",
+            "D. every nucleotide encodes one amino acid"
+          ],
+          "correct": 0,
+          "explanation": "The genetic code uses triplet codons, where each three-nucleotide sequence specifies one amino acid. A 400-amino-acid protein requires 400 codons (1200 nucleotides) plus one stop codon (3 nucleotides) that signals translation termination but does not encode an amino acid. The AUG start codon encodes the first methionine and is included in the 400 amino acids, giving a total ORF of 1203 nucleotides."
+        },
+        {
+          "id": "mb-q-012",
+          "stem": "The peptidyl transferase center being a ribozyme indicates that:",
+          "options": [
+            "A. only protein enzymes can catalyze biological reactions",
+            "B. ribosomal RNA, not ribosomal protein, catalyzes peptide bond formation, supporting the RNA world hypothesis",
+            "C. the ribosome does not require RNA for function",
+            "D. proteins evolved before RNA in the history of life"
+          ],
+          "correct": 1,
+          "explanation": "The discovery that the peptidyl transferase activity resides in the ribosomal RNA (23S rRNA in prokaryotes, 28S rRNA in eukaryotes) rather than ribosomal proteins demonstrated that RNA can function as a catalyst (ribozyme). This supports the RNA world hypothesis, which proposes that RNA preceded proteins as biological catalysts. The ribosome is essentially a ribozyme where the RNA component performs the critical catalytic function."
+        },
+        {
+          "id": "mb-q-013",
+          "stem": "Chloramphenicol selectively inhibits bacterial but not eukaryotic ribosomes because:",
+          "options": [
+            "A. eukaryotic cells cannot import chloramphenicol",
+            "B. the structural differences between bacterial (70S) and eukaryotic (80S) ribosomes result in different antibiotic binding properties",
+            "C. eukaryotic ribosomes do not form peptide bonds",
+            "D. chloramphenicol is degraded by eukaryotic proteases"
+          ],
+          "correct": 1,
+          "explanation": "Bacterial 70S ribosomes (composed of 30S and 50S subunits) and eukaryotic 80S ribosomes (composed of 40S and 60S subunits) differ significantly in structure and composition. Chloramphenicol binds specifically to the 50S bacterial ribosomal subunit near the peptidyl transferase center, but the corresponding region of the eukaryotic 60S subunit has a different structure that does not bind chloramphenicol. This selectivity is the basis for chloramphenicol's use as an antibiotic."
+        },
+        {
+          "id": "mb-q-014",
+          "stem": "Puromycin causes premature chain termination because:",
+          "options": [
+            "A. it blocks the ribosome from binding mRNA",
+            "B. it enters the A site and forms a peptide bond with the growing chain, but cannot form the next peptide bond, causing release of a truncated peptide-puromycin product",
+            "C. it cleaves the mRNA at the start codon",
+            "D. it inhibits initiation factor binding to the 5' cap"
+          ],
+          "correct": 1,
+          "explanation": "Puromycin structurally resembles aminoacyl-tRNA and enters the ribosomal A site. The peptidyl transferase catalyzes peptide bond formation between the growing polypeptide and puromycin. However, the resulting peptidyl-puromycin product cannot participate in further elongation because puromycin lacks the structural features needed for continued peptide bond formation. The truncated polypeptide-puromycin conjugate is released prematurely from the ribosome."
+        },
+        {
+          "id": "mb-q-015",
+          "stem": "The scanning mechanism for translation initiation in eukaryotes involves:",
+          "options": [
+            "A. the ribosome binding directly to an internal ribosome entry site",
+            "B. the 40S subunit binding near the 5' cap and moving along the 5' UTR until it encounters the first AUG in a favorable Kozak context",
+            "C. the 60S subunit recognizing the stop codon first",
+            "D. tRNA binding to the mRNA before the ribosome arrives"
+          ],
+          "correct": 1,
+          "explanation": "In the canonical eukaryotic translation initiation mechanism, eIF4E binds the 5' cap and recruits the 43S pre-initiation complex (40S subunit with initiator Met-tRNA and initiation factors). This complex scans the 5' UTR in the 5' to 3' direction until it encounters the first AUG codon in a favorable Kozak sequence context (optimal: ACCAUGG). Recognition of the start codon triggers joining of the 60S subunit to form the functional 80S ribosome."
+        }
+      ]
+    },
+    {
+      "id": "mb-ps-004",
+      "passage": "Researchers studying gene regulation in E. coli analyzed the lac operon as a model of prokaryotic transcriptional control. The operon contains three structural genes (lacZ, lacY, lacA) transcribed as a polycistronic mRNA from a single promoter. In the absence of lactose, the lac repressor (encoded by lacI) binds to the operator and blocks RNA polymerase from transcribing the structural genes. When lactose is present, it is converted to allolactose, which binds to the repressor and induces a conformational change that releases it from the operator. However, even in the presence of lactose, transcription remains low unless glucose is absent. This catabolite repression is mediated by the cAMP-CAP system: when glucose is low, cAMP levels rise and cAMP binds to the catabolite activator protein (CAP). The cAMP-CAP complex binds upstream of the lac promoter and enhances RNA polymerase binding, increasing transcription 50-fold. Maximum transcription occurs only when both conditions are met: lactose present (repressor removed) and glucose absent (cAMP-CAP active). The researchers generated several mutations: an operator-constitutive mutation (Oc) that prevented repressor binding, an Is mutation producing a super-repressor that could not bind allolactose, and a lacI- mutation that eliminated repressor production entirely.",
+      "questions": [
+        {
+          "id": "mb-q-016",
+          "stem": "The lac operon is maximally expressed when:",
+          "options": [
+            "A. both glucose and lactose are present",
+            "B. glucose is absent and lactose is present, providing both cAMP-CAP activation and repressor removal",
+            "C. both glucose and lactose are absent",
+            "D. glucose is present and lactose is absent"
+          ],
+          "correct": 1,
+          "explanation": "Maximum lac operon expression requires two conditions simultaneously. First, lactose must be present (as allolactose) to remove the repressor from the operator, allowing RNA polymerase access. Second, glucose must be absent so that cAMP accumulates and forms the cAMP-CAP complex, which enhances RNA polymerase binding to the promoter. Neither condition alone produces maximum expression."
+        },
+        {
+          "id": "mb-q-017",
+          "stem": "The Oc (operator-constitutive) mutation is cis-acting, meaning it only affects genes on the same DNA molecule because:",
+          "options": [
+            "A. the operator produces a diffusible protein product",
+            "B. the operator is a DNA sequence that must be physically adjacent to the genes it controls; it does not encode a diffusible product",
+            "C. the repressor can only bind to mutant operators",
+            "D. the mutation changes the amino acid sequence of the repressor"
+          ],
+          "correct": 1,
+          "explanation": "The operator is a DNA regulatory element, not a gene encoding a diffusible product. It functions only by being physically adjacent to the genes it controls on the same DNA molecule (in cis). An Oc mutation prevents repressor binding to that specific operator, but a normal operator on another DNA molecule (in a partial diploid) would still be regulated normally. This contrasts with trans-acting elements like the repressor protein."
+        },
+        {
+          "id": "mb-q-018",
+          "stem": "The Is (super-repressor) mutation results in:",
+          "options": [
+            "A. constitutive expression of the lac operon regardless of lactose",
+            "B. permanent repression of the lac operon even in the presence of lactose, because the mutant repressor cannot undergo the conformational change needed to release from the operator",
+            "C. increased sensitivity to allolactose induction",
+            "D. inability to produce the repressor protein"
+          ],
+          "correct": 1,
+          "explanation": "The Is super-repressor has a mutation in the allolactose binding site that prevents the inducer from binding. Without allolactose binding, the repressor cannot undergo the conformational change that would release it from the operator. Therefore, the repressor remains permanently bound to the operator, constitutively repressing the lac operon even when lactose is available. This mutation is dominant because the mutant repressor can bind operators on any DNA molecule."
+        },
+        {
+          "id": "mb-q-019",
+          "stem": "Catabolite repression of the lac operon by glucose ensures that:",
+          "options": [
+            "A. lactose is always the preferred carbon source",
+            "B. the cell preferentially uses glucose (the more efficiently metabolized sugar) before investing resources in lactose metabolism",
+            "C. cAMP levels remain high when glucose is abundant",
+            "D. the repressor binds more tightly in the presence of glucose"
+          ],
+          "correct": 1,
+          "explanation": "Catabolite repression is an energy-saving mechanism that ensures E. coli uses the most efficiently metabolized carbon source first. When glucose is available, cAMP levels are low and the cAMP-CAP activator complex does not form, keeping lac operon expression low even if lactose is present. Only when glucose is depleted do cAMP levels rise sufficiently to activate transcription of the lac operon and other catabolic operons."
+        },
+        {
+          "id": "mb-q-020",
+          "stem": "A lacI- mutation that eliminates repressor production would result in:",
+          "options": [
+            "A. permanent repression of the lac operon",
+            "B. constitutive expression of the lac operon in the absence of lactose, since no repressor is available to block transcription",
+            "C. no change in lac operon regulation",
+            "D. increased repressor binding to the operator"
+          ],
+          "correct": 1,
+          "explanation": "Without functional repressor protein, the operator is never occupied and RNA polymerase can access the promoter at all times. This results in constitutive (always-on) expression of the lac structural genes regardless of whether lactose is present. However, expression would still be modulated by the cAMP-CAP system, so glucose availability would still affect the level of constitutive expression."
+        }
+      ]
+    },
+    {
+      "id": "mb-ps-005",
+      "passage": "A forensic genetics laboratory used polymerase chain reaction (PCR) to amplify DNA from a crime scene sample. The DNA was partially degraded, yielding fragments averaging 500 base pairs. The technicians designed primers flanking a 200-bp region of a short tandem repeat (STR) locus used in forensic identification. The PCR protocol consisted of 30 cycles, each with three temperature steps: denaturation at 95 degrees Celsius for 30 seconds, primer annealing at 58 degrees Celsius for 30 seconds, and extension at 72 degrees Celsius for 60 seconds. Taq DNA polymerase, a thermostable enzyme isolated from Thermus aquaticus, was used because it retains activity through repeated denaturation cycles. After PCR, the amplified products were analyzed by capillary electrophoresis, revealing two alleles at the STR locus with fragment sizes of 200 bp and 216 bp, indicating the contributor was heterozygous. The technicians also performed a quantitative PCR (qPCR) experiment to determine the initial amount of template DNA, using fluorescent probes that emit signal proportional to the amount of amplified product. The cycle threshold (Ct) value for the crime scene sample was 28, while a standard containing 1 ng of DNA had a Ct of 18. Each cycle represents a 2-fold amplification in the exponential phase.",
+      "questions": [
+        {
+          "id": "mb-q-021",
+          "stem": "After 30 cycles of PCR starting with a single template molecule, the theoretical maximum number of copies produced is:",
+          "options": [
+            "A. 30",
+            "B. 60",
+            "C. approximately 10^9 (2^30)",
+            "D. 300"
+          ],
+          "correct": 2,
+          "explanation": "PCR amplifies DNA exponentially, doubling the number of copies with each cycle in the ideal case. Starting from one template molecule, after n cycles the theoretical yield is 2^n copies. After 30 cycles: 2^30 = approximately 1.07 x 10^9, or about one billion copies. In practice, the actual yield is somewhat lower due to reagent depletion and enzyme efficiency, but the exponential amplification is the key principle."
+        },
+        {
+          "id": "mb-q-022",
+          "stem": "Taq polymerase is essential for PCR because:",
+          "options": [
+            "A. it has proofreading 3' to 5' exonuclease activity",
+            "B. it is thermostable and retains activity after repeated exposure to 95 degrees Celsius denaturation temperature",
+            "C. it can synthesize DNA without primers",
+            "D. it works only at room temperature"
+          ],
+          "correct": 1,
+          "explanation": "Taq polymerase, derived from the thermophilic bacterium Thermus aquaticus, is thermostable and retains enzymatic activity even after repeated exposure to 95 degrees Celsius during the denaturation step. This eliminates the need to add fresh enzyme after each cycle, making automated PCR cycling possible. Non-thermostable polymerases would be irreversibly denatured at the high temperatures required for DNA strand separation."
+        },
+        {
+          "id": "mb-q-023",
+          "stem": "The two STR alleles of 200 bp and 216 bp differ by 16 bp, which most likely represents:",
+          "options": [
+            "A. a single nucleotide polymorphism",
+            "B. a difference of 4 tetranucleotide repeat units between the two alleles",
+            "C. a large chromosomal deletion",
+            "D. a frameshift mutation in a coding region"
+          ],
+          "correct": 1,
+          "explanation": "STR (short tandem repeat) loci consist of tandem repeats of short sequence motifs, most commonly 4 nucleotides (tetranucleotide repeats) in forensic markers. A 16-bp difference between alleles corresponds to 4 additional repeat units (4 x 4 = 16 bp). STR alleles vary in the number of repeat units, and this variation is the basis for forensic DNA profiling."
+        },
+        {
+          "id": "mb-q-024",
+          "stem": "Based on the qPCR data, the approximate amount of template DNA in the crime scene sample is:",
+          "options": [
+            "A. 10 ng",
+            "B. approximately 1 picogram, since the Ct difference of 10 represents 2^10 = 1024-fold less DNA than the 1 ng standard",
+            "C. 1 microgram",
+            "D. 100 ng"
+          ],
+          "correct": 1,
+          "explanation": "In qPCR, the Ct value is inversely proportional to the initial template amount on a log2 scale. The crime scene sample (Ct = 28) reached the detection threshold 10 cycles later than the 1 ng standard (Ct = 18). Since each cycle represents a 2-fold difference: 2^10 = 1024. Therefore, the crime scene sample contained approximately 1 ng / 1024 = approximately 1 pg of template DNA."
+        },
+        {
+          "id": "mb-q-025",
+          "stem": "The primer annealing temperature of 58 degrees Celsius is lower than the denaturation temperature because:",
+          "options": [
+            "A. primers must be denatured before they can bind",
+            "B. a lower temperature allows the short primers to form stable hydrogen bonds with complementary template sequences while the long template strands remain denatured",
+            "C. Taq polymerase only works at 58 degrees Celsius",
+            "D. the template DNA fully renatures at this temperature"
+          ],
+          "correct": 1,
+          "explanation": "The annealing temperature is set below the melting temperature of the primers to allow them to form stable base-pair hydrogen bonds with their complementary sequences on the denatured template strands. Short primers (typically 18-25 nucleotides) have lower melting temperatures than the much longer template strands, so at 58 degrees the primers can anneal while the full-length template strands remain largely denatured, preventing template reannealing from competing with primer binding."
+        }
+      ]
+    },
+    {
+      "id": "mb-ps-006",
+      "passage": "A research team used gel electrophoresis techniques to analyze nucleic acids and proteins from a cell line with a suspected chromosomal translocation. Agarose gel electrophoresis of restriction enzyme-digested genomic DNA revealed aberrant fragment sizes when probed by Southern blotting for the BCR and ABL genes. The normal BCR gene produced a single 6.2 kb fragment with BamHI digestion, but the patient sample showed both the normal 6.2 kb fragment and a novel 8.5 kb fragment, suggesting a rearrangement. Northern blotting of total RNA using a BCR-ABL fusion probe detected an abnormal 8.5 kb mRNA not present in control cells. Western blotting with anti-ABL antibodies revealed a 210 kDa protein (p210) in the patient cells instead of the normal 145 kDa ABL protein. The researchers also performed RT-PCR using primers spanning the BCR-ABL fusion junction, confirming the presence of the fusion transcript. Sanger sequencing of the RT-PCR product identified the exact fusion point at BCR exon 13 joined to ABL exon 2. The p210 BCR-ABL fusion protein exhibited constitutive tyrosine kinase activity, unlike the normally regulated c-ABL kinase, and was identified as the oncogenic driver of chronic myelogenous leukemia (CML).",
+      "questions": [
+        {
+          "id": "mb-q-026",
+          "stem": "Southern blotting differs from Northern blotting in that Southern blotting:",
+          "options": [
+            "A. detects RNA while Northern detects DNA",
+            "B. detects DNA fragments separated by gel electrophoresis and transferred to a membrane, while Northern blotting detects RNA",
+            "C. does not require a probe for detection",
+            "D. separates proteins by molecular weight"
+          ],
+          "correct": 1,
+          "explanation": "Southern blotting (named after Edwin Southern) involves separating DNA fragments by agarose gel electrophoresis, transferring them to a membrane, and hybridizing with a labeled nucleic acid probe to detect specific DNA sequences. Northern blotting applies the same principle to RNA detection. The naming convention (Southern for DNA, Northern for RNA, Western for protein) reflects the historical development of these techniques."
+        },
+        {
+          "id": "mb-q-027",
+          "stem": "The novel 8.5 kb restriction fragment in the patient sample indicates that:",
+          "options": [
+            "A. the BamHI enzyme did not cut the DNA completely",
+            "B. the chromosomal translocation created a new restriction fragment by joining portions of BCR and ABL genes, altering the distance between BamHI sites",
+            "C. the patient has three copies of the BCR gene",
+            "D. the probe hybridized nonspecifically"
+          ],
+          "correct": 1,
+          "explanation": "The chromosomal translocation fuses portions of the BCR gene (chromosome 22) with the ABL gene (chromosome 9), creating a novel junction. This rearrangement changes the distances between BamHI restriction sites, generating a new 8.5 kb fragment that is not present in normal DNA. The persistence of the normal 6.2 kb fragment indicates that one normal copy of BCR remains on the non-translocated chromosome."
+        },
+        {
+          "id": "mb-q-028",
+          "stem": "RT-PCR was used instead of standard PCR to detect the BCR-ABL fusion because:",
+          "options": [
+            "A. standard PCR can amplify RNA directly",
+            "B. the fusion exists in mRNA, and RT-PCR first converts RNA to cDNA using reverse transcriptase before PCR amplification",
+            "C. RT-PCR is less sensitive than standard PCR",
+            "D. standard PCR requires RNA primers"
+          ],
+          "correct": 1,
+          "explanation": "RT-PCR (reverse transcription PCR) is used when the target is RNA rather than DNA. The first step uses reverse transcriptase to synthesize complementary DNA (cDNA) from the mRNA template, and the second step amplifies this cDNA by standard PCR. This approach is necessary because PCR primers require DNA templates and Taq polymerase cannot use RNA as a template. RT-PCR also detects only expressed (transcribed) genes."
+        },
+        {
+          "id": "mb-q-029",
+          "stem": "The larger size of the BCR-ABL fusion protein (210 kDa) compared to normal ABL (145 kDa) is because:",
+          "options": [
+            "A. the fusion protein is glycosylated more heavily than normal ABL",
+            "B. the fusion protein contains additional amino acid sequences from BCR joined to most of ABL, increasing the total molecular weight",
+            "C. normal ABL is partially degraded during electrophoresis",
+            "D. the fusion protein forms a dimer that migrates as a single band"
+          ],
+          "correct": 1,
+          "explanation": "The BCR-ABL fusion gene encodes a chimeric protein that contains the N-terminal portion of BCR (from exons 1-13) fused to nearly all of ABL (from exon 2 onward). The BCR sequences add approximately 65 kDa of additional protein to the ABL component, resulting in the 210 kDa fusion protein. The increased size is directly detected by SDS-PAGE in the Western blot as a higher molecular weight band."
+        },
+        {
+          "id": "mb-q-030",
+          "stem": "The constitutive tyrosine kinase activity of BCR-ABL drives CML because:",
+          "options": [
+            "A. normal c-ABL is always active and BCR-ABL is always inactive",
+            "B. the BCR sequences disrupt the normal autoinhibitory regulation of ABL kinase, causing uncontrolled phosphorylation of downstream signaling proteins that promote cell proliferation",
+            "C. BCR-ABL functions as a tumor suppressor",
+            "D. the fusion protein degrades all other kinases in the cell"
+          ],
+          "correct": 1,
+          "explanation": "Normal c-ABL kinase activity is tightly regulated by autoinhibitory domains that keep the kinase inactive until appropriate signals are received. The BCR fusion disrupts these autoinhibitory mechanisms, resulting in constitutive (always active) tyrosine kinase activity. This unregulated kinase continuously phosphorylates downstream signaling proteins in proliferative and anti-apoptotic pathways, driving the uncontrolled cell growth characteristic of CML."
+        }
+      ]
+    },
+    {
+      "id": "mb-ps-007",
+      "passage": "Scientists investigating eukaryotic gene regulation studied epigenetic modifications in a tumor suppressor gene that was silenced in cancer cells. Bisulfite sequencing revealed extensive methylation of CpG dinucleotides within the gene's promoter region. In normal cells, these CpG sites were unmethylated and the gene was actively transcribed. DNA methylation was catalyzed by DNA methyltransferases (DNMTs), which transfer a methyl group from S-adenosylmethionine (SAM) to the 5-carbon of cytosine, producing 5-methylcytosine. The methylated promoter recruited methyl-CpG binding domain proteins (MBDs), which in turn recruited histone deacetylase complexes (HDACs). HDAC activity removed acetyl groups from histone H3 and H4 lysine residues, leading to chromatin condensation and transcriptional silencing. The researchers treated cancer cells with 5-azacytidine, a DNMT inhibitor that is incorporated into DNA and forms a covalent complex with DNMTs, depleting them from the cell. After treatment, the tumor suppressor gene was re-expressed. They also used the HDAC inhibitor trichostatin A (TSA), which reactivated the gene but to a lesser extent than 5-azacytidine. Combination treatment with both drugs produced synergistic reactivation, suggesting that DNA methylation and histone deacetylation cooperate in gene silencing.",
+      "questions": [
+        {
+          "id": "mb-q-031",
+          "stem": "Bisulfite sequencing distinguishes methylated from unmethylated cytosines because:",
+          "options": [
+            "A. bisulfite adds methyl groups to unmethylated cytosines",
+            "B. bisulfite converts unmethylated cytosine to uracil (read as thymine after PCR) while 5-methylcytosine is protected from conversion",
+            "C. bisulfite removes methyl groups from methylated cytosines",
+            "D. bisulfite fragments DNA only at methylated sites"
+          ],
+          "correct": 1,
+          "explanation": "Sodium bisulfite treatment deaminates unmethylated cytosine to uracil, which is then read as thymine after PCR amplification. However, 5-methylcytosine is resistant to bisulfite-mediated deamination and remains as cytosine. By comparing the treated sequence to the reference sequence, researchers can determine which cytosines were methylated (remain as C) and which were unmethylated (converted to T) at single-nucleotide resolution."
+        },
+        {
+          "id": "mb-q-032",
+          "stem": "Histone deacetylation promotes transcriptional silencing because:",
+          "options": [
+            "A. deacetylation adds positive charges to histones",
+            "B. removal of acetyl groups restores positive charges on lysine residues, strengthening histone-DNA electrostatic interactions and compacting chromatin",
+            "C. deacetylated histones are degraded by the proteasome",
+            "D. HDAC activity directly methylates DNA"
+          ],
+          "correct": 1,
+          "explanation": "Acetylation of lysine residues neutralizes their positive charge, weakening histone-DNA interactions and creating a more open chromatin structure accessible to transcription factors. When HDACs remove acetyl groups, the positive charges on lysine are restored, strengthening electrostatic interactions between the positively charged histones and the negatively charged DNA phosphate backbone. This leads to chromatin condensation and reduced transcription factor access."
+        },
+        {
+          "id": "mb-q-033",
+          "stem": "The synergistic effect of combining 5-azacytidine and TSA suggests that:",
+          "options": [
+            "A. the two drugs target the same molecular mechanism",
+            "B. DNA methylation and histone deacetylation are independent but cooperative mechanisms of gene silencing, and relieving both barriers is more effective than addressing either alone",
+            "C. TSA inhibits the same enzyme as 5-azacytidine",
+            "D. gene silencing involves only one epigenetic mechanism"
+          ],
+          "correct": 1,
+          "explanation": "The synergistic reactivation demonstrates that DNA methylation and histone deacetylation are two distinct but cooperative layers of epigenetic silencing. Methylated DNA recruits HDACs, creating a reinforcing cycle. Removing methylation with 5-azacytidine eliminates the primary silencing mark and the recruitment signal for HDACs, while TSA directly blocks HDAC activity. Targeting both mechanisms simultaneously breaks the silencing cycle more effectively."
+        },
+        {
+          "id": "mb-q-034",
+          "stem": "CpG methylation in promoters is considered an epigenetic modification because:",
+          "options": [
+            "A. it changes the DNA nucleotide sequence",
+            "B. it alters gene expression without changing the underlying DNA sequence and can be inherited through cell division",
+            "C. it only affects RNA, not DNA",
+            "D. it is irreversible and cannot be changed"
+          ],
+          "correct": 1,
+          "explanation": "Epigenetic modifications are heritable changes in gene expression that do not involve alterations to the DNA sequence itself. CpG methylation adds a methyl group to cytosine without changing it to a different base, yet this modification profoundly affects transcription. Furthermore, the methylation pattern is maintained through cell division by the maintenance methyltransferase DNMT1, which recognizes hemimethylated sites after replication and methylates the daughter strand."
+        },
+        {
+          "id": "mb-q-035",
+          "stem": "The methyl donor for DNA methylation, S-adenosylmethionine (SAM), is synthesized from which amino acid?",
+          "options": [
+            "A. Cysteine",
+            "B. Methionine",
+            "C. Serine",
+            "D. Glycine"
+          ],
+          "correct": 1,
+          "explanation": "S-adenosylmethionine (SAM) is synthesized from the amino acid methionine and ATP by the enzyme methionine adenosyltransferase. SAM is the universal methyl donor in biological systems, providing methyl groups for DNA methylation, histone methylation, and many other methylation reactions. After donating its methyl group, SAM is converted to S-adenosylhomocysteine (SAH), which is subsequently metabolized in the methionine cycle."
+        }
+      ]
+    },
+    {
+      "id": "mb-ps-008",
+      "passage": "A genome editing laboratory used CRISPR-Cas9 technology to knock out a gene involved in cholesterol metabolism in hepatocyte cell lines. The CRISPR system consisted of the Cas9 endonuclease from Streptococcus pyogenes and a single guide RNA (sgRNA) designed to target a 20-nucleotide sequence within exon 4 of the target gene, adjacent to a 5'-NGG-3' protospacer adjacent motif (PAM). Cas9 created a double-strand break (DSB) at the target site, which was repaired by the cell's non-homologous end joining (NHEJ) pathway, introducing insertions or deletions (indels) that disrupted the reading frame. Sequencing of edited clones revealed that clone A had a 2-bp deletion, clone B had a 1-bp insertion, and clone C had a 3-bp deletion. Western blot analysis showed that clone A and clone B produced no detectable protein, while clone C produced a protein that was slightly shorter than wild-type but still detectable. The researchers also designed a homology-directed repair (HDR) experiment using a donor template containing a corrected sequence flanked by homology arms to introduce a precise single-nucleotide change. HDR efficiency was only 5% compared to 65% for NHEJ-mediated disruption, and it required cells to be in S or G2 phase of the cell cycle.",
+      "questions": [
+        {
+          "id": "mb-q-036",
+          "stem": "The PAM sequence (5'-NGG-3') is required for CRISPR-Cas9 function because:",
+          "options": [
+            "A. the sgRNA binds to the PAM sequence",
+            "B. Cas9 recognizes the PAM to identify the correct target site and initiate DNA unwinding for sgRNA-DNA base pairing",
+            "C. the PAM sequence is the site where the DNA is cut",
+            "D. PAM sequences encode the sgRNA"
+          ],
+          "correct": 1,
+          "explanation": "The PAM sequence is recognized directly by the Cas9 protein (not the sgRNA) and serves as the initial recognition element for target identification. Cas9 first binds to PAM sequences in the genome, then checks for complementarity between the adjacent DNA sequence and the sgRNA. If a match is found, Cas9 unwinds the DNA and the sgRNA base-pairs with the complementary strand, leading to double-strand break formation. Without a PAM, Cas9 cannot initiate target recognition."
+        },
+        {
+          "id": "mb-q-037",
+          "stem": "Clone C produces a detectable but shorter protein because its 3-bp deletion:",
+          "options": [
+            "A. removes one codon (one amino acid) without shifting the reading frame, allowing translation of a nearly complete protein",
+            "B. introduces a premature stop codon",
+            "C. completely eliminates the start codon",
+            "D. removes the entire exon through alternative splicing"
+          ],
+          "correct": 0,
+          "explanation": "A 3-bp deletion removes exactly one codon (since the genetic code uses triplet codons), which eliminates one amino acid from the protein without disrupting the reading frame of downstream codons. The resulting protein is one amino acid shorter but retains the correct reading frame and can be translated to completion. In contrast, the 2-bp deletion (clone A) and 1-bp insertion (clone B) cause frameshifts that introduce premature stop codons."
+        },
+        {
+          "id": "mb-q-038",
+          "stem": "Clones A and B produce no detectable protein because:",
+          "options": [
+            "A. the deletions removed the entire gene",
+            "B. the 2-bp deletion and 1-bp insertion each shift the reading frame, introducing premature stop codons that truncate the protein and likely trigger nonsense-mediated mRNA decay",
+            "C. NHEJ always prevents protein production",
+            "D. the mutations enhanced protein degradation by the proteasome"
+          ],
+          "correct": 1,
+          "explanation": "Both a 2-bp deletion and a 1-bp insertion change the reading frame (since neither is a multiple of 3). This frameshift causes all downstream codons to be read incorrectly, typically introducing a premature termination codon within a short distance. The resulting truncated mRNA is often degraded by nonsense-mediated decay (NMD), and any protein produced would be truncated and likely unstable, explaining the absence of detectable protein."
+        },
+        {
+          "id": "mb-q-039",
+          "stem": "HDR requires S or G2 phase because:",
+          "options": [
+            "A. Cas9 is only active during these phases",
+            "B. the homologous recombination machinery is primarily active when sister chromatids are available as repair templates during S and G2 phases",
+            "C. DNA is only accessible during S phase",
+            "D. NHEJ is inactive during S and G2 phases"
+          ],
+          "correct": 1,
+          "explanation": "Homology-directed repair (HDR) relies on the homologous recombination pathway, which uses homologous DNA sequences as templates for precise repair. This pathway is primarily active during S and G2 phases of the cell cycle when sister chromatids (generated by DNA replication) are available as natural repair templates. In G1 phase, sister chromatids are absent and NHEJ is the predominant repair pathway, explaining the higher efficiency of NHEJ over HDR in mixed cell populations."
+        },
+        {
+          "id": "mb-q-040",
+          "stem": "The sgRNA in CRISPR-Cas9 serves the function of:",
+          "options": [
+            "A. cutting the DNA through its nuclease activity",
+            "B. guiding Cas9 to the specific genomic target through complementary base pairing with the target DNA sequence",
+            "C. repairing the double-strand break after Cas9 cutting",
+            "D. providing the PAM sequence for target recognition"
+          ],
+          "correct": 1,
+          "explanation": "The single guide RNA (sgRNA) provides sequence specificity to the CRISPR-Cas9 system. Its 20-nucleotide spacer sequence is complementary to the target DNA site and directs Cas9 to the correct genomic location through Watson-Crick base pairing. The sgRNA is a synthetic fusion of the naturally occurring crRNA and tracrRNA. Cas9 provides the nuclease activity, while the sgRNA provides the targeting information."
+        }
+      ]
+    },
+    {
+      "id": "mb-ps-009",
+      "passage": "Researchers studying the genetic code conducted experiments to understand its properties and implications for mutation. They verified that the code is degenerate (multiple codons can specify the same amino acid), with 61 sense codons encoding 20 amino acids and 3 stop codons (UAA, UAG, UGA) signaling translation termination. The wobble hypothesis, proposed by Francis Crick, explains how a single tRNA can recognize multiple codons through non-standard base pairing at the third (wobble) position. For example, inosine (I) in the anticodon can pair with U, C, or A in the third codon position. The researchers analyzed several point mutations in a hemoglobin gene: mutation 1 changed codon 6 from GAG (Glu) to GUG (Val), mutation 2 changed codon 26 from GAG (Glu) to AAG (Lys), and mutation 3 changed codon 39 from CAG (Gln) to UAG (stop). They also studied the effect of a single-base insertion at position 50, which altered all downstream codons but left the upstream sequence intact. Treatment with the mutagen acridine orange, which intercalates into DNA and causes frameshift mutations, produced revertants when a second frameshift of opposite sign occurred near the first, restoring the reading frame for the remainder of the gene.",
+      "questions": [
+        {
+          "id": "mb-q-041",
+          "stem": "Mutation 3 (CAG to UAG) is classified as:",
+          "options": [
+            "A. a missense mutation",
+            "B. a nonsense mutation that introduces a premature stop codon, resulting in a truncated protein",
+            "C. a silent mutation",
+            "D. a frameshift mutation"
+          ],
+          "correct": 1,
+          "explanation": "A nonsense mutation changes a sense codon (encoding an amino acid) to a stop codon. Mutation 3 converts CAG (glutamine) to UAG (stop), which is one of the three termination codons. This causes the ribosome to terminate translation prematurely at codon 39, producing a severely truncated protein that is only 38 amino acids long instead of the full-length protein, likely resulting in complete loss of function."
+        },
+        {
+          "id": "mb-q-042",
+          "stem": "Mutation 1 (GAG to GUG, Glu to Val) and mutation 2 (GAG to AAG, Glu to Lys) are both classified as:",
+          "options": [
+            "A. silent mutations because the amino acid does not change",
+            "B. missense mutations because a single nucleotide change results in a different amino acid",
+            "C. nonsense mutations because they create stop codons",
+            "D. frameshift mutations because they add or remove nucleotides"
+          ],
+          "correct": 1,
+          "explanation": "Both mutations 1 and 2 are missense mutations because a single nucleotide change results in the incorporation of a different amino acid. Mutation 1 (A to U in second position) changes glutamic acid to valine (the sickle cell mutation), and mutation 2 (G to A in first position) changes glutamic acid to lysine. Missense mutations can range from benign (conservative substitutions) to pathological depending on the chemical properties of the substituted amino acid."
+        },
+        {
+          "id": "mb-q-043",
+          "stem": "The degeneracy of the genetic code provides some protection against mutations because:",
+          "options": [
+            "A. all mutations in the third codon position are lethal",
+            "B. many third-position changes are synonymous (silent), encoding the same amino acid due to wobble base pairing",
+            "C. degeneracy means each codon specifies multiple amino acids",
+            "D. the code changes in response to mutations"
+          ],
+          "correct": 1,
+          "explanation": "Degeneracy means that most amino acids are encoded by multiple codons that typically differ at the third (wobble) position. Because of this, many point mutations at the third position do not change the encoded amino acid (silent or synonymous mutations). For example, GCU, GCC, GCA, and GCG all encode alanine, so any change at the third position within this family produces no amino acid change, buffering the organism against the phenotypic effects of mutations."
+        },
+        {
+          "id": "mb-q-044",
+          "stem": "The intragenic suppression of a frameshift mutation by a second nearby frameshift of opposite sign works because:",
+          "options": [
+            "A. both frameshifts cancel each other out, completely restoring the original sequence",
+            "B. the reading frame is restored downstream of the second mutation, producing a protein with only a small altered region between the two frameshift sites",
+            "C. the second mutation removes the first mutation from the DNA",
+            "D. frameshift mutations never affect protein function"
+          ],
+          "correct": 1,
+          "explanation": "When a single-base insertion shifts the reading frame, a nearby single-base deletion (or vice versa) restores the original reading frame for all codons downstream of the second mutation. The protein sequence between the two frameshifts is altered, but if this region is small and not critical for function, the protein may retain enough activity to suppress the mutant phenotype. This principle was used in Crick's experiments to establish the triplet nature of the code."
+        },
+        {
+          "id": "mb-q-045",
+          "stem": "Wobble base pairing at the third codon position allows a single tRNA with inosine (I) in the anticodon to recognize codons ending in:",
+          "options": [
+            "A. only one specific nucleotide",
+            "B. U, C, or A, because inosine can form hydrogen bonds with all three",
+            "C. G only",
+            "D. all four nucleotides including G"
+          ],
+          "correct": 1,
+          "explanation": "Inosine (I) is a modified nucleoside found in the wobble position of some tRNA anticodons. It can form hydrogen bonds with U, C, and A in the third position of the codon. This expanded base-pairing capability allows a single tRNA species to decode three different codons, reducing the total number of tRNA molecules needed. This is a key prediction of Crick's wobble hypothesis that has been experimentally confirmed."
+        }
+      ]
+    },
+    {
+      "id": "mb-ps-010",
+      "passage": "A cancer research laboratory investigated the mechanisms by which mutations in the TP53 gene contribute to tumor development. The TP53 gene encodes the p53 protein, a transcription factor that responds to DNA damage by activating genes involved in cell cycle arrest (p21), DNA repair, and apoptosis (BAX, PUMA). Under normal conditions, p53 levels are kept low through ubiquitination by MDM2, which targets p53 for proteasomal degradation. In response to DNA damage, kinases such as ATM and CHK2 phosphorylate p53, disrupting its interaction with MDM2 and stabilizing the protein. The researchers sequenced TP53 in 200 tumor samples and found that 75% of mutations were missense mutations concentrated in the DNA-binding domain (codons 125-300). The most frequent mutations occurred at hotspot codons 175, 248, and 273. Many of these mutant p53 proteins not only lost tumor suppressor function but also gained oncogenic properties (gain-of-function mutations) by binding to and inhibiting the wild-type p53 produced from the remaining normal allele. This dominant-negative effect explained why loss of heterozygosity was not always required for tumor progression. The laboratory also found that HPV-16 E6 protein promoted p53 degradation independently of MDM2, explaining how HPV infection could functionally inactivate p53 even when the gene was wild-type.",
+      "questions": [
+        {
+          "id": "mb-q-046",
+          "stem": "p53 is maintained at low levels in normal cells through:",
+          "options": [
+            "A. constant transcriptional silencing of the TP53 gene",
+            "B. MDM2-mediated ubiquitination that targets p53 for proteasomal degradation",
+            "C. rapid dephosphorylation by phosphatases",
+            "D. sequestration in the mitochondria"
+          ],
+          "correct": 1,
+          "explanation": "Under normal conditions without DNA damage, MDM2 functions as an E3 ubiquitin ligase that attaches ubiquitin molecules to p53, marking it for degradation by the 26S proteasome. This continuous degradation keeps p53 levels low, preventing inappropriate cell cycle arrest or apoptosis. The MDM2 gene is itself a transcriptional target of p53, creating a negative feedback loop that maintains homeostatic control of p53 levels."
+        },
+        {
+          "id": "mb-q-047",
+          "stem": "Phosphorylation of p53 by ATM and CHK2 after DNA damage stabilizes p53 by:",
+          "options": [
+            "A. increasing p53 transcription",
+            "B. preventing the MDM2-p53 interaction, blocking ubiquitination and allowing p53 to accumulate",
+            "C. directly activating p53's DNA binding activity",
+            "D. transporting p53 to the cytoplasm"
+          ],
+          "correct": 1,
+          "explanation": "Phosphorylation of p53 at specific serine residues (particularly Ser-15 and Ser-20) by the DNA damage response kinases ATM and CHK2 causes a conformational change in p53 that disrupts its binding to MDM2. Without MDM2-mediated ubiquitination, p53 is no longer targeted for proteasomal degradation and rapidly accumulates in the cell. The stabilized p53 then activates transcription of its target genes for cell cycle arrest and apoptosis."
+        },
+        {
+          "id": "mb-q-048",
+          "stem": "The concentration of missense mutations in the DNA-binding domain of p53 suggests that:",
+          "options": [
+            "A. mutations outside the DNA-binding domain are more harmful",
+            "B. loss of DNA-binding activity is the critical event in disabling p53's tumor suppressor function, as it prevents activation of target genes",
+            "C. the DNA-binding domain is dispensable for p53 function",
+            "D. missense mutations in this region enhance p53's tumor suppressor activity"
+          ],
+          "correct": 1,
+          "explanation": "p53 functions as a transcription factor by binding to specific DNA response elements in the promoters of target genes. Mutations in the DNA-binding domain abolish or alter this sequence-specific binding, preventing p53 from activating genes such as p21 (cell cycle arrest), BAX and PUMA (apoptosis), and DNA repair genes. The clustering of mutations in this domain reflects strong selective pressure in tumors for loss of p53's transcriptional activity."
+        },
+        {
+          "id": "mb-q-049",
+          "stem": "The dominant-negative effect of mutant p53 means that:",
+          "options": [
+            "A. both copies of TP53 must be mutated for loss of function",
+            "B. the mutant p53 protein can bind to and inactivate wild-type p53 from the normal allele, so one mutant allele is sufficient to impair function",
+            "C. the mutation is recessive and has no effect in heterozygotes",
+            "D. the mutant protein is degraded faster than wild-type"
+          ],
+          "correct": 1,
+          "explanation": "p53 functions as a tetramer. Mutant p53 proteins can oligomerize with wild-type p53 produced from the remaining normal allele, forming heterotetramers with impaired or absent DNA-binding activity. This means that a single mutant allele can effectively inactivate the tumor suppressor function of both alleles, because the mutant subunits poison the function of the entire tetramer. This dominant-negative mechanism means loss of heterozygosity is not always required."
+        },
+        {
+          "id": "mb-q-050",
+          "stem": "HPV E6 protein inactivating p53 through a mechanism independent of MDM2 explains why:",
+          "options": [
+            "A. HPV infection is harmless to cells",
+            "B. cervical cancers caused by HPV can develop even when the TP53 gene sequence is completely normal, because the E6 protein degrades the wild-type p53 protein",
+            "C. HPV mutations cause the TP53 gene to be deleted",
+            "D. E6 activates p53 and promotes apoptosis"
+          ],
+          "correct": 1,
+          "explanation": "HPV E6 protein recruits the cellular E3 ubiquitin ligase E6AP to ubiquitinate p53, targeting it for proteasomal degradation through a mechanism independent of MDM2. This means that HPV can functionally inactivate p53 without requiring any mutation in the TP53 gene itself. In HPV-positive cervical cancers, TP53 is typically wild-type, but the p53 protein is kept at extremely low levels by continuous E6-mediated degradation."
+        }
+      ]
+    }
+  ]
+}
